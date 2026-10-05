@@ -28,7 +28,31 @@
     }), { threshold: 0.12, rootMargin: '0px 0px -24px 0px' });
     items.forEach(item => observer.observe(item));
   }
-  loadPublishedTests();
+  loadPublishedTests().then(animateCatalogStats);
+  function animateCatalogStats() {
+    const stats = ['live-test-count', 'live-question-count']
+      .map(id => document.getElementById(id)).filter(Boolean);
+    if (!stats.length) return;
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reducedMotion || !('IntersectionObserver' in window)) return;
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const node = entry.target;
+      const target = Number(node.textContent) || 0;
+      const started = performance.now();
+      const duration = 850;
+      const tick = now => {
+        const progress = Math.min(1, (now - started) / duration);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        node.textContent = String(Math.round(target * eased));
+        if (progress < 1) requestAnimationFrame(tick);
+        else node.textContent = String(target);
+      };
+      requestAnimationFrame(tick);
+      observer.unobserve(node);
+    }), { threshold: 0.6 });
+    stats.forEach(node => observer.observe(node));
+  }
   async function loadPublishedTests() {
     const root = document.getElementById('published-test-list');
     if (!root) return;
@@ -43,8 +67,8 @@
       const totalQuestions = tests.reduce((sum, test) => sum + (Number(test.questions) || 0), 0);
       const count = document.getElementById('live-test-count');
       const questions = document.getElementById('live-question-count');
-      if (count) count.textContent = String(7 + tests.length);
-      if (questions) questions.textContent = String(498 + totalQuestions);
+      if (count) count.textContent = String((Number(count.textContent) || 0) + tests.length);
+      if (questions) questions.textContent = String((Number(questions.textContent) || 0) + totalQuestions);
       root.innerHTML = '<h3 class="published-heading">Newly published tests</h3><div class="published-cards"></div>';
       const cards = root.querySelector('.published-cards');
       for (const test of tests) {
