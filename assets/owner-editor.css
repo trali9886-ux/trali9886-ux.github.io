@@ -12,3 +12,34 @@
 .question-row{align-items:start}.question-row-content{min-width:0}.question-row-text{max-height:4.5em!important;overflow:auto!important;white-space:pre-wrap}.question-source-figure{margin:10px 0;max-width:100%}.question-source-figure img{display:block;max-width:100%;max-height:330px;object-fit:contain;object-position:left center;border:1px solid var(--line);border-radius:8px;background:#fff}.question-source-figure figcaption{margin-top:4px;color:var(--muted);font-size:10px}.question-answer-details{margin-top:9px;border:1px solid var(--line);border-radius:9px;padding:8px 10px;font-size:11px;line-height:1.5}.question-answer-details summary{cursor:pointer;color:var(--green-dark);font-weight:750}.question-answer-details p{max-height:none!important;overflow:visible!important;white-space:pre-wrap;margin-top:7px}.question-answer-details .complete-options{margin:8px 0;padding-left:25px;color:var(--muted)}.row-actions{align-self:start;flex-wrap:wrap;justify-content:flex-end}
 .ocr-force-option{grid-column:1/-1;display:grid;gap:5px;color:#40524a;font-size:12px;font-weight:700}.ocr-force-option span:nth-child(2){display:flex;align-items:center;gap:8px}.ocr-force-option input{accent-color:var(--green)}.ocr-force-option small{color:var(--muted);font-size:11px;font-weight:400}
 .section-actions{display:flex;align-items:center;gap:8px}.rescan-hint{margin:0 0 12px;padding:9px 11px;border-radius:9px;background:#f1f7f2;font-size:11px}.button-secondary{border:1px solid var(--line);background:white;color:var(--green-dark)}@media(max-width:560px){.section-actions{width:100%;flex-direction:column}.section-actions .button{width:100%}}
+
+
+/* Legacy RTS editor styling, adapted to the current GitHub Pages editor. */
+:root{font-family:Arial,Helvetica,sans-serif;color:#19332d;background:#f5f7f3;--green:#246b58;--green-dark:#173f35;--mint:#e9f1e9;--ink:#19332d;--muted:#64746d;--line:#dce6dc;--bg:#f5f7f3}
+body{min-width:320px;background:#f5f7f3}
+.owner-shell{max-width:1100px;padding:0 24px 80px}
+.owner-topbar{height:auto;min-height:68px}
+.brand-mark{border-radius:9px;background:#246b58}
+.intro{align-items:flex-start;padding:30px 0 24px}
+.intro h1{font-size:36px;letter-spacing:-.5px}
+.intro-note{border-radius:12px;box-shadow:0 4px 18px #183d3008}
+.publish-panel,.side-card,.editor-card{background:#fff;border:1px solid #dce6dc;border-radius:18px;box-shadow:0 8px 35px #183d3010}
+.publish-panel{padding:24px;margin:22px 0}
+.workspace{grid-template-columns:minmax(0,1fr);gap:18px}
+.side-card{position:static;padding:20px;margin:0}
+.editor-card{padding:0;margin:0}
+.editor-tabs{padding:0 24px;gap:24px}
+.tab-panel{padding:24px}
+.section-title h2{font-size:24px;letter-spacing:0}
+.form-grid{gap:18px}
+.form-grid>label,.options-grid>label{font-size:14px;color:#35483f}
+.form-grid input,.form-grid select,.form-grid textarea{border-color:#c9d7ca;border-radius:8px;padding:11px}
+.form-grid input[type=file]{padding:8px}
+.button{border-radius:9px;min-height:44px}
+.button-primary{background:#246b58;box-shadow:none}
+.button-light{background:#e9f1e9;color:#246b58;border-color:#dce6dc}
+.question-row{border:1px solid #dde8df;border-radius:14px;padding:18px;background:#fff;box-shadow:none}
+.question-row h3{font-size:16px}
+.question-source-figure img{max-height:700px}
+.generator-warning{border-radius:10px}
+@media(max-width:700px){.owner-shell{padding:0 14px 48px}.intro{flex-direction:column}.intro-note{max-width:none;width:100%}.top-actions{gap:7px;flex-wrap:wrap;justify-content:flex-end}.editor-tabs{gap:18px;padding:0 15px}.tab-panel{padding:18px}.publish-panel{padding:18px}.side-card{padding:16px}}
