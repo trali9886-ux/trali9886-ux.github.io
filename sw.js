@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261004-audit1";
+const CACHE_NAME = "paperplane-offline-20261005-github-publishing1";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -9,6 +9,9 @@ const PRECACHE_URLS = [
   "/assets/main-CHoePaSz.js",
   "/assets/main-CTLyVGvP.css",
   "/assets/main-choepasz.js",
+  "/assets/owner-editor.css",
+  "/assets/owner-editor.js",
+  "/assets/pdf-core.js",
   "/assets/main-ctlyvgvp.css",
   "/assets/pdf.worker.min-BmVo14Nb.mjs",
   "/assets/pdf.worker.min-bmvo14nb.mjs",
@@ -583,7 +586,9 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   const request = event.request;
-  if (request.method !== "GET" || new URL(request.url).origin !== self.location.origin) return;
+  const requestUrl = new URL(request.url);
+  if (request.method !== "GET" || requestUrl.origin !== self.location.origin) return;
+  if (requestUrl.pathname.startsWith("/published-tests/")) return;
 
   if (LOCAL_DEVELOPMENT) {
     event.respondWith(fetch(request, { cache: "no-store" }));
