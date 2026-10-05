@@ -120,7 +120,7 @@ export async function publishTest(test, token, { includeQuestionPaper = false, o
   });
   return {
     commit: commit.sha,
-    url: `https://${OWNER}.github.io/`,
+    url: `https://${OWNER}.github.io/rks-mango-alien-testseries/`,
     testUrl: `https://${OWNER}.github.io/${testPath}`,
     bytes: totalBytes,
   };
