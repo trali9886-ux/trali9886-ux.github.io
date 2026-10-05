@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261005-github-publishing2";
+const CACHE_NAME = "paperplane-offline-20261005-github-publishing3";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -571,7 +571,7 @@ self.addEventListener("install", event => {
       if (!response.ok) throw new Error(`Failed to cache ${url}: ${response.status}`);
       await cache.put(url, response);
     }
-    if (LOCAL_DEVELOPMENT) await self.skipWaiting();
+    await self.skipWaiting();
   })());
 });
 
