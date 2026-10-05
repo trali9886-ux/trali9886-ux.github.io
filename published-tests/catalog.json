@@ -1,4 +1,14 @@
 {
   "version": 1,
-  "tests": []
+  "tests": [
+    {
+      "id": "rts6",
+      "name": "RTS 6",
+      "category": "rts",
+      "date": "27 September 2026",
+      "path": "published-tests/rts6.json",
+      "questions": 75,
+      "updatedAt": "2026-10-05T13:58:54.392899+00:00"
+    }
+  ]
 }
