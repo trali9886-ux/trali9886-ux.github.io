@@ -83,23 +83,14 @@
         if (heading !== null && heading !== part) { part = heading; lastLocal = 0; }
         let item = marker(row, page.page);
         const expectedLocal = lastLocal + 1;
-        if (!item) {
-          const fuzzy = row.text.match(/^\s*(2[DOIl])\s+(.{18,})$/i);
-          if (expectedLocal === 21 && fuzzy && row.x < page.width * .18) item = { ...row, page: page.page, number: 21, rest: fuzzy[2] };
-          else if (expectedLocal === 21 && /^M\s+(.{8,})$/i.test(row.text) && row.x < page.width * .1) item = { ...row, page: page.page, number: 21, rest: row.text.replace(/^M\s+/i, '') };
-          else if (expectedLocal === 25 && part === 2 && lastGlobal >= 74 && row.y > page.height * .5 && row.x < page.width * .1 && /^[^\w]{0,4}If\b/i.test(row.text)) item = { ...row, page: page.page, number: 25, rest: row.text };
-        }
+        // Missing markers are never assigned from position alone: doing so can silently attach the wrong question image.
         if (!item) continue;
         const hasAnchorText = String(item.rest || '').length >= 18 && item.x < page.width * .18;
-        if (item.number === 29 && expectedLocal === 24 && hasAnchorText) item = { ...item, number: 24 };
         let globalNumber, localNumber;
         if (item.number <= 25) {
           if (item.number === 1 && lastLocal >= 20 && part < 2) { part++; lastLocal = 0; }
           const expectedLocalNow = lastLocal + 1;
-          const corrected = (expectedLocalNow === 21 && item.number === 2 && hasAnchorText) ||
-            (expectedLocalNow === 22 && item.number === 2 && hasAnchorText) ||
-            (expectedLocalNow === 24 && (item.number === 2 || item.number === 29) && hasAnchorText);
-          localNumber = corrected ? expectedLocalNow : item.number;
+          localNumber = item.number;
           if (localNumber < expectedLocalNow && localNumber <= lastLocal) continue;
           const bareLeftMarker = !String(item.rest || '').trim() && item.x < page.width * .085 && localNumber <= expectedLocalNow + 2;
           if (localNumber > expectedLocalNow && !hasAnchorText && !bareLeftMarker) continue;
@@ -147,32 +138,23 @@
       if (last.page < pages.length) pageNumbers.add(last.page + 1);
     }
     const worker = await getWorker();
-    await worker.setParameters({ tessedit_pageseg_mode: '3' });
-    try { for (const pageNo of [...pageNumbers].sort((a, b) => a - b)) {
-      const page = pages[pageNo - 1];
-      onProgress(`Checking missed question markers on page ${pageNo}…`);
-      const image = await bitmap(page.jpeg);
-      try {
-        const result = await worker.recognize(image, {}, { blocks: true });
-        page.rows = parseRows(result.data);
-      } finally { image.close?.(); }
-    } } finally { await worker.setParameters({ tessedit_pageseg_mode: '6' }); }
+    try {
+      for (const mode of ['3', '11']) {
+        await worker.setParameters({ tessedit_pageseg_mode: mode });
+        for (const pageNo of [...pageNumbers].sort((a, b) => a - b)) {
+          const page = pages[pageNo - 1], image = await bitmap(page.jpeg);
+          onProgress(`Checking missed question markers on page ${pageNo} (OCR pass ${mode})…`);
+          try {
+            const result = await worker.recognize(image, {}, { blocks: true });
+            const additions = parseRows(result.data).filter(row => !page.rows.some(old => Math.abs(old.y - row.y) < 5 && old.text.toLowerCase() === row.text.toLowerCase())).map(row => ({ ...row, page: pageNo }));
+            page.rows = [...page.rows, ...additions].sort((a, b) => a.y - b.y);
+          } finally { image.close?.(); }
+        }
+        const recovered = numberedItems(pages, expected);
+        if (recovered.length >= expected) return recovered;
+      }
+    } finally { await worker.setParameters({ tessedit_pageseg_mode: '6' }); }
     return numberedItems(pages, expected);
-  }
-
-  function completeSingleGaps(pages, starts) {
-    for (let i = 0; i + 1 < starts.length; i++) {
-      const current = starts[i], next = starts[i + 1];
-      if (next.number !== current.number + 2 || next.page !== current.page) continue;
-      const page = pages[current.page - 1], targetY = (current.y + next.y) / 2;
-      const candidate = page.rows.filter(row => row.y > current.y && row.y < next.y && row.x < page.width * .24 && row.text.length >= 8)
-        .sort((a, b) => Math.abs(a.y - targetY) - Math.abs(b.y - targetY))[0];
-      if (!candidate) continue;
-      const number = current.number + 1;
-      starts.splice(i + 1, 0, { ...candidate, page: current.page, number, localNumber: ((number - 1) % 25) + 1, rest: candidate.text, inferred: true });
-      i++;
-    }
-    return starts;
   }
 
   async function bitmap(blob) {
@@ -194,7 +176,6 @@
         catch { throw firstError; }
       }
       if (starts.length < expected) { try { starts = await recoverGaps(pages, starts, expected, onProgress); } catch {} }
-      starts = completeSingleGaps(pages, starts);
       const pageCache = new Map();
       async function getPage(number) {
         if (!pageCache.has(number)) pageCache.set(number, await bitmap(pages[number - 1].jpeg));
@@ -273,9 +254,14 @@
           if (cells === 20) {
             const wide = Object.assign(document.createElement('canvas'), { width: row.width * 4, height: row.height * 4 });
             wide.getContext('2d').drawImage(row, 0, 0, wide.width, wide.height);
-            const data = await (await getWorker()).recognize(wide, { tessedit_pageseg_mode: '13', tessedit_char_whitelist: 'ABCD' });
-            let letters = String(data.data.text || '').toUpperCase().replace(/[^A-D]/g, '');
-            if (letters.length === 21 && letters[0] === 'A') letters = letters.slice(1);
+            const worker = await getWorker();
+            let letters = '';
+            for (const mode of ['13', '7', '6']) {
+              const data = await worker.recognize(wide, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: 'ABCD' });
+              const candidate = String(data.data.text || '').toUpperCase().replace(/[^A-D]/g, '');
+              const normalized = candidate.length === 21 && candidate[0] === 'A' ? candidate.slice(1) : candidate;
+              if (normalized.length === 20) { letters = normalized; break; }
+            }
             if (letters.length === 20) for (let index = 0; index < 20; index++) answers[question + index] = String(letters.charCodeAt(index) - 64);
             question += 20;
             wide.width = wide.height = 1;
@@ -285,8 +271,13 @@
               const left = bounds[i + 1], right = bounds[i + 2], pad = Math.max(2, Math.round((right - left) * .13));
               const cell = Object.assign(document.createElement('canvas'), { width: (right - left - pad * 2) * 6, height: row.height * 6 });
               cell.getContext('2d').drawImage(canvas, left + pad, y0, right - left - pad * 2, row.height, 0, 0, cell.width, cell.height);
-              const data = await (await getWorker()).recognize(cell, { tessedit_pageseg_mode: '13', tessedit_char_whitelist: '0123456789.-' });
-              const value = String(data.data.text || '').match(/-?\d+(?:\.\d+)?/)?.[0];
+              const worker = await getWorker();
+              let value = '';
+              for (const mode of ['13', '7', '6']) {
+                const data = await worker.recognize(cell, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: '0123456789.-' });
+                const candidate = String(data.data.text || '').match(/-?\d+(?:\.\d+)?/)?.[0] || '';
+                if (candidate) { value = candidate; break; }
+              }
               if (value) answers[question] = value;
               question++; cell.width = cell.height = 1;
             }
@@ -313,7 +304,6 @@
         catch { return new Map(); }
       }
       if (starts.length < 75) { try { starts = await recoverGaps(pages, starts, 75, onProgress); } catch {} }
-      starts = completeSingleGaps(pages, starts);
       starts = starts.map(item => ({ ...item, width: pages[item.page - 1].width, height: pages[item.page - 1].height }));
       const output = new Map();
       const cache = new Map();
