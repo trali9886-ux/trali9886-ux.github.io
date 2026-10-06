@@ -105,7 +105,7 @@
     const paper = draft.assets.get('paper');
     const test = {
       id, slug: slug(payload.name || draft.name), name: String(payload.name || draft.name || id),
-      category: draft.category || 'rts', exam: draft.advanced ? 'JEE Advanced' : 'JEE Main',
+      category: draft.category || 'rts', ...(draft.phase ? { phase: draft.phase } : {}), exam: draft.advanced ? 'JEE Advanced' : 'JEE Main',
       date: String(payload.date || draft.date || ''), durationSeconds: 10800,
       expectedQuestionCount: questions.length, maxMarks: questions.reduce((sum, q) => sum + q.maxMarks, 0),
       defaultMarks: { correct: 4, incorrect: 1, unanswered: 0 },
@@ -114,7 +114,7 @@
       paperData: paper ? 'data:application/pdf;base64,' + encode(new Uint8Array(await paper.arrayBuffer())) : '',
       questions, ownerFormat: 1, revision: 1, draft: false,
     };
-    const entry = { id, name: test.name, category: test.category, date: test.date, path: 'published-tests/' + id + '.json', questions: questions.length, updatedAt: new Date().toISOString() };
+    const entry = { id, name: test.name, category: test.category, ...(test.phase ? { phase: test.phase } : {}), date: test.date, path: 'published-tests/' + id + '.json', questions: questions.length, updatedAt: new Date().toISOString() };
     if (oldIndex >= 0) catalog.tests[oldIndex] = entry; else catalog.tests.push(entry);
     const afterId = draft.afterId;
     if (afterId === 'first' || (afterId && afterId !== 'end')) {
@@ -134,10 +134,12 @@
     if (!entry) throw new Error('The selected test is not in the online catalog.');
     const test = await readTest(entry, state.sha);
     test.name = String(payload.name || test.name);
-    test.category = payload.category || test.category;
+    const phase = payload.category === 'rts-phase-1' ? 'phase1' : payload.category === 'rts-phase-2' ? 'phase2' : '';
+    test.category = phase ? 'rts' : (payload.category || test.category);
+    if (phase) test.phase = phase; else delete test.phase;
     test.syllabus = payload.syllabus || test.syllabus || {};
     const index = catalog.tests.findIndex(item => item.id === payload.id), item = catalog.tests.splice(index, 1)[0];
-    item.name = test.name; item.category = test.category;
+    item.name = test.name; item.category = test.category; if (test.phase) item.phase = test.phase; else delete item.phase;
     let position;
     if (payload.afterId === 'first') { position = catalog.tests.findIndex(other => other.category === item.category); if (position < 0) position = 0; }
     else if (payload.afterId === 'end') { position = catalog.tests.map((other, i) => other.category === item.category ? i : -1).filter(i => i >= 0).at(-1); position = position < 0 ? catalog.tests.length : position + 1; }
@@ -164,10 +166,10 @@
     if (!token) throw new Error('Sign in with your GitHub repository token first.');
     if (action === 'catalog') return (await onlineCatalog()).catalog.tests;
     if (action === 'start') {
-      const body = JSON.parse(options.body || '{}'), name = String(body.name || (body.category === 'rts' ? 'RTS ' + (body.paperNumber || 'Test') : 'JEE Main ' + (body.date || 'Practice Test'))).trim();
+      const body = JSON.parse(options.body || '{}'), phase = body.category === 'rts-phase-1' ? 'phase1' : body.category === 'rts-phase-2' ? 'phase2' : '', name = String(body.name || (phase ? 'RTS ' + (phase === 'phase1' ? 'Phase 1' : 'Phase 2') + ' ' + (body.paperNumber || 'Test') : body.category === 'rts' ? 'RTS ' + (body.paperNumber || 'Test') : 'JEE Main ' + (body.date || 'Practice Test'))).trim();
       let id = slug(name), { catalog } = await onlineCatalog();
       if (catalog.tests.some(item => item.id === id)) id = id.slice(0, 52) + '-' + Date.now().toString(36);
-      drafts.set(id, { id, name, category: body.category || 'rts', date: body.date || '', advanced: !!body.advanced, afterId: body.afterId || 'end', assets: new Map(), questions: new Map() });
+      drafts.set(id, { id, name, category: phase ? 'rts' : (body.category || 'rts'), ...(phase ? { phase } : {}), date: body.date || '', advanced: !!body.advanced, afterId: body.afterId || 'end', assets: new Map(), questions: new Map() });
       return { id, name };
     }
     if (action === 'asset') {
