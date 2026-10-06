@@ -32,7 +32,7 @@
     }));
   }
 
-  async function scan(file, onProgress = () => {}, pageMode = '3') {
+  async function scan(file, onProgress = () => {}, pageMode = '6') {
     progress = onProgress;
     const pdfjs = window.pdfjsLib;
     if (!pdfjs) throw new Error('The PDF reader is not ready. Reload the editor and try again.');
@@ -75,56 +75,105 @@
   }
 
   function numberedItems(pages, expected) {
-    const result = []; let part = 0, lastLocal = 0, nextGlobal = 1;
+    const result = []; let part = 0, lastLocal = 0, lastGlobal = 0;
     for (const page of pages) {
       const rows = [...page.rows].sort((a, b) => a.y - b.y);
       for (const row of rows) {
         const heading = subjectPart(row.text);
         if (heading !== null && heading !== part) { part = heading; lastLocal = 0; }
         let item = marker(row, page.page);
+        const expectedLocal = lastLocal + 1;
         if (!item) {
-          const expectedLocal = lastLocal + 1;
           const fuzzy = row.text.match(/^\s*(2[DOIl])\s+(.{18,})$/i);
           if (expectedLocal === 21 && fuzzy && row.x < page.width * .18) item = { ...row, page: page.page, number: 21, rest: fuzzy[2] };
+          else if (expectedLocal === 21 && /^M\s+(.{8,})$/i.test(row.text) && row.x < page.width * .1) item = { ...row, page: page.page, number: 21, rest: row.text.replace(/^M\s+/i, '') };
+          else if (expectedLocal === 25 && part === 2 && lastGlobal >= 74 && row.y > page.height * .5 && row.x < page.width * .1 && /^[^\w]{0,4}If\b/i.test(row.text)) item = { ...row, page: page.page, number: 25, rest: row.text };
         }
         if (!item) continue;
-        let globalNumber = item.number;
+        const hasAnchorText = String(item.rest || '').length >= 18 && item.x < page.width * .18;
+        if (item.number === 29 && expectedLocal === 24 && hasAnchorText) item = { ...item, number: 24 };
+        let globalNumber, localNumber;
         if (item.number <= 25) {
           if (item.number === 1 && lastLocal >= 20 && part < 2) { part++; lastLocal = 0; }
-          const expectedLocal = lastLocal + 1;
-          const hasAnchorText = String(item.rest || '').length >= 18 && item.x < page.width * .18;
-          const fuzzy22 = expectedLocal === 22 && item.number === 2 && hasAnchorText;
-          const fuzzy24 = expectedLocal === 24 && item.number === 29 && hasAnchorText;
-          const localNumber = item.number === expectedLocal ? item.number : (fuzzy22 || fuzzy24 ? expectedLocal : item.number);
-          if (localNumber !== expectedLocal) continue;
-          item = { ...item, number: localNumber };
+          const expectedLocalNow = lastLocal + 1;
+          const corrected = (expectedLocalNow === 21 && item.number === 2 && hasAnchorText) ||
+            (expectedLocalNow === 22 && item.number === 2 && hasAnchorText) ||
+            (expectedLocalNow === 24 && (item.number === 2 || item.number === 29) && hasAnchorText);
+          localNumber = corrected ? expectedLocalNow : item.number;
+          if (localNumber < expectedLocalNow && localNumber <= lastLocal) continue;
+          const bareLeftMarker = !String(item.rest || '').trim() && item.x < page.width * .085 && localNumber <= expectedLocalNow + 2;
+          if (localNumber > expectedLocalNow && !hasAnchorText && !bareLeftMarker) continue;
+          if (localNumber < 1 || localNumber > 25) continue;
           globalNumber = part * 25 + localNumber;
-          lastLocal = localNumber;
-        } else if (item.number >= 26 && item.number <= 75) {
-          const expectedLocal = lastLocal + 1;
-          const hasAnchorText = String(item.rest || '').length >= 18 && item.x < page.width * .18;
-          if (item.number !== nextGlobal && !(part < 2 && expectedLocal <= 25 && hasAnchorText)) continue;
-          if (item.number === nextGlobal) {
-            part = Math.floor((item.number - 1) / 25);
-            lastLocal = (item.number - 1) % 25 + 1;
-          } else {
-            item = { ...item, number: expectedLocal };
-            globalNumber = part * 25 + expectedLocal;
-            lastLocal = expectedLocal;
-          }
+        } else if (item.number <= 75) {
+          globalNumber = item.number;
+          const inferredPart = Math.floor((globalNumber - 1) / 25);
+          localNumber = (globalNumber - 1) % 25 + 1;
+          if (globalNumber > lastGlobal + 1 && !hasAnchorText) continue;
+          part = inferredPart;
         } else continue;
-        if (globalNumber !== nextGlobal) continue;
-        result.push({ ...item, number: globalNumber, localNumber: item.number });
-        nextGlobal++;
+        if (globalNumber <= lastGlobal || globalNumber > expected) continue;
+        lastLocal = localNumber;
+        lastGlobal = globalNumber;
+        result.push({ ...item, number: globalNumber, localNumber });
         if (result.length === expected) return result;
       }
     }
-    const found = new Set(result.map(item => item.number));
-    const missing = Array.from({ length: expected }, (_, i) => i + 1).filter(number => !found.has(number)).slice(0, 8);
-    throw new Error(`Local AI found ${result.length} of ${expected} numbered items. It maps PART 1/2/3 to Physics/Chemistry/Mathematics. Check the scan near question ${missing.join(', ') || 'numbers'}; use a clearer PDF or correct the numbering.`);
+    const minimum = Math.ceil(expected * .6);
+    if (result.length < minimum) {
+      const found = new Set(result.map(item => item.number));
+      const missing = Array.from({ length: expected }, (_, i) => i + 1).filter(number => !found.has(number)).slice(0, 8);
+      throw new Error(`Local AI found ${result.length} of ${expected} numbered items after checking scan gaps. It maps PART 1/2/3 to Physics/Chemistry/Mathematics. Check the scan near question ${missing.join(', ') || 'numbers'}; use a clearer PDF or correct the numbering.`);
+    }
+    return result;
   }
 
   function orderedMarkers(pages, expected) { return numberedItems(pages, expected); }
+
+  async function recoverGaps(pages, starts, expected, onProgress) {
+    if (starts.length >= expected || !starts.length) return starts;
+    const pageNumbers = new Set();
+    if (starts[0].number > 1) pageNumbers.add(starts[0].page);
+    for (let i = 0; i < starts.length; i++) {
+      const current = starts[i], next = starts[i + 1];
+      if (next && next.number > current.number + 1) {
+        pageNumbers.add(current.page);
+        pageNumbers.add(next.page);
+      }
+    }
+    const last = starts.at(-1);
+    if (last.number < expected) {
+      pageNumbers.add(last.page);
+      if (last.page < pages.length) pageNumbers.add(last.page + 1);
+    }
+    const worker = await getWorker();
+    await worker.setParameters({ tessedit_pageseg_mode: '3' });
+    try { for (const pageNo of [...pageNumbers].sort((a, b) => a - b)) {
+      const page = pages[pageNo - 1];
+      onProgress(`Checking missed question markers on page ${pageNo}…`);
+      const image = await bitmap(page.jpeg);
+      try {
+        const result = await worker.recognize(image, {}, { blocks: true });
+        page.rows = parseRows(result.data);
+      } finally { image.close?.(); }
+    } } finally { await worker.setParameters({ tessedit_pageseg_mode: '6' }); }
+    return numberedItems(pages, expected);
+  }
+
+  function completeSingleGaps(pages, starts) {
+    for (let i = 0; i + 1 < starts.length; i++) {
+      const current = starts[i], next = starts[i + 1];
+      if (next.number !== current.number + 2 || next.page !== current.page) continue;
+      const page = pages[current.page - 1], targetY = (current.y + next.y) / 2;
+      const candidate = page.rows.filter(row => row.y > current.y && row.y < next.y && row.x < page.width * .24 && row.text.length >= 8)
+        .sort((a, b) => Math.abs(a.y - targetY) - Math.abs(b.y - targetY))[0];
+      if (!candidate) continue;
+      const number = current.number + 1;
+      starts.splice(i + 1, 0, { ...candidate, page: current.page, number, localNumber: ((number - 1) % 25) + 1, rest: candidate.text, inferred: true });
+      i++;
+    }
+    return starts;
+  }
 
   async function bitmap(blob) {
     if (window.createImageBitmap) return createImageBitmap(blob);
@@ -140,18 +189,22 @@
       try { starts = orderedMarkers(pages, expected); }
       catch (firstError) {
         await pdf.cleanup();
-        scanned = await scan(file, onProgress, '6'); ({ pdf, pages } = scanned);
+        scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
         try { starts = orderedMarkers(pages, expected); }
         catch { throw firstError; }
       }
+      if (starts.length < expected) { try { starts = await recoverGaps(pages, starts, expected, onProgress); } catch {} }
+      starts = completeSingleGaps(pages, starts);
       const pageCache = new Map();
       async function getPage(number) {
         if (!pageCache.has(number)) pageCache.set(number, await bitmap(pages[number - 1].jpeg));
         return pageCache.get(number);
       }
-      const output = [];
+      const output = new Array(expected).fill(null);
       for (let index = 0; index < starts.length; index++) {
         const start = starts[index], next = starts[index + 1], pieces = [];
+        if (next && next.number > start.number + 1) { onProgress(`Questions ${start.number}–${next.number - 1} need crop review; continuing with detected markers…`); continue; }
+        if (!next && start.number < expected) { onProgress(`Question ${start.number} may share this scan area with later questions; leaving it for crop review.`); continue; }
         const endPage = next?.page || start.page;
         for (let pageNo = start.page; pageNo <= endPage; pageNo++) {
           const source = await getPage(pageNo), page = pages[pageNo - 1];
@@ -163,7 +216,7 @@
         const canvas = Object.assign(document.createElement('canvas'), { width, height: Math.max(1, height) });
         const ctx = canvas.getContext('2d'); let y = 0;
         for (const part of pieces) { const h = part.bottom - part.top; ctx.drawImage(part.source, 0, part.top, part.width, h, 0, y, part.width, h); y += h; }
-        output.push(await new Promise((resolve, reject) => canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error(`Could not crop question ${start.number}.`)), 'image/webp', 0.84)));
+        output[start.number - 1] = await new Promise((resolve, reject) => canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error(`Could not crop question ${start.number}.`)), 'image/webp', 0.84));
         canvas.width = canvas.height = 1;
         onProgress(`Local AI split question ${start.number} of ${expected}…`);
       }
@@ -255,10 +308,12 @@
       try { starts = numberedItems(pages, 75); }
       catch (firstError) {
         await pdf.cleanup();
-        scanned = await scan(file, onProgress, '6'); ({ pdf, pages } = scanned);
+        scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
         try { starts = numberedItems(pages, 75); }
         catch { return new Map(); }
       }
+      if (starts.length < 75) { try { starts = await recoverGaps(pages, starts, 75, onProgress); } catch {} }
+      starts = completeSingleGaps(pages, starts);
       starts = starts.map(item => ({ ...item, width: pages[item.page - 1].width, height: pages[item.page - 1].height }));
       const output = new Map();
       const cache = new Map();
@@ -268,6 +323,8 @@
       }
       for (let i = 0; i < starts.length; i++) {
         const start = starts[i], next = starts[i + 1], pieces = [];
+        if (next && next.number > start.number + 1) continue;
+        if (!next && start.number < 75) continue;
         for (let pageNo = start.page; pageNo <= (next?.page || start.page); pageNo++) {
           const source = await pageImage(pageNo), page = pages[pageNo - 1];
           const top = pageNo === start.page ? Math.max(0, Math.floor(start.y - 18)) : 0;
