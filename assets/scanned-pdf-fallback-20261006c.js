@@ -58,9 +58,11 @@ window.JeeScannedPdfFallback = async function (pdf, expected, onProgress = () =>
     if (["1-25", "26-50", "51-75"].some(key => counts[key] !== 25)) return null;
 
     const questionImages = new Array(75);
-    const progressOrder = ["1-25", "26-50", "51-75"];
-    for (const key of progressOrder) {
-      const [first] = key.split("-").map(Number);
+    // The source labels its subject ranges Math 1–25, Physics 26–50,
+    // Chemistry 51–75. The editor and matching answer key order subjects
+    // as Physics, Chemistry, Mathematics, so place crops into those slots.
+    const subjectOrder = [["26-50", 1], ["51-75", 26], ["1-25", 51]];
+    for (const [key, first] of subjectOrder) {
       let questionNo = first;
       for (const { page, viewport, images } of pageGroups.get(key)) {
         const canvas = Object.assign(document.createElement("canvas"), {
@@ -78,7 +80,7 @@ window.JeeScannedPdfFallback = async function (pdf, expected, onProgress = () =>
           questionNo++;
         }
       }
-      if (questionNo !== Number(key.split("-")[1]) + 1) return null;
+      if (questionNo !== first + 25) return null;
     }
     return questionImages.every(Boolean) ? questionImages : null;
   } catch (error) {
