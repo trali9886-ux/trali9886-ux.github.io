@@ -10,6 +10,16 @@
       "questions": 75,
       "updatedAt": "2026-10-05T13:58:54.392899+00:00",
       "phase": "phase2"
+    },
+    {
+      "id": "rts-1-phase-2",
+      "name": "RTS 1 (PHASE 2)",
+      "category": "rts",
+      "phase": "phase2",
+      "date": "2026-09-27",
+      "path": "published-tests/rts-1-phase-2.json",
+      "questions": 75,
+      "updatedAt": "2026-10-06T04:08:03.406Z"
     }
   ]
 }
