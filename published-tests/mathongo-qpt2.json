@@ -990,7 +990,7 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "<b>Assertion:</b> Work done in moving a body over a closed loop is zero for every force in nature.<br><b>Reason:</b> Work done does not depend on nature of force.",
+        "text": "Assertion: Work done in moving a body over a closed loop is zero for every force in nature.\nReason: Work done does not depend on nature of force.",
         "options": [
           "If both assertion and reason are true and reason is the correct explanation of assertion",
           "If both assertion and reason are true but reason is not the correct explanation of assertion",
@@ -1094,7 +1094,7 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "A particle undergoes uniform circular motion. Consider the following statements regarding the work done by the net force acting on the particle:<br>I. The work done by the net force over any infinitesimal segment is zero because the force is perpendicular.<br>II. The net work done over any finite distance is zero because kinetic energy remains constant.<br>III. The work done is zero primarily because total displacement after one revolution is zero.<br>IV. No work is done because the net force is zero.<br><br>Which correctly identifies the valid statement(s)?",
+        "text": "A particle undergoes uniform circular motion. Consider the following statements regarding the work done by the net force acting on the particle:\nI. The work done by the net force over any infinitesimal segment is zero because the force is perpendicular.\nII. The net work done over any finite distance is zero because kinetic energy remains constant.\nIII. The work done is zero primarily because total displacement after one revolution is zero.\nIV. No work is done because the net force is zero.\n\nWhich correctly identifies the valid statement(s)?",
         "options": [
           "I and II only",
           "I only",
@@ -1357,7 +1357,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Consider the rate law for the acid catalysed hydrolysis of an ester: Rate \\(= k[\\text{H}^+][\\text{ester}] = k'[\\text{ester}]\\). If the acid concentration is doubled at constant ester concentration:<br>1. The second order rate constant, \\(k\\) is doubled.<br>2. The pseudo first order rate constant, \\(k'\\) is doubled.<br>3. The rate of the reaction is doubled.<br>Which of the above statements are correct?",
+        "text": "Consider the rate law for the acid catalysed hydrolysis of an ester: Rate \\(= k[\\text{H}^+][\\text{ester}] = k'[\\text{ester}]\\). If the acid concentration is doubled at constant ester concentration:\n1. The second order rate constant, \\(k\\) is doubled.\n2. The pseudo first order rate constant, \\(k'\\) is doubled.\n3. The rate of the reaction is doubled.\nWhich of the above statements are correct?",
         "options": [
           "1 and 2",
           "2 and 3",
@@ -1409,7 +1409,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Which of the following statements is/are correct regarding the elevation of boiling point when a non-volatile solute is added to a solvent?<br>A. The vapor pressure of the solution is higher than that of the pure solvent at any given temperature.<br>B. The boiling point of the solution is lower than that of the pure solvent.<br>C. The solute particles lower the escaping tendency of the solvent molecules.<br>D. The extent of boiling point elevation depends on the nature of the solute particles, not just their number.",
+        "text": "Which of the following statements is/are correct regarding the elevation of boiling point when a non-volatile solute is added to a solvent?\nA. The vapor pressure of the solution is higher than that of the pure solvent at any given temperature.\nB. The boiling point of the solution is lower than that of the pure solvent.\nC. The solute particles lower the escaping tendency of the solvent molecules.\nD. The extent of boiling point elevation depends on the nature of the solute particles, not just their number.",
         "options": [
           "C only",
           "A and B only",
@@ -1539,7 +1539,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Match List I with List II:<br><br><table style='border-collapse:collapse;font-size:13px;'><tr style='background:#eef'><th style='border:1px solid #ccc;padding:6px'>List-I (Cell/Battery Type)</th><th style='border:1px solid #ccc;padding:6px'>List-II (Characteristic)</th></tr><tr><td style='border:1px solid #ccc;padding:6px'>A. Lithium-ion battery</td><td style='border:1px solid #ccc;padding:6px'>I. Used commonly in automobiles</td></tr><tr><td style='border:1px solid #ccc;padding:6px'>B. Lead storage battery</td><td style='border:1px solid #ccc;padding:6px'>II. Anode is graphite intercalated with lithium</td></tr><tr><td style='border:1px solid #ccc;padding:6px'>C. Daniel cell</td><td style='border:1px solid #ccc;padding:6px'>III. Overall reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)</td></tr><tr><td style='border:1px solid #ccc;padding:6px'>D. H₂−O₂ Fuel cell</td><td style='border:1px solid #ccc;padding:6px'>IV. Produces water as primary by-product</td></tr></table>",
+        "text": "Match List I with List II:\n\nList-I (Cell/Battery Type)List-II (Characteristic)A. Lithium-ion batteryI. Used commonly in automobilesB. Lead storage batteryII. Anode is graphite intercalated with lithiumC. Daniel cellIII. Overall reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)D. H₂−O₂ Fuel cellIV. Produces water as primary by-product",
         "options": [
           "A-II, B-I, C-III, D-IV",
           "A-I, B-II, C-IV, D-III",
@@ -1669,7 +1669,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Consider this reaction: \\(2\\text{NO}_2(g) + \\text{O}_3(g) \\to \\text{N}_2\\text{O}_5(g) + \\text{O}_2(g)\\). The rate law is rate \\(= k[\\text{NO}_2][\\text{O}_3]\\). Which mechanism is/are consistent with the rate law?<br><b>Mechanism I:</b> NO₂ + O₃ →(slow) NO₃ + O₂; NO₃ + NO₂ →(fast) N₂O₅<br><b>Mechanism II:</b> O₃ ⇌ O₂ + O; NO₂ + O →(slow) NO₃; NO₃ + NO₂ →(fast) N₂O₅",
+        "text": "Consider this reaction: \\(2\\text{NO}_2(g) + \\text{O}_3(g) \\to \\text{N}_2\\text{O}_5(g) + \\text{O}_2(g)\\). The rate law is rate \\(= k[\\text{NO}_2][\\text{O}_3]\\). Which mechanism is/are consistent with the rate law?\nMechanism I: NO₂ + O₃ →(slow) NO₃ + O₂; NO₃ + NO₂ →(fast) N₂O₅\nMechanism II: O₃ ⇌ O₂ + O; NO₂ + O →(slow) NO₃; NO₃ + NO₂ →(fast) N₂O₅",
         "options": [
           "I only",
           "II only",
@@ -1695,7 +1695,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "<b>Assertion:</b> In electrolysis, the quantity of electricity needed for depositing 1 mole of silver (from an Ag⁺ solution) is different from that required for 1 mole of copper (from a Cu²⁺ solution).<br><b>Reason:</b> The atomic weights of silver and copper are different.",
+        "text": "Assertion: In electrolysis, the quantity of electricity needed for depositing 1 mole of silver (from an Ag⁺ solution) is different from that required for 1 mole of copper (from a Cu²⁺ solution).\nReason: The atomic weights of silver and copper are different.",
         "options": [
           "If both assertion and reason are true and the reason is the correct explanation of the assertion.",
           "If both assertion and reason are true but reason is not the correct explanation of the assertion.",
