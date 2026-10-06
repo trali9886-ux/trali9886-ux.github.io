@@ -29,6 +29,14 @@
       "questions": 75,
       "updatedAt": "2026-10-05T13:58:54.392899+00:00",
       "phase": "phase1"
+    },
+    {
+      "id": "mathongo-qpt2",
+      "name": "QPT 2",
+      "category": "mathongo",
+      "path": "published-tests/mathongo-qpt2.json",
+      "questions": 75,
+      "updatedAt": "2026-10-06T17:30:52Z"
     }
   ]
 }
