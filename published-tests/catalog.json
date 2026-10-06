@@ -2,16 +2,6 @@
   "version": 1,
   "tests": [
     {
-      "id": "rts6",
-      "name": "RTS 6",
-      "category": "rts",
-      "date": "27 September 2026",
-      "path": "published-tests/rts6.json",
-      "questions": 75,
-      "updatedAt": "2026-10-05T13:58:54.392899+00:00",
-      "phase": "phase2"
-    },
-    {
       "id": "rts-1-phase-2",
       "name": "RTS 1 (PHASE 2)",
       "category": "rts",
@@ -20,6 +10,16 @@
       "path": "published-tests/rts-1-phase-2.json",
       "questions": 75,
       "updatedAt": "2026-10-06T04:08:03.406Z"
+    },
+    {
+      "id": "rts6",
+      "name": "RTS 6",
+      "category": "rts",
+      "date": "27 September 2026",
+      "path": "published-tests/rts6.json",
+      "questions": 75,
+      "updatedAt": "2026-10-05T13:58:54.392899+00:00",
+      "phase": "phase1"
     }
   ]
 }
