@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261006-analysis-history1";
+const CACHE_NAME = "paperplane-offline-20261006-local-ai-ocr1";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -13,6 +13,11 @@ const PRECACHE_URLS = [
   "/assets/editor-github-explanation-upload-20261006.js",
   "/assets/github-legacy-adapter-explanations.js",
   "/assets/solution-pdf-explanations-20261006.js",
+  "/assets/editor-local-ai-ocr-20261006.js",
+  "/assets/tesseract/tesseract.esm.min.js",
+  "/assets/tesseract/worker.min.js",
+  "/assets/tesseract/core/tesseract-core-simd-lstm.wasm.js",
+  "/assets/tesseract/lang/eng.traineddata.gz",
   "/assets/scanned-pdf-fallback-20261006c.js",
   "/assets/scanned-pdf-fallback-20261006d.js",
   "/assets/main-rts-phases-20261006.js",
