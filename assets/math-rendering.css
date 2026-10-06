@@ -1,0 +1,17 @@
+.inline-question-text {
+  min-width: 0;
+}
+
+.inline-question-text .question-text {
+  overflow-wrap: anywhere;
+}
+
+.option-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.option-text mjx-container {
+  max-width: 100%;
+}

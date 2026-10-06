@@ -11,6 +11,15 @@
       if (mode === 'responsive') document.querySelector('meta[name="viewport"]').content = 'width=device-width, initial-scale=1.0';
     })();
   </script>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] },
+      startup: { typeset: false }
+    };
+  </script>
+  <script defer id="mathjax-library" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+  <script defer src="/assets/mathjax-renderer.js"></script>
   <meta name="theme-color" content="#246b58" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="JEE CBT" />
@@ -22,6 +31,7 @@
   <script type="module" crossorigin src="/assets/main-rts-phase2-sync-20261006.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/testcategories-d5oh9njo.js">
   <link rel="stylesheet" crossorigin href="/assets/main-ctlyvgvp.css">
+  <link rel="stylesheet" href="/assets/math-rendering.css">
 </head>
 <body><div id="root"></div></body>
 </html>
