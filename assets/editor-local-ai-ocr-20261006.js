@@ -262,7 +262,27 @@
               const normalized = candidate.length === 21 && candidate[0] === 'A' ? candidate.slice(1) : candidate;
               if (normalized.length === 20) { letters = normalized; break; }
             }
-            if (letters.length === 20) for (let index = 0; index < 20; index++) answers[question + index] = String(letters.charCodeAt(index) - 64);
+            if (letters.length === 20) {
+              for (let index = 0; index < 20; index++) answers[question + index] = String(letters.charCodeAt(index) - 64);
+            } else {
+              // Whole-row OCR can merge neighboring letters or mistake a grid
+              // line for a character. Retry each known table cell separately.
+              for (let index = 0; index < 20; index++) {
+                const left = bounds[index + 1], right = bounds[index + 2];
+                const pad = Math.max(1, Math.round((right - left) * .12));
+                const cell = Object.assign(document.createElement('canvas'), {
+                  width: Math.max(1, right - left - pad * 2) * 8,
+                  height: Math.max(1, y1 - y0) * 8
+                });
+                cell.getContext('2d').drawImage(canvas, left + pad, y0, right - left - pad * 2, y1 - y0, 0, 0, cell.width, cell.height);
+                for (const mode of ['10', '13', '7']) {
+                  const data = await worker.recognize(cell, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: 'ABCD' });
+                  const value = String(data.data.text || '').toUpperCase().match(/[A-D]/)?.[0];
+                  if (value) { answers[question + index] = String(value.charCodeAt(0) - 64); break; }
+                }
+                cell.width = cell.height = 1;
+              }
+            }
             question += 20;
             wide.width = wide.height = 1;
           } else {
