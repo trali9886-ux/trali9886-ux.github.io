@@ -57,7 +57,13 @@
   async function readTest(entry, ref) {
     const path = entry.path || 'published-tests/' + entry.id + '.json';
     const file = await request('/contents/' + path + '?ref=' + encodeURIComponent(ref));
-    const wrapper = JSON.parse(decode(file.content));
+    let encoded = file.content || '';
+    if (!encoded && file.sha) {
+      const blob = await request('/git/blobs/' + file.sha);
+      encoded = blob.content || '';
+    }
+    if (!encoded) throw new Error('GitHub returned no test data for ' + entry.id + '.');
+    const wrapper = JSON.parse(decode(encoded));
     return wrapper.format === 'rks-jee-published-test' ? wrapper.test : wrapper;
   }
   async function blob(content, encoding) {
