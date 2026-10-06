@@ -32,12 +32,12 @@
     }));
   }
 
-  async function scan(file, onProgress = () => {}, pageMode = '6') {
+  async function scan(file, onProgress = () => {}, pageMode = '6', skipOcr = false) {
     progress = onProgress;
     const pdfjs = window.pdfjsLib;
     if (!pdfjs) throw new Error('The PDF reader is not ready. Reload the editor and try again.');
-    const worker = await getWorker();
-    await worker.setParameters({ tessedit_pageseg_mode: pageMode });
+    const worker = skipOcr ? null : await getWorker();
+    if (worker) await worker.setParameters({ tessedit_pageseg_mode: pageMode });
     const pdf = await pdfjs.getDocument({ data: new Uint8Array(await file.arrayBuffer()) }).promise;
     const pages = [];
     try {
@@ -46,8 +46,8 @@
         const page = await pdf.getPage(number), viewport = page.getViewport({ scale: SCALE });
         const canvas = Object.assign(document.createElement('canvas'), { width: Math.ceil(viewport.width), height: Math.ceil(viewport.height) });
         await page.render({ canvasContext: canvas.getContext('2d', { willReadFrequently: true }), viewport, canvas }).promise;
-        const result = await worker.recognize(canvas, {}, { blocks: true });
-        const rows = parseRows(result.data);
+        const result = worker ? await worker.recognize(canvas, {}, { blocks: true }) : null;
+        const rows = result ? parseRows(result.data) : [];
         const jpeg = await new Promise((resolve, reject) => canvas.toBlob(blob => blob ? resolve(blob) : reject(new Error(`Could not render scanned PDF page ${number}.`)), 'image/jpeg', 0.86));
         pages.push({ page: number, width: canvas.width, height: canvas.height, rows, jpeg });
         canvas.width = canvas.height = 1;
@@ -164,18 +164,26 @@
     finally { URL.revokeObjectURL(url); }
   }
 
-  async function imageCrops(file, expected, onProgress = () => {}) {
-    let scanned = await scan(file, onProgress), { pdf, pages } = scanned;
+  async function imageCrops(file, expected, onProgress = () => {}, aiMarkers = null) {
+    let scanned = await scan(file, onProgress, '6', Boolean(aiMarkers?.length)), { pdf, pages } = scanned;
     try {
       let starts;
-      try { starts = orderedMarkers(pages, expected); }
-      catch (firstError) {
-        await pdf.cleanup();
-        scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
+      if (Array.isArray(aiMarkers) && aiMarkers.length) {
+        const seen = new Set();
+        starts = aiMarkers.filter(item => item.confidence >= .75 && item.id <= expected && item.page <= pages.length && !seen.has(item.id) && seen.add(item.id))
+          .map(item => ({ page: item.page, y: Math.round(item.y * pages[item.page - 1].height / 1000), x: 0, number: item.id, localNumber: ((item.id - 1) % 25) + 1, rest: 'Gemini located printed question marker' }))
+          .sort((a, b) => a.number - b.number);
+        if (!starts.length) throw new Error('Gemini could not confidently locate question markers. The local OCR crops were kept.');
+      } else {
         try { starts = orderedMarkers(pages, expected); }
-        catch { throw firstError; }
+        catch (firstError) {
+          await pdf.cleanup();
+          scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
+          try { starts = orderedMarkers(pages, expected); }
+          catch { throw firstError; }
+        }
+        if (starts.length < expected) { try { starts = await recoverGaps(pages, starts, expected, onProgress); } catch {} }
       }
-      if (starts.length < expected) { try { starts = await recoverGaps(pages, starts, expected, onProgress); } catch {} }
       const pageCache = new Map();
       async function getPage(number) {
         if (!pageCache.has(number)) pageCache.set(number, await bitmap(pages[number - 1].jpeg));
@@ -312,18 +320,26 @@
     } finally { await pdf.cleanup(); }
   }
 
-  async function solutionMap(file, onProgress = () => {}) {
-    let scanned = await scan(file, onProgress), { pdf, pages } = scanned;
+  async function solutionMap(file, onProgress = () => {}, aiMarkers = null) {
+    let scanned = await scan(file, onProgress, '6', Boolean(aiMarkers?.length)), { pdf, pages } = scanned;
     try {
       let starts;
-      try { starts = numberedItems(pages, 75); }
-      catch (firstError) {
-        await pdf.cleanup();
-        scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
+      if (Array.isArray(aiMarkers) && aiMarkers.length) {
+        const seen = new Set();
+        starts = aiMarkers.filter(item => item.confidence >= .75 && item.id <= 75 && item.page <= pages.length && !seen.has(item.id) && seen.add(item.id))
+          .map(item => ({ page: item.page, y: Math.round(item.y * pages[item.page - 1].height / 1000), x: 0, number: item.id, localNumber: ((item.id - 1) % 25) + 1, rest: 'Gemini located printed explanation marker' }))
+          .sort((a, b) => a.number - b.number);
+        if (!starts.length) return new Map();
+      } else {
         try { starts = numberedItems(pages, 75); }
-        catch { return new Map(); }
+        catch (firstError) {
+          await pdf.cleanup();
+          scanned = await scan(file, onProgress, '3'); ({ pdf, pages } = scanned);
+          try { starts = numberedItems(pages, 75); }
+          catch { return new Map(); }
+        }
+        if (starts.length < 75) { try { starts = await recoverGaps(pages, starts, 75, onProgress); } catch {} }
       }
-      if (starts.length < 75) { try { starts = await recoverGaps(pages, starts, 75, onProgress); } catch {} }
       starts = starts.map(item => ({ ...item, width: pages[item.page - 1].width, height: pages[item.page - 1].height }));
       const output = new Map();
       const cache = new Map();
