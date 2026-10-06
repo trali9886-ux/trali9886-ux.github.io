@@ -57,7 +57,7 @@
   }
 
   function marker(row, page) {
-    const match = row.text.match(/^\s*(?:(?:Q(?:uestion)?\s*(?:No\.?\s*)?))?(\d{1,3})(?:\s*[).]\s*(.*)|\s+(.+))$/i);
+    const match = row.text.match(/^\s*(?:(?:Q(?:uestion)?\s*(?:No\.?\s*)?))?(\d{1,3})(?:\s*[).]\s*(.*)|\s+(.+)|\s*)$/i);
     if (!match) return null;
     const number = Number(match[1]);
     return number > 0 && number <= 300 ? { ...row, number, page, rest: match[2] || match[3] || '' } : null;
@@ -153,7 +153,25 @@
         const recovered = numberedItems(pages, expected);
         if (recovered.length >= expected) return recovered;
       }
-    } finally { await worker.setParameters({ tessedit_pageseg_mode: '6' }); }
+      // A narrow, enlarged OCR pass reads tiny printed labels such as 21–25
+      // that full-page OCR often drops in the integer sections.
+      await worker.setParameters({ tessedit_pageseg_mode: '11', tessedit_char_whitelist: '0123456789Qq().' });
+      for (const pageNo of [...pageNumbers].sort((a, b) => a - b)) {
+        const page = pages[pageNo - 1], image = await bitmap(page.jpeg);
+        const stripWidth = Math.max(1, Math.ceil(page.width * .14));
+        const strip = Object.assign(document.createElement('canvas'), { width: stripWidth * 3, height: page.height * 3 });
+        strip.getContext('2d').drawImage(image, 0, 0, stripWidth, page.height, 0, 0, strip.width, strip.height);
+        onProgress(`Reading integer question labels on page ${pageNo}…`);
+        try {
+          const result = await worker.recognize(strip, {}, { blocks: true });
+          const additions = parseRows(result.data).map(row => ({
+            ...row, x: row.x / 3, y: row.y / 3, bottom: row.bottom / 3,
+            page: pageNo
+          })).filter(row => marker(row, pageNo) && !page.rows.some(old => Math.abs(old.y - row.y) < 6 && old.text === row.text));
+          page.rows = [...page.rows, ...additions].sort((a, b) => a.y - b.y);
+        } finally { image.close?.(); strip.width = strip.height = 1; }
+      }
+    } finally { await worker.setParameters({ tessedit_pageseg_mode: '6', tessedit_char_whitelist: '' }); }
     return numberedItems(pages, expected);
   }
 
@@ -260,39 +278,26 @@
           const row = Object.assign(document.createElement('canvas'), { width: Math.max(1, answerRight - answerLeft), height: Math.max(1, y1 - y0) });
           row.getContext('2d').drawImage(canvas, answerLeft, y0, row.width, row.height, 0, 0, row.width, row.height);
           if (cells === 20) {
-            const wide = Object.assign(document.createElement('canvas'), { width: row.width * 4, height: row.height * 4 });
-            wide.getContext('2d').drawImage(row, 0, 0, wide.width, wide.height);
+            // Read letters per cell. Whole-row OCR often merges letters with
+            // grid lines on scanned answer sheets and can silently lose a row.
             const worker = await getWorker();
-            let letters = '';
-            for (const mode of ['13', '7', '6']) {
-              const data = await worker.recognize(wide, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: 'ABCD' });
-              const candidate = String(data.data.text || '').toUpperCase().replace(/[^A-D]/g, '');
-              const normalized = candidate.length === 21 && candidate[0] === 'A' ? candidate.slice(1) : candidate;
-              if (normalized.length === 20) { letters = normalized; break; }
-            }
-            if (letters.length === 20) {
-              for (let index = 0; index < 20; index++) answers[question + index] = String(letters.charCodeAt(index) - 64);
-            } else {
-              // Whole-row OCR can merge neighboring letters or mistake a grid
-              // line for a character. Retry each known table cell separately.
-              for (let index = 0; index < 20; index++) {
-                const left = bounds[index + 1], right = bounds[index + 2];
-                const pad = Math.max(1, Math.round((right - left) * .12));
-                const cell = Object.assign(document.createElement('canvas'), {
-                  width: Math.max(1, right - left - pad * 2) * 8,
-                  height: Math.max(1, y1 - y0) * 8
-                });
-                cell.getContext('2d').drawImage(canvas, left + pad, y0, right - left - pad * 2, y1 - y0, 0, 0, cell.width, cell.height);
-                for (const mode of ['10', '13', '7']) {
-                  const data = await worker.recognize(cell, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: 'ABCD' });
-                  const value = String(data.data.text || '').toUpperCase().match(/[A-D]/)?.[0];
-                  if (value) { answers[question + index] = String(value.charCodeAt(0) - 64); break; }
-                }
-                cell.width = cell.height = 1;
+            for (let index = 0; index < 20; index++) {
+              const left = bounds[index + 1], right = bounds[index + 2];
+              const pad = Math.max(1, Math.round((right - left) * .10));
+              const sourceWidth = right - left - pad * 2;
+              const cell = Object.assign(document.createElement('canvas'), {
+                width: Math.max(1, sourceWidth) * 8,
+                height: Math.max(1, y1 - y0) * 8
+              });
+              cell.getContext('2d').drawImage(canvas, left + pad, y0, sourceWidth, y1 - y0, 0, 0, cell.width, cell.height);
+              for (const mode of ['10', '13', '7']) {
+                const data = await worker.recognize(cell, { tessedit_pageseg_mode: mode, tessedit_char_whitelist: 'ABCD' });
+                const value = String(data.data.text || '').toUpperCase().match(/[A-D]/)?.[0];
+                if (value) { answers[question + index] = String(value.charCodeAt(0) - 64); break; }
               }
+              cell.width = cell.height = 1;
             }
             question += 20;
-            wide.width = wide.height = 1;
           } else {
             const qStart = bounds[1], qEnd = bounds.at(-1);
             for (let i = 0; i < 5; i++) {
