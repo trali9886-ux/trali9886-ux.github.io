@@ -1,6 +1,6 @@
 /* Optional Gemini review for scanned JEE question, key, and solution PDFs. */
 (function () {
-  const MODEL = 'gemini-3.8-flash';
+  const MODELS = ['gemini-3.8-flash', 'gemini-3.7-flash'];
   const item = {
     type: 'OBJECT',
     properties: {
@@ -57,17 +57,38 @@
       parts.push({ text: doc.name });
       parts.push({ inline_data: { mime_type: 'application/pdf', data: base64(await doc.file.arrayBuffer()) } });
     }
-    onProgress('Gemini is checking the PDFs…');
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey.trim() },
-      body: JSON.stringify({
-        contents: [{ role: 'user', parts }],
-        generationConfig: { responseMimeType: 'application/json', responseSchema: schema, temperature: 0, maxOutputTokens: 16000 }
-      })
+    const requestBody = JSON.stringify({
+      contents: [{ role: 'user', parts }],
+      generationConfig: { responseMimeType: 'application/json', responseSchema: schema, temperature: 0, maxOutputTokens: 16000 }
     });
-    const body = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(body.error?.message || `Gemini request failed (${response.status}). Check the key, model access, and API quota.`);
+    let body = null, lastError = null;
+    for (let modelIndex = 0; modelIndex < MODELS.length && !body; modelIndex++) {
+      const model = MODELS[modelIndex];
+      for (let attempt = 0; attempt < 2; attempt++) {
+        onProgress(modelIndex === 0 ? `Gemini ${model} is checking the PDFs${attempt ? ' (retry)…' : '…'}` : `Primary model is busy; trying Gemini ${model}…`);
+        let response;
+        try {
+          response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey.trim() },
+            body: requestBody
+          });
+        } catch (error) {
+          lastError = error;
+          if (attempt === 1 && modelIndex === MODELS.length - 1) throw new Error(`Could not connect to Gemini: ${error.message}`);
+          await new Promise(resolve => setTimeout(resolve, 1200 * (attempt + 1)));
+          continue;
+        }
+        const data = await response.json().catch(() => ({}));
+        if (response.ok) { body = data; break; }
+        const message = data.error?.message || `Gemini request failed (${response.status}).`;
+        lastError = new Error(message);
+        const retryable = [404, 429, 500, 502, 503, 504].includes(response.status);
+        if (!retryable) throw new Error(`${message} Check the API key and Gemini API access.`);
+        if (attempt < 1 || modelIndex < MODELS.length - 1) await new Promise(resolve => setTimeout(resolve, 1200 * (attempt + 1)));
+      }
+    }
+    if (!body) throw new Error(`${lastError?.message || 'Gemini is temporarily unavailable.'} Both Gemini models were tried; wait a minute and try again.`);
     const text = body.candidates?.[0]?.content?.parts?.map(part => part.text || '').join('');
     if (!text) throw new Error('Gemini returned no structured review. Try again or check the PDF scans.');
     let result;
