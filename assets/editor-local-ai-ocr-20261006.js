@@ -53,7 +53,7 @@
         canvas.width = canvas.height = 1;
       }
       return { pdf, pages };
-    } catch (error) { await pdf.destroy(); throw error; }
+    } catch (error) { await pdf.cleanup(); throw error; }
   }
 
   function marker(row, page) {
@@ -139,7 +139,7 @@
       let starts;
       try { starts = orderedMarkers(pages, expected); }
       catch (firstError) {
-        await pdf.destroy();
+        await pdf.cleanup();
         scanned = await scan(file, onProgress, '6'); ({ pdf, pages } = scanned);
         try { starts = orderedMarkers(pages, expected); }
         catch { throw firstError; }
@@ -169,7 +169,7 @@
       }
       for (const value of pageCache.values()) value.close?.();
       return output;
-    } finally { await pdf.destroy(); }
+    } finally { await pdf.cleanup(); }
   }
 
   async function answerMap(file, onProgress = () => {}) {
@@ -245,7 +245,7 @@
         canvas.width = canvas.height = 1;
       }
       return answers;
-    } finally { await pdf.destroy(); }
+    } finally { await pdf.cleanup(); }
   }
 
   async function solutionMap(file, onProgress = () => {}) {
@@ -254,7 +254,7 @@
       let starts;
       try { starts = numberedItems(pages, 75); }
       catch (firstError) {
-        await pdf.destroy();
+        await pdf.cleanup();
         scanned = await scan(file, onProgress, '6'); ({ pdf, pages } = scanned);
         try { starts = numberedItems(pages, 75); }
         catch { return new Map(); }
@@ -284,7 +284,7 @@
       }
       for (const value of cache.values()) value.close?.();
       return output;
-    } finally { await pdf.destroy(); }
+    } finally { await pdf.cleanup(); }
   }
 
   window.JeeLocalAiPdfOcr = { extractQuestions: imageCrops, extractAnswers: answerMap, extractSolutions: solutionMap };
