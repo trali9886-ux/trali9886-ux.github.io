@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261006-subject-map2";
+const CACHE_NAME = "paperplane-offline-20261006-separate-explanations1";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -10,6 +10,7 @@ const PRECACHE_URLS = [
   "/assets/editor-github-scanned-pdf-fix-20261006.js",
   "/assets/editor-github-explanations-20261006.js",
   "/assets/editor-github-explanations-subject-20261006.js",
+  "/assets/editor-github-explanation-upload-20261006.js",
   "/assets/github-legacy-adapter-explanations.js",
   "/assets/solution-pdf-explanations-20261006.js",
   "/assets/scanned-pdf-fallback-20261006c.js",
