@@ -1,6 +1,6 @@
 /* Optional Gemini review for scanned JEE question, key, and solution PDFs. */
 (function () {
-  const MODELS = ['gemini-3.8-flash', 'gemini-3.7-flash'];
+  const MODELS = ['gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.5-flash', 'gemini-3.5-flash-lite'];
   const item = {
     type: 'OBJECT',
     properties: {
@@ -83,12 +83,13 @@
         if (response.ok) { body = data; break; }
         const message = data.error?.message || `Gemini request failed (${response.status}).`;
         lastError = new Error(message);
-        const retryable = [404, 429, 500, 502, 503, 504].includes(response.status);
+        if (response.status === 404) break;
+        const retryable = [429, 500, 502, 503, 504].includes(response.status);
         if (!retryable) throw new Error(`${message} Check the API key and Gemini API access.`);
         if (attempt < 1 || modelIndex < MODELS.length - 1) await new Promise(resolve => setTimeout(resolve, 1200 * (attempt + 1)));
       }
     }
-    if (!body) throw new Error(`${lastError?.message || 'Gemini is temporarily unavailable.'} Both Gemini models were tried; wait a minute and try again.`);
+    if (!body) throw new Error(`${lastError?.message || 'Gemini is temporarily unavailable.'} All configured Gemini models were tried; wait a minute and try again.`);
     const text = body.candidates?.[0]?.content?.parts?.map(part => part.text || '').join('');
     if (!text) throw new Error('Gemini returned no structured review. Try again or check the PDF scans.');
     let result;
