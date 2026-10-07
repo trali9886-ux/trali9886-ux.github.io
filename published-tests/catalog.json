@@ -20,6 +20,15 @@
       "updatedAt": "2026-10-07T08:26:00Z"
     },
     {
+      "id": "jee-main-2026-22-jan-shift-1",
+      "name": "JEE (Main)-2026 Session-1.Shift 1",
+      "category": "practice",
+      "date": "2026-01-22",
+      "path": "published-tests/jee-main-2026-22-jan-shift-1.json",
+      "questions": 75,
+      "updatedAt": "2026-10-07T09:10:04Z"
+    },
+    {
       "id": "rts-1-phase-2",
       "name": "RTS 1 (PHASE 2)",
       "category": "rts",
