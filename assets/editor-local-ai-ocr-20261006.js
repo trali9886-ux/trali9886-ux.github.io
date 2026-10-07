@@ -968,8 +968,31 @@
     }
   }
   window.JeeLocalAiPdfOcr = {
-    extractQuestions: imageCrops,
-    extractAnswers: answerMap,
-    extractSolutions: solutionMap
+    extractQuestions: async (...args) => {
+      const [file, expected, onProgress] = args;
+      if (window.JeeShiftPdfDetector && await window.JeeShiftPdfDetector.detect(file)) {
+        const res = await window.JeeShiftPdfDetector.process(file, { onProgress });
+        return res.questionBlobs;
+      }
+      return imageCrops(...args);
+    },
+    extractAnswers: async (...args) => {
+      const [file, onProgress] = args;
+      if (window.JeeShiftPdfDetector && await window.JeeShiftPdfDetector.detect(file)) {
+        const res = await window.JeeShiftPdfDetector.process(file, { onProgress });
+        return res.answers;
+      }
+      return answerMap(...args);
+    },
+    extractSolutions: async (...args) => {
+      const [file, onProgress] = args;
+      if (window.JeeShiftPdfDetector && await window.JeeShiftPdfDetector.detect(file)) {
+        const res = await window.JeeShiftPdfDetector.process(file, { onProgress });
+        const map = new Map();
+        res.solutionBlobs.forEach((b, idx) => { if (b) map.set(idx + 1, b); });
+        return map;
+      }
+      return solutionMap(...args);
+    }
   };
 })();

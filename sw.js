@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261007-jee-shift-2";
+const CACHE_NAME = "paperplane-offline-20261007-jee-shift-detector";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -15,6 +15,7 @@ const PRECACHE_URLS = [
   "/assets/solution-pdf-explanations-20261006.js",
   "/assets/editor-local-ai-ocr-20261006.js",
   "/assets/editor-gemini-review-20261006.js",
+  "/assets/jee-shift-pdf-detector.js",
   "/assets/tesseract/tesseract.esm.min.js",
   "/assets/tesseract/worker.min.js",
   "/assets/tesseract/core/tesseract-core-simd-lstm.wasm.js",
