@@ -1126,7 +1126,7 @@ button, a {
 
 .series-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 16px;
 }
 
@@ -1168,6 +1168,10 @@ button, a {
   background: rgba(196, 186, 232, 0.25);
 }
 
+.series-pyqs:before {
+  background: rgba(168, 218, 201, 0.3);
+}
+
 @keyframes card-blob-pulse {
   0% { transform: scale(1) translate(0, 0); }
   50% { transform: scale(1.12) translate(-6px, 6px); }
@@ -1206,6 +1210,11 @@ button, a {
 .series-mathongo .series-mark {
   background: #f0edfb;
   color: #7365a8;
+}
+
+.series-pyqs .series-mark {
+  background: #e6f4ee;
+  color: #1b7a5a;
 }
 
 .series-mark span {
@@ -1695,7 +1704,8 @@ button, a {
   transition-delay: 0.2s;
 }
 
-.feature-card:nth-child(4) {
+.feature-card:nth-child(4),
+.series-card:nth-child(4) {
   transition-delay: 0.3s;
 }
 
