@@ -190,7 +190,10 @@
       const query = params(extra), draft = drafts.get(query.get('id')), kind = query.get('kind'), number = Number(query.get('number') || 0);
       if (!draft) throw new Error('The test upload expired. Start the upload again.');
       const file = options.body;
-      if (!(file instanceof Blob)) throw new Error('The uploaded file could not be read.');
+      if (!file || !(file instanceof Blob)) {
+        if (kind === 'key' || kind === 'paper') return { ok: true };
+        throw new Error('The uploaded file could not be read.');
+      }
       if (kind === 'question' && number > 0) draft.questions.set(number, file);
       else if (kind === 'solution' && number > 0) draft.solutions.set(number, file);
       else if (kind === 'paper' || kind === 'key') draft.assets.set(kind, file);

@@ -311,14 +311,14 @@
         const colCanvas = columns[c].canvas;
         let y1, y2;
         if (c === cStart && c === cEnd) {
-          y1 = Math.max(0, yStart - 10);
-          y2 = Math.min(colCanvas.height, yEnd - 10);
+          y1 = Math.max(0, yStart - 35);
+          y2 = Math.min(colCanvas.height, yEnd - 5);
         } else if (c === cStart) {
-          y1 = Math.max(0, yStart - 10);
+          y1 = Math.max(0, yStart - 35);
           y2 = colCanvas.height - 20;
         } else if (c === cEnd) {
           y1 = 80;
-          y2 = Math.min(colCanvas.height, yEnd - 10);
+          y2 = Math.min(colCanvas.height, yEnd - 5);
         } else {
           y1 = 80;
           y2 = colCanvas.height - 20;
@@ -368,7 +368,7 @@
       // Question crop: from question start to Ans. line
       const qBlob = await cropColumnRange(qInfo.colIdx, qInfo.top, ansInfo.colIdx, ansInfo.top);
       // Solution crop: from after Ans. line to next question start
-      const sBlob = await cropColumnRange(ansInfo.colIdx, ansInfo.bottom + 5, nextQ.colIdx, nextQ.top);
+      const sBlob = await cropColumnRange(ansInfo.colIdx, ansInfo.bottom + 5, nextQ.colIdx, Math.max(0, nextQ.top - 35));
 
       questionBlobs.push(qBlob);
       solutionBlobs.push(sBlob);
