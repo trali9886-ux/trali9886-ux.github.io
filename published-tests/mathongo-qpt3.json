@@ -8,8 +8,8 @@
     "category": "mathongo",
     "exam": "JEE Main",
     "durationSeconds": 10800,
-    "expectedQuestionCount": 74,
-    "maxMarks": 296,
+    "expectedQuestionCount": 75,
+    "maxMarks": 300,
     "defaultMarks": {
       "correct": 4,
       "incorrect": 1,
@@ -1262,6 +1262,33 @@
       },
       {
         "id": 50,
+        "sourceQuestionNo": 26,
+        "sourceTest": "Mathongo QPT 2",
+        "subject": "Physics",
+        "type": "mcq",
+        "section": "MCQ",
+        "text": "A body of mass 5 kg is thrown vertically up with a kinetic energy of 490 J. The height at which the kinetic energy of the body becomes half of the original value is (acceleration due to gravity = 9.8 m/s²):",
+        "options": [
+          "5 m",
+          "2.5 m",
+          "10 m",
+          "12.5 m"
+        ],
+        "answer": "1",
+        "answerVerified": false,
+        "answerSourceVerified": true,
+        "answerSource": "Mathongo QPT 2 · answer key · Q26",
+        "solution": "No worked explanation was included in the supplied QPT 2 HTML.",
+        "solutionVerified": false,
+        "solutionSourceVerified": false,
+        "maxMarks": 4,
+        "negativeMarks": 1,
+        "unansweredMarks": 0,
+        "chapter": "",
+        "topic": ""
+      },
+      {
+        "id": 51,
         "sourceQuestionNo": 50,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1287,7 +1314,7 @@
         "topic": ""
       },
       {
-        "id": 51,
+        "id": 52,
         "sourceQuestionNo": 51,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1313,7 +1340,7 @@
         "topic": ""
       },
       {
-        "id": 52,
+        "id": 53,
         "sourceQuestionNo": 52,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1340,7 +1367,7 @@
         "image": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzMwIDE5NSIgd2lkdGg9IjMzMCIgaGVpZ2h0PSIxOTUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9Im1heC13aWR0aDoxMDAlO2hlaWdodDphdXRvOyI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoMTMiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjYiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMNywzIEwwLDYgeiIgZmlsbD0iIzFhMWExYSIvPjwvbWFya2VyPjwvZGVmcz4KPGxpbmUgeDE9IjQ1IiB5MT0iMTcwIiB4Mj0iMzIwIiB5Mj0iMTcwIiBzdHJva2U9IiMxYTFhMWEiIHN0cm9rZS13aWR0aD0iMS4zIiBtYXJrZXItZW5kPSJ1cmwoI2FoMTMpIi8+CjxsaW5lIHgxPSI0NSIgeTE9IjE3MCIgeDI9IjQ1IiB5Mj0iMTUiIHN0cm9rZT0iIzFhMWExYSIgc3Ryb2tlLXdpZHRoPSIxLjMiIG1hcmtlci1lbmQ9InVybCgjYWgxMykiLz4KPHRleHQgeD0iMjcwIiB5PSIxODgiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxYTFhMWEiIGZvbnQtc2l6ZT0iMTIiPlRpbWUgKGhvdXJzKTwvdGV4dD4KPHRleHQgeD0iNCIgeT0iMTUiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxYTFhMWEiIGZvbnQtc2l6ZT0iMTEiPltIJiM4MzIyO108L3RleHQ+CjxwYXRoIGQ9Ik0gNTUgNDAgUSAxMDAgMTEwIDE2MCAxMTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFhMWExYSIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxsaW5lIHgxPSIxNjAiIHkxPSIxMTgiIHgyPSIxNjAiIHkyPSI2NSIgc3Ryb2tlPSIjMWExYTFhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTSAxNjAgNjUgUSAyMTAgOTUgMjgwIDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMWExYTFhIiBzdHJva2Utd2lkdGg9IjIiLz4KPHRleHQgeD0iNTUiIHk9IjE4NCIgZm9udC1mYW1pbHk9IkRlamFWdSBTYW5zLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFhMWExYSIgZm9udC1zaXplPSIxMCI+MDwvdGV4dD4KPHRleHQgeD0iMTU1IiB5PSIxODQiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxYTFhMWEiIGZvbnQtc2l6ZT0iMTAiPjQ8L3RleHQ+Cjx0ZXh0IHg9IjI4NSIgeT0iMTg0IiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBmaWxsPSIjMWExYTFhIiBmb250LXNpemU9IjEwIj43PC90ZXh0Pgo8L3N2Zz4="
       },
       {
-        "id": 53,
+        "id": 54,
         "sourceQuestionNo": 53,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1366,7 +1393,7 @@
         "topic": ""
       },
       {
-        "id": 54,
+        "id": 55,
         "sourceQuestionNo": 54,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1392,7 +1419,7 @@
         "topic": ""
       },
       {
-        "id": 55,
+        "id": 56,
         "sourceQuestionNo": 55,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1418,7 +1445,7 @@
         "topic": ""
       },
       {
-        "id": 56,
+        "id": 57,
         "sourceQuestionNo": 56,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1444,7 +1471,7 @@
         "topic": ""
       },
       {
-        "id": 57,
+        "id": 58,
         "sourceQuestionNo": 57,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1470,7 +1497,7 @@
         "topic": ""
       },
       {
-        "id": 58,
+        "id": 59,
         "sourceQuestionNo": 58,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1496,7 +1523,7 @@
         "topic": ""
       },
       {
-        "id": 59,
+        "id": 60,
         "sourceQuestionNo": 59,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1522,7 +1549,7 @@
         "topic": ""
       },
       {
-        "id": 60,
+        "id": 61,
         "sourceQuestionNo": 60,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1548,7 +1575,7 @@
         "topic": ""
       },
       {
-        "id": 61,
+        "id": 62,
         "sourceQuestionNo": 61,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1574,7 +1601,7 @@
         "topic": ""
       },
       {
-        "id": 62,
+        "id": 63,
         "sourceQuestionNo": 62,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1600,7 +1627,7 @@
         "topic": ""
       },
       {
-        "id": 63,
+        "id": 64,
         "sourceQuestionNo": 63,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1626,7 +1653,7 @@
         "topic": ""
       },
       {
-        "id": 64,
+        "id": 65,
         "sourceQuestionNo": 64,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1652,7 +1679,7 @@
         "topic": ""
       },
       {
-        "id": 65,
+        "id": 66,
         "sourceQuestionNo": 65,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1678,7 +1705,7 @@
         "topic": ""
       },
       {
-        "id": 66,
+        "id": 67,
         "sourceQuestionNo": 66,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1704,7 +1731,7 @@
         "topic": ""
       },
       {
-        "id": 67,
+        "id": 68,
         "sourceQuestionNo": 67,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1730,7 +1757,7 @@
         "topic": ""
       },
       {
-        "id": 68,
+        "id": 69,
         "sourceQuestionNo": 68,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1756,7 +1783,7 @@
         "topic": ""
       },
       {
-        "id": 69,
+        "id": 70,
         "sourceQuestionNo": 69,
         "subject": "Chemistry",
         "type": "mcq",
@@ -1783,7 +1810,7 @@
         "image": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzEwIDIwMCIgd2lkdGg9IjMxMCIgaGVpZ2h0PSIyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9Im1heC13aWR0aDoxMDAlO2hlaWdodDphdXRvOyI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoMTgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjYiIHJlZlk9IjMiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMNywzIEwwLDYgeiIgZmlsbD0iIzFhMWExYSIvPjwvbWFya2VyPjwvZGVmcz4KPGxpbmUgeDE9IjM1IiB5MT0iMTc1IiB4Mj0iMjkwIiB5Mj0iMTc1IiBzdHJva2U9IiMxYTFhMWEiIHN0cm9rZS13aWR0aD0iMS4zIiBtYXJrZXItZW5kPSJ1cmwoI2FoMTgpIi8+CjxsaW5lIHgxPSIzNSIgeTE9IjE3NSIgeDI9IjM1IiB5Mj0iMTUiIHN0cm9rZT0iIzFhMWExYSIgc3Ryb2tlLXdpZHRoPSIxLjMiIG1hcmtlci1lbmQ9InVybCgjYWgxOCkiLz4KPHRleHQgeD0iMjk0IiB5PSIxNzkiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiMxYTFhMWEiIGZvbnQtc2l6ZT0iMTIiPlY8L3RleHQ+Cjx0ZXh0IHg9IjEwIiB5PSIxOCIgZm9udC1mYW1pbHk9IkRlamFWdSBTYW5zLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFhMWExYSIgZm9udC1zaXplPSIxMiI+cEg8L3RleHQ+CjxwYXRoIGQ9Ik0gNDUgMTUwIEMgMTAwIDE0OCwgMTMwIDE1MCwgMTU1IDEwMCBDIDE2NSA2NSwgMTkwIDQ1LCAyNzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFhMWExYSIgc3Ryb2tlLXdpZHRoPSIyLjIiLz4KPGxpbmUgeDE9IjE1NSIgeTE9IjE3NSIgeDI9IjE1NSIgeTI9IjEwMCIgc3Ryb2tlPSIjOTk5IiBzdHJva2UtZGFzaGFycmF5PSIzLDMiLz4KPC9zdmc+"
       },
       {
-        "id": 70,
+        "id": 71,
         "sourceQuestionNo": 70,
         "subject": "Chemistry",
         "type": "integer",
@@ -1804,7 +1831,7 @@
         "topic": ""
       },
       {
-        "id": 71,
+        "id": 72,
         "sourceQuestionNo": 71,
         "subject": "Chemistry",
         "type": "integer",
@@ -1825,7 +1852,7 @@
         "topic": ""
       },
       {
-        "id": 72,
+        "id": 73,
         "sourceQuestionNo": 72,
         "subject": "Chemistry",
         "type": "integer",
@@ -1846,7 +1873,7 @@
         "topic": ""
       },
       {
-        "id": 73,
+        "id": 74,
         "sourceQuestionNo": 73,
         "subject": "Chemistry",
         "type": "integer",
@@ -1867,7 +1894,7 @@
         "topic": ""
       },
       {
-        "id": 74,
+        "id": 75,
         "sourceQuestionNo": 74,
         "subject": "Chemistry",
         "type": "integer",
