@@ -201,42 +201,7 @@ class SiteHandler(SimpleHTTPRequestHandler):
                 if end_idx > 0:
                     pdf_bytes = pdf_bytes[:end_idx + 6]
             
-            # Check for known test: JEE Main 2026 Session 1 Shift 2
-            json_path = ROOT / "published-tests" / "jee-main-2026-session-1-shift-2.json"
-            if json_path.exists() and (len(pdf_bytes) > 15 * 1024 * 1024 or b"Shift-2" in pdf_bytes or b"hzPlYFzdqk" in body):
-                import base64
-                with open(json_path, "r", encoding="utf-8") as jf:
-                    data = json.load(jf)
-                test = data.get("test", data)
-                q_dir = ROOT / "tests" / "jee-main-2026-session-1-shift-2" / "questions"
-                s_dir = ROOT / "tests" / "jee-main-2026-session-1-shift-2" / "solutions"
-                q_images = []
-                s_images = []
-                answers = {}
-                for i in range(1, 76):
-                    q_file = q_dir / f"{i}.webp"
-                    s_file = s_dir / f"{i}.webp"
-                    q_b64 = base64.b64encode(q_file.read_bytes()).decode("ascii") if q_file.exists() else ""
-                    s_b64 = base64.b64encode(s_file.read_bytes()).decode("ascii") if s_file.exists() else ""
-                    q_images.append(q_b64)
-                    s_images.append(s_b64)
-                    q_obj = test["questions"][i-1]
-                    answers[str(i)] = q_obj.get("answer", "")
-                
-                self._json(200, {
-                    "ok": True,
-                    "meta": {
-                        "name": test.get("name", "JEE (Main)-2026 Session-1. Shift-2"),
-                        "date": test.get("date", "2026-01-21"),
-                        "category": "practice",
-                        "exam": "main"
-                    },
-                    "questions": test["questions"],
-                    "questionImages": q_images,
-                    "solutionImages": s_images,
-                    "answers": answers
-                })
-                return
+            # Process shift PDF dynamically without hardcoded paper hijacking
             self._json(400, {"error": "Generic shift processing: use client-side Tesseract.js engine."})
             return
 

@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261007-v4";
+const CACHE_NAME = "paperplane-offline-20261007-v5";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
