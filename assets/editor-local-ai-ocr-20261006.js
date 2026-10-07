@@ -163,25 +163,96 @@
 
   function matchQuestionMarker(row, pageNo, isTwoColumn, gutterX) {
     const raw = String(row.text || '').trim();
-    const clean = raw.replace(/^[|Il!i:._\s\-]+/, '');
+    if (!raw) return null;
 
-    // 1. Line starts with Q-prefix or Question number
-    const startMatch = clean.match(/^(?:(?:SECTION\s*[-A-Z0-9]+\s+)|(?:PART\s*[-A-Z0-9]+\s+))?(?:Q(?:uestion|ue)?\.?\s*(?:No\.?\s*)?[:\-]?\s*)?(\d{1,3})[.):\]\-]?\s*(.*)$/i);
-    if (startMatch) {
-      const num = Number(startMatch[1]);
-      if (num >= 1 && num <= 100) {
+    // Filter out obvious non-question lines:
+    // 1. Dates: e.g. 19-07-2026, 19/07/2026
+    if (/^\d{1,2}[-/.]\d{1,2}[-/.]\d{2,4}\b/.test(raw)) return null;
+    // 2. Barcodes / long numeric codes (e.g. 0999DJM...)
+    if (/^\d{4,}/.test(raw) || /^[0-9]+[A-Z0-9]{5,}/i.test(raw)) return null;
+    // 3. Option labels: (A), (B), (C), (D), (1), (2), (3), (4)
+    if (/^\([A-D1-4]\)/i.test(raw)) return null;
+    // 4. Section headings alone: "PART 1 : PHYSICS", "PART 2 : CHEMISTRY", etc.
+    if (/^(?:PART|SECTION)\s*[-:–—]?\s*(?:[1-3]|[I|V|X]+|[A-C])\s*[:–—\-]?\s*(?:PHYSICS|CHEMISTRY|MATHEMATICS|MATHS)?\s*$/i.test(raw)) return null;
+    // 5. Answers / Solutions:
+    if (/^(?:Ans(?:wer)?|Sol(?:ution)?|Hints?)/i.test(raw)) return null;
+
+    const clean = raw.replace(/^[|Il!i:._\s\-]+/, '').trim();
+    if (!clean) return null;
+
+    // 1. Delimited question marker: "1)", "1.", "1]", "1:"
+    // Delimiter is REQUIRED so plain numbers like "80m" or "60" never match.
+    const delimMatch = clean.match(/^(\d{1,2})\s*([.):\]])\s*(.*)$/);
+    if (delimMatch) {
+      const num = Number(delimMatch[1]);
+      const rest = (delimMatch[3] || '').trim();
+      if (num >= 1 && num <= 75) {
+        // Exclude lines where the number is followed by physical units (e.g. "80m", "10 m/s")
+        if (!/^(?:m\/s|m\b|cm\b|kg\b|s\b|km\b|rad\b|V\b|A\b|N\b|J\b)/i.test(rest)) {
+          return {
+            ...row,
+            number: num,
+            page: pageNo,
+            rest,
+            column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0,
+            isExplicit: true
+          };
+        }
+      }
+    }
+
+    // 2. Explicit Q-prefix: "Q.1", "Q1", "Question 1", "Que. 1", "Q1)"
+    const qMatch = clean.match(/^(?:(?:SECTION|PART)\s*[-A-Z0-9]+\s+)?(?:Q(?:uestion|ue)?\.?\s*(?:No\.?\s*)?[:\-]?\s*)(\d{1,2})(?:[.):\]\-]\s*|\s+)(.*)$/i);
+    if (qMatch) {
+      const num = Number(qMatch[1]);
+      if (num >= 1 && num <= 75) {
         return {
           ...row,
           number: num,
           page: pageNo,
-          rest: (startMatch[2] || '').trim(),
-          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0
+          rest: (qMatch[2] || '').trim(),
+          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0,
+          isExplicit: true
         };
       }
     }
 
-    // 2. Embedded question marker inside line
-    const embeddedMatch = clean.match(/(?:^|\s)(?:Q(?:uestion|ue)?\.?\s*)?(\d{1,2})[.)]\s+([A-Z][a-zA-Z]{1,}|If\b|Let\b|The\b|In\b|A\b|An\b|Two\b|Three\b|Four\b|Consider\b|Which\b|What\b|Find\b|Given\b|Potential\b|Initially\b|When\b|Under\b)/);
+    // 3. Hyphen delimiter: "1 - If a..." or "1- The..."
+    const hyphenMatch = clean.match(/^(\d{1,2})\s*[-–—]\s+([A-Z].*)$/);
+    if (hyphenMatch) {
+      const num = Number(hyphenMatch[1]);
+      if (num >= 1 && num <= 75) {
+        return {
+          ...row,
+          number: num,
+          page: pageNo,
+          rest: hyphenMatch[2].trim(),
+          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0,
+          isExplicit: true
+        };
+      }
+    }
+
+    // 4. Number directly followed by standard question starting words (no punctuation):
+    // "1 If a particle...", "2 Consider two spheres..."
+    const wordMatch = clean.match(/^(\d{1,2})\s+([A-Z][a-zA-Z]{1,}\b.*)$/);
+    if (wordMatch) {
+      const num = Number(wordMatch[1]);
+      const rest = wordMatch[2].trim();
+      if (num >= 1 && num <= 75 && /(?:If\b|Let\b|The\b|In\b|A\b|An\b|Two\b|Three\b|Four\b|Consider\b|Which\b|What\b|Find\b|Given\b|Potential\b|Initially\b|When\b|Under\b|Select\b|Position\b|Charges?\b|Particle\b)/i.test(rest)) {
+        return {
+          ...row,
+          number: num,
+          page: pageNo,
+          rest,
+          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0,
+          isExplicit: false
+        };
+      }
+    }
+
+    // 5. Embedded question marker inside line:
+    const embeddedMatch = clean.match(/(?:^|\s)(?:Q(?:uestion|ue)?\.?\s*)?(\d{1,2})[.)]\s+([A-Z][a-zA-Z]{1,}|If\b|Let\b|The\b|In\b|A\b|An\b|Two\b|Three\b|Four\b|Consider\b|Which\b|What\b|Find\b|Given\b|Potential\b|Initially\b|When\b|Under\b|Select\b|Position\b|Charges?\b|Particle\b)/);
     if (embeddedMatch) {
       const num = Number(embeddedMatch[1]);
       if (num >= 1 && num <= 75) {
@@ -191,7 +262,8 @@
           number: num,
           page: pageNo,
           rest: clean.slice(idx + embeddedMatch[0].length).trim(),
-          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0
+          column: isTwoColumn ? (row.x < gutterX ? 0 : 1) : 0,
+          isExplicit: false
         };
       }
     }
@@ -203,42 +275,86 @@
     const headings = [];
     for (const p of pages) {
       for (const r of p.rows) {
-        const txt = String(r.text || '').toUpperCase();
+        const txt = String(r.text || '').trim();
+        if (!txt || txt.length > 55) continue;
+        const upper = txt.toUpperCase();
         let sub = null;
-        if (/\bPHYSICS\b/.test(txt)) sub = 'Physics';
-        else if (/\bCHEMISTRY\b/.test(txt)) sub = 'Chemistry';
-        else if (/\b(?:MATHEMATICS|MATHS)\b/.test(txt)) sub = 'Mathematics';
-        if (sub) headings.push({ page: p.page, y: r.y, subject: sub });
+        if (/\bPHYSICS\b/.test(upper)) sub = 'Physics';
+        else if (/\bCHEMISTRY\b/.test(upper)) sub = 'Chemistry';
+        else if (/\b(?:MATHEMATICS|MATHS)\b/.test(upper)) sub = 'Mathematics';
+        else {
+          const partM = upper.match(/\bPART\s*[:\-]?\s*([123]|I|II|III)\b/);
+          if (partM) {
+            const val = partM[1];
+            if (val === '1' || val === 'I') sub = 'Physics';
+            else if (val === '2' || val === 'II') sub = 'Chemistry';
+            else if (val === '3' || val === 'III') sub = 'Mathematics';
+          }
+        }
+        if (sub) {
+          const isHeading = /\b(?:PART|SECTION)\b/.test(upper) ||
+            upper.replace(/[^A-Z]/g, '') === sub.toUpperCase() ||
+            txt.length < 28;
+          if (isHeading) {
+            if (!headings.some(h => h.subject === sub)) {
+              headings.push({ page: p.page, y: r.y, subject: sub, text: txt });
+            }
+          }
+        }
       }
     }
+    headings.sort((a, b) => a.page - b.page || a.y - b.y);
     return headings;
   }
 
-  function scoreQuestionMarker(m, targetNum, prevMarker, nextMarker) {
+  function isCandidateInSection(c, startBound, endBound) {
+    if (startBound) {
+      if (c.page < startBound.page) return false;
+      if (c.page === startBound.page && c.y < startBound.y) return false;
+    }
+    if (endBound) {
+      if (c.page > endBound.page) return false;
+      if (c.page === endBound.page && c.y >= endBound.y) return false;
+    }
+    return true;
+  }
+
+  function scoreQuestionMarker(m, targetNum, prevMarker, secStart) {
     let score = 50;
     const rest = String(m.rest || '');
-    if (rest.length >= 10) score += 40;
-    if (/(?:Let|If|The|Find|Which|What|Consider|Given|In\b|A\b|Two|Three)\s+[A-Za-z]/i.test(rest)) score += 30;
-    if (/(?:Ans|Solution|Sol\.)/i.test(m.text)) score -= 60;
-    if (m.confidence) score += Math.min(30, m.confidence / 3);
+    if (m.isExplicit) score += 40;
+    if (rest.length >= 8) score += 30;
+    if (/^[A-Za-z]/.test(rest)) score += 20;
+    if (/(?:Let|If|The|Find|Which|What|Consider|Given|In\b|A\b|Two|Three|When|Select|Position|Charges?|Particle)\s+[A-Za-z]/i.test(rest)) score += 30;
+    if (/(?:Ans|Solution|Sol\.)/i.test(m.text)) score -= 150;
+    if (m.confidence) score += Math.min(20, m.confidence / 5);
 
-    // Sequence bonus
     if (prevMarker) {
-      if (m.page > prevMarker.page) score += 30;
-      else if (m.page === prevMarker.page) {
-        if (m.column > prevMarker.column) score += 20;
-        else if (m.column === prevMarker.column && m.y > prevMarker.y) score += 25;
+      if (m.page < prevMarker.page) return -9999;
+      if (m.page === prevMarker.page) {
+        if (m.column < prevMarker.column) return -9999;
+        if (m.column === prevMarker.column) {
+          if (m.y <= prevMarker.y) return -9999;
+          score += 60; // Same page, same column below previous
+        } else {
+          score += 50; // Same page, next column
+        }
+      } else if (m.page === prevMarker.page + 1) {
+        score += 40; // Next page
+      } else if (m.page === prevMarker.page + 2) {
+        score += 15;
+      } else {
+        score -= (m.page - prevMarker.page) * 25;
       }
-    }
-    if (nextMarker) {
-      if (m.page < nextMarker.page) score += 20;
-      else if (m.page === nextMarker.page && m.y < nextMarker.y) score += 20;
+    } else if (secStart) {
+      const pageDiff = Math.abs(m.page - secStart.page);
+      score += Math.max(0, 40 - pageDiff * 15);
     }
     return score;
   }
 
   function extractNumberedMarkers(pages, expected) {
-    const subjects = detectSubjectHeadings(pages);
+    const headings = detectSubjectHeadings(pages);
     const allCandidates = [];
 
     for (const p of pages) {
@@ -248,52 +364,74 @@
       }
     }
 
-    // Determine if numbering is continuous 1..75 or partitioned 1..25 per subject
-    const maxNum = Math.max(0, ...allCandidates.map(c => c.number));
-    const isContinuous = maxNum > 30;
+    const pHeading = headings.find(h => h.subject === 'Physics');
+    const cHeading = headings.find(h => h.subject === 'Chemistry');
+    const mHeading = headings.find(h => h.subject === 'Mathematics');
+
+    const totalPages = pages.length;
+    const third1 = Math.max(1, Math.floor(totalPages / 3));
+    const third2 = Math.max(2, Math.floor((totalPages * 2) / 3));
+
+    const pStart = pHeading ? { page: pHeading.page, y: pHeading.y } : { page: 1, y: 0 };
+    const pEnd = cHeading ? { page: cHeading.page, y: cHeading.y } : (mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third1 + 1, y: 0 });
+
+    const cStart = cHeading ? { page: cHeading.page, y: cHeading.y } : { page: third1 + 1, y: 0 };
+    const cEnd = mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third2 + 1, y: 0 };
+
+    const mStart = mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third2 + 1, y: 0 };
+    const mEnd = { page: totalPages + 1, y: 0 };
+
+    const sections = [
+      { subject: 'Physics', firstId: 1, lastId: 25, start: pStart, end: pEnd },
+      { subject: 'Chemistry', firstId: 26, lastId: 50, start: cStart, end: cEnd },
+      { subject: 'Mathematics', firstId: 51, lastId: 75, start: mStart, end: mEnd }
+    ];
+
+    if (expected === 48) {
+      sections[0].firstId = 1; sections[0].lastId = 16;
+      sections[1].firstId = 17; sections[1].lastId = 32;
+      sections[2].firstId = 33; sections[2].lastId = 48;
+    }
+
+    // Determine whether paper is partitioned (1..25 per subject) or continuous (1..75)
+    const chemCandidates = allCandidates.filter(c => isCandidateInSection(c, cStart, cEnd));
+    const mathCandidates = allCandidates.filter(c => isCandidateInSection(c, mStart, mEnd));
+
+    const chemHasLow = chemCandidates.some(c => c.number >= 1 && c.number <= 15);
+    const mathHasLow = mathCandidates.some(c => c.number >= 1 && c.number <= 15);
+    const chemHasHigh = chemCandidates.some(c => c.number >= 26 && c.number <= 50);
+
+    const isPartitioned = (chemHasLow || mathHasLow) || !chemHasHigh;
 
     const chosen = new Map();
 
-    if (isContinuous) {
-      // Direct global matching 1..expected
-      for (let q = 1; q <= expected; q++) {
-        const candidates = allCandidates.filter(c => c.number === q);
-        if (!candidates.length) continue;
-        const prev = chosen.get(q - 1);
-        candidates.sort((a, b) => scoreQuestionMarker(b, q, prev, null) - scoreQuestionMarker(a, q, prev, null));
-        chosen.set(q, candidates[0]);
+    if (!isPartitioned) {
+      for (const sec of sections) {
+        const secCandidates = allCandidates.filter(c => isCandidateInSection(c, sec.start, sec.end));
+        for (let g = sec.firstId; g <= sec.lastId && g <= expected; g++) {
+          const candidates = secCandidates.filter(c => c.number === g);
+          if (!candidates.length) continue;
+          const prev = chosen.get(g - 1);
+          candidates.sort((a, b) => scoreQuestionMarker(b, g, prev, sec.start) - scoreQuestionMarker(a, g, prev, sec.start));
+          if (scoreQuestionMarker(candidates[0], g, prev, sec.start) > -5000) {
+            chosen.set(g, { ...candidates[0], number: g, subject: sec.subject });
+          }
+        }
       }
     } else {
-      // Partitioned matching: Subject 1 (1-25), Subject 2 (26-50), Subject 3 (51-75)
-      // Check subject ranges by detected subject headings
-      const partBounds = [
-        { subject: 'Physics', firstId: 1, lastId: 25 },
-        { subject: 'Chemistry', firstId: 26, lastId: 50 },
-        { subject: 'Mathematics', firstId: 51, lastId: 75 }
-      ];
-
-      // If subject headings were found in a specific page order (e.g. Maths, Physics, Chemistry), map properly
-      const detectedOrder = [];
-      for (const h of subjects) {
-        if (!detectedOrder.some(d => d.subject === h.subject)) detectedOrder.push(h);
-      }
-
-      for (let pIdx = 0; pIdx < partBounds.length; pIdx++) {
-        const bound = partBounds[pIdx];
-        const assignedSubject = detectedOrder.find(d => d.subject === bound.subject);
-        const nextSubject = detectedOrder.find((d, idx) => idx > detectedOrder.indexOf(assignedSubject));
-
-        const minPage = assignedSubject ? assignedSubject.page : Math.floor(pages.length * pIdx / 3) + 1;
-        const maxPage = nextSubject ? nextSubject.page : (pIdx < 2 ? Math.floor(pages.length * (pIdx + 1) / 3) + 2 : pages.length);
-
-        for (let local = 1; local <= 25; local++) {
-          const globalId = bound.firstId + local - 1;
+      for (const sec of sections) {
+        const secCandidates = allCandidates.filter(c => isCandidateInSection(c, sec.start, sec.end));
+        const countInSubject = sec.lastId - sec.firstId + 1;
+        for (let local = 1; local <= countInSubject; local++) {
+          const globalId = sec.firstId + local - 1;
           if (globalId > expected) break;
-          const candidates = allCandidates.filter(c => c.number === local && c.page >= minPage && c.page <= maxPage);
+          const candidates = secCandidates.filter(c => c.number === local);
           if (!candidates.length) continue;
           const prev = chosen.get(globalId - 1);
-          candidates.sort((a, b) => scoreQuestionMarker(b, local, prev, null) - scoreQuestionMarker(a, local, prev, null));
-          chosen.set(globalId, { ...candidates[0], number: globalId, localNumber: local });
+          candidates.sort((a, b) => scoreQuestionMarker(b, local, prev, sec.start) - scoreQuestionMarker(a, local, prev, sec.start));
+          if (scoreQuestionMarker(candidates[0], local, prev, sec.start) > -5000) {
+            chosen.set(globalId, { ...candidates[0], number: globalId, localNumber: local, subject: sec.subject });
+          }
         }
       }
     }
@@ -302,7 +440,7 @@
     for (let q = 1; q <= expected; q++) {
       if (chosen.has(q)) result.push(chosen.get(q));
     }
-    return result;
+    return { starts: result, allCandidates, sections };
   }
 
   async function bitmap(blob) {
@@ -312,15 +450,25 @@
     finally { URL.revokeObjectURL(url); }
   }
 
-  function getCropPieces(pages, startMarker, nextMarker) {
+  function getCropPieces(pages, startMarker, nextMarker, nextCandOnPage = null, secEnd = null) {
     const startPage = pages[startMarker.page - 1];
     const pieces = [];
 
     const topY = Math.max(0, Math.floor(startMarker.y - 18));
     let endY = startPage.height - 15;
 
+    // 1. Next marker on same page and column:
     if (nextMarker && nextMarker.page === startMarker.page && nextMarker.column === startMarker.column && nextMarker.y > startMarker.y) {
       endY = Math.max(topY + 30, Math.floor(nextMarker.y - 10));
+    }
+    // 2. Next marker not on same page, but another candidate exists on same page below:
+    else if (nextCandOnPage && nextCandOnPage.y > startMarker.y + 35) {
+      endY = Math.max(topY + 30, Math.floor(nextCandOnPage.y - 10));
+    }
+
+    // 3. Section boundary on startPage:
+    if (secEnd && secEnd.page === startMarker.page && secEnd.y > startMarker.y) {
+      endY = Math.min(endY, Math.max(topY + 30, Math.floor(secEnd.y - 10)));
     }
 
     let x0 = 0, x1 = startPage.width;
@@ -341,19 +489,40 @@
       h: Math.max(1, endY - topY)
     });
 
-    // Continuation onto following pages if next marker starts later
-    if (nextMarker && nextMarker.page > startMarker.page) {
-      for (let pNo = startMarker.page + 1; pNo <= nextMarker.page; pNo++) {
-        const contPage = pages[pNo - 1];
-        const contEndY = pNo === nextMarker.page ? Math.max(20, Math.floor(nextMarker.y - 10)) : contPage.height - 20;
+    // Continuation onto following column or page ONLY IF immediately consecutive question (nextMarker.number === startMarker.number + 1)
+    if (nextMarker && nextMarker.number === startMarker.number + 1) {
+      // Case A: Next marker is in the next column on the SAME page
+      if (startPage.isTwoColumn && nextMarker.page === startMarker.page && startMarker.column === 0 && nextMarker.column === 1) {
+        const nextColEndY = Math.max(20, Math.floor(nextMarker.y - 10));
+        const cx0 = Math.max(0, Math.floor(startPage.gutterX - 15));
+        const cx1 = startPage.width;
+        if (nextColEndY > 35) {
+          pieces.push({
+            pageNo: startMarker.page,
+            x0: cx0, y0: 20,
+            w: Math.max(1, cx1 - cx0),
+            h: Math.max(1, nextColEndY - 20)
+          });
+        }
+      }
+      // Case B: Next marker is on the immediately NEXT page (startMarker.page + 1)
+      else if (nextMarker.page === startMarker.page + 1) {
+        const contPage = pages[nextMarker.page - 1];
+        let contEndY = Math.max(20, Math.floor(nextMarker.y - 10));
+        if (secEnd && secEnd.page === contPage.page && secEnd.y < contEndY) {
+          contEndY = Math.max(20, Math.floor(secEnd.y - 10));
+        }
         let cx0 = 0, cx1 = contPage.width;
         if (contPage.isTwoColumn) {
-          if (startMarker.column === 0) { cx0 = 0; cx1 = Math.ceil(contPage.gutterX + 15); }
-          else { cx0 = Math.max(0, Math.floor(contPage.gutterX - 15)); cx1 = contPage.width; }
+          if (nextMarker.column === 0) {
+            cx0 = 0; cx1 = Math.ceil(contPage.gutterX + 15);
+          } else {
+            cx0 = Math.max(0, Math.floor(contPage.gutterX - 15)); cx1 = contPage.width;
+          }
         }
         if (contEndY > 35) {
           pieces.push({
-            pageNo: pNo,
+            pageNo: nextMarker.page,
             x0: cx0, y0: 20,
             w: Math.max(1, cx1 - cx0),
             h: Math.max(1, contEndY - 20)
@@ -371,6 +540,9 @@
 
     try {
       let starts = [];
+      let allCandidates = [];
+      let sections = [];
+
       if (Array.isArray(aiMarkers) && aiMarkers.length) {
         const seen = new Set();
         starts = aiMarkers
@@ -384,7 +556,10 @@
       }
 
       if (!starts.length) {
-        starts = extractNumberedMarkers(pages, expected);
+        const extracted = extractNumberedMarkers(pages, expected);
+        starts = extracted.starts;
+        allCandidates = extracted.allCandidates;
+        sections = extracted.sections;
       }
 
       const pageCache = new Map();
@@ -400,13 +575,25 @@
         const start = markerMap.get(q);
         if (!start) continue;
 
-        // Find the closest next marker on the paper
+        const sec = sections.find(s => q >= s.firstId && q <= s.lastId);
+        const secEnd = sec ? sec.end : null;
+
         let next = null;
-        for (let nextQ = q + 1; nextQ <= expected + 5; nextQ++) {
+        const maxSearch = sec ? Math.min(expected, sec.lastId + 1) : expected;
+        for (let nextQ = q + 1; nextQ <= maxSearch; nextQ++) {
           if (markerMap.has(nextQ)) { next = markerMap.get(nextQ); break; }
         }
 
-        const pieces = getCropPieces(pages, start, next);
+        const candidatesOnPage = allCandidates.filter(c =>
+          c.page === start.page &&
+          c.column === start.column &&
+          c.y > start.y + 35 &&
+          (!sec || isCandidateInSection(c, sec.start, sec.end))
+        );
+        candidatesOnPage.sort((a, b) => a.y - b.y);
+        const nextCandOnPage = candidatesOnPage[0] || null;
+
+        const pieces = getCropPieces(pages, start, next, nextCandOnPage, secEnd);
         const canvasW = Math.max(...pieces.map(p => p.w));
         const canvasH = pieces.reduce((sum, p) => sum + p.h, 0);
 
@@ -436,27 +623,58 @@
 
   function parseTextAnswersFromPages(pages) {
     const answers = {};
+    let currentSubjectOffset = 0;
+
+    for (const p of pages) {
+      for (const r of p.rows) {
+        const line = String(r.text || '').trim();
+        const upper = line.toUpperCase();
+
+        if (/\b(?:PART\s*1|SECTION\s*1|PHYSICS)\b/.test(upper)) {
+          currentSubjectOffset = 0;
+        } else if (/\b(?:PART\s*2|SECTION\s*2|CHEMISTRY)\b/.test(upper)) {
+          currentSubjectOffset = 25;
+        } else if (/\b(?:PART\s*3|SECTION\s*3|MATHEMATICS|MATHS)\b/.test(upper)) {
+          currentSubjectOffset = 50;
+        }
+
+        // 1. Q1 (A) or Q1: 4
+        const qMatch = line.match(/\bQ\s*(\d{1,2})\b\s*(?:[:\-.]|\s+)\s*(?:\(?\s*([A-D1-4](?:\s*,\s*[A-D1-4]){0,3}|-?\d+(?:\.\d+)?)\s*\)?)/i);
+        if (qMatch) {
+          const num = Number(qMatch[1]);
+          let ans = qMatch[2].trim().toUpperCase();
+          if (/^[A-D]$/.test(ans)) ans = String(ans.charCodeAt(0) - 64);
+          const globalQ = (num <= 25 && currentSubjectOffset > 0) ? num + currentSubjectOffset : num;
+          if (globalQ >= 1 && globalQ <= 75) answers[globalQ] = ans;
+        }
+
+        // 2. 1. (A) or 1. A or 1. (4)
+        const dotMatch = line.match(/^(\d{1,2})[.)]\s+\(?([A-D1-4]|-?\d+(?:\.\d+)?)\)?(?:\s|$)/);
+        if (dotMatch) {
+          const num = Number(dotMatch[1]);
+          let ans = dotMatch[2].trim().toUpperCase();
+          if (/^[A-D]$/.test(ans)) ans = String(ans.charCodeAt(0) - 64);
+          const globalQ = (num <= 25 && currentSubjectOffset > 0) ? num + currentSubjectOffset : num;
+          if (globalQ >= 1 && globalQ <= 75 && !answers[globalQ]) answers[globalQ] = ans;
+        }
+
+        // 3. Inline Ans: (2)
+        const ansMatch = line.match(/(?:Ans(?:wer)?\.?\s*[:\-]?\s*\(?([A-D1-4]|-?\d+(?:\.\d+)?)\)?|Correct\s+Option\s*[:\-]?\s*([1-4]))/i);
+        if (ansMatch) {
+          const val = (ansMatch[1] || ansMatch[2]).trim().toUpperCase();
+          const cleanAns = /^[A-D]$/.test(val) ? String(val.charCodeAt(0) - 64) : val;
+          const nearQ = line.match(/\bQ(?:uestion)?\s*(\d{1,2})\b/i);
+          if (nearQ) {
+            const num = Number(nearQ[1]);
+            const globalQ = (num <= 25 && currentSubjectOffset > 0) ? num + currentSubjectOffset : num;
+            if (globalQ >= 1 && globalQ <= 75 && !answers[globalQ]) answers[globalQ] = cleanAns;
+          }
+        }
+      }
+    }
+
+    // Fallback: Global token stream matching for tables
     const fullText = pages.map(p => `${p.nativeText || ''}\n${p.rows.map(r => r.text).join('\n')}`).join('\n');
-
-    // 1. Regex for "Q1 (A)" or "Q1: 4" or "Q1 Text Solution: ... Ans: 2"
-    const qAnsRegex = /\bQ\s*(\d{1,2})\b\s*(?:[:\-.]|\s+)\s*(?:\(?\s*([A-D1-4](?:\s*,\s*[A-D1-4]){0,3}|-?\d+(?:\.\d+)?)\s*\)?)/gi;
-    for (const m of fullText.matchAll(qAnsRegex)) {
-      const q = Number(m[1]);
-      let ans = m[2].trim().toUpperCase();
-      if (/^[A-D]$/.test(ans)) ans = String(ans.charCodeAt(0) - 64);
-      if (q >= 1 && q <= 75) answers[q] = ans;
-    }
-
-    // 2. Regex for "1. (A)" or "1. A" or "1. (4)"
-    const dotAnsRegex = /(?:^|\s)(\d{1,2})[.)]\s+\(?([A-D1-4]|-?\d+(?:\.\d+)?)\)?(?=\s|$)/g;
-    for (const m of fullText.matchAll(dotAnsRegex)) {
-      const q = Number(m[1]);
-      let ans = m[2].trim().toUpperCase();
-      if (/^[A-D]$/.test(ans)) ans = String(ans.charCodeAt(0) - 64);
-      if (q >= 1 && q <= 75 && !answers[q]) answers[q] = ans;
-    }
-
-    // 3. Paired tokens in table grids (e.g. Allen Q Answer columns: "1 4 16 3 31 2 ...")
     const cleanTokens = fullText.replace(/Answer\s+Key/gi, '').split(/\s+/).filter(Boolean);
     for (let i = 0; i < cleanTokens.length - 1; i++) {
       const t = cleanTokens[i];
@@ -471,23 +689,6 @@
       }
     }
 
-    // 4. Inline answers: "Ans. (2)" or "Ans: B" or "Correct Option : 1"
-    for (const p of pages) {
-      for (const r of p.rows) {
-        const m = r.text.match(/(?:Ans(?:wer)?\.?\s*[:\-]?\s*\(?([A-D1-4]|-?\d+(?:\.\d+)?)\)?|Correct\s+Option\s*[:\-]?\s*([1-4]))/i);
-        if (m) {
-          const val = (m[1] || m[2]).trim().toUpperCase();
-          const cleanAns = /^[A-D]$/.test(val) ? String(val.charCodeAt(0) - 64) : val;
-          // Associate with nearby question number on page
-          const qMatch = r.text.match(/\bQ(?:uestion)?\s*(\d{1,2})\b/i);
-          if (qMatch) {
-            const q = Number(qMatch[1]);
-            if (q >= 1 && q <= 75 && !answers[q]) answers[q] = cleanAns;
-          }
-        }
-      }
-    }
-
     return answers;
   }
 
@@ -496,7 +697,6 @@
     const answers = parseTextAnswersFromPages(pages);
 
     try {
-      // Pixel-based table detection for scanned sheets with solid black grid borders
       let question = 1;
       for (const page of pages) {
         const canvas = Object.assign(document.createElement('canvas'), { width: page.width, height: page.height });
@@ -552,7 +752,7 @@
 
           const worker = await getWorker();
           for (let index = 0; index < cells && question + index <= 75; index++) {
-            if (answers[question + index]) continue; // keep text-extracted answer if already known
+            if (answers[question + index]) continue;
             const left = bounds[index + 1], right = bounds[index + 2];
             const pad = Math.max(1, Math.round((right - left) * .10));
             const sourceWidth = right - left - pad * 2;
@@ -589,7 +789,6 @@
     const raw = String(row.text || '').trim();
     const clean = raw.replace(/^[|Il!i:._\s\-]+/, '');
 
-    // Explicit solution marker
     const solMatch = clean.match(/^(?:(?:Hints?\s*&\s*Solutions?|Text\s+Solution|Solution|Sol)\s*[:\-.]?\s*|Q\s*(\d{1,2})\s*Text\s+Solution|Ans(?:wer)?\.?\s*\([A-D1-4]\)\s*Sol\.?\s*)(\d{1,2})?[.):\]\-]?\s*(.*)$/i);
     if (solMatch) {
       const num = Number(solMatch[1] || solMatch[2]);
@@ -604,7 +803,6 @@
       }
     }
 
-    // Numbered item in solutions
     const qMatch = clean.match(/^(?:Q\s*)?(\d{1,2})[.):\]\-]\s*(.*)$/i);
     if (qMatch) {
       const num = Number(qMatch[1]);
@@ -629,6 +827,8 @@
     try {
       const output = new Map();
       let starts = [];
+      let allCandidates = [];
+      let sections = [];
 
       if (Array.isArray(aiMarkers) && aiMarkers.length) {
         const seen = new Set();
@@ -643,22 +843,69 @@
       }
 
       if (!starts.length) {
-        const candidates = [];
+        const headings = detectSubjectHeadings(pages);
         for (const p of pages) {
           for (const r of p.rows) {
             const m = matchSolutionMarker(r, p.page, p.isTwoColumn, p.gutterX);
-            if (m) candidates.push(m);
+            if (m) allCandidates.push(m);
           }
         }
 
+        const pHeading = headings.find(h => h.subject === 'Physics');
+        const cHeading = headings.find(h => h.subject === 'Chemistry');
+        const mHeading = headings.find(h => h.subject === 'Mathematics');
+
+        const totalPages = pages.length;
+        const third1 = Math.max(1, Math.floor(totalPages / 3));
+        const third2 = Math.max(2, Math.floor((totalPages * 2) / 3));
+
+        const pStart = pHeading ? { page: pHeading.page, y: pHeading.y } : { page: 1, y: 0 };
+        const pEnd = cHeading ? { page: cHeading.page, y: cHeading.y } : (mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third1 + 1, y: 0 });
+
+        const cStart = cHeading ? { page: cHeading.page, y: cHeading.y } : { page: third1 + 1, y: 0 };
+        const cEnd = mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third2 + 1, y: 0 };
+
+        const mStart = mHeading ? { page: mHeading.page, y: mHeading.y } : { page: third2 + 1, y: 0 };
+        const mEnd = { page: totalPages + 1, y: 0 };
+
+        sections = [
+          { subject: 'Physics', firstId: 1, lastId: 25, start: pStart, end: pEnd },
+          { subject: 'Chemistry', firstId: 26, lastId: 50, start: cStart, end: cEnd },
+          { subject: 'Mathematics', firstId: 51, lastId: 75, start: mStart, end: mEnd }
+        ];
+
+        const chemCandidates = allCandidates.filter(c => isCandidateInSection(c, cStart, cEnd));
+        const mathCandidates = allCandidates.filter(c => isCandidateInSection(c, mStart, mEnd));
+
+        const isPartitioned = (chemCandidates.some(c => c.number >= 1 && c.number <= 15) || mathCandidates.some(c => c.number >= 1 && c.number <= 15)) || !chemCandidates.some(c => c.number >= 26 && c.number <= 50);
+
         const chosen = new Map();
-        for (let q = 1; q <= 75; q++) {
-          const forQ = candidates.filter(c => c.number === q);
-          if (forQ.length) {
-            forQ.sort((a, b) => (b.isExplicit ? 50 : 0) - (a.isExplicit ? 50 : 0));
-            chosen.set(q, forQ[0]);
+
+        if (!isPartitioned) {
+          for (const sec of sections) {
+            const secCandidates = allCandidates.filter(c => isCandidateInSection(c, sec.start, sec.end));
+            for (let g = sec.firstId; g <= sec.lastId; g++) {
+              const forQ = secCandidates.filter(c => c.number === g);
+              if (forQ.length) {
+                forQ.sort((a, b) => (b.isExplicit ? 50 : 0) - (a.isExplicit ? 50 : 0));
+                chosen.set(g, { ...forQ[0], number: g });
+              }
+            }
+          }
+        } else {
+          for (const sec of sections) {
+            const secCandidates = allCandidates.filter(c => isCandidateInSection(c, sec.start, sec.end));
+            for (let local = 1; local <= 25; local++) {
+              const globalId = sec.firstId + local - 1;
+              const forQ = secCandidates.filter(c => c.number === local);
+              if (forQ.length) {
+                forQ.sort((a, b) => (b.isExplicit ? 50 : 0) - (a.isExplicit ? 50 : 0));
+                chosen.set(globalId, { ...forQ[0], number: globalId });
+              }
+            }
           }
         }
+
         starts = Array.from(chosen.values()).sort((a, b) => a.number - b.number);
       }
 
@@ -674,12 +921,25 @@
         const start = markerMap.get(q);
         if (!start) continue;
 
+        const sec = sections.find(s => q >= s.firstId && q <= s.lastId);
+        const secEnd = sec ? sec.end : null;
+
         let next = null;
-        for (let nextQ = q + 1; nextQ <= 80; nextQ++) {
+        const maxSearch = sec ? Math.min(75, sec.lastId + 1) : 75;
+        for (let nextQ = q + 1; nextQ <= maxSearch; nextQ++) {
           if (markerMap.has(nextQ)) { next = markerMap.get(nextQ); break; }
         }
 
-        const pieces = getCropPieces(pages, start, next);
+        const candidatesOnPage = allCandidates.filter(c =>
+          c.page === start.page &&
+          c.column === start.column &&
+          c.y > start.y + 35 &&
+          (!sec || isCandidateInSection(c, sec.start, sec.end))
+        );
+        candidatesOnPage.sort((a, b) => a.y - b.y);
+        const nextCandOnPage = candidatesOnPage[0] || null;
+
+        const pieces = getCropPieces(pages, start, next, nextCandOnPage, secEnd);
         const canvasW = Math.max(...pieces.map(p => p.w));
         const canvasH = pieces.reduce((sum, p) => sum + p.h, 0);
 
@@ -707,7 +967,6 @@
       await pdf.cleanup();
     }
   }
-
   window.JeeLocalAiPdfOcr = {
     extractQuestions: imageCrops,
     extractAnswers: answerMap,
