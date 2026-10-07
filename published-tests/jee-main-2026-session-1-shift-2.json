@@ -44,7 +44,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 2,
@@ -67,7 +71,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 3,
@@ -90,7 +98,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 4,
@@ -113,7 +125,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 5,
@@ -136,7 +152,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 6,
@@ -159,7 +179,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 7,
@@ -182,7 +206,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 8,
@@ -205,7 +233,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 9,
@@ -228,7 +260,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 10,
@@ -251,7 +287,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 11,
@@ -274,7 +314,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 12,
@@ -297,7 +341,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 13,
@@ -320,7 +368,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 14,
@@ -343,7 +395,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 15,
@@ -366,7 +422,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 16,
@@ -389,7 +449,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 17,
@@ -412,7 +476,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 18,
@@ -435,7 +503,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 19,
@@ -458,7 +530,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 20,
@@ -481,7 +557,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 21,
@@ -498,7 +578,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/21.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/21.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 22,
@@ -515,7 +599,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/22.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/22.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 23,
@@ -532,7 +620,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/23.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/23.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 24,
@@ -549,7 +641,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/24.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/24.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 25,
@@ -566,7 +662,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/25.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/25.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 26,
@@ -589,7 +689,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 27,
@@ -612,7 +716,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 28,
@@ -635,7 +743,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 29,
@@ -658,7 +770,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 30,
@@ -681,7 +797,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 31,
@@ -704,7 +824,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 32,
@@ -727,7 +851,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 33,
@@ -750,7 +878,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 34,
@@ -773,7 +905,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 35,
@@ -796,7 +932,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 36,
@@ -819,7 +959,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 37,
@@ -842,7 +986,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 38,
@@ -865,7 +1013,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 39,
@@ -888,7 +1040,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 40,
@@ -911,7 +1067,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 41,
@@ -934,7 +1094,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 42,
@@ -957,7 +1121,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 43,
@@ -980,7 +1148,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 44,
@@ -1003,7 +1175,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 45,
@@ -1026,7 +1202,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 46,
@@ -1043,7 +1223,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/46.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/46.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 47,
@@ -1060,7 +1244,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/47.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/47.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 48,
@@ -1077,7 +1265,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/48.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/48.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 49,
@@ -1094,7 +1286,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/49.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/49.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 50,
@@ -1111,7 +1307,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/50.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/50.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 51,
@@ -1134,7 +1334,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 52,
@@ -1157,7 +1361,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 53,
@@ -1180,7 +1388,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 54,
@@ -1203,7 +1415,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 55,
@@ -1226,7 +1442,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 56,
@@ -1249,7 +1469,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 57,
@@ -1272,7 +1496,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 58,
@@ -1295,7 +1523,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 59,
@@ -1318,7 +1550,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 60,
@@ -1341,7 +1577,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 61,
@@ -1364,7 +1604,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 62,
@@ -1387,7 +1631,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 63,
@@ -1410,7 +1658,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 64,
@@ -1433,7 +1685,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 65,
@@ -1456,7 +1712,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 66,
@@ -1479,7 +1739,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 67,
@@ -1502,7 +1766,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 68,
@@ -1525,7 +1793,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 69,
@@ -1548,7 +1820,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 70,
@@ -1571,7 +1847,11 @@
           "B",
           "C",
           "D"
-        ]
+        ],
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 71,
@@ -1588,7 +1868,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/71.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/71.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 72,
@@ -1605,7 +1889,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/72.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/72.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 73,
@@ -1622,7 +1910,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/73.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/73.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 74,
@@ -1639,7 +1931,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/74.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/74.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       },
       {
         "id": 75,
@@ -1656,7 +1952,11 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/75.webp"
+        "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/75.webp",
+        "answerVerified": true,
+        "answerSourceVerified": true,
+        "solutionVerified": true,
+        "solutionSourceVerified": true
       }
     ]
   }
