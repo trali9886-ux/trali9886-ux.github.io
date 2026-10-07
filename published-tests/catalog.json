@@ -103,6 +103,22 @@
       "path": "published-tests/mathongo-qpt8.json",
       "questions": 75,
       "updatedAt": "2026-10-07T03:56:11Z"
+    },
+    {
+      "id": "mathongo-qapt1",
+      "name": "QAPT 1",
+      "category": "mathongo",
+      "path": "published-tests/mathongo-qapt1.json",
+      "questions": 51,
+      "updatedAt": "2026-10-07T23:20:36.303642+00:00"
+    },
+    {
+      "id": "mathongo-qapt2",
+      "name": "QAPT 2",
+      "category": "mathongo",
+      "path": "published-tests/mathongo-qapt2.json",
+      "questions": 51,
+      "updatedAt": "2026-10-07T23:20:36.303642+00:00"
     }
   ]
 }
