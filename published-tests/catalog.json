@@ -53,6 +53,14 @@
       "path": "published-tests/mathongo-qpt4.json",
       "questions": 75,
       "updatedAt": "2026-10-07T02:50:13Z"
+    },
+    {
+      "id": "mathongo-qpt5",
+      "name": "QPT 5",
+      "category": "mathongo",
+      "path": "published-tests/mathongo-qpt5.json",
+      "questions": 75,
+      "updatedAt": "2026-10-07T03:05:22Z"
     }
   ]
 }
