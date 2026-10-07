@@ -215,7 +215,9 @@
         const card = document.createElement('a');
         card.className = 'published-card reveal is-visible';
         card.style.animationDelay = `${(i % 6) * 0.08}s`;
-        card.href = '/';
+        const testCat = encodeURIComponent(test.category || 'practice');
+        const testId = encodeURIComponent(test.id);
+        card.href = `/?category=${testCat}&test=${testId}`;
 
         const label = document.createElement('span');
         label.className = 'series-label';
@@ -229,7 +231,7 @@
 
         const action = document.createElement('span');
         action.className = 'published-action';
-        action.textContent = 'Open test series ↗';
+        action.textContent = 'Open test ↗';
 
         card.append(label, title, description, action);
         cards.append(card);
