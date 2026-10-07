@@ -1,5 +1,5 @@
 (() => {
-  const mathPattern = /\\\(|\\\[|\\begin\{/;
+  const mathPattern = /\\\(|\\\[|\\begin\{|\$\$?/;
   const inFlight = new WeakSet();
   let scheduled = false;
 
