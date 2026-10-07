@@ -1,5 +1,5 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
-const CACHE_NAME = "paperplane-offline-20261007-jee-shift-detector";
+const CACHE_NAME = "paperplane-offline-20261007-v3";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -11,6 +11,7 @@ const PRECACHE_URLS = [
   "/assets/editor-github-explanations-20261006.js",
   "/assets/editor-github-explanations-subject-20261006.js",
   "/assets/editor-github-explanation-upload-20261006.js",
+  "/assets/editor-github-explanation-upload-20261007-v2.js",
   "/assets/github-legacy-adapter-explanations.js",
   "/assets/solution-pdf-explanations-20261006.js",
   "/assets/editor-local-ai-ocr-20261006.js",
@@ -612,7 +613,7 @@ self.addEventListener("fetch", event => {
   const request = event.request;
   const requestUrl = new URL(request.url);
   if (request.method !== "GET" || requestUrl.origin !== self.location.origin) return;
-  if (requestUrl.pathname.startsWith("/published-tests/")) return;
+  if (requestUrl.pathname.startsWith("/published-tests/") || requestUrl.pathname.includes("editor")) return;
 
   if (LOCAL_DEVELOPMENT) {
     event.respondWith(fetch(request, { cache: "no-store" }));

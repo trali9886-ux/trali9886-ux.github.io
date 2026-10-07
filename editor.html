@@ -19,7 +19,14 @@
   <script src="/assets/editor-local-ai-ocr-20261006.js"></script>
   <script src="/assets/editor-gemini-review-20261006.js"></script>
   <script src="/assets/jee-shift-pdf-detector.js"></script>
-  <script type="module" crossorigin src="/assets/editor-github-explanation-upload-20261006.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        for (const reg of regs) reg.update();
+      });
+    }
+  </script>
+  <script type="module" crossorigin src="/assets/editor-github-explanation-upload-20261007-v2.js"></script>
 </head>
 <body>
   <nav class="editor-shortcuts" aria-label="Editor navigation">
