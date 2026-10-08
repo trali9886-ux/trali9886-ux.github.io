@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Text + MathJax prototype</title>
+<link rel="stylesheet" href="../assets/math-rendering.css">
+<script defer id="mathjax-library"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+<script defer src="../assets/mathjax-renderer.js"></script>
+<style>
+ body{font:16px/1.55 system-ui,sans-serif;max-width:820px;margin:24px auto;padding:0 16px;color:#111}
+ .q{border:1px solid #d8d8d8;border-radius:10px;padding:14px 16px;margin:16px 0}
+ header{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+ .tag{background:#eef;color:#335;border-radius:6px;padding:1px 7px;font-size:12px}
+ .mode{margin-left:auto;font-size:12px;border-radius:6px;padding:1px 8px}
+ .mode.text{background:#e6f6e6;color:#256}
+ .mode.image{background:#fdeaea;color:#a33}
+ .inline-question-text .question-text{white-space:pre-wrap;margin:0}
+ .pdf-question img{max-width:100%;height:auto}
+ details{margin-top:8px;font-size:14px;color:#555}
+</style></head><body>
+<h1>Text + MathJax prototype</h1>
+<p>143 of 348 questions are prose-only and safe to render as text
+(no watermark possible). 205 carry math/diagram content and stay as images.</p>
+
+    <section class="q">
+      <header><b>Q7</b> <span class="tag">Physics</span>
+        <span class="mode text">text mode</span></header>
+      <div class="inline-question-text"><p class="question-text">7. Assertion (A): For a particle moving continuously during a finite time interval, its average speed equals the magnitude of its average velocity only when it moves along a straight line without reversing its direction. Intervals of rest may be present.
+
+Reason (R): Equality between path length and displacement magnitude requires all infinitesimal displacement vectors to be parallel and directed in the same sense.
+
+(1) Both A and R are true, and R is the correct explanation of A.
+
+(2) Both A and R are true, but R is not the correct explanation of A.
+
+(3) A is true, but R is false.
+
+(4) A is false, but R is true.</p></div>
+    </section>
+    <section class="q">
+      <header><b>Q8</b> <span class="tag">Physics</span>
+        <span class="mode text">text mode</span></header>
+      <div class="inline-question-text"><p class="question-text">8. Consider the following statements for one-dimensional motion:
+
+I. If velocity and acceleration have opposite signs throughout a time interval, the speed of the particle decreases throughout that interval.
+
+II. A particle moving with constant non-zero acceleration can pass through a specified position at no more than two distinct instants.
+
+III. For every motion with constant acceleration, the distances travelled in successive equal time intervals necessarily form an arithmetic progression.
+
+Which statement is incorrect?
+
+(1) I only
+
+(2) II only
+
+(3) III only
+
+(4) I and III only</p></div>
+    </section>
+    <section class="q">
+      <header><b>Q1</b> <span class="tag">Physics</span>
+        <span class="mode image">image mode</span></header>
+      <div class="pdf-question"><img src="../tests/rts1/questions/1.webp" alt="Question 1"><details class="text-version"><summary>Question text</summary><p>1. A particle is projected from the base of an inclined plane of inclination 30° with the horizontal. The components of its initial velocity parallel and perpendicular to the incline are 30 m/s and 10 3 m/s, respectively. Match the physical quantities in Column-I with their corresponding values in Column-II. Take g =10 m/s2
+
+Column-I
+
+Column-II A Time of flight on the incline (in s) P 10 3 B Range on the incline (in m) Q 20 C Maximum perpendicular distance from the incline (in m) R 80 D Speed at the time of striking the incline (in m/s) S 4
+
+(1) A→S; B→R; C→P; D→Q
+
+(2) A→S; B→Q; C→P; D→R
+
+(3) A→R; B→S; C→P; D→Q
+
+(4) A→Q; B→R; C→S; D→P</p></details></div>
+    </section>
+    <section class="q">
+      <header><b>Q2</b> <span class="tag">Physics</span>
+        <span class="mode image">image mode</span></header>
+      <div class="pdf-question"><img src="../tests/rts1/questions/2.webp" alt="Question 2"><details class="text-version"><summary>Question text</summary><p>2. A mobile artillery launcher is moving horizontally with a constant speed of 70 m/s. It fires a projectile with a muzzle speed of 150 m/s relative to the launcher. To achieve the maximum horizontal range on the ground in the forward direction, the barrel of the gun must be set at an angle with the horizontal (relative to the launcher). Calculate and the maximum horizontal range max R . Take 10 g = m/s 2 .
+
+(1) 45 , 3740 max R m = = 
+
+(2) 37 , 3200 max R m = = 
+
+(3) 1 max 7 45 sin , 3500 15 2 R m −  = − =    
+
+(4) 53 , 3840 max R m = = </p></details></div>
+    </section>
+</body></html>
