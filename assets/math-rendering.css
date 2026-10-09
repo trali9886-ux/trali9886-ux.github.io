@@ -15,3 +15,45 @@
 .option-text mjx-container {
   max-width: 100%;
 }
+
+/* Rich question content: an SVG diagram or HTML table transcribed from the
+   source paper, shown under the wording just as the printed figure appears. */
+.question-rich {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.question-rich > svg,
+.question-rich svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+}
+
+.question-rich table {
+  border-collapse: collapse;
+  margin: 12px auto;
+  max-width: 100%;
+  font-size: 0.95em;
+}
+
+.question-rich th,
+.question-rich td {
+  border: 1px solid #cfd8d1;
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.question-rich thead th {
+  background: #eef4ef;
+  font-weight: 600;
+}
+
+.question-rich img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+}
