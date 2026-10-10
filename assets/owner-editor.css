@@ -43,3 +43,15 @@ body{min-width:320px;background:#f5f7f3}
 .question-source-figure img{max-height:700px}
 .generator-warning{border-radius:10px}
 @media(max-width:700px){.owner-shell{padding:0 14px 48px}.intro{flex-direction:column}.intro-note{max-width:none;width:100%}.top-actions{gap:7px;flex-wrap:wrap;justify-content:flex-end}.editor-tabs{gap:18px;padding:0 15px}.tab-panel{padding:18px}.publish-panel{padding:18px}.side-card{padding:16px}}
+
+/* Rich question content in the preview: an SVG diagram or HTML table
+   transcribed from the source paper, shown under the wording just as the
+   printed figure appears.  Mirrors assets/math-rendering.css on the site. */
+.rich-content{min-width:0;overflow-wrap:anywhere}
+.preview-question .rich-content{white-space:normal}
+.rich-content svg{display:block;max-width:100%;height:auto;margin:12px auto}
+.rich-content table{border-collapse:collapse;margin:12px auto;max-width:100%;font-size:.95em}
+.rich-content th,.rich-content td{border:1px solid #cfd8d1;padding:6px 10px;text-align:left;vertical-align:top}
+.rich-content thead th{background:#eef4ef;font-weight:600}
+.rich-content img{display:block;max-width:100%;height:auto;margin:12px auto}
+.preview-option mjx-container,.preview-question mjx-container{max-width:100%}

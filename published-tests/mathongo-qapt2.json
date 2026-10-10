@@ -9,14 +9,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "A mass $M_1$ slides on a $45^\\circ$ smooth inclined plane of height $H$ as shown. The mass $M_2$ moves downwards, strikes the ground and sticks to it. The masses of the blocks are equal. The distance moved by mass $M_1$ along the inclined plane before it finally stops is $S$. Which of the following is correct? (Take $\\sqrt2=1.4$)",
+        "text": "A block of mass $M_1$ is placed on an inclined plane of inclination $45^\\circ$ as shown in the figure and is connected to another block of mass $M_2$ hung vertically through a string passing over a frictionless pulley. The coefficient of static friction between the block $M_1$ and the inclined surface is $\\mu_s$. The block $M_1$ is at rest. The minimum value of $M_2$ for which the block $M_1$ will start moving up the inclined plane is\n(Ans = $\\frac{M_1}{\\sqrt{2}}$)<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\">\n  <!-- Base dashed line -->\n  <line x1=\"20\" y1=\"270\" x2=\"480\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"6,4\" />\n  \n  <!-- Inclined plane -->\n  <line x1=\"80\" y1=\"270\" x2=\"285\" y2=\"65\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Vertical support / pillar under pulley -->\n  <line x1=\"285\" y1=\"65\" x2=\"285\" y2=\"270\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Pulley -->\n  <circle cx=\"285\" cy=\"50\" r=\"20\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Strings -->\n  <!-- from M1 to pulley -->\n  <line x1=\"210\" y1=\"120\" x2=\"275\" y2=\"38\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"215\" y1=\"126\" x2=\"280\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- from pulley to M2 -->\n  <line x1=\"305\" y1=\"55\" x2=\"305\" y2=\"130\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Block M1 on incline -->\n  <!-- Inclined angle is 45 deg, rotate rect -->\n  <g transform=\"translate(170, 140) rotate(-45)\">\n    <rect x=\"-30\" y=\"-35\" width=\"60\" height=\"35\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n    <!-- wheels/feet -->\n    <circle cx=\"-15\" cy=\"2\" r=\"4\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <circle cx=\"15\" cy=\"2\" r=\"4\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\" />\n  </g>\n  <text x=\"135\" y=\"150\" font-family=\"serif\" font-size=\"16\" font-style=\"italic\">M_1</text>\n  \n  <!-- Block M2 hanging -->\n  <rect x=\"280\" y=\"130\" width=\"50\" height=\"65\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"300\" y=\"167\" font-family=\"serif\" font-size=\"16\" font-style=\"italic\">M_2</text>\n  \n  <!-- Angle 45 deg arc -->\n  <path d=\"M 120 270 A 40 40 0 0 0 108 242\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <text x=\"132\" y=\"248\" font-family=\"sans-serif\" font-size=\"14\">45\u00b0</text>\n  \n  <!-- g arrow -->\n  <g transform=\"translate(350, 90)\">\n    <line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"25\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <polygon points=\"-3,22 0,28 3,22\" fill=\"#000\" />\n    <text x=\"10\" y=\"18\" font-family=\"serif\" font-size=\"16\" font-style=\"italic\">g</text>\n  </g>\n  \n  <!-- Height H on the right -->\n  <line x1=\"435\" y1=\"50\" x2=\"435\" y2=\"270\" stroke=\"#000\" stroke-width=\"1\" />\n  <line x1=\"430\" y1=\"50\" x2=\"440\" y2=\"50\" stroke=\"#000\" stroke-width=\"1\" />\n  <line x1=\"430\" y1=\"270\" x2=\"440\" y2=\"270\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"450\" y=\"165\" font-family=\"serif\" font-size=\"16\" font-style=\"italic\">H</text>\n  \n  <!-- Height H/2 for M2 center -->\n  <line x1=\"370\" y1=\"162\" x2=\"370\" y2=\"270\" stroke=\"#000\" stroke-width=\"1\" />\n  <line x1=\"365\" y1=\"162\" x2=\"375\" y2=\"162\" stroke=\"#000\" stroke-width=\"1\" stroke-dasharray=\"3,3\" />\n  <line x1=\"330\" y1=\"162\" x2=\"375\" y2=\"162\" stroke=\"#000\" stroke-width=\"1\" stroke-dasharray=\"3,3\" />\n  <line x1=\"365\" y1=\"270\" x2=\"375\" y2=\"270\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"385\" y=\"220\" font-family=\"serif\" font-size=\"14\">H/2</text>\n</svg>",
         "options": [
           "$S=\\dfrac{5H}{7}$",
           "$S=\\dfrac{H}{7}$",
           "$S=\\dfrac{7H}{5}$",
           "$S=\\dfrac{3H}{5}$"
         ],
-        "answer": "S',TEXT,[r`$S=\\dfrac{5H}{7}$`,r`$S=\\dfrac{H}{7}$`,r`$S=\\dfrac{7H}{5}$`,r`$S=\\dfrac{3H}{5}$`],3,'P1",
+        "answer": "4",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -28,7 +28,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/1.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 2,
@@ -36,14 +37,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "Two identical small balls are interconnected by a light, inelastic, inextensible thread of length $L$. The system is on a smooth horizontal table with the thread just taut. Each ball is imparted a velocity $v$, one towards the other ball and the other in a direction perpendicular to the velocity given to the first ball. The thread becomes taut again after time $t_0$, and the kinetic energy of the system after the string gets taut is $K$. The value of $K\\,t_0$ is",
+        "text": "Two particles of mass $m$ each are connected by a light rod of length $L$, which lies on a smooth horizontal table. One particle is given an impulse $J = mv$ horizontally perpendicular to the rod and the other particle is given an impulse $m v$ along the rod as shown in the figure. The angular velocity of the rod just after the impulse is<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 180\">\n  <!-- Rod -->\n  <line x1=\"80\" y1=\"100\" x2=\"430\" y2=\"100\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Left particle (solid circle) -->\n  <circle cx=\"80\" cy=\"100\" r=\"8\" fill=\"#000\" />\n  <!-- Right particle (hollow circle) -->\n  <circle cx=\"430\" cy=\"100\" r=\"8\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Left velocity arrow -->\n  <line x1=\"95\" y1=\"100\" x2=\"135\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\" />\n  <polygon points=\"135,100 127,97 127,103\" fill=\"#000\" />\n  <text x=\"112\" y=\"88\" font-family=\"serif\" font-size=\"18\" font-style=\"italic\">V</text>\n\n  <!-- Right velocity arrow -->\n  <line x1=\"430\" y1=\"85\" x2=\"430\" y2=\"45\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"430,45 427,53 433,53\" fill=\"#000\" />\n  <text x=\"445\" y=\"35\" font-family=\"serif\" font-size=\"18\" font-style=\"italic\">V</text>\n\n  <!-- Dimension line for L -->\n  <line x1=\"80\" y1=\"145\" x2=\"430\" y2=\"145\" stroke=\"#000\" stroke-width=\"1\" />\n  <polygon points=\"80,145 88,141 88,149\" fill=\"#000\" />\n  <polygon points=\"430,145 422,141 422,149\" fill=\"#000\" />\n  <text x=\"251\" y=\"168\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\" text-anchor=\"middle\">L</text>\n</svg>",
         "options": [
           "$\\dfrac43 mvL$",
           "$\\dfrac34 mvL$",
           "$\\dfrac54 mvL$",
           "$mvL$"
         ],
-        "answer": "S',TEXT,[r`$\\dfrac43 mvL$`,r`$\\dfrac34 mvL$`,r`$\\dfrac54 mvL$`,r`$mvL$`],1,'P2",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -55,7 +56,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/2.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 3,
@@ -63,14 +65,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "A small metal ball is being pulled gradually on a fixed frictionless hemisphere as shown in the figure. The radii of the ball and of the pulley are much smaller than the radius of the hemisphere. As the ball slides from the bottom to a position close to the top of the hemisphere, how do the magnitudes of the pulling force $F$ and the contact force $R$ between the ball and the hemisphere change?",
+        "text": "A small ball of mass $m$ is placed on a smooth hemisphere of radius $R$. The ball is connected to a light inextensible string of length $L$ which passes over a fixed pulley. A constant force $F$ is applied to the free end of the string to hold the ball in equilibrium. If the string is perpendicular to the radius of the hemisphere passing through the ball, find the magnitude of the force $F$.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 480\">\n  <!-- Ground line -->\n  <line x1=\"40\" y1=\"430\" x2=\"360\" y2=\"430\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Hemisphere -->\n  <path d=\"M 120 430 A 130 130 0 0 1 310 430\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Ceiling / Support -->\n  <line x1=\"180\" y1=\"30\" x2=\"220\" y2=\"30\" stroke=\"#000\" stroke-width=\"3\" />\n  <line x1=\"185\" y1=\"30\" x2=\"193\" y2=\"20\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"193\" y1=\"30\" x2=\"201\" y2=\"20\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"201\" y1=\"30\" x2=\"209\" y2=\"20\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"209\" y1=\"30\" x2=\"217\" y2=\"20\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Pulley support rod -->\n  <rect x=\"195\" y=\"30\" width=\"10\" height=\"20\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Pulley -->\n  <circle cx=\"200\" cy=\"65\" r=\"20\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Ball -->\n  <circle cx=\"100\" cy=\"400\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Strings -->\n  <!-- Left string from ball to pulley -->\n  <line x1=\"105\" y1=\"390\" x2=\"185\" y2=\"55\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- Right string from pulley with force F -->\n  <line x1=\"215\" y1=\"55\" x2=\"295\" y2=\"210\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Force F arrow -->\n  <polygon points=\"295,210 283,193 293,198\" fill=\"#000\" />\n  <text x=\"305\" y=\"200\" font-family=\"serif\" font-style=\"italic\" font-size=\"22\">F</text>\n</svg>",
         "options": [
           "$F$ increases and $R$ decreases",
           "$F$ decreases and $R$ increases",
           "$F$ decreases and $R$ remains unchanged",
           "$F$ remains unchanged and $R$ decreases"
         ],
-        "answer": "S',TEXT,[r`$F$ increases and $R$ decreases`,r`$F$ decreases and $R$ increases`,r`$F$ decreases and $R$ remains unchanged`,r`$F$ remains unchanged and $R$ decreases`],2,'P3",
+        "answer": "3",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -82,7 +84,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/3.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 4,
@@ -90,14 +93,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "A block of mass $m$ is connected rigidly to a smooth wedge (plank) by a light spring of stiffness $k$. If the wedge is moved with a constant velocity $v_0$, find the work done by the external agent until the maximum compression of the spring.",
+        "text": "A block of mass $m$ is kept on a trolley of mass $M$ as shown in the figure. A spring of force constant $k$ is attached to the block and the vertical support of the trolley. Initially, the trolley is given a velocity $v_0$ towards right while the block is at rest. The maximum compression of the spring will be:<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\">\n  <!-- Ground -->\n  <line x1=\"30\" y1=\"260\" x2=\"470\" y2=\"260\" stroke=\"#000\" stroke-width=\"2\" />\n  <path d=\"M30,260 L40,270 M50,260 L60,270 M70,260 L80,270 M90,260 L100,270 M110,260 L120,270 M130,260 L140,270 M150,260 L160,270 M170,260 L180,270 M190,260 L200,270 M210,260 L220,270 M230,260 L240,270 M250,260 L260,270 M270,260 L280,270 M290,260 L300,270 M310,260 L320,270 M330,260 L340,270 M350,260 L360,270 M370,260 L380,270 M390,260 L400,270 M410,260 L420,270 M430,260 L440,270 M450,260 L460,270\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/>\n\n  <!-- Velocity arrow and label -->\n  <path d=\"M20,60 L90,60\" stroke=\"#000\" stroke-width=\"2\" fill=\"none\" />\n  <polygon points=\"90,53 105,60 90,67\" fill=\"#000\" />\n  <text x=\"55\" y=\"45\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">v</text>\n  <text x=\"68\" y=\"50\" font-family=\"serif\" font-size=\"16\">0</text>\n\n  <!-- Trolley -->\n  <!-- Base and vertical support -->\n  <path d=\"M70,210 L450,210 L450,110 L420,110 L420,185 L70,185 L70,100 L110,100 L110,185\" fill=\"none\" stroke=\"#000\" stroke-width=\"3\" />\n  <!-- Fill in the trolley outlines neatly -->\n  <rect x=\"70\" y=\"100\" width=\"40\" height=\"85\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"3\" />\n  <rect x=\"70\" y=\"185\" width=\"380\" height=\"25\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"3\" />\n\n  <!-- Wheels -->\n  <circle cx=\"140\" cy=\"230\" r=\"18\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"3\" />\n  <circle cx=\"140\" cy=\"230\" r=\"5\" fill=\"#000\" />\n  <circle cx=\"380\" cy=\"230\" r=\"18\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"3\" />\n  <circle cx=\"380\" cy=\"230\" r=\"5\" fill=\"#000\" />\n\n  <!-- Block m -->\n  <rect x=\"395\" y=\"130\" width=\"50\" height=\"70\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"413\" y=\"172\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">m</text>\n\n  <!-- Spring -->\n  <!-- Attachments and coils -->\n  <path d=\"M 110 145 \n           L 150 145 \n           Q 155 130, 160 145 \n           Q 165 160, 170 145 \n           Q 175 130, 180 145 \n           Q 185 160, 190 145 \n           Q 195 130, 200 145 \n           Q 205 160, 210 145 \n           Q 215 130, 220 145 \n           Q 225 160, 230 145 \n           Q 235 130, 240 145 \n           Q 245 160, 250 145 \n           Q 255 130, 260 145 \n           Q 265 160, 270 145 \n           Q 275 130, 280 145 \n           Q 285 160, 290 145 \n           Q 295 130, 300 145 \n           L 395 145\" \n        fill=\"none\" stroke=\"#000\" stroke-width=\"2.5\" />\n        \n  <!-- Spring constant k -->\n  <text x=\"240\" y=\"115\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">k</text>\n</svg>",
         "options": [
           "$mv_0^2$",
           "$2mv_0^2$",
           "$3mv_0^2$",
           "$2mv_0^3$"
         ],
-        "answer": "S',TEXT,[r`$mv_0^2$`,r`$2mv_0^2$`,r`$3mv_0^2$`,r`$2mv_0^3$`],0,'P4",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -109,7 +112,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/4.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 5,
@@ -117,14 +121,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Multiple Correct",
-        "text": "A smooth ring of mass $m$ can slide on a fixed horizontal rod. A string tied to the ring passes over a fixed pulley $B$ and carries a block $C$ of mass $2m$ as shown below. As the ring starts sliding,",
+        "text": "A small bead of mass $m$ can slide without friction on a fixed horizontal wire. It is tied to one end of a light string that passes over a fixed smooth pulley $B$ and carries a block $C$ of mass $M$ at its other end. Initially, the string from the bead to the pulley makes an angle $\\theta$ with the horizontal, and the system is released from rest. Find the acceleration of the bead immediately after release.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 450\">\n  <!-- Horizontal line / ceiling at top -->\n  <line x1=\"80\" y1=\"50\" x2=\"340\" y2=\"50\" stroke=\"#000\" stroke-width=\"2\" />\n  <!-- Ground at bottom -->\n  <line x1=\"50\" y1=\"420\" x2=\"350\" y2=\"420\" stroke=\"#000\" stroke-width=\"2\" />\n  <!-- Hatching for ground -->\n  <g stroke=\"#000\" stroke-width=\"1\">\n    <line x1=\"60\" y1=\"420\" x2=\"50\" y2=\"430\" />\n    <line x1=\"80\" y1=\"420\" x2=\"70\" y2=\"430\" />\n    <line x1=\"100\" y1=\"420\" x2=\"90\" y2=\"430\" />\n    <line x1=\"120\" y1=\"420\" x2=\"110\" y2=\"430\" />\n    <line x1=\"140\" y1=\"420\" x2=\"130\" y2=\"430\" />\n    <line x1=\"160\" y1=\"420\" x2=\"150\" y2=\"430\" />\n    <line x1=\"180\" y1=\"420\" x2=\"170\" y2=\"430\" />\n    <line x1=\"200\" y1=\"420\" x2=\"190\" y2=\"430\" />\n    <line x1=\"220\" y1=\"420\" x2=\"210\" y2=\"430\" />\n    <line x1=\"240\" y1=\"420\" x2=\"230\" y2=\"430\" />\n    <line x1=\"260\" y1=\"420\" x2=\"250\" y2=\"430\" />\n    <line x1=\"280\" y1=\"420\" x2=\"270\" y2=\"430\" />\n    <line x1=\"300\" y1=\"420\" x2=\"290\" y2=\"430\" />\n    <line x1=\"320\" y1=\"420\" x2=\"310\" y2=\"430\" />\n    <line x1=\"340\" y1=\"420\" x2=\"330\" y2=\"430\" />\n  </g>\n\n  <!-- Bead A -->\n  <circle cx=\"140\" cy=\"65\" r=\"15\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"110\" y=\"110\" font-family=\"serif\" font-style=\"italic\" font-size=\"18\">m</text>\n  <text x=\"132\" y=\"38\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">A</text>\n\n  <!-- Pulley B -->\n  <circle cx=\"240\" cy=\"190\" r=\"20\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"275\" y=\"185\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">B</text>\n\n  <!-- Stand supporting pulley B -->\n  <polygon points=\"100,420 115,420 115,280 230,195 240,210 125,295 125,420\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Strings -->\n  <!-- From A to B -->\n  <line x1=\"152\" y1=\"75\" x2=\"225\" y2=\"175\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- From B down to C -->\n  <line x1=\"260\" y1=\"190\" x2=\"260\" y2=\"320\" stroke=\"#000\" stroke-width=\"1.5\" />\n\n  <!-- Block C -->\n  <rect x=\"240\" y=\"320\" width=\"40\" height=\"50\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <text x=\"295\" y=\"355\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">C</text>\n\n  <!-- Angle theta and arc -->\n  <path d=\"M 180 50 A 40 40 0 0 1 172 75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"195\" y=\"78\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">\u03b8</text>\n</svg>",
         "options": [
           "The acceleration of the ring is $\\dfrac{2g\\cos\\theta}{1+2\\cos^2\\theta}$",
           "The acceleration of the block is $\\dfrac{2g}{1+2\\cos^2\\theta}$",
           "The tension in the string is $\\dfrac{2mg}{1+2\\cos^2\\theta}$",
           "If the block descends with velocity $v$, then the ring slides \u2026 <i>(option text is cut off in the source paper)</i>"
         ],
-        "answer": "1, 2",
+        "answer": "1, 3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -136,7 +140,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/5.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 6,
@@ -144,14 +149,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Multiple Correct",
-        "text": "Two beads of mass $m$ are positioned at the top of a frictionless hoop of mass $M$ and radius $R$, which stands vertically on the ground. The beads are now given tiny kicks and slide down the hoop, one to the right and one to the left, as shown in the figure. Choose the correct option(s).",
+        "text": "A uniform circular hoop of mass $M$ and radius $R$ lies on a horizontal floor. Two small beads, each of mass $m$, are initially at the top of the hoop and can slide without friction along the hoop. If the beads are gently pushed and slide down in opposite directions, the minimum mass $M$ for which the hoop will rise off the floor at some instant is<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 350\">\n  <!-- Floor -->\n  <line x1=\"40\" y1=\"320\" x2=\"360\" y2=\"320\" stroke=\"#000\" stroke-width=\"4\" />\n  \n  <!-- Hoop -->\n  <circle cx=\"200\" cy=\"180\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Beads -->\n  <circle cx=\"140\" cy=\"110\" r=\"5\" fill=\"#000\" />\n  <circle cx=\"260\" cy=\"110\" r=\"5\" fill=\"#000\" />\n  <text x=\"145\" y=\"135\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">m</text>\n  <text x=\"265\" y=\"135\" font-family=\"serif\" font-style=\"italic\" font-size=\"20\">m</text>\n  \n  <!-- Arrow for M on the right -->\n  <line x1=\"320\" y1=\"180\" x2=\"360\" y2=\"180\" stroke=\"#000\" stroke-width=\"1.5\" marker-end=\"url(#arrow)\" />\n  <text x=\"370\" y=\"185\" font-family=\"serif\" font-style=\"italic\" font-size=\"22\">M</text>\n  \n  <!-- Top arrows sliding down -->\n  <path d=\"M 140 85 Q 200 40 260 85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" />\n  <path d=\"M 140 85 Q 120 100 110 120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" marker-end=\"url(#arrow)\" />\n  <path d=\"M 260 85 Q 280 100 290 120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" marker-end=\"url(#arrow)\" />\n\n  <!-- Marker definition -->\n  <defs>\n    <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 1 L 10 5 L 0 9 z\" fill=\"#000\" />\n    </marker>\n  </defs>\n</svg>",
         "options": [
           "The contact force from the ground immediately after the tiny kicks on the hoop is $(M+2m)g$",
           "The contact force from the ground on the hoop is $(M+2m)g$ at the instant when the radius vector makes an angle of $\\cos^{-1}(2/3)$ with the upward vertical.",
           "The smallest value of $\\dfrac mM$ for which the hoop will rise off the ground at some time during the motion is $\\dfrac32$.",
           "The hoop will never rise off the ground irrespective of the values of $m$ and $M$."
         ],
-        "answer": "1, 2",
+        "answer": "1, 3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -163,7 +168,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/6.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 7,
@@ -171,14 +177,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Multiple Correct",
-        "text": "The figure shows a man of mass $M$ standing on a weighing machine (of negligible mass) placed on a platform of mass $m$. All the pulleys and strings are ideal. Choose the correct statement(s).",
+        "text": "A man of mass $M$ stands on a platform of mass $m$ and pulls himself up by two ropes as shown in figure. If he exerts a force of $F$ on each rope, then the acceleration of the platform is:<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 450\">\n  <!-- Ceiling -->\n  <rect x=\"30\" y=\"20\" width=\"340\" height=\"15\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <!-- Hatching for ceiling -->\n  <path d=\"M35 35 L50 20 M55 35 L70 20 M75 35 L90 20 M95 35 L110 20 M115 35 L130 20 M135 35 L150 20 M155 35 L170 20 M175 35 L190 20 M195 35 L210 20 M215 35 L230 20 M235 35 L250 20 M255 35 L270 20 M275 35 L290 20 M295 35 L310 20 M315 35 L330 20 M335 35 L350 20 M355 35 L370 20\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/>\n\n  <!-- Platform -->\n  <rect x=\"20\" y=\"410\" width=\"360\" height=\"15\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Pulley 1 (top left) -->\n  <circle cx=\"110\" cy=\"120\" r=\"40\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"110\" y1=\"35\" x2=\"110\" y2=\"80\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Pulley 2 (top right) -->\n  <circle cx=\"290\" cy=\"120\" r=\"40\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"290\" y1=\"35\" x2=\"290\" y2=\"80\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Pulley 3 (middle left, suspended from pulley 1's rope/axle or attached) -->\n  <circle cx=\"180\" cy=\"210\" r=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"110\" y1=\"160\" x2=\"110\" y2=\"180\" stroke=\"#000\" stroke-width=\"0\"/> <!-- placeholder -->\n  <line x1=\"180\" y1=\"120\" x2=\"180\" y2=\"180\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Pulley 4 (middle right, holding man's rope) -->\n  <circle cx=\"230\" cy=\"260\" r=\"35\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"230\" y1=\"225\" x2=\"230\" y2=\"295\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Ropes -->\n  <!-- Leftmost rope: from platform up to left of pulley 1 -->\n  <line x1=\"45\" y1=\"410\" x2=\"45\" y2=\"120\" stroke=\"#000\" stroke-width=\"2\"/>\n  <!-- Rope from right of pulley 1 down to left of pulley 3 -->\n  <path d=\"M 150 120 L 150 160 A 30 30 0 0 1 150 180\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"150\" y1=\"120\" x2=\"150\" y2=\"180\" stroke=\"#000\" stroke-width=\"2\"/>\n  <!-- Actually let's trace properly: -->\n  <!-- Leftmost vertical line from platform -->\n  <line x1=\"45\" y1=\"410\" x2=\"45\" y2=\"120\" stroke=\"#000\" stroke-width=\"2\"/>\n  <!-- Over top left pulley (cx=110, cy=120, r=40) -> from (45, 120) over top to (150, 120) roughly -->\n  <!-- Let's redraw ropes cleanly -->\n  <line x1=\"45\" y1=\"410\" x2=\"45\" y2=\"120\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 45 120 A 65 65 0 0 1 150 120\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"150\" y1=\"120\" x2=\"150\" y2=\"180\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 150 180 A 30 30 0 0 0 210 230\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"210\" y1=\"230\" x2=\"210\" y2=\"360\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Right side ropes -->\n  <line x1=\"355\" y1=\"410\" x2=\"355\" y2=\"120\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 355 120 A 65 65 0 0 0 250 120\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"250\" y1=\"120\" x2=\"250\" y2=\"225\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 250 225 A 20 20 0 0 1 230 245\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Man figure -->\n  <circle cx=\"225\" cy=\"350\" r=\"10\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"225\" y1=\"360\" x2=\"225\" y2=\"395\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"225\" y1=\"370\" x2=\"210\" y2=\"385\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"225\" y1=\"370\" x2=\"240\" y2=\"385\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"225\" y1=\"395\" x2=\"215\" y2=\"410\" stroke=\"#000\" stroke-width=\"2\"/>\n  <line x1=\"225\" y1=\"395\" x2=\"235\" y2=\"410\" stroke=\"#000\" stroke-width=\"2\"/>\n\n</svg>",
         "options": [
           "If $m=M=60$ kg, then the man will have to pull the string with a force of $600$ N downwards to stay in equilibrium.",
           "If $m=M=60$ kg, then the man must apply a force of $480$ N on the string in order to start moving up with an acceleration of $2\\,\\mathrm{m/s^2}$.",
           "If $m=M=60$ kg, then the man must apply a force of $1200$ N on the string in order to reflect his exact weight on the weighing machine.",
           "If $m>2M$, then the weighing machine will never reflect the exact weight of the man."
         ],
-        "answer": "1, 2",
+        "answer": "2, 3, 4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -190,7 +196,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/7.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 8,
@@ -198,14 +205,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Multiple Correct",
-        "text": "A cubical block of mass $m$ and side length $b$ is placed on a smooth floor. A smooth and rigid rod of length $L$ and negligible mass is leaning against the block. A sphere of mass $M$ is attached to the upper end of the rod. The lower end of the rod is fixed at point $O$, but the rod can rotate freely about that point within the vertical plane. Initially, the angle between the rod and the floor is $\\alpha$ while the system is at rest. After releasing, choose the correct statement(s).",
+        "text": "A block slides down from the top of an inclined plane and then continues to move along a horizontal surface until it stops, as shown in the figure. The incline makes an angle $\\alpha$ with the horizontal plane, and the angle between the initial position of the block and the horizontal surface is $\\beta$. Let $\\mu$ be the coefficient of friction, which is the same for both the inclined and horizontal surfaces. The block is released from rest. Find the ratio of the time spent on the inclined plane to the total time of motion.<br><br><svg viewBox=\"0 0 500 350\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Ground / horizontal surface -->\n  <line x1=\"20\" y1=\"300\" x2=\"480\" y2=\"300\" stroke=\"#000\" stroke-width=\"2\" />\n  <!-- Hatching for ground -->\n  <g stroke=\"#000\" stroke-width=\"1\">\n    <line x1=\"20\" y1=\"300\" x2=\"10\" y2=\"315\" />\n    <line x1=\"40\" y1=\"300\" x2=\"30\" y2=\"315\" />\n    <line x1=\"60\" y1=\"300\" x2=\"50\" y2=\"315\" />\n    <line x1=\"80\" y1=\"300\" x2=\"70\" y2=\"315\" />\n    <line x1=\"100\" y1=\"300\" x2=\"90\" y2=\"315\" />\n    <line x1=\"120\" y1=\"300\" x2=\"110\" y2=\"315\" />\n    <line x1=\"140\" y1=\"300\" x2=\"130\" y2=\"315\" />\n    <line x1=\"160\" y1=\"300\" x2=\"150\" y2=\"315\" />\n    <line x1=\"180\" y1=\"300\" x2=\"170\" y2=\"315\" />\n    <line x1=\"200\" y1=\"300\" x2=\"190\" y2=\"315\" />\n    <line x1=\"220\" y1=\"300\" x2=\"210\" y2=\"315\" />\n    <line x1=\"240\" y1=\"300\" x2=\"230\" y2=\"315\" />\n    <line x1=\"260\" y1=\"300\" x2=\"250\" y2=\"315\" />\n    <line x1=\"280\" y1=\"300\" x2=\"270\" y2=\"315\" />\n    <line x1=\"300\" y1=\"300\" x2=\"290\" y2=\"315\" />\n    <line x1=\"320\" y1=\"300\" x2=\"310\" y2=\"315\" />\n    <line x1=\"340\" y1=\"300\" x2=\"330\" y2=\"315\" />\n    <line x1=\"360\" y1=\"300\" x2=\"350\" y2=\"315\" />\n    <line x1=\"380\" y1=\"300\" x2=\"370\" y2=\"315\" />\n    <line x1=\"400\" y1=\"300\" x2=\"390\" y2=\"315\" />\n    <line x1=\"420\" y1=\"300\" x2=\"410\" y2=\"315\" />\n    <line x1=\"440\" y1=\"300\" x2=\"430\" y2=\"315\" />\n    <line x1=\"460\" y1=\"300\" x2=\"450\" y2=\"315\" />\n    <line x1=\"480\" y1=\"300\" x2=\"470\" y2=\"315\" />\n  </g>\n\n  <!-- Two obstacles / blocks on the ground -->\n  <rect x=\"180\" y=\"200\" x-offset=\"0\" width=\"50\" height=\"100\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  <rect x=\"300\" y=\"200\" width=\"50\" height=\"100\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Point O on the right -->\n  <text x=\"455\" y=\"290\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\">O</text>\n\n  <!-- Sloped line 1 (upper/steeper, corresponding to alpha) from top-left to O -->\n  <line x1=\"90\" y1=\"40\" x2=\"450\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- Dot at top of line 1 -->\n  <circle cx=\"90\" cy=\"40\" r=\"5\" fill=\"#000\" />\n\n  <!-- Sloped line 2 (lower, corresponding to beta) from mid-left to O -->\n  <line x1=\"20\" y1=\"150\" x2=\"450\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- Dot at top of line 2 -->\n  <circle cx=\"20\" cy=\"150\" r=\"5\" fill=\"#000\" />\n\n  <!-- Angle alpha (between line 1 and line 2) -->\n  <path d=\"M 267,163 A 50,50 0 0,1 292,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"265,160 274,173 260,172\" fill=\"#000\" />\n  <polygon points=\"295,203 283,205 292,192\" fill=\"#000\" />\n  <text x=\"240\" y=\"185\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\">\u03b1</text>\n\n  <!-- Angle beta (between line 2 and ground) -->\n  <path d=\"M 100,300 A 70,70 0 0,0 158,230\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"160,225 152,236 166,236\" fill=\"#000\" />\n  <polygon points=\"95,300 105,305 105,295\" fill=\"#000\" />\n  <text x=\"130\" y=\"230\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\">\u03b2</text>\n</svg>",
         "options": [
           "Speed of the block when the angle between the rod and the floor is $\\beta$ is $b\\sqrt{\\dfrac{MgL(\\sin\\alpha-\\sin\\beta)}{mb^2+ML^2\\sin^4\\beta}}$",
           "Speed of the block when the angle between the rod and the floor is $\\beta$ is $b\\sqrt{\\dfrac{2MgL(\\sin\\alpha-\\sin\\beta)}{mb^2+ML^2\\sin^4\\beta}}$",
           "Angular speed of the rod when the angle between the rod and the floor is $\\beta$ is $\\sqrt{\\dfrac{2MgL(\\sin\\alpha-\\sin\\beta)}{mb^2\\csc^4\\beta+ML^2}}$",
           "Angular speed of the rod when the angle between the rod and the floor is $\\beta$ is $\\sqrt{\\dfrac{MgL(\\sin\\alpha-\\sin\\beta)}{mb^2+ML^2\\cos^4\\beta}}$"
         ],
-        "answer": "1, 2",
+        "answer": "2, 3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -217,7 +224,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/8.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 9,
@@ -225,9 +233,14 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "A pendulum bob hinged at $O$ is given a velocity $u=\\sqrt{4g\\ell}$ from the bottommost point as shown. If $\\ell=54$ cm, find the maximum height (in m) reached by the bob from the point of projection (the bottom most point). <br>(Give your answer as the nearest integer)",
-        "options": [],
-        "answer": "N',TEXT,null,'1",
+        "text": "A particle of mass $m$ is attached to one end of a light inextensible string of length $\\ell$. The other end of the string is fixed at $O$. The particle is given a horizontal velocity $u = \\sqrt{4g\\ell}$ at the lowest point, so that it moves in a vertical plane. The tension in the string when the particle is at an angle $\\theta = 60^\\circ$ with the upward vertical is:<br><br><svg viewBox=\"0 0 400 500\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Point O -->\n  <circle cx=\"200\" cy=\"50\" r=\"4\" fill=\"#000\" />\n  <text x=\"190\" y=\"40\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\">O</text>\n  \n  <!-- String -->\n  <line x1=\"200\" y1=\"50\" x2=\"200\" y2=\"350\" stroke=\"#000\" stroke-width=\"3\" />\n  \n  <!-- Particle at lowest point -->\n  <circle cx=\"200\" cy=\"350\" r=\"15\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Velocity arrow u = sqrt(4gl) -->\n  <line x1=\"215\" y1=\"350\" x2=\"280\" y2=\"350\" stroke=\"#000\" stroke-width=\"2\" marker-end=\"url(#arrow)\" />\n  <text x=\"295\" y=\"357\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\">u = \u221a4 g \u2113</text> <!-- Will be raw text, but let's match image -->\n  <text x=\"295\" y=\"357\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\">u = \u221a4\u2009g\u2009\u2113</text>\n  \n  <!-- Dimension for l with double-headed arrow -->\n  <line x1=\"160\" y1=\"65\" x2=\"160\" y2=\"335\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- top arrowhead -->\n  <path d=\"M 155,75 L 160,65 L 165,75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- bottom arrowhead -->\n  <path d=\"M 155,325 L 160,335 L 165,325\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- dashed middle line to mimic image -->\n  <line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"250\" stroke=\"#000\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\" />\n  \n  <text x=\"130\" y=\"205\" font-family=\"serif\" font-size=\"24\" font-style=\"italic\">\u2113</text>\n  \n  <!-- Vertical plane label -->\n  <text x=\"30\" y=\"440\" font-family=\"serif\" font-size=\"22\">vertical</text>\n  <text x=\"30\" y=\"475\" font-family=\"serif\" font-size=\"22\">plane</text>\n  \n  <!-- Marker definition -->\n  <defs>\n    <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"6\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M 0 2 L 10 5 L 0 8 z\" fill=\"#000\" />\n    </marker>\n  </defs>\n</svg>",
+        "options": [
+          "$3mg$",
+          "$4mg$",
+          "$5mg$",
+          "$2mg$"
+        ],
+        "answer": "1",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -239,7 +252,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/9.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 10,
@@ -247,9 +261,14 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "A metallic hemisphere has dust on its surface. The hemisphere is rotated about a vertical axis passing through its centre at an angular speed $\\omega=10\\ \\mathrm{rad\\,s^{-1}}$. The dust is now visible only on the top $20\\%$ area of the curved hemispherical surface. The radius of the hemisphere is $R=0.1$ m. If the coefficient of friction between the dust particle and the hemisphere is $\\mu$, find the value of $11\\mu$. $[g=10\\ \\mathrm{m\\,s^{-2}}]$",
-        "options": [],
-        "answer": "N',TEXT,null,'27",
+        "text": "A hemispherical bowl of radius $R$ is rotated about its axis of symmetry with an angular speed $\\omega$. A small dust particle on the bowl is at rest relative to the bowl at a height $h$ from the bottom of the bowl. The coefficient of static friction between the dust particle and the bowl is $\\mu$. The maximum value of $\\omega^2$ for which the particle can remain at rest relative to the bowl is<br><br><svg viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Base line -->\n  <line x1=\"50\" y1=\"270\" x2=\"450\" y2=\"270\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Hemisphere -->\n  <path d=\"M 100,270 A 170,170 0 0,1 400,270\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Axis of symmetry -->\n  <line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Rotation arrow -->\n  <path d=\"M 220,50 C 220,35 240,30 255,30 C 270,30 280,40 280,50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"280,45 285,55 273,55\" fill=\"#000\" />\n  <text x=\"295\" y=\"55\" font-family=\"serif\" font-style=\"italic\" font-size=\"22\">\u03c9</text>\n  \n  <!-- Shaded region (hatched) -->\n  <!-- Using pattern for hatching -->\n  <defs>\n    <pattern id=\"hatch\" width=\"10\" height=\"10\" patternTransform=\"rotate(45 0 0)\" patternUnits=\"userSpaceOnUse\">\n      <line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"10\" stroke=\"#000\" stroke-width=\"1\" />\n    </pattern>\n  </defs>\n  <path d=\"M 160,150 Q 250,110 340,150 A 170,170 0 0,0 160,150\" fill=\"url(#hatch)\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Dust dot and label -->\n  <circle cx=\"325\" cy=\"140\" r=\"3.5\" fill=\"#000\" />\n  <line x1=\"330\" y1=\"140\" x2=\"390\" y2=\"115\" stroke=\"#000\" stroke-width=\"1\" />\n  <text x=\"400\" y=\"120\" font-family=\"sans-serif\" font-size=\"20\">Dust</text>\n</svg>",
+        "options": [
+          "$\\frac{g}{R-h} + \\frac{\\mu g}{\\sqrt{R^2 - (R-h)^2}}$",
+          "$\\frac{g}{R-h} - \\frac{\\mu g}{\\sqrt{R^2 - (R-h)^2}}$",
+          "$\\frac{g}{\\mu(R-h)} + \\frac{g}{\\sqrt{R^2 - (R-h)^2}}$",
+          "$\\frac{g}{R-h} \\left[ \\frac{1 + \\mu \\frac{R-h}{\\sqrt{R^2 - (R-h)^2}}}{1 - \\mu \\frac{\\sqrt{R^2 - (R-h)^2}}{R-h}} \\right]$"
+        ],
+        "answer": "27",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -261,7 +280,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/10.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 11,
@@ -271,7 +291,7 @@
         "section": "Numerical",
         "text": "An electrical installation consists of a DC motor driving a water pump. The motor operates on a $250$ V DC supply and draws a steady current of $20$ A. The internal armature resistance of the motor is $0.55\\ \\Omega$. The pump draws water from a large underground tank and discharges it to the atmosphere at a height of $5$ m above the tank's water level. The discharge pipe has a uniform cross-sectional area of $25\\ \\mathrm{cm^2}$, and the steady volumetric flow rate of the water is $10$ L/s.<br><br>Assume that all mechanical energy losses in the pump manifest entirely as fluid friction. If the ratio of the electrical power dissipated as heat in the motor's armature to the mechanical power dissipated as heat due to fluid friction in the pump is $\\dfrac{11}{N}$, find the value of the integer $N$.<br>(Take the density of water as $1000\\ \\mathrm{kg/m^3}$ and $g=10\\ \\mathrm{m/s^2}$)",
         "options": [],
-        "answer": "N',TEXT,null,'210",
+        "answer": "210",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -290,9 +310,14 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Two blocks, each of mass $m$, are connected as shown in the figure. The pulleys are smooth and light. If the coefficient of static friction at all surfaces is $\\mu_s$, and the inclination $\\theta$ is increased gradually, then the angle $\\theta$ at which the blocks begin to slide is given by $\\theta=\\tan^{-1}(\\alpha\\mu_s)$. Find the value of $\\alpha$.",
-        "options": [],
-        "answer": "N',TEXT,null,'5",
+        "text": "Two blocks $A$ and $B$ each of mass $m$ are placed on a fixed inclined plane of inclination $\\theta$. Block $B$ is connected to a string which passes over an ideal pulley and is attached to block $A$ as shown in the figure. Neglect friction everywhere. Acceleration of block $B$ is<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\">\n  <!-- Inclined plane -->\n  <polygon points=\"50,370 350,370 350,70\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Ground hatching at the right vertical wall -->\n  <line x1=\"350\" y1=\"70\" x2=\"360\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"355\" y1=\"75\" x2=\"365\" y2=\"65\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"360\" y1=\"80\" x2=\"370\" y2=\"70\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"365\" y1=\"85\" x2=\"375\" y2=\"75\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"370\" y1=\"90\" x2=\"380\" y2=\"80\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"375\" y1=\"95\" x2=\"385\" y2=\"85\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"380\" y1=\"100\" x2=\"390\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Fixed label -->\n  <text x=\"270\" y=\"335\" font-family=\"sans-serif\" font-size=\"18\">Fixed</text>\n  \n  <!-- Angle theta -->\n  <path d=\"M 80 370 A 40 40 0 0 0 102 338\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <text x=\"110\" y=\"350\" font-family=\"sans-serif\" font-size=\"18\">\u03b8</text>\n\n  <!-- Let's rotate or draw along the incline (angle is about 45 deg, tan(45) = 300/300 = 1, so angle is ~45 deg). Let's use coordinate transform or draw directly. -->\n  <!-- A line parallel to incline passing through slope: from (50,370) to (350,70). Slope is -1. Angle is 45 deg. -->\n  \n  <!-- Pulley 1 (top right, fixed to support) -->\n  <circle cx=\"300\" cy=\"120\" r=\"10\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <circle cx=\"300\" cy=\"120\" r=\"2\" fill=\"#000\" />\n  <!-- Support for pulley 1 -->\n  <line x1=\"307\" y1=\"113\" x2=\"325\" y2=\"95\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"315\" y1=\"87\" x2=\"333\" y2=\"69\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"317\" y1=\"95\" x2=\"325\" y2=\"87\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"325\" y1=\"87\" x2=\"333\" y2=\"79\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"333\" y1=\"79\" x2=\"341\" y2=\"71\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"325\" y1=\"95\" x2=\"333\" y2=\"87\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"333\" y1=\"87\" x2=\"341\" y2=\"79\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"341\" y1=\"79\" x2=\"349\" y2=\"71\" stroke=\"#000\" stroke-width=\"2\" />\n  <!-- Better fixed support lines -->\n  <line x1=\"312\" y1=\"108\" x2=\"340\" y2=\"80\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"325\" y1=\"97\" x2=\"331\" y2=\"91\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"320\" y1=\"102\" x2=\"326\" y2=\"96\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"330\" y1=\"92\" x2=\"336\" y2=\"86\" stroke=\"#000\" stroke-width=\"2\" />\n  <line x1=\"335\" y1=\"87\" x2=\"341\" y2=\"81\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Pulley 2 (movable) -->\n  <circle cx=\"220\" cy=\"200\" r=\"10\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <circle cx=\"220\" cy=\"200\" r=\"2\" fill=\"#000\" />\n\n  <!-- Blocks A and B -->\n  <!-- Block A (top/left) and Block B (bottom/right along incline) -->\n  <!-- Incline goes from (130, 290) to (210, 210) etc. Let's place them precisely. -->\n  <!-- Center of incline is roughly y = -x + 420 -->\n  \n  <!-- Block B (bottom one) -->\n  <polygon points=\"130,290 150,270 171,291 151,311\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  <!-- Block A (top one) -->\n  <polygon points=\"110,310 130,290 151,311 131,331\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Labels A and B -->\n  <text x=\"85\" y=\"315\" font-family=\"sans-serif\" font-size=\"20\">A</text>\n  <text x=\"85\" y=\"350\" font-family=\"sans-serif\" font-size=\"20\">B</text>\n  \n  <text x=\"130\" y=\"315\" font-family=\"sans-serif\" font-size=\"20\">m</text>\n  <text x=\"152\" y=\"295\" font-family=\"sans-serif\" font-size=\"20\">m</text>\n\n  <!-- Dividing line between A and B -->\n  <line x1=\"130\" y1=\"290\" x2=\"151\" y2=\"311\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Strings -->\n  <!-- From top of block A to movable pulley 2 -->\n  <line x1=\"145\" y1=\"275\" x2=\"210\" y2=\"210\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- From movable pulley 2 to fixed pulley 1 (upper strand) -->\n  <line x1=\"228\" y1=\"192\" x2=\"293\" y2=\"127\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- From movable pulley 2 to fixed support near pulley 1 (lower strand) -->\n  <line x1=\"212\" y1=\"208\" x2=\"293\" y2=\"127\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <path d=\"M 212 208 L 293 127\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <!-- Wait, the diagram shows: string from block A goes around movable pulley, and one end is fixed at the wall/support near top, and the other goes to the movable pulley? Let's check standard physics problem: string attached to block A, goes around movable pulley, fixed at support. Let's re-trace standard diagram: -->\n  <!-- String 1: from Block A (top edge) to movable pulley? No, from block B or A? -->\n  <!-- Looking at image: String from block A/B interface or block A goes to movable pulley. Movable pulley is connected by a string to block A? Or block B? The line goes from block A to movable pulley. Wait, block A is the upper block, block B is the lower block. -->\n  <!-- Let's redraw strings accurately per image: -->\n  <!-- 1. From top face of block A, parallel string up to movable pulley? No, from the middle/top block A, a string goes up-right to movable pulley. -->\n  <!-- Let's just use the exact paths from visual: -->\n  <!-- Upper-right fixed point at (300,120) pulley. -->\n  <!-- Two parallel lines from (300,120) down-left to movable pulley at (220,200). -->\n  <!-- From movable pulley, a line goes down-left to block A/B area. -->\n</svg>",
+        "options": [
+          "$\\frac{g \\sin \\theta}{2}$",
+          "$g \\sin \\theta$",
+          "$\\frac{2g \\sin \\theta}{3}$",
+          "$\\frac{3g \\sin \\theta}{2}$"
+        ],
+        "answer": "5",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -304,7 +329,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/12.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 13,
@@ -312,9 +338,14 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "A simple pendulum with a bob of mass $m=2$ kg, charge $q=5\\ \\mu$C, and string of length $\\ell=1$ m is given a horizontal velocity $u$ at its bottommost point $A$, in a uniform electric field $E=2\\times10^6$ V/m, as shown in the figure. If the particle leaves the circle at point $C$, find $\\dfrac{u^2}{5}$. ($g=10\\ \\mathrm{m/s^2}$)",
-        "options": [],
-        "answer": "N',TEXT,null,'7",
+        "text": "A particle of mass $m$ and charge $q$ is projected with horizontal velocity $u$ from the lowest point $A$ of a smooth vertical circle of radius $R$. The particle is constrained to move along the inner surface of the circle. A horizontal electric field $E$ is also present in the space as shown in the figure. If the particle makes complete vertical circles, then the minimum value of $u$ is\n($qE = mg$)<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 450\" width=\"100%\" height=\"100%\">\n  <!-- Circle -->\n  <circle cx=\"250\" cy=\"220\" r=\"180\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n  \n  <!-- Axes -->\n  <line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"420\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <line x1=\"30\" y1=\"220\" x2=\"470\" y2=\"220\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Point A -->\n  <circle cx=\"250\" cy=\"400\" r=\"6\" fill=\"#000\" />\n  <text x=\"235\" y=\"430\" font-family=\"serif\" font-size=\"24\">A</text>\n  \n  <!-- Point C -->\n  <circle cx=\"365\" cy=\"112\" r=\"6\" fill=\"#000\" />\n  <text x=\"385\" y=\"115\" font-family=\"serif\" font-size=\"24\">C</text>\n  \n  <!-- Line from center to C -->\n  <line x1=\"250\" y1=\"220\" x2=\"365\" y2=\"112\" stroke=\"#000\" stroke-width=\"1.5\" />\n  \n  <!-- Angle 53 deg -->\n  <path d=\"M 290 220 A 40 40 0 0 0 305 185\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <text x=\"315\" y=\"205\" font-family=\"serif\" font-size=\"22\">53\u00b0</text>\n  \n  <!-- Velocity u vector at A -->\n  <line x1=\"250\" y1=\"400\" x2=\"360\" y2=\"400\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"360,396 372,400 360,404\" fill=\"#000\" />\n  <text x=\"380\" y=\"408\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">u</text>\n  \n  <!-- Gravity g vector -->\n  <line x1=\"800\" y1=\"100\" x2=\"800\" y2=\"130\" stroke=\"#000\" stroke-width=\"1.5\" /> <!-- outside or correct pos -->\n  <line x1=\"380\" y1=\"95\" x2=\"380\" y2=\"125\" stroke=\"none\" />\n  <!-- Let's put g properly top right -->\n  <g transform=\"translate(150, 0)\">\n    <line x1=\"250\" y1=\"90\" x2=\"250\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <polygon points=\"246,120 250,128 254,120\" fill=\"#000\" />\n    <text x=\"265\" y=\"115\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">g</text>\n  </g>\n  \n  <!-- Electric field E vector bottom right -->\n  <g transform=\"translate(130, 160)\">\n    <line x1=\"250\" y1=\"220\" x2=\"280\" y2=\"220\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <polygon points=\"280,216 288,220 280,224\" fill=\"#000\" />\n    <text x=\"268\" y=\"255\" font-family=\"serif\" font-style=\"italic\" font-size=\"24\">E</text>\n  </g>\n</svg>",
+        "options": [
+          "$\\sqrt{5gR}$",
+          "$\\sqrt{3gR}$",
+          "$\\sqrt{4gR}$",
+          "$\\sqrt{gR}$"
+        ],
+        "answer": "7",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -326,7 +357,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/13.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 14,
@@ -334,14 +366,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "The angle $\\theta$ with the vertical, at which it loses contact with the trolley is",
+        "text": "A small block of mass $m$ is placed on the top of a hemispherical shell of radius $R$ fixed to a cart which is moving with a constant acceleration $a = \\frac{2g}{9}$ as shown in the figure. Height of the cart is $h = \\frac{4R}{3}$. The block is given a gentle push so that it starts sliding down the shell. Find the horizontal distance from the edge of the cart where the block lands on the ground.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\">\n  <!-- Ground -->\n  <line x1=\"50\" y1=\"290\" x2=\"450\" y2=\"290\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 50 290 L 60 305 M 70 290 L 80 305 M 90 290 L 100 305 M 110 290 L 120 305 M 130 290 L 140 305 M 150 290 L 160 305 M 170 290 L 180 305 M 190 290 L 200 305 M 210 290 L 220 305 M 230 290 L 240 305 M 250 290 L 260 305 M 270 290 L 280 305 M 290 290 L 300 305 M 310 290 L 320 305 M 330 290 L 340 305 M 350 290 L 360 305 M 370 290 L 380 305 M 390 290 L 400 305 M 410 290 L 420 305 M 430 290 L 440 305\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/>\n\n  <!-- Cart Body -->\n  <rect x=\"100\" y=\"130\" width=\"300\" height=\"130\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n  \n  <!-- Wheels -->\n  <circle cx=\"150\" cy=\"270\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n  <circle cx=\"150\" cy=\"270\" r=\"5\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <circle cx=\"350\" cy=\"270\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n  <circle cx=\"350\" cy=\"270\" r=\"5\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n\n  <!-- Hemispherical Shell -->\n  <path d=\"M 175 130 A 75 75 0 0 1 325 130 Z\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Dashed center line -->\n  <line x1=\"250\" y1=\"55\" x2=\"250\" y2=\"130\" stroke=\"#000\" stroke-dasharray=\"4,4\" stroke-width=\"1.5\"/>\n\n  <!-- Small block m -->\n  <rect x=\"240\" y=\"43\" width=\"20\" height=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <text x=\"270\" y=\"55\" font-family=\"serif\" font-size=\"16\">m</text>\n\n  <!-- Radius R arrow -->\n  <line x1=\"250\" y1=\"130\" x2=\"315\" y2=\"75\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <polygon points=\"315,75 305,77 311,84\" fill=\"#000\"/>\n  <text x=\"285\" y=\"95\" font-family=\"serif\" font-size=\"18\">R</text>\n\n  <!-- Acceleration arrow -->\n  <line x1=\"400\" y1=\"195\" x2=\"440\" y2=\"195\" stroke=\"#000\" stroke-width=\"2\"/>\n  <polygon points=\"440,195 430,191 430,199\" fill=\"#000\"/>\n  <text x=\"420\" y=\"185\" font-family=\"serif\" font-size=\"18\">a = 2g/9</text>\n\n  <!-- Height h dimension -->\n  <line x1=\"75\" y1=\"130\" x2=\"75\" y2=\"265\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <polygon points=\"75,130 71,140 79,140\" fill=\"#000\"/>\n  <polygon points=\"75,265 71,255 79,255\" fill=\"#000\"/>\n  <text x=\"20\" y=\"205\" font-family=\"serif\" font-size=\"18\">h = 4R/3</text>\n</svg>",
         "options": [
           "$37^\\circ$",
           "$53^\\circ$",
           "$\\cos^{-1}\\!\\left(\\dfrac23\\right)$",
           "$\\dfrac\\pi2-\\cos^{-1}\\!\\left(\\dfrac23\\right)$"
         ],
-        "answer": "S',TEXT,[r`$37^\\circ$`,r`$53^\\circ$`,r`$\\cos^{-1}\\!\\left(\\dfrac23\\right)$`,r`$\\dfrac\\pi2-\\cos^{-1}\\!\\left(\\dfrac23\\right)$`],0,'P14",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -353,7 +385,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/14.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 15,
@@ -361,14 +394,14 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "Single Correct",
-        "text": "The time taken by the mass to drop on the floor, after losing contact, is",
+        "text": "A small block of mass $m$ is placed on the top of a fixed hemispherical dome of radius $R$. Alternatively, if the dome is placed on a cart of height $h = \\frac{4R}{3}$ which is moving horizontally with constant acceleration $a = \\frac{2g}{9}$ as shown in the figure, the block is released from the top. Find the ratio of the normal reaction on the block just after release in the two cases respectively.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\">\n  <!-- Ground -->\n  <rect x=\"50\" y=\"310\" width=\"400\" height=\"10\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\"/>\n  <path d=\"M 50 320 L 60 330 M 70 320 L 80 330 M 90 320 L 100 330 M 110 320 L 120 330 M 130 320 L 140 330 M 150 320 L 160 330 M 170 320 L 180 330 M 190 320 L 200 330 M 210 320 L 220 330 M 230 320 L 240 330 M 250 320 L 260 330 M 270 320 L 280 330 M 290 320 L 300 330 M 310 320 L 320 330 M 330 320 L 340 330 M 350 320 L 360 330 M 370 320 L 380 330 M 390 320 L 400 330 M 410 320 L 420 330 M 430 320 L 440 330 M 450 320 L 460 330\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/>\n\n  <!-- Cart / Box -->\n  <rect x=\"150\" y=\"160\" width=\"250\" height=\"150\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Wheels -->\n  <circle cx=\"190\" cy=\"315\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n  <circle cx=\"190\" cy=\"315\" r=\"5\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <circle cx=\"360\" cy=\"315\" r=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n  <circle cx=\"360\" cy=\"315\" r=\"5\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n\n  <!-- Hemispherical Dome -->\n  <path d=\"M 180 160 A 95 95 0 0 1 370 160 Z\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"2\"/>\n\n  <!-- Block m at top -->\n  <rect x=\"264\" y=\"55\" width=\"20\" height=\"12\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <text x=\"295\" y=\"65\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\">m</text>\n\n  <!-- Radius R line and label -->\n  <line x1=\"275\" y1=\"160\" x2=\"335\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <line x1=\"275\" y1=\"160\" x2=\"275\" y2=\"67\" stroke=\"#000\" stroke-dasharray=\"5,5\" stroke-width=\"1.5\"/>\n  <text x=\"310\" y=\"125\" font-family=\"serif\" font-size=\"20\" font-style=\"italic\">R</text>\n\n  <!-- Height h arrow and label -->\n  <line x1=\"115\" y1=\"160\" x2=\"115\" y2=\"310\" stroke=\"#000\" stroke-width=\"1.5\"/>\n  <polygon points=\"115,155 110,165 120,165\" fill=\"#000\"/>\n  <polygon points=\"115,315 110,305 120,305\" fill=\"#000\"/>\n  <text x=\"55\" y=\"245\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\">h = 4R/3</text>\n\n  <!-- Acceleration a arrow and label -->\n  <line x1=\"400\" y1=\"235\" x2=\"445\" y2=\"235\" stroke=\"#000\" stroke-width=\"2\"/>\n  <polygon points=\"450,235 440,230 440,240\" fill=\"#000\"/>\n  <text x=\"420\" y=\"222\" font-family=\"serif\" font-size=\"22\" font-style=\"italic\">a = 2g/9</text>\n</svg>",
         "options": [
           "$\\sqrt{\\dfrac{2R}{3g}}$",
           "$\\sqrt{\\dfrac{6R}{3g}}$",
           "$2\\sqrt{\\dfrac{2R}{3g}}$",
           "Can't be determined"
         ],
-        "answer": "S',TEXT,[r`$\\sqrt{\\dfrac{2R}{3g}}$`,r`$\\sqrt{\\dfrac{6R}{3g}}$`,r`$2\\sqrt{\\dfrac{2R}{3g}}$`,r`Can't be determined`],2,'P15",
+        "answer": "3",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -380,7 +413,8 @@
         "unansweredMarks": 0,
         "chapter": "",
         "topic": "",
-        "image": "/tests/mathongo-qapt2/questions/15.webp"
+        "image": "",
+        "optionImages": []
       },
       {
         "id": 16,
@@ -395,7 +429,7 @@
           "$6$ J",
           "$8$ J"
         ],
-        "answer": "[r`$2$ J`,r`$4$ J`,r`$6$ J`,r`$8$ J`]",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -421,7 +455,7 @@
           "$x=2.5$ m",
           "$x=4$ m"
         ],
-        "answer": "[r`$x=3$ m`,r`$x=2$ m`,r`$x=2.5$ m`,r`$x=4$ m`]",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -447,7 +481,7 @@
           "$145$ g",
           "$149$ g"
         ],
-        "answer": "[r`$140$ g`,r`$141.4$ g`,r`$145$ g`,r`$149$ g`]",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -473,7 +507,7 @@
           "$\\dfrac{0.5}{\\pi}$ mm",
           "$\\dfrac{0.8}{\\pi}$ mm"
         ],
-        "answer": "[r`$\\dfrac{0.04}{\\pi}$ mm`,r`$\\dfrac{0.4}{\\pi}$ mm`,r`$\\dfrac{0.5}{\\pi}$ mm`,r`$\\dfrac{0.8}{\\pi}$ mm`]",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -499,7 +533,7 @@
           "$X_4Y_5$",
           "None of these"
         ],
-        "answer": "[r`$X_4Y_3$`,r`$X_5Y_4$`,r`$X_4Y_5$`,r`None of these`]",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -525,7 +559,7 @@
           "$0$",
           "$\\dfrac12$"
         ],
-        "answer": "[r`$1$`,r`$2$`,r`$0$`,r`$\\dfrac12$`]",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -551,7 +585,7 @@
           "Number of nearest $B^-$ ions of a $B^-$ ion is $8$ in the resulting crystal",
           "Percentage decrease in density is $25\\%$"
         ],
-        "answer": "1, 2",
+        "answer": "2, 3, 4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -577,7 +611,7 @@
           "In a spontaneous electrolyte concentration cell of the type $M\\,|\\,M^{n+}(C_1)\\,||\\,M^{n+}(C_2)\\,|\\,M$, the continuous operation of the cell causes a net increase in the metal ion concentration in the cathodic compartment.",
           "For the net cell reaction of any concentration cell, the standard cell potential $E^\\circ_{cell}$, the standard Gibbs free energy change $\\Delta G^\\circ$, and the standard entropy change $\\Delta S^\\circ$ are all strictly equal to zero."
         ],
-        "answer": "1, 2",
+        "answer": "1, 2, 4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -603,7 +637,7 @@
           "A plot of $\\ln K_{eq}$ versus $1/T$ yields a straight line with a positive slope equal to $\\dfrac{E_{a,b}-E_{a,f}}{R}$, where $E_{a,b}$ and $E_{a,f}$ are the activation energies of the backward and forward reactions.",
           "Increasing the concentration of the reactants increases the effective collision frequency, thereby directly increasing the magnitude of both rate constants $k_f$ and $k_b$."
         ],
-        "answer": "1, 2",
+        "answer": "1, 2, 3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -645,7 +679,7 @@
         "section": "Numerical",
         "text": "The following first-order reaction, $2A(aq.)\\to3B(aq.)+4C(aq.)$, is monitored by measuring the optical rotation of the reaction mixture, which contains an optically active dextrorotatory inert impurity, at different time intervals. The species $A$, $B$, and $C$ are optically active with specific rotations $20^\\circ$, $40^\\circ$, and $-80^\\circ$ per mol, respectively.<table class=\"t\" style=\"margin:8px 0\"><tr><td>Time (min)</td><td>0</td><td>22</td><td>\u221e</td></tr><tr><td>Optical rotation of reaction mixture</td><td>$120^\\circ$</td><td>$-40^\\circ$</td><td>$-120^\\circ$</td></tr></table>(Given: $\\ln3=1.1$, $\\ln2=0.7$)<br>Calculate the time (in minutes) at which the optical rotation of the reaction mixture becomes exactly zero.",
         "options": [],
-        "answer": "N',TEXT,null,'14",
+        "answer": "14",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -666,7 +700,7 @@
         "section": "Numerical",
         "text": "Consider the following seven binary liquid mixtures at $300$ K:<br>(I) n-Hexane + n-heptane &nbsp; (II) Bromoethane + chloroethane &nbsp; (III) Acetone + ethanol &nbsp; (IV) Acetone + carbon disulphide &nbsp; (V) Acetone + chloroform &nbsp; (VI) Benzene + toluene &nbsp; (VII) Phenol + aniline<br><br>Let $x$ = number of mixtures that exhibit a positive deviation from Raoult's law, $y$ = number that exhibit a negative deviation, $z$ = number that behave as ideal solutions.<br><br>An ideal binary solution is prepared by mixing $x$ moles of volatile liquid $A$ (pure vapor pressure $P_A^*=150$ mm Hg) and $z$ moles of volatile liquid $B$ (pure vapor pressure $P_B^*=50$ mm Hg) at $300$ K. The vapor in equilibrium with this initial solution is collected, isolated, and completely condensed to form a new, second liquid solution. If the total vapor pressure of this second liquid solution at $300$ K is $P_{new}$, calculate the value of $(z\\times P_{new})$ in mm Hg.",
         "options": [],
-        "answer": "N',TEXT,null,'350",
+        "answer": "350",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -687,7 +721,7 @@
         "section": "Numerical",
         "text": "In the cell $Pt(s)|H_2(g,1\\text{ bar})|HCl(aq)|AgCl(s)|Ag(s)|Pt(s)$, the cell potential is $0.92$ V when a $10^{-6}$ M HCl solution is used. If the standard electrode potential of the $(AgCl/Ag,Cl^-)$ electrode is $x\\times10^{-2}$ V, find the value of $x$. (Given: $\\dfrac{2.303RT}{F}=0.06$ V at 298 K)",
         "options": [],
-        "answer": "N',TEXT,null,'20",
+        "answer": "20",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -708,7 +742,7 @@
         "section": "Numerical",
         "text": "For bimolecular gas-phase reactions, the classical Arrhenius equation is often refined using the kinetic collision theory: $k=A'T^{1/2}e^{-E_0/RT}$, where $E_0$ is the threshold energy of the reaction and $A'$ is a temperature-independent constant.<br><br>Consider two simultaneous, parallel bimolecular gas-phase elementary reactions between $A$ and $B$: Pathway 1: $A+B\\xrightarrow{k_1}Y$; Pathway 2: $A+B\\xrightarrow{k_2}Z$. The threshold energies are $E_{0,1}=20$ kcal/mol and $E_{0,2}=23$ kcal/mol. Both pathways strictly follow the collision theory model.<br><br>At a constant temperature of $500$ K, the rate of formation of product $Y$ is exactly twice the rate of formation of product $Z$. The observed effective activation energy for the overall disappearance of the reactants is defined by $E_{a,eff}=RT^2\\dfrac{d(\\ln k_{eff})}{dT}$, where $k_{eff}$ is the effective overall rate constant.<br><br>If the effective activation energy for the overall reaction at $500$ K is $E$ kcal/mol, determine the value of $10E$. (Given: $R=2\\ \\mathrm{cal\\,K^{-1}mol^{-1}}$)",
         "options": [],
-        "answer": "N',TEXT,null,'215",
+        "answer": "215",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -729,7 +763,7 @@
         "section": "Numerical",
         "text": "Ice that burns! Methane hydrate: under high-pressure and low-temperature conditions, methane forms methane hydrate, consisting of single molecules of natural gas trapped within crystalline cavities formed by frozen water molecules. The main characteristic of the structure is dodecahedra formed from $20$ water molecules. The unit cell can be thought of as a body-centred cubic arrangement built from these dodecahedra, which are almost spherical objects. The dodecahedra are connected via additional water molecules located on the faces of the unit cell. Two water molecules can be found within each face of the unit cell. The unit cell has an edge dimension of $1.182$ nm. There are two types of cavities: one is the internal space ($X$) in the dodecahedra, somewhat smaller than the other type of voids ($Y$), of which there are $6$ per unit cell.<br><b>How many water molecules are there in a unit cell of the crystal?</b>",
         "options": [],
-        "answer": "N',TEXT,null,'46",
+        "answer": "46",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -755,7 +789,7 @@
           "$\\dfrac1{10}\\ln\\dfrac49$",
           "$\\dfrac1{10}\\ln\\dfrac29$"
         ],
-        "answer": "S',TEXT,[r`$\\dfrac1{10}\\ln\\dfrac92$`,r`$\\dfrac1{10}\\ln\\dfrac32$`,r`$\\dfrac1{10}\\ln\\dfrac49$`,r`$\\dfrac1{10}\\ln\\dfrac29$`],0,null,'cr",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -781,7 +815,7 @@
           "$\\alpha=\\dfrac34$",
           "$\\alpha=\\dfrac{13}{6}$"
         ],
-        "answer": "S',TEXT,[r`$\\alpha=\\dfrac{77}{81}$`,r`$\\alpha=\\dfrac{81}{77}$`,r`$\\alpha=\\dfrac34$`,r`$\\alpha=\\dfrac{13}{6}$`],0,null,'cr",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -807,7 +841,7 @@
           "$4\\times10^{-2}$",
           "$4\\times10^{-5}$"
         ],
-        "answer": "S',TEXT,[r`$4$`,r`$0.4$`,r`$4\\times10^{-2}$`,r`$4\\times10^{-5}$`],1,null,'pool",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -833,7 +867,7 @@
           "$4\\times10^{-5}$",
           "$10^{-5}$"
         ],
-        "answer": "S',TEXT,[r`$4\\times10^{-2}$`,r`$4\\times10^{-3}$`,r`$4\\times10^{-5}$`,r`$10^{-5}$`],2,null,'pool",
+        "answer": "3",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -859,7 +893,7 @@
           "$30$",
           "$32$"
         ],
-        "answer": "[r`$25$`,r`$26$`,r`$30$`,r`$32$`]",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -885,7 +919,7 @@
           "$12\\pi$",
           "$16\\pi$"
         ],
-        "answer": "[r`$4\\pi$`,r`$8\\pi$`,r`$12\\pi$`,r`$16\\pi$`]",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -911,7 +945,7 @@
           "$\\dfrac{9-4\\sqrt2}{7}$",
           "$\\dfrac{3+2\\sqrt2}{2}$"
         ],
-        "answer": "[r`$\\dfrac{9+4\\sqrt2}{7}$`,r`$\\dfrac{7+4\\sqrt2}{9}$`,r`$\\dfrac{9-4\\sqrt2}{7}$`,r`$\\dfrac{3+2\\sqrt2}{2}$`]",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -937,7 +971,7 @@
           "$(2+\\sqrt{13},\\,\\sqrt{17})$",
           "$(2\\sqrt2+\\sqrt5,\\,\\sqrt{17})$"
         ],
-        "answer": "[r`$(2+\\sqrt{13},\\,5)$`,r`$(2\\sqrt2+\\sqrt5,\\,5)$`,r`$(2+\\sqrt{13},\\,\\sqrt{17})$`,r`$(2\\sqrt2+\\sqrt5,\\,\\sqrt{17})$`]",
+        "answer": "1",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -1010,7 +1044,7 @@
           "The sum of all the elements in set $S_y$ is $\\dfrac{5\\pi}{2}$.",
           "The minimum absolute difference between any two distinct elements in $S_x$ is $\\dfrac\\pi4$."
         ],
-        "answer": "1, 2",
+        "answer": "1, 2, 3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -1036,7 +1070,7 @@
           "$T_h=\\pi$",
           "$T_k=\\pi$"
         ],
-        "answer": "1, 2",
+        "answer": "1, 3, 4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -1057,7 +1091,7 @@
         "section": "Numerical",
         "text": "If the equation $\\sec\\theta+\\csc\\theta=c$ has two real roots between $0$ and $2\\pi$, and $c^2<b$, then the least integral value of $b$ is",
         "options": [],
-        "answer": "N',TEXT,null,'8",
+        "answer": "8",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -1078,7 +1112,7 @@
         "section": "Numerical",
         "text": "Find the total number of distinct solutions of the equation $\\sqrt3\\sin x+\\cos x=2\\cos(99x)$ in the interval $x\\in[0,\\pi]$.<br>(Give your answer as the nearest integer)",
         "options": [],
-        "answer": "N',TEXT,null,'99",
+        "answer": "99",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -1099,7 +1133,7 @@
         "section": "Numerical",
         "text": "In an acute-angled triangle $ABC$, the tangents of the angles, $\\tan A,\\tan B,\\tan C$, are in Harmonic Progression (H.P.). Furthermore, it is given that $\\tan A+\\tan C=5\\tan B$. Evaluate the value of the expression $36(\\cot^2A+\\cot^2B+\\cot^2C)$.<br>(Give your answer as the nearest integer)",
         "options": [],
-        "answer": "N',TEXT,null,'63",
+        "answer": "63",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -1120,7 +1154,7 @@
         "section": "Numerical",
         "text": "Consider the trigonometric equation $\\sqrt3\\sec x+\\csc x=4$. The general solution can be expressed as the union of two distinct families of angles: $x=2k\\pi+\\alpha$ and $x=\\dfrac{2k\\pi}{3}+\\beta$, where $k\\in\\mathbb Z$, and $\\alpha$ and $\\beta$ are the smallest positive angles in their respective families. Find the exact value of the expression $36\\left(\\dfrac\\alpha\\pi+\\dfrac\\beta\\pi\\right)$.<br>(Give your answer as the nearest integer)",
         "options": [],
-        "answer": "N',TEXT,null,'16",
+        "answer": "16",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -1141,7 +1175,7 @@
         "section": "Numerical",
         "text": "Consider the trigonometric series sum $S=\\displaystyle\\sum_{k=1}^{9}\\tan\\!\\left(\\dfrac{\\pi}{3\\cdot2^k}\\right)\\sec\\!\\left(\\dfrac{\\pi}{3\\cdot2^{k-1}}\\right)$. If the value of the sum $S$ can be expressed in the form $\\sqrt a-\\tan\\!\\left(\\dfrac\\pi b\\right)$, where $a$ and $b$ are positive integers, find the value of $\\dfrac ba$.<br>(Give your answer as the nearest integer)",
         "options": [],
-        "answer": "N',TEXT,null,'512",
+        "answer": "512",
         "maxMarks": 4,
         "negativeMarks": 0,
         "solution": "Solution not provided in original test paper.",
@@ -1167,7 +1201,7 @@
           "$\\dfrac\\pi2$",
           "$\\pi$"
         ],
-        "answer": "S',TEXT,[r`$\\dfrac\\pi8$`,r`$\\dfrac\\pi4$`,r`$\\dfrac\\pi2$`,r`$\\pi$`],1,null,'tan",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -1193,7 +1227,7 @@
           "$4$",
           "$0$"
         ],
-        "answer": "S',TEXT,[r`$1$`,r`$2$`,r`$4$`,r`$0$`],1,null,'tan",
+        "answer": "2",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -1219,7 +1253,7 @@
           "$6$",
           "$7$"
         ],
-        "answer": "S',TEXT,[r`$3$`,r`$5$`,r`$6$`,r`$7$`],2,null,'dir",
+        "answer": "3",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -1245,7 +1279,7 @@
           "$16$",
           "$18$"
         ],
-        "answer": "S',TEXT,[r`$12$`,r`$14$`,r`$16$`,r`$18$`],2,null,'dir",
+        "answer": "3",
         "maxMarks": 3,
         "negativeMarks": 1,
         "solution": "Solution not provided in original test paper.",
@@ -1259,6 +1293,7 @@
         "topic": ""
       }
     ],
-    "id": "mathongo-qapt2"
+    "id": "mathongo-qapt2",
+    "questionDisplay": "text"
   }
 }

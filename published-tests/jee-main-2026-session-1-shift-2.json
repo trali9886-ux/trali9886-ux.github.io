@@ -29,10 +29,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 1. Read the complete question and options in the supplied question image.",
+        "text": "Consider the following spectral lines for atomic hydrogen:\nA. First line of Paschen series\nB. Second line of Balmer series\nC. Third line of Paschen series\nD. Fourth line of Bracket sereis\nThe correct arrangement of the above lines in ascending order of energy is:",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/1.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -40,15 +40,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/1.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$D < C < A < B$",
+          "$A < B < C < D$",
+          "$C < D < B < A$",
+          "$D < A < C < B$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 2,
@@ -56,10 +57,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 2. Read the complete question and options in the supplied question image.",
+        "text": "Match List-I with List-II.\n\nChoose the \\textbf{correct} answer from the options given below:<br><br><table><tr><th colspan=\"2\">List-I<br>Pair of<br>Compounds</th><th colspan=\"2\">List-II<br>Type of<br>Isomers</th></tr><tr><td>A.</td><td>2-Methylpropene<br>and but-1-ene</td><td>I.</td><td>Stereoisomers</td></tr><tr><td>B.</td><td>Cis-but-2-ene and<br>trans-but-2-ene</td><td>II.</td><td>Position isomers</td></tr><tr><td>C.</td><td>2-Butanol and<br>diethyl ether</td><td>III.</td><td>Chain isomers</td></tr><tr><td>D.</td><td>But-1-ene and<br>but-2-ene</td><td>IV.</td><td>Functional group<br>isomers</td></tr></table>",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/2.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -67,15 +68,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/2.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "A-III, B-I, C-IV, D-II",
+          "A-III, B-I, C-II, D-IV",
+          "A-I, B-IV, C-III, D-II",
+          "A-II, B-I, C-IV, D-III"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 3,
@@ -83,10 +85,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 3. Read the complete question and options in the supplied question image.",
+        "text": "Consider the above sequence of reactions. The number of bromine atom(s) in the final product (P) will be:\n$$\\begin{aligned}\n& \\text{(1) } \\text{Br}_2/\\text{FeBr}_3/\\Delta \\\\\n& \\text{(2) } \\text{Sn/HCl}/\\Delta \\\\\n& \\text{(3) pH neutralisation} \\\\\n& \\text{(4) } \\text{Br}_2/\\text{H}_2\\text{O} \\\\\n& \\text{(5) } \\text{NaNO}_2/\\text{HBr}, 0-5^{\\circ}\\text{C} \\\\\n& \\text{(6) } \\text{CuBr/NaBr}\n\\end{aligned}$$<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 180\" width=\"100%\" height=\"100%\">\n  <!-- Benzene ring with NO2 group -->\n  <g transform=\"translate(80, 85)\">\n    <!-- NO2 text -->\n    <text x=\"0\" y=\"-32\" font-family=\"serif\" font-size=\"18\" text-anchor=\"middle\">NO\u2082</text><text font-family=\"Arial\" font-size=\"18\" text-anchor=\"middle\" x=\"0\" y=\"-32\"> </text>\n    <!-- NO2 bond -->\n    <line x1=\"0\" y1=\"-20\" x2=\"0\" y2=\"-5\" stroke=\"#000\" stroke-width=\"1.5\" />\n    \n    <!-- Benzene hexagon -->\n    <!-- Vertices: \n         top: (0, -5)\n         top-right: (35, 15)\n         bot-right: (35, 55)\n         bot: (0, 75)\n         bot-left: (-35, 55)\n         top-left: (-35, 15)\n    -->\n    <polygon points=\"0,-5 35,15 35,55 0,75 -35,55 -35,15\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.8\" />\n    \n    <!-- Inner circle for benzene -->\n    <circle cx=\"0\" cy=\"35\" r=\"22\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\" />\n  </g>\n\n  <!-- Reaction arrow -->\n  <line x1=\"130\" y1=\"90\" x2=\"285\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\" />\n  <polygon points=\"285,86 295,90 285,94\" fill=\"#000\" />\n\n  <!-- Reagents list -->\n  <text x=\"130\" y=\"32\" font-family=\"Times New Roman, serif\" font-size=\"16\">(1) Br\u2082/FeBr\u2083/\u0394</text>\n  <text x=\"130\" y=\"58\" font-family=\"Times New Roman, serif\" font-size=\"16\">(2) Sn/HCl/\u0394</text>\n  <text x=\"130\" y=\"84\" font-family=\"Times New Roman, serif\" font-size=\"16\">(3) pH neutralisation</text>\n  <text x=\"130\" y=\"110\" font-family=\"Times New Roman, serif\" font-size=\"16\">(4) Br\u2082/H\u2082O</text>\n  <text x=\"130\" y=\"136\" font-family=\"Times New Roman, serif\" font-size=\"16\">(5) NaNO\u2082/HBr, 0-5\u00b0C</text>\n  <text x=\"130\" y=\"162\" font-family=\"Times New Roman, serif\" font-size=\"16\">(6) CuBr/NaBr</text>\n\n  <!-- Product text -->\n  <text x=\"300\" y=\"84\" font-family=\"Times New Roman, serif\" font-size=\"16\">Major Product (P)</text>\n</svg>",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/3.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -94,15 +96,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/3.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "1",
+          "6",
+          "5",
+          "3"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 4,
@@ -110,10 +113,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 4. Read the complete question and options in the supplied question image.",
+        "text": "Aqueous $\\text{HCl}$ reacts with $\\text{MnO}_2(\\text{s})$ to form $\\text{MnCl}_2(\\text{aq})$, $\\text{Cl}_2(\\text{g})$ and $\\text{H}_2\\text{O}(l)$. What is the weight (in g) of $\\text{Cl}_2$ liberated when $8.7\\text{ g}$ of $\\text{MnO}_2(\\text{s})$ is reacted with excess aqueous $\\text{HCl}$ solution ? (Given Molar mass in $\\text{g mol}^{-1}\\text{ Mn} = 55, \\text{Cl} = 35.5, \\text{O} = 16, \\text{H} = 1$)",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/4.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -121,15 +124,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/4.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$7.1$",
+          "$71$",
+          "$21.3$",
+          "$14.2$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 5,
@@ -137,10 +141,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 5. Read the complete question and options in the supplied question image.",
+        "text": "By usual analysis, $1.00\\text{ g}$ of compound (X) gave $1.79\\text{ g}$ of magnesium pyrophosphate. The percentage of phosphorus in compound (X) is: (nearest integer)\n\n(Given, molar mass in $\\text{g mol}^{-1}$: $\\text{O} = 16$, $\\text{Mg} = 24$, $\\text{P} = 31$)",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/5.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -148,15 +152,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/5.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "50",
+          "30",
+          "20",
+          "40"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 6,
@@ -164,10 +169,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 6. Read the complete question and options in the supplied question image.",
+        "text": "Consider the following data:\n$\\Delta_{\\text{f}}\\text{H}^{\\ominus}(\\text{methane, g}) = -X \\text{ kJ mol}^{-1}$\nEnthalpy of sublimation of graphite $= Y \\text{ kJ mol}^{-1}$\nDissociation enthalpy of $\\text{H}_2 = Z \\text{ kJ mol}^{-1}$\nThe bond enthalpy of $\\text{C} - \\text{H}$ bond is given by:",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/6.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -175,15 +180,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/6.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\frac{X + Y + 2Z}{4}$",
+          "$\\frac{X + Y + 4Z}{2}$",
+          "$X + Y + Z$",
+          "$\\frac{-X + Y + Z}{4}$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 7,
@@ -191,10 +197,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 7. Read the complete question and options in the supplied question image.",
+        "text": "Match \\textbf{List-I} with \\textbf{List-II}.\nChoose the \\textbf{correct} answer from the options given below:<br><br><table>\n  <tr>\n    <th colspan=\"2\"><strong>List-I</strong></th>\n    <th colspan=\"2\"><strong>List-II</strong></th>\n  </tr>\n  <tr>\n    <td colspan=\"2\"><strong>Reagents</strong></td>\n    <td colspan=\"2\"><strong>Reaction Name<br>(Involving aldehydes)</strong></td>\n  </tr>\n  <tr>\n    <td>A.</td>\n    <td>$\\text{H}_2, \\text{Pd-BaSO}_4$</td>\n    <td>I.</td>\n    <td>Etard Reaction</td>\n  </tr>\n  <tr>\n    <td>B.</td>\n    <td>$\\text{SnCl}_2, \\text{HCl}$</td>\n    <td>II.</td>\n    <td>Rosenmund Reduction</td>\n  </tr>\n  <tr>\n    <td>C.</td>\n    <td>$\\text{CrO}_2\\text{Cl}_2, \\text{CS}_2$</td>\n    <td>III.</td>\n    <td>Gatterman\u2013Koch Reaction</td>\n  </tr>\n  <tr>\n    <td>D.</td>\n    <td>$\\text{CO}, \\text{HCl},$<br>Anhyd. $\\text{AlCl}_3$</td>\n    <td>IV.</td>\n    <td>Stephen Reaction</td>\n  </tr>\n</table>",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/7.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -202,15 +208,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/7.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "A-II, B-III, C-IV, D-I",
+          "A-IV, B-III, C-I, D-II",
+          "A-IV, B-I, C-II, D-III",
+          "A-II, B-IV, C-I, D-III"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 8,
@@ -218,10 +225,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 8. Read the complete question and options in the supplied question image.",
+        "text": "Decomposition of A is a first order reaction at $T(\\text{K})$ and is given by $\\text{A(g)} \\rightarrow \\text{B(g)} + \\text{C(g)}$. In a closed $1 \\text{ L}$ vessel, $1 \\text{ bar}$ $\\text{A(g)}$ is allowed to decompose at $T(\\text{K})$. After $100$ minutes, the total pressure was $1.5 \\text{ bar}$. What is the rate constant (in $\\min^{-1}$) of the reaction ? $(\\log 2 = 0.3)$",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/8.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -229,15 +236,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/8.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$6.9 \\times 10^{-1}$",
+          "$6.9 \\times 10^{-3}$",
+          "$6.9 \\times 10^{-2}$",
+          "$6.9 \\times 10^{-4}$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 9,
@@ -245,10 +253,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 9. Read the complete question and options in the supplied question image.",
+        "text": "The correct order of reactivity of the following benzyl halides towards reaction with $\\text{KCN}$ is:",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/9.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -256,15 +264,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/9.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$a > b > c > d$",
+          "$b > a > d > c$",
+          "$b > a > c > d$",
+          "$a > b > d > d$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 10,
@@ -272,10 +281,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 10. Read the complete question and options in the supplied question image.",
+        "text": "Given below are two statements:\n\n\\textbf{Statement-I}: The correct order in terms of atomic/ionic radii is $\\text{Al} > \\text{Mg} > \\text{Mg}^{2+} > \\text{Al}^{3+}$.\n\n\\textbf{Statement-II}: The correct order in terms of the magnitude of electron gain enthalpy is $\\text{Cl} > \\text{Br} > \\text{S} > \\text{O}$.\n\nIn the light of the above statements, choose the \\textbf{correct} answer from the options given below:",
         "answer": "4",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/10.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -283,15 +292,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/10.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "Both Statement I and Statement II are false",
+          "Statement I is false but Statement II is true",
+          "Statement I is true but Statement II is false",
+          "Both Statement I and Statement II are true"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 11,
@@ -299,10 +309,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 11. Read the complete question and options in the supplied question image.",
+        "text": "The \\textbf{correct} statements are:\n\nA. Activation energy for enzyme catalysed hydrolysis of sucrose is lower than that of acid catalysed hydrolysis.\n\nB. During denaturation, secondary and tertiary structures of a protein are destroyed but primary structure remains intact.\n\nC. Nucleotides are joined together by glycosidic linkage between $\\text{C}_1$ and $\\text{C}_4$ carbons of the pentose sugar\n\nD. Quaternary structure of proteins represents overall folding of the polypeptide chain.\n\nChoose the \\textbf{correct} answer from the options given below:",
         "answer": "4",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/11.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -310,15 +320,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/11.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "A, C and D Only",
+          "A, B and D Only",
+          "A and B Only",
+          "B and C Only"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 12,
@@ -326,10 +337,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 12. Read the complete question and options in the supplied question image.",
+        "text": "The correct order of the rate of the reaction for the following reaction with respect to nucleophiles is:\n$$\\text{CH}_3\\text{Br} + \\text{Nu}^{\\ominus} \\longrightarrow \\text{CH}_3\\text{Nu} + \\text{Br}^{\\ominus}$$",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/12.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -337,15 +348,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/12.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\text{PhO}^- > ^-\\text{OH} > \\text{CH}_3\\text{COO}^- > \\text{ClO}_4^-$",
+          "$\\text{ClO}_4^- > \\text{CH}_3\\text{COO}^- > ^-\\text{OH} > \\text{PhO}^-$",
+          "$\\text{CH}_3\\text{COO}^- > \\text{PhO}^- > ^-\\text{OH} > \\text{ClO}_4^-$",
+          "$^-\\text{OH} > \\text{PhO}^- > \\text{CH}_3\\text{COO}^- > \\text{ClO}_4^-$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 13,
@@ -353,10 +365,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 13. Read the complete question and options in the supplied question image.",
+        "text": "Given below are two statements:\n\n\\textbf{Statement I:} Crystal Field Stabilization Energy (CFSE) of $[\\text{Cr}(\\text{H}_2\\text{O})_6]^{2+}$ is greater than that of $[\\text{Mn}(\\text{H}_2\\text{O})_6]^{2+}$.\n\n\\textbf{Statement II:} Potassium ferricyanide has a greater spin-only magnetic moment than sodium Ferrocyanide.\n\nIn the light of the above statements, choose the \\textbf{correct} answer from the options given below:",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/13.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -364,15 +376,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/13.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "Both \\textbf{Statement I} and \\textbf{Statement II} are true",
+          "Both \\textbf{Statement I} and \\textbf{Statement II} are false",
+          "\\textbf{Statement I} is true but \\textbf{Statement II} is false",
+          "\\textbf{Statement I} is false but \\textbf{Statement II} is true"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 14,
@@ -380,10 +393,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 14. Read the complete question and options in the supplied question image.",
+        "text": "The correct increasing order of $\\text{C} - \\text{H(A)}$, $\\text{C} - \\text{O(B)}$, $\\text{C} = \\text{O(C)}$ and $\\text{C} \\equiv \\text{N(D)}$ bonds in terms of covalent bond length is:",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/14.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -391,15 +404,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/14.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$A < B < C < D$",
+          "$A < D < C < B$",
+          "$D < C < B < A$",
+          "$D < C < A < B$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 15,
@@ -407,10 +421,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 15. Read the complete question and options in the supplied question image.",
+        "text": "Given below are four compounds:\n(a) n-propyl chloride\n(b) iso-propyl chloride\n(c) sec-butyl chloride\n(d) neo-pentyl chloride\nPercentage of carbon in the one which exhibits optical isomerism is:",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/15.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -418,15 +432,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/15.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "52",
+          "56",
+          "46",
+          "40"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 16,
@@ -434,10 +449,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 16. Read the complete question and options in the supplied question image.",
+        "text": "Given below are some of the statements about $\\text{Mn}$ and $\\text{Mn}_2\\text{O}_7$. Identify the correct statements\nA. $\\text{Mn}$ forms the oxide $\\text{Mn}_2\\text{O}_7$ in which $\\text{Mn}$ is in its highest oxidation state.\nB. Oxygen stabilizes the $\\text{Mn}$ in higher oxidation states by forming multiple bonds with $\\text{Mn}$\nC. $\\text{Mn}_2\\text{O}_7$ is an ionic oxide.\nD. The structure of $\\text{Mn}_2\\text{O}_7$ consists of one bridged oxygen.\nChoose the \\textbf{correct} answer from the options given below:",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/16.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -445,15 +460,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/16.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\text{A}, \\text{B}, \\text{C}$ and $\\text{D}$",
+          "$\\text{A}, \\text{B}$ and $\\text{D}$ Only",
+          "$\\text{A}, \\text{C}$ and $\\text{D}$ Only",
+          "$\\text{A}, \\text{B}$ and $\\text{C}$ Only"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 17,
@@ -461,10 +477,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 17. Read the complete question and options in the supplied question image.",
+        "text": "For a closed circuit Daniell cell, which of the following plots is the accurate one at a given temperature ?<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 650\">\n  <!-- Option (1) -->\n  <text x=\"30\" y=\"130\" font-family=\"Arial\" font-size=\"20\">(1)</text>\n  <text x=\"60\" y=\"130\" font-family=\"Arial\" font-size=\"20\">E\u00b0<tspan baseline-shift=\"sub\" font-size=\"70%\">cell</tspan></text>\n  <line x1=\"115\" y1=\"130\" x2=\"130\" y2=\"130\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"130,125 140,130 130,135\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"145\" x2=\"120\" y2=\"40\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"115,50 120,40 125,50\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"145\" x2=\"230\" y2=\"145\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"220,140 230,145 220,150\" fill=\"#000\" />\n  <text x=\"160\" y=\"165\" font-family=\"Arial\" font-size=\"18\">time</text>\n\n  <line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"145\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Option (2) -->\n  <text x=\"30\" y=\"270\" font-family=\"Arial\" font-size=\"20\">(2)</text>\n  <text x=\"60\" y=\"270\" font-family=\"Arial\" font-size=\"20\">E\u00b0<tspan baseline-shift=\"sub\" font-size=\"70%\">cell</tspan></text>\n  <line x1=\"115\" y1=\"270\" x2=\"130\" y2=\"270\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"130,265 140,270 130,275\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"285\" x2=\"120\" y2=\"180\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"115,190 120,180 125,190\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"285\" x2=\"230\" y2=\"285\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"220,280 230,285 220,290\" fill=\"#000\" />\n  <text x=\"160\" y=\"305\" font-family=\"Arial\" font-size=\"18\">time</text>\n\n  <line x1=\"120\" y1=\"240\" x2=\"220\" y2=\"240\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Option (3) -->\n  <text x=\"30\" y=\"410\" font-family=\"Arial\" font-size=\"20\">(3)</text>\n  <text x=\"60\" y=\"410\" font-family=\"Arial\" font-size=\"20\">E\u00b0<tspan baseline-shift=\"sub\" font-size=\"70%\">cell</tspan></text>\n  <line x1=\"115\" y1=\"410\" x2=\"130\" y2=\"410\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"130,405 140,410 130,415\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"425\" x2=\"120\" y2=\"320\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"115,330 120,320 125,330\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"425\" x2=\"230\" y2=\"425\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"220,420 230,425 220,430\" fill=\"#000\" />\n  <text x=\"160\" y=\"445\" font-family=\"Arial\" font-size=\"18\">time</text>\n\n  <line x1=\"120\" y1=\"350\" x2=\"200\" y2=\"410\" stroke=\"#000\" stroke-width=\"2\" />\n\n  <!-- Option (4) -->\n  <text x=\"30\" y=\"550\" font-family=\"Arial\" font-size=\"20\">(4)</text>\n  <text x=\"60\" y=\"550\" font-family=\"Arial\" font-size=\"20\">E\u00b0<tspan baseline-shift=\"sub\" font-size=\"70%\">cell</tspan></text>\n  <line x1=\"115\" y1=\"550\" x2=\"130\" y2=\"550\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"130,545 140,550 130,555\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"565\" x2=\"120\" y2=\"460\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"115,470 120,460 125,470\" fill=\"#000\" />\n  \n  <line x1=\"120\" y1=\"565\" x2=\"230\" y2=\"565\" stroke=\"#000\" stroke-width=\"2\" />\n  <polygon points=\"220,560 230,565 220,570\" fill=\"#000\" />\n  <text x=\"160\" y=\"585\" font-family=\"Arial\" font-size=\"18\">time</text>\n\n  <line x1=\"120\" y1=\"535\" x2=\"200\" y2=\"470\" stroke=\"#000\" stroke-width=\"2\" />\n</svg>",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/17.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -472,15 +488,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/17.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$E^\\circ_{\\text{cell}}$ vs time vertical line",
+          "$E^\\circ_{\\text{cell}}$ vs time horizontal line",
+          "$E^\\circ_{\\text{cell}}$ vs time sloping downwards",
+          "$E^\\circ_{\\text{cell}}$ vs time sloping upwards"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 18,
@@ -488,10 +505,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 18. Read the complete question and options in the supplied question image.",
+        "text": "Given below are two statements :\n\nStatement $-\\mathbf{I}$ : Compound $(\\mathbf{X})$, shown below ,\ndissolves in $\\text{NaHCO}_3$ solution and has two chiral\n\ncarbon atoms\n\nStatement $-\\mathbf{II}$ : Compound $(\\mathbf{Y})$, shown below,\nhas two carbons with $\\text{sp}^3$ hybridization, one carbon\nwith $\\text{sp}^2$ and one carbon with $\\text{sp}$ hybridization\n\nIn the light of the above statements, choose the\ncorrect answer from the options given below :<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 200\" width=\"100%\" height=\"100%\">\n  <!-- Compound X structures and labels -->\n  <g transform=\"translate(310, 30)\" font-family=\"sans-serif\" font-size=\"16\">\n    <!-- COOH group -->\n    <text x=\"30\" y=\"15\">COOH</text>\n    <line x1=\"22\" y1=\"25\" x2=\"15\" y2=\"45\" stroke=\"#000\" stroke-width=\"2\" />\n    <circle cx=\"15\" cy=\"45\" r=\"2\" fill=\"#000\" />\n    \n    <!-- Cyclopentane ring (approximate) -->\n    <!-- top-right: (15,45), top-left: (-20,45), bottom-left: (-25,85), bottom-right: (20,85) -->\n    <polyline points=\"15,45 -20,45 -25,85 20,85 15,45\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n    \n    <!-- C=O attached to cyclopentane -->\n    <line x1=\"-20\" y1=\"45\" x2=\"-55\" y2=\"35\" stroke=\"#000\" stroke-width=\"2\" />\n    <line x1=\"-55\" y1=\"35\" x2=\"-85\" y2=\"55\" stroke=\"#000\" stroke-width=\"2\" />\n    \n    <!-- Double bond O on C=O -->\n    <line x1=\"-60\" y1=\"20\" x2=\"-50\" y2=\"32\" stroke=\"#000\" stroke-width=\"2\" />\n    <text x=\"-65\" y=\"18\" font-size=\"14\">O</text>\n    \n    <!-- Benzene ring attached to C=O -->\n    <!-- from (-85,55) connecting to benzene -->\n    <polygon points=\"-85,55 -115,45 -135,70 -125,100 -95,110 -75,85\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n    <line x1=\"-109\" y1=\"51\" x2=\"-95\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <line x1=\"-125\" y1=\"65\" x2=\"-117\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\" />\n    <line x1=\"-85\" y1=\"55\" x2=\"-75\" y2=\"85\" stroke=\"#000\" stroke-width=\"1.5\" /> <!-- just a visual check -->\n    \n    <!-- Br substituent on benzene -->\n    <text x=\"-165\" y=\"110\" font-size=\"16\">Br</text>\n    <line x1=\"-148\" y1=\"95\" x2=\"-135\" y2=\"100\" stroke=\"#000\" stroke-width=\"2\" />\n    \n    <!-- Label (X) -->\n    <text x=\"-40\" y=\"130\" font-size=\"18\">(X)</text>\n  </g>\n  \n  <!-- Text 'carbon atoms' to the left of X -->\n  <text x=\"50\" y=\"105\" font-family=\"sans-serif\" font-size=\"16\">carbon atoms</text>\n\n  <!-- Compound Y structures and labels -->\n  <g transform=\"translate(110, 150)\" font-family=\"sans-serif\" font-size=\"16\">\n    <polyline points=\"0,15 25,0 50,15\" fill=\"none\" stroke=\"#000\" stroke-width=\"2\" />\n    <text x=\"55\" y=\"20\">=C=O</text>\n    <text x=\"20\" y=\"40\">(Y)</text>\n  </g>\n</svg>",
         "answer": "4",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/18.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -499,15 +516,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/18.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\mathbf{Statement\\ I}$ is true but $\\mathbf{Statement\\ II}$ is false",
+          "$\\mathbf{Statement\\ I}$ is false but $\\mathbf{Statement\\ II}$ is true",
+          "Both $\\mathbf{Statement\\ I}$ and $\\mathbf{Statement\\ II}$ are true",
+          "Both $\\mathbf{Statement\\ I}$ and $\\mathbf{Statement\\ II}$ are false"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 19,
@@ -515,10 +533,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 19. Read the complete question and options in the supplied question image.",
+        "text": "Given below are two statements :\n\n**Statement I** : The correct order in terms of bond dissociation enthalpy is $\\text{Cl}_2 > \\text{Br}_2 > \\text{F}_2 > \\text{I}_2$\n\n**Statement II** : The correct trend in the covalent character of the metal halides is $[\\text{SnCl}_4 > \\text{SnCl}_2]$, $[\\text{PbCl}_4 > \\text{PbCl}_2]$ and $[\\text{UF}_4 > \\text{UF}_6]$\n\nIn the light of the above statements, choose the **correct** answer from the options given below :",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/19.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -526,15 +544,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/19.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "**Statement I** is true but **Statement II** is false",
+          "Both **Statement I** and **Statement II** are true",
+          "**Statement I** is false but **Statement II** is true",
+          "Both **Statement I** and **Statement II** are false"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 20,
@@ -542,10 +561,10 @@
         "subject": "Physics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 20. Read the complete question and options in the supplied question image.",
+        "text": "On heating a mixture of common salt and $\\text{K}_2\\text{Cr}_2\\text{O}_7$ in equal amount along with concentrated $\\text{H}_2\\text{SO}_4$ in a test tube, a gas is evolved. Formula of the gas evolved and oxidation state of the central metal atom in the gas respectively are :",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/20.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -553,15 +572,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/20.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\text{CrO}_2\\text{Cl}_2$ and $+5$",
+          "$\\text{CrO}_2\\text{Cl}_2$ and $+6$",
+          "$\\text{Cr}_2\\text{O}_2\\text{Cl}_2$ and $+6$",
+          "$\\text{Cr}_2\\text{O}_2\\text{Cl}_2$ and $+3$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 21,
@@ -569,10 +589,10 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Question 21. Read the complete question and options in the supplied question image.",
+        "text": "The first and second ionization constants of $\\mathrm{H_2X}$ are $2.5 \\times 10^{-8}$ and $1.0 \\times 10^{-13}$ respectively. The concentration of $\\mathrm{X^{2-}}$ in $0.1 \\text{ M } \\mathrm{H_2X}$ solution is $\\underline{\\hspace{1cm}} \\times 10^{-15} \\text{ M}$. (Nearest Integer)",
         "answer": "1800",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/21.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -582,7 +602,8 @@
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 22,
@@ -590,10 +611,10 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Question 22. Read the complete question and options in the supplied question image.",
+        "text": "The osmotic pressure of a living cell in $12\\text{ atm}$ at $300\\text{ K}$. The strength of sodium chloride solution that is isotonic with the living cell at this temperature is $\\text{\\underline{\\hspace{2cm}}}$ $\\text{g L}^{-1}$. (Nearest integer)\n\nGiven : $\\text{R} = 0.08\\text{ L atm K}^{-1}\\text{ mol}^{-1}$\n\nAssume complete dissociation of $\\text{NaCl}$\n\n(Given : Molar mass of $\\text{Na}$ and $\\text{Cl}$ are $23$ and $35.5\\text{ g mol}^{-1}$ respectively.)",
         "answer": "5",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/22.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -603,7 +624,8 @@
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 23,
@@ -611,10 +633,10 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Question 23. Read the complete question and options in the supplied question image.",
+        "text": "A substance \\text{ \\textquoteleft X \\textquoteright} ($1.5\\text{ g}$) dissolved in $150\\text{ g}$ of a solvent \\text{ \\textquoteleft Y \\textquoteright} (molar mass $= 300\\text{ g mol}^{-1}$) led to an elevation of the boiling point by $0.5\\text{ K}$. The relative lowering in the vapour pressure of the solvent \\text{ \\textquoteleft Y \\textquoteright} is $\\underline{\\quad\\quad\\quad\\quad\\quad} \\times 10^{-2}$. (Nearest integer)\n\n[Given : $\\text{K}_{\\text{b}}$ of the solvent $= 5.0\\text{ K kg mol}^{-1}$]\n\nAssume the solution to be dilute and no association or dissociation of X takes place in solution.",
         "answer": "10",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/23.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -624,7 +646,8 @@
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 24,
@@ -632,10 +655,10 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Question 24. Read the complete question and options in the supplied question image.",
+        "text": "Identify the metal ions among $\\text{Co}^{2+}$, $\\text{Ni}^{2+}$, $\\text{Fe}^{2+}$, $\\text{V}^{3+}$ and $\\text{Ti}^{2+}$ having a spin-only magnetic moment value more than $3.0\\text{ BM}$. The sum of unpaired electrons present in the high spin octahedral complexes formed by those metal ions is",
         "answer": "14",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/24.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -645,7 +668,8 @@
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 25,
@@ -653,10 +677,10 @@
         "subject": "Physics",
         "type": "integer",
         "section": "Numerical",
-        "text": "Question 25. Read the complete question and options in the supplied question image.",
+        "text": "MX is a sparingly soluble salt that follows the given solubility equilibrium at $298\\text{ K}$<br><br>$$\\text{MX}(\\text{s}) \\rightleftharpoons \\text{M}^{+}(\\text{aq}) + \\text{X}^{-}(\\text{aq}) ; \\text{K}_{\\text{sp}} = 10^{-10}$$<br><br>If the standard reduction potential for<br><br>$$\\text{M}^{+}(\\text{aq}) \\xrightarrow{+\\text{e}^{-}} \\text{M}(\\text{s}) \\text{ is } \\left(\\text{E}^{\\ominus}_{\\text{M}^{+}/\\text{M}}\\right) = 0.79\\text{V}$$ , then<br><br>the value of the standard reduction potential for the metal/metal insoluble salt electrode $\\text{E}^{\\ominus}_{\\text{X}^{-}/\\text{MX}(\\text{s})/\\text{M}}$ is<br><br>$\\text{\\underline{\\quad \\quad \\quad \\quad}}$ $\\text{mV}$. (nearest integer)<br><br>$$\\text{[Given: } \\frac{2.303\\text{RT}}{\\text{F}} = 0.059\\text{V} \\text{]}$$",
         "answer": "350",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/25.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -666,7 +690,8 @@
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 26,
@@ -674,10 +699,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 26. Read the complete question and options in the supplied question image.",
+        "text": "The positive integer n, for which the solutions of the equation\n\n$x(x+2) + (x + 2)(x + 4) + \\dots. + (x + 2n - 2)(x+2n)$\n\n$= \\frac{8n}{3}$\n\nare two consecutive even integers, is :-",
         "answer": "4",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/26.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -685,15 +710,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/26.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "3",
+          "6",
+          "12",
+          "9"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 27,
@@ -701,10 +727,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 27. Read the complete question and options in the supplied question image.",
+        "text": "Let $f: \\mathbf{R} \\rightarrow \\mathbf{R}$ be a twice differentiable function such that $f''(x) > 0$ for all $x \\in \\mathbf{R}$ and $f'(a - 1) = 0$, where $a$ is real number. Let $g(x) = f(\\tan^2 x - 2\\tan x + a)$, $0 < x < \\frac{\\pi}{2}$.\n\nConsider the following two statements :\n\n(I) $g$ is increasing in $\\left(0, \\frac{\\pi}{4}\\right)$\n\n(II) $g$ is decreasing in $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$\n\nThen,",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/27.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -712,15 +738,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/27.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "Neither (I) nor (II) is True",
+          "Only (II) is True",
+          "Only (I) is True",
+          "Both (I) and (II) are True"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 28,
@@ -728,10 +755,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 28. Read the complete question and options in the supplied question image.",
+        "text": "Let $f(x) = x^{3} + x^{2} f^{\\prime} (1) + 2x f^{\\prime \\prime} (2) + f^{\\prime \\prime \\prime} (3)$, $x \\in \\text{R}$. Then the value of $f^{\\prime} (5)$ is :",
         "answer": "3",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/28-refreshed-20261007.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -739,15 +766,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/28.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\frac{62}{5}$",
+          "$\\frac{657}{5}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{117}{5}$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 29,
@@ -755,10 +783,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 29. Read the complete question and options in the supplied question image.",
+        "text": "In the line $\\alpha x + 4y = \\sqrt{7}$ , where $\\alpha \\in \\text{R}$, touches the ellipse $3x^2 + 4y^2 = 1$ at the point P in the first quadrant, then one of the focal distances of P is :",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/29.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -766,15 +794,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/29.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\frac{1}{\\sqrt{3}} - \\frac{1}{2\\sqrt{11}}$",
+          "$\\frac{1}{\\sqrt{3}} + \\frac{1}{2\\sqrt{5}}$",
+          "$\\frac{1}{\\sqrt{3}} - \\frac{1}{2\\sqrt{5}}$",
+          "$\\frac{1}{\\sqrt{3}} + \\frac{1}{2\\sqrt{7}}$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 30,
@@ -782,10 +811,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 30. Read the complete question and options in the supplied question image.",
+        "text": "Let $y^2 = 12x$ be the parabola with its vertex at O. Let P be a point on the parabola and A be a point on the x-axis such that $\\angle OPA = 90^\\circ$. Then the locus of the centroid of such triangles OPA is :",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/30.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -793,15 +822,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/30.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$y^2 - 6x + 4 = 0$",
+          "$y^2 - 9x + 6 = 0$",
+          "$y^2 - 2x + 8 = 0$",
+          "$y^2 - 4x + 8 = 0$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 31,
@@ -809,10 +839,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 31. Read the complete question and options in the supplied question image.",
+        "text": "Let one end of a focal chord of the parabola $y^2 = 16x$ be $(16, 16)$. If $P(\\alpha, \\beta)$ divides this focal chord internally in the ratio $5 : 2$, then the minimum value of $\\alpha + \\beta$ is equal to :",
         "answer": "1",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/31.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -820,15 +850,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/31.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "22",
+          "7",
+          "5",
+          "16"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 32,
@@ -836,10 +867,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 32. Read the complete question and options in the supplied question image.",
+        "text": "Let the line L pass through the point $(-3, 5, 2)$ and make equal angles with the positive coordinate axes. If the distance of L from the point $(-2, r, 1)$ is $\\sqrt{\\frac{14}{3}}$, then the sum of all possible values of r is :",
         "answer": "4",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/32.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -847,15 +878,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/32.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "12",
+          "16",
+          "6",
+          "10"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 33,
@@ -863,10 +895,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 33. Read the complete question and options in the supplied question image.",
+        "text": "Let the line $\\text{L}_1$ be parallel to the vector $-3\\hat{\\text{i}}+2\\hat{\\text{j}}+4\\hat{\\text{k}}$ and pass through the point $(2, 6, 7)$ and the line $\\text{L}_2$ be parallel to the vector $2\\hat{\\text{i}}+\\hat{\\text{j}}+3\\hat{\\text{k}}$ and pass through the point $(4, 3, 5)$. If the line $\\text{L}_3$ is parallel to the vector $-3\\hat{\\text{i}}+5\\hat{\\text{j}}+16\\hat{\\text{k}}$ and intersects the lines $\\text{L}_1$ and $\\text{L}_2$ at the points $\\text{C}$ and $\\text{D}$, respectively, then $\\left|\\overrightarrow{\\text{CD}}\\right|^2$ is equal to :",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/33.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -874,15 +906,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/33.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "171",
+          "290",
+          "312",
+          "89"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 34,
@@ -890,10 +923,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 34. Read the complete question and options in the supplied question image.",
+        "text": "Let $\\alpha$ and $\\beta$ be the roots of equation $x^2 + 2ax + (3a + 10)$ $= 0$ such that $\\alpha < 1 < \\beta$. Then the set of all possible values of $a$ is :",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/34.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -901,15 +934,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/34.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "$\\left(-\\infty, \\frac{-11}{5}\\right) \\cup (5, \\infty)$",
+          "$(-\\infty, -2) \\cup (5, \\infty)$",
+          "$(-\\infty, -3)$",
+          "$\\left(-\\infty, \\frac{-11}{5}\\right)$"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 35,
@@ -917,10 +951,10 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Question 35. Read the complete question and options in the supplied question image.",
+        "text": "A random variable $X$ takes values $0, 1, 2, 3$ with probabilities $\\frac{2a+1}{30}, \\frac{8a-1}{30}, \\frac{4a+1}{30}, b$ respectively, where $a, b \\in \\mathbf{R}$. Let $\\mu$ and $\\sigma$ respectively be the mean and standard deviation of $X$ such that $\\sigma^2 + \\mu^2 = 2$.\nThen $\\frac{a}{b}$ is equal to :",
         "answer": "2",
         "solution": "Worked explanation from the supplied answer-key PDF.",
-        "image": "/tests/jee-main-2026-session-1-shift-2/questions/35.webp",
+        "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
         "unansweredMarks": 0,
@@ -928,15 +962,16 @@
         "topic": "",
         "solutionImage": "/tests/jee-main-2026-session-1-shift-2/solutions/35.webp",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "30",
+          "3",
+          "60",
+          "12"
         ],
         "answerVerified": true,
         "answerSourceVerified": true,
         "solutionVerified": true,
-        "solutionSourceVerified": true
+        "solutionSourceVerified": true,
+        "optionImages": []
       },
       {
         "id": 36,
@@ -1958,6 +1993,7 @@
         "solutionVerified": true,
         "solutionSourceVerified": true
       }
-    ]
+    ],
+    "questionDisplay": "text"
   }
 }
