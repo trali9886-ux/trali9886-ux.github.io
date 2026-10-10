@@ -49,7 +49,12 @@ body{min-width:320px;background:#f5f7f3}
    printed figure appears.  Mirrors assets/math-rendering.css on the site. */
 .rich-content{min-width:0;overflow-wrap:anywhere}
 .preview-question .rich-content{white-space:normal}
-.rich-content svg{display:block;max-width:100%;height:auto;margin:12px auto}
+/* A redrawn diagram carries the same look as the hand-authored RTS-1 Q1
+   figure: a 300px width cap, Georgia serif 13px and #6c7d70 ink, which on the
+   site come from the `.diagram svg` rule mirrored onto `.question-rich svg`.
+   Mirror the same declarations here so the editor preview matches. */
+.rich-content svg{display:block;max-width:min(100%,300px);height:auto;margin:12px auto;overflow:visible;font-family:Georgia,serif;font-size:13px;fill:#6c7d70}
+.rich-content svg .svg-label{font-size:11px}
 .rich-content table{border-collapse:collapse;margin:12px auto;max-width:100%;font-size:.95em}
 .rich-content th,.rich-content td{border:1px solid #cfd8d1;padding:6px 10px;text-align:left;vertical-align:top}
 .rich-content thead th{background:#eef4ef;font-weight:600}
