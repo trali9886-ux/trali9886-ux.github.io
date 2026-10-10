@@ -11,7 +11,9 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
+import traceback
 from datetime import datetime, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -19,6 +21,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 MAX_IMAGE_BYTES = 24 * 1024 * 1024
 MAX_TEST_BYTES = 85 * 1024 * 1024
+MAX_SCAN_BYTES = 200 * 1024 * 1024
+# The server-side PDF converter lives outside this repository (it needs
+# poppler/Tesseract and cannot run in the browser), so it is imported by
+# path rather than vendored into the site.
+SCAN_SOURCE_DIR = "/data/data/com.termux/files/home"
 
 
 def publish_test_payload(payload: dict) -> tuple[int, dict]:
@@ -132,6 +139,167 @@ def publish_test_payload(payload: dict) -> tuple[int, dict]:
     return 200, {"ok": True, "id": test_id, "questions": len(questions), "path": entry["path"]}
 
 
+def _multipart_boundary(content_type: str):
+    """Return the multipart boundary from a Content-Type header, or None."""
+    if not content_type or not content_type.lower().startswith("multipart/form-data"):
+        return None
+    match = re.search(r'boundary\s*=\s*"([^"]+)"', content_type) or \
+        re.search(r"boundary\s*=\s*([^;]+)", content_type)
+    if not match:
+        return None
+    boundary = match.group(1).strip()
+    return boundary.encode("ascii", "ignore") if boundary else None
+
+
+def _header_param(value: str, name: str):
+    """Read a single parameter out of a Content-Disposition header value."""
+    if not value:
+        return None
+    # The lookbehind stops "name" from matching the tail of "filename".
+    match = re.search(rf'(?<![\w-]){name}\s*=\s*"([^"]*)"', value, re.I) or \
+        re.search(rf"(?<![\w-]){name}\s*=\s*([^;]+)", value, re.I)
+    return match.group(1).strip() if match else None
+
+
+def parse_multipart(body: bytes, boundary: bytes) -> dict:
+    """Parse a multipart/form-data body into {field: (filename, bytes)}.
+
+    A deliberately small parser: split on the boundary, split each part on
+    the blank line separating its headers from its body, and read the field
+    name and filename from Content-Disposition.  It raises ValueError on
+    anything malformed so the caller can answer 400 instead of crashing.
+    """
+    if not boundary:
+        raise ValueError("The upload boundary is missing.")
+    delimiter = b"--" + boundary
+    fields = {}
+    for chunk in body.split(delimiter):
+        # Skip the leading CRLF before the first part and the closing "--".
+        if chunk.startswith(b"--"):
+            break
+        chunk = chunk.lstrip(b"\r\n")
+        if not chunk:
+            continue
+        split = chunk.find(b"\r\n\r\n")
+        if split < 0:
+            split = chunk.find(b"\n\n")
+            separator = 2
+        else:
+            separator = 4
+        if split < 0:
+            raise ValueError("A form part has no header/body separator.")
+        raw_headers, data = chunk[:split], chunk[split + separator:]
+        if data.endswith(b"\r\n"):
+            data = data[:-2]
+        elif data.endswith(b"\n"):
+            data = data[:-1]
+        name = filename = None
+        for line in raw_headers.replace(b"\r\n", b"\n").split(b"\n"):
+            if line.lower().startswith(b"content-disposition:"):
+                value = line.split(b":", 1)[1].decode("utf-8", "replace")
+                name = _header_param(value, "name")
+                filename = _header_param(value, "filename")
+        if not name:
+            continue
+        fields[name] = (filename, data)
+    return fields
+
+
+def _figure_site_path(test_id: str, path) -> str:
+    """Return the browser-facing site path for a cropped figure."""
+    if not path:
+        return ""
+    if path.startswith("/tests/"):
+        return path
+    return f"/tests/{test_id}/figures/{os.path.basename(str(path))}"
+
+
+def scan_paper_payload(fields: dict) -> tuple[int, dict]:
+    """Run the external converter and persist a scanned paper as a test."""
+    paper = fields.get("paper")
+    if not paper or not paper[1]:
+        return 400, {"error": "Upload the question paper PDF in the 'paper' field."}
+    if not paper[1].startswith(b"%PDF-"):
+        return 400, {"error": "The uploaded question paper is not a PDF."}
+    solutions = fields.get("solutions")
+    if solutions and solutions[1] and not solutions[1].startswith(b"%PDF-"):
+        return 400, {"error": "The uploaded solutions file is not a PDF."}
+    test_id = str((fields.get("testId") or (None, b""))[1].decode("utf-8", "replace")).strip()
+    name = str((fields.get("name") or (None, b""))[1].decode("utf-8", "replace")).strip()
+    category = str((fields.get("category") or (None, b""))[1].decode("utf-8", "replace")).strip()
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}", test_id):
+        return 400, {"error": "Test ID must contain 2–64 letters, numbers, hyphens or underscores."}
+    if not name:
+        return 400, {"error": "A test name is required."}
+    if category not in {"rts", "allen", "mathongo", "pw", "practice", "custom"}:
+        return 400, {"error": "Choose a supported test category."}
+
+    temp_dir = tempfile.mkdtemp(prefix="scan-paper-")
+    try:
+        paper_path = os.path.join(temp_dir, "paper.pdf")
+        with open(paper_path, "wb") as stream:
+            stream.write(paper[1])
+        solution_path = None
+        if solutions and solutions[1]:
+            solution_path = os.path.join(temp_dir, "solutions.pdf")
+            with open(solution_path, "wb") as stream:
+                stream.write(solutions[1])
+
+        if SCAN_SOURCE_DIR not in sys.path:
+            sys.path.insert(0, SCAN_SOURCE_DIR)
+        try:
+            import scan_paper
+        except Exception as error:  # noqa: BLE001 - report any import failure as 500
+            return 500, {"error": "The server-side PDF converter could not be loaded.",
+                         "detail": "".join(traceback.format_exception_only(type(error), error)).strip()[-600:]}
+        try:
+            detected = scan_paper.detect_type(paper_path)
+            package = scan_paper.scan(paper_path, test_id, name, category,
+                                      spdf=solution_path, outbase=temp_dir)
+        except Exception as error:  # noqa: BLE001 - converter failures are 500s
+            return 500, {"error": "The server-side PDF converter failed.",
+                         "detail": "".join(traceback.format_exception(type(error), error, error.__traceback__)).strip()[-1200:]}
+        if not isinstance(package, dict) or not isinstance(package.get("test"), dict):
+            return 500, {"error": "The converter returned an unexpected result."}
+        test = package["test"]
+        questions = test.get("questions")
+        if not isinstance(questions, list) or not questions:
+            return 500, {"error": "The converter found no questions in this paper."}
+
+        # Move the cropped figures into the site tree and point every question
+        # at the published location.
+        target_dir = ROOT / "tests" / test_id
+        figures_dir = target_dir / "figures"
+        source_figures = Path(temp_dir) / "figures"
+        if source_figures.is_dir():
+            figures_dir.mkdir(parents=True, exist_ok=True)
+            for entry in source_figures.iterdir():
+                if entry.is_file() and entry.suffix.lower() == ".png":
+                    shutil.move(str(entry), str(figures_dir / entry.name))
+        for question in questions:
+            if not isinstance(question, dict):
+                continue
+            question["image"] = _figure_site_path(test_id, question.get("image"))
+            option_images = question.get("optionImages")
+            if isinstance(option_images, list):
+                question["optionImages"] = [_figure_site_path(test_id, item) for item in option_images]
+            question["solutionImage"] = _figure_site_path(test_id, question.get("solutionImage"))
+
+        test.setdefault("slug", test_id)
+        test.setdefault("date", "Practice test")
+        test.setdefault("exam", "JEE Main")
+        published = ROOT / "published-tests"
+        published.mkdir(exist_ok=True)
+        try:
+            (published / f"{test_id}.json").write_text(
+                json.dumps(package, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        except OSError as error:
+            return 500, {"error": f"Could not write the scanned test package: {error}"}
+        return 200, {"test": test, "type": detected}
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+
 class SiteHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -181,6 +349,35 @@ class SiteHandler(SimpleHTTPRequestHandler):
                 self._json(400, {"error": "Request body must be a JSON object."})
                 return
             status, result = publish_test_payload(payload)
+            self._json(status, result)
+            return
+        if self.path == "/api/scan-paper":
+            if self.client_address[0] not in {"127.0.0.1", "::1"}:
+                self._json(403, {"error": "Local scanning is only available from this device."})
+                return
+            origin = self.headers.get("Origin")
+            host = self.headers.get("Host", "")
+            if origin and origin not in {f"http://{host}", f"https://{host}"}:
+                self._json(403, {"error": "Cross-origin scanning is not allowed."})
+                return
+            boundary = _multipart_boundary(self.headers.get("Content-Type", ""))
+            if not boundary:
+                self._json(415, {"error": "Send the paper as multipart/form-data."})
+                return
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+            except ValueError:
+                length = 0
+            if not 2 <= length <= MAX_SCAN_BYTES:
+                self._json(413, {"error": "The uploaded PDFs are empty or exceed the 200 MB local limit."})
+                return
+            body = self.rfile.read(length)
+            try:
+                fields = parse_multipart(body, boundary)
+            except ValueError as error:
+                self._json(400, {"error": f"Could not read the upload: {error}"})
+                return
+            status, result = scan_paper_payload(fields)
             self._json(status, result)
             return
         if self.path == "/api/process-shift-pdf":

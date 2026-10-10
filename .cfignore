@@ -1,0 +1,27 @@
+# Paths excluded from the Cloudflare Pages deploy directory.
+# Python fnmatch semantics: '*' crosses '/', patterns match from the repo root.
+# The Cloudflare deploy is built from `git ls-files`, so untracked files and
+# .git/ are never included regardless of what is listed here.
+
+# --- Source exam PDFs (46 MB): not part of the rendered site --------------
+*.pdf
+
+# --- Owner-only tooling and editor: not part of the student site ----------
+editor.html
+editor-local.html
+server.py
+pdf_processor.py
+netlify.toml
+*owner-editor.js
+*owner-editor.css
+assets/editor-*
+
+# --- Experimental prototype ----------------------------------------------
+prototype/*
+
+# --- Repo metadata --------------------------------------------------------
+CNAME
+README.md
+REVIEW-CONTEXT.md
+.cfignore
+.gitignore
