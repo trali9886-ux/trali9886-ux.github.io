@@ -26,7 +26,7 @@
 .question-rich > svg,
 .question-rich svg {
   display: block;
-  max-width: 100%;
+  max-width: min(100%, 300px);
   height: auto;
   margin: 12px auto;
 }
@@ -56,4 +56,20 @@
   max-width: 100%;
   height: auto;
   margin: 12px auto;
+}
+
+/* A redrawn diagram carries the same look as the hand-authored RTS-1 Q1
+   figure, which gets its font and ink colour from the `.diagram svg` rule in
+   the app stylesheet.  The rich-text path is a sibling of that component, so
+   mirror those declarations here.  Anything a diagram sets on its own
+   elements still wins. */
+.question-rich svg {
+  overflow: visible;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  fill: #6c7d70;
+}
+
+.question-rich svg .svg-label {
+  font-size: 11px;
 }
