@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Paperplane — JEE Main CBT",
   "short_name": "JEE CBT",
-  "description": "Practice RTS, Allen and Mathongo JEE Main and Advanced tests with saved answers, a timed CBT and question-specific explanations where supplied.",
+  "description": "Practice RTS, ATS and Mathongo JEE Main and Advanced tests with saved answers, a timed CBT and question-specific explanations where supplied.",
   "lang": "en",
   "start_url": "/",
   "scope": "/",
