@@ -40,7 +40,7 @@ def publish_test_payload(payload: dict) -> tuple[int, dict]:
     questions = test.get("questions")
     if not isinstance(questions, list) or not questions:
         return 400, {"error": "The test must contain questions."}
-    if test.get("category") not in {"rts", "ats", "mathongo", "pw", "practice", "custom"}:
+    if test.get("category") not in {"rts", "allen", "mathongo", "pw", "practice", "custom"}:
         return 400, {"error": "Choose a supported test category."}
     source_numbers = [str(q.get("sourceQuestionNo")) for q in questions
                       if isinstance(q, dict) and q.get("sourceQuestionNo") is not None]
@@ -231,7 +231,7 @@ def scan_paper_payload(fields: dict) -> tuple[int, dict]:
         return 400, {"error": "Test ID must contain 2–64 letters, numbers, hyphens or underscores."}
     if not name:
         return 400, {"error": "A test name is required."}
-    if category not in {"rts", "ats", "mathongo", "pw", "practice", "custom"}:
+    if category not in {"rts", "allen", "mathongo", "pw", "practice", "custom"}:
         return 400, {"error": "Choose a supported test category."}
 
     temp_dir = tempfile.mkdtemp(prefix="scan-paper-")
