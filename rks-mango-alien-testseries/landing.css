@@ -1160,7 +1160,7 @@ button, a {
   animation: card-blob-pulse 9s ease-in-out infinite alternate;
 }
 
-.series-allen:before {
+.series-alline:before {
   background: rgba(176, 199, 232, 0.3);
 }
 
@@ -1202,7 +1202,7 @@ button, a {
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
 }
 
-.series-allen .series-mark {
+.series-alline .series-mark {
   background: #e9f0fa;
   color: #5272ad;
 }
