@@ -16,7 +16,7 @@
    "incorrect": 1,
    "unanswered": 0
   },
-  "instructions": "Read each question and its options in the supplied question image. Correct and negative marks are shown for each question.",
+  "instructions": "Read each question and its options carefully. Correct and negative marks are shown for each question.",
   "syllabus": {
    "Physics": "Full Syllabus ",
    "Chemistry": "Full Syllabus ",
@@ -30,12 +30,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "If the domain of the function\n$$f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}(2x^2 - 3x + 1) \\text{ is the}$$\ninterval $[\\alpha, \\beta]$, then $\\alpha + 2\\beta$ is equal to :",
+    "text": "Potential energy ($V$) versus distance ($x$) is given by the graph, Rank various regions as per the magnitudes of the force (F) acting on a particle from high to low.<br><br><svg viewBox=\"0 0 191.9 108\" role=\"img\" aria-label=\"Graph of potential energy V versus distance x with points A, B, C, D and E\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-26\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"53\" y1=\"8\" x2=\"53\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"72\" y1=\"8\" x2=\"72\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"90\" y1=\"8\" x2=\"90\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"108\" y1=\"8\" x2=\"108\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"127\" y1=\"8\" x2=\"127\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"145\" y1=\"8\" x2=\"145\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"8\" x2=\"180\" y2=\"8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"28\" x2=\"180\" y2=\"28\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"48\" x2=\"180\" y2=\"48\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"67\" x2=\"180\" y2=\"67\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"13\" y1=\"85\" x2=\"183\" y2=\"85\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-26)\" fill=\"none\"/><line x1=\"13\" y1=\"85\" x2=\"13\" y2=\"6\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/><polyline points=\"13,85 34,67 53,8 90,8 127,28\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><text x=\"172\" y=\"80\" fill=\"#6c7d70\">x</text><text x=\"1\" y=\"20\" fill=\"#6c7d70\">V</text><text x=\"0\" y=\"92\" fill=\"#6c7d70\">0</text><text x=\"0\" y=\"35\" fill=\"#6c7d70\">3</text><text x=\"0\" y=\"73\" fill=\"#6c7d70\">1</text><text x=\"14\" y=\"99\" fill=\"#6c7d70\">A<tspan dy=\"3\" font-size=\"70%\">1</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"47\" y=\"99\" fill=\"#6c7d70\">2<tspan dy=\"3\" font-size=\"70%\">3</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"84\" y=\"99\" fill=\"#6c7d70\">4<tspan dy=\"3\" font-size=\"70%\">5</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"120\" y=\"99\" fill=\"#6c7d70\">6<tspan dy=\"3\" font-size=\"70%\">7</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"37\" y=\"74\" fill=\"#6c7d70\">B</text><text x=\"47\" y=\"6\" fill=\"#6c7d70\">C</text><text x=\"86\" y=\"6\" fill=\"#6c7d70\">D</text><text x=\"128\" y=\"34\" fill=\"#6c7d70\">E</text></svg>",
     "options": [
-     "1",
-     "3",
-     "5",
-     "2"
+     "$F_{BC} > F_{CD} > F_{DE} > F_{AB}$",
+     "$F_{CD} > F_{AB} > F_{BC} > F_{DE}$",
+     "$F_{CD} > F_{DE} > F_{AB} > F_{BC}$",
+     "$F_{BC} > F_{AB} > F_{DE} > F_{CD}$"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Slope of potential energy v/s position curve gives<br>negative of force.<br>$\\therefore \\quad \\text{F}_{\\text{BC}} > \\text{F}_{\\text{AB}} > \\text{F}_{\\text{DE}} > \\text{F}_{\\text{CD}}$<br><b>Correct option (4)</b>",
@@ -54,12 +54,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The area of the region, inside the ellipse $x^2 + 4y^2 = 4$ and outside the region bounded by the curves $y = |x| - 1$ and $y = 1 - |x|$, is :",
+    "text": "A gas based geyser heats water flowing at the rate of $5.0$ litres per minute from $27^\\circ\\text{C}$ to $87^\\circ\\text{C}$.\nThe rate of consumption of the gas is $\\qquad$ $\\text{g/s}$.\n(Take heat of combustion of gas $= 5.0 \\times 10^4 \\text{ J/g}$)\nspecific heat capacity of water $= 4200 \\text{ J/kg. }^\\circ\\text{C}$",
     "options": [
-     "$2(\\pi - 1)$",
-     "$2\\pi - \\frac{1}{2}$",
-     "$3(\\pi - 1)$",
-     "$2\\pi - 1$"
+     "2.1",
+     "4.2",
+     "0.42",
+     "0.21"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Water flow rate $= 5\\text{ }\\ell/\\text{min} = \\frac{5}{60}\\text{ kg/s}$<br>$\\therefore\\text{ Power of heater} = \\frac{\\text{dm}}{\\text{dt}}\\text{S}\\Delta\\text{T} = \\frac{1}{12} \\times 4200 \\times 60\\text{W}$<br>$\\therefore\\quad$ Let rate of consumption of gas be $\\text{x g/s}$.<br>$\\therefore\\quad \\text{x} \\times 5.0 \\times 10^4 = \\frac{1}{12} \\times 4200 \\times 60$<br>$\\Rightarrow\\quad \\text{x} = 4200 \\times 10^{-4} = 0.42\\text{ g/s}$<br><b>Correct option (3)</b>",
@@ -78,12 +78,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The number of relations, defined on the set $\\{a, b, c, d\\}$, which are both reflexive and symmetric, is equal to:",
+    "text": "A conducting circular loop of area $1.0\\text{ m}^2$ is placed perpendicular to a magnetic field which varies as $B = \\sin(100\\ t)\\text{ Tesla}$. If the resistance of the loop is $100\\ \\Omega$, then the average thermal energy dissipated in the loop in one period is $\\underline{\\hspace{1cm}}\\text{ J}$.",
     "options": [
-     "256",
-     "16",
-     "1024",
-     "64"
+     "$\\frac{\\pi}{2}$",
+     "$2\\pi$",
+     "$\\pi$",
+     "$\\pi^2$"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> $\\text{Area of the loop} = 1\\text{ m}^2$<br>$\\text{B} = \\sin(100\\text{ t})$<br>$\\therefore \\quad \\phi = \\text{BA} = \\sin(100\\text{t})$<br>$\\therefore \\quad \\frac{\\text{d}\\phi}{\\text{dt}} = 100\\cos(100\\text{t})$<br>$\\therefore \\quad \\text{P} = \\frac{\\text{V}^2}{\\text{R}} = \\frac{10^4\\cos^2(100\\text{t})}{100}$<br>$\\therefore \\quad \\text{Thermal energy dissipated in 1 time period}$<br>$= \\int\\limits_0^\\text{T} \\text{Pdt} = \\int\\limits_0^\\text{T} 100\\cos^2(100\\text{t})\\text{dt}$<br>$\\text{T} = \\frac{2\\pi}{100} = \\frac{\\pi}{50}\\text{ sec}$<br>$\\therefore \\quad \\text{Q} = 100\\int\\limits_0^{\\pi/50} \\cos^2(100\\text{t})\\text{dt}$<br>$= 100\\int\\limits_0^{\\pi/50} \\frac{1 + \\cos 200\\text{t}}{2}\\text{dt}$<br>$= 100\\left[\\frac{\\pi}{100}\\right] = \\pi$<br><b>Correct option (3)</b>",
@@ -102,12 +102,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let a point A lie between the parallel lines $L_1$ and $L_2$ such that its distances from $L_1$ and $L_2$ are $6$ and $3$ units, respectively. Then the area (in sq. units) of the equilateral triangle ABC, where the points B and C lie on the lines $L_1$ and $L_2$ respectively, is :",
+    "text": "Water flows through a horizontal tube as shown in the figure. The difference in height between the water columns in vertical tubes is $5\\text{ cm}$ and the area of cross-sections at $A$ and $B$ are $6\\text{ cm}^2$ and $3\\text{ cm}^2$ respectively.\nThe rate of flow will be______ $\\text{cm}^3/\\text{s}$. (take $\\text{g} = 10\\text{ m/s}^2$)<br><br><svg viewBox=\"0 0 276 126\" role=\"img\" aria-label=\"Horizontal tube with a constriction at B, vertical tubes above A and B showing a 5 cm water level difference\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-29\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker><marker id=\"arrow-29s\" markerWidth=\"7\" markerHeight=\"7\" refX=\"1\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M7 0 L0 3.5 L7 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><path d=\"M 4 59 L 100 59 Q 118 59 122 71 Q 128 77.5 134 77.5 L 142 77.5 Q 148 77.5 154 69 Q 158 61 168 61 L 271 61 L 271 112 L 168 112 Q 158 112 154 106 Q 148 95.5 142 95.5 L 134 95.5 Q 128 95.5 122 104 Q 118 113 100 113 L 4 113 Z\" fill=\"#f0f4ec\" stroke=\"none\"/><rect x=\"29.5\" y=\"20\" width=\"13\" height=\"39\" fill=\"#f0f4ec\" stroke=\"none\"/><rect x=\"134.5\" y=\"42\" width=\"7\" height=\"35.5\" fill=\"#f0f4ec\" stroke=\"none\"/><path d=\"M 4 58.5 L 100 58.5 Q 118 58.5 122 70 Q 128 76.5 134 76.5 L 142 76.5 Q 148 76.5 154 68 Q 158 60.5 168 60.5 L 271 60.5\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/><path d=\"M 4 113 L 100 113 Q 118 113 122 105 Q 128 95 134 94.5 L 142 94.5 Q 148 94.5 154 105 Q 158 112 168 112 L 271 112\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/><line x1=\"29\" y1=\"4\" x2=\"29\" y2=\"59\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"43\" y1=\"4\" x2=\"43\" y2=\"59\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"134\" y1=\"33\" x2=\"134\" y2=\"76\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"142\" y1=\"33\" x2=\"142\" y2=\"76\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"30\" y1=\"20\" x2=\"42\" y2=\"20\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"135\" y1=\"42\" x2=\"141\" y2=\"42\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"44\" y1=\"20\" x2=\"130\" y2=\"20\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"44\" y1=\"42\" x2=\"142\" y2=\"42\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"51\" y1=\"21\" x2=\"51\" y2=\"41\" stroke=\"#266e5d\" stroke-width=\"1.4\" marker-start=\"url(#arrow-29s)\" marker-end=\"url(#arrow-29)\" fill=\"none\"/><line x1=\"201\" y1=\"118\" x2=\"237\" y2=\"118\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-29)\" fill=\"none\"/><circle cx=\"84.5\" cy=\"88.5\" r=\"7.5\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><circle cx=\"138.5\" cy=\"88.5\" r=\"7.5\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><text x=\"56\" y=\"38\" fill=\"#6c7d70\">5 cm</text><text x=\"84.5\" y=\"92.5\" text-anchor=\"middle\" fill=\"#6c7d70\">A</text><text x=\"138.5\" y=\"92.5\" text-anchor=\"middle\" fill=\"#6c7d70\">B</text></svg>",
     "options": [
-     "$15\\sqrt{6}$",
-     "$27$",
-     "$21\\sqrt{3}$",
-     "$12\\sqrt{2}$"
+     "$\\frac{200}{\\sqrt{3}}$",
+     "$200\\sqrt{6}$",
+     "$200\\sqrt{3}$",
+     "$100\\sqrt{3}$"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br>\n<b>Sol.</b> From continuity equation<br>\n$A_A V_A = A_B V_B \\Rightarrow 6V_A = 3V_B \\Rightarrow V_B = 2V_A$<br>\nApplying Bernoullis equation between A & B,<br>\n$$P_A + \\frac{1}{2}\\rho V_A^2 = P_B + \\frac{1}{2}\\rho V_B^2$$<br>\n$\\Rightarrow \\rho g \\times 0.05 = \\frac{1}{2}\\rho [V_B^2 - V_A^2] = \\frac{1}{2}\\rho (3V_A^2)$<br>\n$\\Rightarrow V_A = \\sqrt{\\frac{2g \\times 0.05}{3}}\\text{ m / s} = \\frac{1}{\\sqrt{3}}\\text{ m / s} = \\frac{100}{\\sqrt{3}}\\text{ cm / s}$<br>\n$\\Rightarrow \\text{Volume flow rate} = A_A V_A = \\frac{6 \\times 100}{\\sqrt{3}}\\text{ cm}^3/\\text{sec}$<br>\n$= 200\\sqrt{3}\\text{ cm}^3/\\text{sec}$<br>\n<b>Correct option (3)</b>",
@@ -126,12 +126,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $\\vec{a} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$, $\\vec{b} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$ and $\\vec{c}$ be a vector such that $\\vec{a} \\times \\vec{c} = \\vec{b}$. If $\\vec{c} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$, then $|\\vec{a} + \\vec{c}|^2$ is equal to :",
+    "text": "In an experiment the values of two spring constants were measured as $k_1 = (10 \\pm 0.2)\\text{ N/m}$ and $k_2 = (20 \\pm 0.3)\\text{ N/m}$. If these springs are connected in parallel, then the percentage error in equivalent spring constant is :",
     "options": [
-     "$33$",
-     "$30$",
-     "$35$",
-     "$27$"
+     "$2.67\\%$",
+     "$2.33\\%$",
+     "$1.33\\%$",
+     "$1.67\\%$"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> For parallel combination of spring,<br>$K_{eq} = K_1 + K_2 = 30\\text{ N/m}$<br>$\\Delta K_{eq} = \\Delta K_1 + \\Delta K_2 = 0.2 + 0.3 = 0.5\\text{ N/m}$<br>$\\therefore \\quad \\%\\text{Error in } K = \\frac{0.5}{30} \\times 100 = 1.67\\%$<br><b>Correct option (4)</b>",
@@ -150,12 +150,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $a_1, a_2, a_3, \\dots\\dots$ be a G.P. of increasing positive terms such that $a_2.a_3.a_4 = 64$ and $a_1 + a_3 + a_5 = \\frac{813}{7}$.\n\nThen $a_3 + a_5 + a_7$ is equal to :",
+    "text": "A $4\\text{ kg}$ mass moves under the influence of a force $\\vec{F} = (4t^3\\hat{i} - 3t\\hat{j})\\text{ N}$ where $t$ is the time in second.\nIf mass starts from origin at $t = 0$, the velocity and position after $t = 2\\text{ s}$ will be :",
     "options": [
-     "$3256$",
-     "$3252$",
-     "$3244$",
-     "$3248$"
+     "$\\vec{v} = 3\\hat{i} + \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{6}{5}\\hat{i} + \\hat{j}$",
+     "$\\vec{v} = 4\\hat{i} - \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{8}{5}\\hat{i} - \\hat{j}$",
+     "$\\vec{v} = 4\\hat{i} + \\frac{5}{2}\\hat{j} \\quad \\vec{r} = \\frac{8}{5}\\hat{i} + 2\\hat{j}$",
+     "$\\vec{v} = 4\\hat{i} - \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{6}{5}\\hat{i} - \\hat{j}$"
     ],
     "answer": "2",
     "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $\\vec{F} = 4t^3\\hat{i} - 3t\\hat{j}$<br>$\\vec{a} = \\frac{\\vec{F}}{m} = t^3\\hat{i} - \\frac{3}{4}t\\hat{j}$<br>$a_x = t^3 \\quad | \\quad a_y = \\frac{-3}{4}t$<br>$\\frac{dv_x}{dt} = t^3 \\quad | \\quad \\frac{dv_y}{dt} = -\\frac{3}{4}$<br>$\\int_{v_{x1}=0}^{v_{x2}} dv_x = \\int_{t=0}^{t=2} t^3 dt \\quad | \\quad \\int_0^{v_{y2}} dv_y = \\int_0^2 \\frac{-3}{4}t dt$<br>$v_{x2} - 0 = \\left[ \\frac{t^4}{4} \\right]_0^2 \\quad | \\quad v_{y2} = \\frac{-3}{4} \\left[ \\frac{t^2}{2} \\right]_0^2$<br>$v_{x2} = 4 \\quad | \\quad v_{y2} = \\frac{-3}{2}$<br>$\\vec{v}_2 = 4\\hat{i} - \\frac{3}{2}\\hat{j}$<br>$v_x = \\frac{t^4}{4} \\quad | \\quad v_y = \\frac{-3}{8}t^2$<br>$\\int_0^{x_2} dx = \\int_0^2 \\frac{t^4}{4} dt \\quad | \\quad \\int_0^{y_2} dx = \\int_0^2 \\frac{-3}{8}t^2 dt$<br>$x_2 - 0 = \\left[ \\frac{t^5}{20} \\right]_0^2 \\quad | \\quad y_2 - 0 = \\frac{-3}{8} \\left[ \\frac{t^3}{3} \\right]_0^2$<br>$x_2 = \\frac{8}{5} \\quad | \\quad y_2 = -1$<br>$\\vec{r} = \\frac{8}{5}\\hat{i} - \\hat{j}$<br><b>Correct option (2)</b>",
@@ -174,12 +174,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "$\\vec{c} \\times (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) = (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) \\times \\vec{d}$. If $\\lambda_1, \\lambda_2 (\\lambda_1 > \\lambda_2)$ \n are the possible values of $(\\vec{c} + \\vec{d}) \\cdot (-7\\hat{i} + 2\\hat{j} + 3\\hat{k})$, \n then the equation \n\n$$K^2x^2 + (K^2 - 5K + \\lambda_1)xy + \\left(3K + \\frac{\\lambda_2}{2}\\right)y^2 - 8x + 12y + \\lambda_2 = 0$$\n \n represents a circle, for k equal to :",
+    "text": "Consider a modified Bernoulli equation.\n$$\\left(\\mathrm{P}+\\frac{\\mathrm{A}}{\\mathrm{Bt}^{2}}\\right)+\\rho\\mathrm{g}(\\mathrm{h}+\\mathrm{Bt})+\\frac{1}{2}\\rho\\mathrm{V}^{2}=\\text{constant}$$\nIf t has the dimension of time then the dimensions of A and B are $\\underline{\\quad\\quad\\quad}, \\underline{\\quad\\quad\\quad}$ respectively.",
     "options": [
-     "$4$",
-     "$1$",
-     "$-1$",
-     "$2$"
+     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-1}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}]$",
+     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-1}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-1}]$",
+     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-2}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-2}]$",
+     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-2}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-1}]$"
     ],
     "answer": "2",
     "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $\\Rightarrow [P] = \\left[\\frac{A}{Bt^2}\\right]$ .....(1)<br>$\\Rightarrow [h] = [Bt]$ .....(2)<br>$\\Rightarrow [B] = \\left[\\frac{h}{t}\\right] = \\left[\\frac{L}{T}\\right] = [LT^{-1}]$<br>Putting B is equation (1)<br>$[ML^{-1}T^{-2}] = \\left[\\frac{A}{LT^{-1} \\times T^2}\\right]$<br>$[A] = [ML^0T^{-1}]$<br><b>Correct option (2)</b>",
@@ -198,12 +198,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $y = y(x)$ be the solution curve of the differential equation $(1+x^2)\\mathrm{dy} + (y - \\tan^{-1}x)\\mathrm{dx} = 0$, $y(0) = 1$. Then the value of $y(1)$ is :",
+    "text": "A current carrying is placed vertically and a particle of mass m with charge Q is released from rest. The particle moves along the axis of solenoid. If g is acceleration due to gravity then the acceleration (a) of the charged particle will satisfy :",
     "options": [
-     "$\\frac{2}{e^{\\frac{\\pi}{4}}} + \\frac{\\pi}{4} - 1$",
-     "$\\frac{2}{e^{\\frac{\\pi}{4}}} - \\frac{\\pi}{4} - 1$",
-     "$\\frac{4}{e^{\\frac{\\pi}{4}}} + \\frac{\\pi}{2} - 1$",
-     "$\\frac{4}{e^{\\frac{\\pi}{4}}} - \\frac{\\pi}{2} - 1$"
+     "$a = g$",
+     "$a > g$",
+     "$a = 0$",
+     "$0 < a < g$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Since the solenoid is placed vertically, the magnetic field inside the solenoid will be either along $-y$ or $+y$ axis.<br>$\\Rightarrow$ Particle will gain velocity along $-y$ axis.<br>[Figure: A vertical solenoid with a downward arrow along its central axis labeled $mg$ near the top and $B$ at the bottom]<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = \\text{q}(\\vec{\\text{v}} \\times \\vec{\\text{B}})$<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = 0$<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{net} = \\text{m}\\vec{\\text{g}}$<br>$\\Rightarrow \\quad \\text{a}_\\text{net} = \\text{g}$<br><b>Correct option (1)</b>",
@@ -222,12 +222,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The number of strictly increasing functions f from the set $\\{1, 2, 3, 4, 5, 6\\}$ to the set $(1, 2, 3, ..., 9)$ such that $\\mathrm{f}(\\mathrm{i}) \\neq \\mathrm{i}$ for $1 \\le \\mathrm{i} \\le 6$, is equal to :",
+    "text": "A parallel plate capacitor has capacitance $C$, when there is vacuum within the parallel plates.\n\nA sheet having thickness $\\left(\\frac{1}{3}\\right)^{\\text{rd}}$ of the separation between the plates and relative permittivity $K$ is introduced between the plates. The new capacitance of the system is :",
     "options": [
-     "21",
-     "27",
-     "22",
-     "28"
+     "$\\frac{3KC}{2K + 1}$",
+     "$\\frac{CK}{2 + K}$",
+     "$\\frac{3CK^2}{(2K + 1)^2}$",
+     "$\\frac{4KC}{3K - 1}$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b><br>[A parallel plate capacitor with plate area $A$ and separation $d$]<br>$$C = \\frac{A \\in_0}{d}$$<br>[A capacitor of area $A$ and separation $d$ with a dielectric slab of thickness $t = d/3 \\implies$ series combination of $C_1$ with plate separation $2d/3$ and $C_2$ with dielectric of thickness $d/3$]<br><br>$$C_1 = \\frac{3A \\in_0}{2d} \\qquad C_2 = \\frac{3A \\in_0 \\times K}{d}$$<br>$$C_1 = \\frac{3}{2}C \\qquad C_2 = 3KC$$<br>$$\\text{Ceq} = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{\\frac{3}{2}C \\times 3KC}{\\frac{3}{2}C + 3KC}$$<br>$$\\text{Ceq} = \\frac{\\frac{9}{2}KC^2}{\\frac{3}{2}C(2K + 1)} = \\frac{3KC}{2K + 1}$$<br><b>Correct option (1)</b>",
@@ -246,12 +246,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $f : \\mathbb{R} \\rightarrow (0, \\infty)$ be a twice differentiable function such that $f(3) = 18$, $f'(3) = 0$ and $f''(3) = 4$.\n\nThen $\\lim_{x \\rightarrow 1} \\left( \\log_e \\left( \\left( \\frac{f(2+x)}{f(3)} \\right)^{\\frac{18}{(x-1)^2}} \\right) \\right)$ is equal to :",
+    "text": "The electric field a plane electromagnetic wave is given by :\\\\ $E_y = 69 \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t] \\text{ V/m}$.\\\\ The expression for magnetic field associated with this electromagnetic wave is $\\underline{\\hspace{1cm}} \\text{ T}$.",
     "options": [
-     "1",
-     "9",
-     "2",
-     "18"
+     "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$",
+     "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x + 1.8 \\times 10^{11}t]$",
+     "$B_y = 69 \\sin[0.6 \\times 10^3x + 1.8 \\times 10^{11}t]$",
+     "$B_y = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $\\hat{B}=\\hat{c}\\times\\hat{E}$<br>$\\Rightarrow \\hat{c}=\\hat{i}$ because phase of electric field is<br>function of x.<br>$\\Rightarrow \\hat{E}=\\hat{j}$ (given)<br>$\\Rightarrow \\hat{B}=\\hat{i}\\times\\hat{j}=\\hat{k}$<br>$$|B|=\\frac{|E|}{c}=\\frac{69\\times 0.6\\times 10^3}{1.8\\times 10^{11}}=\\frac{69}{3\\times 10^8}$$<br>$|B|=2.9\\times 10^{-7}$<br>$\\vec{B}_z = 2.9\\times 10^{-7}\\sin(0.6\\times 10^3 x - 1.8\\times 10^{11}t)$<br>(phase is same as that of electric field)<br><b>Correct option (1)</b>",
@@ -270,12 +270,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let the foci of hyperbola coincide with the foci of the ellipse $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$. If the eccentricity of the hyperbola is $5$, then the length of its latus rectum is:",
+    "text": "In a double slit experiment the distance between the slits is $0.1\\text{ cm}$ and the screen is placed at $50\\text{ cm}$ from the slits plane. When one slit is covered with a transparent sheet having thickness t and refractive index $n(= 1.5)$, the central fringe shifts by $0.2\\text{ cm}$. The value of t is _____ $\\text{ cm}$.",
     "options": [
-     "$12$",
-     "$16$",
-     "$\\frac{96}{\\sqrt{5}}$",
-     "$24\\sqrt{5}$"
+     "$8 \\times 10^{-4}$",
+     "$6.0 \\times 10^{-3}$",
+     "$5.6 \\times 10^{-4}$",
+     "$5.0 \\times 10^{-3}$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><b>Sol.</b> $d\\sin\\theta = (\\mu-1)t$<br>$d\\left[\\frac{x}{D}\\right] = (\\mu-1)t$<br>$$t = \\frac{xd}{D(\\mu-1)}$$<br>$$= \\frac{(0.2)\\ (0.1)}{50(1.5-1)}$$<br>$t = 8 \\times 10^{-4}\\text{ cm}$<br><b>Correct option (1)</b>",
@@ -294,12 +294,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The value of $\\int_{-\\pi/6}^{\\pi/6} \\left(\\frac{\\pi + 4x}{1 - \\sin(|x| + \\pi / 6)}\\right) \\mathrm{dx}$ is equal to",
+    "text": "A light wave described by $E = 60 \\sin(3 \\times 10^{15})t + \\sin(12 \\times 10^{15})t]$ (in SI units) falls on a metal surface of work function $2.8\\text{ eV}$. The maximum kinetic energy of ejected photoelectron is (approximately$) \\underline{\\hspace{1cm}}$ $\\text{ eV}$. ($h = 6.6 \\times 10^{-34}\\text{ J-s.}$ and $e = 1.6 \\times 10^{-19}\\text{ C}$)",
     "options": [
-     "$2\\pi$",
-     "$4\\pi$",
-     "$8\\pi$",
-     "$6\\pi$"
+     "5.1",
+     "3.8",
+     "6.0",
+     "7.8"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><b>Sol.</b> $\\omega_1 = 3 \\times 10^{15}\\text{ rad/sec}$<br>$\\omega_2 = 12 \\times 10^{15}\\text{ rad/sec}$<br>$\\because \\quad \\nu = \\frac{\\omega}{2\\pi}$<br>$\\text{E}_{\\text{photon}} = \\text{h}\\nu = 6.6 \\times 10^{-34} \\times 1.91 \\times 10^{15}$<br>$= 1.26 \\times 10^{-18}\\text{ J}$<br>$\\text{E}_{\\text{max}} = \\frac{1.26 \\times 10^{-18}}{1.6 \\times 10^{-19}} \\simeq 7.9\\text{ eV}$<br>$\\text{K}_{\\text{max}} = \\text{E}_{\\text{max}} - \\phi_0$<br>$= 7.9 - 2.8$<br>$\\text{K}_{\\text{max}} = 5.1\\text{ eV}$<br><b>Correct option (1)</b>",
@@ -318,12 +318,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let the mean and variance of $7$ observations $2, 4, 10, x, 12, 14, y, x > y$, be $8$ and $16$ respectively. Two numbers are chosen from $\\{1, 2, 3, x-4, y, 5\\}$ one after another without replacement, then the probability, that the smaller number among the two chosen numbers is less than $4$, is:",
+    "text": "If an alpha particle with energy $7.7 \\text{ MeV}$ is bombarded on a thin gold foil, the closest distance from nucleus it can reach is $\\underline{\\hspace{2cm}}$ $\\text{ m}$.\n\n(Atomic number of gold $= 79$ and $\\frac{1}{4\\pi \\epsilon_0} = 9 \\times 10^9$\n\nin SI units)",
     "options": [
-     "$\\frac{3}{5}$",
-     "$\\frac{4}{5}$",
-     "$\\frac{2}{5}$",
-     "$\\frac{1}{3}$"
+     "$2.95 \\times 10^{-14}$",
+     "$2.95 \\times 10^{-16}$",
+     "$3.85 \\times 10^{-16}$",
+     "$3.85 \\times 10^{-14}$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Energy conservation<br>$K_i + U_i = K_f + U_f$<br>$7.7 \\times 10^6 \\times 1.6 \\times 10^{-19} + 0$<br>$= 0 + \\frac{9\\times 10^9(1.6\\times 10^{-19})(79\\times 1.6\\times 10^{-19})}{r}$<br>$r = 2.95 \\times 10^{-14}$<br><b>Correct option (1).</b>",
@@ -342,12 +342,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $(\\alpha, \\beta, \\gamma)$ be the co-ordinates of the foot of the perpendicular drawn from the point $(5, 4, 2)$ on the line $\\vec{r} = (-\\hat{i} + 3\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} - \\hat{k})$.\n\nThen the length of the projection of the vector $\\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$ on the vector $6\\hat{i} + 2\\hat{j} + 3\\hat{k}$ is :",
+    "text": "A uniform rod of mass m and length $l$ suspended by means of two identical inextensible light strings as shown in figure. Tension in one string immediately after the other string is cut, is \\_\\_\\_\\_\\_\\_\\_. (g acceleration due to gravity)<br><br><svg viewBox=\"0 0 102 84\" role=\"img\" aria-label=\"Uniform rod AB suspended by two vertical strings from a ceiling, with the rod length l marked below\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"10\" x2=\"94\" y2=\"10\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/><g stroke=\"#657568\" stroke-width=\"1.4\"><line x1=\"7\" y1=\"10\" x2=\"9\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"10\" x2=\"14\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"17\" y1=\"10\" x2=\"19\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"10\" x2=\"24\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"27\" y1=\"10\" x2=\"29\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"32\" y1=\"10\" x2=\"34\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"37\" y1=\"10\" x2=\"39\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"42\" y1=\"10\" x2=\"44\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"47\" y1=\"10\" x2=\"49\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"10\" x2=\"54\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57\" y1=\"10\" x2=\"59\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"62\" y1=\"10\" x2=\"64\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"67\" y1=\"10\" x2=\"69\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"72\" y1=\"10\" x2=\"74\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"77\" y1=\"10\" x2=\"79\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"82\" y1=\"10\" x2=\"84\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"87\" y1=\"10\" x2=\"89\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"92\" y1=\"10\" x2=\"94\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"13\" y1=\"10\" x2=\"13\" y2=\"52\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"86\" y1=\"10\" x2=\"86\" y2=\"52\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><rect x=\"2.5\" y=\"52\" width=\"93\" height=\"9.5\" rx=\"5\" ry=\"5\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"72\" x2=\"49\" y2=\"72\" stroke=\"#657568\" stroke-width=\"1.5\" stroke-dasharray=\"1.5 2.5\" fill=\"none\"/><line x1=\"57\" y1=\"72\" x2=\"88\" y2=\"72\" stroke=\"#657568\" stroke-width=\"1.5\" stroke-dasharray=\"1.5 2.5\" fill=\"none\"/><text x=\"4\" y=\"78\" fill=\"#6c7d70\">A</text><text x=\"50\" y=\"78\" font-style=\"italic\" fill=\"#6c7d70\">l</text><text x=\"89\" y=\"78\" fill=\"#6c7d70\">B</text></svg>",
     "options": [
-     "$\\frac{15}{7}$",
-     "$4$",
-     "$\\frac{18}{7}$",
-     "$3$"
+     "$mg/2$",
+     "$mg/4$",
+     "$mg/3$",
+     "$mg$"
     ],
     "answer": "2",
     "solution": "<b>Ans. (2)</b><br><br><b>Sol.</b><br>[A horizontal rod is supported at its left end with tension $T$ directed upwards, and its weight $mg$ acts vertically downwards at a distance $l/2$ from the left end.]<br>$$mg \\frac{l}{2} = \\frac{ml^2}{3}\\alpha$$<br>$$\\alpha = \\frac{3g}{2l} \\dots(1)$$<br>$$mg - T = ma_c$$<br>$$T = mg - ma_c$$<br>$$= mg - m\\left(\\frac{l}{2}\\alpha\\right)$$<br>$$= mg - m\\left(\\frac{l}{2} \\cdot \\frac{3g}{2l}\\right)$$<br>$$T = \\frac{mg}{4}$$<br><b>Correct option (2)</b>",
@@ -366,12 +366,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let $PQ$ and $MN$ be two straight lines touching the circle $x^2 + y^2 - 4x - 6y - 3 = 0$ at the points $A$ and $B$ respectively. Let $O$ be the centre of the circle and $\\angle AOB = \\pi/3$. Then the locus of the point of intersection of the lines $PQ$ and $MN$ is:",
+    "text": "An aluminium and steel rods having same lengths and cross-sections are joined to make total length of $120\\text{ cm}$ at $30^{\\circ}\\text{C}$. The coefficient of linear expansion of aluminium and steel are $24 \\times 10^{-6}/^{\\circ}\\text{C}$ and $1.2 \\times 10^{-5}/^{\\circ}\\text{C}$, respectively. The length of this composite rod when its temperature is raised to $100^{\\circ}\\text{C}$, is \\_\n\\_\n\\_\n\\_\n\\_\n $\\text{cm}$.",
     "options": [
-     "$3(x^2 + y^2) - 18x - 12y + 25 = 0$",
-     "$x^2 + y^2 - 12x - 18y - 25 = 0$",
-     "$x^2 + y^2 - 18x - 12y - 25 = 0$",
-     "$3(x^2 + y^2) - 12x - 18y - 25 = 0$"
+     "$120.20$",
+     "$120.15$",
+     "$120.03$",
+     "$120.06$"
     ],
     "answer": "2",
     "solution": "<b>Ans. (2)</b><br><br><b>Sol.</b> $\\ell_{\\text{final}} = \\ell_0(1 + \\alpha_A \\Delta T) + \\ell_0(1 + \\alpha_B \\Delta T)$<br>$= \\ell_0 [2 + (\\alpha_A + \\alpha_B)\\Delta T]$<br>$= 60 [2 + (36 \\times 10^{-6}) \\times 70]$<br>$= 60 [2 + 0.0025]$<br>$= 120.15\\text{ cm}$<br><b>Correct option (2)</b>",
@@ -390,12 +390,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "If the coefficient of x in the expansion of $(ax^2 + bx + c)(1 - 2x)^{26}$ is $-56$ and the coefficients of $x^2$ and $x^3$ are both zero, then $a + b + c$ is equal to",
+    "text": "A $1\\text{ m}$ long metal rod AB completes the circuit as shown in figure. The area of circuit is perpendicular to the magnetic field of $0.10\\text{ T}$. If the resistance of the total circuit is $2\\,\\Omega$ then the force needed to move the rod towards right with constant speed (v) of $1.5\\text{ m/s}$ is $\\underline{\\hspace{1.5cm}}$ $\\text{N}$.<br><br><svg viewBox=\"0 0 90 102\" role=\"img\" aria-label=\"Metal rod AB sliding on rails through a magnetic field into the page, with a resistor on the left\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-41\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"><line x1=\"4\" y1=\"15\" x2=\"84\" y2=\"15\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"84\" x2=\"84\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"15\" x2=\"4\" y2=\"28\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"71\" x2=\"4\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M4 28 L7 32 L2 39 L7 46 L2 53 L7 60 L2 67 L4 71\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"48\" y1=\"15\" x2=\"48\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><g stroke=\"#657568\" stroke-width=\"1.4\" fill=\"none\"><circle cx=\"19\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"22.3\" x2=\"22.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"28.7\" x2=\"22.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"22.3\" x2=\"40.7\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"28.7\" x2=\"40.7\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"61\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"22.3\" x2=\"64.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"28.7\" x2=\"64.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"22.3\" x2=\"83.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"28.7\" x2=\"83.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"19\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"45.8\" x2=\"22.2\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"52.2\" x2=\"22.2\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"45.8\" x2=\"40.7\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"52.2\" x2=\"40.7\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"45.8\" x2=\"83.2\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"52.2\" x2=\"83.2\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"19\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"70.8\" x2=\"22.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"77.2\" x2=\"22.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"70.8\" x2=\"40.7\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"77.2\" x2=\"40.7\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"61\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"70.8\" x2=\"64.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"77.2\" x2=\"64.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"70.8\" x2=\"83.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"77.2\" x2=\"83.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"48\" y1=\"48\" x2=\"66\" y2=\"48\" stroke=\"#266e5d\" stroke-width=\"1.7\" marker-end=\"url(#arrow-41)\" fill=\"none\"/><text x=\"48.5\" y=\"12\" text-anchor=\"middle\" fill=\"#6c7d70\">A</text><text x=\"49.5\" y=\"98\" text-anchor=\"middle\" fill=\"#6c7d70\">B</text><text x=\"60\" y=\"59\" font-style=\"italic\" fill=\"#6c7d70\">v</text></svg>",
     "options": [
-     "1300",
-     "1500",
-     "1403",
-     "1483"
+     "$7.5 \\times 10^{-2}$",
+     "$5.7 \\times 10^{-3}$",
+     "$5.7 \\times 10^{-2}$",
+     "$7.5 \\times 10^{-3}$"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> To maintain constant speed<br>$\\text{F}_{\\text{ext}} = \\text{F}_{\\text{B}}$<br>$\\Rightarrow \\text{F}_{\\text{ext}} = \\text{i}l\\text{B}$<br>[Circuit diagram showing a conducting loop in a uniform magnetic field directed out of the page ($\\odot$). On the left is a resistor of $2\\Omega$. A rod AB moves to the right with velocity $v$, with an external force $\\text{F}_{\\text{ext}}$ directed to the right and a magnetic force $\\text{F}_B$ directed to the left.]<br>$= \\left(\\frac{\\text{vB}l}{\\text{R}}\\right)l\\text{B}$<br>$= \\frac{\\text{B}^2l^2\\text{v}}{\\text{R}}$<br>$= \\frac{(0.1)^2 \\times (1)^2 \\times 1.5}{2}$<br>$= 7.5 \\times 10^{-3}\\text{ N}$<br><b>Correct option (4)</b>",
@@ -414,12 +414,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "If $x^{2} + x + 1 = 0$, then the value of\n$$\\left(x + \\frac{1}{x}\\right)^{4} + \\left(x^{2} + \\frac{1}{x^{2}}\\right)^{4} + \\left(x^{3} + \\frac{1}{x^{3}}\\right)^{4} + ... + \\left(x^{25} + \\frac{1}{x^{25}}\\right)^{4}$$\nis :",
+    "text": "The given circuit works as :<br><br><svg viewBox=\"0 0 600 150\" role=\"img\" aria-label=\"Logic circuit: inputs A and B each pass through a block into a NOR gate, the two outputs combine in a third NOR gate, then a block, then a final NOR gate to the output\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"30\" y1=\"45\" x2=\"74\" y2=\"45\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"74\" y=\"38\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M120 28 Q156 28 180 45 Q156 62 120 62 Q141 45 120 28 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"190\" y1=\"45\" x2=\"215\" y2=\"45\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"45\" x2=\"215\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"70\" x2=\"240\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"30\" y1=\"115\" x2=\"74\" y2=\"115\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"74\" y=\"108\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M120 98 Q156 98 180 115 Q156 132 120 132 Q141 115 120 98 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"190\" y1=\"115\" x2=\"215\" y2=\"115\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"115\" x2=\"215\" y2=\"90\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"90\" x2=\"240\" y2=\"90\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M240 63 Q276 63 300 80 Q276 97 240 97 Q261 80 240 63 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"310\" y1=\"80\" x2=\"354\" y2=\"80\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"354\" y=\"73\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M400 63 Q436 63 460 80 Q436 97 400 97 Q421 80 400 63 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"470\" y1=\"80\" x2=\"525\" y2=\"80\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"185\" cy=\"45\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"185\" cy=\"115\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"305\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"465\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"30\" cy=\"45\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"30\" cy=\"115\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"525\" cy=\"80\" r=\"3\" fill=\"#206d5b\"/><text x=\"12\" y=\"50\" fill=\"#6c7d70\">A</text><text x=\"12\" y=\"120\" fill=\"#6c7d70\">B</text><text x=\"4\" y=\"84\" fill=\"#6c7d70\">Input</text><text x=\"533\" y=\"85\" fill=\"#6c7d70\">Output</text></svg>",
     "options": [
-     "128",
-     "162",
-     "175",
-     "145"
+     "AND gate",
+     "NOR gate",
+     "NAND gate",
+     "OR gate"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><br><b>Sol.</b> [Logic gate circuit diagram showing inputs A and B fed into two separate NOR gates to give outputs P and Q respectively. Outputs P and Q are inputs to a third NOR gate giving output R. Output R is fed into a fourth NOR gate giving final output S.]<br><br>$P = \\bar{A}$<br>$Q = \\bar{B}$<br>$R = \\overline{\\bar{A} + \\bar{B}} = \\bar{\\bar{A}}\\bar{\\bar{B}} = AB$<br>$S = \\overline{AB} \\quad \\Rightarrow \\text{NAND Gate}$<br><b>Correct option (3)</b>",
@@ -438,12 +438,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The value of $\\text{cosec} 10^\\circ - \\sqrt{3} \\text{ sec} 10^\\circ$ is equal to:",
+    "text": "Two strings (A, B) having linear densities $\\mu_{\\text{A}} = 2 \\times 10^{-4}\\text{ kg/m}$ and $\\mu_{\\text{B}} = 4 \\times 10^{-4}\\text{ kg/m}$ and lengths $L_{\\text{A}} = 2.5\\text{ m}$ and $L_{\\text{B}} = 1.5\\text{ m}$ respectively are joined. Free ends of A and B are tied to two rigid supports C and D, respectively creating a tension of $500\\text{ N}$ in the wire. Two identical pulses, sent from C and D ends, take time $t_1$ and $t_2$, respectively, to reach the joint. The ratio $t_1 / t_2$ is :",
     "options": [
-     "4",
-     "2",
-     "8",
-     "6"
+     "1.08",
+     "1.90",
+     "1.67",
+     "1.18"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br>\n<b>Sol.</b> Given $L_A = 2.5\\text{ m}$,<br>\n$L_B = 1.5\\text{ m}$,<br>\n$T = 500\\text{ N}$<br>\n$v_A = \\sqrt{\\frac{T}{\\mu_A}} = \\sqrt{\\frac{500}{2 \\times 10^{-4}}} = 5\\sqrt{10} \\times 10^2\\text{ m/s}$<br>\n$v_B = \\sqrt{\\frac{T}{\\mu_B}} = \\sqrt{\\frac{500}{4 \\times 10^{-4}}} = 5\\sqrt{5} \\times 10^2\\text{ m/s}$<br>\n$t_1 = \\frac{L_A}{v_A} = \\frac{2.5}{5\\sqrt{10}} \\times 10^{-2}\\text{ s}$<br>\n$t_2 = \\frac{L_B}{v_B} = \\frac{1.5}{5\\sqrt{5}} \\times 10^{-2}\\text{ s}$<br>\n$\\therefore \\frac{t_1}{t_2} = \\frac{2.5}{5\\sqrt{10}} \\times \\frac{5\\sqrt{5}}{1.5} = \\frac{5}{3} \\times \\frac{1}{\\sqrt{2}} = \\frac{1.66}{1.41} = 1.18$<br>\n<b>Correct Option (4)</b>",
@@ -462,12 +462,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The sum of all the roots of the equation\n$(x-1)^{2}-5|x-1|+6=0$, is:",
+    "text": "Initially a satellite of $100\\text{ kg}$ is in a circular orbit of radius $1.5\\text{R}_\\text{E}$. This satellite can be moved to a circular orbit of radius $3\\text{R}_\\text{E}$ by supplying $\\alpha \\times 10^6\\text{ J}$ of energy. The value of $\\alpha$ is $\\underline{\\quad\\quad\\quad\\quad\\quad}$.\\\\\\\\ (Take Radius of Earth $\\text{R}_\\text{E} = 6 \\times 10^6\\text{ m}$ and $\\text{g} = 10\\text{ m/s}^2$)",
     "options": [
-     "4",
-     "3",
-     "1",
-     "5"
+     "150",
+     "500",
+     "100",
+     "1000"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Energy of a satellite in a circular orbit is given as<br>$$E = \\frac{-GM_E m}{2r} ; r = \\text{radius of circular orbit}$$<br>Required energy to be supplied $= \\Delta E = E_f - E_i$<br>$$\\Delta E = \\left( \\frac{-GM_E m}{2(3R_E)} \\right) - \\left( \\frac{-GM_E m}{2(1.5R_E)} \\right)$$<br>$$= \\frac{GM_E m}{6R_E}$$<br>Now, $g = \\frac{GM_E}{R_E^2} \\Rightarrow \\frac{GM_E}{R_E} = gR_E$<br>$$\\therefore \\Delta E = \\frac{1}{6}gmR_E$$<br>$$= \\frac{1}{6} \\times 10 \\times 100 \\times 6 \\times 10^6$$<br>$$= 1000 \\times 10^6$$<br>$\\alpha = 1000$<br><b>Correct option (4)</b>",
@@ -486,12 +486,12 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Let O be the vertex of the parabola $x^2 = 4y$ and Q be any point on it. Let the locus of the point P, which divides the line segment OQ internally in the ratio $2:3$ be the conic C. Then the equation of the chord of C, which is bisected at the point $(1, 2)$, is:",
+    "text": "A point charge of $10^{-8}\\text{ C}$ is placed at origin. The work done in moving a point charge $2\\text{ }\\mu\\text{C}$ from point $\\text{A}(4, 4, 2)\\text{ m}$ to $\\text{B}(2, 2, 1)\\text{ m}$ is $\\underline{\\quad\\quad\\quad\\quad\\quad\\quad}$ $\\text{J}$.\n\n$(\\frac{1}{4\\pi \\epsilon_0} = 9 \\times 10^9\\text{ in SI units})$",
     "options": [
-     "$5x - y - 3 = 0$",
-     "$4x - 5y + 6 = 0$",
-     "$x - 2y + 3 = 0$",
-     "$5x - 4y + 3 = 0$"
+     "$45 \\times 10^{-6}$",
+     "$0$",
+     "$30 \\times 10^{-6}$",
+     "$15 \\times 10^{-6}$"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Work done by external agent :<br>$\\text{W}_{\\text{ext}} = \\Delta\\text{U} ;$<br>$\\Delta\\text{U} \\rightarrow$ Change in potential energy in taking the<br>charge from initial to final configuration<br>$\\Rightarrow \\text{W}_{\\text{ext}} = \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{f}}} - \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{i}}}$<br>Now, $\\text{r}_{\\text{f}} = \\sqrt{(2-0)^2+(2-0)^2+(1-0)^2} = 3\\text{ m}$<br>$\\text{r}_{\\text{i}} = \\sqrt{(4-0)^2+(4-0)^2+(2-0)^2} = 6\\text{ m}$<br>$\\therefore \\text{W}_{\\text{ext}} = (9\\times 10^9)\\times (10^{-8}\\times 2\\times 10^{-6})\\left[\\frac{1}{3}-\\frac{1}{6}\\right]$<br>$= 3\\times 10^{-5}$<br>$= 30\\times 10^{-6}\\text{ J}$<br><b>Correct Option (3)</b>",
@@ -510,7 +510,7 @@
     "subject": "Physics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a twice differentiable function such that the quadratic equation $f(x)m^2 - 2f'(x)m + f''(x) = 0$ in $m$, has two equal roots for every $x \\in \\mathbb{R}$. If $f(0) = 1$, $f'(0) = 2$ and $(\\alpha, \\beta)$ is the largest interval in which the function $f(\\log_e x - x)$ is increasing, then $\\alpha + \\beta$ is equal to",
+    "text": "A collimated beam of light of diameter $2\\text{ mm}$ is propagating along x-axis. The beam is required to be expanded in a collimated beam of diameter $14\\text{ mm}$ using a system of two convex lenses. If first lens has focal length $40\\text{ mm}$, then the focal length of second lens is $\\underline{\\hspace{2cm}}\\text{ mm}$.",
     "answer": "280",
     "solution": "<b>Ans. (280)</b><br>\n<b>Sol.</b><br>\n[A ray diagram showing a parallel beam of light of width $2\\text{ mm}$ falling on a lens, converging to a focal point at a distance of $40\\text{ mm}$, and then diverging to a second lens of focal length $f$ to form a parallel beam of width $14\\text{ mm}$.]<br>\n$$\\frac{40}{2} = \\frac{f}{14}$$<br>\n$\\Rightarrow f = 280\\text{ mm}$<br>\n<b>Correct Answer : 280</b>",
     "image": "",
@@ -528,7 +528,7 @@
     "subject": "Physics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Let $a_1 = 1$ and for $n \\geq 1$, $a_{n+1} = \\frac{1}{2}a_n + \\frac{n^2 - 2n - 1}{n^2(n+1)^2}$. Then $\\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right|$ is equal to \\_\\_\\_\\_\\_\\_.",
+    "text": "The heat generated in $1\\text{ minute}$ between points A and B in the given circuit, when a battery of $9\\text{V}$ with internal resistance of $1\\ \\Omega$ is connected across these points is _________ $\\text{J}$.<br><br><svg viewBox=\"0 0 360 305\" role=\"img\" aria-label=\"Wheatstone bridge style circuit with 1 ohm and 2 ohm resistors on top, 2 ohm and 4 ohm on the bottom, a 1 ohm resistor in the middle, terminals A and B, and a 9 volt battery in the outer loop\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"70\" y1=\"70\" x2=\"100\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"70\" x2=\"208\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"70\" x2=\"290\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"195\" x2=\"100\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"195\" x2=\"208\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"195\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"70\" x2=\"180\" y2=\"95\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M180 95 l-7 6 l14 12 l-14 12 l14 12 l-14 12 l14 12 l-7 9\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"170\" x2=\"180\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"132\" x2=\"22\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"132\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"132\" x2=\"22\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"272\" x2=\"172\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"172\" y1=\"256\" x2=\"172\" y2=\"288\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"264\" x2=\"186\" y2=\"280\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"272\" x2=\"338\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"338\" y1=\"272\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"70\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"290\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><text x=\"126\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">1&#937;</text><text x=\"234\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"126\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"234\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">4&#937;</text><text x=\"190\" y=\"128\" fill=\"#6c7d70\">1 &#937;</text><text x=\"62\" y=\"126\" text-anchor=\"end\" fill=\"#6c7d70\">A</text><text x=\"298\" y=\"126\" fill=\"#6c7d70\">B</text><text x=\"179\" y=\"302\" text-anchor=\"middle\" fill=\"#6c7d70\">9V</text></svg>",
     "answer": "1080",
     "solution": "<b>Ans. (1080)</b><br><br><b>Sol.</b> [Circuit diagram showing a parallel network between points A and B with $1\\Omega$ and $2\\Omega$ resistors in series in the upper branch, and $2\\Omega$ and $4\\Omega$ resistors in series in the lower branch, connected to a $9\\text{V}, 1\\Omega$ source. Text on the right reads: \"Balanced Wheatstone bridge\"]<br><br>[Simplified circuit diagram showing an equivalent resistance of $2\\Omega$ between points A and B connected to a $9\\text{V}, 1\\Omega$ source]<br><br>$$i = \\frac{9}{3} = 3\\text{A}$$<br>$\\therefore H_{\\text{AB}} = i^2 R_{\\text{AB}} t$<br>$= (3)^2 \\times 2 \\times 60 = 1080\\text{ J}$<br><br><b>Correct Answer : 1080</b>",
     "image": "",
@@ -546,7 +546,7 @@
     "subject": "Physics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Let $S=\\{(m, n): m, n \\in \\{1, 2, 3, ....., 50\\}\\}$. If the number of elements $(m, n)$ in S such that $6^m + 9^n$ is a multiple of $5$ is p and the number of elements $(m, n)$ in S such that $m + n$ is a square of a prime number is q, then $p + q$ is equal to........",
+    "text": "Two identical thin rods of mass $M\\text{ kg}$ and length $L\\text{ m}$ are connected as shown in figure. Moment of inertia of the combined rod system about an axis passing through point P and perpendicular to the plane of the rods is $\\frac{x}{2} ML^2\\text{ kg m}^2$. The value of x is \\_\\_\\_\\_\\_\\_.<br><br><svg viewBox=\"0 0 200 200\" role=\"img\" aria-label=\"A vertical thin rod with point P at its top standing on the middle of a horizontal thin rod, both labelled M, L\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><path d=\"M94 152 L94 40 Q94 30 100 30 Q106 30 106 40 L106 152\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"40\" y=\"152\" width=\"120\" height=\"12\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"100\" cy=\"30\" r=\"4\" fill=\"#206d5b\"/><text x=\"110\" y=\"28\" fill=\"#6c7d70\">P</text><text x=\"114\" y=\"100\" fill=\"#6c7d70\">M, L</text><text x=\"100\" y=\"186\" text-anchor=\"middle\" fill=\"#6c7d70\">M, L</text></svg>",
     "answer": "17",
     "solution": "<b>Ans. (17)</b><br><b>Sol.</b> $I = \\frac{ML^2}{3} + \\left(\\frac{ML^2}{12} + ML^2\\right)$ [Figure: A T-shaped frame formed by a vertical rod of mass $M$ and length $L$ pivoted at top end $P$, and a horizontal rod of mass $M$ and length $L$ attached at the bottom of the vertical rod.]<br>$= \\frac{4ML^2 + ML^2 + 12ML^2}{12}$<br>$I = \\frac{17}{12} ML^2$<br>$\\therefore x = 17$<br><b>Correct Answer : 17</b>",
     "image": "",
@@ -564,7 +564,7 @@
     "subject": "Physics",
     "type": "integer",
     "section": "Numerical",
-    "text": "For some $\\alpha, \\beta \\in \\mathbb{R}$, let $\\text{A} = \\begin{bmatrix} \\alpha & 2 \\\\ 1 & 2 \\end{bmatrix}$ and $\\text{B} = \\begin{bmatrix} 1 & 1 \\\\ 1 & \\beta \\end{bmatrix}$\n\nbe such that $\\text{A}^2 - 4\\text{A} + 2\\text{I} = \\text{B}^2 - 3\\text{B} + \\text{I} = \\text{O}$.\nThen $(\\det(\\text{adj}(\\text{A}^3 - \\text{B}^3)))^2$ is equal to .........",
+    "text": "$10$ mole of oxygen is heated at constant volume from $30^\\circ\\text{C}$ to $40^\\circ\\text{C}$. The change in the internal energy of the gas is $\\underline{\\hspace{1cm}}$ cal. (The molecular specific heat of oxygen at constant pressure, $C_{\\text{p}} = 7\\text{ cal./mol }^\\circ\\text{C}$ and $R = 2\\text{ cal./mol }^\\circ\\text{C}$.)",
     "answer": "500",
     "solution": "<b>Ans. (500)</b><br><b>Sol.</b> $\\Delta U = nC_v \\Delta T$<br>$= n(C_p - R)\\Delta T$<br>$= 10(7 - 2)(40 - 30)$<br>$\\Delta U = 500$<br><b>Correct Answer : 500</b>",
     "image": "",
@@ -582,7 +582,7 @@
     "subject": "Physics",
     "type": "integer",
     "section": "Numerical",
-    "text": "$$6 \\int_{0}^{\\pi} |(\\sin 3x + \\sin 2x + \\sin x)| \\, dx \\text{ is equal to} \\dots\\dots\\dots$$",
+    "text": "In a microscope the objective is having focal length $f_0 = 2\\text{ cm}$ and eye-piece is having focal length $f_e = 4\\text{ cm}$. The tube length is $32\\text{ cm}$. The magnification produced by this microscope for normal adjustment is ________.",
     "answer": "100",
     "solution": "<b>Ans. (100)</b><br><br><b>Sol.</b> $m = \\frac{l D}{f_o f_e}$<br>$= \\frac{32}{2} \\times \\frac{25}{4}$<br>$m = 100$<br><b>Correct Answer : 100</b>",
     "image": "",
@@ -600,12 +600,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Potential energy ($V$) versus distance ($x$) is given by the graph, Rank various regions as per the magnitudes of the force (F) acting on a particle from high to low.<br><br><svg viewBox=\"0 0 191.9 108\" role=\"img\" aria-label=\"Graph of potential energy V versus distance x with points A, B, C, D and E\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-26\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"53\" y1=\"8\" x2=\"53\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"72\" y1=\"8\" x2=\"72\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"90\" y1=\"8\" x2=\"90\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"108\" y1=\"8\" x2=\"108\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"127\" y1=\"8\" x2=\"127\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"145\" y1=\"8\" x2=\"145\" y2=\"85\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"8\" x2=\"180\" y2=\"8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"28\" x2=\"180\" y2=\"28\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"48\" x2=\"180\" y2=\"48\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"67\" x2=\"180\" y2=\"67\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"13\" y1=\"85\" x2=\"183\" y2=\"85\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-26)\" fill=\"none\"/><line x1=\"13\" y1=\"85\" x2=\"13\" y2=\"6\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/><polyline points=\"13,85 34,67 53,8 90,8 127,28\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><text x=\"172\" y=\"80\" fill=\"#6c7d70\">x</text><text x=\"1\" y=\"20\" fill=\"#6c7d70\">V</text><text x=\"0\" y=\"92\" fill=\"#6c7d70\">0</text><text x=\"0\" y=\"35\" fill=\"#6c7d70\">3</text><text x=\"0\" y=\"73\" fill=\"#6c7d70\">1</text><text x=\"14\" y=\"99\" fill=\"#6c7d70\">A<tspan dy=\"3\" font-size=\"70%\">1</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"47\" y=\"99\" fill=\"#6c7d70\">2<tspan dy=\"3\" font-size=\"70%\">3</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"84\" y=\"99\" fill=\"#6c7d70\">4<tspan dy=\"3\" font-size=\"70%\">5</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"120\" y=\"99\" fill=\"#6c7d70\">6<tspan dy=\"3\" font-size=\"70%\">7</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"37\" y=\"74\" fill=\"#6c7d70\">B</text><text x=\"47\" y=\"6\" fill=\"#6c7d70\">C</text><text x=\"86\" y=\"6\" fill=\"#6c7d70\">D</text><text x=\"128\" y=\"34\" fill=\"#6c7d70\">E</text></svg>",
+    "text": "Consider the following reactions.\n\n$$\\text{PbCl}_2 + \\text{K}_2\\text{CrO}_4 \\rightarrow \\text{A} + 2\\text{KCl}$$\n\n$$\\text{(Hot solution)}$$\n\n$$\\text{A} + \\text{NaOH} \\rightleftharpoons \\text{B} + \\text{Na}_2\\text{CrO}_4$$\n\n$$\\text{PbSO}_4 + 4\\text{CH}_3\\text{COONH}_4 \\rightarrow (\\text{NH}_4)_2\\text{SO}_4 + \\text{X}$$\n\nIn the above reactions, A, B and X are respectively.",
     "options": [
-     "$F_{BC} > F_{CD} > F_{DE} > F_{AB}$",
-     "$F_{CD} > F_{AB} > F_{BC} > F_{DE}$",
-     "$F_{CD} > F_{DE} > F_{AB} > F_{BC}$",
-     "$F_{BC} > F_{AB} > F_{DE} > F_{CD}$"
+     "$\\text{Na}_2[\\text{Pb}(\\text{OH})_2], \\text{PbCrO}_4 \\text{ and } (\\text{NH}_4)_2[\\text{Pb}(\\text{CH}_3\\text{COO})_4]$",
+     "$\\text{PbCrO}_4, \\text{Na}_2[\\text{Pb}(\\text{OH})_4] \\text{ and } [\\text{Pb}(\\text{NH}_3)_4]\\text{SO}_4$",
+     "$\\text{Na}_2[\\text{Pb}(\\text{OH})_2], \\text{PbCrO}_4 \\text{ and } [\\text{Pb}(\\text{NH}_3)_4]\\text{SO}_4$",
+     "$\\text{PbCrO}_4, \\text{Na}_2[\\text{Pb}(\\text{OH})_4] \\text{ and } (\\text{NH}_4)_2[\\text{Pb}(\\text{CH}_3\\text{COO})_4]$"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> $\\underset{\\text{(Hot solution)}}{\\text{PbCl}_2} + \\text{K}_2\\text{CrO}_4 \\rightarrow \\underset{\\text{(A)}}{\\text{PbCrO}_4} + 2\\text{KCl}$<br>$\\text{PbCrO}_4 + 4\\text{NaOH (excess)}$<br>$\\rightarrow \\underset{\\text{(B)}}{\\text{Na}_2[\\text{Pb(OH)}_4]} + \\text{Na}_2\\text{CrO}_4$<br>$\\text{PbSO}_4 + 4\\text{CH}_3\\text{COONH}_4$<br>$\\rightarrow \\underset{\\text{(X)}}{(\\text{NH}_4)_2[\\text{Pb(CH}_3\\text{COO)}_4]} + (\\text{NH}_4)_2\\text{SO}_4$",
@@ -624,12 +624,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A gas based geyser heats water flowing at the rate of $5.0$ litres per minute from $27^\\circ\\text{C}$ to $87^\\circ\\text{C}$.\nThe rate of consumption of the gas is $\\qquad$ $\\text{g/s}$.\n(Take heat of combustion of gas $= 5.0 \\times 10^4 \\text{ J/g}$)\nspecific heat capacity of water $= 4200 \\text{ J/kg. }^\\circ\\text{C}$",
+    "text": "Which of the following represents the correct trend for the mentioned property ?\n\noindent\nA. $\\mathrm{F} > \\mathrm{P} > \\mathrm{S} > \\mathrm{B} - \\text{Frist Ionization Energy}$\n\noindent\nB. $\\mathrm{Cl} > \\mathrm{F} > \\mathrm{S} > \\mathrm{P} - \\text{Electron Affinity}$\n\noindent\nC. $\\mathrm{K} > \\mathrm{Al} > \\mathrm{Mg} > \\mathrm{B} - \\text{Metallic character}$\n\noindent\nD. $\\mathrm{K}_{2}\\mathrm{O} > \\mathrm{Na}_{2}\\mathrm{O} > \\mathrm{MgO} > \\mathrm{Al}_{2}\\mathrm{O}_{3} - \\text{Basic character}$\nChoose the correct answer from the option given below.",
     "options": [
-     "2.1",
-     "4.2",
-     "0.42",
-     "0.21"
+     "$\\text{A, B and D only}$",
+     "$\\text{A, B, C and D}$",
+     "$\\text{A and B only}$",
+     "$\\text{B and C only}$"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $\\Rightarrow$ On moving left to right in a period IE increases<br>and from top to bottom in a group IE decreases.<br>$\\text{F} > \\text{P} > \\text{S} > \\text{B}$ (IE order)<br>$\\Rightarrow$ On moving left to right in a period metallic and<br>basic character decreases.<br>$\\text{K} > \\text{Mg} > \\text{Al} > \\text{B}$ (Metallic character order)<br>$\\Rightarrow$ On moving top to bottom in a group<br>metallic and basic character increases.<br>$\\text{K}_2\\text{O} > \\text{Na}_2\\text{O} > \\text{MgO} > \\text{Al}_2\\text{O}_3$<br>$\\Rightarrow \\text{EA} : \\text{Group } 17 > \\text{Group } 16 > \\text{Group } 15$<br>$\\text{Cl} > \\text{F} > \\text{S} > \\text{P}$",
@@ -648,12 +648,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A conducting circular loop of area $1.0\\text{ m}^2$ is placed perpendicular to a magnetic field which varies as $B = \\sin(100\\ t)\\text{ Tesla}$. If the resistance of the loop is $100\\ \\Omega$, then the average thermal energy dissipated in the loop in one period is $\\underline{\\hspace{1cm}}\\text{ J}$.",
+    "text": "Identify A in the following reaction.<br><br><svg viewBox=\"40 12 305 152\" role=\"img\" aria-label=\"Reaction scheme: A splits into two paths, hydrogenation with 2H2 over Pt gives a fused bicyclic ring, oxidation with KMnO4 gives a six-membered ring with two COOH groups plus oxalic acid\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-53\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"62\" y1=\"92\" x2=\"104\" y2=\"92\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"52\" x2=\"104\" y2=\"131\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"52\" x2=\"166\" y2=\"52\" marker-end=\"url(#arrow-53)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"131\" x2=\"166\" y2=\"131\" marker-end=\"url(#arrow-53)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M191 32.5 L174.5 42 L174.5 61 L191 70.5 L207.5 61 L225 70.5 L241.5 61 L241.5 42 L225 32.5 L207.5 42 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207.5\" y1=\"42\" x2=\"207.5\" y2=\"61\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M190 115 L207 123.5 L207 140.5 L190 149 L173 140.5 L173 123.5 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207\" y1=\"123.5\" x2=\"218\" y2=\"116\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207\" y1=\"140.5\" x2=\"218\" y2=\"148\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"284.5\" y1=\"118\" x2=\"284.5\" y2=\"135\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><text x=\"51\" y=\"98\" fill=\"#6c7d70\">A</text><text x=\"120\" y=\"46\" fill=\"#6c7d70\">2H<tspan dy=\"3\" font-size=\"70%\">2</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"127\" y=\"66\" fill=\"#6c7d70\">Pt</text><text x=\"107\" y=\"126\" fill=\"#6c7d70\">KMnO<tspan dy=\"3\" font-size=\"70%\">4</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"221\" y=\"114\" fill=\"#6c7d70\">COOH</text><text x=\"221\" y=\"155\" fill=\"#6c7d70\">COOH</text><text x=\"263\" y=\"135\" fill=\"#6c7d70\">+</text><text x=\"280\" y=\"114\" fill=\"#6c7d70\">COOH</text><text x=\"280\" y=\"150\" fill=\"#6c7d70\">COOH</text></svg>",
     "options": [
-     "$\\frac{\\pi}{2}$",
-     "$2\\pi$",
-     "$\\pi$",
-     "$\\pi^2$"
+     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"13\" y1=\"16\" x2=\"13\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"67\" y1=\"16\" x2=\"67\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
+     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"13\" y1=\"13\" x2=\"23\" y2=\"10\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"67\" y1=\"16\" x2=\"67\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
+     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"13\" x2=\"68\" y2=\"13\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"56\" y1=\"37\" x2=\"66\" y2=\"37\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
+     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"14\" y1=\"13\" x2=\"24\" y2=\"13\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"14\" y1=\"37\" x2=\"24\" y2=\"37\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b><br>[Fused bicyclic ring with two double bonds in one ring] $\\xrightarrow[\\Delta]{2\\text{H}_2/\\text{Pt}}$ [Decalin (fused saturated bicyclic rings)]<br><br>[Fused bicyclic ring with two double bonds and explicit H atoms] $\\xrightarrow[\\Delta]{\\text{KMnO}_4}$ [Cyclohexane-1,2-dicarboxylic acid] $+ \\begin{array}{c} \\text{COOH} \\\\ | \\\\ \\text{COOH} \\end{array}$",
@@ -672,12 +672,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Water flows through a horizontal tube as shown in the figure. The difference in height between the water columns in vertical tubes is $5\\text{ cm}$ and the area of cross-sections at $A$ and $B$ are $6\\text{ cm}^2$ and $3\\text{ cm}^2$ respectively.\nThe rate of flow will be______ $\\text{cm}^3/\\text{s}$. (take $\\text{g} = 10\\text{ m/s}^2$)<br><br><svg viewBox=\"0 0 276 126\" role=\"img\" aria-label=\"Horizontal tube with a constriction at B, vertical tubes above A and B showing a 5 cm water level difference\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-29\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker><marker id=\"arrow-29s\" markerWidth=\"7\" markerHeight=\"7\" refX=\"1\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M7 0 L0 3.5 L7 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><path d=\"M 4 59 L 100 59 Q 118 59 122 71 Q 128 77.5 134 77.5 L 142 77.5 Q 148 77.5 154 69 Q 158 61 168 61 L 271 61 L 271 112 L 168 112 Q 158 112 154 106 Q 148 95.5 142 95.5 L 134 95.5 Q 128 95.5 122 104 Q 118 113 100 113 L 4 113 Z\" fill=\"#f0f4ec\" stroke=\"none\"/><rect x=\"29.5\" y=\"20\" width=\"13\" height=\"39\" fill=\"#f0f4ec\" stroke=\"none\"/><rect x=\"134.5\" y=\"42\" width=\"7\" height=\"35.5\" fill=\"#f0f4ec\" stroke=\"none\"/><path d=\"M 4 58.5 L 100 58.5 Q 118 58.5 122 70 Q 128 76.5 134 76.5 L 142 76.5 Q 148 76.5 154 68 Q 158 60.5 168 60.5 L 271 60.5\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/><path d=\"M 4 113 L 100 113 Q 118 113 122 105 Q 128 95 134 94.5 L 142 94.5 Q 148 94.5 154 105 Q 158 112 168 112 L 271 112\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/><line x1=\"29\" y1=\"4\" x2=\"29\" y2=\"59\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"43\" y1=\"4\" x2=\"43\" y2=\"59\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"134\" y1=\"33\" x2=\"134\" y2=\"76\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"142\" y1=\"33\" x2=\"142\" y2=\"76\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"30\" y1=\"20\" x2=\"42\" y2=\"20\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"135\" y1=\"42\" x2=\"141\" y2=\"42\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"44\" y1=\"20\" x2=\"130\" y2=\"20\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"44\" y1=\"42\" x2=\"142\" y2=\"42\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"51\" y1=\"21\" x2=\"51\" y2=\"41\" stroke=\"#266e5d\" stroke-width=\"1.4\" marker-start=\"url(#arrow-29s)\" marker-end=\"url(#arrow-29)\" fill=\"none\"/><line x1=\"201\" y1=\"118\" x2=\"237\" y2=\"118\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-29)\" fill=\"none\"/><circle cx=\"84.5\" cy=\"88.5\" r=\"7.5\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><circle cx=\"138.5\" cy=\"88.5\" r=\"7.5\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><text x=\"56\" y=\"38\" fill=\"#6c7d70\">5 cm</text><text x=\"84.5\" y=\"92.5\" text-anchor=\"middle\" fill=\"#6c7d70\">A</text><text x=\"138.5\" y=\"92.5\" text-anchor=\"middle\" fill=\"#6c7d70\">B</text></svg>",
+    "text": "A hydrocarbon 'P' ($\\text{C}_4\\text{H}_8$) on reaction with $\\text{HCl}$ gives an optically active compound 'Q' ($\\text{C}_4\\text{H}_9\\text{Cl}$) which on reaction with one mole of ammonia gives compound 'R' ($\\text{C}_4\\text{H}_{11}\\text{N}$). 'R' on diazotization followed by hydrolysis gives 'S'. Identify P, Q, R and S.",
     "options": [
-     "$\\frac{200}{\\sqrt{3}}$",
-     "$200\\sqrt{6}$",
-     "$200\\sqrt{3}$",
-     "$100\\sqrt{3}$"
+     "$\\text{P}=\\text{CH}_3-\\text{CH}_2-\\text{CH}=\\text{CH}_2, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}\\begin{matrix}\\\\ \\text{Cl} \\end{matrix}, \\text{ R}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{NH}\\begin{matrix}\\\\ \\text{CH}_3 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}\\begin{matrix}\\\\ \\text{OH} \\\\ | \\\\ \\text{CH}_3 \\end{matrix}$",
+     "$\\text{P}=\\text{CH}_3-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ Q}=\\text{Cl}-\\text{CH}_2-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ R}=\\text{H}_2\\text{N}-\\text{CH}_2-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ S}=\\begin{matrix}\\\\ \\triangle \\\\ \\text{OH} \\end{matrix}$",
+     "$\\text{P}=\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{Cl} \\end{matrix}, \\text{ R}=\\text{CH}_3-\\text{CH}_2=\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{NH}_2 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{OH} \\end{matrix}$",
+     "$\\text{P}=\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-\\text{Cl}, \\text{ R}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{NH}_2 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{CH}_2\\\\ \\text{OH} \\end{matrix}$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br>\nSol.<br>\n$$CH_3-CH=CH-CH_3 \\xrightarrow{HCl} CH_3-CH_2-\\stackrel{*}{\\text{C}}H-CH_3$$<br>\n$$\\text{(P)} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(Q) } |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{Cl}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\downarrow \\ddot{\\text{N}}\\text{H}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(R) } |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NH}_2$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NaNO}_2 \\downarrow \\text{Aq.HCl}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{OH}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad \\text{(S)}$$",
@@ -696,12 +696,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "In an experiment the values of two spring constants were measured as $k_1 = (10 \\pm 0.2)\\text{ N/m}$ and $k_2 = (20 \\pm 0.3)\\text{ N/m}$. If these springs are connected in parallel, then the percentage error in equivalent spring constant is :",
+    "text": "Given below are two statements :\n\n**Statement I** : The number of pairs among $[\\text{SiO}_2, \\text{CO}_2]$, $[\\text{SnO}, \\text{SnO}_2]$, $[\\text{PbO}, \\text{PbO}_2]$ and $[\\text{GeO}, \\text{GeO}_2]$, which contain oxides that are both amphoteric is $2$.\n\n**Statement II** : $\\text{BF}_3$ is an electron deficient molecule can act as a lewis acid, forms adduct with $\\text{NH}_3$ and has a trigonal planar geometry.\n\nIn the light of the above statement, choose the correct answer from the option given below.",
     "options": [
-     "$2.67\\%$",
-     "$2.33\\%$",
-     "$1.33\\%$",
-     "$1.67\\%$"
+     "Both **Statement I** and **Statement II** are true.",
+     "Both **Statement I** and **Statement II** are false.",
+     "**Statement I** is true but **Statement II** is false.",
+     "**Statement I** is false **Statement II** is true."
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br>\n<b>Sol.</b> $\\Rightarrow \\mathrm{SiO}_2, \\mathrm{CO}_2, \\mathrm{GeO}, \\mathrm{GeO}_2$ are acidic in nature.<br>\n$\\mathrm{SnO}, \\mathrm{SnO}_2, \\mathrm{PbO}, \\mathrm{PbO}_2$ are amphoteric in nature.<br>\n$\\Rightarrow \\mathrm{BF}_3$ is lewis acid acoording to lewic octet theory<br>\nand has $sp^2$ hybridization with trigonal planar<br>\ngeometry and it can accept lone pair form<br>\nammonia to form adduct.",
@@ -720,12 +720,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A $4\\text{ kg}$ mass moves under the influence of a force $\\vec{F} = (4t^3\\hat{i} - 3t\\hat{j})\\text{ N}$ where $t$ is the time in second.\nIf mass starts from origin at $t = 0$, the velocity and position after $t = 2\\text{ s}$ will be :",
+    "text": "$80\\text{ mL}$ of a hydrocarbon on mixing with $264\\text{ mL}$ of oxygen in a closed U-tube undergoes complete combustion. The residual gases after cooling to $273\\text{ K}$ occupy $224\\text{ mL}$. When the system is treated with $\\text{KOH}$ solution, the volume decreases to $64\\text{ mL}$. The formula of the hydrocarbon is :",
     "options": [
-     "$\\vec{v} = 3\\hat{i} + \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{6}{5}\\hat{i} + \\hat{j}$",
-     "$\\vec{v} = 4\\hat{i} - \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{8}{5}\\hat{i} - \\hat{j}$",
-     "$\\vec{v} = 4\\hat{i} + \\frac{5}{2}\\hat{j} \\quad \\vec{r} = \\frac{8}{5}\\hat{i} + 2\\hat{j}$",
-     "$\\vec{v} = 4\\hat{i} - \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{6}{5}\\hat{i} - \\hat{j}$"
+     "$\\text{C}_2\\text{H}_4$",
+     "$\\text{C}_4\\text{H}_{10}$",
+     "$\\text{C}_2\\text{H}_2$",
+     "$\\text{C}_2\\text{H}_6$"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> $$C_xH_{y(g)} + \\left(x + \\frac{y}{4}\\right)O_{2(g)} \\longrightarrow xCO_{2(g)} + \\frac{y}{2}H_2O_{(l)}$$<br>At $t=0$, the values are $80$ for $C_xH_{y(g)}$, $264$ for $O_{2(g)}$, $0$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$. At $t=t_{\\text{final}}$, the values are $-$ for $C_xH_{y(g)}$, $264 - 80\\left(x + \\frac{y}{4}\\right)$ for $O_{2(g)}$, $80x$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$.<br>$$264 - 80\\left(x + \\frac{y}{4}\\right) + 80x = 224$$<br>$$264 - \\frac{80y}{4} = 224$$<br>$40 = \\frac{80y}{4} \\Rightarrow y = 2$<br>$$264 - 80\\left(x + \\frac{y}{4}\\right) = 64$$<br>$$264 - 80\\left(x + \\frac{1}{2}\\right) = 64$$<br>$264 - 80x - 40 = 64$<br>$x = 2$",
@@ -744,12 +744,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Consider a modified Bernoulli equation.\n$$\\left(\\mathrm{P}+\\frac{\\mathrm{A}}{\\mathrm{Bt}^{2}}\\right)+\\rho\\mathrm{g}(\\mathrm{h}+\\mathrm{Bt})+\\frac{1}{2}\\rho\\mathrm{V}^{2}=\\text{constant}$$\nIf t has the dimension of time then the dimensions of A and B are $\\underline{\\quad\\quad\\quad}, \\underline{\\quad\\quad\\quad}$ respectively.",
+    "text": "$14.0\\text{ g}$ of calcium metal is allowed to react with excess $\\text{HCl}$ at $1.0\\text{ atm}$ pressure and $273\\text{ K}$.\nWhich of the following statements is <b>incorrect</b> ?\n[Given : Molar mass in $\\text{g mol}^{-1}$ of $\\text{Ca}-40, \\text{Cl}-35.5, \\text{H}-1]$",
     "options": [
-     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-1}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}]$",
-     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-1}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-1}]$",
-     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-2}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-2}]$",
-     "$[\\mathrm{ML}^{0}\\mathrm{T}^{-2}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-1}]$"
+     "$0.35\\text{ mol of } \\text{H}_2 \\text{ gas is evolved.}$",
+     "$7.84\\text{ L of } \\text{H}_2 \\text{ gas is evolved.}$",
+     "$33.3\\text{ of } \\text{CaCl}_2 \\text{ is produced.}$",
+     "$\\text{The limiting reagent is calcium metal.}$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br>Sol. $Ca_{(s)} + 2HCl_{(aq)} \\longrightarrow CaCl_{2(aq)} + H_{2(g)}$<br>$\\quad \\frac{14}{40} \\quad \\quad \\text{excess} \\quad \\quad \\quad \\quad \\quad - \\quad \\quad \\quad -$<br>$= 0.35 \\text{ mole} \\quad \\quad \\quad \\quad 0.35 \\text{ mole} \\quad 0.35 \\text{ mole}$<br>Volume of $H_{2(g)}$ evolved $= 0.35 \\times 22.4 = 7.84 \\text{ L}$<br>(3) is wrong because weight of $CaCl_2 = .35 \\times 111 =$<br>38.85 gm",
@@ -768,12 +768,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A current carrying is placed vertically and a particle of mass m with charge Q is released from rest. The particle moves along the axis of solenoid. If g is acceleration due to gravity then the acceleration (a) of the charged particle will satisfy :",
+    "text": "In Carius method, $0.75\\text{ g}$ of an organic compound gave $1.2\\text{ g}$ of barium sulphate, find percentage of sulphur (molar mass $32\\text{ g mol}^{-1}$). Molar mass of barium sulphate is $233\\text{ g mol}^{-1}$.",
     "options": [
-     "$a = g$",
-     "$a > g$",
-     "$a = 0$",
-     "$0 < a < g$"
+     "$4.55\\%$",
+     "$10.30\\%$",
+     "$21.97\\%$",
+     "$16.48\\%$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><b>Sol.</b> $$\\frac{n_{BaSO_{4}} \\times 32}{W_{(unknown\\ comp.)}} \\times 100$$<br>$$= \\frac{1.2 \\times 32}{233} \\times \\frac{100}{0.75} = 21.97\\%$$",
@@ -792,12 +792,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A parallel plate capacitor has capacitance $C$, when there is vacuum within the parallel plates.\n\nA sheet having thickness $\\left(\\frac{1}{3}\\right)^{\\text{rd}}$ of the separation between the plates and relative permittivity $K$ is introduced between the plates. The new capacitance of the system is :",
+    "text": "Elements P and Q form two types of non-volatile, non-ionizable compounds $\\text{PQ}$ and $\\text{PQ}_2$. When $1\\text{ g}$ of $\\text{PQ}$ is dissolved in $50\\text{ g}$ of solvent 'A', $\\Delta \\text{T}_\\text{b}$ was $1.176\\text{ K}$ while when $1\\text{ g}$ of $\\text{PQ}_2$ is dissolved in $50\\text{ g}$ of solvent 'A', $\\Delta \\text{T}_\\text{b}$ was $0.689\\text{ K}$. ($K_b$ of 'A' $= 5\\text{ K kg mol}^{-1}$). The molar masses of elements P and Q (in $\\text{g mol}^{-1}$) respectively, are :",
     "options": [
-     "$\\frac{3KC}{2K + 1}$",
-     "$\\frac{CK}{2 + K}$",
-     "$\\frac{3CK^2}{(2K + 1)^2}$",
-     "$\\frac{4KC}{3K - 1}$"
+     "70, 110",
+     "65, 145",
+     "60, 25",
+     "25, 60"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br><br><b>Sol.</b> $(\\Delta T_b)_{PQ} = K_b m$<br>$$1.176 = 5 \\times \\frac{1}{M_1} \\times \\frac{1000}{50}$$<br>$M_1 = 85.03$<br><br>$$(\\Delta T_b)_{PQ_2} = 5 \\times \\frac{1}{M_2} \\times \\frac{1000}{50} = 0.689$$<br>$M_2 = 145.13$<br><br>Let molar mass of $P$ & $Q$ are $M_P$ and $M_Q$<br>respectively<br>$M_P + M_Q = 85.03$<br>$M_P + 2M_Q = 145.13$<br>$M_P = 24.93 \\approx 25$<br>$M_Q = 60.1 \\approx 60$",
@@ -816,12 +816,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The electric field a plane electromagnetic wave is given by :\\\\ $E_y = 69 \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t] \\text{ V/m}$.\\\\ The expression for magnetic field associated with this electromagnetic wave is $\\underline{\\hspace{1cm}} \\text{ T}$.",
+    "text": "An organic compound (P) on treatment with aqueous ammonia under hot condition forms compound (Q) which on heating with $\\text{Br}_2$ and $\\text{KOH}$ forms compound (R) having molecular formula $\\text{C}_9\\text{H}_7\\text{N}$. Names of P, Q and R respectively are.",
     "options": [
-     "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$",
-     "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x + 1.8 \\times 10^{11}t]$",
-     "$B_y = 69 \\sin[0.6 \\times 10^3x + 1.8 \\times 10^{11}t]$",
-     "$B_y = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$"
+     "Benzoic acid, benzamide, aniline",
+     "Toluic acid, methylbenzamide, 2-methylaniline",
+     "Benzoic acid,4-methylbenzamide,4-methylaniline.",
+     "Phenylethanoic acid, phenylethanamide, benzamine"
     ],
     "answer": "1",
     "solution": "Ans. (1)<br><b>Sol.</b> $\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3} \\text{Ph}-\\overset{\\text{O}}{\\text{||}}\\text{C}-\\text{NH}_2$<br>$\\text{ }\\text{ }\\text{ }(P) \\qquad \\qquad \\qquad (Q)$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Br}_2 \\downarrow \\text{KOH}$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Ph}-\\text{NH}_2$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{ }\\text{ }(R)$",
@@ -840,12 +840,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "In a double slit experiment the distance between the slits is $0.1\\text{ cm}$ and the screen is placed at $50\\text{ cm}$ from the slits plane. When one slit is covered with a transparent sheet having thickness t and refractive index $n(= 1.5)$, the central fringe shifts by $0.2\\text{ cm}$. The value of t is _____ $\\text{ cm}$.",
+    "text": "An organic compound “P” of molecular formula $\\text{C}_6\\text{H}_{12}\\text{O}_3$ gives positive Iodoform test but negative Tollen's test. When “P” is treated with dilute acid, it produces “Q”. “Q” gives positive Tollen's test and also iodoform test. The structure of “P” is :",
     "options": [
-     "$8 \\times 10^{-4}$",
-     "$6.0 \\times 10^{-3}$",
-     "$5.6 \\times 10^{-4}$",
-     "$5.0 \\times 10^{-3}$"
+     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{CH}-\\text{CH}_2\\\\ \\quad\\quad\\quad \\text{OCH}_3 \\text{OCH}_3$",
+     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{CH}_2-\\text{CH}-\\text{OCH}_3\\\\ \\quad\\quad\\quad\\quad\\quad\\quad\\quad \\text{OCH}_3$",
+     "$\\text{H}-\\text{C}=\\text{O}-\\text{CH}_2-\\text{CH}_2-\\text{CH}-\\text{OCH}_3\\\\ \\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad \\text{OCH}_3$",
+     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{C}-\\text{CH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3$"
     ],
     "answer": "2",
     "solution": "<b>Ans. (2)</b><br>\n<b>Sol.</b><br>\n(The image shows a chemical reaction starting with a reactant molecule that contains a methyl ketone group and an acetal group, $CH_3-C(=O)-CH_2-CH(OCH_3)_2$. Next to this molecule are two property notes:)<br>\n$\\rightarrow +ve$ Iodoform test<br>\n$\\rightarrow -ve$ Tollen's test<br>\n(A reaction arrow labeled $H_2O/H^{\\oplus}$ leads to a product molecule where the acetal has been hydrolyzed to an aldehyde, $CH_3-C(=O)-CH_2-CH=O$. Next to the product are two property notes:)<br>\n$\\rightarrow +ve$ Iodoform test<br>\n$\\rightarrow +ve$ Tollen's test",
@@ -864,12 +864,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A light wave described by $E = 60 \\sin(3 \\times 10^{15})t + \\sin(12 \\times 10^{15})t]$ (in SI units) falls on a metal surface of work function $2.8\\text{ eV}$. The maximum kinetic energy of ejected photoelectron is (approximately$) \\underline{\\hspace{1cm}}$ $\\text{ eV}$. ($h = 6.6 \\times 10^{-34}\\text{ J-s.}$ and $e = 1.6 \\times 10^{-19}\\text{ C}$)",
+    "text": "From the following, the least stable structure is :",
     "options": [
-     "5.1",
-     "3.8",
-     "6.0",
-     "7.8"
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><b>Sol.</b> [A chemical structure is shown: a four-carbon chain starting with a double bond between the first and second carbons. The third carbon has a negative charge. The fourth carbon has a positive charge and is bonded to a nitrogen atom. The nitrogen atom also has a positive charge and is bonded to two oxygen atoms: one via a double bond and the other via a single bond; the latter oxygen atom has a negative charge.]<br>This resonating structure having $+ve$ charge on adjacent atoms so it is least stable.",
@@ -888,12 +888,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "If an alpha particle with energy $7.7 \\text{ MeV}$ is bombarded on a thin gold foil, the closest distance from nucleus it can reach is $\\underline{\\hspace{2cm}}$ $\\text{ m}$.\n\n(Atomic number of gold $= 79$ and $\\frac{1}{4\\pi \\epsilon_0} = 9 \\times 10^9$\n\nin SI units)",
+    "text": "$\\mathrm{MnO}_4^{2-}$, in acidic medium, disproportionates to :",
     "options": [
-     "$2.95 \\times 10^{-14}$",
-     "$2.95 \\times 10^{-16}$",
-     "$3.85 \\times 10^{-16}$",
-     "$3.85 \\times 10^{-14}$"
+     "$\\mathrm{Mn}_2\\mathrm{O}_7$ and $\\mathrm{MnO}_2$",
+     "$\\mathrm{MnO}_4^{-}$ and $\\mathrm{MnO}$",
+     "$\\mathrm{MnO}_4^{-}$ and $\\mathrm{MnO}_2$",
+     "$\\mathrm{Mn}_2\\mathrm{O}_7$ and $\\mathrm{MnO}$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br>Sol. $3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\rightarrow 2\\text{MnO}_4^- + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$",
@@ -912,12 +912,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A uniform rod of mass m and length $l$ suspended by means of two identical inextensible light strings as shown in figure. Tension in one string immediately after the other string is cut, is \\_\\_\\_\\_\\_\\_\\_. (g acceleration due to gravity)<br><br><svg viewBox=\"0 0 102 84\" role=\"img\" aria-label=\"Uniform rod AB suspended by two vertical strings from a ceiling, with the rod length l marked below\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"10\" x2=\"94\" y2=\"10\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/><g stroke=\"#657568\" stroke-width=\"1.4\"><line x1=\"7\" y1=\"10\" x2=\"9\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"10\" x2=\"14\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"17\" y1=\"10\" x2=\"19\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"10\" x2=\"24\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"27\" y1=\"10\" x2=\"29\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"32\" y1=\"10\" x2=\"34\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"37\" y1=\"10\" x2=\"39\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"42\" y1=\"10\" x2=\"44\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"47\" y1=\"10\" x2=\"49\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"10\" x2=\"54\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57\" y1=\"10\" x2=\"59\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"62\" y1=\"10\" x2=\"64\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"67\" y1=\"10\" x2=\"69\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"72\" y1=\"10\" x2=\"74\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"77\" y1=\"10\" x2=\"79\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"82\" y1=\"10\" x2=\"84\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"87\" y1=\"10\" x2=\"89\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"92\" y1=\"10\" x2=\"94\" y2=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"13\" y1=\"10\" x2=\"13\" y2=\"52\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><line x1=\"86\" y1=\"10\" x2=\"86\" y2=\"52\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/><rect x=\"2.5\" y=\"52\" width=\"93\" height=\"9.5\" rx=\"5\" ry=\"5\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/><line x1=\"13\" y1=\"72\" x2=\"49\" y2=\"72\" stroke=\"#657568\" stroke-width=\"1.5\" stroke-dasharray=\"1.5 2.5\" fill=\"none\"/><line x1=\"57\" y1=\"72\" x2=\"88\" y2=\"72\" stroke=\"#657568\" stroke-width=\"1.5\" stroke-dasharray=\"1.5 2.5\" fill=\"none\"/><text x=\"4\" y=\"78\" fill=\"#6c7d70\">A</text><text x=\"50\" y=\"78\" font-style=\"italic\" fill=\"#6c7d70\">l</text><text x=\"89\" y=\"78\" fill=\"#6c7d70\">B</text></svg>",
+    "text": "Given below are two statements:\n\n<b>Statement I:</b> The number of species among $\\text{SF}_4$, $\\text{NH}_4^+$, $[\\text{NiCl}_4]$, $\\text{XeF}_4$, $[\\text{PtCl}_4]^{2-}$, $\\text{SeF}_4$ and $[\\text{Ni(CN)}_4]^{2-}$, that have tetrahedral geometry is 3.\n\n<b>Statement II:</b> In the set $[\\text{NO}_2, \\text{BeH}_2, \\text{BF}_3, \\text{AlCl}_3]$, all the molecules have incomplete octet around central atom. In the light of the above statements, choose the correct answer from the options given below:",
     "options": [
-     "$mg/2$",
-     "$mg/4$",
-     "$mg/3$",
-     "$mg$"
+     "Statement I is true but Statement II is false",
+     "Both Statement I and Statement II are false",
+     "Statement I is false but Statement II is true",
+     "Both Statement I and Statement II are true"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Statement-I<br>$SF_4$ (See-saw)<br>$XeF_4$ (square planar),<br>$[PtCl_4]^{2-}$ (square planar),<br>$[NiCl_4]^{2-}$ (Tetrahedral),<br>$[Ni(CN)_4]^{2-}$ (square planar),<br>$SeF_4$ (See-saw)<br>$NH_4^+$ (Tetrahedral)<br>Statement-II<br>$NO_2$ (seven electrons on N)<br>$BeH_2$ (four electrons on Be)<br>$BF_3$ (six electrons on B)<br>$AlCl_3$ (six electrons on Al)",
@@ -936,12 +936,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "An aluminium and steel rods having same lengths and cross-sections are joined to make total length of $120\\text{ cm}$ at $30^{\\circ}\\text{C}$. The coefficient of linear expansion of aluminium and steel are $24 \\times 10^{-6}/^{\\circ}\\text{C}$ and $1.2 \\times 10^{-5}/^{\\circ}\\text{C}$, respectively. The length of this composite rod when its temperature is raised to $100^{\\circ}\\text{C}$, is \\_\n\\_\n\\_\n\\_\n\\_\n $\\text{cm}$.",
+    "text": "Given below are two statements:\n\n<b>Statement I:</b> Among $[\\text{Cu}(\\text{NH}_3)_4]^{2+}$, $[\\text{Ni}(\\text{en})_3]^{2+}$, $[\\text{Ni}(\\text{NH}_3)_6]^{2+}$ and $[\\text{Mn}(\\text{H}_2\\text{O})_6]^{2+}$, $[\\text{Mn}(\\text{H}_2\\text{O})_6]^{2+}$ has the maximum number of unpaired electrons.\n\n<b>Statement II:</b> The number of pairs among $\\{[\\text{NiCl}_4]^{2-}, [\\text{Ni}(\\text{CO})_4]\\}$, $\\{[\\text{NiCl}_4]^{2-}, [\\text{Ni}(\\text{CN})_4]^{2-}\\}$, and $\\{[\\text{Ni}(\\text{CO})_4], [\\text{Ni}(\\text{CN})_4]^{2-}\\}$, that contain only diamagnetic species is two.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
     "options": [
-     "$120.20$",
-     "$120.15$",
-     "$120.03$",
-     "$120.06$"
+     "Statement I is false but Statement II is true",
+     "Both Statement I and Statement II are true",
+     "Both Statement I and Statement II are false",
+     "Statement I is true but Statement II is false"
     ],
     "answer": "4",
     "solution": "<b>Ans. (4)</b><br><b>Sol.</b> $[Cu(NH_3)_4]^{2+} \\Rightarrow d^9, dsp^2$ one unpaired electron<br>$[Ni(en)_3]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons<br>$[Ni(NH_3)_6]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons<br>$[Mn(H_2O)_6]^{2+} \\Rightarrow d^5, sp^3d^2$ five unpaired electrons<br>$[Ni(CO)_4]$ (diamagnetic)<br>$[NiCl_4]^{2-}$ (paramagnetic)<br>$[Ni(CN)_4]^{2-}$ (diamagnetic)",
@@ -960,12 +960,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A $1\\text{ m}$ long metal rod AB completes the circuit as shown in figure. The area of circuit is perpendicular to the magnetic field of $0.10\\text{ T}$. If the resistance of the total circuit is $2\\,\\Omega$ then the force needed to move the rod towards right with constant speed (v) of $1.5\\text{ m/s}$ is $\\underline{\\hspace{1.5cm}}$ $\\text{N}$.<br><br><svg viewBox=\"0 0 90 102\" role=\"img\" aria-label=\"Metal rod AB sliding on rails through a magnetic field into the page, with a resistor on the left\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-41\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"><line x1=\"4\" y1=\"15\" x2=\"84\" y2=\"15\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"84\" x2=\"84\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"15\" x2=\"4\" y2=\"28\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"4\" y1=\"71\" x2=\"4\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M4 28 L7 32 L2 39 L7 46 L2 53 L7 60 L2 67 L4 71\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"48\" y1=\"15\" x2=\"48\" y2=\"84\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><g stroke=\"#657568\" stroke-width=\"1.4\" fill=\"none\"><circle cx=\"19\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"22.3\" x2=\"22.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"28.7\" x2=\"22.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"22.3\" x2=\"40.7\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"28.7\" x2=\"40.7\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"61\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"22.3\" x2=\"64.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"28.7\" x2=\"64.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"25.5\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"22.3\" x2=\"83.2\" y2=\"28.7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"28.7\" x2=\"83.2\" y2=\"22.3\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"19\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"45.8\" x2=\"22.2\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"52.2\" x2=\"22.2\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"45.8\" x2=\"40.7\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"52.2\" x2=\"40.7\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"49\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"45.8\" x2=\"83.2\" y2=\"52.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"52.2\" x2=\"83.2\" y2=\"45.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"19\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"70.8\" x2=\"22.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"15.8\" y1=\"77.2\" x2=\"22.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"37.5\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"70.8\" x2=\"40.7\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"34.3\" y1=\"77.2\" x2=\"40.7\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"61\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"70.8\" x2=\"64.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"57.8\" y1=\"77.2\" x2=\"64.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"80\" cy=\"74\" r=\"4.5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"70.8\" x2=\"83.2\" y2=\"77.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"76.8\" y1=\"77.2\" x2=\"83.2\" y2=\"70.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"48\" y1=\"48\" x2=\"66\" y2=\"48\" stroke=\"#266e5d\" stroke-width=\"1.7\" marker-end=\"url(#arrow-41)\" fill=\"none\"/><text x=\"48.5\" y=\"12\" text-anchor=\"middle\" fill=\"#6c7d70\">A</text><text x=\"49.5\" y=\"98\" text-anchor=\"middle\" fill=\"#6c7d70\">B</text><text x=\"60\" y=\"59\" font-style=\"italic\" fill=\"#6c7d70\">v</text></svg>",
+    "text": "Identify correct statement from the following :\n\nA. Propanal and propanone are functional isomers.\n\nB. Ethoxyethane and methoxypropane are metamers.\n\nC. But-2-ene shows optical isomerism.\n\nD. But-1-ene and but-2-ene are functional isomers.\n\nE. Pentane and 2, 2-dimethyl propane are chain isomers.\n\nChoose the <b>correct</b> answer from the options given below :",
     "options": [
-     "$7.5 \\times 10^{-2}$",
-     "$5.7 \\times 10^{-3}$",
-     "$5.7 \\times 10^{-2}$",
-     "$7.5 \\times 10^{-3}$"
+     "B, C and D only",
+     "A, B and C only",
+     "A, B and E only",
+     "C, D and E only"
     ],
     "answer": "3",
     "solution": "<b>Ans. (3)</b><br><b>Sol.</b> (Skeletal structure of propanal) (Skeletal structure of propanone) are Functional isomer<br>$CH_3-CH=CH-CH_3,$ & $CH_3-CH_2-CH=CH_2,$<br>Are Positional isomer<br>$CH_3-CH_2-O-CH_2-CH_3,$ & $CH_3-CH_2-CH_2-O-CH_3,$<br>are Metamer<br>$CH_3-CH=CH-CH_3,$ does not have optical isomer<br>(Skeletal structure of n-pentane) (Skeletal structure of neopentane) Chain isomer",
@@ -984,12 +984,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The given circuit works as :<br><br><svg viewBox=\"0 0 600 150\" role=\"img\" aria-label=\"Logic circuit: inputs A and B each pass through a block into a NOR gate, the two outputs combine in a third NOR gate, then a block, then a final NOR gate to the output\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"30\" y1=\"45\" x2=\"74\" y2=\"45\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"74\" y=\"38\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M120 28 Q156 28 180 45 Q156 62 120 62 Q141 45 120 28 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"190\" y1=\"45\" x2=\"215\" y2=\"45\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"45\" x2=\"215\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"70\" x2=\"240\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"30\" y1=\"115\" x2=\"74\" y2=\"115\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"74\" y=\"108\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M120 98 Q156 98 180 115 Q156 132 120 132 Q141 115 120 98 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"190\" y1=\"115\" x2=\"215\" y2=\"115\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"115\" x2=\"215\" y2=\"90\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"90\" x2=\"240\" y2=\"90\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M240 63 Q276 63 300 80 Q276 97 240 97 Q261 80 240 63 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"310\" y1=\"80\" x2=\"354\" y2=\"80\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"354\" y=\"73\" width=\"46\" height=\"14\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M400 63 Q436 63 460 80 Q436 97 400 97 Q421 80 400 63 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"470\" y1=\"80\" x2=\"525\" y2=\"80\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"185\" cy=\"45\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"185\" cy=\"115\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"305\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><circle cx=\"465\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"30\" cy=\"45\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"30\" cy=\"115\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"525\" cy=\"80\" r=\"3\" fill=\"#206d5b\"/><text x=\"12\" y=\"50\" fill=\"#6c7d70\">A</text><text x=\"12\" y=\"120\" fill=\"#6c7d70\">B</text><text x=\"4\" y=\"84\" fill=\"#6c7d70\">Input</text><text x=\"533\" y=\"85\" fill=\"#6c7d70\">Output</text></svg>",
+    "text": "Identify the correct statements.\n\nA. Arginine and Tryptophan are essential amino acids.\n\nB. Histidine does not contain heterocyclic ring in its structure.\n\nC. Proline is a six membered cyclic ring amino acid.\n\nD. Glycine does not have chiral centre.\n\nE. Cysteine has characteristic feature of side chain as $\\text{MeS-CH}_2\\text{-CH}_2$-.\n\nChoose the <b>correct</b> answer from the options given below:",
     "options": [
-     "AND gate",
-     "NOR gate",
-     "NAND gate",
-     "OR gate"
+     "A, B and C only",
+     "D only",
+     "B and D only",
+     "A and D only"
     ],
     "answer": "1",
     "solution": "Option<br>(1) C and E Only<br>(2) B and E Only<br>(3) C and D Only<br>(4) A and D Only<br><b>Ans. (4)</b><br><b>Sol.</b> $\\cdot$ Histidine does contain heterocyclic ring.<br><br>$\\cdot$ Proline is a five membered cyclic ring amino<br>acid.<br><br>$\\cdot$ Cysteine has characteristic feature of side chain as<br>$\\mathrm{CH}_2-\\mathrm{SMe}$",
@@ -1008,12 +1008,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Two strings (A, B) having linear densities $\\mu_{\\text{A}} = 2 \\times 10^{-4}\\text{ kg/m}$ and $\\mu_{\\text{B}} = 4 \\times 10^{-4}\\text{ kg/m}$ and lengths $L_{\\text{A}} = 2.5\\text{ m}$ and $L_{\\text{B}} = 1.5\\text{ m}$ respectively are joined. Free ends of A and B are tied to two rigid supports C and D, respectively creating a tension of $500\\text{ N}$ in the wire. Two identical pulses, sent from C and D ends, take time $t_1$ and $t_2$, respectively, to reach the joint. The ratio $t_1 / t_2$ is :",
+    "text": "Which of the following graphs between pressure 'P' versus volume 'V' represent the maximum work done ?<br><br><svg viewBox=\"0 0 275 690\" role=\"img\" aria-label=\"Four pressure versus volume graphs comparing work done: (1) rise at 22.4 then curve down to 44.8 and back, (2) rectangle to 22.4, (3) lens shaped loop between 22.4 and 44.8, (4) curve from 22.4 down to 44.8\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-68\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"80\" y1=\"115\" x2=\"80\" y2=\"15\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"115\" x2=\"250\" y2=\"115\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"115\" x2=\"102\" y2=\"25\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"70\" x2=\"102\" y2=\"70\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"102\" y1=\"70\" x2=\"102\" y2=\"27\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M102 25 Q150 35 230 70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(153,39) rotate(30)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"230\" y1=\"70\" x2=\"104\" y2=\"70\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"24\" y1=\"60\" x2=\"24\" y2=\"40\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"290\" x2=\"80\" y2=\"190\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"290\" x2=\"250\" y2=\"290\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"200\" x2=\"102\" y2=\"200\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"102\" y1=\"200\" x2=\"102\" y2=\"290\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(102,243) rotate(90)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"24\" y1=\"235\" x2=\"24\" y2=\"215\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"465\" x2=\"80\" y2=\"365\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"465\" x2=\"250\" y2=\"465\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"465\" x2=\"102\" y2=\"375\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"375\" x2=\"102\" y2=\"375\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"420\" x2=\"230\" y2=\"420\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"230\" y1=\"465\" x2=\"230\" y2=\"420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M102 375 Q170 378 230 420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(170,388) rotate(32)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><path d=\"M102 375 Q160 412 230 420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(166,404) rotate(212)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"80\" y1=\"640\" x2=\"80\" y2=\"540\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"640\" x2=\"250\" y2=\"640\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"640\" x2=\"102\" y2=\"550\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"550\" x2=\"102\" y2=\"550\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"595\" x2=\"230\" y2=\"595\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"230\" y1=\"640\" x2=\"230\" y2=\"595\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><path d=\"M102 550 Q150 560 230 595\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(153,564) rotate(30)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"12\" y1=\"67\" x2=\"40\" y2=\"67\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"251\" x2=\"40\" y2=\"251\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"426\" x2=\"40\" y2=\"426\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"601\" x2=\"40\" y2=\"601\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"143\" x2=\"188\" y2=\"143\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"318\" x2=\"188\" y2=\"318\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"493\" x2=\"188\" y2=\"493\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"668\" x2=\"188\" y2=\"668\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><g><text x=\"76\" y=\"29\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"74\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"129\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"129\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"129\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"147\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"72\" fill=\"#6c7d70\">(1)</text><text x=\"18\" y=\"72\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"90\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"204\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"304\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"304\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"126\" y=\"322\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"247\" fill=\"#6c7d70\">(2)</text><text x=\"18\" y=\"247\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"265\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"379\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"424\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"479\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"479\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"479\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"497\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"422\" fill=\"#6c7d70\">(3)</text><text x=\"18\" y=\"422\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"440\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"554\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"599\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"654\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"654\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"654\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"672\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"597\" fill=\"#6c7d70\">(4)</text><text x=\"18\" y=\"597\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"615\" fill=\"#6c7d70\">bar</text></g></svg>",
     "options": [
-     "1.08",
-     "1.90",
-     "1.67",
-     "1.18"
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
     ],
     "answer": "4",
     "solution": "<b>Ans.</b> (4)<br><b>Sol.</b> Area under the $P$ v/s $V$ curve, is equal to<br>magnitude of work.<br>In option (2) work done is zero while in remaining<br>options net work done is negative due to expansion.<br>NTA has given the answer without considering the<br>negative sign that is considered only magnitude.",
@@ -1032,12 +1032,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Initially a satellite of $100\\text{ kg}$ is in a circular orbit of radius $1.5\\text{R}_\\text{E}$. This satellite can be moved to a circular orbit of radius $3\\text{R}_\\text{E}$ by supplying $\\alpha \\times 10^6\\text{ J}$ of energy. The value of $\\alpha$ is $\\underline{\\quad\\quad\\quad\\quad\\quad}$.\\\\\\\\ (Take Radius of Earth $\\text{R}_\\text{E} = 6 \\times 10^6\\text{ m}$ and $\\text{g} = 10\\text{ m/s}^2$)",
+    "text": "For the reaction, $\\text{N}_2\\text{O}_4 \\rightleftharpoons 2\\text{NO}_2$, graph is plotted as shown below. Identify correct statements.\n\nA. Standard free energy change for the reaction is $-5.40 \\text{ kJ mol}^{-1}$.\n\nB. As $\\text{AG}^\\ominus$ in graph is positive, $\\text{N}_2\\text{O}_4$ will not dissociate into $\\text{NO}_2$ at all.\n\nC. Reverse reaction will go to completion.\n\nD. When 1 mole of $\\text{N}_2\\text{O}_4$ changes into equilibrium mixture, value of $\\Delta\\text{G}^\\ominus = -0.84 \\text{ kJ mol}^{-1}$\n\nE. When 2 mole of $\\text{NO}_2$, changes into equilibrium mixture, $\\Delta\\text{G}^\\ominus$ for equilibrium mixture is $-6.24 \\text{ kJ mol}^{-1}$.\n\nE. When 2 mole of $\\text{NO}_2$, changes into equilibrium mixture, $\\Delta\\text{G}^\\ominus$ for equilibrium mixture is $-6.24 \\text{ kJ mol}^{-1}$.\n\nChoose the <b>correct</b> answer from the options given below :<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368.6 252\" role=\"img\" aria-label=\"Plot of Gibbs energy G in kJ per mol against fraction of N2O4 dissociated: the curve starts at A on the left, falls to a minimum at E near 0.4, then rises steeply to B near 0.6; dashed level lines mark A, E and B, a box reads Constant p, T, and braces on the right show 5.40 between B and A and 0.84 between A and E\">\n  <defs>\n    <marker id=\"arrow-jee-shift1-q69\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"70\" y1=\"205\" x2=\"70\" y2=\"22\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-jee-shift1-q69)\" fill=\"none\"/>\n  <line x1=\"70\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-jee-shift1-q69)\" fill=\"none\"/>\n  <text x=\"52\" y=\"42\" font-style=\"italic\" fill=\"#6c7d70\">G</text>\n  <text x=\"14\" y=\"60\" font-size=\"10\" fill=\"#6c7d70\">kJ mol<tspan font-size=\"7\" dy=\"-4\">&#8722;1</tspan></text>\n  <line x1=\"121\" y1=\"205\" x2=\"121\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"172\" y1=\"205\" x2=\"172\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"223\" y1=\"205\" x2=\"223\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"274\" y1=\"205\" x2=\"274\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <text x=\"121\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.2</text>\n  <text x=\"172\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.4</text>\n  <text x=\"223\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.6</text>\n  <text x=\"274\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.8</text>\n  <text x=\"186\" y=\"242\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">Fraction of N<tspan font-size=\"8\" dy=\"2\">2</tspan><tspan font-size=\"11\" dy=\"-2\">O</tspan><tspan font-size=\"8\" dy=\"2\">4</tspan><tspan font-size=\"11\" dy=\"-2\"> dissociated</tspan></text>\n  <rect x=\"90\" y=\"62\" width=\"112\" height=\"24\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.5\"/>\n  <text x=\"146\" y=\"78\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">Constant p, T</text>\n  <line x1=\"70\" y1=\"32\" x2=\"252\" y2=\"32\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <line x1=\"103\" y1=\"116\" x2=\"232\" y2=\"116\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <line x1=\"172\" y1=\"171\" x2=\"232\" y2=\"171\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <path d=\"M103 116 C 122 158, 146 172, 172 171 C 198 170, 210 110, 223 32\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/>\n  <circle cx=\"103\" cy=\"116\" r=\"2.4\" fill=\"#206d5b\"/>\n  <circle cx=\"172\" cy=\"171\" r=\"2.4\" fill=\"#206d5b\"/>\n  <circle cx=\"223\" cy=\"32\" r=\"2.4\" fill=\"#206d5b\"/>\n  <path d=\"M248 32 Q256 32 256 53 Q256 75 264 75 Q256 75 256 97 Q256 118 248 118\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <path d=\"M232 116 Q240 116 240 130 Q240 145 248 145 Q240 145 240 160 Q240 171 232 171\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <text x=\"268\" y=\"79\" font-size=\"11\" fill=\"#6c7d70\">5.40</text>\n  <text x=\"252\" y=\"149\" font-size=\"11\" fill=\"#6c7d70\">0.84</text>\n  <text x=\"88\" y=\"112\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">A</text>\n  <text x=\"164\" y=\"188\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">E</text>\n  <text x=\"228\" y=\"28\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">B</text>\n</svg>",
     "options": [
-     "150",
-     "500",
-     "100",
-     "1000"
+     "D and E only",
+     "C and E only",
+     "A and D only",
+     "B and C only"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br>\n<b>Sol.</b><br>\n[Graph: A graph showing the variation of Gibbs free energy $\\frac{G}{\\text{kJ mol}^{-1}}$ with the fraction of $\\text{N}_2\\text{O}_4$ dissociated at constant $p$. The curve starts at point $A$ on the y-axis, descends to a minimum at point $E$, and then rises to point $B$. Horizontal dashed lines indicate the levels of points $B$, $A$, and $E$. The vertical distance between the levels of $B$ and $A$ is $5.40$, and the vertical distance between the levels of $A$ and $E$ is $0.84$. A box inside the graph area contains the text \"Constant p,\". The x-axis is marked with $0.2, 0.4, 0.6, 0.8$.]<br>\n(A) $\\Delta_r G^\\circ = G^\\circ_B - G^\\circ_A = +ve$<br>\n(B) $\\Delta_r G^\\circ = +ve$, $\\text{N}_2\\text{O}_4$ will partially dissociates into $\\text{NO}_2$.<br>\n(C) For reverse reaction<br>\nIt is partially completed as there is equilibrium at E.<br>\n(D) For 1 mole $\\text{N}_2\\text{O}_4$; $\\Delta_r G^\\circ = - 0.84 \\text{ kJ mol}^{-1}$<br>\n(E) For 2 mole $\\text{NO}_2$; $\\Delta G^\\circ = - 5.4 - 0.84$<br>\n$= - 6.24 \\text{ kJ mol}^{-1}$",
@@ -1056,12 +1056,12 @@
     "subject": "Chemistry",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A point charge of $10^{-8}\\text{ C}$ is placed at origin. The work done in moving a point charge $2\\text{ }\\mu\\text{C}$ from point $\\text{A}(4, 4, 2)\\text{ m}$ to $\\text{B}(2, 2, 1)\\text{ m}$ is $\\underline{\\quad\\quad\\quad\\quad\\quad\\quad}$ $\\text{J}$.\n\n$(\\frac{1}{4\\pi \\epsilon_0} = 9 \\times 10^9\\text{ in SI units})$",
+    "text": "Statement I: When an electric discharge is passed through gaseous hydrogen, the hydrogen molecules dissociate and the energetically excited hydrogen atoms produce electromagnetic radiation of discrete frequencies.\n\nStatement II: The frequency of second line of Balmer series obtained from $\\text{He}^+$ is equal to that of first line of Lyman series obtained from hydrogen atom.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
     "options": [
-     "$45 \\times 10^{-6}$",
-     "$0$",
-     "$30 \\times 10^{-6}$",
-     "$15 \\times 10^{-6}$"
+     "Both Statement I and Statement II are true",
+     "Both Statement I and Statement II are false",
+     "Statement I is false but Statement II is true",
+     "Statement I is true but Statement II is false"
     ],
     "answer": "1",
     "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $$\\frac{1}{\\lambda} = RZ^{2} \\left( \\frac{1}{n_{1}^{2}} - \\frac{1}{n_{2}^{2}} \\right)$$<br>For Ist line of lyman series in H-atom<br>$$\\frac{1}{\\lambda} = R(1)^{2} \\left( \\frac{1}{1^{2}} - \\frac{1}{2^{2}} \\right)$$<br>$$\\frac{1}{\\lambda} = \\frac{3R}{4}$$<br>for $2^{\\text{nd}}$ line of Balmer series of $\\text{He}^{+}$<br>$$\\frac{1}{\\lambda'} = R(2)^{2} \\left( \\frac{1}{2^{2}} - \\frac{1}{4^{2}} \\right)$$<br>$$\\frac{1}{\\lambda'} = \\frac{3R}{4}$$<br>As $\\lambda$ and $\\lambda'$ is equal so frequency of these lines<br>will be also equal.",
@@ -1080,7 +1080,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "A collimated beam of light of diameter $2\\text{ mm}$ is propagating along x-axis. The beam is required to be expanded in a collimated beam of diameter $14\\text{ mm}$ using a system of two convex lenses. If first lens has focal length $40\\text{ mm}$, then the focal length of second lens is $\\underline{\\hspace{2cm}}\\text{ mm}$.",
+    "text": "Pre-exponential factors of two different reactions of same order are identical. Let activation energy of first reaction exceeds the activation energy of second reaction by $20 \\text{ kJ mol}^{-1}$. If $\\text{k}_1$ and $\\text{k}_2$ are the rate constants of first and second reaction respectively at $300\\text{ K}$, then $\\text{ln } \\frac{\\text{k}_2}{\\text{k}_1}$ will be ........ .\n(nearest integer) $[\\text{R}=8.3\\text{ J K}^{-1}\\text{ mol}^{-1}]$",
     "answer": "8",
     "solution": "<b>Ans. (8)</b><br>\n<b>Sol.</b> $A \\xrightarrow{RX^n(1)} \\text{product} \\quad E_1$<br>\n$B \\xrightarrow{RX^n(2)} \\text{product} \\quad E_2$<br>\nAssuming 'A' same for both reaction.<br>\n$\\ln k_1 = \\ln A - \\frac{E_1}{300R}$<br>\n$\\ln k_1 = \\ln A - \\frac{E_2}{300R}$<br>\n$\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_1 - E_2}{300R} = \\frac{20 \\times 1000}{300R}$<br>\n$= 8.032$",
     "image": "",
@@ -1098,7 +1098,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "The heat generated in $1\\text{ minute}$ between points A and B in the given circuit, when a battery of $9\\text{V}$ with internal resistance of $1\\ \\Omega$ is connected across these points is _________ $\\text{J}$.<br><br><svg viewBox=\"0 0 360 305\" role=\"img\" aria-label=\"Wheatstone bridge style circuit with 1 ohm and 2 ohm resistors on top, 2 ohm and 4 ohm on the bottom, a 1 ohm resistor in the middle, terminals A and B, and a 9 volt battery in the outer loop\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"70\" y1=\"70\" x2=\"100\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"70\" x2=\"208\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"70\" x2=\"290\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"195\" x2=\"100\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"195\" x2=\"208\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"195\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"70\" x2=\"180\" y2=\"95\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M180 95 l-7 6 l14 12 l-14 12 l14 12 l-14 12 l14 12 l-7 9\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"170\" x2=\"180\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"132\" x2=\"22\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"132\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"132\" x2=\"22\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"272\" x2=\"172\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"172\" y1=\"256\" x2=\"172\" y2=\"288\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"264\" x2=\"186\" y2=\"280\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"272\" x2=\"338\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"338\" y1=\"272\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"70\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"290\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><text x=\"126\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">1&#937;</text><text x=\"234\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"126\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"234\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">4&#937;</text><text x=\"190\" y=\"128\" fill=\"#6c7d70\">1 &#937;</text><text x=\"62\" y=\"126\" text-anchor=\"end\" fill=\"#6c7d70\">A</text><text x=\"298\" y=\"126\" fill=\"#6c7d70\">B</text><text x=\"179\" y=\"302\" text-anchor=\"middle\" fill=\"#6c7d70\">9V</text></svg>",
+    "text": "The $\\text{pH}$ and conductance of a weak acid (HX) was found to be $5$ and $4 \\times 10^{-5}\\text{ S}$, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of $1\\text{ cm}^2$ were at a distance of $15\\text{ cm}$ apart. The value of the limiting molar conductivity is $\\dots\\dots\\dots\\dots\\dots\\text{ S m}^2\\text{ mol}^{-1}$. (nearest integer)\\\\ (Given: degree of dissociation of the weak acid (a) $\\ll 1$)",
     "answer": "6",
     "solution": "<b>Ans. (6)</b><br><b>Sol.</b> $pH = 5$<br>$[H^+] = 10^{-5} = [HX].\\alpha$<br>$= [HX].\\frac{\\Lambda_m}{\\Lambda_m^\\infty}$<br><br>$$\\Lambda_m = \\frac{k \\times 1000}{[HX]}$$<br>$K = G.G^* = 4 \\times 10^{-5} \\times \\frac{15}{1} = 6 \\times 10^{-4} \\text{ S.cm}^{-1}$<br><br>$[H^+] = 10^{-5} = [HX] \\times \\frac{6 \\times 10^{-4} \\times 1000}{\\Lambda_m^\\infty \\times [HX]}$<br><br>$\\Lambda_m^\\infty = 60000 \\text{ S.cm}^2 \\text{ mol}^{-1}$<br>$\\Lambda_m^\\infty = 6 \\text{ S.m}^2 \\text{ mol}^{-1}$",
     "image": "",
@@ -1116,7 +1116,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "Two identical thin rods of mass $M\\text{ kg}$ and length $L\\text{ m}$ are connected as shown in figure. Moment of inertia of the combined rod system about an axis passing through point P and perpendicular to the plane of the rods is $\\frac{x}{2} ML^2\\text{ kg m}^2$. The value of x is \\_\\_\\_\\_\\_\\_.<br><br><svg viewBox=\"0 0 200 200\" role=\"img\" aria-label=\"A vertical thin rod with point P at its top standing on the middle of a horizontal thin rod, both labelled M, L\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><path d=\"M94 152 L94 40 Q94 30 100 30 Q106 30 106 40 L106 152\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"40\" y=\"152\" width=\"120\" height=\"12\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"100\" cy=\"30\" r=\"4\" fill=\"#206d5b\"/><text x=\"110\" y=\"28\" fill=\"#6c7d70\">P</text><text x=\"114\" y=\"100\" fill=\"#6c7d70\">M, L</text><text x=\"100\" y=\"186\" text-anchor=\"middle\" fill=\"#6c7d70\">M, L</text></svg>",
+    "text": "Use the following data :\n\nOne mole each of $\\text{A}_2(\\text{g})$ and $\\text{B}_2(\\text{g})$ are taken in a $1\\text{L}$ closed flask and allowed to establish the equilibrium at $500\\text{K}$.\n\n$\\text{A}_2(\\text{g}) + \\text{B}_2(\\text{g}) \\rightleftharpoons 2\\text{AB}(\\text{g})$\n\nThe value of x (in $\\text{kJ mol}^{-1}$) is .......... (Nearest integer)\n\n(Given: $\\log \\text{K}=2.2 \\text{ R}=8.3 \\text{ JK}^{-1} \\text{ mol}^{-1}$)<br><br><table><tr><td>Substance</td><td>$\\dfrac{\\Delta_{\\text{f}}\\text{H}^{\\ominus}(500\\text{K})}{\\text{kJ mol}^{-1}}$</td><td>$\\dfrac{\\text{S}^{\\ominus}(500\\text{K})}{\\text{JK}^{-1}\\text{ mol}^{-1}}$</td></tr><tr><td>$\\text{AB}(\\text{g})$</td><td>$32$</td><td>$222$</td></tr><tr><td>$\\text{A}_2(\\text{g})$</td><td>$6$</td><td>$146$</td></tr><tr><td>$\\text{B}_2(\\text{g})$</td><td>$\\text{X}$</td><td>$280$</td></tr></table>",
     "answer": "70",
     "solution": "<b>Ans. (70)</b><br>\n<b>Sol.</b> $A_2 + B_2 \\xrightarrow{500K} 2AB \\quad \\log K = 2.2$<br>\n$\\Delta H^\\circ = (2 \\times 32) - (6 + x) = (58 - x) \\text{ kJ}$<br>\n$\\Delta S^\\circ = (2 \\times 222) - (146 + 280) = 18 \\text{ Joule}$<br>\n$\\Delta G^\\circ = -RT\\ln K$<br>\n$$\\Delta G^\\circ = -\\frac{8.314 \\times 500 \\times 2.2 \\times 2.303}{1000}$$<br>\n$\\Delta G^\\circ = -21.06$<br>\n$\\Delta H^\\circ - T\\Delta S^\\circ = -21.06$<br>\n$$58 - x - 500\\left(\\frac{18}{1000}\\right) = -21.06$$<br>\n$x = 70.06 \\text{ KJ/mol}$",
     "image": "",
@@ -1134,7 +1134,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "$10$ mole of oxygen is heated at constant volume from $30^\\circ\\text{C}$ to $40^\\circ\\text{C}$. The change in the internal energy of the gas is $\\underline{\\hspace{1cm}}$ cal. (The molecular specific heat of oxygen at constant pressure, $C_{\\text{p}} = 7\\text{ cal./mol }^\\circ\\text{C}$ and $R = 2\\text{ cal./mol }^\\circ\\text{C}$.)",
+    "text": "Consider the following reaction sequence\n\n$$\\text{benzene} \\xrightarrow[333 \\text{ K}]{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4} \\text{P} \\xrightarrow[2. \\text{ pH neutralised}]{1. \\text{ Sn/HCl}/\\Delta} \\text{Q} \\xrightarrow{(\\text{CH}_3\\text{CO})_2} \\text{R}$$\n$$\\text{T} \\xleftarrow[2. \\text{ pH neutralised (major product)}]{1. \\text{ HCl/EtOH,}\\Delta} \\text{S} \\xleftarrow{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4}$$\n\nThe percentage of nitrogen in product 'T' formed\nis $\\text{\\qquad\\qquad\\qquad}$ $\\%$. (Nearest integer)\n\n(Given molar mass in $\\text{g mol}^{-1} \\text{ H}:1, \\text{ C}:12, \\text{ N}:14, \\text{ O}:16)$",
     "answer": "20",
     "solution": "Ans. (20)<br><br><b>Sol.</b><br>Benzene $\\xrightarrow[H_{2}SO_{4}]{HNO_{3}} Ph-NO_{2}$ (P) $\\xrightarrow{Sn/HCl} Ph-NH_{2}$ (Q) $\\xrightarrow{(CH_{3}CO)_{2}O} Ph-NH-C(=O)CH_{3}$ (R) $\\xrightarrow{HNO_{3} | H_{2}SO_{4}}$ (S) [a benzene ring with $-NH-C(=O)CH_{3}$ and $-NO_{2}$ in para positions] $\\xrightarrow[EtOH]{HCl}$ (T) [a benzene ring with $-NH_{2}$ and $-NO_{2}$ in para positions].<br>Mol. wt $= 6 \\times 12 + (6 \\times 1) + (2 \\times 14) + (2 \\times 16)$<br>= 138<br>$\\%N = \\frac{28}{138} \\times 100 = 20.29\\%$",
     "image": "",
@@ -1152,7 +1152,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "In a microscope the objective is having focal length $f_0 = 2\\text{ cm}$ and eye-piece is having focal length $f_e = 4\\text{ cm}$. The tube length is $32\\text{ cm}$. The magnification produced by this microscope for normal adjustment is ________.",
+    "text": "onsider the following reactions:\n\n$$\\text{NaCl}+\\text{K}_2\\text{Cr}_2\\text{O}_7+\\text{H}_2\\text{SO}_4 \\rightarrow \\text{A}+\\text{KHSO}_4+\\text{NaHSO}_4+\\text{H}_2\\text{O}$$\n\n$$\\text{A} + \\text{NaOH} \\rightarrow \\text{B} + \\text{NaCl} + \\text{H}_2\\text{O}$$\n\n$$\\text{B} + \\text{H}_2\\text{SO}_4 + \\text{H}_2\\text{O}_2 \\rightarrow \\text{C} + \\text{Na}_2\\text{SO}_4 + \\text{H}_2\\text{O}$$\n\nIn the product 'C', 'X' is the number of $\\text{O}_2^{2-}$ units,\n'Y' is the total number oxygen atoms present and\n'Z' is the oxidation state of $\\text{Cr}$. The value of $\\text{X} + \\text{Y} + \\text{Z}$\nis $\\text{\\underline{\\hspace{1cm}}}$ .",
     "answer": "13",
     "solution": "Ans. (13)<br>Sol. $\\mathrm{A} \\rightarrow \\mathrm{CrO_2Cl_2}$<br>$\\mathrm{B} \\rightarrow \\mathrm{Na_2CrO_4}$<br>$\\mathrm{C} \\rightarrow \\mathrm{CrO_5}$<br>Structure of $\\mathrm{CrO_5}$ showing a central chromium atom bonded to an apical oxygen atom and two peroxy rings, with a central chromium oxidation state label of $+6$<br>$\\mathrm{X} = 2 \\text{ , } \\mathrm{Y} = 5 \\text{ and } \\mathrm{Z} = 6$",
     "image": "",
@@ -1170,12 +1170,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Consider the following reactions.\n\n$$\\text{PbCl}_2 + \\text{K}_2\\text{CrO}_4 \\rightarrow \\text{A} + 2\\text{KCl}$$\n\n$$\\text{(Hot solution)}$$\n\n$$\\text{A} + \\text{NaOH} \\rightleftharpoons \\text{B} + \\text{Na}_2\\text{CrO}_4$$\n\n$$\\text{PbSO}_4 + 4\\text{CH}_3\\text{COONH}_4 \\rightarrow (\\text{NH}_4)_2\\text{SO}_4 + \\text{X}$$\n\nIn the above reactions, A, B and X are respectively.",
+    "text": "If the domain of the function\n$$f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}(2x^2 - 3x + 1) \\text{ is the}$$\ninterval $[\\alpha, \\beta]$, then $\\alpha + 2\\beta$ is equal to :",
     "options": [
-     "$\\text{Na}_2[\\text{Pb}(\\text{OH})_2], \\text{PbCrO}_4 \\text{ and } (\\text{NH}_4)_2[\\text{Pb}(\\text{CH}_3\\text{COO})_4]$",
-     "$\\text{PbCrO}_4, \\text{Na}_2[\\text{Pb}(\\text{OH})_4] \\text{ and } [\\text{Pb}(\\text{NH}_3)_4]\\text{SO}_4$",
-     "$\\text{Na}_2[\\text{Pb}(\\text{OH})_2], \\text{PbCrO}_4 \\text{ and } [\\text{Pb}(\\text{NH}_3)_4]\\text{SO}_4$",
-     "$\\text{PbCrO}_4, \\text{Na}_2[\\text{Pb}(\\text{OH})_4] \\text{ and } (\\text{NH}_4)_2[\\text{Pb}(\\text{CH}_3\\text{COO})_4]$"
+     "1",
+     "3",
+     "5",
+     "2"
     ],
     "answer": "2",
     "solution": "Ans. (2)<br>Sol. $f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}(2x^2 - 3x + 1)$<br>$-1 \\le \\frac{2x - 5}{11 - 3x} \\le 1$<br>$-1 \\le 2x^2 - 3x + 1 \\le 1$<br>$2x^2 - 3x + 2 \\ge 0$, $2x^2 - 3x \\le 0$<br>$x \\in \\left[0, \\frac{3}{2}\\right] \\text{.....(i)}$<br>$\\frac{2x - 5}{11 - 3x} + 1 \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{2x - 5}{11 - 3x} - 1 \\le 0$<br>$\\frac{2x - 5 + 11 - 3x}{11 - 3x} \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{5x - 16}{11 - 3x} \\le 0$<br>Number line showing intervals for $\\frac{5x-16}{11-3x} \\le 0$ with roots at $\\frac{16}{5}$ and $\\frac{11}{3}$, having minus, plus, minus signs from left to right.<br>$\\frac{6 - x}{11 - 3x} \\ge 0$<br>Number line showing intervals for $\\frac{6-x}{11-3x} \\ge 0$ with roots at $\\frac{11}{3}$ and $6$, having plus, minus, plus signs from left to right.<br>$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup \\left(\\frac{11}{3}, \\infty\\right)$<br>$x \\in \\left(-\\infty, \\frac{11}{3}\\right) \\cup [6, \\infty)$<br>intersection<br>$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup [6, \\infty) \\text{...(ii)}$<br>Intersection of (i) & (ii) $x \\in \\left[0, \\frac{3}{2}\\right]$<br>$\\alpha = 0, \\beta = \\frac{3}{2} \\Rightarrow \\alpha + 2\\beta = 3$",
@@ -1194,12 +1194,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Which of the following represents the correct trend for the mentioned property ?\n\noindent\nA. $\\mathrm{F} > \\mathrm{P} > \\mathrm{S} > \\mathrm{B} - \\text{Frist Ionization Energy}$\n\noindent\nB. $\\mathrm{Cl} > \\mathrm{F} > \\mathrm{S} > \\mathrm{P} - \\text{Electron Affinity}$\n\noindent\nC. $\\mathrm{K} > \\mathrm{Al} > \\mathrm{Mg} > \\mathrm{B} - \\text{Metallic character}$\n\noindent\nD. $\\mathrm{K}_{2}\\mathrm{O} > \\mathrm{Na}_{2}\\mathrm{O} > \\mathrm{MgO} > \\mathrm{Al}_{2}\\mathrm{O}_{3} - \\text{Basic character}$\nChoose the correct answer from the option given below.",
+    "text": "The area of the region, inside the ellipse $x^2 + 4y^2 = 4$ and outside the region bounded by the curves $y = |x| - 1$ and $y = 1 - |x|$, is :",
     "options": [
-     "$\\text{A, B and D only}$",
-     "$\\text{A, B, C and D}$",
-     "$\\text{A and B only}$",
-     "$\\text{B and C only}$"
+     "$2(\\pi - 1)$",
+     "$2\\pi - \\frac{1}{2}$",
+     "$3(\\pi - 1)$",
+     "$2\\pi - 1$"
     ],
     "answer": "1",
     "solution": "Ans. (1)<br><br>Sol.<br><br>A graph showing an ellipse centered at the origin with horizontal axis endpoints $(-1, 0)$ and $(1, 0)$ and vertical axis endpoints $(0, 1)$ and $(0, -1)$, intersected by lines forming a diamond-like shape defined by $y = |x| - 1$ and $y = 1 - |x|$. The central region between the lines is shaded with horizontal stripes.<br><br>Required area $=$ area of ellipse $-$ shaded area<br><br>$= \\pi \\times 2 \\times 1 - 4 \\left( \\frac{1}{2} \\times 1 \\times 1 \\right) = 2\\pi - 2$",
@@ -1218,12 +1218,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Identify A in the following reaction.<br><br><svg viewBox=\"40 12 305 152\" role=\"img\" aria-label=\"Reaction scheme: A splits into two paths, hydrogenation with 2H2 over Pt gives a fused bicyclic ring, oxidation with KMnO4 gives a six-membered ring with two COOH groups plus oxalic acid\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-53\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"62\" y1=\"92\" x2=\"104\" y2=\"92\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"52\" x2=\"104\" y2=\"131\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"52\" x2=\"166\" y2=\"52\" marker-end=\"url(#arrow-53)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"104\" y1=\"131\" x2=\"166\" y2=\"131\" marker-end=\"url(#arrow-53)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M191 32.5 L174.5 42 L174.5 61 L191 70.5 L207.5 61 L225 70.5 L241.5 61 L241.5 42 L225 32.5 L207.5 42 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207.5\" y1=\"42\" x2=\"207.5\" y2=\"61\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M190 115 L207 123.5 L207 140.5 L190 149 L173 140.5 L173 123.5 Z\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207\" y1=\"123.5\" x2=\"218\" y2=\"116\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"207\" y1=\"140.5\" x2=\"218\" y2=\"148\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"284.5\" y1=\"118\" x2=\"284.5\" y2=\"135\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><text x=\"51\" y=\"98\" fill=\"#6c7d70\">A</text><text x=\"120\" y=\"46\" fill=\"#6c7d70\">2H<tspan dy=\"3\" font-size=\"70%\">2</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"127\" y=\"66\" fill=\"#6c7d70\">Pt</text><text x=\"107\" y=\"126\" fill=\"#6c7d70\">KMnO<tspan dy=\"3\" font-size=\"70%\">4</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"221\" y=\"114\" fill=\"#6c7d70\">COOH</text><text x=\"221\" y=\"155\" fill=\"#6c7d70\">COOH</text><text x=\"263\" y=\"135\" fill=\"#6c7d70\">+</text><text x=\"280\" y=\"114\" fill=\"#6c7d70\">COOH</text><text x=\"280\" y=\"150\" fill=\"#6c7d70\">COOH</text></svg>",
+    "text": "The number of relations, defined on the set $\\{a, b, c, d\\}$, which are both reflexive and symmetric, is equal to:",
     "options": [
-     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"13\" y1=\"16\" x2=\"13\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"67\" y1=\"16\" x2=\"67\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
-     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"13\" y1=\"13\" x2=\"23\" y2=\"10\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"67\" y1=\"16\" x2=\"67\" y2=\"34\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
-     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"58\" y1=\"13\" x2=\"68\" y2=\"13\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"56\" y1=\"37\" x2=\"66\" y2=\"37\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>",
-     "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"14\" y1=\"13\" x2=\"24\" y2=\"13\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"14\" y1=\"37\" x2=\"24\" y2=\"37\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
+     "256",
+     "16",
+     "1024",
+     "64"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br>Sol. Number of relation which are reply and sym. both<br>$= 1^{4} \\times 2^{6} = 64$<br>$(a, a) \\quad (a, b) \\quad (a, c) \\quad (a, d)$<br>$(b, a) \\quad (b, b) \\quad (b, c) \\quad (b, d)$<br>$(c, a) \\quad (c, b) \\quad (c, c) \\quad (c, d)$<br>$(d, a) \\quad (d, b) \\quad (d, c) \\quad (d, d)$",
@@ -1242,12 +1242,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "A hydrocarbon 'P' ($\\text{C}_4\\text{H}_8$) on reaction with $\\text{HCl}$ gives an optically active compound 'Q' ($\\text{C}_4\\text{H}_9\\text{Cl}$) which on reaction with one mole of ammonia gives compound 'R' ($\\text{C}_4\\text{H}_{11}\\text{N}$). 'R' on diazotization followed by hydrolysis gives 'S'. Identify P, Q, R and S.",
+    "text": "Let a point A lie between the parallel lines $L_1$ and $L_2$ such that its distances from $L_1$ and $L_2$ are $6$ and $3$ units, respectively. Then the area (in sq. units) of the equilateral triangle ABC, where the points B and C lie on the lines $L_1$ and $L_2$ respectively, is :",
     "options": [
-     "$\\text{P}=\\text{CH}_3-\\text{CH}_2-\\text{CH}=\\text{CH}_2, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}\\begin{matrix}\\\\ \\text{Cl} \\end{matrix}, \\text{ R}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{NH}\\begin{matrix}\\\\ \\text{CH}_3 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}\\begin{matrix}\\\\ \\text{OH} \\\\ | \\\\ \\text{CH}_3 \\end{matrix}$",
-     "$\\text{P}=\\text{CH}_3-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ Q}=\\text{Cl}-\\text{CH}_2-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ R}=\\text{H}_2\\text{N}-\\text{CH}_2-\\text{-\\!}\\begin{matrix}\\\\ \\triangle \\end{matrix}, \\text{ S}=\\begin{matrix}\\\\ \\triangle \\\\ \\text{OH} \\end{matrix}$",
-     "$\\text{P}=\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{Cl} \\end{matrix}, \\text{ R}=\\text{CH}_3-\\text{CH}_2=\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{NH}_2 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3\\begin{matrix}\\\\ \\text{OH} \\end{matrix}$",
-     "$\\text{P}=\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-\\text{Cl}, \\text{ R}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{NH}_2 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{CH}_2\\\\ \\text{OH} \\end{matrix}$"
+     "$15\\sqrt{6}$",
+     "$27$",
+     "$21\\sqrt{3}$",
+     "$12\\sqrt{2}$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><br>A geometric diagram showing two horizontal lines with vertex A on the upper line, point C below it, a dashed vertical line of length 9 from A down to the horizontal, angle $60^\\circ$ at the lower-left vertex, angle $\\theta$ between the side of length $a$ and the lower horizontal line, and vertical distance segments of 6 and 3 on the right.<br><br><b>Sol.</b><br><br>$\\sin \\theta = \\frac{3}{\\text{a}}$<br><br>$\\sin (60^{\\circ} + \\theta) = \\frac{9}{\\text{a}}$<br><br>$\\frac{\\sqrt{3}}{2} \\cos \\theta + \\frac{1}{2} \\sin \\theta = \\frac{9}{\\text{a}}$<br><br>$\\sqrt{3} \\sqrt{1 - \\frac{9}{\\text{a}^2}} + \\frac{3}{\\text{a}} = \\frac{18}{\\text{a}}$<br><br>$\\text{a} = \\sqrt{84}$<br><br>$\\text{Area of } \\Delta \\text{ABC} = \\frac{\\sqrt{3}}{4} \\text{ a}^2 = \\frac{\\sqrt{3}}{4} \\times 84 = 21 \\sqrt{3}$",
@@ -1266,12 +1266,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Given below are two statements :\n\n**Statement I** : The number of pairs among $[\\text{SiO}_2, \\text{CO}_2]$, $[\\text{SnO}, \\text{SnO}_2]$, $[\\text{PbO}, \\text{PbO}_2]$ and $[\\text{GeO}, \\text{GeO}_2]$, which contain oxides that are both amphoteric is $2$.\n\n**Statement II** : $\\text{BF}_3$ is an electron deficient molecule can act as a lewis acid, forms adduct with $\\text{NH}_3$ and has a trigonal planar geometry.\n\nIn the light of the above statement, choose the correct answer from the option given below.",
+    "text": "Let $\\vec{a} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$, $\\vec{b} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$ and $\\vec{c}$ be a vector such that $\\vec{a} \\times \\vec{c} = \\vec{b}$. If $\\vec{c} \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$, then $|\\vec{a} + \\vec{c}|^2$ is equal to :",
     "options": [
-     "Both **Statement I** and **Statement II** are true.",
-     "Both **Statement I** and **Statement II** are false.",
-     "**Statement I** is true but **Statement II** is false.",
-     "**Statement I** is false **Statement II** is true."
+     "$33$",
+     "$30$",
+     "$35$",
+     "$27$"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br>Sol. $\\vec{a} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$<br>$\\vec{b} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$<br>$\\vec{c} = c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}$<br>$\\vec{a} \\times \\vec{c} = \\vec{b} \\Rightarrow (2c_3 - 2c_2)\\hat{i} + (c_1 + 2c_3)\\hat{j} - (c_2 + 2c_1)\\hat{k} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$<br>$2c_3 - 2c_2 = 8, c_1 + 2c_3 = 7, c_2 + 2c_1 = 3$<br>$(c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}) \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$<br>$\\Rightarrow c_1 + c_2 + c_3 = 4, c_1 = 2, c_2 = -1, c_3 = 3$<br>$|\\vec{a} + \\vec{c}|^2 = |\\hat{i} + \\hat{j} + 5\\hat{k}|^2 = 27$",
@@ -1290,12 +1290,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "$80\\text{ mL}$ of a hydrocarbon on mixing with $264\\text{ mL}$ of oxygen in a closed U-tube undergoes complete combustion. The residual gases after cooling to $273\\text{ K}$ occupy $224\\text{ mL}$. When the system is treated with $\\text{KOH}$ solution, the volume decreases to $64\\text{ mL}$. The formula of the hydrocarbon is :",
+    "text": "Let $a_1, a_2, a_3, \\dots\\dots$ be a G.P. of increasing positive terms such that $a_2.a_3.a_4 = 64$ and $a_1 + a_3 + a_5 = \\frac{813}{7}$.\n\nThen $a_3 + a_5 + a_7$ is equal to :",
     "options": [
-     "$\\text{C}_2\\text{H}_4$",
-     "$\\text{C}_4\\text{H}_{10}$",
-     "$\\text{C}_2\\text{H}_2$",
-     "$\\text{C}_2\\text{H}_6$"
+     "$3256$",
+     "$3252$",
+     "$3244$",
+     "$3248$"
     ],
     "answer": "2",
     "solution": "Ans. (2)<br>Sol. $ar \\cdot ar^2 \\cdot ar^3 = 64$<br>$a^3r^6 = 64 \\quad \\Rightarrow \\quad ar^2 = 4$<br>$a + ar^2 + ar^4 = \\frac{813}{7}$<br>$r^2 = 28$<br>$ar^2 + ar^4 + ar^6 = ?$<br>$ar^2 \\left(1 + r^2 + r^4\\right) = 4 \\left(1 + 28 + 784\\right) = 3252$<br>7. Let $\\vec{c}$ and $\\vec{d}$ be vectors such that $|\\vec{c} + \\vec{d}| = \\sqrt{29}$ and",
@@ -1314,12 +1314,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "$14.0\\text{ g}$ of calcium metal is allowed to react with excess $\\text{HCl}$ at $1.0\\text{ atm}$ pressure and $273\\text{ K}$.\nWhich of the following statements is <b>incorrect</b> ?\n[Given : Molar mass in $\\text{g mol}^{-1}$ of $\\text{Ca}-40, \\text{Cl}-35.5, \\text{H}-1]$",
+    "text": "$\\vec{c} \\times (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) = (2\\hat{i} + 3\\hat{j} + 4\\hat{k}) \\times \\vec{d}$. If $\\lambda_1, \\lambda_2 (\\lambda_1 > \\lambda_2)$ \n are the possible values of $(\\vec{c} + \\vec{d}) \\cdot (-7\\hat{i} + 2\\hat{j} + 3\\hat{k})$, \n then the equation \n\n$$K^2x^2 + (K^2 - 5K + \\lambda_1)xy + \\left(3K + \\frac{\\lambda_2}{2}\\right)y^2 - 8x + 12y + \\lambda_2 = 0$$\n \n represents a circle, for k equal to :",
     "options": [
-     "$0.35\\text{ mol of } \\text{H}_2 \\text{ gas is evolved.}$",
-     "$7.84\\text{ L of } \\text{H}_2 \\text{ gas is evolved.}$",
-     "$33.3\\text{ of } \\text{CaCl}_2 \\text{ is produced.}$",
-     "$\\text{The limiting reagent is calcium metal.}$"
+     "$4$",
+     "$1$",
+     "$-1$",
+     "$2$"
     ],
     "answer": "2",
     "solution": "Ans. (2)<br><br>Sol. $|\\vec{c}+\\vec{d}|=\\sqrt{29}$<br><br>$\\vec{c}+\\vec{d}=\\lambda ((2\\hat{i}+3\\hat{j}+4\\hat{k})$<br><br>$\\lambda=\\pm 1$<br><br>$\\lambda(-14+6+12)=4\\lambda, \\lambda_{1}=4, \\lambda_{2}=-4$<br><br>$k^{2}x^{2}+(k^{2}-5k+4)xy+(3k-2)y^{2}-8x+12y-4$<br>$=0$<br><br>is circle<br><br>$k^{2}-5k+4=0 \\Rightarrow k=1, 4$<br><br>$k^{2}=3k-2 \\Rightarrow k=1, 2$<br><br>$k=1$",
@@ -1338,12 +1338,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "In Carius method, $0.75\\text{ g}$ of an organic compound gave $1.2\\text{ g}$ of barium sulphate, find percentage of sulphur (molar mass $32\\text{ g mol}^{-1}$). Molar mass of barium sulphate is $233\\text{ g mol}^{-1}$.",
+    "text": "Let $y = y(x)$ be the solution curve of the differential equation $(1+x^2)\\mathrm{dy} + (y - \\tan^{-1}x)\\mathrm{dx} = 0$, $y(0) = 1$. Then the value of $y(1)$ is :",
     "options": [
-     "$4.55\\%$",
-     "$10.30\\%$",
-     "$21.97\\%$",
-     "$16.48\\%$"
+     "$\\frac{2}{e^{\\frac{\\pi}{4}}} + \\frac{\\pi}{4} - 1$",
+     "$\\frac{2}{e^{\\frac{\\pi}{4}}} - \\frac{\\pi}{4} - 1$",
+     "$\\frac{4}{e^{\\frac{\\pi}{4}}} + \\frac{\\pi}{2} - 1$",
+     "$\\frac{4}{e^{\\frac{\\pi}{4}}} - \\frac{\\pi}{2} - 1$"
     ],
     "answer": "1",
     "solution": "Ans. (1)<br>Sol. $\\frac{dy}{dx}+\\frac{y}{x^2+1}=\\frac{\\tan^{-1}x}{x^2+1}$<br>I.F. $= e^{\\tan^{-1}x}$<br>$y \\times e^{\\tan^{-1}x} = \\int e^{\\tan^{-1}x} \\cdot \\frac{\\tan^{-1}x}{1+x^2} dx$<br>$y \\times e^{\\tan^{-1}x} = \\tan^{-1}x(e^{\\tan^{-1}x}) - e^{\\tan^{-1}x} + c$<br>$y(0)=1 \\Rightarrow c=2$<br>$y(1)=\\frac{2}{e^{\\pi/4}}+\\frac{\\pi}{4}-1$",
@@ -1362,12 +1362,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Elements P and Q form two types of non-volatile, non-ionizable compounds $\\text{PQ}$ and $\\text{PQ}_2$. When $1\\text{ g}$ of $\\text{PQ}$ is dissolved in $50\\text{ g}$ of solvent 'A', $\\Delta \\text{T}_\\text{b}$ was $1.176\\text{ K}$ while when $1\\text{ g}$ of $\\text{PQ}_2$ is dissolved in $50\\text{ g}$ of solvent 'A', $\\Delta \\text{T}_\\text{b}$ was $0.689\\text{ K}$. ($K_b$ of 'A' $= 5\\text{ K kg mol}^{-1}$). The molar masses of elements P and Q (in $\\text{g mol}^{-1}$) respectively, are :",
+    "text": "The number of strictly increasing functions f from the set $\\{1, 2, 3, 4, 5, 6\\}$ to the set $(1, 2, 3, ..., 9)$ such that $\\mathrm{f}(\\mathrm{i}) \\neq \\mathrm{i}$ for $1 \\le \\mathrm{i} \\le 6$, is equal to :",
     "options": [
-     "70, 110",
-     "65, 145",
-     "60, 25",
-     "25, 60"
+     "21",
+     "27",
+     "22",
+     "28"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br>Sol. $f(i) \\neq i$, $f(x)$ is strictly increasing function<br>$f : A \\to B$, where $A \\, \\{1, 2, 3 \\ldots \\ldots 6\\}$<br>$B \\, \\{1, 2, 3 \\ldots \\ldots 9\\}$, then number of function<br>$f : A \\to B$ is equal to<br>A Venn diagram showing a function $f: A \\to B$ with set $A = \\{1, 2, 3, 4, 5, 6\\}$ and set $B = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.<br>$f(i) \\neq i \\text{ Case - i } f(1) = 2 \\Rightarrow {^7}C_5 = 21<br>\\text{Case - ii } f(1) = 3 \\Rightarrow {^3}C_5 = 6<br>\\text{Case - iii } f(1) = 4 \\Rightarrow {^5}C_5 = 1<br>\\text{No of function A to B} = 21 + 6 + 1 = 28$",
@@ -1386,12 +1386,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "An organic compound (P) on treatment with aqueous ammonia under hot condition forms compound (Q) which on heating with $\\text{Br}_2$ and $\\text{KOH}$ forms compound (R) having molecular formula $\\text{C}_9\\text{H}_7\\text{N}$. Names of P, Q and R respectively are.",
+    "text": "Let $f : \\mathbb{R} \\rightarrow (0, \\infty)$ be a twice differentiable function such that $f(3) = 18$, $f'(3) = 0$ and $f''(3) = 4$.\n\nThen $\\lim_{x \\rightarrow 1} \\left( \\log_e \\left( \\left( \\frac{f(2+x)}{f(3)} \\right)^{\\frac{18}{(x-1)^2}} \\right) \\right)$ is equal to :",
     "options": [
-     "Benzoic acid, benzamide, aniline",
-     "Toluic acid, methylbenzamide, 2-methylaniline",
-     "Benzoic acid,4-methylbenzamide,4-methylaniline.",
-     "Phenylethanoic acid, phenylethanamide, benzamine"
+     "1",
+     "9",
+     "2",
+     "18"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><br>Sol. Let $T = \\lim_{x \\to 1} \\left(\\frac{f(x+2)}{f(3)}\\right)^{\\frac{18}{(x-1)^2}} ; 1^\\infty \\text{ form}$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{f(3)}\\right)}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{18}\\right)}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\left(\\frac{f(x+2) - f(3)}{(x-1)^2}\\right) ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f'(x+2)}{2(x-1)} ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f''(x+2)}{2}} ; = e^{\\frac{4}{2}} = e^2$$<br><br>$$\\Rightarrow \\log_e (T) = 2$$",
@@ -1410,12 +1410,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "An organic compound “P” of molecular formula $\\text{C}_6\\text{H}_{12}\\text{O}_3$ gives positive Iodoform test but negative Tollen's test. When “P” is treated with dilute acid, it produces “Q”. “Q” gives positive Tollen's test and also iodoform test. The structure of “P” is :",
+    "text": "Let the foci of hyperbola coincide with the foci of the ellipse $\\frac{x^2}{36} + \\frac{y^2}{16} = 1$. If the eccentricity of the hyperbola is $5$, then the length of its latus rectum is:",
     "options": [
-     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{CH}-\\text{CH}_2\\\\ \\quad\\quad\\quad \\text{OCH}_3 \\text{OCH}_3$",
-     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{CH}_2-\\text{CH}-\\text{OCH}_3\\\\ \\quad\\quad\\quad\\quad\\quad\\quad\\quad \\text{OCH}_3$",
-     "$\\text{H}-\\text{C}=\\text{O}-\\text{CH}_2-\\text{CH}_2-\\text{CH}-\\text{OCH}_3\\\\ \\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad \\text{OCH}_3$",
-     "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{C}-\\text{CH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3$"
+     "$12$",
+     "$16$",
+     "$\\frac{96}{\\sqrt{5}}$",
+     "$24\\sqrt{5}$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br>Sol. Let $e_1$ be eccentricity of ellipse<br>$\\Rightarrow e_1 = \\sqrt{1-\\frac{16}{36}} = \\sqrt{1-\\frac{4}{9}} = \\frac{\\sqrt{5}}{3}$<br>So $ae_1 = 6. \\frac{\\sqrt{5}}{3} = 2\\sqrt{5}$<br>Now $H: \\frac{x^2}{p^2} - \\frac{y^2}{q^2} = 1$<br>p.e = ae_1<br>$p. 5 = 2\\sqrt{5}$<br>$p = \\frac{2}{\\sqrt{5}} \\Rightarrow e^2 = 1+\\frac{q^2}{p^2} \\Rightarrow 25 = 1 + \\frac{5q^2}{4} \\Rightarrow q^2 = \\frac{96}{5}$<br>So length of LR $\\frac{2q^2}{p} = \\frac{96}{\\sqrt{5}}$",
@@ -1434,12 +1434,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "From the following, the least stable structure is :",
+    "text": "The value of $\\int_{-\\pi/6}^{\\pi/6} \\left(\\frac{\\pi + 4x}{1 - \\sin(|x| + \\pi / 6)}\\right) \\mathrm{dx}$ is equal to",
     "options": [
-     "(1)",
-     "(2)",
-     "(3)",
-     "(4)"
+     "$2\\pi$",
+     "$4\\pi$",
+     "$8\\pi$",
+     "$6\\pi$"
     ],
     "answer": "2",
     "solution": "Ans. (2)<br>Sol. $= 2\\pi \\int\\limits_{0}^{\\pi/6} \\frac{1}{1 - \\sin\\left(x + \\frac{\\pi}{6}\\right)} dx\\text{ let } x + \\frac{x}{6} = t\\text{ }dx = dt$<br>$= 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{dt}{1 - \\sin t} = 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{1 + \\sin t}{\\cos^2 t} dt$<br>$= 2\\pi \\left[\\int\\limits_{\\pi/6}^{\\pi/3} \\sec^2 t dt + \\int\\limits_{\\pi/6}^{\\pi/3} \\sec t \\tan t dt\\right]$<br>$= 2\\pi \\left[(\\tan t)_{\\pi/6}^{\\pi/3} + (\\sec t)_{\\pi/6}^{\\pi/3}\\right]$<br>$= 2\\pi \\left[\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) + \\left(2 - \\frac{2}{\\sqrt{3}}\\right)\\right]$<br>$= = 2\\pi \\left[\\sqrt{3} + 2 - \\sqrt{3}\\right] = 4\\pi$",
@@ -1458,12 +1458,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "$\\mathrm{MnO}_4^{2-}$, in acidic medium, disproportionates to :",
+    "text": "Let the mean and variance of $7$ observations $2, 4, 10, x, 12, 14, y, x > y$, be $8$ and $16$ respectively. Two numbers are chosen from $\\{1, 2, 3, x-4, y, 5\\}$ one after another without replacement, then the probability, that the smaller number among the two chosen numbers is less than $4$, is:",
     "options": [
-     "$\\mathrm{Mn}_2\\mathrm{O}_7$ and $\\mathrm{MnO}_2$",
-     "$\\mathrm{MnO}_4^{-}$ and $\\mathrm{MnO}$",
-     "$\\mathrm{MnO}_4^{-}$ and $\\mathrm{MnO}_2$",
-     "$\\mathrm{Mn}_2\\mathrm{O}_7$ and $\\mathrm{MnO}$"
+     "$\\frac{3}{5}$",
+     "$\\frac{4}{5}$",
+     "$\\frac{2}{5}$",
+     "$\\frac{1}{3}$"
     ],
     "answer": "2",
     "solution": "Ans. (2)<br>Sol. $\\text{Mean } (\\overline{x}) = 8 \\text{ (Given)}$<br>$$\\Rightarrow \\frac{2 + 4 + 10 + x + 12 + 14 + y}{7} = 8$$<br>$$\\Rightarrow x + y = 14 \\text{ }....(1)....$$<br>$\\text{Variance } (\\sigma^2) = 16 \\text{ (Given)}$<br>$$ \\Rightarrow 16 = \\frac{2^2 + 4^2 + 10^2 + x^2 + 12^2 + 14^2 + y^2}{7} - 8^2 $$<br>$$\\Rightarrow x^2 + y^2 = 100 \\text{ }.....(2).....$$<br>$$\\because (x + y)^2 = x^2 + y^2 + 2xy$$<br>$\\Rightarrow xy = 48 \\text{ (sum is } 14 \\text{ product is } 48)$<br>$\\text{Since problem states } x > y$<br>$$\\therefore x = 8 \\text{ and } y = 6$$<br>$\\text{Now set } X = \\{1, 2, 3, 4, 6, 5\\}$<br>$\\text{Now we choose two numbers one after author}$<br>$\\text{without replacement total outcomes } = 6 \\times 5 = 30$<br>$\\text{We want the prob. That the smaller number among}$<br>$\\text{the two is less than } 4$<br>$\\text{P}(\\text{smaller} < 4) = 1 - \\text{P}(\\text{smaller} \\ge 4)$<br>$$= 1 - \\frac{6}{30} = \\frac{4}{5}$$",
@@ -1482,12 +1482,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Given below are two statements:\n\n<b>Statement I:</b> The number of species among $\\text{SF}_4$, $\\text{NH}_4^+$, $[\\text{NiCl}_4]$, $\\text{XeF}_4$, $[\\text{PtCl}_4]^{2-}$, $\\text{SeF}_4$ and $[\\text{Ni(CN)}_4]^{2-}$, that have tetrahedral geometry is 3.\n\n<b>Statement II:</b> In the set $[\\text{NO}_2, \\text{BeH}_2, \\text{BF}_3, \\text{AlCl}_3]$, all the molecules have incomplete octet around central atom. In the light of the above statements, choose the correct answer from the options given below:",
+    "text": "Let $(\\alpha, \\beta, \\gamma)$ be the co-ordinates of the foot of the perpendicular drawn from the point $(5, 4, 2)$ on the line $\\vec{r} = (-\\hat{i} + 3\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} - \\hat{k})$.\n\nThen the length of the projection of the vector $\\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$ on the vector $6\\hat{i} + 2\\hat{j} + 3\\hat{k}$ is :",
     "options": [
-     "Statement I is true but Statement II is false",
-     "Both Statement I and Statement II are false",
-     "Statement I is false but Statement II is true",
-     "Both Statement I and Statement II are true"
+     "$\\frac{15}{7}$",
+     "$4$",
+     "$\\frac{18}{7}$",
+     "$3$"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br>Sol.<br>Figure shows a point A $(5,4,2)$ with a perpendicular dropped to a line at point $(\\alpha, \\beta, \\gamma)$<br>$\\vec{r} = (-\\hat{i} + 3\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} - \\hat{k}) $<br>$\\frac{x+1}{2} = \\frac{y-3}{3} = \\frac{z-1}{-1} = \\lambda$<br>Any general point P on the line is<br>$(2\\lambda - 1, 3\\lambda + 3, -\\lambda + 1)$<br>Let the given point is A $(5, 4, 2)$<br>$\\vec{\\text{AP}} (2\\lambda - 6)\\hat{i} + (3\\lambda - 1)\\hat{j} + (-\\lambda - 1)\\hat{k}$<br>$\\because \\vec{\\text{AP}} \\perp \\text{ Line (L)}$<br>$\\therefore \\vec{\\text{AP}} \\cdot (2\\hat{i} + 3\\hat{j} - \\hat{k}) = 0$<br>$2(2\\lambda - 6) + 3(3\\lambda - 1) - 1(-\\lambda - 1) = 0$<br>$\\Rightarrow \\lambda = 1$<br>$\\therefore \\alpha = 1$<br>$\\beta = 6$<br>$\\gamma = 0$<br>Let the vector $\\vec{\\text{u}} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$<br>$\\vec{\\text{u}} = \\hat{i} + 6\\hat{j} + 0\\hat{k}$<br>& $\\vec{\\text{w}} = 6\\hat{i} + 2\\hat{j} + 3\\hat{k}$<br>So projection $= \\frac{|\\vec{\\text{u}} \\cdot \\vec{\\text{w}}|}{|\\vec{\\text{w}}|} = \\frac{18}{7}$",
@@ -1506,12 +1506,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Given below are two statements:\n\n<b>Statement I:</b> Among $[\\text{Cu}(\\text{NH}_3)_4]^{2+}$, $[\\text{Ni}(\\text{en})_3]^{2+}$, $[\\text{Ni}(\\text{NH}_3)_6]^{2+}$ and $[\\text{Mn}(\\text{H}_2\\text{O})_6]^{2+}$, $[\\text{Mn}(\\text{H}_2\\text{O})_6]^{2+}$ has the maximum number of unpaired electrons.\n\n<b>Statement II:</b> The number of pairs among $\\{[\\text{NiCl}_4]^{2-}, [\\text{Ni}(\\text{CO})_4]\\}$, $\\{[\\text{NiCl}_4]^{2-}, [\\text{Ni}(\\text{CN})_4]^{2-}\\}$, and $\\{[\\text{Ni}(\\text{CO})_4], [\\text{Ni}(\\text{CN})_4]^{2-}\\}$, that contain only diamagnetic species is two.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "text": "Let $PQ$ and $MN$ be two straight lines touching the circle $x^2 + y^2 - 4x - 6y - 3 = 0$ at the points $A$ and $B$ respectively. Let $O$ be the centre of the circle and $\\angle AOB = \\pi/3$. Then the locus of the point of intersection of the lines $PQ$ and $MN$ is:",
     "options": [
-     "Statement I is false but Statement II is true",
-     "Both Statement I and Statement II are true",
-     "Both Statement I and Statement II are false",
-     "Statement I is true but Statement II is false"
+     "$3(x^2 + y^2) - 18x - 12y + 25 = 0$",
+     "$x^2 + y^2 - 12x - 18y - 25 = 0$",
+     "$x^2 + y^2 - 18x - 12y - 25 = 0$",
+     "$3(x^2 + y^2) - 12x - 18y - 25 = 0$"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br>Sol. Given circle<br>A circle with center $O(2,3)$ and radius $r$ is shown with tangents $MQ$ and $PN$ intersecting at point $R(h,k)$. The angle $\\angle MOR$ is $60^\\circ$. Radii $OA$ and $OB$ are perpendicular to the tangents at points $A$ and $B$ respectively, and the angle $\\angle AOR$ is $30^\\circ$, and $\\angle BOR$ is $30^\\circ$.<br><br>$x^2 + y^2 - 4x - 6y - 3 = 0$<br>C(2,3) & r = 4<br><br>$\\cos 30^\\circ = \\frac{r}{\\text{OR}} = \\frac{4}{\\text{OR}}$<br><br>$\\Rightarrow \\text{OR} = \\frac{8}{\\sqrt{3}}$<br><br>Now<br>$\\text{OR}^2 = (h-2)^2 + (k-3)^2$<br><br>$\\Rightarrow 3(x^2 + y^2) - 12x - 18y - 25 = 0$",
@@ -1530,12 +1530,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Identify correct statement from the following :\n\nA. Propanal and propanone are functional isomers.\n\nB. Ethoxyethane and methoxypropane are metamers.\n\nC. But-2-ene shows optical isomerism.\n\nD. But-1-ene and but-2-ene are functional isomers.\n\nE. Pentane and 2, 2-dimethyl propane are chain isomers.\n\nChoose the <b>correct</b> answer from the options given below :",
+    "text": "If the coefficient of x in the expansion of $(ax^2 + bx + c)(1 - 2x)^{26}$ is $-56$ and the coefficients of $x^2$ and $x^3$ are both zero, then $a + b + c$ is equal to",
     "options": [
-     "B, C and D only",
-     "A, B and C only",
-     "A, B and E only",
-     "C, D and E only"
+     "1300",
+     "1500",
+     "1403",
+     "1483"
     ],
     "answer": "3",
     "solution": "Ans. (3)<br><br>Sol. $(ax^2 + bx + c) \\sum_{r=0}^{26} {^{26}C_r}(-2x)^r$<br>Coeff. of $x^2$ : $a.{^{26}C_0}(-2)^0 + b.{^{26}C_1}(-2)^1 + c.{^{26}C_2}(-2)^2 = 0$<br>$\\Rightarrow a - 52b + 1300c = 0 \\dots (1)$<br>Coeff. of $x^3$ : $a.{^{26}C_1}(-2)^1 + b.{^{26}C_2}(-2)^2 + c.{^{26}C_3}(-2)^3 = 0$<br>$\\Rightarrow -52 a + 1300 b - 20800 c = 0 \\dots (2)$<br>Coeff. of $x = -56$<br>$\\Rightarrow b.{^{26}C_0}(-2)^0 + c.{^{26}C_1}(-2)^1 = -56$<br>$b - 52c = -56 \\dots (3)$<br>After solving (1), (2) & (3)<br>$a = 1300, b = 100, c = 3$<br>$\\Rightarrow a + b + c = 1403$",
@@ -1554,12 +1554,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Identify the correct statements.\n\nA. Arginine and Tryptophan are essential amino acids.\n\nB. Histidine does not contain heterocyclic ring in its structure.\n\nC. Proline is a six membered cyclic ring amino acid.\n\nD. Glycine does not have chiral centre.\n\nE. Cysteine has characteristic feature of side chain as $\\text{MeS-CH}_2\\text{-CH}_2$-.\n\nChoose the <b>correct</b> answer from the options given below:",
+    "text": "If $x^{2} + x + 1 = 0$, then the value of\n$$\\left(x + \\frac{1}{x}\\right)^{4} + \\left(x^{2} + \\frac{1}{x^{2}}\\right)^{4} + \\left(x^{3} + \\frac{1}{x^{3}}\\right)^{4} + ... + \\left(x^{25} + \\frac{1}{x^{25}}\\right)^{4}$$\nis :",
     "options": [
-     "A, B and C only",
-     "D only",
-     "B and D only",
-     "A and D only"
+     "128",
+     "162",
+     "175",
+     "145"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br>Sol. $x^2 + x + 1 = 0$<br>$\\Rightarrow x = \\omega \\text{ or } \\omega^2$<br>$\\therefore \\alpha = \\omega \\text{ \\& } \\beta = \\omega^2$<br>$= (\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^3 + \\omega^6)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4$<br>$= [(\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^4 + \\omega^8)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4] + [(\\omega^3 + \\omega^6)^4 + (\\omega^6 + \\omega^{12})^4 + (\\omega^9 + \\omega^{18})^4 + \\ldots + (\\omega^{24} + \\omega^{48})^4]$<br>$= \\underbrace{[1 + 1 + 1 \\ldots + 1]}_{17 \\text{ times}} + \\underbrace{[(1 + 1)^4 + (1 + 1)^4 + \\ldots (1 + 1)^4]}_{8 \\text{ times}}$<br>$= 17 + 128$<br>$= 145$",
@@ -1578,12 +1578,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Which of the following graphs between pressure 'P' versus volume 'V' represent the maximum work done ?<br><br><svg viewBox=\"0 0 275 690\" role=\"img\" aria-label=\"Four pressure versus volume graphs comparing work done: (1) rise at 22.4 then curve down to 44.8 and back, (2) rectangle to 22.4, (3) lens shaped loop between 22.4 and 44.8, (4) curve from 22.4 down to 44.8\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow-68\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\"><path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/></marker></defs><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"80\" y1=\"115\" x2=\"80\" y2=\"15\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"115\" x2=\"250\" y2=\"115\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"115\" x2=\"102\" y2=\"25\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"70\" x2=\"102\" y2=\"70\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"102\" y1=\"70\" x2=\"102\" y2=\"27\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M102 25 Q150 35 230 70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(153,39) rotate(30)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"230\" y1=\"70\" x2=\"104\" y2=\"70\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"24\" y1=\"60\" x2=\"24\" y2=\"40\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"290\" x2=\"80\" y2=\"190\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"290\" x2=\"250\" y2=\"290\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"200\" x2=\"102\" y2=\"200\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"102\" y1=\"200\" x2=\"102\" y2=\"290\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(102,243) rotate(90)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"24\" y1=\"235\" x2=\"24\" y2=\"215\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"465\" x2=\"80\" y2=\"365\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"465\" x2=\"250\" y2=\"465\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"465\" x2=\"102\" y2=\"375\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"375\" x2=\"102\" y2=\"375\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"420\" x2=\"230\" y2=\"420\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"230\" y1=\"465\" x2=\"230\" y2=\"420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M102 375 Q170 378 230 420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(170,388) rotate(32)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><path d=\"M102 375 Q160 412 230 420\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(166,404) rotate(212)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"80\" y1=\"640\" x2=\"80\" y2=\"540\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"80\" y1=\"640\" x2=\"250\" y2=\"640\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"102\" y1=\"640\" x2=\"102\" y2=\"550\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"550\" x2=\"102\" y2=\"550\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"80\" y1=\"595\" x2=\"230\" y2=\"595\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><line x1=\"230\" y1=\"640\" x2=\"230\" y2=\"595\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/><path d=\"M102 550 Q150 560 230 595\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><g transform=\"translate(153,564) rotate(30)\"><path d=\"M0 0 L-7 -3.5 M0 0 L-7 3.5\" stroke-width=\"1.2\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><line x1=\"12\" y1=\"67\" x2=\"40\" y2=\"67\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"251\" x2=\"40\" y2=\"251\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"426\" x2=\"40\" y2=\"426\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"12\" y1=\"601\" x2=\"40\" y2=\"601\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"143\" x2=\"188\" y2=\"143\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"318\" x2=\"188\" y2=\"318\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"493\" x2=\"188\" y2=\"493\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"162\" y1=\"668\" x2=\"188\" y2=\"668\" marker-end=\"url(#arrow-68)\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><g><text x=\"76\" y=\"29\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"74\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"129\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"129\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"129\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"147\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"72\" fill=\"#6c7d70\">(1)</text><text x=\"18\" y=\"72\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"90\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"204\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"304\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"304\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"126\" y=\"322\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"247\" fill=\"#6c7d70\">(2)</text><text x=\"18\" y=\"247\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"265\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"379\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"424\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"479\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"479\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"479\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"497\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"422\" fill=\"#6c7d70\">(3)</text><text x=\"18\" y=\"422\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"440\" fill=\"#6c7d70\">bar</text><text x=\"76\" y=\"554\" text-anchor=\"end\" fill=\"#6c7d70\">2.0</text><text x=\"76\" y=\"599\" text-anchor=\"end\" fill=\"#6c7d70\">1.0</text><text x=\"76\" y=\"654\" text-anchor=\"end\" fill=\"#6c7d70\">(0,0)</text><text x=\"102\" y=\"654\" text-anchor=\"middle\" fill=\"#6c7d70\">22.4</text><text x=\"230\" y=\"654\" text-anchor=\"middle\" fill=\"#6c7d70\">44.8</text><text x=\"126\" y=\"672\" fill=\"#6c7d70\">V/L</text><text x=\"0\" y=\"597\" fill=\"#6c7d70\">(4)</text><text x=\"18\" y=\"597\" fill=\"#6c7d70\">p</text><text x=\"16\" y=\"615\" fill=\"#6c7d70\">bar</text></g></svg>",
+    "text": "The value of $\\text{cosec} 10^\\circ - \\sqrt{3} \\text{ sec} 10^\\circ$ is equal to:",
     "options": [
-     "(1)",
-     "(2)",
-     "(3)",
-     "(4)"
+     "4",
+     "2",
+     "8",
+     "6"
     ],
     "answer": "1",
     "solution": "Ans. (1)<br><br>Sol. $= \\frac{1}{\\sin 10^{\\circ}} - \\frac{\\sqrt{3}}{\\cos 10^{\\circ}}$<br><br>$= \\frac{\\cos 10^{\\circ} - \\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}}$<br><br>$= 4 \\left[ \\frac{\\frac{1}{2} \\cos 10^{\\circ} - \\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{2 \\sin 10^{\\circ} \\cos 10^{\\circ}} \\right]$<br><br>$= 4 \\left[ \\frac{\\sin(30^{\\circ} - 10^{\\circ})}{\\sin 20^{\\circ}} \\right]$<br><br>$= 4$",
@@ -1602,12 +1602,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "For the reaction, $\\text{N}_2\\text{O}_4 \\rightleftharpoons 2\\text{NO}_2$, graph is plotted as shown below. Identify correct statements.\n\nA. Standard free energy change for the reaction is $-5.40 \\text{ kJ mol}^{-1}$.\n\nB. As $\\text{AG}^\\ominus$ in graph is positive, $\\text{N}_2\\text{O}_4$ will not dissociate into $\\text{NO}_2$ at all.\n\nC. Reverse reaction will go to completion.\n\nD. When 1 mole of $\\text{N}_2\\text{O}_4$ changes into equilibrium mixture, value of $\\Delta\\text{G}^\\ominus = -0.84 \\text{ kJ mol}^{-1}$\n\nE. When 2 mole of $\\text{NO}_2$, changes into equilibrium mixture, $\\Delta\\text{G}^\\ominus$ for equilibrium mixture is $-6.24 \\text{ kJ mol}^{-1}$.\n\nE. When 2 mole of $\\text{NO}_2$, changes into equilibrium mixture, $\\Delta\\text{G}^\\ominus$ for equilibrium mixture is $-6.24 \\text{ kJ mol}^{-1}$.\n\nChoose the <b>correct</b> answer from the options given below :<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 368.6 252\" role=\"img\" aria-label=\"Plot of Gibbs energy G in kJ per mol against fraction of N2O4 dissociated: the curve starts at A on the left, falls to a minimum at E near 0.4, then rises steeply to B near 0.6; dashed level lines mark A, E and B, a box reads Constant p, T, and braces on the right show 5.40 between B and A and 0.84 between A and E\">\n  <defs>\n    <marker id=\"arrow-jee-shift1-q69\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"70\" y1=\"205\" x2=\"70\" y2=\"22\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-jee-shift1-q69)\" fill=\"none\"/>\n  <line x1=\"70\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-jee-shift1-q69)\" fill=\"none\"/>\n  <text x=\"52\" y=\"42\" font-style=\"italic\" fill=\"#6c7d70\">G</text>\n  <text x=\"14\" y=\"60\" font-size=\"10\" fill=\"#6c7d70\">kJ mol<tspan font-size=\"7\" dy=\"-4\">&#8722;1</tspan></text>\n  <line x1=\"121\" y1=\"205\" x2=\"121\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"172\" y1=\"205\" x2=\"172\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"223\" y1=\"205\" x2=\"223\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"274\" y1=\"205\" x2=\"274\" y2=\"211\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <text x=\"121\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.2</text>\n  <text x=\"172\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.4</text>\n  <text x=\"223\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.6</text>\n  <text x=\"274\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">0.8</text>\n  <text x=\"186\" y=\"242\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">Fraction of N<tspan font-size=\"8\" dy=\"2\">2</tspan><tspan font-size=\"11\" dy=\"-2\">O</tspan><tspan font-size=\"8\" dy=\"2\">4</tspan><tspan font-size=\"11\" dy=\"-2\"> dissociated</tspan></text>\n  <rect x=\"90\" y=\"62\" width=\"112\" height=\"24\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.5\"/>\n  <text x=\"146\" y=\"78\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6c7d70\">Constant p, T</text>\n  <line x1=\"70\" y1=\"32\" x2=\"252\" y2=\"32\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <line x1=\"103\" y1=\"116\" x2=\"232\" y2=\"116\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <line x1=\"172\" y1=\"171\" x2=\"232\" y2=\"171\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <path d=\"M103 116 C 122 158, 146 172, 172 171 C 198 170, 210 110, 223 32\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"2\"/>\n  <circle cx=\"103\" cy=\"116\" r=\"2.4\" fill=\"#206d5b\"/>\n  <circle cx=\"172\" cy=\"171\" r=\"2.4\" fill=\"#206d5b\"/>\n  <circle cx=\"223\" cy=\"32\" r=\"2.4\" fill=\"#206d5b\"/>\n  <path d=\"M248 32 Q256 32 256 53 Q256 75 264 75 Q256 75 256 97 Q256 118 248 118\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <path d=\"M232 116 Q240 116 240 130 Q240 145 248 145 Q240 145 240 160 Q240 171 232 171\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <text x=\"268\" y=\"79\" font-size=\"11\" fill=\"#6c7d70\">5.40</text>\n  <text x=\"252\" y=\"149\" font-size=\"11\" fill=\"#6c7d70\">0.84</text>\n  <text x=\"88\" y=\"112\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">A</text>\n  <text x=\"164\" y=\"188\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">E</text>\n  <text x=\"228\" y=\"28\" class=\"svg-label\" font-style=\"italic\" fill=\"#6c7d70\">B</text>\n</svg>",
+    "text": "The sum of all the roots of the equation\n$(x-1)^{2}-5|x-1|+6=0$, is:",
     "options": [
-     "D and E only",
-     "C and E only",
-     "A and D only",
-     "B and C only"
+     "4",
+     "3",
+     "1",
+     "5"
     ],
     "answer": "1",
     "solution": "Ans. (1)<br>Sol. Let $|x - 1| = t$<br>$t^2 - 5t + 6 = 0$<br>$t = 2 \\text{ & } t = 3$<br>$|x - 1| = 2 \\text{ & } |x - 1| = 3$<br>$x - 1 \\pm 2 \\text{ & } x - 1 = \\pm 3$<br>$x = 1 \\pm 2 \\text{ & } x = 1 \\pm 3$<br>$\\therefore \\text{ root} = 3, -1, 4, -2$<br>$\\therefore \\text{ Sum of root} = 3 + (-1) + 4 + (-2) = 4.$",
@@ -1626,12 +1626,12 @@
     "subject": "Mathematics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Statement I: When an electric discharge is passed through gaseous hydrogen, the hydrogen molecules dissociate and the energetically excited hydrogen atoms produce electromagnetic radiation of discrete frequencies.\n\nStatement II: The frequency of second line of Balmer series obtained from $\\text{He}^+$ is equal to that of first line of Lyman series obtained from hydrogen atom.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
+    "text": "Let O be the vertex of the parabola $x^2 = 4y$ and Q be any point on it. Let the locus of the point P, which divides the line segment OQ internally in the ratio $2:3$ be the conic C. Then the equation of the chord of C, which is bisected at the point $(1, 2)$, is:",
     "options": [
-     "Both Statement I and Statement II are true",
-     "Both Statement I and Statement II are false",
-     "Statement I is false but Statement II is true",
-     "Statement I is true but Statement II is false"
+     "$5x - y - 3 = 0$",
+     "$4x - 5y + 6 = 0$",
+     "$x - 2y + 3 = 0$",
+     "$5x - 4y + 3 = 0$"
     ],
     "answer": "4",
     "solution": "Ans. (4)<br><br>Sol. $h = \\frac{4t}{5}$<br><br>A figure showing a parabola opening upwards with vertex at the origin $O(0,0)$. A point $Q(2t, t^2)$ is on the parabola, and a point $P(h,k)$ lies on the chord $OQ$, dividing it in the ratio $2:3$ from $O$ to $Q$.<br><br>$k = \\frac{2t^2}{5} = \\frac{2}{5} \\left(\\frac{5h}{4}\\right)^2$<br><br>$8k = 5h^2$<br><br>$\\Rightarrow 5x^2 = 8y$<br><br>$T = S_1$<br><br>$5(xx_1) - 4(y + y_1) = 5{x_1}^2 - 8y_1$<br><br>$5(x) - 4(y + 2) = 5 - 8.2$<br><br>$5x - 4y + 3 = 0$",
@@ -1650,7 +1650,7 @@
     "subject": "Mathematics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Pre-exponential factors of two different reactions of same order are identical. Let activation energy of first reaction exceeds the activation energy of second reaction by $20 \\text{ kJ mol}^{-1}$. If $\\text{k}_1$ and $\\text{k}_2$ are the rate constants of first and second reaction respectively at $300\\text{ K}$, then $\\text{ln } \\frac{\\text{k}_2}{\\text{k}_1}$ will be ........ .\n(nearest integer) $[\\text{R}=8.3\\text{ J K}^{-1}\\text{ mol}^{-1}]$",
+    "text": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a twice differentiable function such that the quadratic equation $f(x)m^2 - 2f'(x)m + f''(x) = 0$ in $m$, has two equal roots for every $x \\in \\mathbb{R}$. If $f(0) = 1$, $f'(0) = 2$ and $(\\alpha, \\beta)$ is the largest interval in which the function $f(\\log_e x - x)$ is increasing, then $\\alpha + \\beta$ is equal to",
     "answer": "1",
     "solution": "Ans. (1)<br>Sol. Given quadratic equation has equal roots, thus<br>$D = 0 \\Rightarrow (f'(x))^2 = f''(x) \\cdot f(x)$<br>$\\frac{f'(x)}{f(x)} = \\frac{f''(x)}{f'(x)}$<br>Integrate<br>$\\ln (f(x)) = \\ln (f'(x)) + \\ln C \\Rightarrow f(x) = c \\cdot f'(x)$<br>Put $= x = 0$<br>$1 = c \\cdot 2 \\Rightarrow c = \\frac{1}{2}$<br>Now $2f(x) = f'(x)$<br>$\\Rightarrow \\frac{f'(x)}{f(x)} = 2$<br>Integrate<br>$\\ln (f(x)) = 2x + d$<br><br>$\\Rightarrow d = 0$<br>$\\Rightarrow (\\ln (f(x)) = 2x \\Rightarrow f(x) = e^{2x}$<br>Now let $g(x) = f(\\ln x - x) = e^{2(\\ln x - x)}$<br>$\\therefore g'(x) = 2 \\, e^{2(\\ln x - x)} \\left(\\frac{1}{x} - 1\\right) \\ge 3$<br>$\\Rightarrow \\frac{1 - x}{x} \\ge 0$<br>$\\Rightarrow x \\in (0, 1]$<br>$\\Rightarrow \\alpha = 0, \\beta = 1$<br>$\\alpha + \\beta = 1$.",
     "image": "",
@@ -1668,7 +1668,7 @@
     "subject": "Mathematics",
     "type": "integer",
     "section": "Numerical",
-    "text": "The $\\text{pH}$ and conductance of a weak acid (HX) was found to be $5$ and $4 \\times 10^{-5}\\text{ S}$, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of $1\\text{ cm}^2$ were at a distance of $15\\text{ cm}$ apart. The value of the limiting molar conductivity is $\\dots\\dots\\dots\\dots\\dots\\text{ S m}^2\\text{ mol}^{-1}$. (nearest integer)\\\\ (Given: degree of dissociation of the weak acid (a) $\\ll 1$)",
+    "text": "Let $a_1 = 1$ and for $n \\geq 1$, $a_{n+1} = \\frac{1}{2}a_n + \\frac{n^2 - 2n - 1}{n^2(n+1)^2}$. Then $\\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right|$ is equal to \\_\\_\\_\\_\\_\\_.",
     "answer": "2",
     "solution": "Ans. (2)<br>Sol. $a_{n+1} - \\frac{1}{2}a_n = \\frac{n^2-2n-1}{n^2(n+1)^2} = \\frac{2n^2-(n+1)^2}{n^2(n+1)^2}$<br><br>$\\Rightarrow a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}$<br><br>$n = 1 \\; a_2 - \\frac{1}{2}a_1 = \\frac{2}{2^2} - \\frac{1}{1^2}$<br><br>$2\\left[a_3 - \\frac{1}{2}a_2 = \\frac{2}{3^2} - \\frac{1}{2^2}\\right]$<br><br>$2^2\\left[a_4 - \\frac{1}{2}a_3 = \\frac{2}{4^2} - \\frac{1}{3^2}\\right]$<br><br>$\\vdots$<br><br>$2^{n-2}\\left[a_n - \\frac{1}{2}a_{n-1} = \\frac{2}{n^2} - \\frac{1}{(n-1)^2}\\right]$<br><br>$2^{n-1}\\left[a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}\\right]$<br><br>Adding<br><br>$a_{n+1} = \\frac{2}{(n+1)^2} - \\frac{1}{2^n} \\Rightarrow a_n = \\frac{2}{n^2} - \\frac{1}{2^{n-1}}$<br><br>$\\Rightarrow \\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right| \\Rightarrow \\left|\\sum_{n=1}^{\\infty}-\\frac{1}{2^{n-1}}\\right| = 2$",
     "image": "",
@@ -1686,7 +1686,7 @@
     "subject": "Mathematics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Use the following data :\n\nOne mole each of $\\text{A}_2(\\text{g})$ and $\\text{B}_2(\\text{g})$ are taken in a $1\\text{L}$ closed flask and allowed to establish the equilibrium at $500\\text{K}$.\n\n$\\text{A}_2(\\text{g}) + \\text{B}_2(\\text{g}) \\rightleftharpoons 2\\text{AB}(\\text{g})$\n\nThe value of x (in $\\text{kJ mol}^{-1}$) is .......... (Nearest integer)\n\n(Given: $\\log \\text{K}=2.2 \\text{ R}=8.3 \\text{ JK}^{-1} \\text{ mol}^{-1}$)<br><br><table><tr><td>Substance</td><td>$\\dfrac{\\Delta_{\\text{f}}\\text{H}^{\\ominus}(500\\text{K})}{\\text{kJ mol}^{-1}}$</td><td>$\\dfrac{\\text{S}^{\\ominus}(500\\text{K})}{\\text{JK}^{-1}\\text{ mol}^{-1}}$</td></tr><tr><td>$\\text{AB}(\\text{g})$</td><td>$32$</td><td>$222$</td></tr><tr><td>$\\text{A}_2(\\text{g})$</td><td>$6$</td><td>$146$</td></tr><tr><td>$\\text{B}_2(\\text{g})$</td><td>$\\text{X}$</td><td>$280$</td></tr></table>",
+    "text": "Let $S=\\{(m, n): m, n \\in \\{1, 2, 3, ....., 50\\}\\}$. If the number of elements $(m, n)$ in S such that $6^m + 9^n$ is a multiple of $5$ is p and the number of elements $(m, n)$ in S such that $m + n$ is a square of a prime number is q, then $p + q$ is equal to........",
     "answer": "1333",
     "solution": "Ans. (1333)<br>Sol. $S = \\{1, 2, 3, .... 50\\}$<br>$p = (6^m + 9^n)$ is divisible by $5$<br>No. of ways<br>$6^m = (5\\lambda + 1)^m = 5k + 1$<br>$9^n = (10 - 1)^n = 10\\mu - 1$ if $n$ is odd<br>$\\Rightarrow n$ must be odd<br>$10\\mu + 1$ if $n$ is even<br>$\\Rightarrow \\text{No. of ways} = 50 \\times 25 = 1250$<br>$q \\Rightarrow (m + n)$ is square of a prime<br>A table with columns for $m+n=4$, $m+n=9$, $m+n=25$, and $m+n=49$, where the corresponding number of ways are given downwards as 3, 8, 24, and 48 respectively.<br>$q = 3 + 8 + 24 + 48 = 83$<br>$= p + q = 1250 + 83 = 1333$",
     "image": "",
@@ -1704,7 +1704,7 @@
     "subject": "Mathematics",
     "type": "integer",
     "section": "Numerical",
-    "text": "Consider the following reaction sequence\n\n$$\\text{benzene} \\xrightarrow[333 \\text{ K}]{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4} \\text{P} \\xrightarrow[2. \\text{ pH neutralised}]{1. \\text{ Sn/HCl}/\\Delta} \\text{Q} \\xrightarrow{(\\text{CH}_3\\text{CO})_2} \\text{R}$$\n$$\\text{T} \\xleftarrow[2. \\text{ pH neutralised (major product)}]{1. \\text{ HCl/EtOH,}\\Delta} \\text{S} \\xleftarrow{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4}$$\n\nThe percentage of nitrogen in product 'T' formed\nis $\\text{\\qquad\\qquad\\qquad}$ $\\%$. (Nearest integer)\n\n(Given molar mass in $\\text{g mol}^{-1} \\text{ H}:1, \\text{ C}:12, \\text{ N}:14, \\text{ O}:16)$",
+    "text": "For some $\\alpha, \\beta \\in \\mathbb{R}$, let $\\text{A} = \\begin{bmatrix} \\alpha & 2 \\\\ 1 & 2 \\end{bmatrix}$ and $\\text{B} = \\begin{bmatrix} 1 & 1 \\\\ 1 & \\beta \\end{bmatrix}$\n\nbe such that $\\text{A}^2 - 4\\text{A} + 2\\text{I} = \\text{B}^2 - 3\\text{B} + \\text{I} = \\text{O}$.\nThen $(\\det(\\text{adj}(\\text{A}^3 - \\text{B}^3)))^2$ is equal to .........",
     "answer": "225",
     "solution": "Ans. (225)<br>Sol. $\\operatorname{Tr}(A) = 4 \\Rightarrow \\alpha + 2 = 4 \\Rightarrow \\alpha = 2$<br>$\\operatorname{Tr}(B) = 3 \\Rightarrow \\beta + 1 = 3 \\Rightarrow \\beta = 2$<br>$A^2 - 4A + 2I = O$<br>$A^3 = 4A^2 - 2A = 16A - 8I - 2A$<br>$14A - 8I$<br>$= \\begin{bmatrix} 28 & 28 \\ 14 & 28 \\end{bmatrix} + \\begin{bmatrix} -8 & 0 \\ 0 & -8 \\end{bmatrix}$<br>$= A^3 = \\begin{bmatrix} 20 & 28 \\ 14 & 20 \\end{bmatrix}$<br>$B^2 - 3B + I = O$<br>$B^3 = 3B - I$<br>$\\Rightarrow B^3 = 3B^2 - B = 3(3B - I) - B = 8B - 3I$<br>$B^3 = \\begin{pmatrix} 8 & 8 \\ 8 & 16 \\end{pmatrix} + \\begin{pmatrix} -3 & 0 \\ 0 & -3 \\end{pmatrix} = \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix}$<br>$A^3 - B^3 = \\begin{pmatrix} 20 & 28 \\ 14 & 20 \\end{pmatrix} - \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix} = \\begin{pmatrix} 15 & 20 \\ 6 & 7 \\end{pmatrix}$<br>$\\Rightarrow |A^3 - B^3| = 105 - 120 = -15$<br>$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)| = |A^3 - B^3| = -15$<br>$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)|^2 = 225$",
     "image": "",
@@ -1722,7 +1722,7 @@
     "subject": "Mathematics",
     "type": "integer",
     "section": "Numerical",
-    "text": "onsider the following reactions:\n\n$$\\text{NaCl}+\\text{K}_2\\text{Cr}_2\\text{O}_7+\\text{H}_2\\text{SO}_4 \\rightarrow \\text{A}+\\text{KHSO}_4+\\text{NaHSO}_4+\\text{H}_2\\text{O}$$\n\n$$\\text{A} + \\text{NaOH} \\rightarrow \\text{B} + \\text{NaCl} + \\text{H}_2\\text{O}$$\n\n$$\\text{B} + \\text{H}_2\\text{SO}_4 + \\text{H}_2\\text{O}_2 \\rightarrow \\text{C} + \\text{Na}_2\\text{SO}_4 + \\text{H}_2\\text{O}$$\n\nIn the product 'C', 'X' is the number of $\\text{O}_2^{2-}$ units,\n'Y' is the total number oxygen atoms present and\n'Z' is the oxidation state of $\\text{Cr}$. The value of $\\text{X} + \\text{Y} + \\text{Z}$\nis $\\text{\\underline{\\hspace{1cm}}}$ .",
+    "text": "$$6 \\int_{0}^{\\pi} |(\\sin 3x + \\sin 2x + \\sin x)| \\, dx \\text{ is equal to} \\dots\\dots\\dots$$",
     "answer": "17",
     "solution": "Ans. (17)<br><br>Sol. $6\\int_{0}^{\\pi}|2\\sin 2x \\cos x + \\sin 2x|\\,dx$<br><br>$6\\int_{0}^{\\pi}|4\\sin x \\cos^{2}x + 2\\sin x \\cos x|\\,dx$<br><br>$I = 12\\int_{0}^{\\pi}\\sin x|2\\cos^{2}x + \\cos x|$<br><br>Put $\\cos x = t, -\\sin x\\,dx = dt$<br><br>$I = -12\\int_{1}^{-1}|2t^{2} + t|\\,dt$<br><br>$I = $<br><br>$12\\left(\\int_{-1}^{-1/2}(2t^{2} + t)dt + \\int_{-1/2}^{0}-(2t^{2} + t)dt + \\int_{0}^{1}(2t^{2} + t)dt\\right)$<br><br>$I = 17$",
     "image": "",
