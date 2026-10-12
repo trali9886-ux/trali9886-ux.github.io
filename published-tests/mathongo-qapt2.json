@@ -119,7 +119,7 @@
         "id": 5,
         "sourceQuestionNo": 5,
         "subject": "Physics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "A small bead of mass $m$ can slide without friction on a fixed horizontal wire. It is tied to one end of a light string that passes over a fixed smooth pulley $B$ and carries a block $C$ of mass $M$ at its other end. Initially, the string from the bead to the pulley makes an angle $\\theta$ with the horizontal, and the system is released from rest. Find the acceleration of the bead immediately after release.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 427\" role=\"img\" aria-label=\"A bead m on a fixed horizontal wire joined by a string at angle theta over a smooth pulley B to a hanging block C\">\n  <defs>\n    <marker id=\"arrow-qapt2q5\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"5\" y1=\"393\" x2=\"395\" y2=\"393\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <g stroke=\"#657568\" stroke-width=\"1.2\">\n    <line x1=\"18\" y1=\"393\" x2=\"8\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"36\" y1=\"393\" x2=\"26\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"54\" y1=\"393\" x2=\"44\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"72\" y1=\"393\" x2=\"62\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"90\" y1=\"393\" x2=\"80\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"108\" y1=\"393\" x2=\"98\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"126\" y1=\"393\" x2=\"116\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"144\" y1=\"393\" x2=\"134\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"162\" y1=\"393\" x2=\"152\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"180\" y1=\"393\" x2=\"170\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"198\" y1=\"393\" x2=\"188\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"216\" y1=\"393\" x2=\"206\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"234\" y1=\"393\" x2=\"224\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"252\" y1=\"393\" x2=\"242\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"270\" y1=\"393\" x2=\"260\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"288\" y1=\"393\" x2=\"278\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"306\" y1=\"393\" x2=\"296\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"324\" y1=\"393\" x2=\"314\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"342\" y1=\"393\" x2=\"332\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"360\" y1=\"393\" x2=\"350\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"378\" y1=\"393\" x2=\"368\" y2=\"403\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n  </g>\n  <line x1=\"5\" y1=\"10\" x2=\"395\" y2=\"10\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"150\" y1=\"10\" x2=\"150\" y2=\"50\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"123\" cy=\"33\" r=\"23\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <path d=\"M150 40 Q182 56 175 77\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <line x1=\"140\" y1=\"49\" x2=\"246\" y2=\"133\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"280\" cy=\"170\" r=\"50\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"112\" y1=\"393\" x2=\"112\" y2=\"262\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"112\" y1=\"262\" x2=\"272\" y2=\"168\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"128\" y1=\"393\" x2=\"128\" y2=\"278\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"128\" y1=\"278\" x2=\"285\" y2=\"181\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <rect x=\"268\" y=\"163\" width=\"26\" height=\"14\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"330\" y1=\"170\" x2=\"330\" y2=\"313\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <rect x=\"293\" y=\"313\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <text x=\"98\" y=\"60\" font-style=\"italic\" fill=\"#6c7d70\">m</text>\n  <text x=\"186\" y=\"50\" font-style=\"italic\" fill=\"#6c7d70\">θ</text>\n  <text x=\"338\" y=\"175\" font-style=\"italic\" fill=\"#6c7d70\">B</text>\n  <text x=\"365\" y=\"347\" font-style=\"italic\" fill=\"#6c7d70\">C</text>\n</svg>",
         "options": [
@@ -128,7 +128,7 @@
           "The tension in the string is $\\dfrac{2mg}{1+2\\cos^2\\theta}$",
           "If the block descends with velocity $v$, then the ring slides … <i>(option text is cut off in the source paper)</i>"
         ],
-        "answer": "1, 3",
+        "answer": "1,3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -147,7 +147,7 @@
         "id": 6,
         "sourceQuestionNo": 6,
         "subject": "Physics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "A uniform circular hoop of mass $M$ and radius $R$ lies on a horizontal floor. Two small beads, each of mass $m$, are initially at the top of the hoop and can slide without friction along the hoop. If the beads are gently pushed and slide down in opposite directions, the minimum mass $M$ for which the hoop will rise off the floor at some instant is<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 310\" role=\"img\" aria-label=\"A circular hoop on the floor with two beads m at the top sliding down in opposite directions, and an arrow M acting on the hoop\">\n  <defs>\n    <marker id=\"arrow-qapt2q6\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n    <marker id=\"arrow-start-qapt2q6\" markerWidth=\"7\" markerHeight=\"7\" refX=\"1\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M7 0 L0 3.5 L7 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"20\" y1=\"295\" x2=\"420\" y2=\"295\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"200\" cy=\"160\" r=\"135\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <path d=\"M 75.5 72.8 A 152 152 0 0 1 324.5 72.8\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\" marker-start=\"url(#arrow-start-qapt2q6)\" marker-end=\"url(#arrow-qapt2q6)\"/>\n  <line x1=\"335\" y1=\"160\" x2=\"395\" y2=\"160\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-qapt2q6)\" fill=\"none\"/>\n  <circle cx=\"113.2\" cy=\"56.6\" r=\"5\" fill=\"#206d5b\"/>\n  <circle cx=\"286.8\" cy=\"56.6\" r=\"5\" fill=\"#206d5b\"/>\n  <text x=\"118\" y=\"78\" font-style=\"italic\" fill=\"#6c7d70\">m</text>\n  <text x=\"272\" y=\"78\" font-style=\"italic\" fill=\"#6c7d70\">m</text>\n  <text x=\"405\" y=\"165\" font-style=\"italic\" fill=\"#6c7d70\">M</text>\n</svg>",
         "options": [
@@ -156,7 +156,7 @@
           "The smallest value of $\\dfrac mM$ for which the hoop will rise off the ground at some time during the motion is $\\dfrac32$.",
           "The hoop will never rise off the ground irrespective of the values of $m$ and $M$."
         ],
-        "answer": "1, 3",
+        "answer": "1,3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -175,7 +175,7 @@
         "id": 7,
         "sourceQuestionNo": 7,
         "subject": "Physics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "A man of mass $M$ stands on a platform of mass $m$ and pulls himself up by two ropes as shown in figure. If he exerts a force of $F$ on each rope, then the acceleration of the platform is:<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 430\" role=\"img\" aria-label=\"A man standing on a platform pulling himself up by two ropes over a system of four pulleys\">\n  <line x1=\"20\" y1=\"20\" x2=\"360\" y2=\"20\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <g stroke=\"#657568\" stroke-width=\"1.2\">\n    <line x1=\"30\" y1=\"20\" x2=\"20\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"60\" y1=\"20\" x2=\"50\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"90\" y1=\"20\" x2=\"80\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"120\" y1=\"20\" x2=\"110\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"150\" y1=\"20\" x2=\"140\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"180\" y1=\"20\" x2=\"170\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"210\" y1=\"20\" x2=\"200\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"240\" y1=\"20\" x2=\"230\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"270\" y1=\"20\" x2=\"260\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"300\" y1=\"20\" x2=\"290\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"330\" y1=\"20\" x2=\"320\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"355\" y1=\"20\" x2=\"345\" y2=\"5\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n  </g>\n  <rect x=\"15\" y=\"404\" width=\"350\" height=\"14\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"90\" y1=\"20\" x2=\"90\" y2=\"65\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"90\" cy=\"95\" r=\"30\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"280\" y1=\"20\" x2=\"280\" y2=\"65\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"280\" cy=\"95\" r=\"30\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <circle cx=\"135\" cy=\"180\" r=\"26\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <circle cx=\"205\" cy=\"245\" r=\"26\" fill=\"#f0f4ec\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"60\" y1=\"95\" x2=\"60\" y2=\"404\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <path d=\"M 60 95 A 30 30 0 0 1 120 95\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"120\" y1=\"95\" x2=\"135\" y2=\"180\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"109\" y1=\"180\" x2=\"109\" y2=\"404\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <path d=\"M 109 180 A 26 26 0 0 0 161 180\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"161\" y1=\"180\" x2=\"179\" y2=\"245\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <path d=\"M 179 245 A 26 26 0 0 0 231 245\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"231\" y1=\"245\" x2=\"250\" y2=\"95\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <path d=\"M 250 95 A 30 30 0 0 1 310 95\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"310\" y1=\"95\" x2=\"310\" y2=\"404\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"205\" y1=\"245\" x2=\"205\" y2=\"345\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"225\" cy=\"335\" r=\"9\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"225\" y1=\"344\" x2=\"225\" y2=\"378\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"225\" y1=\"378\" x2=\"215\" y2=\"404\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"225\" y1=\"378\" x2=\"235\" y2=\"404\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"225\" y1=\"355\" x2=\"205\" y2=\"345\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"225\" y1=\"355\" x2=\"205\" y2=\"352\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n</svg>",
         "options": [
@@ -184,7 +184,7 @@
           "If $m=M=60$ kg, then the man must apply a force of $1200$ N on the string in order to reflect his exact weight on the weighing machine.",
           "If $m>2M$, then the weighing machine will never reflect the exact weight of the man."
         ],
-        "answer": "2, 3, 4",
+        "answer": "2,3,4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -203,7 +203,7 @@
         "id": 8,
         "sourceQuestionNo": 8,
         "subject": "Physics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "A block slides down from the top of an inclined plane and then continues to move along a horizontal surface until it stops, as shown in the figure. The incline makes an angle $\\alpha$ with the horizontal plane, and the angle between the initial position of the block and the horizontal surface is $\\beta$. Let $\\mu$ be the coefficient of friction, which is the same for both the inclined and horizontal surfaces. The block is released from rest. Find the ratio of the time spent on the inclined plane to the total time of motion.<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 200\" role=\"img\" aria-label=\"Two rods pivoted at O with angle alpha between them and beta to the horizontal, with beads at their tips\">\n  <defs>\n    <marker id=\"arrow-qapt2q8\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n    <marker id=\"arrow-start-qapt2q8\" markerWidth=\"7\" markerHeight=\"7\" refX=\"1\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M7 0 L0 3.5 L7 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"5\" y1=\"185\" x2=\"515\" y2=\"185\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <g stroke=\"#657568\" stroke-width=\"1.2\">\n    <line x1=\"18\" y1=\"185\" x2=\"8\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"42\" y1=\"185\" x2=\"32\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"66\" y1=\"185\" x2=\"56\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"90\" y1=\"185\" x2=\"80\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"114\" y1=\"185\" x2=\"104\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"138\" y1=\"185\" x2=\"128\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"162\" y1=\"185\" x2=\"152\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"186\" y1=\"185\" x2=\"176\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"210\" y1=\"185\" x2=\"200\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"234\" y1=\"185\" x2=\"224\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"258\" y1=\"185\" x2=\"248\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"282\" y1=\"185\" x2=\"272\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"306\" y1=\"185\" x2=\"296\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"330\" y1=\"185\" x2=\"320\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"354\" y1=\"185\" x2=\"344\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"378\" y1=\"185\" x2=\"368\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"402\" y1=\"185\" x2=\"392\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"426\" y1=\"185\" x2=\"416\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"450\" y1=\"185\" x2=\"440\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"474\" y1=\"185\" x2=\"464\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n    <line x1=\"498\" y1=\"185\" x2=\"488\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/>\n  </g>\n  <rect x=\"200\" y=\"115\" width=\"60\" height=\"70\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <rect x=\"310\" y=\"115\" width=\"60\" height=\"70\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"/>\n  <line x1=\"465\" y1=\"185\" x2=\"100\" y2=\"15\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"100\" cy=\"15\" r=\"5\" fill=\"#206d5b\"/>\n  <line x1=\"465\" y1=\"185\" x2=\"30\" y2=\"75\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"30\" cy=\"75\" r=\"5\" fill=\"#206d5b\"/>\n  <path d=\"M 328 185 A 140 140 0 0 0 334 151\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\" marker-start=\"url(#arrow-start-qapt2q8)\" marker-end=\"url(#arrow-qapt2q8)\"/>\n  <text x=\"175\" y=\"145\" font-style=\"italic\" fill=\"#6c7d70\">β</text>\n  <path d=\"M 308 145 A 180 180 0 0 0 323 118\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\" marker-start=\"url(#arrow-start-qapt2q8)\" marker-end=\"url(#arrow-qapt2q8)\"/>\n  <text x=\"325\" y=\"105\" font-style=\"italic\" fill=\"#6c7d70\">α</text>\n  <text x=\"472\" y=\"180\" font-style=\"italic\" fill=\"#6c7d70\">O</text>\n</svg>",
         "options": [
@@ -212,7 +212,7 @@
           "Angular speed of the rod when the angle between the rod and the floor is $\\beta$ is $\\sqrt{\\dfrac{2MgL(\\sin\\alpha-\\sin\\beta)}{mb^2\\csc^4\\beta+ML^2}}$",
           "Angular speed of the rod when the angle between the rod and the floor is $\\beta$ is $\\sqrt{\\dfrac{MgL(\\sin\\alpha-\\sin\\beta)}{mb^2+ML^2\\cos^4\\beta}}$"
         ],
-        "answer": "2, 3",
+        "answer": "2,3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -576,7 +576,7 @@
         "id": 22,
         "sourceQuestionNo": 22,
         "subject": "Chemistry",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "A cubic crystalline ionic solid $AB$ has a rock salt structure in which the $B^-$ ion is present at the body centre. If all the ions along one axis passing through opposite face centres are removed, then which of the following statements is/are correct about the resulting crystalline solid?",
         "options": [
@@ -585,7 +585,7 @@
           "Number of nearest $B^-$ ions of a $B^-$ ion is $8$ in the resulting crystal",
           "Percentage decrease in density is $25\\%$"
         ],
-        "answer": "2, 3, 4",
+        "answer": "2,3,4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -602,7 +602,7 @@
         "id": 23,
         "sourceQuestionNo": 23,
         "subject": "Chemistry",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Consider different types of ideal concentration cells operating at a constant temperature $T$. Assume all gases and solutions behave ideally, and $F$ represents Faraday's constant. Which of the following statements regarding these cells is/are correct?",
         "options": [
@@ -611,7 +611,7 @@
           "In a spontaneous electrolyte concentration cell of the type $M\\,|\\,M^{n+}(C_1)\\,||\\,M^{n+}(C_2)\\,|\\,M$, the continuous operation of the cell causes a net increase in the metal ion concentration in the cathodic compartment.",
           "For the net cell reaction of any concentration cell, the standard cell potential $E^\\circ_{cell}$, the standard Gibbs free energy change $\\Delta G^\\circ$, and the standard entropy change $\\Delta S^\\circ$ are all strictly equal to zero."
         ],
-        "answer": "1, 2, 4",
+        "answer": "1,2,4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -628,7 +628,7 @@
         "id": 24,
         "sourceQuestionNo": 24,
         "subject": "Chemistry",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Consider an elementary, gas-phase reversible reaction Reactants $\\rightleftharpoons$ Products whose potential energy profile is identical to the one shown in the figure. Let $k_f$ and $k_b$ be the rate constants for the forward and backward reactions respectively, and $K_{eq}$ be the equilibrium constant. Assume the pre-exponential Arrhenius factors ($A_f$ and $A_b$) are independent of temperature.<br>Based on the reaction profile and principles of chemical kinetics, which of the following statements is/are correct?",
         "options": [
@@ -637,7 +637,7 @@
           "A plot of $\\ln K_{eq}$ versus $1/T$ yields a straight line with a positive slope equal to $\\dfrac{E_{a,b}-E_{a,f}}{R}$, where $E_{a,b}$ and $E_{a,f}$ are the activation energies of the backward and forward reactions.",
           "Increasing the concentration of the reactants increases the effective collision frequency, thereby directly increasing the magnitude of both rate constants $k_f$ and $k_b$."
         ],
-        "answer": "1, 2, 3",
+        "answer": "1,2,3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -654,11 +654,11 @@
         "id": 25,
         "sourceQuestionNo": 25,
         "subject": "Chemistry",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Select the correct statement(s):",
         "options": [],
-        "answer": "1, 2",
+        "answer": "1,2",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -988,14 +988,14 @@
         "id": 39,
         "sourceQuestionNo": 39,
         "subject": "Mathematics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "For the equation $2(\\sin x-\\cos2x)-\\sin2x(1+2\\sin x)+2\\cos x=0,\\ x\\in[0,2\\pi]$,",
         "options": [
           "the values of $x$ satisfying the given equation form an A.P.",
           "the sum of all possible values of $x$ satisfying the given equation is $4\\pi$"
         ],
-        "answer": "1, 2",
+        "answer": "1,2",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -1012,13 +1012,13 @@
         "id": 40,
         "sourceQuestionNo": 40,
         "subject": "Mathematics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Let $[x]$ denote the greatest integer less than or equal to $x$. The equation $\\sin x=[1+\\sin x]+[1-\\cos x]$ has",
         "options": [
           "The equation has no solution for $x\\in\\mathbb R$."
         ],
-        "answer": "1, 2",
+        "answer": "1,2",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -1035,7 +1035,7 @@
         "id": 41,
         "sourceQuestionNo": 41,
         "subject": "Mathematics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Consider the trigonometric equation $16^{\\sin^2x}+16^{\\cos^2x}=8\\sin3y$. Let $S_x$ be the set of all valid values of $x$ and $S_y$ be the set of all valid values of $y$ that satisfy the given equation in the interval $[0,2\\pi]$. Which of the following statements is/are CORRECT?",
         "options": [
@@ -1044,7 +1044,7 @@
           "The sum of all the elements in set $S_y$ is $\\dfrac{5\\pi}{2}$.",
           "The minimum absolute difference between any two distinct elements in $S_x$ is $\\dfrac\\pi4$."
         ],
-        "answer": "1, 2, 3",
+        "answer": "1,2,3",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",
@@ -1061,7 +1061,7 @@
         "id": 42,
         "sourceQuestionNo": 42,
         "subject": "Mathematics",
-        "type": "mcq",
+        "type": "multi",
         "section": "Multiple Correct",
         "text": "Consider the following four real-valued functions defined on their respective maximal domains: $f(x)=\\cos(\\sin x)+\\cos(\\cos x)$; $g(x)=|\\sin x-\\cos x|+|\\sin x+\\cos x|$; $h(x)=\\dfrac{\\sin x+\\sin3x+\\sin5x}{\\cos x+\\cos3x+\\cos5x}$; $k(x)=\\left\\{\\dfrac{3x}{\\pi}\\right\\}+\\tan^2x$, where $\\{\\cdot\\}$ denotes the fractional part function.<br>Let $T_f,T_g,T_h,T_k$ represent the fundamental (minimum positive) periods of $f(x),g(x),h(x),k(x)$ respectively. Which of the following statements is/are CORRECT?",
         "options": [
@@ -1070,7 +1070,7 @@
           "$T_h=\\pi$",
           "$T_k=\\pi$"
         ],
-        "answer": "1, 3, 4",
+        "answer": "1,3,4",
         "maxMarks": 4,
         "negativeMarks": 2,
         "solution": "Solution not provided in original test paper.",

@@ -128,7 +128,7 @@
      "Direction of change in momentum makes angle $\\tan^{-1}\\!\\left(\\tfrac13\\right)$ with the +x axis.",
      "Direction of change in momentum makes angle $90^\\circ+\\tan^{-1}\\!\\left(\\tfrac13\\right)$ with the plane surface."
     ],
-    "answer": "1, 3",
+    "answer": "1,3",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$\\Delta\\vec p=2(3\\hat i+\\hat j)\\Rightarrow$ angle $\\tan^{-1}(1/3)$ with +x. Frictionless plane $\\Rightarrow\\Delta\\vec p\\perp$ plane, so plane makes $90^\\circ+\\tan^{-1}(1/3)$ with +x. D is wrong ($\\Delta\\vec p$ is $90^\\circ$ to the plane).",
@@ -156,7 +156,7 @@
      "$t=\\dfrac{20}{\\sqrt3}\\ \\text{s}$",
      "$t=\\dfrac{10}{\\sqrt3}\\ \\text{s}$"
     ],
-    "answer": "1, 4",
+    "answer": "1,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "Both fall freely, so collision needs relative velocity along AB: velocity of B at $120^\\circ$ from +x $\\Rightarrow\\theta=30^\\circ$. $|v_{rel}|=2(20)\\sin60^\\circ=20\\sqrt3$, $AB=200$ m $\\Rightarrow t=\\frac{200}{20\\sqrt3}=\\frac{10}{\\sqrt3}$ s.",
@@ -184,7 +184,7 @@
      "Speed of the man when he finds rain falling at $45^\\circ$ with the vertical is $4$ m/s.",
      "The man has travelled a distance of $16$ m on the road by the time he finds rain falling at $45^\\circ$."
     ],
-    "answer": "3, 4",
+    "answer": "3,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "Rain $=(a,-a)$; man $v$: $|a-v|=a\\Rightarrow v=2a$. Relative speed $a\\sqrt2=2\\sqrt2\\Rightarrow a=2$. Rain speed $=2\\sqrt2$ (B false), $v=4$ m/s, $s=\\frac{v^2}{2(0.5)}=16$ m.",
@@ -212,7 +212,7 @@
      "$[\\mu_0]=MLT^{-1}I$",
      "$[\\mu_0]=MLT^{-2}I^{-2}$"
     ],
-    "answer": "2, 4",
+    "answer": "2,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$\\varepsilon_0=\\frac{q^2}{F r^2}\\Rightarrow M^{-1}L^{-3}T^{4}I^{2}$; $\\mu_0=\\frac{1}{\\varepsilon_0c^2}\\Rightarrow MLT^{-2}I^{-2}$. A and C are wrong.",
@@ -579,7 +579,7 @@
      "The mass of $H_2SO_4$ becomes $98$ g.",
      "The mass of $H_2SO_4$ in the solution is $19.6$ g."
     ],
-    "answer": "1, 2, 4",
+    "answer": "1,2,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "98% w/w with $d=0.1$ g/mL $\\Rightarrow M=\\frac{10\\times98\\times0.1}{98}=1$ M. Mixing two 1 M solutions: 1 M, $200$ mL, $0.2$ mol $=19.6$ g.",
@@ -607,7 +607,7 @@
      "The nodal surface is at a radial distance of $6a_0$ from the nucleus.",
      "The number of angular nodes in the given orbital are $2$."
     ],
-    "answer": "1, 3",
+    "answer": "1,3",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$\\psi\\propto \\frac{r}{a_0}\\left(6-\\frac{r}{a_0}\\right)e^{-r/3a_0}\\cos\\theta$: this is $3p_z$. Radial node at $r=6a_0$; angular nodes $=l=1$.",
@@ -635,7 +635,7 @@
      "The wavelength of the photon emitted when transition takes place from the third excited state to the ground state is $1.21$ Å.",
      "Since the mass of the imaginary particle is different from the mass of the electron, the velocity of the imaginary particle and the electron in the $n^{th}$ orbit will be different."
     ],
-    "answer": "1, 2",
+    "answer": "1,2",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$r_n=\\frac{n^2h^2\\varepsilon_0}{\\pi(50m)(4)e^2}$ ✓. $n=17\\to11$: 7 levels, $^7C_2=21$ ✓. C: $E=13.6\\times16\\times50\\times\\frac{15}{16}=10200$ eV, $\\lambda=\\frac{12400}{10200}\\approx1.216$ Å $\\approx1.22$ Å (not 1.21). D: Bohr speed $v=\\frac{Ze^2}{2\\varepsilon_0nh}$ is independent of mass.",
@@ -663,7 +663,7 @@
      "Normality of $H_2SO_4$ for neutralization is $0.2$ N.",
      "Weight of $H_2SO_4$ is $0.104$ g."
     ],
-    "answer": "1, 2",
+    "answer": "1,2",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "Equivalents of NaOH $=26.7\\times0.4/1000=0.01068$. $\\frac{x}{40}+\\frac{0.5-x}{49}=0.01068\\Rightarrow x=0.104$ g $SO_3$ ($20.7\\%$). $H_2SO_4=0.396$ g. Normality can't be fixed without volume.",
@@ -1030,7 +1030,7 @@
      "$a^{100}+c^{100}>2b^{100}$",
      "$a^3+c^3>2b^3$"
     ],
-    "answer": "1, 2, 3, 4",
+    "answer": "1,2,3,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$b=\\text{HM}<\\text{GM}<\\text{AM}<\\text{power mean}$, so $\\frac{a^p+c^p}{2}>b^p$ for every $p>1$. All four true.",
@@ -1058,7 +1058,7 @@
      "There is a unique positive integer $n$ such that $\\log_2(\\log_{16}n)=\\log_4(\\log_4n)$. The sum of the digits of $n$ is $13$.",
      "The set of real numbers $x$ for which $\\log_{2024}\\log_{2023}\\log_{2022}\\log_{2021}\\log_{2020}x$ is defined is $\\{x\\mid x>c\\}$. Then $c=2020^{2021^{2022}}$."
     ],
-    "answer": "1, 3, 4",
+    "answer": "1,3,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "A: sum $=\\log_a1=0$. B false: $b=2024$ gives $\\log_b2024=1$. C: $n=256$, digit sum $13$. D: peeling the logs gives $x>2020^{2021^{2022}}$.",
@@ -1086,7 +1086,7 @@
      "$35$",
      "$44$"
     ],
-    "answer": "2, 3, 4",
+    "answer": "2,3,4",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$x^2-3x+5$ is irreducible, so both quadratics are proportional: $a+2=k$, $b-1=3k$, $c=5k$. $c-a-b=k+1\\le6$, $a\\ge1\\Rightarrow k=3,4,5$; $a+b+c=9k-1=26,35,44$.",
@@ -1114,7 +1114,7 @@
      "The common ratio of the geometric progression is $\\dfrac12$.",
      "The common difference of the arithmetic progression is $26$."
     ],
-    "answer": "1, 3",
+    "answer": "1,3",
     "maxMarks": 4,
     "negativeMarks": 2,
     "solution": "$a_2=42$, $g_2=34$; $g_1+g_3=85$, $g_1g_3=1156\\Rightarrow\\{68,17\\}$. Increasing AP forces $g_1=68$, $r=\\frac12$, AP $=17,42,67\\Rightarrow d=25$.",

@@ -26,7 +26,7 @@
      "4 m/s",
      "2 m/s"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The total mechanical energy E of the particle is conserved. Since it is released from rest at x = 1.0 m, its initial kinetic energy is zero. Calculate the total energy: E = U (1.0) = 16 4 − 8 2 = 16 − 8. (1.0) (1.0) = 8 J The maximum speed is attained at the point where the kinetic energy is maximum. Because K = E − U (x), K is maximized when U (x) is minimized. Find the minimum of U (x) by setting its derivative to zero: \\(\\frac{dU}{dx}\\) = − \\(\\frac{64}{x^{5}}\\) + \\(\\frac{16}{x^{3}}\\) = 0. Solving for x: 16 (− 4 + 1) = 0 ⇒ \\(x^{2}\\) = 4 ⇒ x = 2.0 m \\(x^{3}\\) \\(x^{2}\\) (since x > 0). Confirm it's a minimum by checking the potential at x = 2.0 m: Umin = U (2.0) = \\(\\frac{16}{16}\\) − \\(\\frac{8}{4}\\) = 1 − 2 = −1 J. The maximum kinetic energy is: Kmax = E − Umin = 8 − (−1) = 9 J. Relate Kmax to speed: Kmax = \\(\\frac{1}{2}\\) \\(mvmax^{2}\\) ⇒ 9 = \\(\\frac{1}{2}\\) (2.0) \\(vmax^{2}\\). ⇒ \\(vmax^{2}\\) = 9 The maximum speed is vmax = 3 m/s.",
     "image": "",
     "optionImages": [],
@@ -50,7 +50,7 @@
      "4.0",
      "6.0"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "First Experiment (Perfectly Inelastic): Let the initial velocity be v. After the collision, the combined mass (m1 + m2) = 4.0 kg moves with velocity V. By momentum conservation: m1v = (m1 + m2) V ⇒ 3.0v = 4.0V ⇒ V. = 3 v 4 The kinetic energy of the combined system is entirely converted into spring potential energy at maximum compression: \\(\\frac{1}{2}\\) \\(kx_{1}^{2}\\) = \\(\\frac{1}{2}\\) (4.0) ( \\(\\frac{3}{4}\\) \\(v)^{2}\\) ⇒ \\(kx_{1}^{2}\\) = 4.0 × \\(\\frac{9}{16}\\) \\(v^{2}\\). = 9 \\(v^{2}\\) 4 Second Experiment (Perfectly Elastic): The initial velocity is u = v + 4.0. For an elastic collision where the target is stationary, the velocity of the target mass m2 just after the collision is: v2 = \\(\\frac{2m1}{m1+m2}\\) u = \\(\\frac{2(3.0)}{4.0}\\) u = \\(\\frac{3}{2}\\) u. = 1.5 (v + 4.0) At maximum compression x2, the kinetic energy of m2 is fully converted to spring potential energy: \\(\\frac{1}{2}\\) k\\(x_{2}^{2}\\) = \\(\\frac{1}{2}\\) m2\\(v_{2}^{2}\\) = \\(\\frac{1}{2}\\) (1.0) [1.5 (v + 4.0)\\(]^{2}\\) \\(kx_{2}^{2}\\) = \\(\\frac{9}{4}\\) (v + \\(4.0)^{2}\\). Comparing the Compressions: We are given x2 = 2x1, which means x22 = 4x21. Therefore, \\(kx_{2}^{2}\\) = 4 \\((kx_{1}^{2} )\\). Substitute the energy expressions: \\(\\frac{9}{4}\\) (v + \\(4.0)^{2}\\) = 4 × ( \\(\\frac{9}{4}\\) \\(v^{2}\\) ) ⇒ (v + \\(4.0)^{2}\\). = 4\\(v^{2}\\) Taking the positive square root (since velocities are positive): v + 4.0 = 2v ⇒ v = 4.0 m/s.",
     "image": "",
     "optionImages": [],
@@ -74,7 +74,7 @@
      "\\(\\frac{5mg}{2k}\\)",
      "\\(\\frac{25mg}{8k}\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "At incipient lift, if a is the extension, 5mg ka = 5mg ⇒ a =. k Immediately after impact, the upper block of mass 2m has speed −−− v0 = √2gh. code to Using energy between that instant and maximum extension: \\(\\frac{1}{2}\\) (2m) \\(v_{0}^{2}\\) = \\(\\frac{1}{2}\\) k\\(a^{2}\\) + 2mga. Therefore, 2 1 5mg 5mg 2mgh = k( ) + 2mg ( ) 2 k k 45\\(m^{2}\\)\\(g^{2}\\) =. 2k Hence, h = \\(\\frac{45mg}{4k}\\).",
     "image": "",
     "optionImages": [],
@@ -98,7 +98,7 @@
      "1.0",
      "1.5"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "The initial kinetic energy of the block is Ki = \\(\\frac{1}{2}\\) \\(mv_{0}^{2}\\) = \\(\\frac{1}{2}\\) (5.0) \\((4.0)^{2}\\) = 40 J. The block comes to rest at maximum compression, so final kinetic energy Kf = 0. The total distance the block moves along the incline before stopping is D = d + x0 = d + 0.50. The work done by gravity is: Wg = mgsinθ ⋅ D = 5.0 × 10 × 0.60 × (d + 0.50) = 30 (d + 0.50) J. The normal force is: N = mgcosθ = 5.0 × 10 × 0.80 = 40 N. The kinetic friction force is: \\(f_{k}\\) = \\(μ_{k} N\\) = 0.50 × 40 = 20 N. The work done by friction is: Wf = \\(−f_{k}\\) ⋅ D = −20 (d + 0.50) J. The work done by the spring is: Ws = − \\(\\frac{1}{2}\\) \\(kx_{0}^{2}\\) = − \\(\\frac{1}{2}\\) (480) \\((0.50)^{2}\\) = −60 J. Applying the work-energy theorem: Wnet = ΔK ⇒ Wg + Wf + Ws = Kf − Ki. Substituting the expressions: 30 (d + 0.50) − 20 (d + 0.50) − 60 = 0. − 40 Simplify: 10 (d + 0.50) − 60 = −40 ⇒ 10 (d + 0.50) = 20 ⇒ d + 0.50 = 2.0. Solving for d, we get d = 1.5 m.",
     "image": "",
     "optionImages": [],
@@ -122,7 +122,7 @@
      "36 m/s",
      "48 m/s"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Consider the automobile moving up the incline at a constant speed v1. The net force is zero. The forces acting down the incline are the component of gravity, mgsinθ, and the drag force f. Fgravity = 1000 × 10 × 0.08 = 800 N. The total force opposing the motion up the incline is: Fopp = mgsinθ + f = 800 + 1200. = 2000 N The driving force F1 provided by the engine must balance this: F1 = 2000 N. The constant power output of the engine is: P = F1 v1 = 2000 × 12 = 24000 W. Now consider the automobile moving down the incline at a constant speed v2. The net force is again zero. The drag force f = 1200 N now acts up the incline (opposing motion), while the component of gravity mgsinθ = 800 N acts down the incline. The net opposing force against the engine is: Fopp,net = f − mgsinθ = 1200 − 800 up the = 400 N incline. To maintain constant speed, the engine must provide a driving force F2 = 400 N down the incline. Since the engine delivers the same power P, we have: P = F2 v2 ⇒ 24000 = 400v2. Solving for v2, we get: v2 = \\(\\frac{24000}{400}\\) = 60 m/s.",
     "image": "",
     "optionImages": [],
@@ -146,7 +146,7 @@
      "400 J",
      "324 J"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Let the direction of the sphere's initial motion be positive (right). Initial velocity of sphere v1 = +12 m/s. The wall is moving towards the sphere, so its velocity is v2 = −8.0 m/s. The velocity of approach is: vapp = v1 − v2 = 12 − (−8.0) = 20 m/s. By the definition of the coefficient of restitution, the velocity of separation is: vsep = e ⋅ vapp = 0.50 × 20 = 10 m/s. The velocity of separation is given by vsep = \\(v_{2}^{'}\\) − \\(v_{1}^{'}\\).. Since the wall is massive, its velocity remains unchanged: \\(v_{2}^{'}\\) = −8.0 m/s. Substituting this into the separation equation: −8.0 − \\(v_{1}^{'}\\) = 10 ⇒ \\(v_{1}^{'}\\) = −18 m/s. The kinetic energy of the sphere immediately after the collision is: K = \\(\\frac{1}{2}\\) \\(m(v_{1}^{'}\\) \\()^{2}\\) = \\(\\frac{1}{2}\\) (2.0) \\((−18)^{2}\\) = 324 J.",
     "image": "",
     "optionImages": [],
@@ -170,7 +170,7 @@
      "24 J",
      "30 J"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Analyze the first collision (elastic) between block A and block B (initially at rest). The final velocity of block B after the elastic collision is: vB = \\(\\frac{2mA}{mA+mB}\\) v0. Substitute the values: vB = \\(\\frac{2(1.0)}{1.0+2.0}\\) × 15 = \\(\\frac{2}{3}\\) × 15 = 10 m/s. Analyze the second collision (perfectly inelastic) between block B (moving at 10 m/s) and block C (initially at rest). Conservation of momentum for B and C: mBvB = (mB + mC ) vBC. Substitute the values: 2.0 × 10 = (2.0 + 3.0) vBC ⇒ 20 = 5.0vBC ⇒ vBC = 4.0 m/s. The kinetic energy of the combined B-C system is: KBC = \\(\\frac{1}{2}\\) (mB + mC ) \\(v_{BC}^{2}\\). Calculate the energy: KBC = \\(\\frac{1}{2}\\) (5.0) \\((4.0)^{2}\\) = 2.5 × 16 = 40 J.",
     "image": "",
     "optionImages": [],
@@ -194,7 +194,7 @@
      "1.0 m/s",
      "3.0 m/s"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Since there are no external horizontal forces, the total horizontal momentum of the block-wedge system is conserved. Initially, both are at rest, so the total horizontal momentum is zero. Let vb be the horizontal velocity of the block relative to the floor, and vw be the velocity of the wedge relative to the floor. By conservation of horizontal momentum: mvb + Mvw = 0. Substitute the masses: 1.0vb + 2.0vw = 0 ⇒ vb = −2.0vw. Because all surfaces are smooth, mechanical energy is conserved. The initial potential energy is converted entirely into the kinetic energy of both the block and the wedge when the block reaches the bottom. Conservation of energy: mgR = \\(\\frac{1}{2}\\) \\(mv_{b}^{2}\\) + \\(\\frac{1}{2}\\) \\(Mvw^{2}\\). Substitute m = 1.0 kg, M = 2.0 kg, R = 1.2 m, and g = 10 \\(m/s^{2}\\): 1.0 × 10 × 1.2 = \\(\\frac{1}{2}\\) (1.0) \\((−2.0vw)^{2}\\). + \\(\\frac{1}{2}\\) (2.0) \\(vw^{2}\\) Simplify the equation: 12 = \\(\\frac{1}{2}\\) \\((4.0vw^{2})\\) + \\(1.0vw^{2}\\) = \\(2.0vw^{2}\\) + \\(1.0vw^{2}\\). = 3.0\\(vw^{2}\\) Solve for vw: \\(vw^{2}\\) = \\(\\frac{12}{3.0}\\) = 4.0 ⇒ vw = 2.0 m/s.",
     "image": "",
     "optionImages": [],
@@ -218,7 +218,7 @@
      "–30 J",
      "–42 J"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Define the initial state: Initial momentum Pi = m1u1 + m2u2 = 4.0 (5.0) + 1.0 (−5.0) = 20 − 5 = 15 kg m/s. Initial kinetic energy: 1 2 1 2 Ki = 2 (4.0) (5.0) + 2 (1.0) (−5.0) = 50 + 12.5 = 62.5 J. Final kinetic energy: Since 30 J is lost, Kf = 62.5 − 30 = 32.5 J. Let v1 and v2 be the final velocities. From conservation of momentum: 4.0v1 + 1.0v2 = 15 ⇒ v2 = 15 − 4v1. From the final kinetic energy equation: \\(\\frac{1}{2}\\) (4.0) \\(v_{1}^{2}\\) + \\(\\frac{1}{2}\\) (1.0) \\(v_{2}^{2}\\) = 32.5 ⇒ \\(2v_{1}^{2}\\) + 0.5(15 − 4v1 \\()^{2}\\) = 32.5. Expand the squared term: 2\\(v_{1}^{2}\\) + 0.5 (225 − 120v1 + 16\\(v_{1}^{2}\\) ) = 32.5 ⇒ 2\\(v_{1}^{2}\\) + 112.5 − 60v1 + 8\\(v_{1}^{2}\\) = 32.5. Rearrange into a standard quadratic: \\(10v_{1}^{2}\\) − 60v1 + 80 = 0 ⇒ \\(v_{1}^{2}\\) − 6v1 + 8 = 0. Factor the quadratic: (v1 − 2) (v1 − 4) = 0. The possible mathematical solutions are v1 = 2 m/s or v1 = 4 m/s. If v1 = 4 m/s, then v2 = 15 − 16 = −1 m/s. Here v1 > v2, which physically implies that m1 passed through m2. Since this is a solid head-on collision with m1 on the left and m2 on the right, this root is unphysical. If v1 = 2 m/s, then v2 = 15 − 8 = 7 m/s. Here v1 < v2, which is physically valid. Final kinetic energy of m1: K1,f = \\(\\frac{1}{2}\\) (4.0) \\((2.0)^{2}\\) = 8.0 J. Initial kinetic energy of m1: K1,i = 50 J. Work done on m1: W1 = ΔK1 = 8.0 − 50 = −42 J.",
     "image": "",
     "optionImages": [],
@@ -242,7 +242,7 @@
      "10√2 cm 4+π",
      "\\(\\frac{40√2}{4+π}\\) cm"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Place the center of the circle at the origin (0,0). Orient the loop such that it is symmetric about the line y = x, spanning from θ = 0 to θ = π/2. The loop consists of three parts: two straight segments and one circular arc. Let λ be the linear mass density. Segment 1: Lies along the x-axis from x = 0 to x = R. Length L1 = R, mass m1 = λR. Center of mass is at ( \\(\\frac{R}{2}\\), 0). Segment 2: Lies along the y-axis from y = 0 to y = R. Length L2 = R, mass m2 = λR. Center of mass is at (0, \\(\\frac{R}{2}\\) ). Arc 3: Circular arc from θ = 0 to θ = π/2. Length L3 = \\(\\frac{π}{2}\\) R, mass m3 = λ \\(\\frac{π}{2}\\) R. The center of mass of a circular arc spanning angle 2α = π/2 has distance from origin d = \\(\\frac{Rsin(α)}{α}\\) = \\(\\frac{Rsin(π/4)}{π/4}\\) = \\(\\frac{2√2R}{π}\\). Its coordinates are x3 = \\(y_{3}\\) = dcos (π/4) = \\(\\frac{2R}{π}\\). The total mass is M = m1 + m2 + m3 = λR + λR + λ \\(\\frac{π}{2}\\) R = λR (2 + \\(\\frac{π}{2}\\) ). Find the x-coordinate of the system's center of mass: Xcm = \\(\\frac{m1x1+m2x2+m3x3}{M}\\). λR(R/2)+λR(0)+λ(πR/2)(2R/π) Xcm = λR(2+π/2) = \\(\\frac{R^{2} /2+R^{2}}{R(2+π/2)}\\). By symmetry, Ycm = Xcm = \\(\\frac{3R}{4+π}\\). The distance from the origin is: −−−−−−−−− D = \\(√X_{cm}^{2}\\) + \\(Y_{cm}^{2}\\) = \\(\\frac{3√2R}{4+π}\\). Substitute R = 10 cm: D = \\(\\frac{30√2}{4+π}\\) cm.",
     "image": "",
     "optionImages": [],
@@ -266,7 +266,7 @@
      "8.0 N",
      "6.0 N"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Because M ≫ m and the collision is elastic, the massive block effectively acts as a rigid moving wall. The velocity of the small ball immediately after collision is: vB ≈ 2V = 12 m/s. Before applying energy conservation to the highest point, verify it completes the full vertical circle. The minimum required velocity at the bottom is: \\(−_{√}−_{5gL}−\\) = \\(−_{√5}−−_{(10)}−−−−−_{(1.6)}−\\) = \\(√80^{−−}\\) ≈ 8.94 m/s. Since 12 > 8.94, the ball safely reaches the top. Apply conservation of mechanical energy from the bottom to the top of the circle: \\(\\frac{1}{2}\\) \\(mv_{B}^{2}\\) = \\(\\frac{1}{2}\\) \\(mv_{T}^{2}\\) + mg (2L). Solve for the squared speed at the top: \\(v_{T}^{2}\\) = \\(v_{B}^{2}\\) − 4gL = 144 − 4 (10) (1.6) = 144 − 64 = 80 \\((m/s)^{2}\\). At the highest point, Newton's second law for the radial direction (downward positive) is: T + mg = \\(\\frac{mv_{T}^{2}}{L}\\). Calculate the tension: T = \\(\\frac{mv_{T}^{2}}{L}\\) − mg = \\(\\frac{0.20×80}{1.6}\\) − 0.20 (10). Evaluate: T = \\(\\frac{16}{1.6}\\) − 2.0 = 10 − 2.0 = 8.0 N.",
     "image": "",
     "optionImages": [],
@@ -290,7 +290,7 @@
      "19200 J",
      "12800 J"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Identify the forces acting on the elevator: F (y) upwards, gravity Mg downwards, and kinetic friction f downwards. The net upward force as a function of displacement y is: Fnet (y) = F (y) − Mg − f. Substitute the given values: Mg = 800 × 10 = 8000 N, f = 800 N. Fnet (y) = (12000 − 400y) −8000 − 800 = 3200 − 400y. The maximum kinetic energy occurs where the net work done reaches its maximum, which happens when the net force drops to zero. Set Fnet (y) = 0 ⇒ 3200 − 400y = 0 ⇒ y. = 8.0 m The net work done on the elevator from y = 0 to y = 8.0 m is the integral of the net force:. Evaluate the integral: W = [3200y − \\(200y^{2} ]_{0}^{8.0}\\) = 3200 (8.0). 2 − 200(8.0) = 25600 − 200 (64) = 25600 − 12800 = 12800 J Apply the work-energy theorem: Kmax = Ki + W. The initial kinetic energy is: Ki = \\(\\frac{1}{2}\\) \\(Mv_{0}^{2}\\) = \\(\\frac{1}{2}\\) (800) \\((4.0)^{2}\\) = 400 (16). = 6400 J Kmax = 6400 + 12800 = 19200 J.",
     "image": "",
     "optionImages": [],
@@ -314,7 +314,7 @@
      "840 W",
      "920 W"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "To maintain constant speed, the motor must supply a force Fmotor that balances all opposing forces. Calculate the mass of the sand present on the fully loaded belt. The time it takes for sand to travel the length of the belt is: t = L/v = 20/4.0 = 5.0 s. The total mass of sand on the belt is: Msand = μ × t = 5.0 × 5.0 = 25 kg. The weight component of the sand acting down the incline is: Fgravity = Msandgsinθ = 25 × 10 × 0.20. = 50 N The force required to continuously accelerate the vertically falling sand to the belt's speed horizontally along the belt is given by the momentum transfer rate: Facc = \\(\\frac{dp}{dt}\\) = v \\(\\frac{dm}{dt}\\) = vμ = 4.0 × 5.0 = 20 N. The internal frictional resistance is f = 150 N. Sum the forces opposing the motor to find the required driving force: Fmotor = Fgravity + Facc + f = 50 + 20 + 150 = 220 N. The total mechanical power supplied by the motor is: P = Fmotorv = 220 × 4.0 = 880 W.",
     "image": "",
     "optionImages": [],
@@ -338,7 +338,7 @@
      "μmgv cosθ−μsinθ",
      "\\(\\frac{μmgvsinθ}{cosθ+μsinθ}\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Vertical force balance gives N + Tsinθ = mg ⇒ N = mg − Tsinθ. Because the horizontal speed is constant, Tcosθ = μN = μ (mg − Tsinθ). Therefore T = μmg. cosθ+μsinθ Power supplied by the person is the scalar product \\(\\vec{T}\\) ⋅ \\(\\vec{v}\\): P = Tvcosθ = \\(\\frac{μmgvcosθ}{cosθ+μsinθ}\\).",
     "image": "",
     "optionImages": [],
@@ -362,7 +362,7 @@
      "\\(\\frac{πF0l}{4}\\)",
      "2F0 l"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Along the circular path, the arc element is ds = ldθ. Since the force is always tangent and along the displacement, dW = F (θ) ds = F0 (1 + sinθ) ldθ. Integrating from θ = 0 to π/2, π/2 W = F0 l \\(∫_{0}\\) (1 + sinθ)dθ π/2 = F0 l[θ − \\(cosθ]_{0}\\). Thus W = F0 l ( \\(\\frac{π}{2}\\) + 1).",
     "image": "",
     "optionImages": [],
@@ -386,7 +386,7 @@
      "23 m",
      "\\(\\frac{1}{√3}\\) m"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The centre-of-mass motion does not affect the spring extension. The reduced mass is μ = \\(\\frac{m1m2}{m1+m2}\\) = \\(\\frac{3}{4}\\) kg. The initial relative speed is 6 m/s. At maximum extension, the relative speed is zero, so the relative kinetic energy has become spring potential energy: Therefore \\(\\frac{1}{2}\\) ( \\(\\frac{3}{4}\\) ) (36) = \\(\\frac{1}{2}\\) (27) \\(x^{2}\\) ⇒ \\(x^{2}\\) = 1. Thus x = 1m.",
     "image": "",
     "optionImages": [],
@@ -410,7 +410,7 @@
      "\\(\\frac{g}{16}\\) upward",
      "\\(\\frac{g}{4}\\) downward"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The Atwood acceleration magnitude is a = \\(\\frac{g}{4}\\). Take downward on the 5m side as positive. Then a5m = +a and a3m = −a. Hence 5m(+a)+3m(−a) 2a a g acm = 8m = 8 = 4 = 16 downward.",
     "image": "",
     "optionImages": [],
@@ -434,7 +434,7 @@
      "\\(\\frac{6}{17}\\) m to the left",
      "\\(\\frac{12}{17}\\) m to the left"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Let X be the displacement of the boat’s centre, positive to the right. Relative to the boat centre, the initial person coordinates are −6 and +6 m, and the final coordinates are +6 and −6 m. The horizontal centre of mass is fixed: (240 + 60 + 40) X + 60 (6 − (−6)) +40 (−6 − 6) = 0. Therefore 340X + 720 − 480 = 0, so X = − \\(\\frac{240}{340}\\) = − \\(\\frac{12}{17}\\) m. The negative sign means leftward.",
     "image": "",
     "optionImages": [],
@@ -458,7 +458,7 @@
      "\\(\\frac{R}{12}\\) away from the hole",
      "\\(\\frac{R}{9}\\) away from the hole"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Let the full-disc mass be M. The removed mass is M/9. The hole centre is at distance 2R/3 from the original centre. Treat the hole as negative mass. If positive x points toward the hole, 0⋅M−(M/9)(2R/3) R xcm = M−M/9 = − 12. Thus the shift has magnitude R/12 and is away from the hole. Substituting the remaining mass 8M/9 confirms the result. Hence option (3) is correct.",
     "image": "",
     "optionImages": [],
@@ -482,7 +482,7 @@
      "(A) is true but (R) is false.",
      "(A) is false but (R) is true."
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Because the invariance of the total linear → momentum (P total = constant) directly dictates the constancy of the centre of mass velocity via the structural relation \\(\\vec{P} total\\) = M \\(\\vec{v} cm\\), (R) is the direct, correct physical explanation of (A).",
     "image": "",
     "optionImages": [],
@@ -601,7 +601,7 @@
      "Li, Be, Mg; Li > Be > Mg",
      "F, Cl, Br; F > Cl > Br"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Only K, Ca, and Ga lie in period 4. Across a period, effective nuclear charge generally increases and atomic radius decreases, so K > Ca > Ga. The other sets either mix periods or give an incorrect order.",
     "image": "",
     "optionImages": [],
@@ -625,7 +625,7 @@
      "Cl > F > Br; electron affinity",
      "Te > Se > S; electronegativity"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Atomic radius increases down group 2, and the half-filled \\(2p^{3}\\) configuration makes the first ionization enthalpy of N exceed that of O. The electron-affinity magnitude follows Cl > F > Br. Electronegativity decreases down group 16, so the correct order is S > Se > Te; therefore option [D] is wrong.",
     "image": "",
     "optionImages": [],
@@ -649,7 +649,7 @@
      "(CsI, LiF)",
      "(CsF, LiI)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "A small cation has high polarizing power and a large anion has high polarizability, so LiI has the greatest covalent character. A large, weakly polarizing cation with a small, hard anion minimizes polarization, making CsF the most ionic. Hence the pair is (LiI, CsF).",
     "image": "",
     "optionImages": [],
@@ -673,7 +673,7 @@
      "\\(NH_{4}^{+}\\): steric number 4, \\(dsp^{2}\\), square planar",
      "SF4: steric number 5, \\(sp^{3} d\\), tetrahedral"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Water has two O − H sigma bonds and two lone pairs, so its steric number is 4, the electron-pair description is \\(sp^{3}\\), and the molecular shape is bent. The other options contain a wrong steric number, hybridization, or molecular geometry.",
     "image": "",
     "optionImages": [],
@@ -697,7 +697,7 @@
      "A→II, B→III, C→I, D→IV",
      "A→IV, B→II, C→III, D→I"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "In IF5, iodine has one lone pair; in XeF2, xenon has three. Boron in BF3 has no lone pair, while chlorine in ClF3 has two. Thus A→II, B→IV, C→I, D→III.",
     "image": "",
     "optionImages": [],
@@ -721,7 +721,7 @@
      "B > Li > C > Be",
      "Li > B > Be > C"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "After one electron is removed, \\(Li^{+}\\) has the stable \\(1s^{2}\\) core, so its second ionization enthalpy is by far the largest. The approximate remaining order is B (2427) > C (2352) > Be (1757) kJ. \\(mol^{−1}\\) Hence Li > B > C > Be.",
     "image": "",
     "optionImages": [],
@@ -745,7 +745,7 @@
      "II and III only",
      "I, II and III"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Homonuclear H2 is non-polar, while linear symmetric CO2 and trigonal-planar symmetric BF3 have complete bond-dipole cancellation. The unsymmetrical tetrahedral arrangement in CH2 Cl2 gives a non-zero resultant. Statement III is false because molecular symmetry can cancel polar bonds.",
     "image": "",
     "optionImages": [],
@@ -769,7 +769,7 @@
      "The electron is removed from \\(σ^{*} 2s\\); bond order remains 3, and the ion is paramagnetic.",
      "The electron is removed from \\(π^{*} 2py\\); bond order decreases to 2.5, and the ion is diamagnetic."
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The highest occupied valence MO in N2 is bonding σ2pz. Removing one electron from a bonding orbital lowers bond order by 1/2, from 3 to 2.5. The singly occupied σ2pz orbital makes \\(N_{2}^{+}\\) paramagnetic.",
     "image": "",
     "optionImages": [],
@@ -793,7 +793,7 @@
      "I > II > III",
      "I > III > II"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Contributors I and II have less charge separation than III, so III is least stable. Between I and II, placing the negative charge on the more electronegative oxygen is more favorable than placing it on terminal nitrogen. Hence the order is I > II > III.",
     "image": "",
     "optionImages": [],
@@ -817,7 +817,7 @@
      "\\(Cl^{−}\\) > \\(S^{2−}\\) > \\(Ca^{2+}\\) > \\(K^{+}\\)",
      "\\(K^{+}\\) > \\(Ca^{2+}\\) > \\(S^{2−}\\) > \\(Cl^{−}\\)"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "All four ions contain 18 electrons. In an isoelectronic series, radius decreases as nuclear charge increases; their nuclear charges are 16, 17, 19, and 20. Thus the order is \\(S^{2−}\\) > \\(Cl^{−}\\) > \\(K^{+}\\) > \\(Ca^{2+}\\).",
     "image": "",
     "optionImages": [],
@@ -841,7 +841,7 @@
      "(ii), (iv) and (v) only",
      "(i), (ii), (iv) and (v) only"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The periodic maxima correspond to alkali metals, while the transition elements lie near minima because of their relatively small atomic volumes. Halogens occur on the ascending part before the next alkali-metal maximum, and analogous elements recur at analogous positions. Statement (iv) is false because alkaline-earth metals do not form the principal peaks.",
     "image": "",
     "optionImages": [],
@@ -865,7 +865,7 @@
      "I and III only",
      "I, II and III"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Statement I is correct (Bond order of the He2 is zero). Statement II correctly distinguishes a primary bond from an intermolecular attraction. Statement III is also true. Therefore all three statements are correct.",
     "image": "",
     "optionImages": [],
@@ -889,7 +889,7 @@
      "Linear; 2σ and 2π; all atoms collinear",
      "Trigonal pyramidal; 3σ and 1π; non-planar"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Carbon has three electron domains: two C − H single bonds and one C = O double-bond domain. It is therefore \\(sp^{2}\\) and trigonal planar. The molecule contains three sigma bonds and one pi bond, and the \\(sp^{2}\\) framework makes all atoms coplanar.",
     "image": "",
     "optionImages": [],
@@ -913,7 +913,7 @@
      "CaO",
      "KCl"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Both MgO and CaO have the larger charge product 4, whereas the monovalent salts have charge product 1. Between the two oxides, \\(Mg^{2+}\\) is smaller than \\(Ca^{2+}\\), so the interionic distance is lower. Therefore MgO has the greatest lattice-energy magnitude.",
     "image": "",
     "optionImages": [],
@@ -937,7 +937,7 @@
      "G represents a liquid non-metal at 298 K.",
      "E most commonly forms a stable \\(E^{2+}\\) ion."
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "The letter G is at period 4, group 17, so it represents bromine, a liquid non-metal at 298 K. J is strontium, not the period-5 ionization maximum; chlorine has a larger electron-affinity magnitude than iodine; and E, potassium, forms +1, not +2.",
     "image": "",
     "optionImages": [],
@@ -961,7 +961,7 @@
      "V (r) is independent of separation, but the force becomes zero only at infinity.",
      "For r < r0, attraction becomes stronger without limit and V (r) keeps decreasing."
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "At large separation the interaction energy is taken as zero. Net attraction lowers the potential energy until the equilibrium separation r0, where dV /dr = 0 and the energy is minimum. Further compression produces steep electron-cloud and nuclear repulsion, so the potential energy rises.",
     "image": "",
     "optionImages": [],
@@ -985,7 +985,7 @@
      "SO2",
      "NH3"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Carbon in CO2 has two electron domains, is sp- hybridized, and forms a linear molecule with two sigma bonds. Gaseous BeCl2 has the same sp, linear, two-sigma-bond description. The other species are bent or pyramidal.",
     "image": "",
     "optionImages": [],
@@ -1009,7 +1009,7 @@
      "20% \\(Mg^{+}\\) + 80% \\(Mg^{2+}\\)",
      "80% \\(Mg^{+}\\) + 20% \\(Mg^{2+}\\)"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The first ionization of the whole mole consumes 738 kJ, leaving 580.4 kJ. This residual energy ionizes 580.4/1451 = 0.40 mol of \\(Mg^{+}\\) to \\(Mg^{2+}\\). Therefore 0.60 mol remains as \\(Mg^{+}\\) and 0.40 mol becomes \\(Mg^{2+}\\).",
     "image": "",
     "optionImages": [],
@@ -1033,7 +1033,7 @@
      "820 kJ \\(mol^{−1}\\), 3p",
      "980 kJ \\(mol^{−1}\\), 3s"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Aluminium is [Ne] \\(3s^{2} 3p^{1}\\), so its first electron is removed from the higher-energy 3p subshell. Its ionization enthalpy should therefore be lower than that of magnesium but above that of sodium, close to 575 kJ \\(mol^{−1}\\). Thus option [A] is consistent with both trend and configuration.",
     "image": "",
     "optionImages": [],
@@ -1057,7 +1057,7 @@
      "sp, \\(sp^{3},\\) \\(sp^{2} d,\\) \\(d^{2} sp^{3}\\)",
      "\\(sp^{2},\\) \\(dsp^{2},\\) \\(sp^{3},\\) \\(sp^{3} d\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The central-atom steric numbers are 3, 4, 5, and 6, respectively. These correspond conventionally to \\(sp^{2}\\), \\(sp^{3}\\), \\(sp^{3} d\\), and \\(sp^{3} d^{2}\\). Therefore option [A] gives the correct sequence.",
     "image": "",
     "optionImages": [],
@@ -1176,7 +1176,7 @@
      "(−∞, 0)",
      "[−1,1]"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Given, 3si\\(n^{3}\\)x + 3 sin2xcosx + 5sinx − 4 = 0. 2 Since, \\(\\frac{3}{2}\\) sin2xcosx = \\(\\frac{3}{2}\\) (2sinxcosx) cosx = 3sinxco\\(s^{2}\\)x, we get, 3si\\(n^{3}\\)x + 3sinxco\\(s^{2}\\)x = 3sinx (si\\(n^{2}\\)x + co\\(s^{2}\\)x) = 3sinx. Therefore, 8sinx − 4 = 0 ⇒ sinx = \\(\\frac{1}{2}\\). The positive solutions in increasing order are π, 5π, 13π, 17π, 25π, 29π,… 6 6 6 6 6 6 For exactly five solutions in [0, \\(\\frac{kπ}{2}\\) ], the endpoint must satisfy 25π ≤ kπ < 29π. 6 2 6 Thus, \\(\\frac{25}{3}\\) ≤ k < \\(\\frac{29}{3}\\). The only natural number in this interval isk = 9. The quadratic becomes, \\(x^{2}\\) + 9x + 2 = 0, whose roots are x = \\(\\frac{−9±√73}{2}\\). Since \\(√73^{−−}\\) < 9, both roots are negative. Hence both roots lie in (−∞, 0).",
     "image": "",
     "optionImages": [],
@@ -1200,7 +1200,7 @@
      "Infinitely many solutions for any real b",
      "No solution for any b ∈ R"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "The right-hand side is max {−√\\(2^{–}\\), −\\(b^{2}\\) + 6b − 10}. Now, \\(−b^{2}\\) + 6b − 10 = −(b − \\(3)^{2}\\) − 1 ≤ −1. Therefore, for every real b, – – 2 −√2 ≤ max{−√2, −(b − 3) − 1} ≤ −1. Also, sinθ − cosθ = \\(√2^{–}sin\\) (θ − \\(\\frac{π}{4}\\) ), whose range is \\([−√2^{–},\\) \\(√2^{–}]\\). Thus the equation has solutions for every real b. Since θ is unrestricted and the left side is periodic, every allowable right-hand-side value produces infinitely many real solutions.",
     "image": "",
     "optionImages": [],
@@ -1224,7 +1224,7 @@
      "2",
      "Infinitely many"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "We have, 0 ≤ \\(sin^{2}\\) (3x) \\(cos^{2}\\) (3x) ≤ \\(\\frac{1}{4}\\). For x > 0, \\(x^{2}\\) + \\(\\frac{1}{x^{2}}\\) ≥ 2 by AM-GM. Therefore the left side is at most 1/4, whereas the right side is at least 2. Equality is impossible.",
     "image": "",
     "optionImages": [],
@@ -1248,7 +1248,7 @@
      "2",
      "4"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Use, \\(sin^{4} t\\) + \\(cos^{4} t\\) = \\((sin^{2} t\\) + \\(cos^{2} t)^{2}\\) − 2si\\(n^{2}\\)tco\\(s^{2}\\)t = 1 − 1 si\\(n^{2}\\)2t. 2 Let y = sin2t. The equation becomes 1 − 1 \\(y^{2}\\) + y = 2. 2 Thus, \\(y^{2}\\) − 2y + 2 = 0 2 (y − 1) + 1 = 0. This has no real value of y. Hence there is no real t.",
     "image": "",
     "optionImages": [],
@@ -1272,7 +1272,7 @@
      "−1",
      "2"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Let, p = \\(sin^{2} θcos^{2} θ.\\) Then, V4 = \\(sin^{4} θ\\) + \\(cos^{4} θ\\) = 1 − 2p, and V6 = \\(sin^{6} θ\\) + \\(cos^{6} θ\\) = (si\\(n^{2}\\)θ + co\\(s^{2}\\)θ\\()^{3}\\) − 3si\\(n^{2}\\)θco\\(s^{2}\\)θ = 1 − 3p. Therefore, 2V6 − 3V4 + 1 = 2 (1 − 3p) − 3 (1 − 2p) + 1 = 0.",
     "image": "",
     "optionImages": [],
@@ -1296,7 +1296,7 @@
      "−2",
      "1/2"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The three solutions of tanϕ = \\(\\frac{1}{2}\\) in [0,3π] are of the form \\(ϕ_{1}\\) = α, \\(ϕ_{2}\\) = α + π, \\(ϕ_{3}\\) = α + 2π, where tanα = 1/2. Put ti = tan \\(\\frac{ϕi}{3}\\). Each tisatisfies tan (3z) = \\(\\frac{1}{2}\\). Using tan3z = \\(\\frac{3t−t^{3}}{1−3t^{2}}\\), 3t−\\(t^{3}\\) 1 \\(1−3t^{2}\\) = 2. Therefore, 2 (3t − \\(t^{3} )\\) = 1 − \\(3t^{2},\\) 2\\(t^{3}\\) − 3\\(t^{2}\\) − 6t + 1 = 0. Its three roots are t1, t2, t3. −6 t1t2 + t2t3 + t3t1 = 2 = −3.",
     "image": "",
     "optionImages": [],
@@ -1320,7 +1320,7 @@
      "S2 correct but S1 incorrect",
      "S2 incorrect but S1 correct"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Statement S1 The word INDIAN contains: vowels: I, I, A, which can be arranged in 3!/2! = 3ways; consonants: N, N, D, which can be arranged in 3!/2! = 3ways. There are two alternating patterns: V CV CV C, CV CV CV. Hence the number is 2 ⋅ 3 ⋅ 3 = 18. So S1 is correct. Statement S2 The word COMPUTER has three vowels O, U, E and five consonants, all distinct. There are four odd positions. Choose three of them for the vowels: 4C3 Arrange the vowels and consonants: 4C3 ⋅ 3! ⋅ 5! = 4 ⋅ 6 ⋅ 120 = 2880. The stated value 2860 is false. Therefore S2 is incorrect.",
     "image": "",
     "optionImages": [],
@@ -1344,7 +1344,7 @@
      "1736",
      "4096"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Team Z can contain either one or two employees. Case 1: ∣Z ∣= 1 Choose the employee in Z: 8C1. The remaining seven employees can be assigned to X or Y in \\(2^{7}\\) ways. Exclude the two assignments in which X or Y is empty: 8C1 (\\(2^{7}\\) − 2) = 8 (126) = 1008. Case 2: ∣Z ∣= 2 8C2 (\\(2^{6}\\) − 2) = 28 (62) = 1736. Thus the total is 1008 + 1736 = 2744.",
     "image": "",
     "optionImages": [],
@@ -1368,7 +1368,7 @@
      "A + B = 3500",
      "B = 3A"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "There are six teachers and nine students. Number A At least five teachers means either five or six teachers: A \\(=^{6}\\) \\(C5^{9}\\)C5 \\(+^{6}\\) \\(C6^{9}\\)C4. Thus, A = 6 (126) + 1 (126) = 882. Number B The total number of ten-member committees is 15C10 \\(=^{15}\\) C5 = 3003. A committee with fewer than five students must contain exactly four students and all six teachers. Its count is \\(C^{9}4^{6} C6\\) = 126. Therefore, B = 3003 − 126 = 2877. Hence B − A = 2877 − 882 = 1995.",
     "image": "",
     "optionImages": [],
@@ -1392,7 +1392,7 @@
      "214",
      "208"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The total number of triangles formed by twelve points is 12C3 = 220. We exclude triples i < j < k satisfying i + j + k = 12. They are (1,2, 9), (1,3, 8), (1,4, 7), (1,5, 6), (2,3, 7), (2,4, 6), (3,4, 5). There are seven excluded triangles. Therefore, 220 − 7 = 213.",
     "image": "",
     "optionImages": [],
@@ -1416,7 +1416,7 @@
      "64",
      "28"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "For the first 24 positive integers, we need to choose two distinct numbers whose cubes have a sum divisible by 3. For any positive integer n, \\(n^{3}\\) − n = n (n − 1) (n + 1). The three factors n − 1, n, n + 1 are three consecutive integers, so one of them is divisible by 3. Therefore, \\(n^{3}\\) − n is divisible by 3. Hence, \\(n^{3}\\) and n leave the same remainder when divided by 3. Now divide the first 24 positive integers into three groups: A = {3,6, 9,12,15,18,21,24}, B = {1,4, 7,10,13,16,19,22}, C = {2,5, 8,11,14,17,20,23}. Each group contains 8 numbers. The cubes of numbers in A are divisible by 3. The cubes of numbers in B leave remainder 1. The cubes of numbers in C leave remainder 2. The sum of two cubes is divisible by 3 in only the following cases. Case 1: Both numbers are selected from A 8C2 = \\(\\frac{8⋅7}{2}\\) = 28. Case 2: One number is selected from Band one from C Their cube remainders add to 1 + 2 = 3, which is divisible by 3. The number of selections is 8 ⋅ 8 = 64. Therefore, the required number of ways is 28 + 64 = 92.",
     "image": "",
     "optionImages": [],
@@ -1440,7 +1440,7 @@
      "11v² − 10v + 145 = 0",
      "v² − 10v − 145 = 0"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "∘ √5−1 sin18 =. 4 Indeed, if s = \\(sin18^{∘}\\), then sin5\\(4^{∘}\\) = sin (3 ⋅ 1\\(8^{∘}\\)) and also \\(sin54^{∘}\\) = \\(cos36^{∘}\\) = 1 − \\(2s^{2}.\\) Hence 3s − \\(4s^{3}\\) = 1 − \\(2s^{2},\\) (s − 1) (4\\(s^{2}\\) + 2s − 1) = 0. Since 0 < s < 1, s = \\(\\frac{√5−1}{4}\\). Now \\(cosec18^{∘}\\) = \\(√5^{–}\\) + 1 and \\(2cos72^{∘}\\) = \\(2sin18^{∘}\\) = \\(\\frac{√5−1}{2}\\). Thus u = \\(√5^{–}\\) + 1 + \\(\\frac{√5−1}{2}\\) = \\(\\frac{1+3√5}{2}\\). Also, \\(\\frac{1}{u}\\) = \\(\\frac{2}{1+3√5}\\) = \\(\\frac{3√5−1}{22}\\). Therefore, v = u + \\(\\frac{1}{u}\\) = \\(\\frac{5+18√5}{11}\\). Hence 11v − 5 = \\(18√5^{–}.\\) 2 (11v − 5) = 1620. Thus \\(121v^{2}\\) − 110v + 25 = 1620, 11\\(v^{2}\\) − 10v − 145 = 0.",
     "image": "",
     "optionImages": [],
@@ -1464,7 +1464,7 @@
      "\\(30^{∘}\\)",
      "\\(45^{∘}\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Let a = cos2θ, b = cos6θ. a + b = cos2θ + cos6θ = 2cos4θcos2θ. Therefore, \\(8cos^{3} 4θcos^{3} 2θ\\) = \\((a + b)^{3}\\) \\(a^{3}\\) + \\(b^{3}\\) = (a + b\\()^{3}\\). Since (a + \\(b)^{3}\\) − \\(a^{3}\\) − \\(b^{3}\\) = 3ab (a + b), ⇒ ab (a + b) = 0. Thus at least one of the following holds: cos2θ = 0, cos6θ = 0, cos4θ = 0. The smallest positive values generated by these equations are respectively 4\\(5^{∘}\\), 1\\(5^{∘}\\), 22. \\(5^{∘}\\). Therefore the smallest is \\(15^{∘}\\)",
     "image": "",
     "optionImages": [],
@@ -1488,7 +1488,7 @@
      "22",
      "24"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The available multiplicities in MISSISSIPPI are M: 1, I: 4, S: 4, P: 2. Let the selected multiplicities be m, i, s, p. Then m + i + s + p = 6, with 0 ≤ m ≤ 1,0 ≤ i, s ≤ 4,0 ≤ p ≤ 2. Total selections without the “three kinds” condition For m = 0: p = 0: i + s = 6, giving 3 possibilities; p = 1: i + s = 5, giving 4; p = 2: i + s = 4, giving 5. Total: 12. For m = 1: p = 0: i + s = 5, giving 4; p = 1: i + s = 4, giving 5; p = 2: i + s = 3, giving 4. Total: 13. Thus there are 12 + 13 = 25 unrestricted selections. Selections containing only two kinds The possible pairs are: I, S: (2,4), (3,3), (4,2), giving 3; I, P: only (4,2), giving 1; S, P: only (4,2), giving 1. No pair involving M can supply six letters because M is available only once. Therefore the required number is 25 − (3 + 1 + 1) = 20.",
     "image": "",
     "optionImages": [],
@@ -1512,7 +1512,7 @@
      "2tan ( \\(\\frac{π}{257}\\) )",
      "cot( \\(\\frac{π}{257}\\) )"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Use tan2a − tana = \\(\\frac{sin(2a−a)}{cos2acosa}\\) = tanasec2a. Taking a = \\(2^{k−1} x\\), tan (\\(2^{k−1}\\)x) sec (\\(2^{k}\\)x) = tan (\\(2^{k}\\)x) − tan (\\(2^{k−1}\\)x). S = tan (\\(2^{8}\\)x) − tanx. Since x = π/257, \\(2^{8}\\)x = 256π = π − π = π − x. 257 257 Thus S = tan (π − x) − tanx = −tanx − tanx = −2tanx.",
     "image": "",
     "optionImages": [],
@@ -1536,7 +1536,7 @@
      "12",
      "16"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Let y = \\(sin^{2} 2x.\\) Since \\(sin^{2} xcos^{2} x\\) = \\(\\frac{y}{4}\\), we have \\(sin^{8} x\\) + \\(cos^{8} x\\) = 1 − y + \\(\\frac{y^{2}}{8}\\). Therefore, 1 − y + \\(\\frac{y^{2}}{8}\\) = \\(\\frac{17}{32}\\). 4\\(y^{2}\\) − 32y + 15 = 0. Thus y = \\(\\frac{32±28}{8}\\), so y = \\(\\frac{1}{2}\\) or y = \\(\\frac{15}{2}\\). Because 0 ≤ y ≤ 1, only \\(sin^{2} 2x\\) = 12 is valid. Hence 2x = \\(\\frac{π}{4}\\) + \\(\\frac{nπ}{2}\\), x = π + nπ. 8 4 In 0 ≤ x ≤ 3π, n = 0,1, …, 11, giving twelve solutions.",
     "image": "",
     "optionImages": [],
@@ -1560,7 +1560,7 @@
      "8 solutions",
      "12 solutions"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "The equation is \\(log_{|sinx|}\\) (cos2x − sinx) = 2. Let s = sinx. Subject to the logarithm domain conditions, cos2x − sinx = \\(|sinx|^{2}\\) = \\(s^{2}\\). Since cos2x = 1 − \\(2s^{2},\\) we obtain 1 − \\(2s^{2}\\) − s = \\(s^{2},\\) so \\(3s^{2}\\) + s − 1 = 0. Therefore, s = \\(\\frac{−1±√13}{6}\\). Both values are nonzero and strictly between −1 and 1. Consequently, 0 < |sinx| < 1, so the logarithm base is valid, and the argument equals \\(s^{2}\\) > 0. Each equation sinx = c, where −1 < c < 1 and c ≠ 0, has four solutions over the two full periods contained in [0,4π]. There are two allowable values of c, so the total is 4 + 4 = 8.",
     "image": "",
     "optionImages": [],
@@ -1584,7 +1584,7 @@
      "202",
      "204"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "Using \\(cos36^{∘}\\) = \\(\\frac{1+√5}{4}\\), \\(sin18^{∘}\\) = \\(\\frac{√5−1}{4}\\), the numerator is ∘ ∘ 3+11√5 7cos36 + 4sin18 =. 4 The denominator is ∘ ∘ 11−3√5 4cos36 − 7sin18 =. 4 Therefore, R = 3+11√5. 11−3√5 (3+11√5)(11+3√5) 198+130√5 R = =. 121−45 76 Thus R = \\(\\frac{99+65√5}{38}\\). Hence a = 99, b = 65, c = 38, and a + b + c = 99 + 65 + 38 = 202.",
     "image": "",
     "optionImages": [],
@@ -1608,7 +1608,7 @@
      "8π/3",
      "3π"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Use the identity 4cosθcos ( π − θ) cos ( π + θ) = cos3θ. 3 3 The constraint becomes \\(∣^{∣}\\) \\(\\frac{cos3θ}{4}\\) \\(∣^{∣}\\) ≤ \\(\\frac{1}{8}\\), So |cos3θ| ≤ \\(\\frac{1}{2}\\). Put u = 3θ, c = cosu. For a fixed c, the largest possible value of 2cosu + sinu is obtained by taking sinu = \\(√1^{−} −^{−−} c^{−−_{2}}.\\) Thus consider g (c) = 2c + \\(√1^{−} −^{−−} c^{−−_{2}},\\) − 1 ≤ c ≤ 1. 2 2 Now \\(g^{'}\\) (c) = 2 − \\(\\frac{c}{√1−c^{2}}\\) > 0 throughout this interval. Hence the maximum occurs at c = 12, sinu = \\(\\frac{√3}{2}\\). Since u = 3θ, θ = π + 2nπ. 9 3 In [0,2π], the values are \\(\\frac{π}{9}\\), \\(\\frac{7π}{9}\\), \\(\\frac{13π}{9}\\). Their sum is \\(\\frac{21π}{9}\\) = \\(\\frac{7π}{3}\\).",
     "image": "",
     "optionImages": [],
@@ -1632,7 +1632,7 @@
      "9650",
      "9576"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "An eight-digit number cannot begin with zero. Therefore the two zero positions must be selected from the final seven positions: 7C2 = 21. The other six digits are from {1,2, 3,4}, and their sum must be 17. Let these digits be x1, …, x6, and put \\(y_{i}\\) = xi − 1. Then 0 ≤ \\(y_{i}\\) ≤ 3 and \\(y_{1}\\) + ⋯ + \\(y_{6}\\) = 17 − 6 = 11. Without the upper bounds, the number of solutions is 11 + 6 − 1C6−1 \\(=^{16}\\) C5. Using inclusion-exclusion, N \\(=^{16}\\) C5 − \\(6^{12}\\)C5 \\(+^{6}\\) \\(C2^{8}\\)C5. Thus N = 4368 − 4752 + 840 = 456. Finally, 21 ⋅ 456 = 9576.",
     "image": "",
     "optionImages": [],

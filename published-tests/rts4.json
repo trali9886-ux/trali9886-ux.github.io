@@ -26,7 +26,7 @@
      "10",
      "18"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Velocity of block A before collision Applying conservation of mechanical energy for block A from its release point to the lowest point of its path: mgL = \\(\\frac{1}{2}\\) \\(mu^{2}\\) ⇒ u = \\(\\frac{−−−}{√2gL}\\) Elastic collision between A and B Block A (mass m) collides elastically with the stationary block B(mass 3m). Using the standard 1D elastic collision formula, the velocity v0 of block B immediately after the collision is: −−− v0 = \\(\\frac{2m}{m+3m}\\) u = \\(\\frac{1}{2}\\) u = √ \\(\\frac{gL}{2}\\) Momentum and energy conservation for B and the track Block B enters the track (mass Mt = 3m). Let V be the horizontal velocity of the track and vrel be the velocity of block B relative to the track at the highest point of the loop. At this point, the velocity of B in the ground frame is (V – vrel) horizontally. Since there are no external horizontal forces, the horizontal momentum of the system (B + track) is conserved: mBv0 = MtV + mB (V − vrel) 3mv0 = 3mV + 3m (V − vrel) v0+vrel ⇒ v0 = 2V − vrel ⇒ V = 2 Applying conservation of mechanical energy for the system from the bottom to the top of the loop: \\(\\frac{1}{2}\\) mB\\(v_{0}^{2}\\) = \\(\\frac{1}{2}\\) MtV 2 + \\(\\frac{1}{2}\\) mB 2 (V − vrel) + mBg (2R) Substituting mB = 3m, Mt = 3m, and V = \\(\\frac{v0+vrel}{2}\\): 2 \\(\\frac{3}{2}\\) m\\(v_{0}^{2}\\) = \\(\\frac{3}{2}\\) m( \\(\\frac{v0+vrel}{2}\\) ) 2 3 v0−vrel + m( ) + 6mgR 2 2 \\(\\frac{3}{2}\\) m\\(v_{0}^{2}\\) = \\(\\frac{3}{2}\\) m ( \\(\\frac{2v_{0}^{2} +2v_{rel}^{2}}{4}\\) ) +6mgR = \\(\\frac{3}{4}\\) m\\(v_{0}^{2}\\) + \\(\\frac{3}{4}\\) m\\(v_{rel}^{2}\\) + 6mgR \\(\\frac{3}{4}\\) m\\(v_{0}^{2}\\) = \\(\\frac{3}{4}\\) m\\(v_{rel}^{2}\\) + 6mgR ⇒ \\(v_{0}^{2}\\) = \\(v_{rel}^{2}\\) + 8gR Critical condition for completing the loop Solutions At the highest point, the horizontal acceleration of the track is momentarily zero (it is an inertial frame at this instant). For block B to just maintain contact with the track, the normal force becomes zero. The necessary centripetal force is provided entirely by gravity: mBg = mB \\(\\frac{v_{rel}^{2}}{R}\\) ⇒ \\(v_{rel}^{2}\\) = gR Final calculation Substitute \\(v_{rel}^{2}\\) = gR into the energy equation: \\(v_{0}^{2}\\) = gR + 8gR = 9gR Since v20 = \\(\\frac{gL}{2}\\), we have: gL = 9gR ⇒ L = 18R 2 The minimum ratio L/R is 18.",
     "image": "",
     "optionImages": [],
@@ -50,7 +50,7 @@
      "\\(\\frac{12√6}{5}\\) R",
      "\\(\\frac{3√6}{5}\\) R"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Set up the coordinate system and identify the forces. The car is on a track banked at θ = \\(30^{∘}\\). The forces acting on the car are gravity mg downwards, normal force N perpendicular to the track, transverse static friction fy along the incline (perpendicular to the velocity), and longitudinal static friction fx tangential to the circular path. Express the accelerations. The car has a constant tangential acceleration a0 = g and a radial 2√2 (centripetal) acceleration ac = \\(\\frac{v^{2}}{R}\\) directed horizontally towards the center of the circular path. Write the equations of motion. Tangential direction: fx = ma0 Radial direction (horizontal): N sin θ + fy cos θ = mac Vertical direction: N cos θ − fy sin θ = mg Solve for the normal force N and transverse friction fy. N = m (ac sin θ + g cos θ) = m (ac \\(\\frac{1}{2}\\) + g \\(\\frac{√3}{2}\\) ) = \\(\\frac{m}{2}\\) (ac + g√\\(3^{–}\\)) fy = m (ac cos θ − g sin θ) = m (ac \\(\\frac{√3}{2}\\) − g \\(\\frac{1}{2}\\) ) = \\(\\frac{m}{2}\\) (ac√\\(3^{–}\\) − g) Apply the slipping condition. The total static −−−−−− friction is f = \\(√fx^{2}\\) + \\(fy^{2}\\). The car slips when f 2 = \\(μ^{2} N\\) 2. Substitute fx = m g and μ = 1: 2√2 √2 \\(m^{2}\\) \\(\\frac{g^{2}}{8}\\) + \\(\\frac{m^{2}}{4}\\) (ac√\\(3^{–}\\) − \\(g)^{2}\\) = \\(\\frac{1}{2}\\) \\(\\frac{m^{2}}{4}\\) (ac + g√\\(3^{–}\\)\\()^{2}\\) Simplify the equation to find ac. Multiply the entire equation by \\(\\frac{8}{m^{2}}\\): \\(g^{2}\\) + 2 (3\\(ac^{2}\\) − 2√\\(3^{–}\\)acg + \\(g^{2}\\)) = \\(ac^{2}\\) + 2√\\(3^{–}\\)acg + 3\\(g^{2}\\) \\(g^{2}\\) + 6\\(ac^{2}\\) − 4√\\(3^{–}\\)acg + 2\\(g^{2}\\) = \\(ac^{2}\\) + 2√\\(3^{–}\\)acg + \\(3g^{2}\\) 6\\(ac^{2}\\) − 4√\\(3^{–}\\)acg + 3\\(g^{2}\\) = \\(ac^{2}\\) + 2√\\(3^{–}\\)acg + 3\\(g^{2}\\) 5\\(ac^{2}\\) − 6√\\(3^{–}\\)acg = 0 Since the car starts from rest, ac increases from 0. It slips when ac = \\(\\frac{6√3}{5}\\) g. Relating ac to the distance s. Using kinematics for constant tangential acceleration, \\(v^{2}\\) = 2a0s. Substitute into ac = \\(\\frac{v^{2}}{R}\\): 2a0s acR ac = R ⇒ s = 2a0 6√3 6√3 5 gR 5 R 6√6 s = = = R g 1 5 2( ) 2√2 √2",
     "image": "",
     "optionImages": [],
@@ -74,7 +74,7 @@
      "18",
      "\\(−24√3^{–}\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The displacement vector is \\(\\vec{s}\\) = (3 − 0) \\(\\hat{i}\\) + (0 − 4) \\(\\hat{j}\\) = \\(3\\hat{i}\\) − \\(4\\hat{j}\\). The force vector is \\(\\vec{F}\\) = \\(6\\hat{i}\\) + \\(6√3^{–}\\hat{j}\\). The work done is → → – W = F ⋅ s = (6) (3) + (6√3) (−4) = 18 − \\(24√3^{–}\\) = 6 (3 − \\(4√3^{–})\\) J.",
     "image": "",
     "optionImages": [],
@@ -98,7 +98,7 @@
      "\\(\\frac{5}{9}\\) \\(\\frac{mv_{0}^{2}}{L^{2}}\\)",
      "\\(\\frac{8}{9}\\) \\(\\frac{mv_{0}^{2}}{L^{2}}\\)"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "The collision between Aand Bis completely inelastic. The spring force is non-impulsive, so particle Cremains at rest during the infinitesimally short collision time. By conservation of linear momentum, the combined mass AB(mass mAB = 2m) acquires a velocity v1 = \\(\\frac{mv0}{m+m}\\) = \\(\\frac{v0}{2}\\) in a direction perpendicular to the spring. The velocity of the center of mass (COM) of the AB − Csystem is Vcm = \\(\\frac{mABv1+mC(0)}{mAB+mC}\\) = \\(\\frac{2m(v0/2)}{4m}\\) = \\(\\frac{v0}{4}\\), directed parallel to the initial velocity of A. We analyze the subsequent motion in the COM frame. The initial velocities in this frame are uAB = \\(\\frac{v0}{2}\\) − \\(\\frac{v0}{4}\\) = \\(\\frac{v0}{4}\\) and uC = 0 − \\(\\frac{v0}{4}\\) = − \\(\\frac{v0}{4}\\). Both velocities are perpendicular to the spring. The reduced mass of the system is μ = \\(\\frac{(2m)(2m)}{2m+2m}\\) = m. The initial kinetic energy in the COM frame is Kcm = \\(\\frac{1}{2}\\) \\(μv_{rel}^{2}\\) = \\(\\frac{1}{2}\\) m( \\(\\frac{v0}{2}\\) \\()^{2}\\) = \\(\\frac{mv_{0}^{2}}{8}\\). The initial angular momentum of the system in the COM frame is Lcm = μvrelL = m ( \\(\\frac{v0}{2}\\) ) L = \\(\\frac{mv0L}{2}\\). Since no external torques act on the system about its COM, Lcmis conserved. At the maximum extension xm = L/2, the radial velocity of the masses in the COM frame is zero. The distance between ABand Cis r = L + \\(\\frac{L}{2}\\) = \\(\\frac{3L}{2}\\). The kinetic energy is purely rotational: Krot = \\(\\frac{Lcm^{2}}{2μr^{2}}\\) = \\(\\frac{(mv0L/2)^{2}}{2m(3L/2)^{2}}\\) = \\(\\frac{m^{2} v_{0}^{2} L^{2} /4}{9mL^{2} /2}\\) = \\(\\frac{mv_{0}^{2}}{18}\\). By conservation of mechanical energy in the COM frame, Kcm = Krot + Uspring. Substituting the values: \\(\\frac{mv_{0}^{2}}{8}\\) = \\(\\frac{mv_{0}^{2}}{18}\\) + \\(\\frac{1}{2}\\) k( \\(\\frac{L}{2}\\) \\()^{2}\\). This gives \\(\\frac{5mv_{0}^{2}}{72}\\) = \\(\\frac{kL^{2}}{8}\\), which simplifies to k = \\(\\frac{5mv_{0}^{2}}{2}\\). 9L",
     "image": "",
     "optionImages": [],
@@ -122,7 +122,7 @@
      "The minimum value of v0 for the particle to leave the sphere immediately is \\(√gR^{−−−}.\\)",
      "If the particle leaves the surface after falling a distance R/3, then its initial velocity was just greater than zero."
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "By conservation of energy, \\(v^{2}\\) = \\(v_{0}^{2}\\) + 2gR (1 − cos θ). The particle leaves the surface when the normal force is zero, meaning mgcos θ = \\(\\frac{mv^{2}}{R}\\). This yields 3gRcos θ = v20 + 2gR. If v0 = 0, cos θ = \\(\\frac{2}{3}\\). The height of the particle from the ground (the horizontal plane) at this moment is h = Rcos θ = \\(\\frac{2R}{3}\\), making statement B incorrect as it states a height of R/3.",
     "image": "",
     "optionImages": [],
@@ -137,7 +137,7 @@
     "id": 6,
     "sourceQuestionNo": 6,
     "subject": "Physics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "A particle of mass m is constrained to move along the positive x-axis under the influence of a conservative force field. The potential energy of the particle is given by U (x) = \\(\\frac{a}{x^{2}}\\) − \\(\\frac{b}{x}\\), where a and b are positive constants. Which of the following statements is/are correct?",
     "options": [
@@ -146,7 +146,7 @@
      "The particle has a stable equilibrium position at x = \\(\\frac{2a}{b}\\), where its potential energy is − \\(\\frac{b^{2}}{4a}\\).",
      "If the particle is released from rest at x = a, b its maximum kinetic energy during the subsequent motion will be \\(\\frac{b^{2}}{4a}\\)."
     ],
-    "answer": "A, C, D",
+    "answer": "1,3,4",
     "solution": "The force on the particle is F = − \\(\\frac{dU}{dx}\\) = \\(\\frac{2a}{x^{3}}\\) − \\(\\frac{b}{x^{2}}\\). Equilibrium occurs where the net force is zero, which yields x = \\(\\frac{2a}{b}\\). To check stability, we evaluate the second derivative of the potential energy: U ′′ (x) = \\(\\frac{6a}{x^{4}}\\) − \\(\\frac{2b}{x^{3}}\\). At x = \\(\\frac{2a}{b}\\), U ′′ ( \\(\\frac{2a}{b}\\) ) = \\(\\frac{6a}{(16a^{4} /b^{4} )}\\) − \\(\\frac{2b}{(8a^{3} /b^{3} )}\\) = \\(\\frac{3b^{4}}{8a^{3}}\\) − \\(\\frac{2b^{4}}{8a^{3}}\\) = \\(\\frac{b^{4}}{8a^{3}}\\) > 0, confirming it is a stable equilibrium. The potential energy at this point is Umin = \\(\\frac{a}{(2a/b)^{2}}\\) − \\(\\frac{b}{(2a/b)}\\) = − \\(\\frac{b^{2}}{4a}\\). Option C is correct. If the particle is released from rest at x = a, its b initial kinetic energy is zero, so its total mechanical energy is E = U ( \\(\\frac{a}{b}\\) ) = \\(\\frac{a}{(a/b)^{2}}\\) − \\(\\frac{b}{(a/b)}\\) = \\(\\frac{b^{2}}{a}\\) − \\(\\frac{b^{2}}{a}\\) = 0. By conservation of mechanical energy, K (x) = E − U (x) = −U (x). The maximum kinetic energy occurs where U (x) is minimum, so Kmax = −Umin = − (− \\(\\frac{b^{2}}{4a}\\) ) = \\(\\frac{b^{2}}{4a}\\). Option D is correct. If released from rest at x = 3a, the total energy 2b is E = U ( \\(\\frac{3a}{2b}\\) ) = \\(\\frac{a}{(9a^{2} /4b^{2} )}\\) − \\(\\frac{b}{(3a/2b)}\\) = \\(\\frac{4b^{2}}{9a}\\) − \\(\\frac{2b^{2}}{3a}\\) = − \\(\\frac{2b^{2}}{9a}\\). Since E < 0, the motion is bounded and oscillatory. The turning points of the motion are found by setting U (x) = E: \\(\\frac{a}{x^{2}}\\) − \\(\\frac{b}{x}\\) = − \\(\\frac{2b^{2}}{9a}\\). Multiplying the entire equation by \\(9ax^{2}\\)gives \\(9a^{2}\\) − 9abx = \\(−2b^{2} x^{2}\\), which rearranges to the quadratic equation \\(2b^{2} x^{2}\\) − 9abx + \\(9a^{2}\\) = 0. Factoring this yields (2bx − 3a) (bx − 3a) = 0. The roots are x = \\(\\frac{3a}{2b}\\) (the release point) and x = \\(\\frac{3a}{b}\\) (the maximum distance from the origin). Option A is correct. For the particle to escape to infinity, its total mechanical energy must be E ≥ 0. If projected from the equilibrium position, E = K + Umin = K − \\(\\frac{b^{2}}{4a}\\) ≥ 0. The minimum kinetic energy required to escape is therefore K = \\(\\frac{b^{2}}{4a}\\). Option B claims it is \\(\\frac{b^{2}}{2a}\\), so it is incorrect.",
     "image": "",
     "optionImages": [],
@@ -161,7 +161,7 @@
     "id": 7,
     "sourceQuestionNo": 7,
     "subject": "Physics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "A small particle of mass m is attached to one end of a light inextensible string of length L. The other end of the string is fixed at a point O. Initially, the particle moves in a horizontal circle as a conical pendulum, with the string making a constant angle θ0 = 60° with the downward → vertical. An instantaneous impulse J is applied to the particle. Immediately after the impulse, the particle moves in a fixed vertical plane, describing a vertical circle centered at O. It just manages to reach the highest point of this circle with zero tension in the string. Which of the following statements is/are correct? (Assume g is the acceleration due to gravity and neglect air resistance.)<br><br><svg viewBox=\"0 0 350 296\" role=\"img\" aria-label=\"Conical pendulum: particle m on a string of length L from O, string making 60 degrees with the downward vertical\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4,168 l-4,-8 M12,168 l-4,-8 M20,168 l-4,-8 M28,168 l-4,-8 M36,168 l-4,-8 M44,168 l-4,-8 M52,168 l-4,-8 M60,168 l-4,-8 M68,168 l-4,-8 M76,168 l-4,-8\" stroke=\"#657568\" stroke-width=\"1\" fill=\"none\"/>\n  <line x1=\"0\" y1=\"168\" x2=\"80\" y2=\"168\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <circle cx=\"38\" cy=\"168\" r=\"2.6\" fill=\"#206d5b\"/>\n  <text x=\"30\" y=\"163\" fill=\"#6c7d70\">O</text>\n  <line x1=\"38\" y1=\"168\" x2=\"212\" y2=\"272\" stroke=\"#266e5d\" stroke-width=\"1.8\" fill=\"none\"/>\n  <text x=\"112\" y=\"188\" fill=\"#6c7d70\">L</text>\n  <line x1=\"38\" y1=\"172\" x2=\"38\" y2=\"290\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\" fill=\"none\"/>\n  <ellipse cx=\"38\" cy=\"272\" rx=\"174\" ry=\"22\" fill=\"none\" stroke=\"#91a99b\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/>\n  <path d=\"M38,218 A50,50 0 0 0 74,198\" fill=\"none\" stroke=\"#88968c\" stroke-width=\"1.2\"/>\n  <text x=\"50\" y=\"245\" fill=\"#6c7d70\">60&#176;</text>\n  <circle cx=\"212\" cy=\"272\" r=\"5\" fill=\"#206d5b\"/>\n  <text x=\"225\" y=\"276\" fill=\"#6c7d70\">m</text>\n</svg>",
     "options": [
@@ -170,7 +170,7 @@
      "The \\(\\frac{magnitude}{−−−−}\\) of the applied impulse is m√ \\(\\frac{11}{2}\\) gL.",
      "The angle between the applied impulse vector \\(\\vec{J}\\) and the velocity vector of the particle just before the impulse is acute."
     ],
-    "answer": "A, B, C",
+    "answer": "1,2,3",
     "solution": "Let the length of the string be L. The radius of the horizontal circular path is r = Lsin \\(60^{∘}\\) = \\(\\frac{√3}{2}\\) L. The tension T0 balances the weight in the vertical direction: T0cos 6\\(0^{∘}\\) = mg ⇒ T0 = 2mg The horizontal component of tension provides the necessary centripetal force: ∘ \\(mv_{0}^{2}\\) T0sin 60 = r Substituting T0 and r: 2mg ( \\(\\frac{√3}{2}\\) ) = \\(\\frac{mv_{0}^{2}}{√3}\\) L 2 √\\(3^{–}\\)mg = \\(\\frac{2mv_{0}^{2}}{√3L}\\) ⇒ \\(v_{0}^{2}\\) = \\(\\frac{3}{2}\\) gL The initial kinetic energy is Ki = \\(\\frac{1}{2}\\) \\(mv_{0}^{2}\\) = \\(\\frac{3}{4}\\) mgL. Analyze the final state (motion in a vertical circle). To just complete the vertical circle without the string slackening, the tension at the highest point must be zero: Ttop = \\(\\frac{mv_{top}^{2}}{L}\\) − mg = 0 ⇒ \\(v_{top}^{2}\\) = gL Let the speed of the particle immediately after the impulse be u. The particle is at an angle of 60° with the downward vertical. Using conservation of mechanical energy between the position immediately after the impulse and the highest point (taking the lowest point of the circle as reference zero potential energy, so initial height is L − Lcos \\(60^{∘}\\) = \\(\\frac{L}{2}\\) and top height is 2L): \\(\\frac{1}{2}\\) m\\(u^{2}\\) + mg ( \\(\\frac{L}{2}\\) ) = \\(\\frac{1}{2}\\) m\\(v_{top}^{2}\\) + mg (2L) 1 m\\(u^{2}\\) = 1 m (gL) + 2mgL − 0.5mgL 2 2 = 2mgL ⇒ \\(u^{2}\\) = 4gL Evaluate the tension immediately after the impulse. The equation of motion in the radial direction at θ = 60° is: ∘ \\(mu^{2}\\) T − mgcos 60 = L 1 m(4gL) 9 T = mg + = 4.5mg = mg 2 L 2 Thus, Option B is correct. Evaluate the work done by the impulse. By the Work-Energy Theorem, the work done by the impulse equals the change in kinetic energy: W = Kf − Ki = \\(\\frac{1}{2}\\) m\\(u^{2}\\) − \\(\\frac{1}{2}\\) m\\(v_{0}^{2}\\) = 2mgL − 3 mgL = 5 mgL 4 4 Thus, Option A is correct. with Evaluate the magnitude and direction of the impulse. Let the initial position of the particle be in the xz -plane. Its position vector relative to O is \\(\\vec{r}\\) = Lsin \\(60^{∘} \\hat{i}\\) − Lcos \\(60^{∘} \\hat{k}\\). The initial velocity is horizontal and perpendicular to \\(\\vec{r}\\), so \\(\\vec{v} 0\\) = v0 \\(\\hat{j}\\) = \\(−_{√}−−_{1.5gL}−−_{\\hat{j}}\\). The velocity \\(\\vec{u}\\)immediately after the impulse must be in the xz-plane (to move in a vertical circle) and perpendicular to \\(\\vec{r}\\). Thus, \\(\\vec{u}\\) = \\(ux \\hat{i}\\) + \\(uz\\hat{k}\\) with \\(\\vec{u}\\) ⋅ \\(\\vec{r}\\) = 0, which gives uz = \\(√3^{–}ux\\). Since \\(u^{2}\\) = 4gL, we find ux = \\(\\frac{−−}{±√gL}\\) and uz = \\(\\frac{−−−}{±√3gL}\\). The impulse is \\(\\vec{J}\\) = \\(m \\vec{u}\\) − \\(m \\vec{v} 0\\) = m (±\\(√gL^{−−} \\hat{i}\\) − \\(−_{√}−_{1.5gL}−−−_{\\hat{j}}\\) ± \\(ˆ_{√3gLk}^{−−−}\\)). The magnitude of the impulse is: J \\(−−−−−−−_{−−}−−−_{2}−−−−−−_{−−}−−_{−−−}−−−_{2}−−−−−−_{−}−−−_{−−}−_{2}\\) = m√(±√gL ) + (−√1.5gL) + (±√3gL) −−−−−−−−−−−−−− −−−−− = m√gL + 1.5gL + 3gL = m√5.5gL −−−− = m√ 11 gL 2 Thus, Option C is correct. Evaluate the angle between the impulse and the initial velocity. The dot product is \\(\\vec{J}\\) ⋅ \\(\\vec{v} 0\\) = \\((m \\vec{u}\\) − \\(m \\vec{v} 0)\\) ⋅ \\(\\vec{v} 0\\). = m (\\(\\vec{u}\\) ⋅ \\(\\vec{v} 0\\)) − m\\(v_{0}^{2}\\) Since \\(\\vec{u}\\) is in the xz-plane and \\(\\vec{v} 0\\) is along the y-axis, \\(\\vec{u}\\) ⋅ \\(\\vec{v} 0\\) = 0. Thus, \\(\\vec{J}\\) ⋅ \\(\\vec{v} 0\\) = \\(−mv_{0}^{2}\\) < 0. Because the dot product is negative, the angle ϕ between \\(\\vec{J}\\) and \\(\\vec{v} 0\\) must be obtuse (greater than 90°). Thus, Option D is incorrect.",
     "image": "",
     "optionImages": [],
@@ -185,7 +185,7 @@
     "id": 8,
     "sourceQuestionNo": 8,
     "subject": "Physics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "A small block of mass m is attached to one end of a light inextensible string of length L. The other end of the string is fixed at a pivot O. The block is initially at rest at its lowest position. A constant horizontal force of magnitude F = \\(\\frac{4}{3}\\) mg directed to the right is applied to the block, and it begins to move. The force F continues to act on the block in the same horizontal direction throughout its motion. The acceleration due to gravity is g. Neglect air resistance. Which of the following statements is/are correct?<br><br><svg viewBox=\"0 0 280 268\" role=\"img\" aria-label=\"Block m hanging by a string of length L from a ceiling, with a horizontal force F applied to the right and gravity g downward\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <marker id=\"arrow-rts4q8\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6.5\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n    <marker id=\"arrowg-rts4q8\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6.5\" refY=\"3.5\" orient=\"auto\" markerUnits=\"userSpaceOnUse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <path d=\"M4,16 l8,-10 M16,16 l8,-10 M28,16 l8,-10 M40,16 l8,-10 M52,16 l8,-10 M64,16 l8,-10 M76,16 l8,-10 M88,16 l8,-10 M100,16 l8,-10 M112,16 l8,-10 M124,16 l8,-10 M136,16 l8,-10 M148,16 l8,-10 M160,16 l8,-10 M172,16 l8,-10 M184,16 l8,-10 M196,16 l8,-10 M208,16 l8,-10 M220,16 l8,-10 M232,16 l8,-10 M244,16 l8,-10\" stroke=\"#657568\" stroke-width=\"1\" fill=\"none\"/>\n  <line x1=\"3\" y1=\"16\" x2=\"252\" y2=\"16\" stroke=\"#657568\" stroke-width=\"1.7\" fill=\"none\"/>\n  <line x1=\"72\" y1=\"16\" x2=\"72\" y2=\"207\" stroke=\"#266e5d\" stroke-width=\"1.8\" fill=\"none\"/>\n  <text x=\"46\" y=\"120\" fill=\"#6c7d70\">L</text>\n  <circle cx=\"72\" cy=\"222\" r=\"15.5\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.8\"/>\n  <text x=\"72\" y=\"258\" text-anchor=\"middle\" fill=\"#6c7d70\">m</text>\n  <line x1=\"88\" y1=\"220\" x2=\"126\" y2=\"220\" stroke=\"#266e5d\" stroke-width=\"1.8\" marker-end=\"url(#arrow-rts4q8)\" fill=\"none\"/>\n  <text x=\"134\" y=\"227\" fill=\"#6c7d70\">F = 4/3 mg</text>\n  <line x1=\"251\" y1=\"32\" x2=\"251\" y2=\"100\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrowg-rts4q8)\" fill=\"none\"/>\n  <text x=\"258\" y=\"52\" fill=\"#6c7d70\">g</text>\n</svg>",
     "options": [
@@ -194,7 +194,7 @@
      "The maximum kinetic energy of the block during its motion is \\(\\frac{2}{3}\\) mgL.",
      "The block first comes to instantaneous rest again when the string makes an angle θ = \\(cos^{−1}\\) (−7/25) with the downward vertical."
     ],
-    "answer": "B, C, D",
+    "answer": "2,3,4",
     "solution": "We apply the work-energy theorem to the block. Let θ be the angle the string makes with the downward vertical. The block starts from rest at θ = 0. The forces doing work are the constant horizontal force F = \\(\\frac{4}{3}\\) mg and gravity. The work done by F is WF = F (Lsin θ) = \\(\\frac{4}{3}\\) mgLsin θ. The work done by gravity is Wg = −mgL (1 − cos θ). The kinetic energy is K (θ) = WF + Wg. = mgL ( 4 sin θ + cos θ − 1) 3 To find the maximum kinetic energy, we set the tangential force to zero (which is equivalent to dK/dθ = 0). Ft = F cos θ − mgsin θ = 0 ⇒ tan θ = \\(\\frac{F}{mg}\\). = 4 3 At this position, sin θ = \\(\\frac{4}{5}\\) and cos θ = \\(\\frac{3}{5}\\). Substituting these into K (θ) gives Kmax = mgL ( \\(\\frac{4}{3}\\) ⋅ \\(\\frac{4}{5}\\) + \\(\\frac{3}{5}\\) − 1) = \\(\\frac{2}{3}\\) mgL. Thus, statement (C) is correct. The block first comes to instantaneous rest again when K (θ) = 0. This gives \\(\\frac{4}{3}\\) sin θ + cos θ = 1 Using the half-angle identities sin θ = \\(\\frac{2tan(θ/2)}{1+tan^{2} (θ/2)}\\) and cos θ = \\(\\frac{1−tan^{2} (θ/2)}{1+tan^{2} (θ/2)}\\), we obtain \\(2tan^{2}\\) (θ/2) = 83 tan (θ/2). Ignoring the initial position tan (θ/2) = 0, we get tan (θ/2) = 43. 2 This yields cos θ = \\(\\frac{1−(4/3)}{1+(4/3)^{2}}\\) = − \\(\\frac{7}{25}\\). The block comes to rest at θ = \\(cos^{−1}\\) (−7/25), making statement (D) correct. At this instantaneous rest position, sin θ = \\(\\frac{24}{25}\\). The tangential acceleration is at = \\(\\frac{Ft}{m}\\) = \\(\\frac{4}{3}\\) g (− \\(\\frac{7}{25}\\) ) − g ( \\(\\frac{24}{25}\\) ) = − \\(\\frac{4}{3}\\) g. The magnitude is \\(\\frac{4}{3}\\) g, so statement (A) is incorrect. The tension T is found from the radial equation T − mgcos θ − F sin θ = \\(\\frac{mv^{2}}{L}\\) = \\(\\frac{2K}{L}\\). Substituting K (θ)gives T (θ) = 3mgcos θ + 4mgsin θ − 2mg. The maximum value of 3 cos θ+ 4 sin θ is \\(−_{√3}−_{2}−−_{+}−_{4}−_{2}\\) = 5, yielding Tmax = 5mg − 2mg = 3mg. Statement (B) is correct.",
     "image": "",
     "optionImages": [],
@@ -294,7 +294,7 @@
      "P →2; Q →1; R →3; S →5",
      "P →1; Q →2; R →3; S →5"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The composite object can be modelled as the original uniform object of mass M0(with its centre of mass at the origin) plus an additional mass ΔM placed at the centre of the cavity, which is at x = R/2. The additional mass is due to the difference in density: ΔM = \\((ρ_{fill}\\) − ρ) Vc, where Vc is the volume (or area) of the cavity. The total mass of the composite object is Mtotal = M0 + ΔM. The new centre of mass is located at xcm = \\(\\frac{M0(0)+ΔM(R/2)}{M0+ΔM}\\) = \\(\\frac{ΔM(R/2)}{M0+ΔM}\\). The distance is dcm =∣ xcm∣. For a solid sphere (P), Vc = V0/8. With \\(ρ_{fill}\\) = 3ρ, ΔM = 2ρ (V0/8) = M0/4. Thus xcm = \\(\\frac{(M0/4)(R/2)}{M0+M0/4}\\) = \\(\\frac{M0R/8}{5M0/4}\\) = R/10. This matches (2). For a circular disk (Q), Vc = V0/4. With \\(ρ_{fill}\\) = 3ρ, ΔM = 2ρ (V0/4) = M0/2. Thus xcm = \\(\\frac{(M0/2)(R/2)}{M0+M0/2}\\) = \\(\\frac{M0R/4}{3M0/2}\\) = R/6. This matches (1). For a solid sphere (R), \\(ρ_{fill}\\) = ρ/2. ΔM = (ρ/2 − ρ) (V0/8) = −M0/16. Thus xcm = \\(\\frac{(−M0/16)(R/2)}{M0−M0/16}\\) = \\(\\frac{−M0R/32}{15M0/16}\\) = −R/30. The distance is dcm = R/30. This matches (5). For a circular disk (S), \\(ρ_{fill}\\) = ρ/2. ΔM = (ρ/2 − ρ) (V0/4) = −M0/8. Thus xcm = \\(\\frac{(−M0/8)(R/2)}{M0−M0/8}\\) = \\(\\frac{−M0R/16}{7M0/8}\\) = −R/14. The distance is dcm = R/14. This matches (3). Independent check: We can also solve by treating the object as a combination of the remaining part (mass M0 − ρVc ) and the filled cavity (mass \\(ρ_{fill} Vc\\) ). For (P), the remaining mass is 7M0/8 with COM at −R/14. The filled cavity has mass 3M0/8 at R/2. (7M0/8)(−R/14)+(3M0/8)(R/2) xcm = 10M0/8 = −M0R/16+3M0R/16 = R/10. 10M0/8",
     "image": "",
     "optionImages": [],
@@ -318,7 +318,7 @@
      "P→1; Q→2; R→4; S→3",
      "P→2; Q→3; R→4; S→5"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "The total mechanical energy E = K + U (x) of the particle is conserved. The particle can only move in regions where E ≥ U (x), turning around at points where E = U (x). The maximum kinetic energy is Kmax = E − Umin, where Umin is the absolute minimum of the potential energy within the particle's accessible region. For (P), the particle is released from rest at x = 1 m. From the graph, the segment from x = 0 to x = 2 is U (x) = 10 − 4x, so U (1) = 6 J. Thus, E = 6 J. The particle moves to the right (since the force F = −dU /dx = 4 N is positive). It passes the local minimum at x = 2 m(U = 2 J) and encounters the barrier at x = 4 m(U = 8 J). Since E = 6 J < 8 J, it cannot cross the barrier and turns around. The minimum potential energy in its accessible region is Umin = 2 J. Therefore, Kmax = 6 − 2 = 4 J. This matches (1). For (Q), the particle is released from rest at x = 7 m. The segment from x = 6 to x = 8 is U (x) = 6x − 36, so U (7) = 6 J. Thus, E = 6 J. The particle moves to the left, passes the absolute minimum at x = 6 m (U = 0 J), and encounters the barrier at x = 4 m(U = 8 J). Since E = 6 J < 8 J, it cannot cross the barrier. The minimum potential energy in its accessible region is Umin = 0 J. Therefore, Kmax = 6 − 0 = 6 J. This matches (2). For (R), the particle is projected from x = 3 m with K = 5 J. The segment from x = 2 to x = 4 is U (x) = 3x − 4, so U (3) = 5 J. Thus, E = 5 + 5 = 10 J. It moves to the right and encounters the barrier at x = 4 m ( U = 8 J). Since E = 10 J > 8 J, it crosses the barrier and enters the deeper potential well, reaching x = 6 m where U = 0 J. The minimum potential energy in its entire accessible region is Umin = 0 J. Therefore, Kmax = 10 − 0 = 10 J. This matches (5). For (S), the particle is projected from x = 3 m with K = 4 J in the negative x-direction. Thus, E = 5 + 4 = 9 J. It moves to the left, passes x = 2 m (U = 2 J), and turns around at x = 0.25 m where U = 9 J. It then moves to the right. When it reaches the barrier at x = 4 m, U (4) = 8 J. Since E = 9 J > 8 J, it crosses the barrier and reaches the deeper well at x = 6 m where U = 0 J. The minimum potential energy in its accessible region is Umin = 0 J. Therefore, Kmax = 9 − 0 = 9 J. This matches (4).",
     "image": "/tests/rts4/figures/rts4-p7-1.png",
     "optionImages": [],
@@ -342,7 +342,7 @@
      "P →1, 4; Q →2, 3; R →5, 4; S →6, 3",
      "P →2, 4; Q →1, 3; R →6, 4; S →5, 3"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Take the rightward direction as positive. Since no external horizontal force acts on the person–boat system, the horizontal position of its centre of mass remains unchanged. Let xB be the displacement of the boat and xP the displacement of the person relative to the ground. Conservation of the centre-of-mass position gives mxP + M xB = 0. The person travels a distance Lrelative to the boat, so xP − xB = L. Solving, xB = − \\(\\frac{mL}{M+m}\\), xP = \\(\\frac{ML}{M+m}\\). Thus, the boat moves left by \\(\\frac{mL}{M+m}\\), whereas the person moves right by \\(\\frac{ML}{M+m}\\). Therefore, (P)→(1), (3), (Q)→(2), (4). While the person is walking, let vB and vP be the velocities of the boat and the person relative to the ground. Conservation of horizontal linear momentum gives mvP + M vB = 0. Since the person moves with speed u relative to the boat, vP − vB = u. Solving, vB = − \\(\\frac{mu}{M+m}\\), vP = \\(\\frac{Mu}{M+m}\\). Hence, the boat moves left with speed \\(\\frac{mu}{M+m}\\), and the person moves right with speed \\(\\frac{Mu}{M+m}\\). Therefore, (R) →(5), (3), (S)→(6), (4).",
     "image": "",
     "optionImages": [],
@@ -366,7 +366,7 @@
      "P → 1; Q → 2; R → 5; S → 3",
      "P → 3; Q → 1; R → 2; S → 4"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "1. Speed at the specified position The particle rises through a vertical height h = R − Rcos 6\\(0^{∘}\\) = R. 2 Using conservation of mechanical energy, \\(\\frac{1}{2}\\) m\\(v_{0}^{2}\\) = \\(\\frac{1}{2}\\) m\\(v^{2}\\) + mgh. Substituting \\(v_{0}^{2}\\) = 7gR and h = R/2, 1 m (7gR) = 1 m\\(v^{2}\\) + 1 mgR. 2 2 2 Therefore, \\(v^{2}\\) = 6gR. 2. Net radial force The net force along the inward radial direction provides the centripetal acceleration: \\(mv^{2}\\) Fradial = R. Thus, Fradial = \\(\\frac{m(6gR)}{R}\\) = 6mg. Hence, (P) → (1). 3. Net tangential force Tension acts only along the radial direction. Therefore, the tangential force is due only to the tangential component of gravity: Ftangential = mgsin 6\\(0^{∘}\\). Thus, Ftangential = \\(\\frac{√3}{2}\\) mg. It acts opposite to the instantaneous direction of motion. Hence, (Q) → (2). 4. Tension in the string At an angle θ measured from the vertically downward direction, the radial equation is \\(mv^{2}\\) T − mgcos θ =. R At θ = \\(60^{∘}\\), T − \\(\\frac{mg}{2}\\) = 6mg. Therefore, T = \\(\\frac{13}{2}\\) mg. Hence, (R) → (3). 5. Resultant force The radial and tangential components of the net force are mutually perpendicular. Therefore, −−−−−−−−−−−−−− Fnet = √\\(F_{radial}^{2}\\) + \\(F_{tangential}^{2}\\). −−−−−−−−−−−−−−−− 2 Fnet = √\\((6mg)^{2}\\) + ( \\(\\frac{√3}{2}\\) mg). −−−−−− −−− Fnet = mg√36 + \\(\\frac{3}{4}\\) = mg√ \\(\\frac{147}{4}\\) = \\(\\frac{7√3}{2}\\) mg. Hence, (S) → (4). Therefore, P → 1; Q → 2; R → 3; S → 4",
     "image": "",
     "optionImages": [],
@@ -390,7 +390,7 @@
      "18.0",
      "22.5"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "2M n\\(O_{4}^{−}\\) + 5H2O2 + 6H + → 2M \\(n^{2+}\\) + 5O2 + 8H2O The standardisation gives 0.000200 mol permanganate and hence 0.000500 mol peroxide in 20.00 mL, so the peroxide concentration is 0.0250 mol \\(L^{–1}\\). n (Cr2\\(O_{7}^{2−}\\)) = 0.03000 × 0.750 × (40/300)× (25/100) × (30/150) = 1.50 × \\(10^{−4}\\) mol Cr2\\(O_{7}^{2−}\\) + 3H2O2 + 8H + → 2C\\(r^{3+}\\) + 7H2O + 3O2 Thus \\(4.50×10^{–4}\\) mol peroxide is needed, corresponding to 18.0 mL of the standardised solution.",
     "image": "",
     "optionImages": [],
@@ -414,7 +414,7 @@
      "(8, 5)",
      "(8, 6)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "Exactly 16 valence electrons and linear geometry are obtained for CO2, \\(NO_{2}^{+}\\), \\(N_{3}^{−}\\), N2O, \\(OCN^{−}\\), \\(SCN^{−}\\), BeCl2, \\(CN_{2}^{2−},\\) CS₂; hence m = 9. SO₂, \\(NO_{2}^{−}\\) and \\(ClO_{2}^{+}\\) each have 18 valence electrons and are excluded before the second test. Among the nine, central formal charge zero with a completed central octet is available for CO2, \\(OCN^{−},\\) \\(SCN^{−},\\) \\(CN_{2}^{2−}\\) and CS₂; BeCl₂ is excluded because Be remains electron- deficient. Therefore (m, n) = (9, 5).",
     "image": "/tests/rts4/figures/rts4-p8-1.png",
     "optionImages": [],
@@ -438,7 +438,7 @@
      "24: 5",
      "5: 24"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "i = 1 − 0.40/2 = 0.80 0.960 = nsolv/ (nsolv + 0.80na) ⇒ nsolv/na = 19.2 Multiplying the mole ratio by the molar-mass ratio one-fourth gives a mass ratio of 4.8, or 24:5.",
     "image": "",
     "optionImages": [],
@@ -462,7 +462,7 @@
      "374.68 K",
      "375.15 K"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "i (M gSO4) = 1 + 0.75 = 1.75; i (AlCl3) = 1 + 3 (0.50) = 2.50 n (effective particles) = 0.100 × 1.75 + 0.200 × 2.50 = 0.675 mol m (effective) = 0.675/0.450 = 1.50 mol \\(kg^{−1}\\) Tb = 373.15 + 0.512 × 1.50 = 373.918 K ≈ 373.92 K",
     "image": "",
     "optionImages": [],
@@ -477,7 +477,7 @@
     "id": 21,
     "sourceQuestionNo": 21,
     "subject": "Chemistry",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "In alkaline treatment of cyanide, the net redox change may be represented as \\(CN^{–}\\) + \\(OCl^{–}\\) → \\(CNO^{–}\\) + \\(Cl^{–}\\) Oxidation numbers are to be assigned by the usual electronegativity convention, while formal charges may differ among resonance contributors. Which statements are correct?",
     "options": [
@@ -486,7 +486,7 @@
      "Cl in \\(OCl^{–}\\) changes from +1 to –1, so one mole of hypochlorite is stoichiometrically required per mole of cyanide.",
      "The formal charge on nitrogen can differ between resonance contributors of \\(CNO^{–}\\), even though its oxidation number remains –3."
     ],
-    "answer": "A, C, D",
+    "answer": "1,3,4",
     "solution": "In cyanide, assigning bonding electrons to nitrogen gives carbon +2 and nitrogen −3. In cyanate, oxygen is −2 and nitrogen remains −3, forcing carbon to +4. Carbon therefore loses two electrons, while chlorine in hypochlorite gains two electrons; the balanced net equation has a 1:1 cyanide-to- hypochlorite ratio. Resonance redistributes formal charge but does not alter oxidation-number bookkeeping.",
     "image": "",
     "optionImages": [],
@@ -501,7 +501,7 @@
     "id": 22,
     "sourceQuestionNo": 22,
     "subject": "Chemistry",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "One mole of non-volatile CaCl2 is dissolved in 180 mol of water. Its degree of dissociation is 0.60 and is assumed unchanged during the process. The solution is cooled until ice separates; the ice is removed. At 373 K, the remaining solution has vapour pressure 720 mm Hg, while pure water has vapour pressure 760 mm Hg. Take Kf = 1.86 K kg \\(mol^{–1}\\) and the molar mass of water as 18 g \\(mol^{–1}\\). Which statements are correct?",
     "options": [
@@ -510,7 +510,7 @@
      "The equilibrium freezing temperature of the final solution is approximately 267.41 K.",
      "The freezing temperature of the original solution, before ice formation, is approximately 271.89 K."
     ],
-    "answer": "A, B, C, D",
+    "answer": "1,2,3,4",
     "solution": "i (CaCl2) = 1 + 2 (0.60) = 2.20 720/760 = 18/19 = n (H2O) / [n (H2O) + 2.20] ⇒ n (H2O) = 39.6 mol Hence 180 − 39.6 = 140.4 mol freezes, and the final relative lowering is 40/760 = 1/19. Tf(final) = 273.15 − 1.86 × 2.20 / (39.6 × 0.018) = 267.41 K Tf(initial) = 273.15 − 1.86 × 2.20 / (180 × 0.018) = 271.89 K",
     "image": "",
     "optionImages": [],
@@ -525,7 +525,7 @@
     "id": 23,
     "sourceQuestionNo": 23,
     "subject": "Chemistry",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "Which statements are correct?",
     "options": [
@@ -534,7 +534,7 @@
      "ClF3 is T shaped.",
      "In HOF, the oxidation numbers are H = +1, O = 0 and F = –1."
     ],
-    "answer": "A, C, D",
+    "answer": "1,3,4",
     "solution": "XeOF₄ has six electron domains around xenon— five bonding domains and one lone pair—so statement A is correct. \\(ClO_{3}^{−}\\) is AX3E and therefore trigonal pyramidal; resonance equalises bonds but does not remove the lone pair, so B is false. In HOF, fluorine remains −1 and oxygen is 0, making C and D correct.",
     "image": "",
     "optionImages": [],
@@ -549,7 +549,7 @@
     "id": 24,
     "sourceQuestionNo": 24,
     "subject": "Chemistry",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "Select the correct statements",
     "options": [
@@ -558,7 +558,7 @@
      "The electron-domain arrangement about sulfur in SF4 is trigonal bipyramidal, and its lone pair preferentially occupies an axial site.",
      "In both XeF2 and \\(I_{3}^{−}\\) species: the three lone pairs occupy equatorial positions of a trigonal-bipyramidal electron-domain arrangement, leaving the two bonds collinear."
     ],
-    "answer": "A, B, D",
+    "answer": "1,2,4",
     "solution": "Key A is correct: in trigonal-bipyramidal PCl5, axial bonds suffer three 90° interactions and are consequently longer/weaker than equatorial bonds. B is correct: solid PCl5 is described by tetrahedral [PCl4\\(]^{+}\\) and octahedral [PCl6\\(]^{–}\\) ions. C is false: the lone pair in SF4 prefers an equatorial site, where it has only two 90° interactions; the molecular shape is see-saw. D is correct: three equatorial lone pairs in AX₂E₃ leave the two bonding pairs axial, producing a linear arrangement.",
     "image": "",
     "optionImages": [],
@@ -658,7 +658,7 @@
      "P → 1; Q → 2; R → 3; S → 4",
      "P → 4; Q → 2; R → 1; S → 3"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "The electron changes per mole are 5 for permanganate in acid, 1 for iron(II), 6 for dichromate, 2 for oxalate, 2 for hypochlorite, 3 for chromium(III), and 2 for peroxide acting as a reductant. A: 1 × 5 = 5 × 1; B: 1 × 6 = 3 × 2; C: 3 × 2 = 2 × 3; D: 2 × 5 = 5 × 2",
     "image": "",
     "optionImages": [],
@@ -682,7 +682,7 @@
      "P → 2; Q → 1,4; R → 2,5; S → 3",
      "P → 3,4; Q → 1,2; R → 1,4; S → 2,5"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Benzene–toluene is nearly ideal and does not form an azeotrope. Ethanol–water shows positive deviation and forms a minimum-boiling azeotrope. Nitric acid–water and acetone–chloroform show negative deviation and form maximum-boiling azeotropes. Every azeotropic pair also matches the ordinary- distillation limitation.",
     "image": "",
     "optionImages": [],
@@ -706,7 +706,7 @@
      "P → 1,4; Q → 2,5; R → 1,3,5; S → 2,3,4",
      "P → 2,5; Q → 1,4; R → 2,3,4; S → 1,3,5"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "COCl₂ contains a pπ–pπ carbonyl bond and eight lone pairs. SO3 is treated as containing pπ–dπ bonding; it is trigonal planar, non-polar, and has six lone pairs. BF3 has pπ–pπ back-bonding and is trigonal planar non-polar; its nine lone pairs are odd. XeO3 is pyramidal and polar; in the conventional description it contains pπ–dπ bonding and has seven total lone pairs.",
     "image": "",
     "optionImages": [],
@@ -730,7 +730,7 @@
      "P → 2,3,4,5; Q → 3,5; R → 1,2,3,4,5; S → 3,4,5",
      "\\(\\frac{P → 1,2,3,4,5;}{2,3,4,5}\\) Q → 3,4,5; R → 1,2,3,4,5; S →"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "P. CN₂²⁻ and CO₂: Both have 22 total electrons and 16 valence electrons. Both are linear, isostructural and have sp-hybridised central atoms. Q. Benzene and borazine: Both have the same total and valence electrons, planar six-membered ring structure, and sp²-hybridised atoms. Hence they are isostructural. R. PCl₃F₂ and PF₃Cl₂: Both have trigonal- bipyramidal geometry, the same number of valence electrons and sp³d hybridisation. They are not planar and do not have the same total number of electrons. S. BrF₅ and XeF₅⁺: Both have square-pyramidal geometry (AX₅E), the same number of valence electrons and sp³d² hybridisation. They are not planar and do not have the same total number of electrons.",
     "image": "",
     "optionImages": [],
@@ -754,7 +754,7 @@
      "8 − \\(√79^{−−}\\)",
      "8 − \\(2√79^{−−}\\)"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "We know that \\(x^{3}\\) – \\(4x^{2}\\) + 6x + c = (x – r) (x – s) (x – t), therefore r + s + t = 4 …(1) rs + rt + st = 6 …(2) rst = –c …(3) Next we compute the sum of the squares of the roots using (1) and (2) above: \\(r^{2}\\) + \\(s^{2}\\) + \\(t^{2}\\) = (r + s + \\(t)^{2}\\) – 2(rs + rt + st) = \\(4^{2}\\) – 2 (6) = 4. \\(\\frac{Thus, using (4), our}{1 = 2_{r +}^{1} 2_{s} + 2_{s +t}^{1} 2}\\) \\(\\frac{identity becomes}{+_{t} 2_{+}^{1} 2_{r}}\\) = \\(\\frac{1}{4−t^{2}}\\) + \\(\\frac{1}{4−r^{2}}\\) + \\(\\frac{1}{4−s^{2}}\\) (4−\\(r^{2}\\))(4−\\(s^{2}\\))+(4−\\(s^{2}\\))(4−\\(t^{2}\\))+(4−\\(t^{2}\\))(4−\\(r^{2}\\)) = \\((4−r^{2} )(4−s^{2} )(4−t^{2} )\\) 48−8(\\(r^{2}\\)+\\(s^{2}\\)+\\(t^{2}\\))+\\(r^{2}\\)\\(s^{2}\\)+\\(r^{2}\\)\\(t^{2}\\)+\\(s^{2}\\)\\(t^{2}\\) = \\(64−16(r^{2} +s^{2} +t^{2} )+4(r^{2} s^{2} +r^{2} t^{2} +s^{2} t^{2} )−r^{2} s^{2} t^{2}\\) Substituting using (3) and (4) gives 48−8(4)+\\(r^{2}\\)\\(s^{2}\\)+\\(r^{2}\\)\\(t^{2}\\)+\\(s^{2}\\)\\(t^{2}\\) 1 = \\(\\frac{64−16(4)+4(r^{2} s^{2} +r^{2} t^{2} +s^{2} t^{2} )−c^{2}}{16+r^{2} s^{2} +r^{2} t^{2} +s^{2} t^{2}}\\) = \\(4(r^{2} s^{2} +r^{2} t^{2} +s^{2} t^{2} )−c^{2}\\). Next, observe that by (2) 36 = (rs + rt + \\(st)^{2}\\) = \\(r^{2}\\)\\(s^{2}\\) + \\(r^{2}\\)\\(t^{2}\\) + \\(s^{2}\\)\\(t^{2}\\) + 2rst(r + s + t) = \\(r^{2}\\)\\(s^{2}\\) + \\(r^{2}\\)\\(t^{2}\\) + \\(s^{2}\\)\\(t^{2}\\) – 8c, So that \\(r^{2}\\)\\(s^{2}\\) + \\(r^{2}\\)\\(t^{2}\\) + \\(s^{2}\\)\\(t^{2}\\) = 36 + 8c. Combing (6) and (7) gives 16+(36+8c) 52+8c 1 = \\(4(36+8c)−c^{2}\\) = \\(144+32c−c^{2}\\). and hence \\(c^{2}\\) – 24c – 92 = 0. The solutions to this quadratic are 24±√\\(24^{2}\\)+4(92) c = 2 And the only negative value of c = 12 − \\(2√59^{−−}\\)",
     "image": "",
     "optionImages": [],
@@ -778,7 +778,7 @@
      "S > T and a81 > b81",
      "S < T and a81 < b81"
     ],
-    "answer": "B",
+    "answer": "2",
     "solution": "Here bi = b1( 32 \\()^{i−1}\\). Strict convexity places every interior bi below the chord joining b1 and b41, while ai lies on that chord. Since all wights are positive, S > T. Also, a81 = b1 (2( 32 \\()^{40}\\) − 1), b81 = b1\\((\\frac{3}{2})^{80}\\) Their difference is b1(( 32 \\()^{40}\\) − \\(1)^{2}\\) > 0, so a81 < b81",
     "image": "",
     "optionImages": [],
@@ -802,7 +802,7 @@
      "15 \\((2^{30}\\) + \\(C^{30}15)\\)",
      "\\(\\frac{15}{2}\\) \\(C^{30}15\\)"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "Given S = \\(\\frac{15}{Σ}\\) (15 − k) ( 30 ), k=0 k n n (where ( ) = Ck) k 15 30 15 30 S = 15 Σ ( ) − Σ k ( ). k=0 k k=0 k By symmetry of binomial coefficients, 15 30 29 1 30 Σ ( ) = 2 + ( ). k=0 k 2 15 Also, k ( 30 ) = 30 ( 29 ). k k − 1 Therefore, \\(\\frac{15}{Σ}\\) k ( 30 ) = 30 14 ( 29 ). k=0 k j=0 j Since 29 is odd, \\(\\frac{14}{Σ}\\) ( 29 ) = \\(2^{28}.\\) j=0 j Hence, S = 15 \\((2^{29}\\) + \\(\\frac{1}{2}\\) ( 30 )) − 30 ⋅ \\(2^{28}.\\) 15 Since 30 ⋅ \\(2^{28}\\) = 15 ⋅ \\(2^{29},\\) S = \\(\\frac{15}{2}\\) ( 30 ). 15",
     "image": "",
     "optionImages": [],
@@ -826,7 +826,7 @@
      "A + B = \\(\\frac{11}{147}\\)",
      "A + B = − \\(\\frac{11}{147}\\)"
     ],
-    "answer": "D",
+    "answer": "4",
     "solution": "The polynomial is P (x) = \\(x^{3}\\) − \\(x^{2}\\) − 2x + 2 and its roots are α, β, γ. Therefore, P (x) = (x − α) (x − β) (x − γ). Putting x = 2, (2 − α) (2 − β) (2 − γ) = P (2). P (2) = 8 − 4 − 4 + 2 = 2. Putting x = −2, P (−2) = (−2 − α) (−2 − β) (−2 − γ). Since (−2 − α) (−2 − β) (−2 − γ) = − (2 + α) (2 + β) (2 + γ), and P (−2) = −8 − 4 + 4 + 2 = −6, it follows that (2 + α) (2 + β) (2 + γ) = 6. Hence, \\(\\frac{(2−α)(2−β)(2−γ)}{(2+α)(2+β)(2+γ)}\\) = \\(\\frac{2}{6}\\) = \\(\\frac{1}{3}\\). And the middle term of (1 + α1 \\(x)^{6}\\) is its fourth term. Its coefficient is \\(C^{6}3α1\\) 3 = 20α1 \\(.^{3}\\) The middle term of (1 − α1 \\(x)^{8}\\) is its fifth term. Its coefficient is \\(C^{8}4α1\\) 4 = 70α1 \\(.^{4}\\) According to the given condition, 20α1 3 = 70α1 4. Since α1 ≠ 0, 20 = 70α1, so α1 = \\(\\frac{2}{7}\\). The coefficient of \\(x^{2}\\) in (1 + α1 \\(x)^{6} (1\\) − α1 \\(x)^{8}\\) is \\(C^{6}2α1\\) 2 + \\(C^{6}1α1\\) \\(C^{8}1\\) (−α1 ) + \\(C^{8}2α1\\) \\(.^{2}\\) Therefore, 15α1 2 − 48α1 2 + 28α1 2 = −5α1 2. Substituting α1 = \\(\\frac{2}{7}\\), −5( \\(\\frac{2}{7}\\) \\()^{2}\\) = − \\(\\frac{20}{49}\\). 1 20 11 A + B = − = − 3 49 147",
     "image": "",
     "optionImages": [],
@@ -841,7 +841,7 @@
     "id": 37,
     "sourceQuestionNo": 37,
     "subject": "Mathematics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "Let a, b, c be positive integers in arithmetic progression with b – a = c – b > 0. Suppose \\(ax^{2}\\) + 2bx + 3c = 0 has two distinct integer roots whose absolute difference is 5. If k = gcd(a, b, c), then",
     "options": [
@@ -850,7 +850,7 @@
      "The common difference of the progression is 11k.",
      "The discriminant of the quadratic is \\(121k^{2}\\)."
     ],
-    "answer": "A, B, C",
+    "answer": "1,2,3",
     "solution": "Let the two integer roots be −u and −v, where u, v are positive integers. Both roots must be negative because their sum is negative and their product is positive. So, u + v = \\(\\frac{2b}{a}\\) and uv = \\(\\frac{3c}{a}\\). Since a, b, c are in A.P., c = 2b − a. Therefore, \\(\\frac{c}{a}\\) = \\(\\frac{2b}{a}\\) − 1 = u + v − 1. Hence, uv = 3 (u + v − 1). uv − 3u − 3v + 3 = 0, (u − 3) (v − 3) = 6. The absolute difference of the roots is 5, so |u − v| = 5. The only positive solution is {u, v} = {4, 9}. Therefore, the roots are −4, − 9. Thus statement (A) is true. Also, u + v = 13 = \\(\\frac{2b}{a}\\), \\(\\frac{b}{a}\\) = \\(\\frac{13}{2}\\). Further, uv = 36 = \\(\\frac{3c}{a}\\), so \\(\\frac{c}{a}\\) = 12. Therefore, a: b: c = 2: 13: 24. Thus statement (B) is true. Let a = 2t, b = 13t, c = 24t. Since gcd (2, 13, 24) = 1, k = gcd (a, b, c) = t. The common difference is b − a = 13t − 2t = 11t = 11k. Thus statement (C) is true. The discriminant is Δ = \\((2b)^{2}\\) − 4a (3c). Substituting a = 2k, b = 13k, c = 24k, 2 Δ = (26k) − 12 (2k) (24k). Therefore, Δ = \\(676k^{2}\\) − \\(576k^{2}\\) = \\(100k^{2}.\\) Hence statement (D), which gives \\(121k^{2}\\), is false.",
     "image": "",
     "optionImages": [],
@@ -865,7 +865,7 @@
     "id": 38,
     "sourceQuestionNo": 38,
     "subject": "Mathematics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "Let a > b > c > 0 be three distinct consecutive terms of an H.P. Define b+c−a c+a−b a+b−c u1 = a, u2 = b, u3 = c, and v1 = \\(\\frac{b+c}{a}\\), v2 = \\(\\frac{c+a}{b}\\), v3 = \\(\\frac{a+b}{c}\\). Which statement(s) is/are correct?",
     "options": [
@@ -874,7 +874,7 @@
      "\\(a^{5}\\) + \\(c^{5}\\) < \\(2b^{5}\\)",
      "\\(\\frac{a−b}{ab}\\) = \\(\\frac{b−c}{bc}\\)"
     ],
-    "answer": "A, B, D",
+    "answer": "1,2,4",
     "solution": "Since a, b, c are consecutive terms of an H.P., their reciprocals are in A.P. Therefore, \\(\\frac{2}{b}\\) = \\(\\frac{1}{a}\\) + \\(\\frac{1}{c}\\). b (a + c) = 2ac. For v1, v2, v3, b+c a+b a+c v1 + v3 − 2v2 = a + c − 2 b. (a+b+c)(ab+bc−2ac) v1 + v3 − 2v2 = abc. But ab + bc = b (a + c) = 2ac. Hence, v1 + v3 − 2v2 = 0. Thus v1, v2, v3 are in A.P. Therefore, statement (B) is true. Also, u1 = v1 − 1, u2 = v2 − 1, u3 = v3 − 1. Subtracting the same number from all terms of an A.P. preserves the A.P. Therefore, u1, u2, u3 are also in A.P. Thus statement (A) is true. For statement (D), \\(\\frac{a−b}{ab}\\) = \\(\\frac{1}{b}\\) − \\(\\frac{1}{a}\\), and b−c = 1 − 1. bc c b These are equal because 1/a, 1/b, 1/c are in A.P. Hence statement (D) is true. For statement (C), b is the harmonic mean of a and c: b = \\(\\frac{2ac}{a+c}\\). Since a ≠ c, b < \\(\\frac{a+c}{2}\\). Also, because the function \\(x^{5}\\) is strictly convex for positive x, \\(\\frac{a^{5} +c^{5}}{2}\\) > \\((\\frac{a+c}{2})^{5}\\) Since \\(\\frac{a+c}{2}\\) > b, \\(a^{5}\\) + \\(c^{5}\\) > \\(2b^{5}.\\)",
     "image": "",
     "optionImages": [],
@@ -889,7 +889,7 @@
     "id": 39,
     "sourceQuestionNo": 39,
     "subject": "Mathematics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "Let a > b > c > 0 be rational numbers. Consider (a − \\(c)^{2}\\) \\(x^{2}\\) + (a – c)(2b – a – c)x – (a – b) (b – c) = 0. Then correct option(s) is/are",
     "options": [
@@ -898,7 +898,7 @@
      "Exactly one root lies in (–1, 0), while the other lies in (0, 1).",
      "The sum of the roots is always positive."
     ],
-    "answer": "A, B, C",
+    "answer": "1,2,3",
     "solution": "Let p = a − b > 0 and q = b − c > 0. Then a − c = p + q and 2b − a − c = q − p. The equation becomes (p + \\(q)^{2}\\) \\(x^{2}\\) + (p + q) (q − p)x − pq = 0. It factors as ((p + q)x − p) ((p + q)x + q) = 0. Therefore, the roots are x1 = \\(\\frac{p}{p+q}\\) and q x2 = − p+q. Both roots are rational. Their difference is p q x1 − x2 = p+q + p+q = 1. Thus statement (B) is true. Since p, q > 0, 0 < \\(\\frac{p}{p+q}\\) < 1 and q −1 < − < 0. p+q Thus statement (C) is true. The discriminant is 2 2 2 Δ = (p + q) (q − p) + 4pq(p + q). Therefore, Δ = (p + \\(q)^{2}\\) ((q − \\(p)^{2}\\) + 4pq). But (q − \\(p)^{2}\\) + 4pq = (p + \\(q)^{2}\\). Hence, Δ = (p + \\(q)^{4}\\) = (a − \\(c)^{4}\\). Thus statement (A) is true. The sum of the roots is x1 + x2 = \\(\\frac{p−q}{p+q}\\). This value may be positive, zero or negative. Therefore, statement (D) is false.",
     "image": "",
     "optionImages": [],
@@ -913,7 +913,7 @@
     "id": 40,
     "sourceQuestionNo": 40,
     "subject": "Mathematics",
-    "type": "mcq",
+    "type": "multi",
     "section": "MCQ",
     "text": "The expansion \\((x^{1/2} + \\frac{1}{2x^{1/4}})^{n}\\) n > 2, is arranged in decreasing powers of x. The numerical coefficients of its first three terms form an arithmetic progression. Which statement(s) is/are correct?",
     "options": [
@@ -922,7 +922,7 @@
      "Exactly three terms have integral powers of x",
      "The sum of the numerical coefficients of all terms having integral powers of x is \\(\\frac{1377}{256}\\)"
     ],
-    "answer": "A, C, D",
+    "answer": "1,3,4",
     "solution": "n The general term of \\((x^{1/2}\\) + \\(\\frac{1}{2x^{1/4}}\\) ) is Tr+1 = ( nCr)(\\(x^{1/2}\\)\\()^{n−r}\\) ( \\(\\frac{1}{2x^{1/4}}\\) \\()^{r}\\). Therefore, Tr+1 = ( \\(\\frac{C^{n}r)}{2^{r}}\\) x \\(.^{n/2−3r/4}\\) The first three numerical coefficients are n n(n−1) 1,,. 2 8 They form an A.P., so 2 ( \\(\\frac{n}{2}\\) ) = 1 + \\(\\frac{n(n−1)}{8}\\). Thus, n = 1 + \\(\\frac{n(n−1)}{8}\\). 8n = 8 + \\(n^{2}\\) − n. \\(n^{2}\\) − 9n + 8 = 0. (n − 1) (n − 8) = 0. Since n > 2, n = 8. Thus statement (A) is true. For n = 8, the power of x in the (r + 1) th term is 4 − \\(\\frac{3r}{4}\\). This is an integer exactly when r is divisible by 4. For r = 0, 1, …, 8, the admissible values are r = 0, 4, 8. Therefore, exactly three terms have integral powers of x. Statement (C) is true. A constant term would require 4 − \\(\\frac{3r}{4}\\) = 0, which gives r = \\(\\frac{16}{3}\\). Since r is not an integer, there is no constant term. Thus statement (B) is false. The sum of the numerical coefficients of the terms having integral powers is \\(C^{8}0\\) + \\(\\frac{C^{8}4}{2^{4}}\\) + \\(\\frac{C^{8}8}{2^{8}}\\). Thus, 1 + \\(\\frac{70}{16}\\) + \\(\\frac{1}{256}\\) = \\(\\frac{256+1120+1}{256}\\) = \\(\\frac{1377}{256}\\). Therefore, statement (D) is true.",
     "image": "",
     "optionImages": [],
@@ -1022,7 +1022,7 @@
      "P → 1; Q → 2; R → 3, 5; S → 4",
      "P → 2; Q → 5; R → 2, 5; S → 4"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "P: The expression is \\(\\frac{(3n−7)(n−4)}{n(n+1)(2n−5)}\\). For positive integral values: n = 1, 2, 3 give negative values, while n = 4 gives zero. At n = 5, the expression is strictly positive. Therefore, P = 5. P → 2. Q: The quadratic is (a − 2)\\(x^{2}\\) + 2 (\\(a^{2}\\) − 3)x − (a + 1) (a − 4) = 0. For the equation to remain quadratic, a ≠ 2. For roots of opposite signs, the product of the roots must be negative: \\(\\frac{−(a+1)(a−4)}{a−2}\\) < 0. Checking integral values a ∈ [−3, 6], excluding a = 2, the admissible values are a = 0, 1, 5, 6. Therefore, the number of admissible values is 4. Q → 1. R: Put t = \\(√x^{−} −^{−−} 2^{−}\\) ≥ 0. Then x = \\(t^{2}\\) + 2. Therefore, the equation become |t − 3| + |t − 4| = 3. For t ≤ 3, 7 − 2t = 3, so t = 2. For 3 ≤ t ≤ 4, the left side is 1, so there is no solution. For t ≥ 4, 2t − 7 = 3, so t = 5. Since x = \\(t^{2}\\) + 2, x = 6, 27. R → 3, 5. S: Let the four positive roots in increasing G.P. be \\(\\frac{g}{t^{3}}\\), \\(\\frac{g}{t}\\), gt, \\(gt^{3},\\) where t > 1. Their product is 64, so \\(g^{4}\\) = 64. Thus, g = \\(2√2^{–}.\\) Their sum is 15, so 2√\\(2^{–}\\) (\\(t^{3}\\) + t + \\(\\frac{1}{t}\\) + \\(\\frac{1}{t^{3}}\\) ) = 15. The expression inside the bracket is strictly increasing for t > 1. The value t = \\(√2^{–}\\) satisfies the equation. Therefore, the roots are 1, 2, 4, 8. b = 1 ⋅ 2 + 1 ⋅ 4 + 1 ⋅ 8 + 2 ⋅ 4 + 2 ⋅ 8 + 4 ⋅ 8. b = 2 + 4 + 8 + 8 + 16 + 32 = 70. c = 1 ⋅ 2 ⋅ 4 + 1 ⋅ 2 ⋅ 8 + 1 ⋅ 4 ⋅ 8 + 2 ⋅ 4 ⋅ 8. c = 8 + 16 + 32 + 64 = 120. Therefore, 2 (c − b) = 2 (120 − 70) = 100. S → 4.",
     "image": "",
     "optionImages": [],
@@ -1046,7 +1046,7 @@
      "P → 2; Q → 3; R → 4; S → 1",
      "P → 3; Q → 2; R → 4; S → 1"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "P: The five increasing A.P. terms are 18 − 2h, 18 − h, 18, 18 + h, 18 + 2h, where h > 0. Given ad = 260, (18 − 2h) (18 + 2h) = 260. 324 − 4\\(h^{2}\\) = 260. h = 4. Hence, a = 10, b = 14, c = 22, d = 26. Therefore, \\(\\frac{a+b+c+d}{c−b}\\) = \\(\\frac{10+14+22+26}{22−14}\\) = \\(\\frac{72}{8}\\) = 9. P → 2. Q: Seven geometric means are inserted between 2 and 512. Therefore, the complete G.P. has nine terms. Let the common ratio be r. Then \\(2r^{8}\\) = 512. \\(r^{8}\\) = 256 = \\(2^{8}\\). The relevant inserted terms give the same product for either real sign of r: second inserted term = 2\\(r^{2}\\), fourth inserted term = 2\\(r^{4}\\), sixth inserted term = 2\\(r^{6}\\). Their product is \\((2r^{2} )\\) \\((2r^{4} )\\) \\((2r^{6} )\\) = \\(8r^{12}.\\) Using \\(r^{8}\\) = \\(2^{8}\\) and \\(r^{4}\\) = \\(2^{4}\\), 8\\(r^{12}\\) = \\(2^{3}\\) ⋅ \\(2^{12}\\) = \\(2^{15}\\). Therefore, k = 15. Q → 3. R: The A.P. has a1 = 2, a11 = 12. Its common difference is \\(\\frac{12−2}{10}\\) = 1. Therefore, a4 = 5, a8 = 9. Since h1, …, h11 form an H.P., their reciprocals form an A.P. The reciprocal A.P. has \\(\\frac{1}{h1}\\) = \\(\\frac{1}{2}\\), \\(\\frac{1}{h11}\\) = \\(\\frac{1}{12}\\). 1 1 Its common difference is \\(10^{−_{12}}\\) 2 = − \\(\\frac{1}{24}\\). Therefore, \\(\\frac{1}{hn}\\) = \\(\\frac{1}{2}\\) − \\(\\frac{n−1}{24}\\). For n = 4, \\(\\frac{1}{h4}\\) = \\(\\frac{1}{2}\\) − \\(\\frac{3}{24}\\) = \\(\\frac{3}{8}\\). Hence, h4 = \\(\\frac{8}{3}\\). For n = 8, 1 = 1 − 7 = 5. h8 2 24 24 Hence, h8 = \\(\\frac{24}{5}\\). Therefore, a4h8 + a8h4 = 5 ( \\(\\frac{24}{5}\\) ) + 9 ( \\(\\frac{8}{3}\\) ). Thus, a4h8 + a8h4 = 24 + 24 = 48. R → 4. S: The three terms are \\(log_{2}\\)8, \\(log_{2}\\) (\\(2^{x}\\) − 8), \\(log_{2}\\) (\\(2^{x}\\) + 40). 2\\(log_{2}\\) (\\(2^{x}\\) − 8) = 3 + \\(log_{2}\\) (\\(2^{x}\\) + 40). \\(log_{2}\\)(\\(2^{x}\\) − \\(8)^{2}\\) = \\(log_{2}\\) (8 (\\(2^{x}\\) + 40)). (\\(2^{x}\\) − \\(8)^{2}\\) = 8 (\\(2^{x}\\) + 40). Put y = \\(2^{x}.\\) Then (y − \\(8)^{2}\\) = 8 (y + 40). \\(y^{2}\\) − 16y + 64 = 8y + 320. \\(y^{2}\\) − 24y − 256 = 0. (y − 32) (y + 8) = 0. Since y = \\(2^{x}\\) > 0, y = 32 = \\(2^{5}.\\) Therefore, x = 5. S → 1.",
     "image": "",
     "optionImages": [],
@@ -1070,7 +1070,7 @@
      "P → 4; Q → 2; R → 3; S → 1",
      "P → 1; Q → 5; R → 2; S → 4"
     ],
-    "answer": "A",
+    "answer": "1",
     "solution": "The roots α, β satisfy \\(x^{2}\\) − 3x + 1 = 0. α + β = 3 and αβ = 1. P: The new roots are \\(α^{2}\\), \\(β^{2}\\). Their sum is \\(α^{2}\\) + \\(β^{2}\\) = (α + \\(β)^{2}\\) − 2αβ. Thus, \\(α^{2}\\) + \\(β^{2}\\) = 9 − 2 = 7. Their product is \\(α^{2}\\) \\(β^{2}\\) = \\((αβ)^{2}\\) = 1. Therefore, the required quadratic is \\(x^{2}\\) − 7x + 1 = 0. P → 1. Q: The new roots are \\(\\frac{1}{α+1}\\), \\(\\frac{1}{β+1}\\). Their product is \\(\\frac{1}{(α+1)(β+1)}\\). Now, (α + 1) (β + 1) = αβ + α + β + 1 = 1 + 3 + 1 = 5. Therefore, the product is 15. Their sum is \\(\\frac{α+β+2}{(α+1)(β+1)}\\) = \\(\\frac{5}{5}\\) = 1. Hence, the quadratic is \\(x^{2}\\) − x + 15 = 0. 5\\(x^{2}\\) − 5x + 1 = 0. Q → 2. R: The required value is 1 2 + 1 2. (α−1) (β−1) Now, (α − 1) (β − 1) = αβ − (α + β) + 1. Thus, (α − 1) (β − 1) = 1 − 3 + 1 = −1. The combined denominator is therefore 2 ((α − 1) (β − 1)) = 1. The numerator is (α − \\(1)^{2}\\) + (β − \\(1)^{2}.\\) \\(α^{2}\\) + \\(β^{2}\\) − 2 (α + β) + 2. Therefore, 7 − 6 + 2 = 3. R → 5. S: The new roots are \\(α^{3}\\), \\(β^{3}\\). Their sum is \\(α^{3}\\) + \\(β^{3}\\) = (α + \\(β)^{3}\\) − 3αβ (α + β). Thus, \\(α^{3}\\) + \\(β^{3}\\) = 27 − 9 = 18. Their product is \\(α^{3}\\) \\(β^{3}\\) = \\((αβ)^{3}\\) = 1. Therefore, the required quadratic is \\(x^{2}\\) − 18x + 1 = 0. S → 4.",
     "image": "",
     "optionImages": [],
@@ -1094,7 +1094,7 @@
      "P → 4; Q → 2; R → 1; S → 3",
      "P → 4; Q → 2; R → 1; S → 5 with"
     ],
-    "answer": "C",
+    "answer": "3",
     "solution": "P: Since a, b, c are three unequal positive numbers in increasing A.P., let the common difference be d > 0. Therefore, a = a, b = a + d, c = a + 2d. Also, a, b − a, c are in G.P. Since b − a = d, the three terms of the G.P. are a, d, c. For three consecutive terms of a G.P., d 2 = ac. Therefore, \\(d^{2}\\) = a(a + 2d) Or \\(a^{2}\\) + 2ad = \\(d^{2}\\)....(1) Now, \\(b^{2}\\) – ac = (a + \\(d)^{2}\\) − a(a + 2d) = \\(a^{2}\\) + 2ad + \\(d^{2}\\) – \\(a^{2}\\) − 2ad = \\(d^{2}\\). Also, \\(a^{2}\\) + \\(b^{2}\\) + \\(c^{2}\\) = \\(a^{2}\\) + (a + d) 2 + (a + 2d) 2 = a² + a² + 2ad + \\(d^{2}\\) + \\(a^{2}\\) + 4ad + \\(4d^{2}\\) = \\(3a^{2}\\) + 6ad + \\(5d^{2}\\) = \\(3(a^{2}\\) + 2ad) + \\(5d^{2}\\). Using equation (1), \\(a^{2}\\) + \\(b^{2}\\) + \\(c^{2}\\) = \\(3d^{2}\\) + \\(5d^{2}\\) = \\(8d^{2}\\). Hence, \\((a^{2}\\) + \\(b^{2}\\) + \\(c^{2}\\)\\()/(b^{2}\\) − ac) = \\(8d^{2}\\)\\(/d^{2}\\) = 8. P → 4. Q: Given x = \\(\\frac{u+v}{2}\\), one has 2x = u + v. Therefore, 2 2 2 2 (2x) − (u − v) = (u + v) − (u − v) = 4uv. Since u, y, z, v form a G.P., let the common ratio be r. Then y = ur, z = \\(ur^{2},\\) v = \\(ur^{3}.\\) Hence, yz = \\(u^{2} r^{3}\\) and uv = \\(u^{2} r^{3}.\\) 2 2 Therefore, yz = uv. (2x) \\(\\frac{−(u−v)}{yz}\\) = \\(\\frac{4uv}{uv}\\) = 4. Q → 2. R: Let the common ratio be r > 1. Then b = ar, c = \\(ar^{2}.\\) The condition c + 8a < 6b \\(ar^{2}\\) + 8a < 6ar. Since a > 0, \\(r^{2}\\) − 6r + 8 < 0. (r − 2) (r − 4) < 0. 2 < r < 4. R → 1. S: Solve \\(\\frac{(x+3)(x−6)}{(x−1)(x−4)}\\) ≤ 0. x ∈ [−3, 1) ∪ (4, 6]. The integral values are −3, − 2, − 1, 0, 5, 6. Therefore, the number of integral values is 6. S → 3. with",
     "image": "",
     "optionImages": [],
