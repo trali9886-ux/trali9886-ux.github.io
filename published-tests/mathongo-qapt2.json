@@ -1294,6 +1294,32 @@
       }
     ],
     "id": "mathongo-qapt2",
-    "questionDisplay": "text"
+    "questionDisplay": "text",
+    "slug": "mathongo-qapt2",
+    "name": "QAPT 2",
+    "category": "mathongo",
+    "exam": "JEE Advanced · Paper 2",
+    "durationSeconds": 10800,
+    "defaultMarks": 4,
+    "expectedQuestionCount": 51,
+    "advanced": true,
+    "paperNumber": 2,
+    "maxMarks": 180,
+    "description": "Physics, Chemistry and Mathematics — each subject has 8 single-correct, 4 multiple-correct and 5 numerical questions.",
+    "markingNote": "180 marks · Section-specific marking and partial credit",
+    "scheme": [
+      {
+        "label": "Single Correct:",
+        "text": "+3 for correct, −1 for incorrect, 0 unanswered."
+      },
+      {
+        "label": "Multiple Correct:",
+        "text": "+4 for all correct options and no incorrect options. If you choose only some correct options, +1 for one, +2 for two, or +3 for three (when all four are correct). Selecting any incorrect option gives −2. Unanswered: 0."
+      },
+      {
+        "label": "Numerical:",
+        "text": "+4 for the correct value; 0 for incorrect or unanswered. Use up to two decimal places as directed by the paper."
+      }
+    ]
   }
 }
