@@ -763,7 +763,12 @@
     "type": "mcq",
     "section": "MCQ",
     "text": "For a zero-order reaction, the rate constant is k = 0.040 mol \\(L^{−1}\\) \\(s^{−1}\\). Let a be the numerical value of the initial concentration in mol \\(L^{−1}\\), and let t50 be the numerical half-life in seconds. Which plot correctly represents logt50 versus log a, including both slope and intercept?",
-    "options": [],
+    "options": [
+     "Option A",
+     "Option B",
+     "Option C",
+     "Option D"
+    ],
     "answer": "1",
     "solution": "For zero order, t50 = a/ (2k) = 12.5a. Therefore \\(log_{10} t50\\) = \\(log_{10} a\\) + \\(log_{10}\\) (12.5) = \\(log_{10} a\\). + 1.0969 The required line has slope +1 and intercept 1.0969, which is Plot 1.",
     "image": "/tests/rts6/figures/rts6-p8-2.png",
@@ -883,7 +888,12 @@
     "type": "mcq",
     "section": "MCQ",
     "text": "For the reaction A → B in a constant-volume vessel, the graph between [B] and t is given by Which graph correctly represents –d[A]/dt over the entire time interval?<br><br><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -6 342 212\" role=\"img\" aria-label=\"Graph of concentration of B against time t showing a straight line rising from the origin\">\n  <defs>\n    <marker id=\"arrow-rts6-q38\" viewBox=\"0 0 7 7\" refX=\"7\" refY=\"3.5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n      <path d=\"M0 0 L7 3.5 L0 7\" fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.2\"/>\n    </marker>\n  </defs>\n  <line x1=\"27\" y1=\"184\" x2=\"27\" y2=\"2\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-rts6-q38)\" fill=\"none\"/>\n  <line x1=\"27\" y1=\"183\" x2=\"335\" y2=\"183\" stroke=\"#657568\" stroke-width=\"1.7\" marker-end=\"url(#arrow-rts6-q38)\" fill=\"none\"/>\n  <line x1=\"27\" y1=\"183\" x2=\"285\" y2=\"63\" stroke=\"#266e5d\" stroke-width=\"1.7\" fill=\"none\"/>\n  <text x=\"191\" y=\"205\" font-style=\"italic\" fill=\"#6c7d70\">t</text>\n  <text x=\"4\" y=\"95\" fill=\"#6c7d70\">[B]</text>\n</svg>",
-    "options": [],
+    "options": [
+     "Option A",
+     "Option B",
+     "Option C",
+     "Option D"
+    ],
     "answer": "2",
     "solution": "Before \\(t^{*}\\), [B] increases linearly, so d [B]/dt is constant. With 1: 1 stoichiometry, −d [A]/dt = d [B]/dt, hence the disappearance rate is constant while A remains. After A is exhausted at \\(t^{*}\\), both concentration change and reaction rate are zero; this is Graph 2.",
     "image": "",
@@ -1051,7 +1061,12 @@
     "type": "mcq",
     "section": "MCQ",
     "text": "Which of the following graphs is correct for the reaction of A + 2B →C?",
-    "options": [],
+    "options": [
+     "Option A",
+     "Option B",
+     "Option C",
+     "Option D"
+    ],
     "answer": "4",
     "solution": "Rate of reaction =– \\(\\frac{d[A]}{dt}\\) =– \\(\\frac{1}{2}\\) \\(\\frac{d[B]}{dt}\\) = \\(\\frac{d[C]}{dt}\\) d[B] d[A] – =– 2 dt dt",
     "image": "/tests/rts6/figures/rts6-p11-1.png",

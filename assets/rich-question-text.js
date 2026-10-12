@@ -61,6 +61,9 @@
       host.appendChild(rich);
     }
     rich.innerHTML = sanitize(html);
+    if (window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+      window.MathJax.typesetPromise([rich]).catch(() => {});
+    }
   }
 
   function scan() {
