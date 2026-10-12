@@ -35,7 +35,7 @@
           "$2\\sqrt{3}$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Meeting condition:<br>(H − 1gt2 ) = ut − 1gt2 ⟹t = H<br>2 2 u<br>Height of ﬁr st body at meeting:<br>H − 1 g( H ) 2 = H ⟹u2 = 3gH<br>2 u 3 4<br>Speed of ﬁr st body at meeting:<br>v2 = 2g (H − H ) = 4gH<br>1 3 3<br>Speed of second body at meeting:<br>v2 = u2 − 2g ( H )<br>2 3 2 3 1<br>= 4 gH − 3gH = 12gH<br>Ratio of speeds:−−−−<br>n = v1 = √ 4/3 = √−16− = 4<br>v2 1/12",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Meeting condition:<br>(H − 1gt2 ) = ut − 1gt2 ⟹t = H<br>2 2 u<br>Height of first body at meeting:<br>H − 1 g( H ) 2 = H ⟹u2 = 3gH<br>2 u 3 4<br>Speed of first body at meeting:<br>v2 = 2g (H − H ) = 4gH<br>1 3 3<br>Speed of second body at meeting:<br>v2 = u2 − 2g ( H )<br>2 3 2 3 1<br>= 4 gH − 3gH = 12gH<br>Ratio of speeds:−−−−<br>n = v1 = √ 4/3 = √−16− = 4<br>v2 1/12",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -59,7 +59,7 @@
           "$\\frac{80}{\\sqrt{3}}\\text{ m}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Initial angle and speed from trajectory:–<br>tan θ = √3⟹θ = 60∘<br>Comparing coefficient of x2:<br>g = 1<br>2u2cos260∘ 20<br>⟹ 10 = 1 ⟹u = 20 m/s<br>2u2 (1/4) 20<br>Condition for perpendicular velocity:<br>→v ⋅→u = 0⟹u2 − ugt sin θ = 0<br>⟹t = u = 20 = 4  s<br>g sinθ 10×(√3/2) √3<br>Coordinates at time t:<br>x = (u cos 60∘ )t = 10× 4 = 40  m<br>√3 √3<br>Vertical coordinate:<br>y = (u sin 60∘ )t − 1gt2<br>2<br>√– 4 16 40<br>= 10 3 ( √3 ) − 5 ( 3 ) = 3  m<br>Distance from origin:<br>r = √−x−2−+−−y−2 = √−1600−−−+−−−1600−−=√−6400−−−<br>3 9 9<br>80<br>= 3  m",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Initial angle and speed from trajectory:–<br>tan θ = √3⟹θ = 60∘<br>Comparing coefficient of x2:<br>g = 1<br>2u2cos260∘ 20<br>⟹ 10 = 1 ⟹u = 20 m/s<br>2u2 (1/4) 20<br>Condition for perpendicular velocity:<br>→v ⋅→u = 0⟹u2 − ugt sin θ = 0<br>⟹t = u = 20 = 4  s<br>g sinθ 10×(√3/2) √3<br>Coordinates at time t:<br>x = (u cos 60∘ )t = 10× 4 = 40  m<br>√3 √3<br>Vertical coordinate:<br>y = (u sin 60∘ )t − 1gt2<br>2<br>√– 4 16 40<br>= 10 3 ( √3 ) − 5 ( 3 ) = 3  m<br>Distance from origin:<br>r = √−x−2−+−−y−2 = √−1600−−−+−−−1600−−=√−6400−−−<br>3 9 9<br>80<br>= 3  m",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -107,7 +107,7 @@
           "$25\\text{ m/s}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Motion of stone A to reach ground:<br>−90 = 15tA − 1(10)t2 ⟹t2 − 3tA − 18<br>2 A A<br>= 0⟹tA = 6 s<br>Height of balloon at release of stone B: yB(0) =<br>90 + 15(2) = 120 m<br>Time available for stone B: tB = tA − 2 = 4 s<br>Initial velocity of stone B relative to ground: uB =<br>15 − v<br>Displacement of stone B:<br>−120 = (15 − v)(4) − 1 (10)(4)2 ⟹ − 120<br>2<br>= 60 − 4v − 80<br>Solving for v: 4v = 100 ⇒ v = 25 m/s",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Motion of stone A to reach ground:<br>−90 = 15tA − 1(10)t2 ⟹t2 − 3tA − 18<br>2 A A<br>= 0⟹tA = 6 s<br>Height of balloon at release of stone B: yB(0) =<br>90 + 15(2) = 120 m<br>Time available for stone B: tB = tA − 2 = 4 s<br>Initial velocity of stone B relative to ground: uB =<br>15 − v<br>Displacement of stone B:<br>−120 = (15 − v)(4) − 1 (10)(4)2 ⟹ − 120<br>2<br>= 60 − 4v − 80<br>Solving for v: 4v = 100 ⇒ v = 25 m/s",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -179,7 +179,7 @@
           "$\\frac{14}{3\\pi}$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Formula for average value:<br>f = 1 ∫ b f (θ) dθ<br>avg b−a a<br>1 π/2<br>= π−0 ∫0 (3 sin θ + 4 cos θ) dθ<br>2<br>Indeﬁnit e integral:<br>∫ (3 sin θ + 4 cos θ) dθ = −3 cos θ + 4 sin θ<br>Applying limits from 0 to π :<br>π π 2<br>[−3 cos 2 + 4 sin 2 ] − [−3 cos 0 + 4 sin 0]<br>= (0 + 4) − (−3 + 0) = 7<br>Computing average value: favg = 2 ×7 = 14<br>π π",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Formula for average value:<br>f = 1 ∫ b f (θ) dθ<br>avg b−a a<br>1 π/2<br>= π−0 ∫0 (3 sin θ + 4 cos θ) dθ<br>2<br>Indefinite integral:<br>∫ (3 sin θ + 4 cos θ) dθ = −3 cos θ + 4 sin θ<br>Applying limits from 0 to π :<br>π π 2<br>[−3 cos 2 + 4 sin 2 ] − [−3 cos 0 + 4 sin 0]<br>= (0 + 4) − (−3 + 0) = 7<br>Computing average value: favg = 2 ×7 = 14<br>π π",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -227,7 +227,7 @@
           "$\\frac{3}{2} d$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let r = distance, θ = angle with x-axis:<br>dr<br>− dt = v − u cos θ<br>Integrating separation distance to intercept:<br>∫ 0 (−dr) = d = ∫ T (v − u cos θ) dt<br>d 0<br>= vT − u ∫ T cos θ dt<br>0<br>Displacement along x-axis to intercept:<br>x (T ) = ∫ T v cos θ dt = uT<br>P 0<br>T uT<br>⟹ ∫0 cos θ dt = v<br>Substitute into separation equation:<br>d = vT − u ( uT ) = T ( v2−u2 )<br>v v<br>Total time of ﬂ ight: T= vd<br>v2−u2<br>Total distance traveled by pursuer:<br>v2d<br>s = vT = v2−u2<br>Substitute v = 2u: (2u)2d 4<br>s = 2 2 = 3 d<br>(2u) −u",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let r = distance, θ = angle with x-axis:<br>dr<br>− dt = v − u cos θ<br>Integrating separation distance to intercept:<br>∫ 0 (−dr) = d = ∫ T (v − u cos θ) dt<br>d 0<br>= vT − u ∫ T cos θ dt<br>0<br>Displacement along x-axis to intercept:<br>x (T ) = ∫ T v cos θ dt = uT<br>P 0<br>T uT<br>⟹ ∫0 cos θ dt = v<br>Substitute into separation equation:<br>d = vT − u ( uT ) = T ( v2−u2 )<br>v v<br>Total time of flight: T= vd<br>v2−u2<br>Total distance traveled by pursuer:<br>v2d<br>s = vT = v2−u2<br>Substitute v = 2u: (2u)2d 4<br>s = 2 2 = 3 d<br>(2u) −u",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -251,7 +251,7 @@
           "$\\frac{1}{2} x^2 \\sin(x^2) + \\frac{1}{2} \\cos(x^2) + C$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Substituting variable:<br>u = x2 ⇒ du = 2x dx<br>Integral in terms of u:<br>∫ x3 cos(x2 ) dx = 1 ∫ u cos u du<br>2<br>Integrating by parts:<br>1 [u sin u − ∫ sin u du]<br>2 1<br>= 2 [u sin u + cos u] + C<br>Back-substituting u:<br>1 2 2 1 2<br>2 x sin(x ) + 2 cos(x ) + C",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Substituting variable:<br>u = x2 ⇒ du = 2x dx<br>Integral in terms of u:<br>∫ x3 cos(x2 ) dx = 1 ∫ u cos u du<br>2<br>Integrating by parts:<br>1 [u sin u − ∫ sin u du]<br>2 1<br>= 2 [u sin u + cos u] + C<br>Back-substituting u:<br>1 2 2 1 2<br>2 x sin(x ) + 2 cos(x ) + C",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -275,7 +275,7 @@
           "$16\\text{ m}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Velocity as a function of time:<br>t<br>v(t) = 9 + ∫ (6t − 12) dt = 3t2 − 12t + 9<br>0<br>= 3(t − 1)(t − 3)<br>Reversal of velocity occurs at: t = 1 s and t = 3 s<br>Position as a function of time:<br>x(t) = ∫ t(3t2 − 12t + 9) dt = t3 − 6t2<br>0<br>+ 9t<br>Positions at critical times: x(0) = 0 m, x(1) = 4 m,<br>x(3) = 0 m, x(4) = 4 m<br>Total distance travelled: s = |x(1) − x(0)| + |x(3) −<br>x(1)| + |x(4) − x(3)| = 4 + 4 + 4 = 12 m",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Velocity as a function of time:<br>t<br>v(t) = 9 + ∫ (6t − 12) dt = 3t2 − 12t + 9<br>0<br>= 3(t − 1)(t − 3)<br>Reversal of velocity occurs at: t = 1 s and t = 3 s<br>Position as a function of time:<br>x(t) = ∫ t(3t2 − 12t + 9) dt = t3 − 6t2<br>0<br>+ 9t<br>Positions at critical times: x(0) = 0 m, x(1) = 4 m,<br>x(3) = 0 m, x(4) = 4 m<br>Total distance travelled: s = |x(1) − x(0)| + |x(3) −<br>x(1)| + |x(4) − x(3)| = 4 + 4 + 4 = 12 m",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -347,7 +347,7 @@
           "8"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Equation of motion: dv = −α√v<br>dt<br>Integrating for velocity:<br>∫ v v−1/2  dv = −α ∫ t dt⟹2√v = 2√−v−0<br>v0 0<br>− αt 2 v<br>Total time to stop: T = √ 0<br>α 2<br>Velocity as function of time: v(t) = α (T − t)2<br>4<br>Distance in ﬁr st half of time:<br>s = ∫ T/2 α2(T − t)2  dt = α2 [T 3 − (T )3 ]<br>1 0 4 12 2<br>= 7( α2T3 )<br>8 12<br>Distance in second half of time:<br>s = ∫ T α2 (T − t)2  dt = α2( T )3<br>2 T /2 4 12 2<br>= 1( α2T3 )<br>8 12<br>Ratio of distances: s1 = 7/8 = 7<br>s2 1/8",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Equation of motion: dv = −α√v<br>dt<br>Integrating for velocity:<br>∫ v v−1/2  dv = −α ∫ t dt⟹2√v = 2√−v−0<br>v0 0<br>− αt 2 v<br>Total time to stop: T = √ 0<br>α 2<br>Velocity as function of time: v(t) = α (T − t)2<br>4<br>Distance in first half of time:<br>s = ∫ T/2 α2(T − t)2  dt = α2 [T 3 − (T )3 ]<br>1 0 4 12 2<br>= 7( α2T3 )<br>8 12<br>Distance in second half of time:<br>s = ∫ T α2 (T − t)2  dt = α2( T )3<br>2 T /2 4 12 2<br>= 1( α2T3 )<br>8 12<br>Ratio of distances: s1 = 7/8 = 7<br>s2 1/8",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -371,7 +371,7 @@
           "$4x\\sqrt{x} - 3\\sqrt{x} + C$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Rewrite integrand:<br>6x−3 1/2 −1/2<br>√x = 6x − 3x<br>Integrate term by term:<br>∫ (6x1/2 − 3x−1/2 ) dx = 6 ( x3/2)<br>3/2<br>1/2<br>− 3 ( x ) + C<br>1/2<br>Simplify expression:<br>3/2 1/2 −− −−<br>= 4x − 6x + C = 4x√x − 6√x + C",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Rewrite integrand:<br>6x−3 1/2 −1/2<br>√x = 6x − 3x<br>Integrate term by term:<br>∫ (6x1/2 − 3x−1/2 ) dx = 6 ( x3/2)<br>3/2<br>1/2<br>− 3 ( x ) + C<br>1/2<br>Simplify expression:<br>3/2 1/2 −− −−<br>= 4x − 6x + C = 4x√x − 6√x + C",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -395,7 +395,7 @@
           "$\\frac{5}{4}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Coordinate unit vectors:<br>^ ^ ^<br>i = East, j = North, k = Up<br>Rain velocity vector from ﬁr st case:<br>→ ^ ^ → ^ ^<br>v r − 6 i = −vz k⟹ v r = 6 i − vzk<br>Vertical speed from actual rain speed:<br>|→v | = √−6−2−+−−v−2 = 10 m/s⟹v = 8 m/s<br>r z z<br>Relative velocity when running North:<br>→ → ^ ^ ^ ^<br>v r/m = v r− 8 j = 6 i − 8j − 8k<br>Apparent horizontal speed:−−−−−−−−−<br>vhoriz = √62 + (−8)2 = 10 m/s<br>Tangent of angle with vertical:<br>tan β = vhoriz= 10 = 5<br>vz 8 4",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Coordinate unit vectors:<br>^ ^ ^<br>i = East, j = North, k = Up<br>Rain velocity vector from first case:<br>→ ^ ^ → ^ ^<br>v r − 6 i = −vz k⟹ v r = 6 i − vzk<br>Vertical speed from actual rain speed:<br>|→v | = √−6−2−+−−v−2 = 10 m/s⟹v = 8 m/s<br>r z z<br>Relative velocity when running North:<br>→ → ^ ^ ^ ^<br>v r/m = v r− 8 j = 6 i − 8j − 8k<br>Apparent horizontal speed:−−−−−−−−−<br>vhoriz = √62 + (−8)2 = 10 m/s<br>Tangent of angle with vertical:<br>tan β = vhoriz= 10 = 5<br>vz 8 4",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -419,7 +419,7 @@
           "$\\frac{3}{4}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For Car 2, which accelerates uniformly from rest<br>throughout the race:<br>L = 1 aT 2<br>2<br>−2−L−<br>T = √ a<br>Hence, the ﬁna l speed of Car 2 is<br>−−−<br>v2 = aT = √2aL<br>Let<br>vmax<br>y =<br>v2<br>Therefore,<br>−−−<br>vmax = y√2aL<br>For Car 1,<br>= 25 a<br>a1 16<br>Time taken by Car 1 to reach its maximum speed<br>is<br>vmax 16 −2−L−<br>t1 = a = 25 y√ a<br>1<br>Distance covered during this acceleration is<br>vmax 2 16 2<br>s1 = 2a = 25 y L<br>1<br>The remaining distance is covered with constant<br>speed vmax . Thus, the cruising time is<br>t = L − s1<br>2 vmax<br>−−−<br>t = 1 √ 2L ( 1 − 16 y)<br>2 2 a y 25<br>Since both cars ﬁnish th e race at the same time,<br>t + t = T<br>1 2<br>−−−<br>Dividing throughout by T = √ 2L , we get<br>a<br>16 1 8<br>25 y + 2y − 25 y = 1<br>8 1<br>y + = 1<br>25 2y<br>Therefore,<br>16y 2 − 50y + 25 = 0<br>50 ± 30<br>y = 32<br>y = 5 or y = 5<br>2 8<br>Now Car 1 must attain vmax before reaching the<br>ﬁnish l ine. Hence the distance covered during<br>acceleration must satisfy<br>s1 ≤ L<br>For y = 5 ,<br>2<br>2<br>16 5<br>s1 = 25 ( 2 ) L = 4L > L<br>Therefore, y = 5 is physically inadmissible.<br>5 2<br>For y = 8 ,<br>2<br>s = 16 ( 5 ) L = L < L<br>1 25 8 4<br>Hence, the physically valid ratio is<br>vmax = 5<br>v2 8<br>Correct answer: Option (C)",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For Car 2, which accelerates uniformly from rest<br>throughout the race:<br>L = 1 aT 2<br>2<br>−2−L−<br>T = √ a<br>Hence, the final speed of Car 2 is<br>−−−<br>v2 = aT = √2aL<br>Let<br>vmax<br>y =<br>v2<br>Therefore,<br>−−−<br>vmax = y√2aL<br>For Car 1,<br>= 25 a<br>a1 16<br>Time taken by Car 1 to reach its maximum speed<br>is<br>vmax 16 −2−L−<br>t1 = a = 25 y√ a<br>1<br>Distance covered during this acceleration is<br>vmax 2 16 2<br>s1 = 2a = 25 y L<br>1<br>The remaining distance is covered with constant<br>speed vmax . Thus, the cruising time is<br>t = L − s1<br>2 vmax<br>−−−<br>t = 1 √ 2L ( 1 − 16 y)<br>2 2 a y 25<br>Since both cars finish the race at the same time,<br>t + t = T<br>1 2<br>−−−<br>Dividing throughout by T = √ 2L , we get<br>a<br>16 1 8<br>25 y + 2y − 25 y = 1<br>8 1<br>y + = 1<br>25 2y<br>Therefore,<br>16y 2 − 50y + 25 = 0<br>50 ± 30<br>y = 32<br>y = 5 or y = 5<br>2 8<br>Now Car 1 must attain vmax before reaching the<br>finish line. Hence the distance covered during<br>acceleration must satisfy<br>s1 ≤ L<br>For y = 5 ,<br>2<br>2<br>16 5<br>s1 = 25 ( 2 ) L = 4L > L<br>Therefore, y = 5 is physically inadmissible.<br>5 2<br>For y = 8 ,<br>2<br>s = 16 ( 5 ) L = L < L<br>1 25 8 4<br>Hence, the physically valid ratio is<br>vmax = 5<br>v2 8<br>Correct answer: Option (C)",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -443,7 +443,7 @@
           "$10\\pi\\text{ cm}^2/\\text{s}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let h be the depth, r the radius, and l the slant<br>height of the water cone. By similar triangles:<br>r = 6 = 3⟹r = 3h<br>h 8 4 4<br>Slant height of the cone of water:<br>−−2−−−−2 −−3−−−2−−−−2 5<br>l = √r + h = √( 4 h) + h = 4 h<br>Volume of water in the cone:<br>V = 1 πr2 h = 1π( 3h)2 h = 3π h3<br>3 3 4 16<br>Differentiating volume with respect to time:<br>dV = 9π h2 dh<br>dt 16 ddVt 3<br>Substituting dt = 18πcm /s and h = 4 cm:<br>18π = 9π (4)2 dh = 9π dh ⟹ dh = 2 cm/s<br>16 dt dt dt<br>The wetted lateral surface area is:<br>3 5 15π 2<br>A = πrl = π ( 4h) ( 4h) = 16 h<br>Differentiating area with respect to time:<br>dA = 15π h dh = 15π (4)(2) = 15πcm2 /s<br>dt 8 dt 8",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let h be the depth, r the radius, and l the slant<br>height of the water cone. By similar triangles:<br>r = 6 = 3⟹r = 3h<br>h 8 4 4<br>Slant height of the cone of water:<br>−−2−−−−2 −−3−−−2−−−−2 5<br>l = √r + h = √( 4 h) + h = 4 h<br>Volume of water in the cone:<br>V = 1 πr2 h = 1π( 3h)2 h = 3π h3<br>3 3 4 16<br>Differentiating volume with respect to time:<br>dV = 9π h2 dh<br>dt 16 ddVt 3<br>Substituting dt = 18πcm /s and h = 4 cm:<br>18π = 9π (4)2 dh = 9π dh ⟹ dh = 2 cm/s<br>16 dt dt dt<br>The wetted lateral surface area is:<br>3 5 15π 2<br>A = πrl = π ( 4h) ( 4h) = 16 h<br>Differentiating area with respect to time:<br>dA = 15π h dh = 15π (4)(2) = 15πcm2 /s<br>dt 8 dt 8",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -491,7 +491,7 @@
           "$\\sqrt{6}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> → →<br>Let θ be the angle between A and B . Using the<br>deﬁnitions o f cross product magnitude and dot<br>product:→→ → →<br>|A × B | = AB sin θ, A ⋅B = AB cos θ<br>Equating from the given relation:<br>AB √–AB ⟹<br>sin θ = 3 cos θ tan θ<br>= √–⟹θ ∘<br>3 = 60<br>Using the expression for the resultant magnitude:<br>→ → 2 2 2 ∘ 2<br>|A + B | = A + B + 2AB cos 60 = A<br>2<br>+ B + AB<br>Given that → → √– :<br>|A + B | = 7A<br>A2 + B2 + AB = 7A2 ⇒ B2 + AB − 6A2 = 0<br>Dividing throughout by A2 and solving the<br>quadratic equation:<br>2<br>( B ) + ( B ) − 6 = 0⟹ ( B + 3) ( B − 2)<br>A A A A<br>= 0<br>Since vector magnitudes must be positive:<br>B = 2<br>A",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> → →<br>Let θ be the angle between A and B . Using the<br>definitions of cross product magnitude and dot<br>product:→→ → →<br>|A × B | = AB sin θ, A ⋅B = AB cos θ<br>Equating from the given relation:<br>AB √–AB ⟹<br>sin θ = 3 cos θ tan θ<br>= √–⟹θ ∘<br>3 = 60<br>Using the expression for the resultant magnitude:<br>→ → 2 2 2 ∘ 2<br>|A + B | = A + B + 2AB cos 60 = A<br>2<br>+ B + AB<br>Given that → → √– :<br>|A + B | = 7A<br>A2 + B2 + AB = 7A2 ⇒ B2 + AB − 6A2 = 0<br>Dividing throughout by A2 and solving the<br>quadratic equation:<br>2<br>( B ) + ( B ) − 6 = 0⟹ ( B + 3) ( B − 2)<br>A A A A<br>= 0<br>Since vector magnitudes must be positive:<br>B = 2<br>A",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -509,7 +509,7 @@
         "section": "Numerical",
         "text": "A projectile is launched from ground level over horizontal ground. It just clears the tops of two vertical hurdles, each of height $15\\text{ m}$, situated at horizontal distances of $15\\text{ m}$ and $45\\text{ m}$ from the point of projection. Taking $g = 10\\text{ m/s}^2$, the speed of projection (in $\\text{m/s}$) is",
         "answer": "25",
-        "solution": "<b>Ans. (25)</b><br><b>Sol.</b> Equation of trajectory: y = x tan θ (1 − Rx)<br>Using hurdles at equal height:<br>x1 (1 − x1 ) = x2 (1 − x2 )<br>R R<br>⟹R = x1 + x2 = 15 + 45 = 60 m<br>Finding projection angle:<br>15 = 15 tan θ(1 − 15 ) ⟹ tan θ = 4<br>60 3<br>Components of angle:<br>sin θ = 4, cos θ = 3<br>5 5<br>Using range expression:<br>R = 2u2 sinθ cosθ<br>g<br>2u2(4/5)(3/5) 24u2<br>⟹60 = 10 = 250<br>Speed of projection: u2 = 625 ⇒ u = 25 m/s",
+        "solution": "<b>Ans. (25)</b><br><b>Sol.</b> Equation of trajectory: y = x tan θ (1 − Rx)<br>Using hurdles at equal height:<br>x1 (1 − x1 ) = x2 (1 − x2 )<br>R R<br>⟹R = x1 + x2 = 15 + 45 = 60 m<br>Finding projection angle:<br>15 = 15 tan θ(1 − 15 ) ⟹ tan θ = 4<br>60 3<br>Components of angle:<br>sin θ = 4, cos θ = 3<br>5 5<br>Using range expression:<br>R = 2u2 sinθ cosθ<br>g<br>2u2(4/5)(3/5) 24u2<br>⟹60 = 10 = 250<br>Speed of projection: u2 = 625 ⇒ u = 25 m/s",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -545,7 +545,7 @@
         "section": "Numerical",
         "text": "A particle moves in the $xy$-plane along the trajectory $y = \\frac{x^3}{6} - x^2 + 2x$ (where $x$ and $y$ are in meters). The $x$-component of its velocity is constant at $v_x = 3\\text{ m/s}$. At the point on its path where $x > 0$ and the tangent to the trajectory has a slope of $2$, the magnitude of the particle's acceleration is $a\\text{ m/s}^2$. The value of $a$ is",
         "answer": "18",
-        "solution": "<b>Ans. (18)</b><br><b>Sol.</b> Slope of trajectory: dy = x2 − 2x + 2<br>dx 2<br>Equating slope to 2:<br>x2 − 2x + 2 = 2⟹ x2 − 2x = 0⟹x<br>2 2<br>= 4 m (since x > 0)<br>d2y<br>Second derivative of path: dx2 = x − 2<br>d 2y∣ −1<br>Value at x = 4 m: dx2 ∣ = 4 − 2 = 2 m<br>x=4<br>Acceleration components:<br>dvx 2 d 2y 2<br>ax = dt = 0, ay = vx dx2 = (3) ×2<br>= 18 m/s2<br>Magnitude of total acceleration:<br>a = √−a−2 −+−−a−2 = 18 m/s2<br>x y",
+        "solution": "<b>Ans. (18)</b><br><b>Sol.</b> Slope of trajectory: dy = x2 − 2x + 2<br>dx 2<br>Equating slope to 2:<br>x2 − 2x + 2 = 2⟹ x2 − 2x = 0⟹x<br>2 2<br>= 4 m (since x > 0)<br>d2y<br>Second derivative of path: dx2 = x − 2<br>d 2y∣ −1<br>Value at x = 4 m: dx2 ∣ = 4 − 2 = 2 m<br>x=4<br>Acceleration components:<br>dvx 2 d 2y 2<br>ax = dt = 0, ay = vx dx2 = (3) ×2<br>= 18 m/s2<br>Magnitude of total acceleration:<br>a = √−a−2 −+−−a−2 = 18 m/s2<br>x y",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -581,7 +581,7 @@
         "section": "Numerical",
         "text": "Two particles $P$ and $Q$ move in the $xy$-plane. At $t = 0$, particle $P$ starts from the origin and moves along the positive $x$-axis with a constant velocity of $4\\text{ m/s}$. At the same instant, particle $Q$ starts from the point $(0, 24\\text{ m})$ and moves along the negative $y$-axis towards the origin with a constant speed of $3\\text{ m/s}$. Let $A(t)$ denote the area of the right-angled triangle formed by the origin $O(0,0)$, particle $P$, and particle $Q$ at time $t$ before $Q$ reaches the origin. The maximum area (in $\\text{m}^2$) attained by this triangle is",
         "answer": "96",
-        "solution": "<b>Ans. (96)</b><br><b>Sol.</b> Positions as functions of time: xP(t) = 4t, yQ(t) =<br>24 − 3t, (0 ≤ t ≤ 8 s)<br>Area of triangle OPQ:<br>A(t) = 1xP (t)yQ (t) = 1 (4t)(24 − 3t)<br>2 2<br>= 48t − 6t2<br>Maximizing area:<br>dA = 48 − 12t = 0⟹t = 4 s<br>dt<br>Second derivative check:<br>d 2A<br>dt2 = −12 < 0⟹local maximum<br>Maximum area value: Amax = 48(4) − 6(4)2 = 192 −<br>96 = 96 m2",
+        "solution": "<b>Ans. (96)</b><br><b>Sol.</b> Positions as functions of time: xP(t) = 4t, yQ(t) =<br>24 − 3t, (0 ≤ t ≤ 8 s)<br>Area of triangle OPQ:<br>A(t) = 1xP (t)yQ (t) = 1 (4t)(24 − 3t)<br>2 2<br>= 48t − 6t2<br>Maximizing area:<br>dA = 48 − 12t = 0⟹t = 4 s<br>dt<br>Second derivative check:<br>d 2A<br>dt2 = −12 < 0⟹local maximum<br>Maximum area value: Amax = 48(4) − 6(4)2 = 192 −<br>96 = 96 m2",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -821,7 +821,7 @@
           "$25\\text{ mL of } 0.1\\text{ M } \\text{SnCl}_2 \\text{ to be oxidized to } \\text{Sn}^{4+}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Milli equivalent of KMnO4 = 25 × 0. 2 = 5<br>meq.<br>(a) Fe2+ → Fe3+<br>Milli equivalent of FeSO4 = 25 × 0. 2 × 1<br>= 0. 2 × 25 = 5 (same)<br>(b) H3 AsO3 → H3 AsO4<br>Milli equivalent of H3 AsO3 = 2 × 50 × 0. 1<br>= 10 (not same)<br>(c) H2 O2 → 2H+ + O2<br>Milli equivalent of H2 O2 = 25 × 0. 1 × 2 = 5<br>(same)<br>(d) Sn2+ → Sn4+<br>Milli equivalent of SnCl2 = 25 × 0. 2 = 5<br>(same)",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Milli equivalent of KMnO4 = 25 × 0. 2 = 5<br>meq.<br>(a) Fe2+ → Fe3+<br>Milli equivalent of FeSO4 = 25 × 0. 2 × 1<br>= 0. 2 × 25 = 5 (same)<br>(b) H3 AsO3 → H3 AsO4<br>Milli equivalent of H3 AsO3 = 2 × 50 × 0. 1<br>= 10 (not same)<br>(c) H2 O2 → 2H+ + O2<br>Milli equivalent of H2 O2 = 25 × 0. 1 × 2 = 5<br>(same)<br>(d) Sn2+ → Sn4+<br>Milli equivalent of SnCl2 = 25 × 0. 2 = 5<br>(same)",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -941,7 +941,7 @@
           "$5.0\\text{ mol}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Without losses, 2 mol Al gives 1 mol Al O .<br>2 3<br>Overall fractional yield through the ﬁr st two<br>steps = 0.80×0.75 = 0.60.<br>Thus 1 mol Al gives 0.5×0.60 = 0.30 mol Al O .<br>2 3<br>Required Al = 1.20/0.30 = 4.0 mol.<br>Independent check by back-calculation: 1.20 mol<br>Al2O3 needs 2.40 mol Al(OH)3 actual; before<br>75% yield this needs 3.20 mol AlCl3 actual;<br>before 80% yield this needs 4.00 mol Al.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Without losses, 2 mol Al gives 1 mol Al O .<br>2 3<br>Overall fractional yield through the first two<br>steps = 0.80×0.75 = 0.60.<br>Thus 1 mol Al gives 0.5×0.60 = 0.30 mol Al O .<br>2 3<br>Required Al = 1.20/0.30 = 4.0 mol.<br>Independent check by back-calculation: 1.20 mol<br>Al2O3 needs 2.40 mol Al(OH)3 actual; before<br>75% yield this needs 3.20 mol AlCl3 actual;<br>before 80% yield this needs 4.00 mol Al.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -965,7 +965,7 @@
           "(5, 2, 6)"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Reduction half-reaction: MnO4– + 8H⁺ +5e– →<br>Mn2⁺ +4H2O.<br>Oxidation half-reaction: SO32– + H2O → SO42–<br>+2H⁺ +2e–.<br>Multiply the ﬁr st by2 and the second by5, then<br>add and cancel: 2MnO4– +5SO32– +6H⁺ →2Mn2⁺<br>+5SO42– +3H2O.<br>Therefore (a,b,c)=(2,5,6).",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Reduction half-reaction: MnO4– + 8H⁺ +5e– →<br>Mn2⁺ +4H2O.<br>Oxidation half-reaction: SO32– + H2O → SO42–<br>+2H⁺ +2e–.<br>Multiply the first by2 and the second by5, then<br>add and cancel: 2MnO4– +5SO32– +6H⁺ →2Mn2⁺<br>+5SO42– +3H2O.<br>Therefore (a,b,c)=(2,5,6).",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -989,7 +989,7 @@
           "A\nightarrow S; B\nightarrow P; C\nightarrow Q; D\nightarrow R"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2Na + Cl2 Combination<br>→ 2NaCl reaction<br>Zn(s) +<br>CuSO (aq) Metal<br>4 displacement<br>→Cu(s)+ZnSO<br>(aq) reaction<br>4<br>Current Decompositio<br>2H2O −−−→<br>2H2 + O2 n reaction<br>−<br>3Br2 + 6OH Disproportion<br>→ BrO3− +<br>5Br− + 3H O ation reaction<br>2",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2Na + Cl2 Combination<br>→ 2NaCl reaction<br>Zn(s) +<br>CuSO (aq) Metal<br>4 displacement<br>→Cu(s)+ZnSO<br>(aq) reaction<br>4<br>Current Decompositio<br>2H2O −−−→<br>2H2 + O2 n reaction<br>−<br>3Br2 + 6OH Disproportion<br>→ BrO3− +<br>5Br− + 3H O ation reaction<br>2",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1037,7 +1037,7 @@
           "$130\\text{ g}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Let x g of metal react. Since equivalent weights<br>M:O =24:8 =3:1, oxygen gained = x/3.<br>The ﬁna l solid contains oxide mass x+x/3 + 10 g<br>unreacted metal: 4x/3 +10 =170.<br>Thus 4x/3=160, x=120 g reacted. Initial metal<br>=120+10=130 g.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Let x g of metal react. Since equivalent weights<br>M:O =24:8 =3:1, oxygen gained = x/3.<br>The final solid contains oxide mass x+x/3 + 10 g<br>unreacted metal: 4x/3 +10 =170.<br>Thus 4x/3=160, x=120 g reacted. Initial metal<br>=120+10=130 g.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1175,7 +1175,7 @@
           "$158$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Put p = √3−13− and q = √3−12−.<br>Then p3 − q3 = 1 and<br>x = p2 + pq + q 2 = 1 .<br>3 p − q<br>Hence (p − q) + 3pq (p − q) = 1,<br>which gives x3 −  3√3 −156−−⋅x2 = 1.<br>Also x − x−2 = 3pq = 3√3 −156−−, so<br>(x − x−2 )3<br>27 = 156.<br>Therefore E = 1 + 156 = 157.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Put p = √3−13− and q = √3−12−.<br>Then p3 − q3 = 1 and<br>x = p2 + pq + q 2 = 1 .<br>3 p − q<br>Hence (p − q) + 3pq (p − q) = 1,<br>which gives x3 −  3√3 −156−−⋅x2 = 1.<br>Also x − x−2 = 3pq = 3√3 −156−−, so<br>(x − x−2 )3<br>27 = 156.<br>Therefore E = 1 + 156 = 157.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1223,7 +1223,7 @@
           "The root set has exactly four elements."
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set t = 3x > 0. The equation becomes<br>∣t − 1 |+|t − 4 |+|t − 7 |=|t2 − 7∣ + 4.<br>∣ – ∣<br>Splitting at t = 1,  √7,  4,  7 and retaining<br>interval-valid roots gives<br>t = 3−√5 , 1+√5 , √53−1 .<br>2 2 2<br>Exactly the ﬁr st value is below 1; the other two<br>exceed 1.<br>Since x = log3 t, there are three real roots with<br>exactly one negative root.",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set t = 3x > 0. The equation becomes<br>∣t − 1 |+|t − 4 |+|t − 7 |=|t2 − 7∣ + 4.<br>∣ – ∣<br>Splitting at t = 1,  √7,  4,  7 and retaining<br>interval-valid roots gives<br>t = 3−√5 , 1+√5 , √53−1 .<br>2 2 2<br>Exactly the first value is below 1; the other two<br>exceed 1.<br>Since x = log3 t, there are three real roots with<br>exactly one negative root.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1247,7 +1247,7 @@
           "$((-\\infty, 1), [1, 2))$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Because 8 = 23 , the ﬁr st inequality reduces<br>2<br>x − 3x + 2 > 0, hence<br>A = (−∞, 1) ∪ (2, ∞).<br>The logarithmic condition<br>ln (5 − x2 ) > 0 means 5 − x2 > 1, so<br>B = (−2, 2).<br>Therefore A ∩ B = (−2, 1) and<br>B − A =  [1, 2).",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Because 8 = 23 , the first inequality reduces<br>2<br>x − 3x + 2 > 0, hence<br>A = (−∞, 1) ∪ (2, ∞).<br>The logarithmic condition<br>ln (5 − x2 ) > 0 means 5 − x2 > 1, so<br>B = (−2, 2).<br>Therefore A ∩ B = (−2, 1) and<br>B − A =  [1, 2).",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1271,7 +1271,7 @@
           "33"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Modulo 3, 2m − 2 ≡ 0 exactly when m  is odd.<br>Where x ≡ r (mod y) means remainder r when<br>x is divided by y.<br>Modulo 7, powers of 3 have period 6 and<br>3m ≡ −1  exactly when m  ≡  3 (mod 6).<br>Thus admissible values are 27, 33, … ,207.<br>Their number is (207 − 27)/6  +  1  =  31.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Modulo 3, 2m − 2 ≡ 0 exactly when m  is odd.<br>Where x ≡ r (mod y) means remainder r when<br>x is divided by y.<br>Modulo 7, powers of 3 have period 6 and<br>3m ≡ −1  exactly when m  ≡  3 (mod 6).<br>Thus admissible values are 27, 33, … ,207.<br>Their number is (207 − 27)/6  +  1  =  31.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1295,7 +1295,7 @@
           "12"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let t = x + λ. Then |t| = x2−5 , so x must be<br>4<br>odd with |x| ≥ 3.<br>The condition |t − x| = |λ| ≤ 5 excludes<br>|x| ≥ 9; hence only x = ±3,  ± 5,  ± 7 need<br>checking.<br>The resulting attainable values are<br>S = {−11, −5, −1, 1, 5, 11} .<br>Therefore the largest element is 11.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let t = x + λ. Then |t| = x2−5 , so x must be<br>4<br>odd with |x| ≥ 3.<br>The condition |t − x| = |λ| ≤ 5 excludes<br>|x| ≥ 9; hence only x = ±3,  ± 5,  ± 7 need<br>checking.<br>The resulting attainable values are<br>S = {−11, −5, −1, 1, 5, 11} .<br>Therefore the largest element is 11.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1319,7 +1319,7 @@
           "9"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> (x + 4) (18 – x) < 0<br>⇒(x + 4) (x – 18) > 0<br>x ∈ (–∞, –4) ∪(18, ∞) .... (1)<br>(x + 25) (5 – x) (x – 1) (x + 6) (|x| – 20) > 0<br>C-I when x < –4<br>(x + 25) (x – 5) (x – 1) (x + 6) (x + 20) > 0<br>⇒x ∈ (–25, –20) ∪ (–6, –4)<br>C-II when x > 18<br>(x + 25) (x – 5) (x –1) (x + 6)  (x – 20) < 0<br>⇒x ∈ (18, 20)<br>So,<br>x ∈(–25, –20) ∪ (–6, –4) ∪(18, 20)<br>So total integers = 6",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> (x + 4) (18 – x) < 0<br>⇒(x + 4) (x – 18) > 0<br>x ∈ (–∞, –4) ∪(18, ∞) .... (1)<br>(x + 25) (5 – x) (x – 1) (x + 6) (|x| – 20) > 0<br>C-I when x < –4<br>(x + 25) (x – 5) (x – 1) (x + 6) (x + 20) > 0<br>⇒x ∈ (–25, –20) ∪ (–6, –4)<br>C-II when x > 18<br>(x + 25) (x – 5) (x –1) (x + 6)  (x – 20) < 0<br>⇒x ∈ (18, 20)<br>So,<br>x ∈(–25, –20) ∪ (–6, –4) ∪(18, 20)<br>So total integers = 6",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1367,7 +1367,7 @@
           "210"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> to<br>Let pr = ar + br + cr. Newton sums give<br>p = 14 and p = 4p − p + 3 (−6) = 34.<br>2 3 2 1<br>Next p4 = 4p3 − p2 − 6p1 = 98.<br>Then p5 = 4p4 − p3 − 6p2 = 274.<br>Hence p5 − 2p3 = 274 − 68 = 206.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> to<br>Let pr = ar + br + cr. Newton sums give<br>p = 14 and p = 4p − p + 3 (−6) = 34.<br>2 3 2 1<br>Next p4 = 4p3 − p2 − 6p1 = 98.<br>Then p5 = 4p4 − p3 − 6p2 = 274.<br>Hence p5 − 2p3 = 274 − 68 = 206.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1391,7 +1391,7 @@
           "$\\log_{27} k = 1/2$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set r = log(2x+19) . Then r + 2 = 3, so r = 1 or<br>log(x+2) r<br>r = 2.<br>The case r = 1 gives x = −17, outside the<br>domain.<br>For r = 2, 2x + 19 = (x + 2)2  gives x = 3 or<br>–5; only k = 3 is admissible.<br>Therefore log3 (9k) = log3 27 = 3 .",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set r = log(2x+19) . Then r + 2 = 3, so r = 1 or<br>log(x+2) r<br>r = 2.<br>The case r = 1 gives x = −17, outside the<br>domain.<br>For r = 2, 2x + 19 = (x + 2)2  gives x = 3 or<br>–5; only k = 3 is admissible.<br>Therefore log3 (9k) = log3 27 = 3 .",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1415,7 +1415,7 @@
           "10"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The required elements are those in U  that are<br>neither divisors of 60, nor prime, nor multiples of<br>4.<br>Filtering the universe gives<br>{9, 14, 18, 21, 22, 25, 26, 27}.<br>Hence n (Ac ∩ Bc ∩ C c) = 8.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The required elements are those in U  that are<br>neither divisors of 60, nor prime, nor multiples of<br>4.<br>Filtering the universe gives<br>{9, 14, 18, 21, 22, 25, 26, 27}.<br>Hence n (Ac ∩ Bc ∩ C c) = 8.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1439,7 +1439,7 @@
           "51"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> −−−−−−−−−−−− √−−<br>First √(19 + 6√10 ) = 3 + 10  because<br>(3 + √−10−) 2 = 19 + 6√−10−.<br>Thus the outer radical is−−−−−−−−−<br>√−− = √– − √–.<br>√(7 − 2 10 ) 5 2<br>The full expression becomes––−−–<br>3√5 − √2  =  √45 − √2 .<br>Hence a = 45,  b = 2 and a + b = 47 .",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> −−−−−−−−−−−− √−−<br>First √(19 + 6√10 ) = 3 + 10  because<br>(3 + √−10−) 2 = 19 + 6√−10−.<br>Thus the outer radical is−−−−−−−−−<br>√−− = √– − √–.<br>√(7 − 2 10 ) 5 2<br>The full expression becomes––−−–<br>3√5 − √2  =  √45 − √2 .<br>Hence a = 45,  b = 2 and a + b = 47 .",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1463,7 +1463,7 @@
           "$(A - B) \\cup (B - C) \\cup (C - A)$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Each difference inside the brackets contains<br>elements belonging to exactly one of the three<br>sets.<br>Their union is therefore the exactly-one-<br>membership region. Its complement in<br>U  contains points belonging to at least two sets,<br>since A ∪ B ∪ C = U .<br>The at-least-two region is<br>(A ∩ B) ∪ (B ∩ C ) ∪ (C ∩ A) .",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Each difference inside the brackets contains<br>elements belonging to exactly one of the three<br>sets.<br>Their union is therefore the exactly-one-<br>membership region. Its complement in<br>U  contains points belonging to at least two sets,<br>since A ∪ B ∪ C = U .<br>The at-least-two region is<br>(A ∩ B) ∪ (B ∩ C ) ∪ (C ∩ A) .",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1535,7 +1535,7 @@
           "$A \\cup B = (-\\infty, -4] \\cup (-2, \\infty)$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> The inequalities give A = (−2, 3) and<br>B = (−∞, −4 ]∪[2, ∞).<br>Hence A ∩ B = [2, 3), A − B = (−2, 2), and<br>B − A = (−∞, −4 ]∪[3, ∞).<br>Therefore the stated symmetric difference is<br>correct, while A ∪ B = (−∞, −4] ∪ (−2, ∞).<br>Option (4) incorrectly includes –2.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> The inequalities give A = (−2, 3) and<br>B = (−∞, −4 ]∪[2, ∞).<br>Hence A ∩ B = [2, 3), A − B = (−2, 2), and<br>B − A = (−∞, −4 ]∪[3, ∞).<br>Therefore the stated symmetric difference is<br>correct, while A ∪ B = (−∞, −4] ∪ (−2, ∞).<br>Option (4) incorrectly includes –2.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1559,7 +1559,7 @@
           "$4$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2<br>At an intersection point, y = x  and<br>x = y 2 − 4y + 2.<br>Substitution gives<br>x4 − 4x2 − x + 2 = 0  = .<br>(x − 2) (x + 1) (x2 + x − 1)<br>(√5−1)<br>The positive roots are x = 2  and x = 2 ;<br>both give positive y = x².<br>Thus n (A ∩ B) = 2.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2<br>At an intersection point, y = x  and<br>x = y 2 − 4y + 2.<br>Substitution gives<br>x4 − 4x2 − x + 2 = 0  = .<br>(x − 2) (x + 1) (x2 + x − 1)<br>(√5−1)<br>The positive roots are x = 2  and x = 2 ;<br>both give positive y = x².<br>Thus n (A ∩ B) = 2.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1583,7 +1583,7 @@
           "65"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The radical domain is −−−−−−−−−−−−4−−≤−x≤10. Squaring<br>gives √((x + 4) (10 − x)) = 11 .<br>2 –<br>A second squaring yields x = 3 ± 5√3/2, and<br>both values lie in the original domain, so a = 2.<br>Thus 6 ≤ log2 m < 7, equivalently<br>64 ≤ m < 128.<br>There are 128 − 64 = 64 positive integers.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The radical domain is −−−−−−−−−−−−4−−≤−x≤10. Squaring<br>gives √((x + 4) (10 − x)) = 11 .<br>2 –<br>A second squaring yields x = 3 ± 5√3/2, and<br>both values lie in the original domain, so a = 2.<br>Thus 6 ≤ log2 m < 7, equivalently<br>64 ≤ m < 128.<br>There are 128 − 64 = 64 positive integers.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1607,7 +1607,7 @@
           "$2\\lambda + \\mu = 29$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Squaring the ﬁr st equation gives<br>2y 2 + y − 1 = 0; positivity leaves y = 1/2.<br>Therefore λ = 16 + log(1/4) 32 = 27 .<br>x 2<br>Put t = 2 > 0  in the second equation. For<br>t ≥ 1 it reduces to t2 − 7t − 8 = 0 , giving<br>t = 8; the branch 0 < t < 1 gives no valid root.<br>Hence μ = 3.<br>Thus λ − μ  =  27 − 3  =  21 .<br>2 2",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Squaring the first equation gives<br>2y 2 + y − 1 = 0; positivity leaves y = 1/2.<br>Therefore λ = 16 + log(1/4) 32 = 27 .<br>x 2<br>Put t = 2 > 0  in the second equation. For<br>t ≥ 1 it reduces to t2 − 7t − 8 = 0 , giving<br>t = 8; the branch 0 < t < 1 gives no valid root.<br>Hence μ = 3.<br>Thus λ − μ  =  27 − 3  =  21 .<br>2 2",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1631,7 +1631,7 @@
           "7"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Set t = ||x| − 1| ≥ 0. Then solve 2t = t + 1 .<br>The convex function 2t − t− 1 has exactly the<br>two non-negative zeros t = 0, 1.<br>For t = 0 , |x|= 1 gives two roots. For t = 1 ,<br>|x| = 0 or 2 gives three more roots.<br>Hence there are 5 real solutions.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Set t = ||x| − 1| ≥ 0. Then solve 2t = t + 1 .<br>The convex function 2t − t− 1 has exactly the<br>two non-negative zeros t = 0, 1.<br>For t = 0 , |x|= 1 gives two roots. For t = 1 ,<br>|x| = 0 or 2 gives three more roots.<br>Hence there are 5 real solutions.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1649,7 +1649,7 @@
         "section": "Numerical",
         "text": "Non-zero real numbers $x, y, z$ satisfy $\\frac{xy}{x+y} = 3, \\ \\frac{yz}{y+z} = \\frac{12}{7}, \\ \\frac{zx}{z+x} = \\frac{12}{5}$. Find the numerical value of $2x - 3y + z$.",
         "answer": "15",
-        "solution": "<b>Ans. (15)</b><br><b>Sol.</b> Let u = 1,  v = 1 , w = 1 . Then<br>x1 y 7 z 5<br>u + v = 3, v + w = 12 , w + u = 12 .<br>Solving gives u = 1 , v = 1 , w = 1.<br>12 4 3<br>Hence x = 12,  y = 4, z = 3.<br>Therefore<br>2x − 3y + z  =  24 − 12 + 3  =  15.",
+        "solution": "<b>Ans. (15)</b><br><b>Sol.</b> Let u = 1,  v = 1 , w = 1 . Then<br>x1 y 7 z 5<br>u + v = 3, v + w = 12 , w + u = 12 .<br>Solving gives u = 1 , v = 1 , w = 1.<br>12 4 3<br>Hence x = 12,  y = 4, z = 3.<br>Therefore<br>2x − 3y + z  =  24 − 12 + 3  =  15.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1667,7 +1667,7 @@
         "section": "Numerical",
         "text": "How many non-empty subsets of\n$\\{1, 2, 3, 4, 5, 6, 7, 8\\}$ have a product divisible by\n12?",
         "answer": "160",
-        "solution": "<b>Ans. (160)</b><br><b>Sol.</b> Count complements among all 28 = 256<br>subsets. Let A mean the product has fewer than<br>two factors of 2; then |A| = 3 ⋅24 = 48.<br>Let B mean the product has no factor 3; then<br>|B| = 26 = 64 .<br>For both A and B, only {1, 2, 5, 7} may be<br>chosen, so |A ∩ B| = 16.<br>Thus the required count is<br>256 − (48 + 64 − 16) = 160.",
+        "solution": "<b>Ans. (160)</b><br><b>Sol.</b> Count complements among all 28 = 256<br>subsets. Let A mean the product has fewer than<br>two factors of 2; then |A| = 3 ⋅24 = 48.<br>Let B mean the product has no factor 3; then<br>|B| = 26 = 64 .<br>For both A and B, only {1, 2, 5, 7} may be<br>chosen, so |A ∩ B| = 16.<br>Thus the required count is<br>256 − (48 + 64 − 16) = 160.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1703,7 +1703,7 @@
         "section": "Numerical",
         "text": "Let $S = \\left\\{x \\in [6, 7] : \\frac{(x - 1 - 3)(x + 2)}{x + 1 - 2} > 0\\right\\}$ and $T = \\{x \\in \\mathbb{Z} : x^2 - 5x - 14 \\le 0\\}$. Find the sum of the squares of all elements of $S \\cap T$.",
         "answer": "131",
-        "solution": "<b>Ans. (131)</b><br><b>Sol.</b> The rational sign chart has critical points<br>−3, −2, 1, 4 and gives<br>S = (−3, 1) ∪ [4, 7] within the stated interval;<br>–3 and 1 are poles.<br>The quadratic condition factors as<br>(x − 7) (x + 2) ≤ 0, so<br>T = {−2, −1, 0,1, 2, 3, 4, 5, 6,7}.<br>Thus S ∩ T = {−2, −1, 0, 4,5, 6, 7}.<br>The sum of squares is<br>4 + 1 + 0 + 16 + 25 + 36 + 49 = 131.",
+        "solution": "<b>Ans. (131)</b><br><b>Sol.</b> The rational sign chart has critical points<br>−3, −2, 1, 4 and gives<br>S = (−3, 1) ∪ [4, 7] within the stated interval;<br>–3 and 1 are poles.<br>The quadratic condition factors as<br>(x − 7) (x + 2) ≤ 0, so<br>T = {−2, −1, 0,1, 2, 3, 4, 5, 6,7}.<br>Thus S ∩ T = {−2, −1, 0, 4,5, 6, 7}.<br>The sum of squares is<br>4 + 1 + 0 + 16 + 25 + 36 + 49 = 131.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1721,7 +1721,7 @@
         "section": "Numerical",
         "text": "For real $x$ with $x \\neq \\pm 2, \\pm 3, \\pm 4, \\pm 7$, consider\n$$\\left(\\frac{x+2}{x-2}\\right) \\left(\\frac{x+3}{x-3}\\right) \\left(\\frac{x-4}{x+4}\\right) \\left(\\frac{x+7}{x-7}\\right) = 1$$. If $\\lambda$ is the\nnumber of real solutions, find $\\lambda^2$.",
         "answer": "9",
-        "solution": "<b>Ans. (9)</b><br><b>Sol.</b> Write the four signed shifts as 2, 3,−4, 7. Cross-<br>multiplication compares ∏ (x + ai) with<br>∏ (x − ai).<br>Their difference is 2x (e1 x2 + e3), where<br>e1 = 8  and e3 = −122 . Hence<br>4x (4x2 − 61) = 0 .<br>The roots are x = 0,  ± √61 , and none is an<br>2<br>excluded pole.<br>Thus λ = 3  and λ2 = 9.",
+        "solution": "<b>Ans. (9)</b><br><b>Sol.</b> Write the four signed shifts as 2, 3,−4, 7. Cross-<br>multiplication compares ∏ (x + ai) with<br>∏ (x − ai).<br>Their difference is 2x (e1 x2 + e3), where<br>e1 = 8  and e3 = −122 . Hence<br>4x (4x2 − 61) = 0 .<br>The roots are x = 0,  ± √61 , and none is an<br>2<br>excluded pole.<br>Thus λ = 3  and λ2 = 9.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
