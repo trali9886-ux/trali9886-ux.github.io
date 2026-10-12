@@ -657,7 +657,12 @@
         "type": "multi",
         "section": "Multiple Correct",
         "text": "Select the correct statement(s):",
-        "options": [],
+        "options": [
+          "Addition of $HgI_2$ to an aqueous solution of KI decreases the freezing point since a complex $K_2[HgI_4]$ is formed",
+          "Three aqueous solutions of ammonia labelled $A$, $B$ and $C$, with concentrations 0.1 M, 0.01 M and 0.001 M respectively, have van't Hoff factors in the order $i_A < i_B < i_C$",
+          "The vapour density of $PCl_5(g)$ dissociating into $PCl_3(g)$ and $Cl_2(g)$ is 100; the percentage dissociation of $PCl_5$ is 4.25% [Given: atomic mass of P = 31, Cl = 35.5]",
+          "If the pH of a 0.1 M monobasic acid is found to be 2, its osmotic pressure at a given temperature $T$ K is $0.11RT$"
+        ],
         "answer": "1,2",
         "maxMarks": 4,
         "negativeMarks": 2,
@@ -993,7 +998,9 @@
         "text": "For the equation $2(\\sin x-\\cos2x)-\\sin2x(1+2\\sin x)+2\\cos x=0,\\ x\\in[0,2\\pi]$,",
         "options": [
           "the values of $x$ satisfying the given equation form an A.P.",
-          "the sum of all possible values of $x$ satisfying the given equation is $4\\pi$"
+          "the sum of all possible values of $x$ satisfying the given equation is $4\\pi$",
+          "the sum of all possible values of $x$ in $[0, 2\\pi]$ satisfying the given equation is $\\frac{9\\pi}{2}$",
+          "there are five solutions of the equation in $[0, 2\\pi]$"
         ],
         "answer": "1,2",
         "maxMarks": 4,
@@ -1016,7 +1023,10 @@
         "section": "Multiple Correct",
         "text": "Let $[x]$ denote the greatest integer less than or equal to $x$. The equation $\\sin x=[1+\\sin x]+[1-\\cos x]$ has",
         "options": [
-          "The equation has no solution for $x\\in\\mathbb R$."
+          "The equation has no solution for $x\\in\\mathbb R$.",
+          "The number of solutions in the interval $[0, 2\\pi]$ is 2.",
+          "The equation has infinitely many solutions.",
+          "The number of solutions in the interval $[-\\pi, \\pi]$ is 0."
         ],
         "answer": "1,2",
         "maxMarks": 4,
