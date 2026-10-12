@@ -35,7 +35,7 @@
           "$2\\sqrt{3}$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Meeting condition:<br>(H − 1gt2 ) = ut − 1gt2 ⟹t = H<br>2 2 u<br>Height of first body at meeting:<br>H − 1 g( H ) 2 = H ⟹u2 = 3gH<br>2 u 3 4<br>Speed of first body at meeting:<br>v2 = 2g (H − H ) = 4gH<br>1 3 3<br>Speed of second body at meeting:<br>v2 = u2 − 2g ( H )<br>2 3 2 3 1<br>= 4 gH − 3gH = 12gH<br>Ratio of speeds:−−−−<br>n = v1 = √ 4/3 = √−16− = 4<br>v2 1/12",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Meeting condition:<br>$(H - \\frac{1}{2}gt^2) = ut - \\frac{1}{2}gt^2 \\Rightarrow t = \\frac{H}{u}$<br>Height of first body at meeting:<br>$H - \\frac{1}{2}g\\left(\\frac{H}{u}\\right)^2 = \\frac{H}{3} \\Rightarrow u^2 = \\frac{3}{4}gH$<br>Speed of first body at meeting:<br>$v_1^2 = 2g\\left(H - \\frac{H}{3}\\right) = \\frac{4}{3}gH$<br>Speed of second body at meeting:<br>$v_2^2 = u^2 - 2g\\left(\\frac{H}{3}\\right)$<br>$= \\frac{3}{4}gH - \\frac{2}{3}gH = \\frac{1}{12}gH$<br>Ratio of speeds:<br>$n = \\frac{v_1}{v_2} = \\sqrt{\\frac{4/3}{1/12}} = \\sqrt{16} = 4$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -59,7 +59,7 @@
           "$\\frac{80}{\\sqrt{3}}\\text{ m}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Initial angle and speed from trajectory:–<br>tan θ = √3⟹θ = 60∘<br>Comparing coefficient of x2:<br>g = 1<br>2u2cos260∘ 20<br>⟹ 10 = 1 ⟹u = 20 m/s<br>2u2 (1/4) 20<br>Condition for perpendicular velocity:<br>→v ⋅→u = 0⟹u2 − ugt sin θ = 0<br>⟹t = u = 20 = 4  s<br>g sinθ 10×(√3/2) √3<br>Coordinates at time t:<br>x = (u cos 60∘ )t = 10× 4 = 40  m<br>√3 √3<br>Vertical coordinate:<br>y = (u sin 60∘ )t − 1gt2<br>2<br>√– 4 16 40<br>= 10 3 ( √3 ) − 5 ( 3 ) = 3  m<br>Distance from origin:<br>r = √−x−2−+−−y−2 = √−1600−−−+−−−1600−−=√−6400−−−<br>3 9 9<br>80<br>= 3  m",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Initial angle and speed from trajectory:<br>$\\tan \\theta = \\sqrt{3} \\Rightarrow \\theta = 60^\\circ$<br>Comparing coefficient of $x^2$:<br>$\\frac{g}{2u^2 \\cos^2 60^\\circ} = \\frac{1}{20}$<br>$\\Rightarrow \\frac{10}{2u^2 (1/4)} = \\frac{1}{20} \\Rightarrow u = 20\\text{ m/s}$<br>Condition for perpendicular velocity:<br>$\\vec{v} \\cdot \\vec{u} = 0 \\Rightarrow u^2 - ugt \\sin \\theta = 0$<br>$\\Rightarrow t = \\frac{u}{g \\sin \\theta} = \\frac{20}{10 \\times (\\sqrt{3}/2)} = \\frac{4}{\\sqrt{3}}\\text{ s}$<br>Coordinates at time $t$:<br>$x = (u \\cos 60^\\circ)t = 10 \\times \\frac{4}{\\sqrt{3}} = \\frac{40}{\\sqrt{3}}\\text{ m}$<br>Vertical coordinate:<br>$y = (u \\sin 60^\\circ)t - \\frac{1}{2}gt^2$<br>$= 10\\sqrt{3}\\left(\\frac{4}{\\sqrt{3}}\\right) - 5\\left(\\frac{16}{3}\\right) = \\frac{40}{3}\\text{ m}$<br>Distance from origin:<br>$r = \\sqrt{x^2 + y^2} = \\sqrt{\\frac{1600}{3} + \\frac{1600}{9}} = \\sqrt{\\frac{6400}{9}}$<br>$= \\frac{80}{3}\\text{ m}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -83,7 +83,7 @@
           "$54\\pi\\text{ g s}^{-1}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The total mass of the circular plate is<br>M = σA<br>Since the area of the circular plate is<br>2<br>A = πr<br>and<br>r(t) = √−4−t−+−−9<br>we have<br>r2 = 4t + 9<br>Therefore,<br>A = π(4t + 9)<br>The surface mass density is<br>σ(t) = 2t + 1<br>Hence the total mass is<br>M (t) = π(2t + 1)(4t + 9)<br>Differentiating with respect to time,<br>dM = π[2(4t + 9) + 4(2t + 1)]<br>dt<br>Simplifying,<br>dM = π(16t + 22)<br>dt<br>At t = 4 ,<br>dM = π[16 × 4 + 22]<br>dt<br>dM<br>= 86π g s⁻¹<br>dt<br>Therefore, the rate of increase of the total mass is<br>dM<br>∴ = 86π g s⁻¹<br>dt",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The total mass of the circular plate is<br>$M = \\sigma A$<br>Since the area of the circular plate is<br>$A = \\pi r^2$<br>and<br>$r(t) = \\sqrt{4t + 9}$<br>we have<br>$r^2 = 4t + 9$<br>Therefore,<br>$A = \\pi(4t + 9)$<br>The surface mass density is<br>$\\sigma(t) = 2t + 1$<br>Hence the total mass is<br>$M(t) = \\pi(2t + 1)(4t + 9)$<br>Differentiating with respect to time,<br>$\\frac{dM}{dt} = \\pi[2(4t + 9) + 4(2t + 1)]$<br>Simplifying,<br>$\\frac{dM}{dt} = \\pi(16t + 22)$<br>At $t = 4$,<br>$\\frac{dM}{dt} = \\pi[16 \\times 4 + 22]$<br>$\\frac{dM}{dt} = 86\\pi\\text{ g s}^{-1}$<br>Therefore, the rate of increase of the total mass is<br>$\\therefore \\frac{dM}{dt} = 86\\pi\\text{ g s}^{-1}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -107,7 +107,7 @@
           "$25\\text{ m/s}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Motion of stone A to reach ground:<br>−90 = 15tA − 1(10)t2 ⟹t2 − 3tA − 18<br>2 A A<br>= 0⟹tA = 6 s<br>Height of balloon at release of stone B: yB(0) =<br>90 + 15(2) = 120 m<br>Time available for stone B: tB = tA − 2 = 4 s<br>Initial velocity of stone B relative to ground: uB =<br>15 − v<br>Displacement of stone B:<br>−120 = (15 − v)(4) − 1 (10)(4)2 ⟹ − 120<br>2<br>= 60 − 4v − 80<br>Solving for v: 4v = 100 ⇒ v = 25 m/s",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Motion of stone A to reach ground:<br>$-90 = 15t_A - \\frac{1}{2}(10)t_A^2 \\Rightarrow t_A^2 - 3t_A - 18$<br>$= 0 \\Rightarrow t_A = 6\\text{ s}$<br>Height of balloon at release of stone B: $y_B(0) = 90 + 15(2) = 120\\text{ m}$<br>Time available for stone B: $t_B = t_A - 2 = 4\\text{ s}$<br>Initial velocity of stone B relative to ground: $u_B = 15 - v$<br>Displacement of stone B:<br>$-120 = (15 - v)(4) - \\frac{1}{2}(10)(4)^2 \\Rightarrow -120$<br>$= 60 - 4v - 80$<br>Solving for $v$: $4v = 100 \\Rightarrow v = 25\\text{ m/s}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -131,7 +131,7 @@
           "$\\frac{1}{2a} \\sec^4\\left(\\frac{\\theta}{2}\\right)$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Differentiating the parametric coordinates with<br>respect to θ:<br>dx = a(1 + cos θ) = 2a cos2 ( θ)<br>dθ 2<br>Differentiating y with respect to θ:<br>dy = a sin θ = 2a sin ( θ ) cos ( θ )<br>dθ 2 2<br>Using the chain rule for parametric<br>differentiation:<br>dy 2a sin(θ) cos( θ)<br>dy = dθ = 2 2 = tan ( θ)<br>dx dx 2a cos2( θ) 2<br>dθ 2<br>Differentiating again with respect to x using the<br>chain rule:<br>d2y d θ dθ<br>2 = dθ[tan ( 2)] ⋅dx<br>dx<br>= [ 1sec2 ( θ )] ⋅ 1 = 1 sec4 ( θ )<br>2 2 2a cos2( θ) 4a 2<br>2",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Differentiating the parametric coordinates with respect to $\\theta$:<br>$\\frac{dx}{d\\theta} = a(1 + \\cos \\theta) = 2a \\cos^2\\left(\\frac{\\theta}{2}\\right)$<br>Differentiating $y$ with respect to $\\theta$:<br>$\\frac{dy}{d\\theta} = a \\sin \\theta = 2a \\sin\\left(\\frac{\\theta}{2}\\right) \\cos\\left(\\frac{\\theta}{2}\\right)$<br>Using the chain rule for parametric differentiation:<br>$\\frac{dy}{dx} = \\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}} = \\frac{2a \\sin\\left(\\frac{\\theta}{2}\\right) \\cos\\left(\\frac{\\theta}{2}\\right)}{2a \\cos^2\\left(\\frac{\\theta}{2}\\right)} = \\tan\\left(\\frac{\\theta}{2}\\right)$<br>Differentiating again with respect to $x$ using the chain rule:<br>$\\frac{d^2y}{dx^2} = \\frac{d}{d\\theta}\\left[\\tan\\left(\\frac{\\theta}{2}\\right)\\right] \\cdot \\frac{d\\theta}{dx}$<br>$= \\left[\\frac{1}{2} \\sec^2\\left(\\frac{\\theta}{2}\\right)\\right] \\cdot \\frac{1}{2a \\cos^2\\left(\\frac{\\theta}{2}\\right)} = \\frac{1}{4a} \\sec^4\\left(\\frac{\\theta}{2}\\right)$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -155,7 +155,7 @@
           "$\\frac{5}{2} h$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Vertical velocity at heights h and 2h:<br>∘<br>vy(h) = vx tan 45 = vx ,<br>v (2h) = v tan 30∘ = vx<br>y x √3<br>Kinematics between heights h and 2h:<br>2 2<br>vy (h) − vy (2h) = 2g(2h − h) = 2gh<br>Determining horizontal speed squared:<br>2<br>v2 − vx = 2gh⟹ 2 v2 = 2gh⟹v2 = 3gh<br>x 3 3 x x<br>Initial vertical speed squared:<br>uy2 = vy2(h) + 2gh = vx2 + 2gh = 3gh + 2gh = 5gh<br>u2 5gh<br>Maximum height: H = y = = 5 h<br>2g 2g 2",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Vertical velocity at heights $h$ and $2h$:<br>$v_y(h) = v_x \\tan 45^\\circ = v_x,$<br>$v_y(2h) = v_x \\tan 30^\\circ = \\frac{v_x}{\\sqrt{3}}$<br>Kinematics between heights $h$ and $2h$:<br>$v_y^2(h) - v_y^2(2h) = 2g(2h - h) = 2gh$<br>Determining horizontal speed squared:<br>$v_x^2 - \\frac{v_x^2}{3} = 2gh \\Rightarrow \\frac{2}{3}v_x^2 = 2gh \\Rightarrow v_x^2 = 3gh$<br>Initial vertical speed squared:<br>$u_y^2 = v_y^2(h) + 2gh = v_x^2 + 2gh = 3gh + 2gh = 5gh$<br>Maximum height: $H = \\frac{u_y^2}{2g} = \\frac{5gh}{2g} = \\frac{5}{2}h$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -179,7 +179,7 @@
           "$\\frac{14}{3\\pi}$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Formula for average value:<br>f = 1 ∫ b f (θ) dθ<br>avg b−a a<br>1 π/2<br>= π−0 ∫0 (3 sin θ + 4 cos θ) dθ<br>2<br>Indefinite integral:<br>∫ (3 sin θ + 4 cos θ) dθ = −3 cos θ + 4 sin θ<br>Applying limits from 0 to π :<br>π π 2<br>[−3 cos 2 + 4 sin 2 ] − [−3 cos 0 + 4 sin 0]<br>= (0 + 4) − (−3 + 0) = 7<br>Computing average value: favg = 2 ×7 = 14<br>π π",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Formula for average value:<br>$f_{avg} = \\frac{1}{b - a} \\int_{a}^{b} f(\\theta) \\, d\\theta$<br>$= \\frac{1}{\\frac{\\pi}{2} - 0} \\int_{0}^{\\pi/2} (3 \\sin \\theta + 4 \\cos \\theta) \\, d\\theta$<br>Indefinite integral:<br>$\\int (3 \\sin \\theta + 4 \\cos \\theta) \\, d\\theta = -3 \\cos \\theta + 4 \\sin \\theta$<br>Applying limits from $0$ to $\\frac{\\pi}{2}$:<br>$\\left[-3 \\cos \\frac{\\pi}{2} + 4 \\sin \\frac{\\pi}{2}\\right] - [-3 \\cos 0 + 4 \\sin 0]$<br>$= (0 + 4) - (-3 + 0) = 7$<br>Computing average value: $f_{avg} = \\frac{2}{\\pi} \\times 7 = \\frac{14}{\\pi}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -203,7 +203,7 @@
           "$20\\sqrt{5}\\text{ m/s}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let front enter bridge at x = 0: u = 10 m/s<br>Front leaves bridge at x = D:<br>v12 − u2 = 2aD ⇒ 302 − 102 = 800 = 2aD<br>Rear leaves bridge at x = D (train displacement D<br>+ L):<br>v22 − u2 = 2a(D + L) ⇒ 702 − 102 = 4800 = 2a(D +<br>L)<br>Displacement s when train midpoint reaches<br>observer at D/2:<br>L D D+L<br>s − 2 = 2 ⟹s = 2<br>Speed of train at this displacement:<br>v2 = u2 + 2as = u2 + a(D + L) = 100<br>4800<br>+ 2 = 2500<br>Taking square root: v = 50 m/s",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let front enter bridge at $x = 0$: $u = 10\\text{ m/s}$<br>Front leaves bridge at $x = D$:<br>$v_1^2 - u^2 = 2aD \\Rightarrow 30^2 - 10^2 = 800 = 2aD$<br>Rear leaves bridge at $x = D$ (train displacement $D + L$):<br>$v_2^2 - u^2 = 2a(D + L) \\Rightarrow 70^2 - 10^2 = 4800 = 2a(D + L)$<br>Displacement $s$ when train midpoint reaches observer at $D/2$:<br>$s - \\frac{L}{2} = \\frac{D}{2} \\Rightarrow s = \\frac{D + L}{2}$<br>Speed of train at this displacement:<br>$v^2 = u^2 + 2as = u^2 + a(D + L) = 100$<br>$+ \\frac{4800}{2} = 2500$<br>Taking square root: $v = 50\\text{ m/s}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -227,7 +227,7 @@
           "$\\frac{3}{2} d$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let r = distance, θ = angle with x-axis:<br>dr<br>− dt = v − u cos θ<br>Integrating separation distance to intercept:<br>∫ 0 (−dr) = d = ∫ T (v − u cos θ) dt<br>d 0<br>= vT − u ∫ T cos θ dt<br>0<br>Displacement along x-axis to intercept:<br>x (T ) = ∫ T v cos θ dt = uT<br>P 0<br>T uT<br>⟹ ∫0 cos θ dt = v<br>Substitute into separation equation:<br>d = vT − u ( uT ) = T ( v2−u2 )<br>v v<br>Total time of flight: T= vd<br>v2−u2<br>Total distance traveled by pursuer:<br>v2d<br>s = vT = v2−u2<br>Substitute v = 2u: (2u)2d 4<br>s = 2 2 = 3 d<br>(2u) −u",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let $r =$ distance, $\\theta =$ angle with $x$-axis:<br>$-\\frac{dr}{dt} = v - u \\cos \\theta$<br>Integrating separation distance to intercept:<br>$\\int_{d}^{0} (-dr) = d = \\int_{0}^{T} (v - u \\cos \\theta) \\, dt$<br>$= vT - u \\int_{0}^{T} \\cos \\theta \\, dt$<br>Displacement along x-axis to intercept:<br>$x_P(T) = \\int_{0}^{T} v \\cos \\theta \\, dt = uT$<br>$\\Rightarrow \\int_{0}^{T} \\cos \\theta \\, dt = \\frac{uT}{v}$<br>Substitute into separation equation:<br>$d = vT - u\\left(\\frac{uT}{v}\\right) = T\\left(\\frac{v^2 - u^2}{v}\\right)$<br>Total time of flight: $T = \\frac{vd}{v^2 - u^2}$<br>Total distance traveled by pursuer:<br>$s = vT = \\frac{v^2 d}{v^2 - u^2}$<br>Substitute $v = 2u$: $s = \\frac{(2u)^2 d}{(2u)^2 - u^2} = \\frac{4}{3}d$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -251,7 +251,7 @@
           "$\\frac{1}{2} x^2 \\sin(x^2) + \\frac{1}{2} \\cos(x^2) + C$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Substituting variable:<br>u = x2 ⇒ du = 2x dx<br>Integral in terms of u:<br>∫ x3 cos(x2 ) dx = 1 ∫ u cos u du<br>2<br>Integrating by parts:<br>1 [u sin u − ∫ sin u du]<br>2 1<br>= 2 [u sin u + cos u] + C<br>Back-substituting u:<br>1 2 2 1 2<br>2 x sin(x ) + 2 cos(x ) + C",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Substituting variable:<br>$u = x^2 \\Rightarrow du = 2x \\, dx$<br>Integral in terms of $u$:<br>$\\int x^3 \\cos(x^2) \\, dx = \\frac{1}{2} \\int u \\cos u \\, du$<br>Integrating by parts:<br>$\\frac{1}{2} [u \\sin u - \\int \\sin u \\, du]$<br>$= \\frac{1}{2} [u \\sin u + \\cos u] + C$<br>Back-substituting $u$:<br>$\\frac{1}{2} x^2 \\sin(x^2) + \\frac{1}{2} \\cos(x^2) + C$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -275,7 +275,7 @@
           "$16\\text{ m}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Velocity as a function of time:<br>t<br>v(t) = 9 + ∫ (6t − 12) dt = 3t2 − 12t + 9<br>0<br>= 3(t − 1)(t − 3)<br>Reversal of velocity occurs at: t = 1 s and t = 3 s<br>Position as a function of time:<br>x(t) = ∫ t(3t2 − 12t + 9) dt = t3 − 6t2<br>0<br>+ 9t<br>Positions at critical times: x(0) = 0 m, x(1) = 4 m,<br>x(3) = 0 m, x(4) = 4 m<br>Total distance travelled: s = |x(1) − x(0)| + |x(3) −<br>x(1)| + |x(4) − x(3)| = 4 + 4 + 4 = 12 m",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Velocity as a function of time:<br>$v(t) = 9 + \\int_{0}^{t} (6t - 12) \\, dt = 3t^2 - 12t + 9$<br>$= 3(t - 1)(t - 3)$<br>Reversal of velocity occurs at: $t = 1\\text{ s}$ and $t = 3\\text{ s}$<br>Position as a function of time:<br>$x(t) = \\int_{0}^{t} (3t^2 - 12t + 9) \\, dt = t^3 - 6t^2 + 9t$<br>Positions at critical times: $x(0) = 0\\text{ m}$, $x(1) = 4\\text{ m}$, $x(3) = 0\\text{ m}$, $x(4) = 4\\text{ m}$<br>Total distance travelled: $s = |x(1) - x(0)| + |x(3) - x(1)| + |x(4) - x(3)| = 4 + 4 + 4 = 12\\text{ m}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -299,7 +299,7 @@
           "$7$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Finding the angle between vectors:<br>→ → → → √–<br>| A × B |= |A ||B | sin θ⟹6 3<br>= 4×3× sin θ⟹ sin θ = √3<br>2<br>Since angle is obtuse:<br>θ = 120∘ ⟹ cos θ = − 1<br>2<br>Dot product of vectors:<br>→ → → → ∘ 1<br>A ⋅B = |A ||B |cos 120 = 4×3× (− 2)<br>= −6<br>Magnitude squared of R:<br>→ 2 → 2 → 2 → →<br>|R | = 4| A | + |B | + 4( A ⋅ B ) = 4(16)<br>+ 9 + 4(−6) = 64 + 9 − 24 = 49<br>Magnitude of R:<br>→ −−<br>|R | = √49 = 7",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Finding the angle between vectors:<br>$|\\vec{A} \\times \\vec{B}| = |\\vec{A}||\\vec{B}| \\sin \\theta \\Rightarrow 6\\sqrt{3}$<br>$= 4 \\times 3 \\times \\sin \\theta \\Rightarrow \\sin \\theta = \\frac{\\sqrt{3}}{2}$<br>Since angle is obtuse:<br>$\\theta = 120^\\circ \\Rightarrow \\cos \\theta = -\\frac{1}{2}$<br>Dot product of vectors:<br>$\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}| \\cos 120^\\circ = 4 \\times 3 \\times \\left(-\\frac{1}{2}\\right)$<br>$= -6$<br>Magnitude squared of $R$:<br>$|\\vec{R}|^2 = 4|\\vec{A}|^2 + |\\vec{B}|^2 + 4(\\vec{A} \\cdot \\vec{B}) = 4(16)$<br>$+ 9 + 4(-6) = 64 + 9 - 24 = 49$<br>Magnitude of $R$:<br>$|\\vec{R}| = \\sqrt{49} = 7$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -323,7 +323,7 @@
           "$u \\cot \\theta$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Ground velocity vector relation: →v = →u + →v<br>r<br>Angle of line PR with horizontal: α = 90° − θ<br>Condition for minimum relative speed: →v ⟂→v<br>r<br>Magnitude of minimum relative speed:<br>vr,min = u sin α = u sin(90∘ − θ) = u cos θ",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Ground velocity vector relation: $\\vec{v} = \\vec{u} + \\vec{v}_r$<br>Angle of line PR with horizontal: $\\alpha = 90^\\circ - \\theta$<br>Condition for minimum relative speed: $\\vec{v}_r \\perp \\vec{v}$<br>Magnitude of minimum relative speed:<br>$v_{r,min} = u \\sin \\alpha = u \\sin(90^\\circ - \\theta) = u \\cos \\theta$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -347,7 +347,7 @@
           "8"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Equation of motion: dv = −α√v<br>dt<br>Integrating for velocity:<br>∫ v v−1/2  dv = −α ∫ t dt⟹2√v = 2√−v−0<br>v0 0<br>− αt 2 v<br>Total time to stop: T = √ 0<br>α 2<br>Velocity as function of time: v(t) = α (T − t)2<br>4<br>Distance in first half of time:<br>s = ∫ T/2 α2(T − t)2  dt = α2 [T 3 − (T )3 ]<br>1 0 4 12 2<br>= 7( α2T3 )<br>8 12<br>Distance in second half of time:<br>s = ∫ T α2 (T − t)2  dt = α2( T )3<br>2 T /2 4 12 2<br>= 1( α2T3 )<br>8 12<br>Ratio of distances: s1 = 7/8 = 7<br>s2 1/8",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Equation of motion: $\\frac{dv}{dt} = -\\alpha\\sqrt{v}$<br>Integrating for velocity:<br>$\\int_{v_0}^{v} v^{-1/2} \\, dv = -\\alpha \\int_{0}^{t} dt \\Rightarrow 2\\sqrt{v} = 2\\sqrt{v_0} - \\alpha t$<br>Total time to stop: $T = \\frac{2\\sqrt{v_0}}{\\alpha}$<br>Velocity as function of time: $v(t) = \\frac{\\alpha^2}{4}(T - t)^2$<br>Distance in first half of time:<br>$s_1 = \\int_{0}^{T/2} \\frac{\\alpha^2}{4}(T - t)^2 \\, dt = \\frac{\\alpha^2}{12}\\left[T^3 - \\left(\\frac{T}{2}\\right)^3\\right]$<br>$= \\frac{7}{8}\\left(\\frac{\\alpha^2 T^3}{12}\\right)$<br>Distance in second half of time:<br>$s_2 = \\int_{T/2}^{T} \\frac{\\alpha^2}{4}(T - t)^2 \\, dt = \\frac{\\alpha^2}{12}\\left(\\frac{T}{2}\\right)^3$<br>$= \\frac{1}{8}\\left(\\frac{\\alpha^2 T^3}{12}\\right)$<br>Ratio of distances: $\\frac{s_1}{s_2} = \\frac{7/8}{1/8} = 7$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -371,7 +371,7 @@
           "$4x\\sqrt{x} - 3\\sqrt{x} + C$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Rewrite integrand:<br>6x−3 1/2 −1/2<br>√x = 6x − 3x<br>Integrate term by term:<br>∫ (6x1/2 − 3x−1/2 ) dx = 6 ( x3/2)<br>3/2<br>1/2<br>− 3 ( x ) + C<br>1/2<br>Simplify expression:<br>3/2 1/2 −− −−<br>= 4x − 6x + C = 4x√x − 6√x + C",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Rewrite integrand:<br>$\\frac{6x - 3}{\\sqrt{x}} = 6x^{1/2} - 3x^{-1/2}$<br>Integrate term by term:<br>$\\int (6x^{1/2} - 3x^{-1/2}) \\, dx = 6\\left(\\frac{x^{3/2}}{3/2}\\right)$<br>$- 3\\left(\\frac{x^{1/2}}{1/2}\\right) + C$<br>Simplify expression:<br>$= 4x^{3/2} - 6x^{1/2} + C = 4x\\sqrt{x} - 6\\sqrt{x} + C$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -395,7 +395,7 @@
           "$\\frac{5}{4}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Coordinate unit vectors:<br>^ ^ ^<br>i = East, j = North, k = Up<br>Rain velocity vector from first case:<br>→ ^ ^ → ^ ^<br>v r − 6 i = −vz k⟹ v r = 6 i − vzk<br>Vertical speed from actual rain speed:<br>|→v | = √−6−2−+−−v−2 = 10 m/s⟹v = 8 m/s<br>r z z<br>Relative velocity when running North:<br>→ → ^ ^ ^ ^<br>v r/m = v r− 8 j = 6 i − 8j − 8k<br>Apparent horizontal speed:−−−−−−−−−<br>vhoriz = √62 + (−8)2 = 10 m/s<br>Tangent of angle with vertical:<br>tan β = vhoriz= 10 = 5<br>vz 8 4",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Coordinate unit vectors:<br>$\\hat{i} = \\text{East}, \\hat{j} = \\text{North}, \\hat{k} = \\text{Up}$<br>Rain velocity vector from first case:<br>$\\vec{v}_r - 6\\hat{i} = -v_z\\hat{k} \\Rightarrow \\vec{v}_r = 6\\hat{i} - v_z\\hat{k}$<br>Vertical speed from actual rain speed:<br>$|\\vec{v}_r| = \\sqrt{6^2 + v_z^2} = 10\\text{ m/s} \\Rightarrow v_z = 8\\text{ m/s}$<br>Relative velocity when running North:<br>$\\vec{v}_{r/m} = \\vec{v}_r - 8\\hat{j} = 6\\hat{i} - 8\\hat{j} - 8\\hat{k}$<br>Apparent horizontal speed:<br>$v_{\\text{horiz}} = \\sqrt{6^2 + (-8)^2} = 10\\text{ m/s}$<br>Tangent of angle with vertical:<br>$\\tan\\beta = \\frac{v_{\\text{horiz}}}{v_z} = \\frac{10}{8} = \\frac{5}{4}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -419,7 +419,7 @@
           "$\\frac{3}{4}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For Car 2, which accelerates uniformly from rest<br>throughout the race:<br>L = 1 aT 2<br>2<br>−2−L−<br>T = √ a<br>Hence, the final speed of Car 2 is<br>−−−<br>v2 = aT = √2aL<br>Let<br>vmax<br>y =<br>v2<br>Therefore,<br>−−−<br>vmax = y√2aL<br>For Car 1,<br>= 25 a<br>a1 16<br>Time taken by Car 1 to reach its maximum speed<br>is<br>vmax 16 −2−L−<br>t1 = a = 25 y√ a<br>1<br>Distance covered during this acceleration is<br>vmax 2 16 2<br>s1 = 2a = 25 y L<br>1<br>The remaining distance is covered with constant<br>speed vmax . Thus, the cruising time is<br>t = L − s1<br>2 vmax<br>−−−<br>t = 1 √ 2L ( 1 − 16 y)<br>2 2 a y 25<br>Since both cars finish the race at the same time,<br>t + t = T<br>1 2<br>−−−<br>Dividing throughout by T = √ 2L , we get<br>a<br>16 1 8<br>25 y + 2y − 25 y = 1<br>8 1<br>y + = 1<br>25 2y<br>Therefore,<br>16y 2 − 50y + 25 = 0<br>50 ± 30<br>y = 32<br>y = 5 or y = 5<br>2 8<br>Now Car 1 must attain vmax before reaching the<br>finish line. Hence the distance covered during<br>acceleration must satisfy<br>s1 ≤ L<br>For y = 5 ,<br>2<br>2<br>16 5<br>s1 = 25 ( 2 ) L = 4L > L<br>Therefore, y = 5 is physically inadmissible.<br>5 2<br>For y = 8 ,<br>2<br>s = 16 ( 5 ) L = L < L<br>1 25 8 4<br>Hence, the physically valid ratio is<br>vmax = 5<br>v2 8<br>Correct answer: Option (C)",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For Car 2, which accelerates uniformly from rest throughout the race:<br>$L = \\frac{1}{2}aT^2$<br>$T = \\sqrt{\\frac{2L}{a}}$<br>Hence, the final speed of Car 2 is<br>$v_2 = aT = \\sqrt{2aL}$<br>Let<br>$y = \\frac{v_{\\max}}{v_2}$<br>Therefore,<br>$v_{\\max} = y\\sqrt{2aL}$<br>For Car 1,<br>$a_1 = \\frac{25}{16}a$<br>Time taken by Car 1 to reach its maximum speed is<br>$t_1 = \\frac{v_{\\max}}{a_1} = \\frac{16}{25}y\\sqrt{\\frac{2L}{a}}$<br>Distance covered during this acceleration is<br>$s_1 = \\frac{v_{\\max}^2}{2a_1} = \\frac{16}{25}y^2 L$<br>The remaining distance is covered with constant speed $v_{\\max}$. Thus, the cruising time is<br>$t_2 = \\frac{L - s_1}{v_{\\max}}$<br>$t_2 = \\frac{1}{2}\\sqrt{\\frac{2L}{a}}\\left(\\frac{1}{y} - \\frac{16}{25}y\\right)$<br>Since both cars finish the race at the same time,<br>$t_1 + t_2 = T$<br>Dividing throughout by $T = \\sqrt{\\frac{2L}{a}}$, we get<br>$\\frac{16}{25}y + \\frac{1}{2y} - \\frac{8}{25}y = 1$<br>$\\frac{8}{25}y + \\frac{1}{2y} = 1$<br>Therefore,<br>$16y^2 - 50y + 25 = 0$<br>$y = \\frac{50 \\pm 30}{32}$<br>$y = \\frac{5}{2}$ or $y = \\frac{5}{8}$<br>Now Car 1 must attain $v_{\\max}$ before reaching the finish line. Hence the distance covered during acceleration must satisfy<br>$s_1 \\le L$<br>For $y = \\frac{5}{2}$,<br>$s_1 = \\frac{16}{25}\\left(\\frac{5}{2}\\right)^2 L = 4L > L$<br>Therefore, $y = \\frac{5}{2}$ is physically inadmissible.<br>For $y = \\frac{5}{8}$,<br>$s_1 = \\frac{16}{25}\\left(\\frac{5}{8}\\right)^2 L = \\frac{L}{4} < L$<br>Hence, the physically valid ratio is<br>$\\frac{v_{\\max}}{v_2} = \\frac{5}{8}$<br>Correct answer: Option (C)",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -443,7 +443,7 @@
           "$10\\pi\\text{ cm}^2/\\text{s}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let h be the depth, r the radius, and l the slant<br>height of the water cone. By similar triangles:<br>r = 6 = 3⟹r = 3h<br>h 8 4 4<br>Slant height of the cone of water:<br>−−2−−−−2 −−3−−−2−−−−2 5<br>l = √r + h = √( 4 h) + h = 4 h<br>Volume of water in the cone:<br>V = 1 πr2 h = 1π( 3h)2 h = 3π h3<br>3 3 4 16<br>Differentiating volume with respect to time:<br>dV = 9π h2 dh<br>dt 16 ddVt 3<br>Substituting dt = 18πcm /s and h = 4 cm:<br>18π = 9π (4)2 dh = 9π dh ⟹ dh = 2 cm/s<br>16 dt dt dt<br>The wetted lateral surface area is:<br>3 5 15π 2<br>A = πrl = π ( 4h) ( 4h) = 16 h<br>Differentiating area with respect to time:<br>dA = 15π h dh = 15π (4)(2) = 15πcm2 /s<br>dt 8 dt 8",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Let $h$ be the depth, $r$ the radius, and $l$ the slant height of the water cone. By similar triangles:<br>$\\frac{r}{h} = \\frac{6}{8} = \\frac{3}{4} \\Rightarrow r = \\frac{3}{4}h$<br>Slant height of the cone of water:<br>$l = \\sqrt{r^2 + h^2} = \\sqrt{\\left(\\frac{3}{4}h\\right)^2 + h^2} = \\frac{5}{4}h$<br>Volume of water in the cone:<br>$V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi\\left(\\frac{3}{4}h\\right)^2 h = \\frac{3\\pi}{16}h^3$<br>Differentiating volume with respect to time:<br>$\\frac{dV}{dt} = \\frac{9\\pi}{16}h^2\\frac{dh}{dt}$<br>Substituting $\\frac{dV}{dt} = 18\\pi\\text{ cm}^3/\\text{s}$ and $h = 4\\text{ cm}$:<br>$18\\pi = \\frac{9\\pi}{16}(4)^2\\frac{dh}{dt} = 9\\pi\\frac{dh}{dt} \\Rightarrow \\frac{dh}{dt} = 2\\text{ cm/s}$<br>The wetted lateral surface area is:<br>$A = \\pi r l = \\pi\\left(\\frac{3}{4}h\\right)\\left(\\frac{5}{4}h\\right) = \\frac{15\\pi}{16}h^2$<br>Differentiating area with respect to time:<br>$\\frac{dA}{dt} = \\frac{15\\pi}{8}h\\frac{dh}{dt} = \\frac{15\\pi}{8}(4)(2) = 15\\pi\\text{ cm}^2/\\text{s}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -467,7 +467,7 @@
           "2"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Because ∣x2 − 4∣ ≥ 0, intersections with y = x<br>∣ ∣<br>require x ≥ 0. For 0 ≤ x < 2, solve<br>4 − x2 = x, giving one valid root. For x ≥ 2 ,<br>solve x2 − 4 = x, giving one valid root. Hence<br>the total number of intersections is 2.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Because $\\left|x^2 - 4\\right| \\ge 0$, intersections with $y = x$ require $x \\ge 0$. For $0 \\le x < 2$, solve $4 - x^2 = x$, giving one valid root. For $x \\ge 2$, solve $x^2 - 4 = x$, giving one valid root. Hence the total number of intersections is 2.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -491,7 +491,7 @@
           "$\\sqrt{6}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> → →<br>Let θ be the angle between A and B . Using the<br>definitions of cross product magnitude and dot<br>product:→→ → →<br>|A × B | = AB sin θ, A ⋅B = AB cos θ<br>Equating from the given relation:<br>AB √–AB ⟹<br>sin θ = 3 cos θ tan θ<br>= √–⟹θ ∘<br>3 = 60<br>Using the expression for the resultant magnitude:<br>→ → 2 2 2 ∘ 2<br>|A + B | = A + B + 2AB cos 60 = A<br>2<br>+ B + AB<br>Given that → → √– :<br>|A + B | = 7A<br>A2 + B2 + AB = 7A2 ⇒ B2 + AB − 6A2 = 0<br>Dividing throughout by A2 and solving the<br>quadratic equation:<br>2<br>( B ) + ( B ) − 6 = 0⟹ ( B + 3) ( B − 2)<br>A A A A<br>= 0<br>Since vector magnitudes must be positive:<br>B = 2<br>A",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let $\\theta$ be the angle between $\\vec{A}$ and $\\vec{B}$. Using the definitions of cross product magnitude and dot product:<br>$|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$<br>Equating from the given relation:<br>$AB\\sin\\theta = \\sqrt{3}AB\\cos\\theta \\Rightarrow \\tan\\theta = \\sqrt{3} \\Rightarrow \\theta = 60^\\circ$<br>Using the expression for the resultant magnitude:<br>$|\\vec{A} + \\vec{B}|^2 = A^2 + B^2 + 2AB\\cos 60^\\circ = A^2 + B^2 + AB$<br>Given that $|\\vec{A} + \\vec{B}| = \\sqrt{7}A$:<br>$A^2 + B^2 + AB = 7A^2 \\Rightarrow B^2 + AB - 6A^2 = 0$<br>Dividing throughout by $A^2$ and solving the quadratic equation:<br>$\\left(\\frac{B}{A}\\right)^2 + \\left(\\frac{B}{A}\\right) - 6 = 0 \\Rightarrow \\left(\\frac{B}{A} + 3\\right)\\left(\\frac{B}{A} - 2\\right) = 0$<br>Since vector magnitudes must be positive:<br>$\\frac{B}{A} = 2$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -509,7 +509,7 @@
         "section": "Numerical",
         "text": "A projectile is launched from ground level over horizontal ground. It just clears the tops of two vertical hurdles, each of height $15\\text{ m}$, situated at horizontal distances of $15\\text{ m}$ and $45\\text{ m}$ from the point of projection. Taking $g = 10\\text{ m/s}^2$, the speed of projection (in $\\text{m/s}$) is",
         "answer": "25",
-        "solution": "<b>Ans. (25)</b><br><b>Sol.</b> Equation of trajectory: y = x tan θ (1 − Rx)<br>Using hurdles at equal height:<br>x1 (1 − x1 ) = x2 (1 − x2 )<br>R R<br>⟹R = x1 + x2 = 15 + 45 = 60 m<br>Finding projection angle:<br>15 = 15 tan θ(1 − 15 ) ⟹ tan θ = 4<br>60 3<br>Components of angle:<br>sin θ = 4, cos θ = 3<br>5 5<br>Using range expression:<br>R = 2u2 sinθ cosθ<br>g<br>2u2(4/5)(3/5) 24u2<br>⟹60 = 10 = 250<br>Speed of projection: u2 = 625 ⇒ u = 25 m/s",
+        "solution": "<b>Ans. (25)</b><br><b>Sol.</b> Equation of trajectory: $y = x\\tan\\theta\\left(1 - \\frac{x}{R}\\right)$<br>Using hurdles at equal height:<br>$x_1\\left(1 - \\frac{x_1}{R}\\right) = x_2\\left(1 - \\frac{x_2}{R}\\right)$<br>$\\Rightarrow R = x_1 + x_2 = 15 + 45 = 60\\text{ m}$<br>Finding projection angle:<br>$15 = 15\\tan\\theta\\left(1 - \\frac{15}{60}\\right) \\Rightarrow \\tan\\theta = \\frac{4}{3}$<br>Components of angle:<br>$\\sin\\theta = \\frac{4}{5}, \\cos\\theta = \\frac{3}{5}$<br>Using range expression:<br>$R = \\frac{2u^2\\sin\\theta\\cos\\theta}{g}$<br>$\\Rightarrow 60 = \\frac{2u^2(4/5)(3/5)}{10} = \\frac{24u^2}{250}$<br>Speed of projection: $u^2 = 625 \\Rightarrow u = 25\\text{ m/s}$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -527,7 +527,7 @@
         "section": "Numerical",
         "text": "A positive geometric progression has first term $12$ and sum to infinity $18$. If the sum to infinity of the squares of all its terms is $N$, find $N$.",
         "answer": "162",
-        "solution": "<b>Ans. (162)</b><br><b>Sol.</b> For the original GP,<br>12 1<br>18 = ⇒ r =<br>1 − r 3<br>The squared terms form a GP with ﬁr<br>and common ratio 1 . Therefore<br>9<br>144<br>N = 1 − 1 = 162<br>9",
+        "solution": "<b>Ans. (162)</b><br><b>Sol.</b> For the original GP,<br>$18 = \\frac{12}{1 - r} \\Rightarrow r = \\frac{1}{3}$<br>The squared terms form a GP with first term 144 and common ratio $\\frac{1}{9}$. Therefore<br>$N = \\frac{144}{1 - \\frac{1}{9}} = 162$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -545,7 +545,7 @@
         "section": "Numerical",
         "text": "A particle moves in the $xy$-plane along the trajectory $y = \\frac{x^3}{6} - x^2 + 2x$ (where $x$ and $y$ are in meters). The $x$-component of its velocity is constant at $v_x = 3\\text{ m/s}$. At the point on its path where $x > 0$ and the tangent to the trajectory has a slope of $2$, the magnitude of the particle's acceleration is $a\\text{ m/s}^2$. The value of $a$ is",
         "answer": "18",
-        "solution": "<b>Ans. (18)</b><br><b>Sol.</b> Slope of trajectory: dy = x2 − 2x + 2<br>dx 2<br>Equating slope to 2:<br>x2 − 2x + 2 = 2⟹ x2 − 2x = 0⟹x<br>2 2<br>= 4 m (since x > 0)<br>d2y<br>Second derivative of path: dx2 = x − 2<br>d 2y∣ −1<br>Value at x = 4 m: dx2 ∣ = 4 − 2 = 2 m<br>x=4<br>Acceleration components:<br>dvx 2 d 2y 2<br>ax = dt = 0, ay = vx dx2 = (3) ×2<br>= 18 m/s2<br>Magnitude of total acceleration:<br>a = √−a−2 −+−−a−2 = 18 m/s2<br>x y",
+        "solution": "<b>Ans. (18)</b><br><b>Sol.</b> Slope of trajectory: $\\frac{dy}{dx} = \\frac{x^2}{2} - 2x + 2$<br>Equating slope to 2:<br>$\\frac{x^2}{2} - 2x + 2 = 2 \\Rightarrow \\frac{x^2}{2} - 2x = 0 \\Rightarrow x = 4\\text{ m}$ (since $x > 0$)<br>Second derivative of path: $\\frac{d^2y}{dx^2} = x - 2$<br>Value at $x = 4\\text{ m}$: $\\left.\\frac{d^2y}{dx^2}\\right|_{x=4} = 4 - 2 = 2\\text{ m}^{-1}$<br>Acceleration components:<br>$a_x = \\frac{dv_x}{dt} = 0$, $a_y = v_x^2\\frac{d^2y}{dx^2} = (3)^2 \\times 2 = 18\\text{ m/s}^2$<br>Magnitude of total acceleration:<br>$a = \\sqrt{a_x^2 + a_y^2} = 18\\text{ m/s}^2$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -563,7 +563,7 @@
         "section": "Numerical",
         "text": "The maximum value attained by the function $f(x) = x^3 - 9x^2 + 24x + 10$ in the closed interval $[0, 6]$ is",
         "answer": "46",
-        "solution": "<b>Ans. (46)</b><br><b>Sol.</b> Find the critical points:<br>f'(x) = 3x2 − 18x + 24 = 3(x − 2)(x − 4) = 0 ⇒ x = 2,<br>4<br>Evaluate at critical points:<br>f(2) = 23 − 9(2)2 + 24(2) + 10 = 30<br>3 2<br>f(4) = 4 − 9(4) + 24(4) + 10 = 26<br>Evaluate at interval boundaries:<br>f(0) = 10<br>f(6) = 63 − 9(6)2 + 24(6) + 10 = 46<br>Identify absolute maximum:<br>fmax = max10, 30, 26, 46 = 46",
+        "solution": "<b>Ans. (46)</b><br><b>Sol.</b> Find the critical points:<br>$f'(x) = 3x^2 - 18x + 24 = 3(x - 2)(x - 4) = 0 \\Rightarrow x = 2, 4$<br>Evaluate at critical points:<br>$f(2) = 2^3 - 9(2)^2 + 24(2) + 10 = 30$<br>$f(4) = 4^3 - 9(4)^2 + 24(4) + 10 = 26$<br>Evaluate at interval boundaries:<br>$f(0) = 10$<br>$f(6) = 6^3 - 9(6)^2 + 24(6) + 10 = 46$<br>Identify absolute maximum:<br>$f_{\\max} = \\max\\{10, 30, 26, 46\\} = 46$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -581,7 +581,7 @@
         "section": "Numerical",
         "text": "Two particles $P$ and $Q$ move in the $xy$-plane. At $t = 0$, particle $P$ starts from the origin and moves along the positive $x$-axis with a constant velocity of $4\\text{ m/s}$. At the same instant, particle $Q$ starts from the point $(0, 24\\text{ m})$ and moves along the negative $y$-axis towards the origin with a constant speed of $3\\text{ m/s}$. Let $A(t)$ denote the area of the right-angled triangle formed by the origin $O(0,0)$, particle $P$, and particle $Q$ at time $t$ before $Q$ reaches the origin. The maximum area (in $\\text{m}^2$) attained by this triangle is",
         "answer": "96",
-        "solution": "<b>Ans. (96)</b><br><b>Sol.</b> Positions as functions of time: xP(t) = 4t, yQ(t) =<br>24 − 3t, (0 ≤ t ≤ 8 s)<br>Area of triangle OPQ:<br>A(t) = 1xP (t)yQ (t) = 1 (4t)(24 − 3t)<br>2 2<br>= 48t − 6t2<br>Maximizing area:<br>dA = 48 − 12t = 0⟹t = 4 s<br>dt<br>Second derivative check:<br>d 2A<br>dt2 = −12 < 0⟹local maximum<br>Maximum area value: Amax = 48(4) − 6(4)2 = 192 −<br>96 = 96 m2",
+        "solution": "<b>Ans. (96)</b><br><b>Sol.</b> Positions as functions of time: $x_P(t) = 4t$, $y_Q(t) = 24 - 3t$, $(0 \\le t \\le 8\\text{ s})$<br>Area of triangle OPQ:<br>$A(t) = \\frac{1}{2}x_P(t)y_Q(t) = \\frac{1}{2}(4t)(24 - 3t) = 48t - 6t^2$<br>Maximizing area:<br>$\\frac{dA}{dt} = 48 - 12t = 0 \\Rightarrow t = 4\\text{ s}$<br>Second derivative check:<br>$\\frac{d^2A}{dt^2} = -12 < 0 \\Rightarrow$ local maximum<br>Maximum area value: $A_{\\max} = 48(4) - 6(4)^2 = 192 - 96 = 96\\text{ m}^2$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -605,7 +605,7 @@
           "I, III and IV"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For each sample, compare moles of atoms rather<br>than moles of molecules.<br>st term 144I: 9/18 = 0.5 mol H2O, so atoms = 0.5×3 = 1.5 mol<br>atoms. 22/44 = 0.5 mol CO2, so atoms = 0.5×3 =<br>1.5 mol atoms. Hence I is true.<br>II: 8/32 = 0.25 mol O2 gives 0.50 mol O-atoms,<br>whereas 4/4 = 1 mol He gives 1 mol atoms. False.<br>III: 8.5/17 = 0.5 mol NH3 gives 2.0 mol atoms,<br>whereas 10/20 = 0.5 mol Ne gives 0.5 mol atoms.<br>False.<br>IV: 14/28 = 0.5 mol N2 gives 1 mol N-atoms; 16/32<br>= 0.5 mol O gives 1 mol O-atoms. True.<br>2",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> For each sample, compare moles of atoms rather than moles of molecules.<br>I: $9/18 = 0.5\\text{ mol H}_2\\text{O}$, so atoms $= 0.5 \\times 3 = 1.5\\text{ mol}$ atoms. $22/44 = 0.5\\text{ mol CO}_2$, so atoms $= 0.5 \\times 3 = 1.5\\text{ mol}$ atoms. Hence I is true.<br>II: $8/32 = 0.25\\text{ mol O}_2$ gives $0.50\\text{ mol}$ O-atoms, whereas $4/4 = 1\\text{ mol He}$ gives $1\\text{ mol}$ atoms. False.<br>III: $8.5/17 = 0.5\\text{ mol NH}_3$ gives $2.0\\text{ mol}$ atoms, whereas $10/20 = 0.5\\text{ mol Ne}$ gives $0.5\\text{ mol}$ atoms. False.<br>IV: $14/28 = 0.5\\text{ mol N}_2$ gives $1\\text{ mol}$ N-atoms; $16/32 = 0.5\\text{ mol O}_2$ gives $1\\text{ mol}$ O-atoms. True.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -629,7 +629,7 @@
           "$32\\text{ g eq}^{-1}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> One equivalent of metal oxide contains one<br>equivalent of metal plus one equivalent of<br>oxygen.<br>If E is the equivalent mass of metal, equivalent<br>mass of oxide = E + 8.<br>Given E + 8 = 1.25E, so 0.25E = 8 and<br>E = 32 g eq–1.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> One equivalent of metal oxide contains one equivalent of metal plus one equivalent of oxygen.<br>If $E$ is the equivalent mass of metal, equivalent mass of oxide $= E + 8$.<br>Given $E + 8 = 1.25E$, so $0.25E = 8$ and $E = 32\\text{ g eq}^{-1}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -653,7 +653,7 @@
           "$47.0\\text{ g eq}^{-1}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> One equivalent of metal oxide has mass E + 8,<br>while the corresponding one equivalent of metal<br>chloride has mass E + 35.5.<br>Given (E + 35.5)/(E + 8) = 1.50.<br>E + 35.5 = 1.50E + 12, hence 23.5 = 0.50E and E =<br>47.0 g eq–1.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> One equivalent of metal oxide has mass $E + 8$, while the corresponding one equivalent of metal chloride has mass $E + 35.5$.<br>Given $(E + 35.5)/(E + 8) = 1.50$.<br>$E + 35.5 = 1.50E + 12$, hence $23.5 = 0.50E$ and $E = 47.0\\text{ g eq}^{-1}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -677,7 +677,7 @@
           "$\\mathbf{A}$ is incorrect and $\\mathbf{R}$ is correct"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> For a species to disproportionate, the central<br>element must be in an intermediate oxidation<br>state so it can be simultaneously oxidised to a<br>higher state and reduced to a lower state. In the<br>perchlorate ion (ClO− ), chlorine is in a +7<br>4<br>oxidation state, which is the maximum possible<br>oxidation state for Group 17 elements. Since it<br>cannot be oxidised further, it cannot undergo<br>disproportionation. Therefore, both (A) and (R)<br>are true, and (R) is the correct explanation of (A).",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> For a species to disproportionate, the central element must be in an intermediate oxidation state so it can be simultaneously oxidised to a higher state and reduced to a lower state. In the perchlorate ion ($\\text{ClO}_4^-$), chlorine is in a $+7$ oxidation state, which is the maximum possible oxidation state for Group 17 elements. Since it cannot be oxidised further, it cannot undergo disproportionation. Therefore, both (A) and (R) are true, and (R) is the correct explanation of (A).",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -701,7 +701,7 @@
           "$4 \\text{ mol NaOH}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> H3PO3 has structure . Only the two<br>hydrogens attached to oxygen are ionisable in<br>acid-base neutralisation.<br>Therefore its maximum n-factor in acid-base<br>chemistry is 2, and 1 mol H3PO3 consumes 2 mol<br>NaOH for complete neutralisation.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $\\text{H}_3\\text{PO}_3$ has structure. Only the two hydrogens attached to oxygen are ionisable in acid-base neutralisation.<br>Therefore its maximum n-factor in acid-base chemistry is 2, and $1\\text{ mol H}_3\\text{PO}_3$ consumes $2\\text{ mol NaOH}$ for complete neutralisation.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -725,7 +725,7 @@
           "a, b and d only"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> (a) is disproportionation: chlorine changes from 0<br>to -1 and +1.<br>(b) is an internal redox process: nitrogen initially<br>exists at -3 (NH4+) and +5 (NO3–), and the<br>product N2O has average oxidation state +1.<br>(c) and (d) involve no oxidation-number change.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> (a) is disproportionation: chlorine changes from $0$ to $-1$ and $+1$.<br>(b) is an internal redox process: nitrogen initially exists at $-3$ ($\\text{NH}_4^+$) and $+5$ ($\\text{NO}_3^-$), and the product $\\text{N}_2\\text{O}$ has average oxidation state $+1$.<br>(c) and (d) involve no oxidation-number change.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -749,7 +749,7 @@
           "$\\text{A}\\rightarrow\\text{S}; \\text{B}\\rightarrow\\text{P}; \\text{C}\\rightarrow\\text{Q}; \\text{D}\\rightarrow\\text{R}$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> A: 15 mL C2H6 produces 30 mL CO2; 15 mL CO<br>produces 15 mL CO2. Total = 45 mL → P.<br>B: C3H8 + 5O2 → 3CO2 + 4H2O, so 24 mL C3H8<br>consumes 120 mL O2 → Q.<br>C: 25 mL hydrocarbon giving 75 mL CO2 has x =<br>3. O2/hydrocarbon = 125/25 = 5 = x + y/4, so y = 8.<br>Initial gas volume = 25 + 125 = 150 mL; after<br>cooling only 75 mL CO2 remains, so contraction<br>=75 mL → R.<br>D: 20 mL CH4 consumes 40 mL O2 and yields 20<br>mL CO2; 20 mL H2 consumes 10 mL O2.<br>From 100 mL O2, 50 mL remains. Final gas = 20 +<br>50 = 70 mL → S.",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> A: $15\\text{ mL } \\text{C}_2\\text{H}_6$ produces $30\\text{ mL } \\text{CO}_2$; $15\\text{ mL CO}$ produces $15\\text{ mL } \\text{CO}_2$. Total $= 45\\text{ mL} \\rightarrow$ P.<br>B: $\\text{C}_3\\text{H}_8 + 5\\text{O}_2 \\rightarrow 3\\text{CO}_2 + 4\\text{H}_2\\text{O}$, so $24\\text{ mL } \\text{C}_3\\text{H}_8$ consumes $120\\text{ mL } \\text{O}_2 \\rightarrow$ Q.<br>C: $25\\text{ mL}$ hydrocarbon giving $75\\text{ mL } \\text{CO}_2$ has $x = 3$. $\\text{O}_2/\\text{hydrocarbon} = 125/25 = 5 = x + y/4$, so $y = 8$.<br>Initial gas volume $= 25 + 125 = 150\\text{ mL}$; after cooling only $75\\text{ mL } \\text{CO}_2$ remains, so contraction $= 75\\text{ mL} \\rightarrow$ R.<br>D: $20\\text{ mL } \\text{CH}_4$ consumes $40\\text{ mL } \\text{O}_2$ and yields $20\\text{ mL } \\text{CO}_2$; $20\\text{ mL } \\text{H}_2$ consumes $10\\text{ mL } \\text{O}_2$.<br>From $100\\text{ mL } \\text{O}_2$, $50\\text{ mL}$ remains. Final gas $= 20 + 50 = 70\\text{ mL} \\rightarrow$ S.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -773,7 +773,7 @@
           "$20.0\\text{ mL}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Mass of sulfur = 0.800×0.0400 = 0.0320 g =<br>0.00100 mol S.<br>Each sulfate ion contains one sulfur atom, so<br>moles SO42– = 0.00100 mol.<br>Ba2+ + SO42– → BaSO4 is 1:1, so moles Ba(NO3)2<br>required = 0.00100 mol.<br>Volume = n/M = 0.00100/0.100 = 0.0100 L = 10.0<br>mL.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Mass of sulfur $= 0.800 \\times 0.0400 = 0.0320\\text{ g} = 0.00100\\text{ mol S}$.<br>Each sulfate ion contains one sulfur atom, so moles $\\text{SO}_4^{2-} = 0.00100\\text{ mol}$.<br>$\\text{Ba}^{2+} + \\text{SO}_4^{2-} \\rightarrow \\text{BaSO}_4$ is 1:1, so moles $\\text{Ba(NO}_3)_2$ required $= 0.00100\\text{ mol}$.<br>Volume $= n/M = 0.00100/0.100 = 0.0100\\text{ L} = 10.0\\text{ mL}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -797,7 +797,7 @@
           "$\\text{III} < \\text{II} < \\text{I} < \\text{IV}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> I: m(CO2 molecule)=44/Nₐ ≈7.31×10–23 g.<br>–23<br>II: m(Ar atom)=40/Nₐ ≈6.64×10 g.<br>III: 10–22 mol H2 has mass 2×10–22 g.<br>IV: 10–23 mol Fe has mass 56×10–23 =5.6×10–22 g.<br>Thus II < I < III < IV.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> I: $m(\\text{CO}_2\\text{ molecule}) = 44/N_A \\approx 7.31 \\times 10^{-23}\\text{ g}$.<br>II: $m(\\text{Ar atom}) = 40/N_A \\approx 6.64 \\times 10^{-23}\\text{ g}$.<br>III: $10^{-22}\\text{ mol H}_2$ has mass $2 \\times 10^{-22}\\text{ g}$.<br>IV: $10^{-23}\\text{ mol Fe}$ has mass $56 \\times 10^{-23} = 5.6 \\times 10^{-22}\\text{ g}$.<br>Thus II < I < III < IV.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -821,7 +821,7 @@
           "$25\\text{ mL of } 0.1\\text{ M } \\text{SnCl}_2 \\text{ to be oxidized to } \\text{Sn}^{4+}$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Milli equivalent of KMnO4 = 25 × 0. 2 = 5<br>meq.<br>(a) Fe2+ → Fe3+<br>Milli equivalent of FeSO4 = 25 × 0. 2 × 1<br>= 0. 2 × 25 = 5 (same)<br>(b) H3 AsO3 → H3 AsO4<br>Milli equivalent of H3 AsO3 = 2 × 50 × 0. 1<br>= 10 (not same)<br>(c) H2 O2 → 2H+ + O2<br>Milli equivalent of H2 O2 = 25 × 0. 1 × 2 = 5<br>(same)<br>(d) Sn2+ → Sn4+<br>Milli equivalent of SnCl2 = 25 × 0. 2 = 5<br>(same)",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Milli equivalent of $\\text{KMnO}_4 = 25 \\times 0.2 = 5$ meq.<br>(a) $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+}$<br>Milli equivalent of $\\text{FeSO}_4 = 25 \\times 0.2 \\times 1 = 0.2 \\times 25 = 5$ (same)<br>(b) $\\text{H}_3\\text{AsO}_3 \\rightarrow \\text{H}_3\\text{AsO}_4$<br>Milli equivalent of $\\text{H}_3\\text{AsO}_3 = 2 \\times 50 \\times 0.1 = 10$ (not same)<br>(c) $\\text{H}_2\\text{O}_2 \\rightarrow 2\\text{H}^+ + \\text{O}_2$<br>Milli equivalent of $\\text{H}_2\\text{O}_2 = 25 \\times 0.1 \\times 2 = 5$ (same)<br>(d) $\\text{Sn}^{2+} \\rightarrow \\text{Sn}^{4+}$<br>Milli equivalent of $\\text{SnCl}_2 = 25 \\times 0.2 = 5$ (same)",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -845,7 +845,7 @@
           "$20$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Conventional 1 u = (1/12)m(12C). The new unit u* =<br>(1/10)m(12C) =1.2 u.<br>A Mg atom of mass 24 u therefore has numerical<br>mass 24/1.2 =20 in units of u*.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Conventional $1\\text{ u} = (1/12)m(^{12}\\text{C})$. The new unit $\\text{u}^* = (1/10)m(^{12}\\text{C}) = 1.2\\text{ u}$.<br>A Mg atom of mass $24\\text{ u}$ therefore has numerical mass $24/1.2 = 20$ in units of $\\text{u}^*$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -869,7 +869,7 @@
           "$5 \\text{ OH}^-$ on the right and $6\\text{e}^-$ on the left"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Balance in basic medium to obtain: CrO42– +<br>4H2O + 3e– → Cr(OH)3 + 5OH–.<br>Atoms: Cr 1, O 8 on each side, H 8 on each side.<br>Charge: left = –2 – 3 = –5; right = –5.",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Balance in basic medium to obtain: $\\text{CrO}_4^{2-} + 4\\text{H}_2\\text{O} + 3e^- \\rightarrow \\text{Cr(OH)}_3 + 5\\text{OH}^-$.<br>Atoms: Cr 1, O 8 on each side, H 8 on each side.<br>Charge: left $= -2 - 3 = -5$; right $= -5$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -893,7 +893,7 @@
           "$84\\%$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Pure CaCO3 present = 200×0.80 = 160 g = 1.60<br>mol.<br>Theoretical CaO = 1.60×56 = 89.6 g.<br>Percentage yield = (67.2/89.6)×100 = 75%.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Pure $\\text{CaCO}_3$ present $= 200 \\times 0.80 = 160\\text{ g} = 1.60\\text{ mol}$.<br>Theoretical $\\text{CaO} = 1.60 \\times 56 = 89.6\\text{ g}$.<br>Percentage yield $= (67.2/89.6) \\times 100 = 75\\%$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -917,7 +917,7 @@
           "A \nightarrow S; B \nightarrow Q; C \nightarrow P; D \nightarrow R"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> P: For equal masses w of CO2 and O2, average<br>molar mass = 2w / (w/44 + w/32) = 2 × 44 × 32/(44<br>+ 32) = 704/19.<br>Q: Equimolar NH3 and N2H4 give average molar<br>mass = (17 + 32)/2 = 49/2.<br>R: Let moles of CO and CO2 be a and b. (a +<br>2b)/(a + b) = 5/4 gives a = 3b. Hence average<br>molar mass = (3 × 28 + 44)/4 = 32.<br>S: Vapour density 20 corresponds to average<br>molar mass 2 × 20 = 40.<br>Thus A→R, B→P, C→S, D→Q.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> P: For equal masses $w$ of $\\text{CO}_2$ and $\\text{O}_2$, average molar mass $= \\frac{2w}{w/44 + w/32} = \\frac{2 \\times 44 \\times 32}{44 + 32} = \\frac{704}{19}$.<br>Q: Equimolar $\\text{NH}_3$ and $\\text{N}_2\\text{H}_4$ give average molar mass $= \\frac{17 + 32}{2} = \\frac{49}{2}$.<br>R: Let moles of CO and $\\text{CO}_2$ be $a$ and $b$. $\\frac{a + 2b}{a + b} = \\frac{5}{4}$ gives $a = 3b$. Hence average molar mass $= \\frac{3 \\times 28 + 44}{4} = 32$.<br>S: Vapour density 20 corresponds to average molar mass $2 \\times 20 = 40$.<br>Thus A→R, B→P, C→S, D→Q.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -941,7 +941,7 @@
           "$5.0\\text{ mol}$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Without losses, 2 mol Al gives 1 mol Al O .<br>2 3<br>Overall fractional yield through the first two<br>steps = 0.80×0.75 = 0.60.<br>Thus 1 mol Al gives 0.5×0.60 = 0.30 mol Al O .<br>2 3<br>Required Al = 1.20/0.30 = 4.0 mol.<br>Independent check by back-calculation: 1.20 mol<br>Al2O3 needs 2.40 mol Al(OH)3 actual; before<br>75% yield this needs 3.20 mol AlCl3 actual;<br>before 80% yield this needs 4.00 mol Al.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Without losses, $2\\text{ mol Al}$ gives $1\\text{ mol } \\text{Al}_2\\text{O}_3$.<br>Overall fractional yield through the first two steps $= 0.80 \\times 0.75 = 0.60$.<br>Thus $1\\text{ mol Al}$ gives $0.5 \\times 0.60 = 0.30\\text{ mol } \\text{Al}_2\\text{O}_3$.<br>Required Al $= 1.20/0.30 = 4.0\\text{ mol}$.<br>Independent check by back-calculation: $1.20\\text{ mol } \\text{Al}_2\\text{O}_3$ needs $2.40\\text{ mol } \\text{Al(OH)}_3$ actual; before $75\\%$ yield this needs $3.20\\text{ mol } \\text{AlCl}_3$ actual; before $80\\%$ yield this needs $4.00\\text{ mol Al}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -965,7 +965,7 @@
           "(5, 2, 6)"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Reduction half-reaction: MnO4– + 8H⁺ +5e– →<br>Mn2⁺ +4H2O.<br>Oxidation half-reaction: SO32– + H2O → SO42–<br>+2H⁺ +2e–.<br>Multiply the first by2 and the second by5, then<br>add and cancel: 2MnO4– +5SO32– +6H⁺ →2Mn2⁺<br>+5SO42– +3H2O.<br>Therefore (a,b,c)=(2,5,6).",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Reduction half-reaction: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$.<br>Oxidation half-reaction: $\\text{SO}_3^{2-} + \\text{H}_2\\text{O} \\rightarrow \\text{SO}_4^{2-} + 2\\text{H}^+ + 2e^-$.<br>Multiply the first by 2 and the second by 5, then add and cancel: $2\\text{MnO}_4^- + 5\\text{SO}_3^{2-} + 6\\text{H}^+ \\rightarrow 2\\text{Mn}^{2+} + 5\\text{SO}_4^{2-} + 3\\text{H}_2\\text{O}$.<br>Therefore $(a,b,c) = (2,5,6)$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -989,7 +989,7 @@
           "A\nightarrow S; B\nightarrow P; C\nightarrow Q; D\nightarrow R"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2Na + Cl2 Combination<br>→ 2NaCl reaction<br>Zn(s) +<br>CuSO (aq) Metal<br>4 displacement<br>→Cu(s)+ZnSO<br>(aq) reaction<br>4<br>Current Decompositio<br>2H2O −−−→<br>2H2 + O2 n reaction<br>−<br>3Br2 + 6OH Disproportion<br>→ BrO3− +<br>5Br− + 3H O ation reaction<br>2",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $2\\text{Na} + \\text{Cl}_2 \\rightarrow 2\\text{NaCl}$ — Combination reaction<br>$\\text{Zn}(s) + \\text{CuSO}_4(aq) \\rightarrow \\text{Cu}(s) + \\text{ZnSO}_4(aq)$ — Metal displacement reaction<br>$2\\text{H}_2\\text{O} \\xrightarrow{\\text{Current}} 2\\text{H}_2 + \\text{O}_2$ — Decomposition reaction<br>$3\\text{Br}_2 + 6\\text{OH}^- \\rightarrow \\text{BrO}_3^- + 5\\text{Br}^- + 3\\text{H}_2\\text{O}$ — Disproportionation reaction",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1013,7 +1013,7 @@
           "0.0400 M"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> After dilution, [KMnO4] = 0.100×15/150 = 0.0100<br>M.<br>In acid, n-factor of KMnO4 is 5. For FeC2O4, Fe2+<br>loses 1 e– and oxalate loses 2 e–, so n-factor = 3.<br>Equivalents KMnO4 in aliquot =<br>0.0200×0.0100×5 = 0.00100 eq.<br>Therefore 0.0250×M×3 = 0.00100, giving M =<br>0.0133 M.",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> After dilution, $[\\text{KMnO}_4] = 0.100 \\times 15/150 = 0.0100\\text{ M}$.<br>In acid, n-factor of $\\text{KMnO}_4$ is 5. For $\\text{FeC}_2\\text{O}_4$, $\\text{Fe}^{2+}$ loses 1 $e^-$ and oxalate loses 2 $e^-$, so n-factor $= 3$.<br>Equivalents $\\text{KMnO}_4$ in aliquot $= 0.0200 \\times 0.0100 \\times 5 = 0.00100$ eq.<br>Therefore $0.0250 \\times M \\times 3 = 0.00100$, giving $M = 0.0133\\text{ M}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1037,7 +1037,7 @@
           "$130\\text{ g}$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Let x g of metal react. Since equivalent weights<br>M:O =24:8 =3:1, oxygen gained = x/3.<br>The final solid contains oxide mass x+x/3 + 10 g<br>unreacted metal: 4x/3 +10 =170.<br>Thus 4x/3=160, x=120 g reacted. Initial metal<br>=120+10=130 g.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Let $x\\text{ g}$ of metal react. Since equivalent weights $\\text{M}:\\text{O} = 24:8 = 3:1$, oxygen gained $= x/3$.<br>The final solid contains oxide mass $x + x/3 + 10\\text{ g}$ unreacted metal: $4x/3 + 10 = 170$.<br>Thus $4x/3 = 160$, $x = 120\\text{ g}$ reacted. Initial metal $= 120 + 10 = 130\\text{ g}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1061,7 +1061,7 @@
           "A \nightarrow S;\\ B \nightarrow P;\\ C \nightarrow R;\\ D \nightarrow Q"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> A: acid equivalents = 0.100 × 0.20 × 2 = 0.040 eq,<br>requiring 0.040/0.25 = 0.160 L = 160 mL NaOH<br>(S).<br>B: acid equivalents = 0.100 × 0.20 × 1 = 0.020 eq<br>→ 80 mL NaOH (P).<br>C: each formula unit KHC2O4·H2C2O4 supplies 3<br>acid equivalents (R).<br>D: acid eq = 0.100[(0.10 × 2)+(0.05×1)] = 0.025<br>→100 mL NaOH (Q).",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> A: acid equivalents $= 0.100 \\times 0.20 \\times 2 = 0.040$ eq, requiring $0.040/0.25 = 0.160\\text{ L} = 160\\text{ mL NaOH}$ (S).<br>B: acid equivalents $= 0.100 \\times 0.20 \\times 1 = 0.020$ eq $\\rightarrow 80\\text{ mL NaOH}$ (P).<br>C: each formula unit $\\text{KHC}_2\\text{O}_4 \\cdot \\text{H}_2\\text{C}_2\\text{O}_4$ supplies 3 acid equivalents (R).<br>D: acid eq $= 0.100[(0.10 \\times 2) + (0.05 \\times 1)] = 0.025 \\rightarrow 100\\text{ mL NaOH}$ (Q).",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1079,7 +1079,7 @@
         "section": "Numerical",
         "text": "A metalloprotein has molar mass $8.00 \\times 10^4 \\text{ g mol}^{-1}$ and contains $0.350\\%$ iron by mass. Determine the number of Fe atoms present per protein molecule.\n(Atomic mass $\\text{Fe} = 56$; nearest integer)",
         "answer": "5",
-        "solution": "<b>Ans. (5)</b><br><b>Sol.</b> Mass of Fe in one mole of protein =0.350/100<br>×8.00×10⁴ =280 g.<br>Moles of Fe atoms per mole of protein =280/56<br>=5 mol of Fe atoms per mole of protein<br>molecules.<br>Therefore each protein molecule contains 5 Fe<br>atoms.",
+        "solution": "<b>Ans. (5)</b><br><b>Sol.</b> Mass of Fe in one mole of protein $= \\frac{0.350}{100} \\times 8.00 \\times 10^{4} = 280\\text{ g}$.<br>Moles of Fe atoms per mole of protein $= \\frac{280}{56} = 5$ mol of Fe atoms per mole of protein molecules.<br>Therefore each protein molecule contains 5 Fe atoms.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1097,7 +1097,7 @@
         "section": "Numerical",
         "text": "$30.0\\text{ mL}$ of a $0.200\\text{ M}$ solution containing a metal ion $\\text{M}^{2+}$ is completely oxidised by $20.0\\text{ mL}$ of $0.100\\text{ M } \\text{K}_2\\text{Cr}_2\\text{O}_7$ in acidic medium. Dichromate is reduced to $\\text{Cr}^{3+}$ and all $\\text{M}^{2+}$ is converted to a single oxidation state. If the final oxidation number of $\\text{M}$ is $+x$, then the value of $x$ is ______.",
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Moles of dichromate = 0.0200×0.100 = 0.00200<br>mol. In acid, one mole Cr2O72– gains 6 mol e–, so<br>electron uptake = 0.0120 mol e–.<br>Moles M2+ = 0.0300×0.200 = 0.00600 mol.<br>Electrons lost per M = 0.0120/0.00600 = 2. Thus<br>oxidation state increases from +2 to +4.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Moles of dichromate $= 0.0200 \\times 0.100 = 0.00200$ mol. In acid, one mole $Cr_2O_7^{2-}$ gains 6 mol $e^-$, so electron uptake $= 0.0120$ mol $e^-$.<br>Moles $M^{2+} = 0.0300 \\times 0.200 = 0.00600$ mol.<br>Electrons lost per M $= \\frac{0.0120}{0.00600} = 2$. Thus oxidation state increases from $+2$ to $+4$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1115,7 +1115,7 @@
         "section": "Numerical",
         "text": "$0.500\\text{ g KIO}_3$ (molar mass $= 214\\text{ g mol}^{-1}$) is treated with excess $\\text{KI}$ in acidic medium.\n$$\\text{IO}_3^- + 5\\text{I}^- + 6\\text{H}^+ \\rightarrow 3\\text{I}_2 + 3\\text{H}_2\\text{O}$$\nThe liberated iodine is titrated with $0.100\\text{ M}$\n$\\text{Na}_2\\text{S}_2\\text{O}_3$. Find the volume of thiosulfate solution\nrequired in $\\text{mL}$. (Nearest integer)",
         "answer": "140",
-        "solution": "<b>Ans. (140)</b><br><b>Sol.</b> Moles KIO3 = 0.500/214 = 0.002336 mol.<br>Each mole IO3– forms 3 mol I2, and each mole I2<br>consumes 2 mol thiosulfate.<br>Therefore thiosulfate moles = 6×0.002336 =<br>0.014019 mol.<br>Volume at 0.100 M = 0.014019/0.100 = 0.14019 L<br>= 140.19 mL.<br>Independent check by equivalents: one mol IO3–<br>corresponds to 6 electron-equivalents and<br>therefore 6 mol thiosulfate in this iodometric<br>sequence.",
+        "solution": "<b>Ans. (140)</b><br><b>Sol.</b> Moles $KIO_3 = \\frac{0.500}{214} = 0.002336$ mol.<br>Each mole $IO_3^-$ forms 3 mol $I_2$, and each mole $I_2$ consumes 2 mol thiosulfate.<br>Therefore thiosulfate moles $= 6 \\times 0.002336 = 0.014019$ mol.<br>Volume at $0.100\\text{ M} = \\frac{0.014019}{0.100} = 0.14019\\text{ L} = 140.19\\text{ mL}$.<br>Independent check by equivalents: one mol $IO_3^-$ corresponds to 6 electron-equivalents and therefore 6 mol thiosulfate in this iodometric sequence.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1133,7 +1133,7 @@
         "section": "Numerical",
         "text": "Ammonium sulfate is prepared in two steps. First, $\\text{N}_2 + 3\\text{H}_2 \\rightarrow 2\\text{NH}_3$ occurs with $70\\%$ yield. Then, $2\\text{NH}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow (\\text{NH}_4)_2\\text{SO}_4$ occurs with $90\\%$ yield. If $28.0 \\text{ kg } \\text{N}_2$ and $6.0 \\text{ kg } \\text{H}_2$ are used in the first step and all the ammonia obtained is then reacted with $98.0 \\text{ kg } \\text{H}_2\\text{SO}_4$, calculate the final mass (kg) of $(\\text{NH}_4)_2\\text{SO}_4$. Report the nearest integer.\n(Molar masses: $\\text{N}_2 = 28, \\text{ H}_2 = 2, \\text{ H}_2\\text{SO}_4 = 98,$\n$(\\text{NH}_4)_2\\text{SO}_4 = 132 \\text{ g mol}^{-1}$)",
         "answer": "83",
-        "solution": "<b>Ans. (83)</b><br><b>Sol.</b> First step: 28.0 kg N =1000 mol and 6.0 kg H<br>2 2<br>=3000 mol, exactly stoichiometric.<br>Theoretical NH3 =2000 mol; at 70% yield, NH3<br>obtained =1400 mol.<br>Second step: 98.0 kg H2SO4 =1000 mol.<br>1400 mol NH3 can form 700 mol (NH4)2SO4, so<br>NH3 is limiting in this step.<br>At 90% yield, product =0.90×700 =630 mol. Mass<br>=630×132 =83160 g =83.16 kg.<br>Nearest integer =83.",
+        "solution": "<b>Ans. (83)</b><br><b>Sol.</b> First step: $28.0\\text{ kg }N_2 = 1000$ mol and $6.0\\text{ kg }H_2 = 3000$ mol, exactly stoichiometric.<br>Theoretical $NH_3 = 2000$ mol; at $70\\%$ yield, $NH_3$ obtained $= 1400$ mol.<br>Second step: $98.0\\text{ kg }H_2SO_4 = 1000$ mol.<br>$1400$ mol $NH_3$ can form $700$ mol $(NH_4)_2SO_4$, so $NH_3$ is limiting in this step.<br>At $90\\%$ yield, product $= 0.90 \\times 700 = 630$ mol. Mass $= 630 \\times 132 = 83160\\text{ g} = 83.16\\text{ kg}$.<br>Nearest integer $= 83$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1151,7 +1151,7 @@
         "section": "Numerical",
         "text": "A $1.20\\text{ g}$ impure sample contains $\\text{FeC}_2\\text{O}_4$ (molar mass $144\\text{ g mol}^{-1}$) and inert material. In acidic medium, $\\text{Fe}^{2-}$ is oxidized to $\\text{Fe}^{3-}$ and $\\text{C}_2\\text{O}_4^{2-}$ is oxidized to $\\text{CO}_2$. The sample requires $25.0\\text{ mL}$ of $0.020\\text{ M KMnO}_4$ for complete oxidation. Determine the mass percentage of $\\text{FeC}_2\\text{O}_4$ in the sample.\n(Nearest integer)",
         "answer": "10",
-        "solution": "<b>Ans. (10)</b><br><b>Sol.</b> In one mole FeC2O4, Fe2⁺→Fe3⁺ releases 1 e– and<br>C2O42–→2CO2 releases 2 e–.<br>Hence n-factor of FeC2O4 =3.<br>Equivalents of KMnO4 =0.0250×0.020×5<br>=0.00250 eq.<br>These equal the reducing equivalents of FeC2O4.<br>Moles FeC2O4 =0.00250/3 =8.333×10–⁴ mol;<br>mass =8.333×10–⁴×144 =0.120 g.<br>Mass percentage =0.120/1.20×100 =10%.",
+        "solution": "<b>Ans. (10)</b><br><b>Sol.</b> In one mole $FeC_2O_4$, $Fe^{2+} \\rightarrow Fe^{3+}$ releases 1 $e^-$ and $C_2O_4^{2-} \\rightarrow 2CO_2$ releases 2 $e^-$.<br>Hence n-factor of $FeC_2O_4 = 3$.<br>Equivalents of $KMnO_4 = 0.0250 \\times 0.020 \\times 5 = 0.00250$ eq.<br>These equal the reducing equivalents of $FeC_2O_4$.<br>Moles $FeC_2O_4 = \\frac{0.00250}{3} = 8.333 \\times 10^{-4}$ mol; mass $= 8.333 \\times 10^{-4} \\times 144 = 0.120\\text{ g}$.<br>Mass percentage $= \\frac{0.120}{1.20} \\times 100 = 10\\%$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1175,7 +1175,7 @@
           "$158$"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Put p = √3−13− and q = √3−12−.<br>Then p3 − q3 = 1 and<br>x = p2 + pq + q 2 = 1 .<br>3 p − q<br>Hence (p − q) + 3pq (p − q) = 1,<br>which gives x3 −  3√3 −156−−⋅x2 = 1.<br>Also x − x−2 = 3pq = 3√3 −156−−, so<br>(x − x−2 )3<br>27 = 156.<br>Therefore E = 1 + 156 = 157.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Put $p = \\sqrt[3]{13}$ and $q = \\sqrt[3]{12}$.<br>Then $p^3 - q^3 = 1$ and $x = p^2 + pq + q^2 = \\frac{1}{p - q}$.<br>Hence $(p - q)^3 + 3pq(p - q) = 1$, which gives $x^3 - 3\\sqrt[3]{156} \\cdot x^2 = 1$.<br>Also $x - x^{-2} = 3pq = 3\\sqrt[3]{156}$, so $\\frac{(x - x^{-2})^3}{27} = 156$.<br>Therefore $E = 1 + 156 = 157$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1199,7 +1199,7 @@
           "24"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> 30+5x−x2<br>Rearranging gives y = 6 . Non-negativity<br>forces 0 ≤ x ≤ 8.<br>Testing divisibility by 6 gives the pairs (0,5),(2,6),<br>(3,6),(5,5),(6,4),(8,1).<br>The odd-sum condition keeps only (0,5),(3,6),<br>(8,1).<br>Thus Σ (xi + yi) = 5 + 9 + 9 = 23.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Rearranging gives $y = \\frac{30 + 5x - x^2}{6}$. Non-negativity forces $0 \\le x \\le 8$.<br>Testing divisibility by 6 gives the pairs $(0,5),(2,6),(3,6),(5,5),(6,4),(8,1)$.<br>The odd-sum condition keeps only $(0,5),(3,6),(8,1)$.<br>Thus $\\Sigma (x_i + y_i) = 5 + 9 + 9 = 23$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1223,7 +1223,7 @@
           "The root set has exactly four elements."
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set t = 3x > 0. The equation becomes<br>∣t − 1 |+|t − 4 |+|t − 7 |=|t2 − 7∣ + 4.<br>∣ – ∣<br>Splitting at t = 1,  √7,  4,  7 and retaining<br>interval-valid roots gives<br>t = 3−√5 , 1+√5 , √53−1 .<br>2 2 2<br>Exactly the first value is below 1; the other two<br>exceed 1.<br>Since x = log3 t, there are three real roots with<br>exactly one negative root.",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set $t = 3^x > 0$. The equation becomes $|t - 1| + |t - 4| + |t - 7| = |t^2 - 7| + 4$.<br>Splitting at $t = 1, \\sqrt{7}, 4, 7$ and retaining interval-valid roots gives $t = \\frac{3 - \\sqrt{5}}{2}, \\frac{1 + \\sqrt{5}}{2}, \\frac{\\sqrt{53} - 1}{2}$.<br>Exactly the first value is below 1; the other two exceed 1.<br>Since $x = \\log_3 t$, there are three real roots with exactly one negative root.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1247,7 +1247,7 @@
           "$((-\\infty, 1), [1, 2))$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Because 8 = 23 , the first inequality reduces<br>2<br>x − 3x + 2 > 0, hence<br>A = (−∞, 1) ∪ (2, ∞).<br>The logarithmic condition<br>ln (5 − x2 ) > 0 means 5 − x2 > 1, so<br>B = (−2, 2).<br>Therefore A ∩ B = (−2, 1) and<br>B − A =  [1, 2).",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Because $8 = 2^3$, the first inequality reduces to $x^2 - 3x + 2 > 0$, hence $A = (-\\infty, 1) \\cup (2, \\infty)$.<br>The logarithmic condition $\\ln(5 - x^2) > 0$ means $5 - x^2 > 1$, so $B = (-2, 2)$.<br>Therefore $A \\cap B = (-2, 1)$ and $B - A = [1, 2)$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1271,7 +1271,7 @@
           "33"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Modulo 3, 2m − 2 ≡ 0 exactly when m  is odd.<br>Where x ≡ r (mod y) means remainder r when<br>x is divided by y.<br>Modulo 7, powers of 3 have period 6 and<br>3m ≡ −1  exactly when m  ≡  3 (mod 6).<br>Thus admissible values are 27, 33, … ,207.<br>Their number is (207 − 27)/6  +  1  =  31.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Modulo 3, $2^m - 2 \\equiv 0$ exactly when $m$ is odd.<br>Where $x \\equiv r \\pmod y$ means remainder $r$ when $x$ is divided by $y$.<br>Modulo 7, powers of 3 have period 6 and $3^m \\equiv -1$ exactly when $m \\equiv 3 \\pmod 6$.<br>Thus admissible values are $27, 33, \\ldots, 207$.<br>Their number is $\\frac{207 - 27}{6} + 1 = 31$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1295,7 +1295,7 @@
           "12"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let t = x + λ. Then |t| = x2−5 , so x must be<br>4<br>odd with |x| ≥ 3.<br>The condition |t − x| = |λ| ≤ 5 excludes<br>|x| ≥ 9; hence only x = ±3,  ± 5,  ± 7 need<br>checking.<br>The resulting attainable values are<br>S = {−11, −5, −1, 1, 5, 11} .<br>Therefore the largest element is 11.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let $t = x + \\lambda$. Then $|t| = \\frac{x^2 - 5}{4}$, so $x$ must be odd with $|x| \\ge 3$.<br>The condition $|t - x| = |\\lambda| \\le 5$ excludes $|x| \\ge 9$; hence only $x = \\pm 3, \\pm 5, \\pm 7$ need checking.<br>The resulting attainable values are $S = \\{-11, -5, -1, 1, 5, 11\\}$.<br>Therefore the largest element is 11.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1319,7 +1319,7 @@
           "9"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> (x + 4) (18 – x) < 0<br>⇒(x + 4) (x – 18) > 0<br>x ∈ (–∞, –4) ∪(18, ∞) .... (1)<br>(x + 25) (5 – x) (x – 1) (x + 6) (|x| – 20) > 0<br>C-I when x < –4<br>(x + 25) (x – 5) (x – 1) (x + 6) (x + 20) > 0<br>⇒x ∈ (–25, –20) ∪ (–6, –4)<br>C-II when x > 18<br>(x + 25) (x – 5) (x –1) (x + 6)  (x – 20) < 0<br>⇒x ∈ (18, 20)<br>So,<br>x ∈(–25, –20) ∪ (–6, –4) ∪(18, 20)<br>So total integers = 6",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> $(x + 4)(18 - x) < 0$<br>$\\Rightarrow (x + 4)(x - 18) > 0$<br>$x \\in (-\\infty, -4) \\cup (18, \\infty)$ .... (1)<br>$(x + 25)(5 - x)(x - 1)(x + 6)(|x| - 20) > 0$<br>C-I when $x < -4$<br>$(x + 25)(x - 5)(x - 1)(x + 6)(x + 20) > 0$<br>$\\Rightarrow x \\in (-25, -20) \\cup (-6, -4)$<br>C-II when $x > 18$<br>$(x + 25)(x - 5)(x - 1)(x + 6)(x - 20) < 0$<br>$\\Rightarrow x \\in (18, 20)$<br>So, $x \\in (-25, -20) \\cup (-6, -4) \\cup (18, 20)$<br>So total integers = 6",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1343,7 +1343,7 @@
           "24"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The units digit cycle of 7 gives u = 7.<br>Put t = 2x ; the logarithm domain is 1 < t < 13 .<br>Combining logs gives (t − 1) (13 − t) = 9, or<br>t2 − 14t + 22 = 0.<br>Both roots lie in the domain.<br>By Vieta, t t = 22.<br>1 2<br>Therefore x1 + x2 = log2 (t1 t2) = log2 22.<br>Thus k = 22.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The units digit cycle of 7 gives $u = 7$.<br>Put $t = 2^x$; the logarithm domain is $1 < t < 13$.<br>Combining logs gives $(t - 1)(13 - t) = 9$, or $t^2 - 14t + 22 = 0$.<br>Both roots lie in the domain.<br>By Vieta, $t_1 t_2 = 22$.<br>Therefore $x_1 + x_2 = \\log_2(t_1 t_2) = \\log_2 22$.<br>Thus $k = 22$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1367,7 +1367,7 @@
           "210"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> to<br>Let pr = ar + br + cr. Newton sums give<br>p = 14 and p = 4p − p + 3 (−6) = 34.<br>2 3 2 1<br>Next p4 = 4p3 − p2 − 6p1 = 98.<br>Then p5 = 4p4 − p3 − 6p2 = 274.<br>Hence p5 − 2p3 = 274 − 68 = 206.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Let $p_r = a^r + b^r + c^r$. Newton sums give $p_2 = 14$ and $p_3 = 4p_2 - p_1 + 3(-6) = 34$.<br>Next $p_4 = 4p_3 - p_2 - 6p_1 = 98$.<br>Then $p_5 = 4p_4 - p_3 - 6p_2 = 274$.<br>Hence $p_5 - 2p_3 = 274 - 68 = 206$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1391,7 +1391,7 @@
           "$\\log_{27} k = 1/2$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set r = log(2x+19) . Then r + 2 = 3, so r = 1 or<br>log(x+2) r<br>r = 2.<br>The case r = 1 gives x = −17, outside the<br>domain.<br>For r = 2, 2x + 19 = (x + 2)2  gives x = 3 or<br>–5; only k = 3 is admissible.<br>Therefore log3 (9k) = log3 27 = 3 .",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Set $r = \\frac{\\log(2x + 19)}{\\log(x + 2)}$. Then $r + \\frac{2}{r} = 3$, so $r = 1$ or $r = 2$.<br>The case $r = 1$ gives $x = -17$, outside the domain.<br>For $r = 2$, $2x + 19 = (x + 2)^2$ gives $x = 3$ or $-5$; only $k = 3$ is admissible.<br>Therefore $\\log_3(9k) = \\log_3 27 = 3$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1415,7 +1415,7 @@
           "10"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The required elements are those in U  that are<br>neither divisors of 60, nor prime, nor multiples of<br>4.<br>Filtering the universe gives<br>{9, 14, 18, 21, 22, 25, 26, 27}.<br>Hence n (Ac ∩ Bc ∩ C c) = 8.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The required elements are those in $U$ that are neither divisors of $60$, nor prime, nor multiples of $4$.<br>Filtering the universe gives<br>$\\{9, 14, 18, 21, 22, 25, 26, 27\\}$.<br>Hence $n(A^c \\cap B^c \\cap C^c) = 8$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1439,7 +1439,7 @@
           "51"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> −−−−−−−−−−−− √−−<br>First √(19 + 6√10 ) = 3 + 10  because<br>(3 + √−10−) 2 = 19 + 6√−10−.<br>Thus the outer radical is−−−−−−−−−<br>√−− = √– − √–.<br>√(7 − 2 10 ) 5 2<br>The full expression becomes––−−–<br>3√5 − √2  =  √45 − √2 .<br>Hence a = 45,  b = 2 and a + b = 47 .",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> First $\\sqrt{19 + 6\\sqrt{10}} = 3 + \\sqrt{10}$ because $(3 + \\sqrt{10})^2 = 19 + 6\\sqrt{10}$.<br>Thus the outer radical is<br>$\\sqrt{7 - 2\\sqrt{10}} = \\sqrt{5} - \\sqrt{2}$.<br>The full expression becomes<br>$3\\sqrt{5} - \\sqrt{2} = \\sqrt{45} - \\sqrt{2}$.<br>Hence $a = 45$, $b = 2$ and $a + b = 47$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1463,7 +1463,7 @@
           "$(A - B) \\cup (B - C) \\cup (C - A)$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Each difference inside the brackets contains<br>elements belonging to exactly one of the three<br>sets.<br>Their union is therefore the exactly-one-<br>membership region. Its complement in<br>U  contains points belonging to at least two sets,<br>since A ∪ B ∪ C = U .<br>The at-least-two region is<br>(A ∩ B) ∪ (B ∩ C ) ∪ (C ∩ A) .",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Each difference inside the brackets contains elements belonging to exactly one of the three sets.<br>Their union is therefore the exactly-one-membership region. Its complement in $U$ contains points belonging to at least two sets, since $A \\cup B \\cup C = U$.<br>The at-least-two region is<br>$(A \\cap B) \\cup (B \\cap C) \\cup (C \\cap A)$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1487,7 +1487,7 @@
           "42"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The smallest containing subset is A ∪ B. Here<br>n(A) =30.<br>For B there are 20 multiples of 6 and 4 are also<br>multiples of 5, so n(B) = 16.<br>The intersection consists of multiples of 12 that<br>are not multiples of 5: n(A∩B) = 10–2=8.<br>Thus n(A∪B) = 30 + 16 – 8 = 38.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> The smallest containing subset is $A \\cup B$. Here $n(A) = 30$.<br>For $B$ there are 20 multiples of 6 and 4 are also multiples of 5, so $n(B) = 16$.<br>The intersection consists of multiples of 12 that are not multiples of 5: $n(A \\cap B) = 10 - 2 = 8$.<br>Thus $n(A \\cup B) = 30 + 16 - 8 = 38$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1511,7 +1511,7 @@
           "Only $S_2$ and $S_3$ are true."
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> For S1,<br>n (A ∪ B ∪ C ) = 45 + 38 + 31 − 24 − 2 ⋅ 5,<br>= 80<br>so S1 is true.<br>For S2, the maximum union is 42 and the<br>minimum intersection is 26 + 19 – 42 = 3; their<br>sum is 45.<br>For S3, the interval has 751 integers; multiples of<br>4 or 6 total 188 + 126 – 63 = 251, leaving 500.<br>Thus S3 is false, and only S1 and S2 are true.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> For $S_1$,<br>$n(A \\cup B \\cup C) = 45 + 38 + 31 - 24 - 2 \\cdot 5$,<br>$= 80$<br>so $S_1$ is true.<br>For $S_2$, the maximum union is 42 and the minimum intersection is $26 + 19 - 42 = 3$; their sum is 45.<br>For $S_3$, the interval has 751 integers; multiples of 4 or 6 total $188 + 126 - 63 = 251$, leaving 500.<br>Thus $S_3$ is false, and only $S_1$ and $S_2$ are true.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1535,7 +1535,7 @@
           "$A \\cup B = (-\\infty, -4] \\cup (-2, \\infty)$"
         ],
         "answer": "4",
-        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> The inequalities give A = (−2, 3) and<br>B = (−∞, −4 ]∪[2, ∞).<br>Hence A ∩ B = [2, 3), A − B = (−2, 2), and<br>B − A = (−∞, −4 ]∪[3, ∞).<br>Therefore the stated symmetric difference is<br>correct, while A ∪ B = (−∞, −4] ∪ (−2, ∞).<br>Option (4) incorrectly includes –2.",
+        "solution": "<b>Ans. (4)</b><br><b>Sol.</b> The inequalities give $A = (-2, 3)$ and $B = (-\\infty, -4] \\cup [2, \\infty)$.<br>Hence $A \\cap B = [2, 3)$, $A - B = (-2, 2)$, and $B - A = (-\\infty, -4] \\cup [3, \\infty)$.<br>Therefore the stated symmetric difference is correct, while $A \\cup B = (-\\infty, -4] \\cup (-2, \\infty)$.<br>Option (4) incorrectly includes $-2$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1559,7 +1559,7 @@
           "$4$"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> 2<br>At an intersection point, y = x  and<br>x = y 2 − 4y + 2.<br>Substitution gives<br>x4 − 4x2 − x + 2 = 0  = .<br>(x − 2) (x + 1) (x2 + x − 1)<br>(√5−1)<br>The positive roots are x = 2  and x = 2 ;<br>both give positive y = x².<br>Thus n (A ∩ B) = 2.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> At an intersection point, $y = x^2$ and $x = y^2 - 4y + 2$.<br>Substitution gives<br>$x^4 - 4x^2 - x + 2 = 0 = (x - 2)(x + 1)(x^2 + x - 1)$.<br>The positive roots are $x = 2$ and $x = \\frac{\\sqrt{5} - 1}{2}$;<br>both give positive $y = x^2$.<br>Thus $n(A \\cap B) = 2$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1583,7 +1583,7 @@
           "65"
         ],
         "answer": "3",
-        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The radical domain is −−−−−−−−−−−−4−−≤−x≤10. Squaring<br>gives √((x + 4) (10 − x)) = 11 .<br>2 –<br>A second squaring yields x = 3 ± 5√3/2, and<br>both values lie in the original domain, so a = 2.<br>Thus 6 ≤ log2 m < 7, equivalently<br>64 ≤ m < 128.<br>There are 128 − 64 = 64 positive integers.",
+        "solution": "<b>Ans. (3)</b><br><b>Sol.</b> The radical domain is $-4 \\le x \\le 10$. Squaring gives $\\sqrt{(x + 4)(10 - x)} = \\frac{11}{2}$.<br>A second squaring yields $x = 3 \\pm \\frac{5\\sqrt{3}}{2}$, and both values lie in the original domain, so $a = 2$.<br>Thus $6 \\le \\log_2 m < 7$, equivalently $64 \\le m < 128$.<br>There are $128 - 64 = 64$ positive integers.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1607,7 +1607,7 @@
           "$2\\lambda + \\mu = 29$"
         ],
         "answer": "1",
-        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Squaring the first equation gives<br>2y 2 + y − 1 = 0; positivity leaves y = 1/2.<br>Therefore λ = 16 + log(1/4) 32 = 27 .<br>x 2<br>Put t = 2 > 0  in the second equation. For<br>t ≥ 1 it reduces to t2 − 7t − 8 = 0 , giving<br>t = 8; the branch 0 < t < 1 gives no valid root.<br>Hence μ = 3.<br>Thus λ − μ  =  27 − 3  =  21 .<br>2 2",
+        "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Squaring the first equation gives $2y^2 + y - 1 = 0$; positivity leaves $y = \\frac{1}{2}$.<br>Therefore $\\lambda = 16 + \\log_{1/4} 32 = \\frac{27}{2}$.<br>Put $t = 2^x > 0$ in the second equation. For $t \\ge 1$ it reduces to $t^2 - 7t - 8 = 0$, giving $t = 8$; the branch $0 < t < 1$ gives no valid root.<br>Hence $\\mu = 3$.<br>Thus $\\lambda - \\mu = \\frac{27}{2} - 3 = \\frac{21}{2}$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1631,7 +1631,7 @@
           "7"
         ],
         "answer": "2",
-        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Set t = ||x| − 1| ≥ 0. Then solve 2t = t + 1 .<br>The convex function 2t − t− 1 has exactly the<br>two non-negative zeros t = 0, 1.<br>For t = 0 , |x|= 1 gives two roots. For t = 1 ,<br>|x| = 0 or 2 gives three more roots.<br>Hence there are 5 real solutions.",
+        "solution": "<b>Ans. (2)</b><br><b>Sol.</b> Set $t = ||x| - 1| \\ge 0$. Then solve $2^t = t + 1$.<br>The convex function $2^t - t - 1$ has exactly the two non-negative zeros $t = 0, 1$.<br>For $t = 0$, $|x| = 1$ gives two roots. For $t = 1$, $|x| = 0$ or $2$ gives three more roots.<br>Hence there are 5 real solutions.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1649,7 +1649,7 @@
         "section": "Numerical",
         "text": "Non-zero real numbers $x, y, z$ satisfy $\\frac{xy}{x+y} = 3, \\ \\frac{yz}{y+z} = \\frac{12}{7}, \\ \\frac{zx}{z+x} = \\frac{12}{5}$. Find the numerical value of $2x - 3y + z$.",
         "answer": "15",
-        "solution": "<b>Ans. (15)</b><br><b>Sol.</b> Let u = 1,  v = 1 , w = 1 . Then<br>x1 y 7 z 5<br>u + v = 3, v + w = 12 , w + u = 12 .<br>Solving gives u = 1 , v = 1 , w = 1.<br>12 4 3<br>Hence x = 12,  y = 4, z = 3.<br>Therefore<br>2x − 3y + z  =  24 − 12 + 3  =  15.",
+        "solution": "<b>Ans. (15)</b><br><b>Sol.</b> Let $u = \\frac{1}{x}, v = \\frac{1}{y}, w = \\frac{1}{z}$. Then<br>$u + v = \\frac{1}{3}, v + w = \\frac{7}{12}, w + u = \\frac{5}{12}$.<br>Solving gives $u = \\frac{1}{12}, v = \\frac{1}{4}, w = \\frac{1}{3}$.<br>Hence $x = 12, y = 4, z = 3$.<br>Therefore<br>$2x - 3y + z = 24 - 12 + 3 = 15$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1667,7 +1667,7 @@
         "section": "Numerical",
         "text": "How many non-empty subsets of\n$\\{1, 2, 3, 4, 5, 6, 7, 8\\}$ have a product divisible by\n12?",
         "answer": "160",
-        "solution": "<b>Ans. (160)</b><br><b>Sol.</b> Count complements among all 28 = 256<br>subsets. Let A mean the product has fewer than<br>two factors of 2; then |A| = 3 ⋅24 = 48.<br>Let B mean the product has no factor 3; then<br>|B| = 26 = 64 .<br>For both A and B, only {1, 2, 5, 7} may be<br>chosen, so |A ∩ B| = 16.<br>Thus the required count is<br>256 − (48 + 64 − 16) = 160.",
+        "solution": "<b>Ans. (160)</b><br><b>Sol.</b> Count complements among all $2^8 = 256$ subsets. Let $A$ mean the product has fewer than two factors of $2$; then $|A| = 3 \\cdot 2^4 = 48$.<br>Let $B$ mean the product has no factor $3$; then $|B| = 2^6 = 64$.<br>For both $A$ and $B$, only $\\{1, 2, 5, 7\\}$ may be chosen, so $|A \\cap B| = 16$.<br>Thus the required count is<br>$256 - (48 + 64 - 16) = 160$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1685,7 +1685,7 @@
         "section": "Numerical",
         "text": "Let $A = \\{6p + 9q + 20r : p, q, r \\in \\mathbb{N}_0\\}$ and $T = \\{10, 11, 12, \\dots, 300\\}$. Find the sum of all elements of $T \\setminus A$.",
         "answer": "343",
-        "solution": "<b>Ans. (343)</b><br><b>Sol.</b> Direct residue checking below 44 gives the non-<br>representable members of T :<br>{10,11,13,14,16,17,19,22,23,25,28,31,34,37,43}.<br>The six consecutive integers 44,45,46,47,48,49<br>are representable; adding 6 shows every integer<br>at least 44 is representable.<br>Therefore Σ (T − A) = 343 .",
+        "solution": "<b>Ans. (343)</b><br><b>Sol.</b> Direct residue checking below $44$ gives the non-representable members of $T$:<br>$\\{10, 11, 13, 14, 16, 17, 19, 22, 23, 25, 28, 31, 34, 37, 43\\}$.<br>The six consecutive integers $44, 45, 46, 47, 48, 49$ are representable; adding $6$ shows every integer at least $44$ is representable.<br>Therefore $\\Sigma (T - A) = 343$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1703,7 +1703,7 @@
         "section": "Numerical",
         "text": "Let $S = \\left\\{x \\in [6, 7] : \\frac{(x - 1 - 3)(x + 2)}{x + 1 - 2} > 0\\right\\}$ and $T = \\{x \\in \\mathbb{Z} : x^2 - 5x - 14 \\le 0\\}$. Find the sum of the squares of all elements of $S \\cap T$.",
         "answer": "131",
-        "solution": "<b>Ans. (131)</b><br><b>Sol.</b> The rational sign chart has critical points<br>−3, −2, 1, 4 and gives<br>S = (−3, 1) ∪ [4, 7] within the stated interval;<br>–3 and 1 are poles.<br>The quadratic condition factors as<br>(x − 7) (x + 2) ≤ 0, so<br>T = {−2, −1, 0,1, 2, 3, 4, 5, 6,7}.<br>Thus S ∩ T = {−2, −1, 0, 4,5, 6, 7}.<br>The sum of squares is<br>4 + 1 + 0 + 16 + 25 + 36 + 49 = 131.",
+        "solution": "<b>Ans. (131)</b><br><b>Sol.</b> The rational sign chart has critical points $-3, -2, 1, 4$ and gives<br>$S = (-3, 1) \\cup [4, 7]$ within the stated interval; $-3$ and $1$ are poles.<br>The quadratic condition factors as $(x - 7)(x + 2) \\le 0$, so $T = \\{-2, -1, 0, 1, 2, 3, 4, 5, 6, 7\\}$.<br>Thus $S \\cap T = \\{-2, -1, 0, 4, 5, 6, 7\\}$.<br>The sum of squares is<br>$4 + 1 + 0 + 16 + 25 + 36 + 49 = 131$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
@@ -1721,7 +1721,7 @@
         "section": "Numerical",
         "text": "For real $x$ with $x \\neq \\pm 2, \\pm 3, \\pm 4, \\pm 7$, consider\n$$\\left(\\frac{x+2}{x-2}\\right) \\left(\\frac{x+3}{x-3}\\right) \\left(\\frac{x-4}{x+4}\\right) \\left(\\frac{x+7}{x-7}\\right) = 1$$. If $\\lambda$ is the\nnumber of real solutions, find $\\lambda^2$.",
         "answer": "9",
-        "solution": "<b>Ans. (9)</b><br><b>Sol.</b> Write the four signed shifts as 2, 3,−4, 7. Cross-<br>multiplication compares ∏ (x + ai) with<br>∏ (x − ai).<br>Their difference is 2x (e1 x2 + e3), where<br>e1 = 8  and e3 = −122 . Hence<br>4x (4x2 − 61) = 0 .<br>The roots are x = 0,  ± √61 , and none is an<br>2<br>excluded pole.<br>Thus λ = 3  and λ2 = 9.",
+        "solution": "<b>Ans. (9)</b><br><b>Sol.</b> Write the four signed shifts as $2, 3, -4, 7$. Cross-multiplication compares $\\prod (x + a_i)$ with $\\prod (x - a_i)$.<br>Their difference is $2x(e_1 x^2 + e_3)$, where $e_1 = 8$ and $e_3 = -122$. Hence<br>$4x(4x^2 - 61) = 0$.<br>The roots are $x = 0, \\pm\\frac{\\sqrt{61}}{2}$, and none is an excluded pole.<br>Thus $\\lambda = 3$ and $\\lambda^2 = 9$.",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,
