@@ -448,6 +448,54 @@
   color: #1e3a8a;
 }
 
+.quizrr-name-bar {
+  background: #f8fafc;
+  padding: 10px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.quizrr-name-bar label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quizrr-name-bar input {
+  padding: 5px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+.quizrr-name-bar input:focus {
+  border-color: #2563eb;
+}
+
+.quizrr-name-bar button {
+  padding: 6px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.quizrr-name-bar button:hover {
+  background: #1d4ed8;
+}
+
 .quizrr-modal-controls {
   padding: 12px 24px;
   display: flex;
