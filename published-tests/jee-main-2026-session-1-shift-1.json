@@ -38,7 +38,7 @@
      "$F_{BC} > F_{AB} > F_{DE} > F_{CD}$"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Slope of potential energy v/s position curve gives<br>negative of force.<br>$\\therefore \\quad \\text{F}_{\\text{BC}} > \\text{F}_{\\text{AB}} > \\text{F}_{\\text{DE}} > \\text{F}_{\\text{CD}}$<br><b>Correct option (4)</b>",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> Slope of potential energy v/s position curve gives\nnegative of force.\n$\\therefore \\quad \\text{F}_{\\text{BC}} > \\text{F}_{\\text{AB}} > \\text{F}_{\\text{DE}} > \\text{F}_{\\text{CD}}$\n<b>Correct option (4)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -62,7 +62,7 @@
      "0.21"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Water flow rate $= 5\\text{ }\\ell/\\text{min} = \\frac{5}{60}\\text{ kg/s}$<br>$\\therefore\\text{ Power of heater} = \\frac{\\text{dm}}{\\text{dt}}\\text{S}\\Delta\\text{T} = \\frac{1}{12} \\times 4200 \\times 60\\text{W}$<br>$\\therefore\\quad$ Let rate of consumption of gas be $\\text{x g/s}$.<br>$\\therefore\\quad \\text{x} \\times 5.0 \\times 10^4 = \\frac{1}{12} \\times 4200 \\times 60$<br>$\\Rightarrow\\quad \\text{x} = 4200 \\times 10^{-4} = 0.42\\text{ g/s}$<br><b>Correct option (3)</b>",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> Water flow rate $= 5\\text{ }\\ell/\\text{min} = \\frac{5}{60}\\text{ kg/s}$\n$\\therefore\\text{ Power of heater} = \\frac{\\text{dm}}{\\text{dt}}\\text{S}\\Delta\\text{T} = \\frac{1}{12} \\times 4200 \\times 60\\text{W}$\n$\\therefore\\quad$ Let rate of consumption of gas be $\\text{x g/s}$.\n$\\therefore\\quad \\text{x} \\times 5.0 \\times 10^4 = \\frac{1}{12} \\times 4200 \\times 60$\n$\\Rightarrow\\quad \\text{x} = 4200 \\times 10^{-4} = 0.42\\text{ g/s}$\n<b>Correct option (3)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -86,7 +86,7 @@
      "$\\pi^2$"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> $\\text{Area of the loop} = 1\\text{ m}^2$<br>$\\text{B} = \\sin(100\\text{ t})$<br>$\\therefore \\quad \\phi = \\text{BA} = \\sin(100\\text{t})$<br>$\\therefore \\quad \\frac{\\text{d}\\phi}{\\text{dt}} = 100\\cos(100\\text{t})$<br>$\\therefore \\quad \\text{P} = \\frac{\\text{V}^2}{\\text{R}} = \\frac{10^4\\cos^2(100\\text{t})}{100}$<br>$\\therefore \\quad \\text{Thermal energy dissipated in 1 time period}$<br>$= \\int\\limits_0^\\text{T} \\text{Pdt} = \\int\\limits_0^\\text{T} 100\\cos^2(100\\text{t})\\text{dt}$<br>$\\text{T} = \\frac{2\\pi}{100} = \\frac{\\pi}{50}\\text{ sec}$<br>$\\therefore \\quad \\text{Q} = 100\\int\\limits_0^{\\pi/50} \\cos^2(100\\text{t})\\text{dt}$<br>$= 100\\int\\limits_0^{\\pi/50} \\frac{1 + \\cos 200\\text{t}}{2}\\text{dt}$<br>$= 100\\left[\\frac{\\pi}{100}\\right] = \\pi$<br><b>Correct option (3)</b>",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> $\\text{Area of the loop} = 1\\text{ m}^2$\n$\\text{B} = \\sin(100\\text{ t})$\n$\\therefore \\quad \\phi = \\text{BA} = \\sin(100\\text{t})$\n$\\therefore \\quad \\frac{\\text{d}\\phi}{\\text{dt}} = 100\\cos(100\\text{t})$\n$\\therefore \\quad \\text{P} = \\frac{\\text{V}^2}{\\text{R}} = \\frac{10^4\\cos^2(100\\text{t})}{100}$\n$\\therefore \\quad \\text{Thermal energy dissipated in 1 time period}$\n$= \\int\\limits_0^\\text{T} \\text{Pdt} = \\int\\limits_0^\\text{T} 100\\cos^2(100\\text{t})\\text{dt}$\n$\\text{T} = \\frac{2\\pi}{100} = \\frac{\\pi}{50}\\text{ sec}$\n$\\therefore \\quad \\text{Q} = 100\\int\\limits_0^{\\pi/50} \\cos^2(100\\text{t})\\text{dt}$\n$= 100\\int\\limits_0^{\\pi/50} \\frac{1 + \\cos 200\\text{t}}{2}\\text{dt}$\n$= 100\\left[\\frac{\\pi}{100}\\right] = \\pi$\n<b>Correct option (3)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -110,7 +110,7 @@
      "$100\\sqrt{3}$"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br>\n<b>Sol.</b> From continuity equation<br>\n$A_A V_A = A_B V_B \\Rightarrow 6V_A = 3V_B \\Rightarrow V_B = 2V_A$<br>\nApplying Bernoullis equation between A & B,<br>\n$$P_A + \\frac{1}{2}\\rho V_A^2 = P_B + \\frac{1}{2}\\rho V_B^2$$<br>\n$\\Rightarrow \\rho g \\times 0.05 = \\frac{1}{2}\\rho [V_B^2 - V_A^2] = \\frac{1}{2}\\rho (3V_A^2)$<br>\n$\\Rightarrow V_A = \\sqrt{\\frac{2g \\times 0.05}{3}}\\text{ m / s} = \\frac{1}{\\sqrt{3}}\\text{ m / s} = \\frac{100}{\\sqrt{3}}\\text{ cm / s}$<br>\n$\\Rightarrow \\text{Volume flow rate} = A_A V_A = \\frac{6 \\times 100}{\\sqrt{3}}\\text{ cm}^3/\\text{sec}$<br>\n$= 200\\sqrt{3}\\text{ cm}^3/\\text{sec}$<br>\n<b>Correct option (3)</b>",
+    "solution": "<b>Ans. (3)</b>\n\n<b>Sol.</b> From continuity equation\n\n$A_A V_A = A_B V_B \\Rightarrow 6V_A = 3V_B \\Rightarrow V_B = 2V_A$\n\nApplying Bernoullis equation between A & B,\n\n$$P_A + \\frac{1}{2}\\rho V_A^2 = P_B + \\frac{1}{2}\\rho V_B^2$$\n\n$\\Rightarrow \\rho g \\times 0.05 = \\frac{1}{2}\\rho [V_B^2 - V_A^2] = \\frac{1}{2}\\rho (3V_A^2)$\n\n$\\Rightarrow V_A = \\sqrt{\\frac{2g \\times 0.05}{3}}\\text{ m / s} = \\frac{1}{\\sqrt{3}}\\text{ m / s} = \\frac{100}{\\sqrt{3}}\\text{ cm / s}$\n\n$\\Rightarrow \\text{Volume flow rate} = A_A V_A = \\frac{6 \\times 100}{\\sqrt{3}}\\text{ cm}^3/\\text{sec}$\n\n$= 200\\sqrt{3}\\text{ cm}^3/\\text{sec}$\n\n<b>Correct option (3)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -134,7 +134,7 @@
      "$1.67\\%$"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> For parallel combination of spring,<br>$K_{eq} = K_1 + K_2 = 30\\text{ N/m}$<br>$\\Delta K_{eq} = \\Delta K_1 + \\Delta K_2 = 0.2 + 0.3 = 0.5\\text{ N/m}$<br>$\\therefore \\quad \\%\\text{Error in } K = \\frac{0.5}{30} \\times 100 = 1.67\\%$<br><b>Correct option (4)</b>",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> For parallel combination of spring,\n$K_{eq} = K_1 + K_2 = 30\\text{ N/m}$\n$\\Delta K_{eq} = \\Delta K_1 + \\Delta K_2 = 0.2 + 0.3 = 0.5\\text{ N/m}$\n$\\therefore \\quad \\%\\text{Error in } K = \\frac{0.5}{30} \\times 100 = 1.67\\%$\n<b>Correct option (4)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -158,7 +158,7 @@
      "$\\vec{v} = 4\\hat{i} - \\frac{3}{2}\\hat{j} \\quad \\vec{r} = \\frac{6}{5}\\hat{i} - \\hat{j}$"
     ],
     "answer": "2",
-    "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $\\vec{F} = 4t^3\\hat{i} - 3t\\hat{j}$<br>$\\vec{a} = \\frac{\\vec{F}}{m} = t^3\\hat{i} - \\frac{3}{4}t\\hat{j}$<br>$a_x = t^3 \\quad | \\quad a_y = \\frac{-3}{4}t$<br>$\\frac{dv_x}{dt} = t^3 \\quad | \\quad \\frac{dv_y}{dt} = -\\frac{3}{4}$<br>$\\int_{v_{x1}=0}^{v_{x2}} dv_x = \\int_{t=0}^{t=2} t^3 dt \\quad | \\quad \\int_0^{v_{y2}} dv_y = \\int_0^2 \\frac{-3}{4}t dt$<br>$v_{x2} - 0 = \\left[ \\frac{t^4}{4} \\right]_0^2 \\quad | \\quad v_{y2} = \\frac{-3}{4} \\left[ \\frac{t^2}{2} \\right]_0^2$<br>$v_{x2} = 4 \\quad | \\quad v_{y2} = \\frac{-3}{2}$<br>$\\vec{v}_2 = 4\\hat{i} - \\frac{3}{2}\\hat{j}$<br>$v_x = \\frac{t^4}{4} \\quad | \\quad v_y = \\frac{-3}{8}t^2$<br>$\\int_0^{x_2} dx = \\int_0^2 \\frac{t^4}{4} dt \\quad | \\quad \\int_0^{y_2} dx = \\int_0^2 \\frac{-3}{8}t^2 dt$<br>$x_2 - 0 = \\left[ \\frac{t^5}{20} \\right]_0^2 \\quad | \\quad y_2 - 0 = \\frac{-3}{8} \\left[ \\frac{t^3}{3} \\right]_0^2$<br>$x_2 = \\frac{8}{5} \\quad | \\quad y_2 = -1$<br>$\\vec{r} = \\frac{8}{5}\\hat{i} - \\hat{j}$<br><b>Correct option (2)</b>",
+    "solution": "<b>Ans. (2)</b>\n<b>Sol.</b> $\\vec{F} = 4t^3\\hat{i} - 3t\\hat{j}$\n$\\vec{a} = \\frac{\\vec{F}}{m} = t^3\\hat{i} - \\frac{3}{4}t\\hat{j}$\n$a_x = t^3 \\quad | \\quad a_y = \\frac{-3}{4}t$\n$\\frac{dv_x}{dt} = t^3 \\quad | \\quad \\frac{dv_y}{dt} = -\\frac{3}{4}$\n$\\int_{v_{x1}=0}^{v_{x2}} dv_x = \\int_{t=0}^{t=2} t^3 dt \\quad | \\quad \\int_0^{v_{y2}} dv_y = \\int_0^2 \\frac{-3}{4}t dt$\n$v_{x2} - 0 = \\left[ \\frac{t^4}{4} \\right]_0^2 \\quad | \\quad v_{y2} = \\frac{-3}{4} \\left[ \\frac{t^2}{2} \\right]_0^2$\n$v_{x2} = 4 \\quad | \\quad v_{y2} = \\frac{-3}{2}$\n$\\vec{v}_2 = 4\\hat{i} - \\frac{3}{2}\\hat{j}$\n$v_x = \\frac{t^4}{4} \\quad | \\quad v_y = \\frac{-3}{8}t^2$\n$\\int_0^{x_2} dx = \\int_0^2 \\frac{t^4}{4} dt \\quad | \\quad \\int_0^{y_2} dx = \\int_0^2 \\frac{-3}{8}t^2 dt$\n$x_2 - 0 = \\left[ \\frac{t^5}{20} \\right]_0^2 \\quad | \\quad y_2 - 0 = \\frac{-3}{8} \\left[ \\frac{t^3}{3} \\right]_0^2$\n$x_2 = \\frac{8}{5} \\quad | \\quad y_2 = -1$\n$\\vec{r} = \\frac{8}{5}\\hat{i} - \\hat{j}$\n<b>Correct option (2)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -182,7 +182,7 @@
      "$[\\mathrm{ML}^{0}\\mathrm{T}^{-2}]$ and $[\\mathrm{M}^{0}\\mathrm{LT}^{-1}]$"
     ],
     "answer": "2",
-    "solution": "<b>Ans. (2)</b><br><b>Sol.</b> $\\Rightarrow [P] = \\left[\\frac{A}{Bt^2}\\right]$ .....(1)<br>$\\Rightarrow [h] = [Bt]$ .....(2)<br>$\\Rightarrow [B] = \\left[\\frac{h}{t}\\right] = \\left[\\frac{L}{T}\\right] = [LT^{-1}]$<br>Putting B is equation (1)<br>$[ML^{-1}T^{-2}] = \\left[\\frac{A}{LT^{-1} \\times T^2}\\right]$<br>$[A] = [ML^0T^{-1}]$<br><b>Correct option (2)</b>",
+    "solution": "<b>Ans. (2)</b>\n<b>Sol.</b> $\\Rightarrow [P] = \\left[\\frac{A}{Bt^2}\\right]$ .....(1)\n$\\Rightarrow [h] = [Bt]$ .....(2)\n$\\Rightarrow [B] = \\left[\\frac{h}{t}\\right] = \\left[\\frac{L}{T}\\right] = [LT^{-1}]$\nPutting B is equation (1)\n$[ML^{-1}T^{-2}] = \\left[\\frac{A}{LT^{-1} \\times T^2}\\right]$\n$[A] = [ML^0T^{-1}]$\n<b>Correct option (2)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -206,7 +206,7 @@
      "$0 < a < g$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Since the solenoid is placed vertically, the magnetic field inside the solenoid will be either along $-y$ or $+y$ axis.<br>$\\Rightarrow$ Particle will gain velocity along $-y$ axis.<br>[Figure: A vertical solenoid with a downward arrow along its central axis labeled $mg$ near the top and $B$ at the bottom]<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = \\text{q}(\\vec{\\text{v}} \\times \\vec{\\text{B}})$<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = 0$<br>$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{net} = \\text{m}\\vec{\\text{g}}$<br>$\\Rightarrow \\quad \\text{a}_\\text{net} = \\text{g}$<br><b>Correct option (1)</b>",
+    "solution": "<b>Ans. (1)</b>\n<b>Sol.</b> Since the solenoid is placed vertically, the magnetic field inside the solenoid will be either along $-y$ or $+y$ axis.\n$\\Rightarrow$ Particle will gain velocity along $-y$ axis.\n[Figure: A vertical solenoid with a downward arrow along its central axis labeled $mg$ near the top and $B$ at the bottom]\n$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = \\text{q}(\\vec{\\text{v}} \\times \\vec{\\text{B}})$\n$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{B} = 0$\n$\\Rightarrow \\quad \\vec{\\text{F}}_\\text{net} = \\text{m}\\vec{\\text{g}}$\n$\\Rightarrow \\quad \\text{a}_\\text{net} = \\text{g}$\n<b>Correct option (1)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -230,7 +230,7 @@
      "$\\frac{4KC}{3K - 1}$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b><br>[A parallel plate capacitor with plate area $A$ and separation $d$]<br>$$C = \\frac{A \\in_0}{d}$$<br>[A capacitor of area $A$ and separation $d$ with a dielectric slab of thickness $t = d/3 \\implies$ series combination of $C_1$ with plate separation $2d/3$ and $C_2$ with dielectric of thickness $d/3$]<br><br>$$C_1 = \\frac{3A \\in_0}{2d} \\qquad C_2 = \\frac{3A \\in_0 \\times K}{d}$$<br>$$C_1 = \\frac{3}{2}C \\qquad C_2 = 3KC$$<br>$$\\text{Ceq} = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{\\frac{3}{2}C \\times 3KC}{\\frac{3}{2}C + 3KC}$$<br>$$\\text{Ceq} = \\frac{\\frac{9}{2}KC^2}{\\frac{3}{2}C(2K + 1)} = \\frac{3KC}{2K + 1}$$<br><b>Correct option (1)</b>",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b>\n[A parallel plate capacitor with plate area $A$ and separation $d$]\n$$C = \\frac{A \\in_0}{d}$$\n[A capacitor of area $A$ and separation $d$ with a dielectric slab of thickness $t = d/3 \\implies$ series combination of $C_1$ with plate separation $2d/3$ and $C_2$ with dielectric of thickness $d/3$]\n\n$$C_1 = \\frac{3A \\in_0}{2d} \\qquad C_2 = \\frac{3A \\in_0 \\times K}{d}$$\n$$C_1 = \\frac{3}{2}C \\qquad C_2 = 3KC$$\n$$\\text{Ceq} = \\frac{C_1 C_2}{C_1 + C_2} = \\frac{\\frac{3}{2}C \\times 3KC}{\\frac{3}{2}C + 3KC}$$\n$$\\text{Ceq} = \\frac{\\frac{9}{2}KC^2}{\\frac{3}{2}C(2K + 1)} = \\frac{3KC}{2K + 1}$$\n<b>Correct option (1)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -254,7 +254,7 @@
      "$B_y = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $\\hat{B}=\\hat{c}\\times\\hat{E}$<br>$\\Rightarrow \\hat{c}=\\hat{i}$ because phase of electric field is<br>function of x.<br>$\\Rightarrow \\hat{E}=\\hat{j}$ (given)<br>$\\Rightarrow \\hat{B}=\\hat{i}\\times\\hat{j}=\\hat{k}$<br>$$|B|=\\frac{|E|}{c}=\\frac{69\\times 0.6\\times 10^3}{1.8\\times 10^{11}}=\\frac{69}{3\\times 10^8}$$<br>$|B|=2.9\\times 10^{-7}$<br>$\\vec{B}_z = 2.9\\times 10^{-7}\\sin(0.6\\times 10^3 x - 1.8\\times 10^{11}t)$<br>(phase is same as that of electric field)<br><b>Correct option (1)</b>",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b> $\\hat{B}=\\hat{c}\\times\\hat{E}$\n$\\Rightarrow \\hat{c}=\\hat{i}$ because phase of electric field is\nfunction of x.\n$\\Rightarrow \\hat{E}=\\hat{j}$ (given)\n$\\Rightarrow \\hat{B}=\\hat{i}\\times\\hat{j}=\\hat{k}$\n$$|B|=\\frac{|E|}{c}=\\frac{69\\times 0.6\\times 10^3}{1.8\\times 10^{11}}=\\frac{69}{3\\times 10^8}$$\n$|B|=2.9\\times 10^{-7}$\n$\\vec{B}_z = 2.9\\times 10^{-7}\\sin(0.6\\times 10^3 x - 1.8\\times 10^{11}t)$\n(phase is same as that of electric field)\n<b>Correct option (1)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -278,7 +278,7 @@
      "$5.0 \\times 10^{-3}$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><b>Sol.</b> $d\\sin\\theta = (\\mu-1)t$<br>$d\\left[\\frac{x}{D}\\right] = (\\mu-1)t$<br>$$t = \\frac{xd}{D(\\mu-1)}$$<br>$$= \\frac{(0.2)\\ (0.1)}{50(1.5-1)}$$<br>$t = 8 \\times 10^{-4}\\text{ cm}$<br><b>Correct option (1)</b>",
+    "solution": "<b>Ans. (1)</b>\n<b>Sol.</b> $d\\sin\\theta = (\\mu-1)t$\n$d\\left[\\frac{x}{D}\\right] = (\\mu-1)t$\n$$t = \\frac{xd}{D(\\mu-1)}$$\n$$= \\frac{(0.2)\\ (0.1)}{50(1.5-1)}$$\n$t = 8 \\times 10^{-4}\\text{ cm}$\n<b>Correct option (1)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -302,7 +302,7 @@
      "7.8"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><b>Sol.</b> $\\omega_1 = 3 \\times 10^{15}\\text{ rad/sec}$<br>$\\omega_2 = 12 \\times 10^{15}\\text{ rad/sec}$<br>$\\because \\quad \\nu = \\frac{\\omega}{2\\pi}$<br>$\\text{E}_{\\text{photon}} = \\text{h}\\nu = 6.6 \\times 10^{-34} \\times 1.91 \\times 10^{15}$<br>$= 1.26 \\times 10^{-18}\\text{ J}$<br>$\\text{E}_{\\text{max}} = \\frac{1.26 \\times 10^{-18}}{1.6 \\times 10^{-19}} \\simeq 7.9\\text{ eV}$<br>$\\text{K}_{\\text{max}} = \\text{E}_{\\text{max}} - \\phi_0$<br>$= 7.9 - 2.8$<br>$\\text{K}_{\\text{max}} = 5.1\\text{ eV}$<br><b>Correct option (1)</b>",
+    "solution": "<b>Ans. (1)</b>\n<b>Sol.</b> $\\omega_1 = 3 \\times 10^{15}\\text{ rad/sec}$\n$\\omega_2 = 12 \\times 10^{15}\\text{ rad/sec}$\n$\\because \\quad \\nu = \\frac{\\omega}{2\\pi}$\n$\\text{E}_{\\text{photon}} = \\text{h}\\nu = 6.6 \\times 10^{-34} \\times 1.91 \\times 10^{15}$\n$= 1.26 \\times 10^{-18}\\text{ J}$\n$\\text{E}_{\\text{max}} = \\frac{1.26 \\times 10^{-18}}{1.6 \\times 10^{-19}} \\simeq 7.9\\text{ eV}$\n$\\text{K}_{\\text{max}} = \\text{E}_{\\text{max}} - \\phi_0$\n$= 7.9 - 2.8$\n$\\text{K}_{\\text{max}} = 5.1\\text{ eV}$\n<b>Correct option (1)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -326,7 +326,7 @@
      "$3.85 \\times 10^{-14}$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><b>Sol.</b> Energy conservation<br>$K_i + U_i = K_f + U_f$<br>$7.7 \\times 10^6 \\times 1.6 \\times 10^{-19} + 0$<br>$= 0 + \\frac{9\\times 10^9(1.6\\times 10^{-19})(79\\times 1.6\\times 10^{-19})}{r}$<br>$r = 2.95 \\times 10^{-14}$<br><b>Correct option (1).</b>",
+    "solution": "<b>Ans. (1)</b>\n<b>Sol.</b> Energy conservation\n$K_i + U_i = K_f + U_f$\n$7.7 \\times 10^6 \\times 1.6 \\times 10^{-19} + 0$\n$= 0 + \\frac{9\\times 10^9(1.6\\times 10^{-19})(79\\times 1.6\\times 10^{-19})}{r}$\n$r = 2.95 \\times 10^{-14}$\n<b>Correct option (1).</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -350,7 +350,7 @@
      "$mg$"
     ],
     "answer": "2",
-    "solution": "<b>Ans. (2)</b><br><br><b>Sol.</b><br>[A horizontal rod is supported at its left end with tension $T$ directed upwards, and its weight $mg$ acts vertically downwards at a distance $l/2$ from the left end.]<br>$$mg \\frac{l}{2} = \\frac{ml^2}{3}\\alpha$$<br>$$\\alpha = \\frac{3g}{2l} \\dots(1)$$<br>$$mg - T = ma_c$$<br>$$T = mg - ma_c$$<br>$$= mg - m\\left(\\frac{l}{2}\\alpha\\right)$$<br>$$= mg - m\\left(\\frac{l}{2} \\cdot \\frac{3g}{2l}\\right)$$<br>$$T = \\frac{mg}{4}$$<br><b>Correct option (2)</b>",
+    "solution": "<b>Ans. (2)</b>\n\n<b>Sol.</b>\n[A horizontal rod is supported at its left end with tension $T$ directed upwards, and its weight $mg$ acts vertically downwards at a distance $l/2$ from the left end.]\n$$mg \\frac{l}{2} = \\frac{ml^2}{3}\\alpha$$\n$$\\alpha = \\frac{3g}{2l} \\dots(1)$$\n$$mg - T = ma_c$$\n$$T = mg - ma_c$$\n$$= mg - m\\left(\\frac{l}{2}\\alpha\\right)$$\n$$= mg - m\\left(\\frac{l}{2} \\cdot \\frac{3g}{2l}\\right)$$\n$$T = \\frac{mg}{4}$$\n<b>Correct option (2)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -374,7 +374,7 @@
      "$120.06$"
     ],
     "answer": "2",
-    "solution": "<b>Ans. (2)</b><br><br><b>Sol.</b> $\\ell_{\\text{final}} = \\ell_0(1 + \\alpha_A \\Delta T) + \\ell_0(1 + \\alpha_B \\Delta T)$<br>$= \\ell_0 [2 + (\\alpha_A + \\alpha_B)\\Delta T]$<br>$= 60 [2 + (36 \\times 10^{-6}) \\times 70]$<br>$= 60 [2 + 0.0025]$<br>$= 120.15\\text{ cm}$<br><b>Correct option (2)</b>",
+    "solution": "<b>Ans. (2)</b>\n\n<b>Sol.</b> $\\ell_{\\text{final}} = \\ell_0(1 + \\alpha_A \\Delta T) + \\ell_0(1 + \\alpha_B \\Delta T)$\n$= \\ell_0 [2 + (\\alpha_A + \\alpha_B)\\Delta T]$\n$= 60 [2 + (36 \\times 10^{-6}) \\times 70]$\n$= 60 [2 + 0.0025]$\n$= 120.15\\text{ cm}$\n<b>Correct option (2)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -398,7 +398,7 @@
      "$7.5 \\times 10^{-3}$"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> To maintain constant speed<br>$\\text{F}_{\\text{ext}} = \\text{F}_{\\text{B}}$<br>$\\Rightarrow \\text{F}_{\\text{ext}} = \\text{i}l\\text{B}$<br>[Circuit diagram showing a conducting loop in a uniform magnetic field directed out of the page ($\\odot$). On the left is a resistor of $2\\Omega$. A rod AB moves to the right with velocity $v$, with an external force $\\text{F}_{\\text{ext}}$ directed to the right and a magnetic force $\\text{F}_B$ directed to the left.]<br>$= \\left(\\frac{\\text{vB}l}{\\text{R}}\\right)l\\text{B}$<br>$= \\frac{\\text{B}^2l^2\\text{v}}{\\text{R}}$<br>$= \\frac{(0.1)^2 \\times (1)^2 \\times 1.5}{2}$<br>$= 7.5 \\times 10^{-3}\\text{ N}$<br><b>Correct option (4)</b>",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> To maintain constant speed\n$\\text{F}_{\\text{ext}} = \\text{F}_{\\text{B}}$\n$\\Rightarrow \\text{F}_{\\text{ext}} = \\text{i}l\\text{B}$\n[Circuit diagram showing a conducting loop in a uniform magnetic field directed out of the page ($\\odot$). On the left is a resistor of $2\\Omega$. A rod AB moves to the right with velocity $v$, with an external force $\\text{F}_{\\text{ext}}$ directed to the right and a magnetic force $\\text{F}_B$ directed to the left.]\n$= \\left(\\frac{\\text{vB}l}{\\text{R}}\\right)l\\text{B}$\n$= \\frac{\\text{B}^2l^2\\text{v}}{\\text{R}}$\n$= \\frac{(0.1)^2 \\times (1)^2 \\times 1.5}{2}$\n$= 7.5 \\times 10^{-3}\\text{ N}$\n<b>Correct option (4)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -422,7 +422,7 @@
      "OR gate"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><br><b>Sol.</b> [Logic gate circuit diagram showing inputs A and B fed into two separate NOR gates to give outputs P and Q respectively. Outputs P and Q are inputs to a third NOR gate giving output R. Output R is fed into a fourth NOR gate giving final output S.]<br><br>$P = \\bar{A}$<br>$Q = \\bar{B}$<br>$R = \\overline{\\bar{A} + \\bar{B}} = \\bar{\\bar{A}}\\bar{\\bar{B}} = AB$<br>$S = \\overline{AB} \\quad \\Rightarrow \\text{NAND Gate}$<br><b>Correct option (3)</b>",
+    "solution": "Ans. (3)\n\n<b>Sol.</b> [Logic gate circuit diagram showing inputs A and B fed into two separate NOR gates to give outputs P and Q respectively. Outputs P and Q are inputs to a third NOR gate giving output R. Output R is fed into a fourth NOR gate giving final output S.]\n\n$P = \\bar{A}$\n$Q = \\bar{B}$\n$R = \\overline{\\bar{A} + \\bar{B}} = \\bar{\\bar{A}}\\bar{\\bar{B}} = AB$\n$S = \\overline{AB} \\quad \\Rightarrow \\text{NAND Gate}$\n<b>Correct option (3)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -446,7 +446,7 @@
      "1.18"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br>\n<b>Sol.</b> Given $L_A = 2.5\\text{ m}$,<br>\n$L_B = 1.5\\text{ m}$,<br>\n$T = 500\\text{ N}$<br>\n$v_A = \\sqrt{\\frac{T}{\\mu_A}} = \\sqrt{\\frac{500}{2 \\times 10^{-4}}} = 5\\sqrt{10} \\times 10^2\\text{ m/s}$<br>\n$v_B = \\sqrt{\\frac{T}{\\mu_B}} = \\sqrt{\\frac{500}{4 \\times 10^{-4}}} = 5\\sqrt{5} \\times 10^2\\text{ m/s}$<br>\n$t_1 = \\frac{L_A}{v_A} = \\frac{2.5}{5\\sqrt{10}} \\times 10^{-2}\\text{ s}$<br>\n$t_2 = \\frac{L_B}{v_B} = \\frac{1.5}{5\\sqrt{5}} \\times 10^{-2}\\text{ s}$<br>\n$\\therefore \\frac{t_1}{t_2} = \\frac{2.5}{5\\sqrt{10}} \\times \\frac{5\\sqrt{5}}{1.5} = \\frac{5}{3} \\times \\frac{1}{\\sqrt{2}} = \\frac{1.66}{1.41} = 1.18$<br>\n<b>Correct Option (4)</b>",
+    "solution": "<b>Ans. (4)</b>\n\n<b>Sol.</b> Given $L_A = 2.5\\text{ m}$,\n\n$L_B = 1.5\\text{ m}$,\n\n$T = 500\\text{ N}$\n\n$v_A = \\sqrt{\\frac{T}{\\mu_A}} = \\sqrt{\\frac{500}{2 \\times 10^{-4}}} = 5\\sqrt{10} \\times 10^2\\text{ m/s}$\n\n$v_B = \\sqrt{\\frac{T}{\\mu_B}} = \\sqrt{\\frac{500}{4 \\times 10^{-4}}} = 5\\sqrt{5} \\times 10^2\\text{ m/s}$\n\n$t_1 = \\frac{L_A}{v_A} = \\frac{2.5}{5\\sqrt{10}} \\times 10^{-2}\\text{ s}$\n\n$t_2 = \\frac{L_B}{v_B} = \\frac{1.5}{5\\sqrt{5}} \\times 10^{-2}\\text{ s}$\n\n$\\therefore \\frac{t_1}{t_2} = \\frac{2.5}{5\\sqrt{10}} \\times \\frac{5\\sqrt{5}}{1.5} = \\frac{5}{3} \\times \\frac{1}{\\sqrt{2}} = \\frac{1.66}{1.41} = 1.18$\n\n<b>Correct Option (4)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -470,7 +470,7 @@
      "1000"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> Energy of a satellite in a circular orbit is given as<br>$$E = \\frac{-GM_E m}{2r} ; r = \\text{radius of circular orbit}$$<br>Required energy to be supplied $= \\Delta E = E_f - E_i$<br>$$\\Delta E = \\left( \\frac{-GM_E m}{2(3R_E)} \\right) - \\left( \\frac{-GM_E m}{2(1.5R_E)} \\right)$$<br>$$= \\frac{GM_E m}{6R_E}$$<br>Now, $g = \\frac{GM_E}{R_E^2} \\Rightarrow \\frac{GM_E}{R_E} = gR_E$<br>$$\\therefore \\Delta E = \\frac{1}{6}gmR_E$$<br>$$= \\frac{1}{6} \\times 10 \\times 100 \\times 6 \\times 10^6$$<br>$$= 1000 \\times 10^6$$<br>$\\alpha = 1000$<br><b>Correct option (4)</b>",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> Energy of a satellite in a circular orbit is given as\n$$E = \\frac{-GM_E m}{2r} ; r = \\text{radius of circular orbit}$$\nRequired energy to be supplied $= \\Delta E = E_f - E_i$\n$$\\Delta E = \\left( \\frac{-GM_E m}{2(3R_E)} \\right) - \\left( \\frac{-GM_E m}{2(1.5R_E)} \\right)$$\n$$= \\frac{GM_E m}{6R_E}$$\nNow, $g = \\frac{GM_E}{R_E^2} \\Rightarrow \\frac{GM_E}{R_E} = gR_E$\n$$\\therefore \\Delta E = \\frac{1}{6}gmR_E$$\n$$= \\frac{1}{6} \\times 10 \\times 100 \\times 6 \\times 10^6$$\n$$= 1000 \\times 10^6$$\n$\\alpha = 1000$\n<b>Correct option (4)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -494,7 +494,7 @@
      "$15 \\times 10^{-6}$"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Work done by external agent :<br>$\\text{W}_{\\text{ext}} = \\Delta\\text{U} ;$<br>$\\Delta\\text{U} \\rightarrow$ Change in potential energy in taking the<br>charge from initial to final configuration<br>$\\Rightarrow \\text{W}_{\\text{ext}} = \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{f}}} - \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{i}}}$<br>Now, $\\text{r}_{\\text{f}} = \\sqrt{(2-0)^2+(2-0)^2+(1-0)^2} = 3\\text{ m}$<br>$\\text{r}_{\\text{i}} = \\sqrt{(4-0)^2+(4-0)^2+(2-0)^2} = 6\\text{ m}$<br>$\\therefore \\text{W}_{\\text{ext}} = (9\\times 10^9)\\times (10^{-8}\\times 2\\times 10^{-6})\\left[\\frac{1}{3}-\\frac{1}{6}\\right]$<br>$= 3\\times 10^{-5}$<br>$= 30\\times 10^{-6}\\text{ J}$<br><b>Correct Option (3)</b>",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> Work done by external agent :\n$\\text{W}_{\\text{ext}} = \\Delta\\text{U} ;$\n$\\Delta\\text{U} \\rightarrow$ Change in potential energy in taking the\ncharge from initial to final configuration\n$\\Rightarrow \\text{W}_{\\text{ext}} = \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{f}}} - \\frac{1}{4\\pi\\epsilon_0}\\frac{\\text{q}_1\\text{q}_2}{\\text{r}_{\\text{i}}}$\nNow, $\\text{r}_{\\text{f}} = \\sqrt{(2-0)^2+(2-0)^2+(1-0)^2} = 3\\text{ m}$\n$\\text{r}_{\\text{i}} = \\sqrt{(4-0)^2+(4-0)^2+(2-0)^2} = 6\\text{ m}$\n$\\therefore \\text{W}_{\\text{ext}} = (9\\times 10^9)\\times (10^{-8}\\times 2\\times 10^{-6})\\left[\\frac{1}{3}-\\frac{1}{6}\\right]$\n$= 3\\times 10^{-5}$\n$= 30\\times 10^{-6}\\text{ J}$\n<b>Correct Option (3)</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -512,7 +512,7 @@
     "section": "Numerical",
     "text": "A collimated beam of light of diameter $2\\text{ mm}$ is propagating along x-axis. The beam is required to be expanded in a collimated beam of diameter $14\\text{ mm}$ using a system of two convex lenses. If first lens has focal length $40\\text{ mm}$, then the focal length of second lens is $\\underline{\\hspace{2cm}}\\text{ mm}$.",
     "answer": "280",
-    "solution": "<b>Ans. (280)</b><br>\n<b>Sol.</b><br>\n[A ray diagram showing a parallel beam of light of width $2\\text{ mm}$ falling on a lens, converging to a focal point at a distance of $40\\text{ mm}$, and then diverging to a second lens of focal length $f$ to form a parallel beam of width $14\\text{ mm}$.]<br>\n$$\\frac{40}{2} = \\frac{f}{14}$$<br>\n$\\Rightarrow f = 280\\text{ mm}$<br>\n<b>Correct Answer : 280</b>",
+    "solution": "<b>Ans. (280)</b>\n\n<b>Sol.</b>\n\n[A ray diagram showing a parallel beam of light of width $2\\text{ mm}$ falling on a lens, converging to a focal point at a distance of $40\\text{ mm}$, and then diverging to a second lens of focal length $f$ to form a parallel beam of width $14\\text{ mm}$.]\n\n$$\\frac{40}{2} = \\frac{f}{14}$$\n\n$\\Rightarrow f = 280\\text{ mm}$\n\n<b>Correct Answer : 280</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -530,7 +530,7 @@
     "section": "Numerical",
     "text": "The heat generated in $1\\text{ minute}$ between points A and B in the given circuit, when a battery of $9\\text{V}$ with internal resistance of $1\\ \\Omega$ is connected across these points is _________ $\\text{J}$.<br><br><svg viewBox=\"0 0 360 305\" role=\"img\" aria-label=\"Wheatstone bridge style circuit with 1 ohm and 2 ohm resistors on top, 2 ohm and 4 ohm on the bottom, a 1 ohm resistor in the middle, terminals A and B, and a 9 volt battery in the outer loop\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><line x1=\"70\" y1=\"70\" x2=\"100\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"70\" x2=\"208\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 70 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"70\" x2=\"290\" y2=\"70\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"195\" x2=\"100\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M100 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"152\" y1=\"195\" x2=\"208\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M208 195 l5 -7 l10 14 l10 -14 l10 14 l10 -14 l7 7\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"260\" y1=\"195\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"70\" x2=\"70\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"70\" x2=\"290\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"70\" x2=\"180\" y2=\"95\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><path d=\"M180 95 l-7 6 l14 12 l-14 12 l14 12 l-14 12 l14 12 l-7 9\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"180\" y1=\"170\" x2=\"180\" y2=\"195\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"70\" y1=\"132\" x2=\"22\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"132\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"132\" x2=\"22\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"22\" y1=\"272\" x2=\"172\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"172\" y1=\"256\" x2=\"172\" y2=\"288\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"264\" x2=\"186\" y2=\"280\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"186\" y1=\"272\" x2=\"338\" y2=\"272\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><line x1=\"338\" y1=\"272\" x2=\"338\" y2=\"132\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"70\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><circle cx=\"290\" cy=\"132\" r=\"3\" fill=\"#206d5b\"/><text x=\"126\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">1&#937;</text><text x=\"234\" y=\"56\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"126\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">2&#937;</text><text x=\"234\" y=\"216\" text-anchor=\"middle\" fill=\"#6c7d70\">4&#937;</text><text x=\"190\" y=\"128\" fill=\"#6c7d70\">1 &#937;</text><text x=\"62\" y=\"126\" text-anchor=\"end\" fill=\"#6c7d70\">A</text><text x=\"298\" y=\"126\" fill=\"#6c7d70\">B</text><text x=\"179\" y=\"302\" text-anchor=\"middle\" fill=\"#6c7d70\">9V</text></svg>",
     "answer": "1080",
-    "solution": "<b>Ans. (1080)</b><br><br><b>Sol.</b> [Circuit diagram showing a parallel network between points A and B with $1\\Omega$ and $2\\Omega$ resistors in series in the upper branch, and $2\\Omega$ and $4\\Omega$ resistors in series in the lower branch, connected to a $9\\text{V}, 1\\Omega$ source. Text on the right reads: \"Balanced Wheatstone bridge\"]<br><br>[Simplified circuit diagram showing an equivalent resistance of $2\\Omega$ between points A and B connected to a $9\\text{V}, 1\\Omega$ source]<br><br>$$i = \\frac{9}{3} = 3\\text{A}$$<br>$\\therefore H_{\\text{AB}} = i^2 R_{\\text{AB}} t$<br>$= (3)^2 \\times 2 \\times 60 = 1080\\text{ J}$<br><br><b>Correct Answer : 1080</b>",
+    "solution": "<b>Ans. (1080)</b>\n\n<b>Sol.</b> [Circuit diagram showing a parallel network between points A and B with $1\\Omega$ and $2\\Omega$ resistors in series in the upper branch, and $2\\Omega$ and $4\\Omega$ resistors in series in the lower branch, connected to a $9\\text{V}, 1\\Omega$ source. Text on the right reads: \"Balanced Wheatstone bridge\"]\n\n[Simplified circuit diagram showing an equivalent resistance of $2\\Omega$ between points A and B connected to a $9\\text{V}, 1\\Omega$ source]\n\n$$i = \\frac{9}{3} = 3\\text{A}$$\n$\\therefore H_{\\text{AB}} = i^2 R_{\\text{AB}} t$\n$= (3)^2 \\times 2 \\times 60 = 1080\\text{ J}$\n\n<b>Correct Answer : 1080</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -548,7 +548,7 @@
     "section": "Numerical",
     "text": "Two identical thin rods of mass $M\\text{ kg}$ and length $L\\text{ m}$ are connected as shown in figure. Moment of inertia of the combined rod system about an axis passing through point P and perpendicular to the plane of the rods is $\\frac{x}{2} ML^2\\text{ kg m}^2$. The value of x is \\_\\_\\_\\_\\_\\_.<br><br><svg viewBox=\"0 0 200 200\" role=\"img\" aria-label=\"A vertical thin rod with point P at its top standing on the middle of a horizontal thin rod, both labelled M, L\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#266e5d\" stroke-width=\"1.7\"><path d=\"M94 152 L94 40 Q94 30 100 30 Q106 30 106 40 L106 152\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/><rect x=\"40\" y=\"152\" width=\"120\" height=\"12\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.7\"/></g><circle cx=\"100\" cy=\"30\" r=\"4\" fill=\"#206d5b\"/><text x=\"110\" y=\"28\" fill=\"#6c7d70\">P</text><text x=\"114\" y=\"100\" fill=\"#6c7d70\">M, L</text><text x=\"100\" y=\"186\" text-anchor=\"middle\" fill=\"#6c7d70\">M, L</text></svg>",
     "answer": "17",
-    "solution": "<b>Ans. (17)</b><br><b>Sol.</b> $I = \\frac{ML^2}{3} + \\left(\\frac{ML^2}{12} + ML^2\\right)$ [Figure: A T-shaped frame formed by a vertical rod of mass $M$ and length $L$ pivoted at top end $P$, and a horizontal rod of mass $M$ and length $L$ attached at the bottom of the vertical rod.]<br>$= \\frac{4ML^2 + ML^2 + 12ML^2}{12}$<br>$I = \\frac{17}{12} ML^2$<br>$\\therefore x = 17$<br><b>Correct Answer : 17</b>",
+    "solution": "<b>Ans. (17)</b>\n<b>Sol.</b> $I = \\frac{ML^2}{3} + \\left(\\frac{ML^2}{12} + ML^2\\right)$ [Figure: A T-shaped frame formed by a vertical rod of mass $M$ and length $L$ pivoted at top end $P$, and a horizontal rod of mass $M$ and length $L$ attached at the bottom of the vertical rod.]\n$= \\frac{4ML^2 + ML^2 + 12ML^2}{12}$\n$I = \\frac{17}{12} ML^2$\n$\\therefore x = 17$\n<b>Correct Answer : 17</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -566,7 +566,7 @@
     "section": "Numerical",
     "text": "$10$ mole of oxygen is heated at constant volume from $30^\\circ\\text{C}$ to $40^\\circ\\text{C}$. The change in the internal energy of the gas is $\\underline{\\hspace{1cm}}$ cal. (The molecular specific heat of oxygen at constant pressure, $C_{\\text{p}} = 7\\text{ cal./mol }^\\circ\\text{C}$ and $R = 2\\text{ cal./mol }^\\circ\\text{C}$.)",
     "answer": "500",
-    "solution": "<b>Ans. (500)</b><br><b>Sol.</b> $\\Delta U = nC_v \\Delta T$<br>$= n(C_p - R)\\Delta T$<br>$= 10(7 - 2)(40 - 30)$<br>$\\Delta U = 500$<br><b>Correct Answer : 500</b>",
+    "solution": "<b>Ans. (500)</b>\n<b>Sol.</b> $\\Delta U = nC_v \\Delta T$\n$= n(C_p - R)\\Delta T$\n$= 10(7 - 2)(40 - 30)$\n$\\Delta U = 500$\n<b>Correct Answer : 500</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -584,7 +584,7 @@
     "section": "Numerical",
     "text": "In a microscope the objective is having focal length $f_0 = 2\\text{ cm}$ and eye-piece is having focal length $f_e = 4\\text{ cm}$. The tube length is $32\\text{ cm}$. The magnification produced by this microscope for normal adjustment is ________.",
     "answer": "100",
-    "solution": "<b>Ans. (100)</b><br><br><b>Sol.</b> $m = \\frac{l D}{f_o f_e}$<br>$= \\frac{32}{2} \\times \\frac{25}{4}$<br>$m = 100$<br><b>Correct Answer : 100</b>",
+    "solution": "<b>Ans. (100)</b>\n\n<b>Sol.</b> $m = \\frac{l D}{f_o f_e}$\n$= \\frac{32}{2} \\times \\frac{25}{4}$\n$m = 100$\n<b>Correct Answer : 100</b>",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -608,7 +608,7 @@
      "$\\text{PbCrO}_4, \\text{Na}_2[\\text{Pb}(\\text{OH})_4] \\text{ and } (\\text{NH}_4)_2[\\text{Pb}(\\text{CH}_3\\text{COO})_4]$"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> $\\underset{\\text{(Hot solution)}}{\\text{PbCl}_2} + \\text{K}_2\\text{CrO}_4 \\rightarrow \\underset{\\text{(A)}}{\\text{PbCrO}_4} + 2\\text{KCl}$<br>$\\text{PbCrO}_4 + 4\\text{NaOH (excess)}$<br>$\\rightarrow \\underset{\\text{(B)}}{\\text{Na}_2[\\text{Pb(OH)}_4]} + \\text{Na}_2\\text{CrO}_4$<br>$\\text{PbSO}_4 + 4\\text{CH}_3\\text{COONH}_4$<br>$\\rightarrow \\underset{\\text{(X)}}{(\\text{NH}_4)_2[\\text{Pb(CH}_3\\text{COO)}_4]} + (\\text{NH}_4)_2\\text{SO}_4$",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> $\\underset{\\text{(Hot solution)}}{\\text{PbCl}_2} + \\text{K}_2\\text{CrO}_4 \\rightarrow \\underset{\\text{(A)}}{\\text{PbCrO}_4} + 2\\text{KCl}$\n$\\text{PbCrO}_4 + 4\\text{NaOH (excess)}$\n$\\rightarrow \\underset{\\text{(B)}}{\\text{Na}_2[\\text{Pb(OH)}_4]} + \\text{Na}_2\\text{CrO}_4$\n$\\text{PbSO}_4 + 4\\text{CH}_3\\text{COONH}_4$\n$\\rightarrow \\underset{\\text{(X)}}{(\\text{NH}_4)_2[\\text{Pb(CH}_3\\text{COO)}_4]} + (\\text{NH}_4)_2\\text{SO}_4$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -632,7 +632,7 @@
      "$\\text{B and C only}$"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $\\Rightarrow$ On moving left to right in a period IE increases<br>and from top to bottom in a group IE decreases.<br>$\\text{F} > \\text{P} > \\text{S} > \\text{B}$ (IE order)<br>$\\Rightarrow$ On moving left to right in a period metallic and<br>basic character decreases.<br>$\\text{K} > \\text{Mg} > \\text{Al} > \\text{B}$ (Metallic character order)<br>$\\Rightarrow$ On moving top to bottom in a group<br>metallic and basic character increases.<br>$\\text{K}_2\\text{O} > \\text{Na}_2\\text{O} > \\text{MgO} > \\text{Al}_2\\text{O}_3$<br>$\\Rightarrow \\text{EA} : \\text{Group } 17 > \\text{Group } 16 > \\text{Group } 15$<br>$\\text{Cl} > \\text{F} > \\text{S} > \\text{P}$",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b> $\\Rightarrow$ On moving left to right in a period IE increases\nand from top to bottom in a group IE decreases.\n$\\text{F} > \\text{P} > \\text{S} > \\text{B}$ (IE order)\n$\\Rightarrow$ On moving left to right in a period metallic and\nbasic character decreases.\n$\\text{K} > \\text{Mg} > \\text{Al} > \\text{B}$ (Metallic character order)\n$\\Rightarrow$ On moving top to bottom in a group\nmetallic and basic character increases.\n$\\text{K}_2\\text{O} > \\text{Na}_2\\text{O} > \\text{MgO} > \\text{Al}_2\\text{O}_3$\n$\\Rightarrow \\text{EA} : \\text{Group } 17 > \\text{Group } 16 > \\text{Group } 15$\n$\\text{Cl} > \\text{F} > \\text{S} > \\text{P}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -656,7 +656,7 @@
      "<svg viewBox=\"0 0 100 50\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Identify A in the following reaction.\"><polygon points=\"10,15 25,10 40,15 40,35 25,40 10,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><polygon points=\"40,15 55,10 70,15 70,35 55,40 40,35\" fill=\"none\" stroke=\"#657568\" stroke-width=\"1.5\"/><line x1=\"14\" y1=\"13\" x2=\"24\" y2=\"13\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"14\" y1=\"37\" x2=\"24\" y2=\"37\" stroke=\"#657568\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b><br>[Fused bicyclic ring with two double bonds in one ring] $\\xrightarrow[\\Delta]{2\\text{H}_2/\\text{Pt}}$ [Decalin (fused saturated bicyclic rings)]<br><br>[Fused bicyclic ring with two double bonds and explicit H atoms] $\\xrightarrow[\\Delta]{\\text{KMnO}_4}$ [Cyclohexane-1,2-dicarboxylic acid] $+ \\begin{array}{c} \\text{COOH} \\\\ | \\\\ \\text{COOH} \\end{array}$",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b>\n[Fused bicyclic ring with two double bonds in one ring] $\\xrightarrow[\\Delta]{2\\text{H}_2/\\text{Pt}}$ [Decalin (fused saturated bicyclic rings)]\n\n[Fused bicyclic ring with two double bonds and explicit H atoms] $\\xrightarrow[\\Delta]{\\text{KMnO}_4}$ [Cyclohexane-1,2-dicarboxylic acid] $+ \\begin{array}{c} \\text{COOH} \\\\ | \\\\ \\text{COOH} \\end{array}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -680,7 +680,7 @@
      "$\\text{P}=\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3, \\text{ Q}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-\\text{Cl}, \\text{ R}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{NH}_2 \\end{matrix}, \\text{ S}=\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2\\begin{matrix}\\\\ \\text{CH}_2\\\\ \\text{OH} \\end{matrix}$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br>\nSol.<br>\n$$CH_3-CH=CH-CH_3 \\xrightarrow{HCl} CH_3-CH_2-\\stackrel{*}{\\text{C}}H-CH_3$$<br>\n$$\\text{(P)} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(Q) } |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{Cl}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\downarrow \\ddot{\\text{N}}\\text{H}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(R) } |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NH}_2$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NaNO}_2 \\downarrow \\text{Aq.HCl}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad |$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{OH}$$<br>\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad \\text{(S)}$$",
+    "solution": "Ans. (3)\n\nSol.\n\n$$CH_3-CH=CH-CH_3 \\xrightarrow{HCl} CH_3-CH_2-\\stackrel{*}{\\text{C}}H-CH_3$$\n\n$$\\text{(P)} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(Q) } |$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{Cl}$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\downarrow \\ddot{\\text{N}}\\text{H}_3$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{(R) } |$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NH}_2$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{NaNO}_2 \\downarrow \\text{Aq.HCl}$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{CH}_3-\\text{CH}_2-\\text{CH}-\\text{CH}_3$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad |$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad \\text{OH}$$\n\n$$\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad \\text{(S)}$$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -704,7 +704,7 @@
      "**Statement I** is false **Statement II** is true."
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br>\n<b>Sol.</b> $\\Rightarrow \\mathrm{SiO}_2, \\mathrm{CO}_2, \\mathrm{GeO}, \\mathrm{GeO}_2$ are acidic in nature.<br>\n$\\mathrm{SnO}, \\mathrm{SnO}_2, \\mathrm{PbO}, \\mathrm{PbO}_2$ are amphoteric in nature.<br>\n$\\Rightarrow \\mathrm{BF}_3$ is lewis acid acoording to lewic octet theory<br>\nand has $sp^2$ hybridization with trigonal planar<br>\ngeometry and it can accept lone pair form<br>\nammonia to form adduct.",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b> $\\Rightarrow \\mathrm{SiO}_2, \\mathrm{CO}_2, \\mathrm{GeO}, \\mathrm{GeO}_2$ are acidic in nature.\n\n$\\mathrm{SnO}, \\mathrm{SnO}_2, \\mathrm{PbO}, \\mathrm{PbO}_2$ are amphoteric in nature.\n\n$\\Rightarrow \\mathrm{BF}_3$ is lewis acid acoording to lewic octet theory\n\nand has $sp^2$ hybridization with trigonal planar\n\ngeometry and it can accept lone pair form\n\nammonia to form adduct.",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -728,7 +728,7 @@
      "$\\text{C}_2\\text{H}_6$"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> $$C_xH_{y(g)} + \\left(x + \\frac{y}{4}\\right)O_{2(g)} \\longrightarrow xCO_{2(g)} + \\frac{y}{2}H_2O_{(l)}$$<br>At $t=0$, the values are $80$ for $C_xH_{y(g)}$, $264$ for $O_{2(g)}$, $0$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$. At $t=t_{\\text{final}}$, the values are $-$ for $C_xH_{y(g)}$, $264 - 80\\left(x + \\frac{y}{4}\\right)$ for $O_{2(g)}$, $80x$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$.<br>$$264 - 80\\left(x + \\frac{y}{4}\\right) + 80x = 224$$<br>$$264 - \\frac{80y}{4} = 224$$<br>$40 = \\frac{80y}{4} \\Rightarrow y = 2$<br>$$264 - 80\\left(x + \\frac{y}{4}\\right) = 64$$<br>$$264 - 80\\left(x + \\frac{1}{2}\\right) = 64$$<br>$264 - 80x - 40 = 64$<br>$x = 2$",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> $$C_xH_{y(g)} + \\left(x + \\frac{y}{4}\\right)O_{2(g)} \\longrightarrow xCO_{2(g)} + \\frac{y}{2}H_2O_{(l)}$$\nAt $t=0$, the values are $80$ for $C_xH_{y(g)}$, $264$ for $O_{2(g)}$, $0$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$. At $t=t_{\\text{final}}$, the values are $-$ for $C_xH_{y(g)}$, $264 - 80\\left(x + \\frac{y}{4}\\right)$ for $O_{2(g)}$, $80x$ for $CO_{2(g)}$, and $-$ for $H_2O_{(l)}$.\n$$264 - 80\\left(x + \\frac{y}{4}\\right) + 80x = 224$$\n$$264 - \\frac{80y}{4} = 224$$\n$40 = \\frac{80y}{4} \\Rightarrow y = 2$\n$$264 - 80\\left(x + \\frac{y}{4}\\right) = 64$$\n$$264 - 80\\left(x + \\frac{1}{2}\\right) = 64$$\n$264 - 80x - 40 = 64$\n$x = 2$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -752,7 +752,7 @@
      "$\\text{The limiting reagent is calcium metal.}$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br>Sol. $Ca_{(s)} + 2HCl_{(aq)} \\longrightarrow CaCl_{2(aq)} + H_{2(g)}$<br>$\\quad \\frac{14}{40} \\quad \\quad \\text{excess} \\quad \\quad \\quad \\quad \\quad - \\quad \\quad \\quad -$<br>$= 0.35 \\text{ mole} \\quad \\quad \\quad \\quad 0.35 \\text{ mole} \\quad 0.35 \\text{ mole}$<br>Volume of $H_{2(g)}$ evolved $= 0.35 \\times 22.4 = 7.84 \\text{ L}$<br>(3) is wrong because weight of $CaCl_2 = .35 \\times 111 =$<br>38.85 gm",
+    "solution": "Ans. (3)\nSol. $Ca_{(s)} + 2HCl_{(aq)} \\longrightarrow CaCl_{2(aq)} + H_{2(g)}$\n$\\quad \\frac{14}{40} \\quad \\quad \\text{excess} \\quad \\quad \\quad \\quad \\quad - \\quad \\quad \\quad -$\n$= 0.35 \\text{ mole} \\quad \\quad \\quad \\quad 0.35 \\text{ mole} \\quad 0.35 \\text{ mole}$\nVolume of $H_{2(g)}$ evolved $= 0.35 \\times 22.4 = 7.84 \\text{ L}$\n(3) is wrong because weight of $CaCl_2 = .35 \\times 111 =$\n38.85 gm",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -776,7 +776,7 @@
      "$16.48\\%$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><b>Sol.</b> $$\\frac{n_{BaSO_{4}} \\times 32}{W_{(unknown\\ comp.)}} \\times 100$$<br>$$= \\frac{1.2 \\times 32}{233} \\times \\frac{100}{0.75} = 21.97\\%$$",
+    "solution": "Ans. (3)\n<b>Sol.</b> $$\\frac{n_{BaSO_{4}} \\times 32}{W_{(unknown\\ comp.)}} \\times 100$$\n$$= \\frac{1.2 \\times 32}{233} \\times \\frac{100}{0.75} = 21.97\\%$$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -800,7 +800,7 @@
      "25, 60"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br><br><b>Sol.</b> $(\\Delta T_b)_{PQ} = K_b m$<br>$$1.176 = 5 \\times \\frac{1}{M_1} \\times \\frac{1000}{50}$$<br>$M_1 = 85.03$<br><br>$$(\\Delta T_b)_{PQ_2} = 5 \\times \\frac{1}{M_2} \\times \\frac{1000}{50} = 0.689$$<br>$M_2 = 145.13$<br><br>Let molar mass of $P$ & $Q$ are $M_P$ and $M_Q$<br>respectively<br>$M_P + M_Q = 85.03$<br>$M_P + 2M_Q = 145.13$<br>$M_P = 24.93 \\approx 25$<br>$M_Q = 60.1 \\approx 60$",
+    "solution": "Ans. (4)\n\n<b>Sol.</b> $(\\Delta T_b)_{PQ} = K_b m$\n$$1.176 = 5 \\times \\frac{1}{M_1} \\times \\frac{1000}{50}$$\n$M_1 = 85.03$\n\n$$(\\Delta T_b)_{PQ_2} = 5 \\times \\frac{1}{M_2} \\times \\frac{1000}{50} = 0.689$$\n$M_2 = 145.13$\n\nLet molar mass of $P$ & $Q$ are $M_P$ and $M_Q$\nrespectively\n$M_P + M_Q = 85.03$\n$M_P + 2M_Q = 145.13$\n$M_P = 24.93 \\approx 25$\n$M_Q = 60.1 \\approx 60$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -824,7 +824,7 @@
      "Phenylethanoic acid, phenylethanamide, benzamine"
     ],
     "answer": "1",
-    "solution": "Ans. (1)<br><b>Sol.</b> $\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3} \\text{Ph}-\\overset{\\text{O}}{\\text{||}}\\text{C}-\\text{NH}_2$<br>$\\text{ }\\text{ }\\text{ }(P) \\qquad \\qquad \\qquad (Q)$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Br}_2 \\downarrow \\text{KOH}$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Ph}-\\text{NH}_2$<br>$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{ }\\text{ }(R)$",
+    "solution": "Ans. (1)\n<b>Sol.</b> $\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3} \\text{Ph}-\\overset{\\text{O}}{\\text{||}}\\text{C}-\\text{NH}_2$\n$\\text{ }\\text{ }\\text{ }(P) \\qquad \\qquad \\qquad (Q)$\n$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Br}_2 \\downarrow \\text{KOH}$\n$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{Ph}-\\text{NH}_2$\n$\\phantom{\\text{Ph}-\\text{COOH} \\xrightarrow[\\Delta]{\\text{NH}_3}} \\text{ }\\text{ }(R)$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -848,7 +848,7 @@
      "$\\text{CH}_3-\\text{C}=\\text{O}-\\text{C}-\\text{CH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3\\\\ \\quad\\quad\\quad \\text{OCH}_3$"
     ],
     "answer": "2",
-    "solution": "<b>Ans. (2)</b><br>\n<b>Sol.</b><br>\n(The image shows a chemical reaction starting with a reactant molecule that contains a methyl ketone group and an acetal group, $CH_3-C(=O)-CH_2-CH(OCH_3)_2$. Next to this molecule are two property notes:)<br>\n$\\rightarrow +ve$ Iodoform test<br>\n$\\rightarrow -ve$ Tollen's test<br>\n(A reaction arrow labeled $H_2O/H^{\\oplus}$ leads to a product molecule where the acetal has been hydrolyzed to an aldehyde, $CH_3-C(=O)-CH_2-CH=O$. Next to the product are two property notes:)<br>\n$\\rightarrow +ve$ Iodoform test<br>\n$\\rightarrow +ve$ Tollen's test",
+    "solution": "<b>Ans. (2)</b>\n\n<b>Sol.</b>\n\n(The image shows a chemical reaction starting with a reactant molecule that contains a methyl ketone group and an acetal group, $CH_3-C(=O)-CH_2-CH(OCH_3)_2$. Next to this molecule are two property notes:)\n\n$\\rightarrow +ve$ Iodoform test\n\n$\\rightarrow -ve$ Tollen's test\n\n(A reaction arrow labeled $H_2O/H^{\\oplus}$ leads to a product molecule where the acetal has been hydrolyzed to an aldehyde, $CH_3-C(=O)-CH_2-CH=O$. Next to the product are two property notes:)\n\n$\\rightarrow +ve$ Iodoform test\n\n$\\rightarrow +ve$ Tollen's test",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -872,7 +872,7 @@
      "(4)"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><b>Sol.</b> [A chemical structure is shown: a four-carbon chain starting with a double bond between the first and second carbons. The third carbon has a negative charge. The fourth carbon has a positive charge and is bonded to a nitrogen atom. The nitrogen atom also has a positive charge and is bonded to two oxygen atoms: one via a double bond and the other via a single bond; the latter oxygen atom has a negative charge.]<br>This resonating structure having $+ve$ charge on adjacent atoms so it is least stable.",
+    "solution": "Ans. (3)\n<b>Sol.</b> [A chemical structure is shown: a four-carbon chain starting with a double bond between the first and second carbons. The third carbon has a negative charge. The fourth carbon has a positive charge and is bonded to a nitrogen atom. The nitrogen atom also has a positive charge and is bonded to two oxygen atoms: one via a double bond and the other via a single bond; the latter oxygen atom has a negative charge.]\nThis resonating structure having $+ve$ charge on adjacent atoms so it is least stable.",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -896,7 +896,7 @@
      "$\\mathrm{Mn}_2\\mathrm{O}_7$ and $\\mathrm{MnO}$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br>Sol. $3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\rightarrow 2\\text{MnO}_4^- + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$",
+    "solution": "Ans. (3)\nSol. $3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\rightarrow 2\\text{MnO}_4^- + \\text{MnO}_2 + 2\\text{H}_2\\text{O}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -920,7 +920,7 @@
      "Both Statement I and Statement II are true"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> Statement-I<br>$SF_4$ (See-saw)<br>$XeF_4$ (square planar),<br>$[PtCl_4]^{2-}$ (square planar),<br>$[NiCl_4]^{2-}$ (Tetrahedral),<br>$[Ni(CN)_4]^{2-}$ (square planar),<br>$SeF_4$ (See-saw)<br>$NH_4^+$ (Tetrahedral)<br>Statement-II<br>$NO_2$ (seven electrons on N)<br>$BeH_2$ (four electrons on Be)<br>$BF_3$ (six electrons on B)<br>$AlCl_3$ (six electrons on Al)",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> Statement-I\n$SF_4$ (See-saw)\n$XeF_4$ (square planar),\n$[PtCl_4]^{2-}$ (square planar),\n$[NiCl_4]^{2-}$ (Tetrahedral),\n$[Ni(CN)_4]^{2-}$ (square planar),\n$SeF_4$ (See-saw)\n$NH_4^+$ (Tetrahedral)\nStatement-II\n$NO_2$ (seven electrons on N)\n$BeH_2$ (four electrons on Be)\n$BF_3$ (six electrons on B)\n$AlCl_3$ (six electrons on Al)",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -944,7 +944,7 @@
      "Statement I is true but Statement II is false"
     ],
     "answer": "4",
-    "solution": "<b>Ans. (4)</b><br><b>Sol.</b> $[Cu(NH_3)_4]^{2+} \\Rightarrow d^9, dsp^2$ one unpaired electron<br>$[Ni(en)_3]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons<br>$[Ni(NH_3)_6]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons<br>$[Mn(H_2O)_6]^{2+} \\Rightarrow d^5, sp^3d^2$ five unpaired electrons<br>$[Ni(CO)_4]$ (diamagnetic)<br>$[NiCl_4]^{2-}$ (paramagnetic)<br>$[Ni(CN)_4]^{2-}$ (diamagnetic)",
+    "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> $[Cu(NH_3)_4]^{2+} \\Rightarrow d^9, dsp^2$ one unpaired electron\n$[Ni(en)_3]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons\n$[Ni(NH_3)_6]^{2+} \\Rightarrow d^8, sp^3d^2$ two unpaired electrons\n$[Mn(H_2O)_6]^{2+} \\Rightarrow d^5, sp^3d^2$ five unpaired electrons\n$[Ni(CO)_4]$ (diamagnetic)\n$[NiCl_4]^{2-}$ (paramagnetic)\n$[Ni(CN)_4]^{2-}$ (diamagnetic)",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -968,7 +968,7 @@
      "C, D and E only"
     ],
     "answer": "3",
-    "solution": "<b>Ans. (3)</b><br><b>Sol.</b> (Skeletal structure of propanal) (Skeletal structure of propanone) are Functional isomer<br>$CH_3-CH=CH-CH_3,$ & $CH_3-CH_2-CH=CH_2,$<br>Are Positional isomer<br>$CH_3-CH_2-O-CH_2-CH_3,$ & $CH_3-CH_2-CH_2-O-CH_3,$<br>are Metamer<br>$CH_3-CH=CH-CH_3,$ does not have optical isomer<br>(Skeletal structure of n-pentane) (Skeletal structure of neopentane) Chain isomer",
+    "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> (Skeletal structure of propanal) (Skeletal structure of propanone) are Functional isomer\n$CH_3-CH=CH-CH_3,$ & $CH_3-CH_2-CH=CH_2,$\nAre Positional isomer\n$CH_3-CH_2-O-CH_2-CH_3,$ & $CH_3-CH_2-CH_2-O-CH_3,$\nare Metamer\n$CH_3-CH=CH-CH_3,$ does not have optical isomer\n(Skeletal structure of n-pentane) (Skeletal structure of neopentane) Chain isomer",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -992,7 +992,7 @@
      "A and D only"
     ],
     "answer": "4",
-    "solution": "Option<br>(1) C and E Only<br>(2) B and E Only<br>(3) C and D Only<br>(4) A and D Only<br><b>Ans. (4)</b><br><b>Sol.</b> $\\cdot$ Histidine does contain heterocyclic ring.<br><br>$\\cdot$ Proline is a five membered cyclic ring amino<br>acid.<br><br>$\\cdot$ Cysteine has characteristic feature of side chain as<br>$\\mathrm{CH}_2-\\mathrm{SMe}$",
+    "solution": "Option\n(1) C and E Only\n(2) B and E Only\n(3) C and D Only\n(4) A and D Only\n<b>Ans. (4)</b>\n<b>Sol.</b> $\\cdot$ Histidine does contain heterocyclic ring.\n\n$\\cdot$ Proline is a five membered cyclic ring amino\nacid.\n\n$\\cdot$ Cysteine has characteristic feature of side chain as\n$\\mathrm{CH}_2-\\mathrm{SMe}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1016,7 +1016,7 @@
      "(4)"
     ],
     "answer": "4",
-    "solution": "<b>Ans.</b> (4)<br><b>Sol.</b> Area under the $P$ v/s $V$ curve, is equal to<br>magnitude of work.<br>In option (2) work done is zero while in remaining<br>options net work done is negative due to expansion.<br>NTA has given the answer without considering the<br>negative sign that is considered only magnitude.",
+    "solution": "<b>Ans.</b> (4)\n<b>Sol.</b> Area under the $P$ v/s $V$ curve, is equal to\nmagnitude of work.\nIn option (2) work done is zero while in remaining\noptions net work done is negative due to expansion.\nNTA has given the answer without considering the\nnegative sign that is considered only magnitude.",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1040,7 +1040,7 @@
      "B and C only"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br>\n<b>Sol.</b><br>\n[Graph: A graph showing the variation of Gibbs free energy $\\frac{G}{\\text{kJ mol}^{-1}}$ with the fraction of $\\text{N}_2\\text{O}_4$ dissociated at constant $p$. The curve starts at point $A$ on the y-axis, descends to a minimum at point $E$, and then rises to point $B$. Horizontal dashed lines indicate the levels of points $B$, $A$, and $E$. The vertical distance between the levels of $B$ and $A$ is $5.40$, and the vertical distance between the levels of $A$ and $E$ is $0.84$. A box inside the graph area contains the text \"Constant p,\". The x-axis is marked with $0.2, 0.4, 0.6, 0.8$.]<br>\n(A) $\\Delta_r G^\\circ = G^\\circ_B - G^\\circ_A = +ve$<br>\n(B) $\\Delta_r G^\\circ = +ve$, $\\text{N}_2\\text{O}_4$ will partially dissociates into $\\text{NO}_2$.<br>\n(C) For reverse reaction<br>\nIt is partially completed as there is equilibrium at E.<br>\n(D) For 1 mole $\\text{N}_2\\text{O}_4$; $\\Delta_r G^\\circ = - 0.84 \\text{ kJ mol}^{-1}$<br>\n(E) For 2 mole $\\text{NO}_2$; $\\Delta G^\\circ = - 5.4 - 0.84$<br>\n$= - 6.24 \\text{ kJ mol}^{-1}$",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b>\n\n[Graph: A graph showing the variation of Gibbs free energy $\\frac{G}{\\text{kJ mol}^{-1}}$ with the fraction of $\\text{N}_2\\text{O}_4$ dissociated at constant $p$. The curve starts at point $A$ on the y-axis, descends to a minimum at point $E$, and then rises to point $B$. Horizontal dashed lines indicate the levels of points $B$, $A$, and $E$. The vertical distance between the levels of $B$ and $A$ is $5.40$, and the vertical distance between the levels of $A$ and $E$ is $0.84$. A box inside the graph area contains the text \"Constant p,\". The x-axis is marked with $0.2, 0.4, 0.6, 0.8$.]\n\n(A) $\\Delta_r G^\\circ = G^\\circ_B - G^\\circ_A = +ve$\n\n(B) $\\Delta_r G^\\circ = +ve$, $\\text{N}_2\\text{O}_4$ will partially dissociates into $\\text{NO}_2$.\n\n(C) For reverse reaction\n\nIt is partially completed as there is equilibrium at E.\n\n(D) For 1 mole $\\text{N}_2\\text{O}_4$; $\\Delta_r G^\\circ = - 0.84 \\text{ kJ mol}^{-1}$\n\n(E) For 2 mole $\\text{NO}_2$; $\\Delta G^\\circ = - 5.4 - 0.84$\n\n$= - 6.24 \\text{ kJ mol}^{-1}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1064,7 +1064,7 @@
      "Statement I is true but Statement II is false"
     ],
     "answer": "1",
-    "solution": "<b>Ans. (1)</b><br><br><b>Sol.</b> $$\\frac{1}{\\lambda} = RZ^{2} \\left( \\frac{1}{n_{1}^{2}} - \\frac{1}{n_{2}^{2}} \\right)$$<br>For Ist line of lyman series in H-atom<br>$$\\frac{1}{\\lambda} = R(1)^{2} \\left( \\frac{1}{1^{2}} - \\frac{1}{2^{2}} \\right)$$<br>$$\\frac{1}{\\lambda} = \\frac{3R}{4}$$<br>for $2^{\\text{nd}}$ line of Balmer series of $\\text{He}^{+}$<br>$$\\frac{1}{\\lambda'} = R(2)^{2} \\left( \\frac{1}{2^{2}} - \\frac{1}{4^{2}} \\right)$$<br>$$\\frac{1}{\\lambda'} = \\frac{3R}{4}$$<br>As $\\lambda$ and $\\lambda'$ is equal so frequency of these lines<br>will be also equal.",
+    "solution": "<b>Ans. (1)</b>\n\n<b>Sol.</b> $$\\frac{1}{\\lambda} = RZ^{2} \\left( \\frac{1}{n_{1}^{2}} - \\frac{1}{n_{2}^{2}} \\right)$$\nFor Ist line of lyman series in H-atom\n$$\\frac{1}{\\lambda} = R(1)^{2} \\left( \\frac{1}{1^{2}} - \\frac{1}{2^{2}} \\right)$$\n$$\\frac{1}{\\lambda} = \\frac{3R}{4}$$\nfor $2^{\\text{nd}}$ line of Balmer series of $\\text{He}^{+}$\n$$\\frac{1}{\\lambda'} = R(2)^{2} \\left( \\frac{1}{2^{2}} - \\frac{1}{4^{2}} \\right)$$\n$$\\frac{1}{\\lambda'} = \\frac{3R}{4}$$\nAs $\\lambda$ and $\\lambda'$ is equal so frequency of these lines\nwill be also equal.",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1082,7 +1082,7 @@
     "section": "Numerical",
     "text": "Pre-exponential factors of two different reactions of same order are identical. Let activation energy of first reaction exceeds the activation energy of second reaction by $20 \\text{ kJ mol}^{-1}$. If $\\text{k}_1$ and $\\text{k}_2$ are the rate constants of first and second reaction respectively at $300\\text{ K}$, then $\\text{ln } \\frac{\\text{k}_2}{\\text{k}_1}$ will be ........ .\n(nearest integer) $[\\text{R}=8.3\\text{ J K}^{-1}\\text{ mol}^{-1}]$",
     "answer": "8",
-    "solution": "<b>Ans. (8)</b><br>\n<b>Sol.</b> $A \\xrightarrow{RX^n(1)} \\text{product} \\quad E_1$<br>\n$B \\xrightarrow{RX^n(2)} \\text{product} \\quad E_2$<br>\nAssuming 'A' same for both reaction.<br>\n$\\ln k_1 = \\ln A - \\frac{E_1}{300R}$<br>\n$\\ln k_1 = \\ln A - \\frac{E_2}{300R}$<br>\n$\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_1 - E_2}{300R} = \\frac{20 \\times 1000}{300R}$<br>\n$= 8.032$",
+    "solution": "<b>Ans. (8)</b>\n\n<b>Sol.</b> $A \\xrightarrow{RX^n(1)} \\text{product} \\quad E_1$\n\n$B \\xrightarrow{RX^n(2)} \\text{product} \\quad E_2$\n\nAssuming 'A' same for both reaction.\n\n$\\ln k_1 = \\ln A - \\frac{E_1}{300R}$\n\n$\\ln k_1 = \\ln A - \\frac{E_2}{300R}$\n\n$\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_1 - E_2}{300R} = \\frac{20 \\times 1000}{300R}$\n\n$= 8.032$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1100,7 +1100,7 @@
     "section": "Numerical",
     "text": "The $\\text{pH}$ and conductance of a weak acid (HX) was found to be $5$ and $4 \\times 10^{-5}\\text{ S}$, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of $1\\text{ cm}^2$ were at a distance of $15\\text{ cm}$ apart. The value of the limiting molar conductivity is $\\dots\\dots\\dots\\dots\\dots\\text{ S m}^2\\text{ mol}^{-1}$. (nearest integer)\\\\ (Given: degree of dissociation of the weak acid (a) $\\ll 1$)",
     "answer": "6",
-    "solution": "<b>Ans. (6)</b><br><b>Sol.</b> $pH = 5$<br>$[H^+] = 10^{-5} = [HX].\\alpha$<br>$= [HX].\\frac{\\Lambda_m}{\\Lambda_m^\\infty}$<br><br>$$\\Lambda_m = \\frac{k \\times 1000}{[HX]}$$<br>$K = G.G^* = 4 \\times 10^{-5} \\times \\frac{15}{1} = 6 \\times 10^{-4} \\text{ S.cm}^{-1}$<br><br>$[H^+] = 10^{-5} = [HX] \\times \\frac{6 \\times 10^{-4} \\times 1000}{\\Lambda_m^\\infty \\times [HX]}$<br><br>$\\Lambda_m^\\infty = 60000 \\text{ S.cm}^2 \\text{ mol}^{-1}$<br>$\\Lambda_m^\\infty = 6 \\text{ S.m}^2 \\text{ mol}^{-1}$",
+    "solution": "<b>Ans. (6)</b>\n<b>Sol.</b> $pH = 5$\n$[H^+] = 10^{-5} = [HX].\\alpha$\n$= [HX].\\frac{\\Lambda_m}{\\Lambda_m^\\infty}$\n\n$$\\Lambda_m = \\frac{k \\times 1000}{[HX]}$$\n$K = G.G^* = 4 \\times 10^{-5} \\times \\frac{15}{1} = 6 \\times 10^{-4} \\text{ S.cm}^{-1}$\n\n$[H^+] = 10^{-5} = [HX] \\times \\frac{6 \\times 10^{-4} \\times 1000}{\\Lambda_m^\\infty \\times [HX]}$\n\n$\\Lambda_m^\\infty = 60000 \\text{ S.cm}^2 \\text{ mol}^{-1}$\n$\\Lambda_m^\\infty = 6 \\text{ S.m}^2 \\text{ mol}^{-1}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1118,7 +1118,7 @@
     "section": "Numerical",
     "text": "Use the following data :\n\nOne mole each of $\\text{A}_2(\\text{g})$ and $\\text{B}_2(\\text{g})$ are taken in a $1\\text{L}$ closed flask and allowed to establish the equilibrium at $500\\text{K}$.\n\n$\\text{A}_2(\\text{g}) + \\text{B}_2(\\text{g}) \\rightleftharpoons 2\\text{AB}(\\text{g})$\n\nThe value of x (in $\\text{kJ mol}^{-1}$) is .......... (Nearest integer)\n\n(Given: $\\log \\text{K}=2.2 \\text{ R}=8.3 \\text{ JK}^{-1} \\text{ mol}^{-1}$)<br><br><table><tr><td>Substance</td><td>$\\dfrac{\\Delta_{\\text{f}}\\text{H}^{\\ominus}(500\\text{K})}{\\text{kJ mol}^{-1}}$</td><td>$\\dfrac{\\text{S}^{\\ominus}(500\\text{K})}{\\text{JK}^{-1}\\text{ mol}^{-1}}$</td></tr><tr><td>$\\text{AB}(\\text{g})$</td><td>$32$</td><td>$222$</td></tr><tr><td>$\\text{A}_2(\\text{g})$</td><td>$6$</td><td>$146$</td></tr><tr><td>$\\text{B}_2(\\text{g})$</td><td>$\\text{X}$</td><td>$280$</td></tr></table>",
     "answer": "70",
-    "solution": "<b>Ans. (70)</b><br>\n<b>Sol.</b> $A_2 + B_2 \\xrightarrow{500K} 2AB \\quad \\log K = 2.2$<br>\n$\\Delta H^\\circ = (2 \\times 32) - (6 + x) = (58 - x) \\text{ kJ}$<br>\n$\\Delta S^\\circ = (2 \\times 222) - (146 + 280) = 18 \\text{ Joule}$<br>\n$\\Delta G^\\circ = -RT\\ln K$<br>\n$$\\Delta G^\\circ = -\\frac{8.314 \\times 500 \\times 2.2 \\times 2.303}{1000}$$<br>\n$\\Delta G^\\circ = -21.06$<br>\n$\\Delta H^\\circ - T\\Delta S^\\circ = -21.06$<br>\n$$58 - x - 500\\left(\\frac{18}{1000}\\right) = -21.06$$<br>\n$x = 70.06 \\text{ KJ/mol}$",
+    "solution": "<b>Ans. (70)</b>\n\n<b>Sol.</b> $A_2 + B_2 \\xrightarrow{500K} 2AB \\quad \\log K = 2.2$\n\n$\\Delta H^\\circ = (2 \\times 32) - (6 + x) = (58 - x) \\text{ kJ}$\n\n$\\Delta S^\\circ = (2 \\times 222) - (146 + 280) = 18 \\text{ Joule}$\n\n$\\Delta G^\\circ = -RT\\ln K$\n\n$$\\Delta G^\\circ = -\\frac{8.314 \\times 500 \\times 2.2 \\times 2.303}{1000}$$\n\n$\\Delta G^\\circ = -21.06$\n\n$\\Delta H^\\circ - T\\Delta S^\\circ = -21.06$\n\n$$58 - x - 500\\left(\\frac{18}{1000}\\right) = -21.06$$\n\n$x = 70.06 \\text{ KJ/mol}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1136,7 +1136,7 @@
     "section": "Numerical",
     "text": "Consider the following reaction sequence\n\n$$\\text{benzene} \\xrightarrow[333 \\text{ K}]{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4} \\text{P} \\xrightarrow[2. \\text{ pH neutralised}]{1. \\text{ Sn/HCl}/\\Delta} \\text{Q} \\xrightarrow{(\\text{CH}_3\\text{CO})_2} \\text{R}$$\n$$\\text{T} \\xleftarrow[2. \\text{ pH neutralised (major product)}]{1. \\text{ HCl/EtOH,}\\Delta} \\text{S} \\xleftarrow{\\text{conc.} \\text{HNO}_3 + \\text{conc.} \\text{H}_2\\text{SO}_4}$$\n\nThe percentage of nitrogen in product 'T' formed\nis $\\text{\\qquad\\qquad\\qquad}$ $\\%$. (Nearest integer)\n\n(Given molar mass in $\\text{g mol}^{-1} \\text{ H}:1, \\text{ C}:12, \\text{ N}:14, \\text{ O}:16)$",
     "answer": "20",
-    "solution": "Ans. (20)<br><br><b>Sol.</b><br>Benzene $\\xrightarrow[H_{2}SO_{4}]{HNO_{3}} Ph-NO_{2}$ (P) $\\xrightarrow{Sn/HCl} Ph-NH_{2}$ (Q) $\\xrightarrow{(CH_{3}CO)_{2}O} Ph-NH-C(=O)CH_{3}$ (R) $\\xrightarrow{HNO_{3} | H_{2}SO_{4}}$ (S) [a benzene ring with $-NH-C(=O)CH_{3}$ and $-NO_{2}$ in para positions] $\\xrightarrow[EtOH]{HCl}$ (T) [a benzene ring with $-NH_{2}$ and $-NO_{2}$ in para positions].<br>Mol. wt $= 6 \\times 12 + (6 \\times 1) + (2 \\times 14) + (2 \\times 16)$<br>= 138<br>$\\%N = \\frac{28}{138} \\times 100 = 20.29\\%$",
+    "solution": "Ans. (20)\n\n<b>Sol.</b>\nBenzene $\\xrightarrow[H_{2}SO_{4}]{HNO_{3}} Ph-NO_{2}$ (P) $\\xrightarrow{Sn/HCl} Ph-NH_{2}$ (Q) $\\xrightarrow{(CH_{3}CO)_{2}O} Ph-NH-C(=O)CH_{3}$ (R) $\\xrightarrow{HNO_{3} | H_{2}SO_{4}}$ (S) [a benzene ring with $-NH-C(=O)CH_{3}$ and $-NO_{2}$ in para positions] $\\xrightarrow[EtOH]{HCl}$ (T) [a benzene ring with $-NH_{2}$ and $-NO_{2}$ in para positions].\nMol. wt $= 6 \\times 12 + (6 \\times 1) + (2 \\times 14) + (2 \\times 16)$\n= 138\n$\\%N = \\frac{28}{138} \\times 100 = 20.29\\%$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1154,7 +1154,7 @@
     "section": "Numerical",
     "text": "onsider the following reactions:\n\n$$\\text{NaCl}+\\text{K}_2\\text{Cr}_2\\text{O}_7+\\text{H}_2\\text{SO}_4 \\rightarrow \\text{A}+\\text{KHSO}_4+\\text{NaHSO}_4+\\text{H}_2\\text{O}$$\n\n$$\\text{A} + \\text{NaOH} \\rightarrow \\text{B} + \\text{NaCl} + \\text{H}_2\\text{O}$$\n\n$$\\text{B} + \\text{H}_2\\text{SO}_4 + \\text{H}_2\\text{O}_2 \\rightarrow \\text{C} + \\text{Na}_2\\text{SO}_4 + \\text{H}_2\\text{O}$$\n\nIn the product 'C', 'X' is the number of $\\text{O}_2^{2-}$ units,\n'Y' is the total number oxygen atoms present and\n'Z' is the oxidation state of $\\text{Cr}$. The value of $\\text{X} + \\text{Y} + \\text{Z}$\nis $\\text{\\underline{\\hspace{1cm}}}$ .",
     "answer": "13",
-    "solution": "Ans. (13)<br>Sol. $\\mathrm{A} \\rightarrow \\mathrm{CrO_2Cl_2}$<br>$\\mathrm{B} \\rightarrow \\mathrm{Na_2CrO_4}$<br>$\\mathrm{C} \\rightarrow \\mathrm{CrO_5}$<br>Structure of $\\mathrm{CrO_5}$ showing a central chromium atom bonded to an apical oxygen atom and two peroxy rings, with a central chromium oxidation state label of $+6$<br>$\\mathrm{X} = 2 \\text{ , } \\mathrm{Y} = 5 \\text{ and } \\mathrm{Z} = 6$",
+    "solution": "Ans. (13)\nSol. $\\mathrm{A} \\rightarrow \\mathrm{CrO_2Cl_2}$\n$\\mathrm{B} \\rightarrow \\mathrm{Na_2CrO_4}$\n$\\mathrm{C} \\rightarrow \\mathrm{CrO_5}$\nStructure of $\\mathrm{CrO_5}$ showing a central chromium atom bonded to an apical oxygen atom and two peroxy rings, with a central chromium oxidation state label of $+6$\n$\\mathrm{X} = 2 \\text{ , } \\mathrm{Y} = 5 \\text{ and } \\mathrm{Z} = 6$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1178,7 +1178,7 @@
      "2"
     ],
     "answer": "2",
-    "solution": "Ans. (2)<br>Sol. $f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}(2x^2 - 3x + 1)$<br>$-1 \\le \\frac{2x - 5}{11 - 3x} \\le 1$<br>$-1 \\le 2x^2 - 3x + 1 \\le 1$<br>$2x^2 - 3x + 2 \\ge 0$, $2x^2 - 3x \\le 0$<br>$x \\in \\left[0, \\frac{3}{2}\\right] \\text{.....(i)}$<br>$\\frac{2x - 5}{11 - 3x} + 1 \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{2x - 5}{11 - 3x} - 1 \\le 0$<br>$\\frac{2x - 5 + 11 - 3x}{11 - 3x} \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{5x - 16}{11 - 3x} \\le 0$<br>Number line showing intervals for $\\frac{5x-16}{11-3x} \\le 0$ with roots at $\\frac{16}{5}$ and $\\frac{11}{3}$, having minus, plus, minus signs from left to right.<br>$\\frac{6 - x}{11 - 3x} \\ge 0$<br>Number line showing intervals for $\\frac{6-x}{11-3x} \\ge 0$ with roots at $\\frac{11}{3}$ and $6$, having plus, minus, plus signs from left to right.<br>$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup \\left(\\frac{11}{3}, \\infty\\right)$<br>$x \\in \\left(-\\infty, \\frac{11}{3}\\right) \\cup [6, \\infty)$<br>intersection<br>$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup [6, \\infty) \\text{...(ii)}$<br>Intersection of (i) & (ii) $x \\in \\left[0, \\frac{3}{2}\\right]$<br>$\\alpha = 0, \\beta = \\frac{3}{2} \\Rightarrow \\alpha + 2\\beta = 3$",
+    "solution": "Ans. (2)\nSol. $f(x) = \\cos^{-1}\\left(\\frac{2x - 5}{11 - 3x}\\right) + \\sin^{-1}(2x^2 - 3x + 1)$\n$-1 \\le \\frac{2x - 5}{11 - 3x} \\le 1$\n$-1 \\le 2x^2 - 3x + 1 \\le 1$\n$2x^2 - 3x + 2 \\ge 0$, $2x^2 - 3x \\le 0$\n$x \\in \\left[0, \\frac{3}{2}\\right] \\text{.....(i)}$\n$\\frac{2x - 5}{11 - 3x} + 1 \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{2x - 5}{11 - 3x} - 1 \\le 0$\n$\\frac{2x - 5 + 11 - 3x}{11 - 3x} \\ge 0$ $\\quad \\quad \\quad \\quad \\quad \\quad$ $\\frac{5x - 16}{11 - 3x} \\le 0$\nNumber line showing intervals for $\\frac{5x-16}{11-3x} \\le 0$ with roots at $\\frac{16}{5}$ and $\\frac{11}{3}$, having minus, plus, minus signs from left to right.\n$\\frac{6 - x}{11 - 3x} \\ge 0$\nNumber line showing intervals for $\\frac{6-x}{11-3x} \\ge 0$ with roots at $\\frac{11}{3}$ and $6$, having plus, minus, plus signs from left to right.\n$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup \\left(\\frac{11}{3}, \\infty\\right)$\n$x \\in \\left(-\\infty, \\frac{11}{3}\\right) \\cup [6, \\infty)$\nintersection\n$x \\in \\left(-\\infty, \\frac{16}{5}\\right] \\cup [6, \\infty) \\text{...(ii)}$\nIntersection of (i) & (ii) $x \\in \\left[0, \\frac{3}{2}\\right]$\n$\\alpha = 0, \\beta = \\frac{3}{2} \\Rightarrow \\alpha + 2\\beta = 3$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1202,7 +1202,7 @@
      "$2\\pi - 1$"
     ],
     "answer": "1",
-    "solution": "Ans. (1)<br><br>Sol.<br><br>A graph showing an ellipse centered at the origin with horizontal axis endpoints $(-1, 0)$ and $(1, 0)$ and vertical axis endpoints $(0, 1)$ and $(0, -1)$, intersected by lines forming a diamond-like shape defined by $y = |x| - 1$ and $y = 1 - |x|$. The central region between the lines is shaded with horizontal stripes.<br><br>Required area $=$ area of ellipse $-$ shaded area<br><br>$= \\pi \\times 2 \\times 1 - 4 \\left( \\frac{1}{2} \\times 1 \\times 1 \\right) = 2\\pi - 2$",
+    "solution": "Ans. (1)\n\nSol.\n\nA graph showing an ellipse centered at the origin with horizontal axis endpoints $(-1, 0)$ and $(1, 0)$ and vertical axis endpoints $(0, 1)$ and $(0, -1)$, intersected by lines forming a diamond-like shape defined by $y = |x| - 1$ and $y = 1 - |x|$. The central region between the lines is shaded with horizontal stripes.\n\nRequired area $=$ area of ellipse $-$ shaded area\n\n$= \\pi \\times 2 \\times 1 - 4 \\left( \\frac{1}{2} \\times 1 \\times 1 \\right) = 2\\pi - 2$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1226,7 +1226,7 @@
      "64"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br>Sol. Number of relation which are reply and sym. both<br>$= 1^{4} \\times 2^{6} = 64$<br>$(a, a) \\quad (a, b) \\quad (a, c) \\quad (a, d)$<br>$(b, a) \\quad (b, b) \\quad (b, c) \\quad (b, d)$<br>$(c, a) \\quad (c, b) \\quad (c, c) \\quad (c, d)$<br>$(d, a) \\quad (d, b) \\quad (d, c) \\quad (d, d)$",
+    "solution": "Ans. (4)\nSol. Number of relation which are reply and sym. both\n$= 1^{4} \\times 2^{6} = 64$\n$(a, a) \\quad (a, b) \\quad (a, c) \\quad (a, d)$\n$(b, a) \\quad (b, b) \\quad (b, c) \\quad (b, d)$\n$(c, a) \\quad (c, b) \\quad (c, c) \\quad (c, d)$\n$(d, a) \\quad (d, b) \\quad (d, c) \\quad (d, d)$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1250,7 +1250,7 @@
      "$12\\sqrt{2}$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><br>A geometric diagram showing two horizontal lines with vertex A on the upper line, point C below it, a dashed vertical line of length 9 from A down to the horizontal, angle $60^\\circ$ at the lower-left vertex, angle $\\theta$ between the side of length $a$ and the lower horizontal line, and vertical distance segments of 6 and 3 on the right.<br><br><b>Sol.</b><br><br>$\\sin \\theta = \\frac{3}{\\text{a}}$<br><br>$\\sin (60^{\\circ} + \\theta) = \\frac{9}{\\text{a}}$<br><br>$\\frac{\\sqrt{3}}{2} \\cos \\theta + \\frac{1}{2} \\sin \\theta = \\frac{9}{\\text{a}}$<br><br>$\\sqrt{3} \\sqrt{1 - \\frac{9}{\\text{a}^2}} + \\frac{3}{\\text{a}} = \\frac{18}{\\text{a}}$<br><br>$\\text{a} = \\sqrt{84}$<br><br>$\\text{Area of } \\Delta \\text{ABC} = \\frac{\\sqrt{3}}{4} \\text{ a}^2 = \\frac{\\sqrt{3}}{4} \\times 84 = 21 \\sqrt{3}$",
+    "solution": "Ans. (3)\n\nA geometric diagram showing two horizontal lines with vertex A on the upper line, point C below it, a dashed vertical line of length 9 from A down to the horizontal, angle $60^\\circ$ at the lower-left vertex, angle $\\theta$ between the side of length $a$ and the lower horizontal line, and vertical distance segments of 6 and 3 on the right.\n\n<b>Sol.</b>\n\n$\\sin \\theta = \\frac{3}{\\text{a}}$\n\n$\\sin (60^{\\circ} + \\theta) = \\frac{9}{\\text{a}}$\n\n$\\frac{\\sqrt{3}}{2} \\cos \\theta + \\frac{1}{2} \\sin \\theta = \\frac{9}{\\text{a}}$\n\n$\\sqrt{3} \\sqrt{1 - \\frac{9}{\\text{a}^2}} + \\frac{3}{\\text{a}} = \\frac{18}{\\text{a}}$\n\n$\\text{a} = \\sqrt{84}$\n\n$\\text{Area of } \\Delta \\text{ABC} = \\frac{\\sqrt{3}}{4} \\text{ a}^2 = \\frac{\\sqrt{3}}{4} \\times 84 = 21 \\sqrt{3}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1274,7 +1274,7 @@
      "$27$"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br>Sol. $\\vec{a} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$<br>$\\vec{b} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$<br>$\\vec{c} = c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}$<br>$\\vec{a} \\times \\vec{c} = \\vec{b} \\Rightarrow (2c_3 - 2c_2)\\hat{i} + (c_1 + 2c_3)\\hat{j} - (c_2 + 2c_1)\\hat{k} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$<br>$2c_3 - 2c_2 = 8, c_1 + 2c_3 = 7, c_2 + 2c_1 = 3$<br>$(c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}) \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$<br>$\\Rightarrow c_1 + c_2 + c_3 = 4, c_1 = 2, c_2 = -1, c_3 = 3$<br>$|\\vec{a} + \\vec{c}|^2 = |\\hat{i} + \\hat{j} + 5\\hat{k}|^2 = 27$",
+    "solution": "Ans. (4)\nSol. $\\vec{a} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$\n$\\vec{b} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$\n$\\vec{c} = c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}$\n$\\vec{a} \\times \\vec{c} = \\vec{b} \\Rightarrow (2c_3 - 2c_2)\\hat{i} + (c_1 + 2c_3)\\hat{j} - (c_2 + 2c_1)\\hat{k} = 8\\hat{i} + 7\\hat{j} - 3\\hat{k}$\n$2c_3 - 2c_2 = 8, c_1 + 2c_3 = 7, c_2 + 2c_1 = 3$\n$(c_1\\hat{i} + c_2\\hat{j} + c_3\\hat{k}) \\cdot (\\hat{i} + \\hat{j} + \\hat{k}) = 4$\n$\\Rightarrow c_1 + c_2 + c_3 = 4, c_1 = 2, c_2 = -1, c_3 = 3$\n$|\\vec{a} + \\vec{c}|^2 = |\\hat{i} + \\hat{j} + 5\\hat{k}|^2 = 27$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1298,7 +1298,7 @@
      "$3248$"
     ],
     "answer": "2",
-    "solution": "Ans. (2)<br>Sol. $ar \\cdot ar^2 \\cdot ar^3 = 64$<br>$a^3r^6 = 64 \\quad \\Rightarrow \\quad ar^2 = 4$<br>$a + ar^2 + ar^4 = \\frac{813}{7}$<br>$r^2 = 28$<br>$ar^2 + ar^4 + ar^6 = ?$<br>$ar^2 \\left(1 + r^2 + r^4\\right) = 4 \\left(1 + 28 + 784\\right) = 3252$<br>7. Let $\\vec{c}$ and $\\vec{d}$ be vectors such that $|\\vec{c} + \\vec{d}| = \\sqrt{29}$ and",
+    "solution": "Ans. (2)\nSol. $ar \\cdot ar^2 \\cdot ar^3 = 64$\n$a^3r^6 = 64 \\quad \\Rightarrow \\quad ar^2 = 4$\n$a + ar^2 + ar^4 = \\frac{813}{7}$\n$r^2 = 28$\n$ar^2 + ar^4 + ar^6 = ?$\n$ar^2 \\left(1 + r^2 + r^4\\right) = 4 \\left(1 + 28 + 784\\right) = 3252$\n7. Let $\\vec{c}$ and $\\vec{d}$ be vectors such that $|\\vec{c} + \\vec{d}| = \\sqrt{29}$ and",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1322,7 +1322,7 @@
      "$2$"
     ],
     "answer": "2",
-    "solution": "Ans. (2)<br><br>Sol. $|\\vec{c}+\\vec{d}|=\\sqrt{29}$<br><br>$\\vec{c}+\\vec{d}=\\lambda ((2\\hat{i}+3\\hat{j}+4\\hat{k})$<br><br>$\\lambda=\\pm 1$<br><br>$\\lambda(-14+6+12)=4\\lambda, \\lambda_{1}=4, \\lambda_{2}=-4$<br><br>$k^{2}x^{2}+(k^{2}-5k+4)xy+(3k-2)y^{2}-8x+12y-4$<br>$=0$<br><br>is circle<br><br>$k^{2}-5k+4=0 \\Rightarrow k=1, 4$<br><br>$k^{2}=3k-2 \\Rightarrow k=1, 2$<br><br>$k=1$",
+    "solution": "Ans. (2)\n\nSol. $|\\vec{c}+\\vec{d}|=\\sqrt{29}$\n\n$\\vec{c}+\\vec{d}=\\lambda ((2\\hat{i}+3\\hat{j}+4\\hat{k})$\n\n$\\lambda=\\pm 1$\n\n$\\lambda(-14+6+12)=4\\lambda, \\lambda_{1}=4, \\lambda_{2}=-4$\n\n$k^{2}x^{2}+(k^{2}-5k+4)xy+(3k-2)y^{2}-8x+12y-4$\n$=0$\n\nis circle\n\n$k^{2}-5k+4=0 \\Rightarrow k=1, 4$\n\n$k^{2}=3k-2 \\Rightarrow k=1, 2$\n\n$k=1$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1346,7 +1346,7 @@
      "$\\frac{4}{e^{\\frac{\\pi}{4}}} - \\frac{\\pi}{2} - 1$"
     ],
     "answer": "1",
-    "solution": "Ans. (1)<br>Sol. $\\frac{dy}{dx}+\\frac{y}{x^2+1}=\\frac{\\tan^{-1}x}{x^2+1}$<br>I.F. $= e^{\\tan^{-1}x}$<br>$y \\times e^{\\tan^{-1}x} = \\int e^{\\tan^{-1}x} \\cdot \\frac{\\tan^{-1}x}{1+x^2} dx$<br>$y \\times e^{\\tan^{-1}x} = \\tan^{-1}x(e^{\\tan^{-1}x}) - e^{\\tan^{-1}x} + c$<br>$y(0)=1 \\Rightarrow c=2$<br>$y(1)=\\frac{2}{e^{\\pi/4}}+\\frac{\\pi}{4}-1$",
+    "solution": "Ans. (1)\nSol. $\\frac{dy}{dx}+\\frac{y}{x^2+1}=\\frac{\\tan^{-1}x}{x^2+1}$\nI.F. $= e^{\\tan^{-1}x}$\n$y \\times e^{\\tan^{-1}x} = \\int e^{\\tan^{-1}x} \\cdot \\frac{\\tan^{-1}x}{1+x^2} dx$\n$y \\times e^{\\tan^{-1}x} = \\tan^{-1}x(e^{\\tan^{-1}x}) - e^{\\tan^{-1}x} + c$\n$y(0)=1 \\Rightarrow c=2$\n$y(1)=\\frac{2}{e^{\\pi/4}}+\\frac{\\pi}{4}-1$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1370,7 +1370,7 @@
      "28"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br>Sol. $f(i) \\neq i$, $f(x)$ is strictly increasing function<br>$f : A \\to B$, where $A \\, \\{1, 2, 3 \\ldots \\ldots 6\\}$<br>$B \\, \\{1, 2, 3 \\ldots \\ldots 9\\}$, then number of function<br>$f : A \\to B$ is equal to<br>A Venn diagram showing a function $f: A \\to B$ with set $A = \\{1, 2, 3, 4, 5, 6\\}$ and set $B = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.<br>$f(i) \\neq i \\text{ Case - i } f(1) = 2 \\Rightarrow {^7}C_5 = 21<br>\\text{Case - ii } f(1) = 3 \\Rightarrow {^3}C_5 = 6<br>\\text{Case - iii } f(1) = 4 \\Rightarrow {^5}C_5 = 1<br>\\text{No of function A to B} = 21 + 6 + 1 = 28$",
+    "solution": "Ans. (4)\nSol. $f(i) \\neq i$, $f(x)$ is strictly increasing function\n$f : A \\to B$, where $A \\, \\{1, 2, 3 \\ldots \\ldots 6\\}$\n$B \\, \\{1, 2, 3 \\ldots \\ldots 9\\}$, then number of function\n$f : A \\to B$ is equal to\nA Venn diagram showing a function $f: A \\to B$ with set $A = \\{1, 2, 3, 4, 5, 6\\}$ and set $B = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n$f(i) \\neq i \\text{ Case - i } f(1) = 2 \\Rightarrow {^7}C_5 = 21\n\\text{Case - ii } f(1) = 3 \\Rightarrow {^3}C_5 = 6\n\\text{Case - iii } f(1) = 4 \\Rightarrow {^5}C_5 = 1\n\\text{No of function A to B} = 21 + 6 + 1 = 28$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1394,7 +1394,7 @@
      "18"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><br>Sol. Let $T = \\lim_{x \\to 1} \\left(\\frac{f(x+2)}{f(3)}\\right)^{\\frac{18}{(x-1)^2}} ; 1^\\infty \\text{ form}$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{f(3)}\\right)}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{18}\\right)}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\left(\\frac{f(x+2) - f(3)}{(x-1)^2}\\right) ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f'(x+2)}{2(x-1)} ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$<br><br>$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f''(x+2)}{2}} ; = e^{\\frac{4}{2}} = e^2$$<br><br>$$\\Rightarrow \\log_e (T) = 2$$",
+    "solution": "Ans. (3)\n\nSol. Let $T = \\lim_{x \\to 1} \\left(\\frac{f(x+2)}{f(3)}\\right)^{\\frac{18}{(x-1)^2}} ; 1^\\infty \\text{ form}$\n\n$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{f(3)}\\right)}$$\n\n$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{18}{(x-1)^2} \\left(\\frac{f(x+2) - f(3)}{18}\\right)}$$\n\n$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\left(\\frac{f(x+2) - f(3)}{(x-1)^2}\\right) ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$\n\n$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f'(x+2)}{2(x-1)} ; \\frac{0}{0} \\text{ form}} \\quad \\text{apply L' pital}$$\n\n$$\\Rightarrow T = e^{\\lim_{x \\to 1} \\frac{f''(x+2)}{2}} ; = e^{\\frac{4}{2}} = e^2$$\n\n$$\\Rightarrow \\log_e (T) = 2$$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1418,7 +1418,7 @@
      "$24\\sqrt{5}$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br>Sol. Let $e_1$ be eccentricity of ellipse<br>$\\Rightarrow e_1 = \\sqrt{1-\\frac{16}{36}} = \\sqrt{1-\\frac{4}{9}} = \\frac{\\sqrt{5}}{3}$<br>So $ae_1 = 6. \\frac{\\sqrt{5}}{3} = 2\\sqrt{5}$<br>Now $H: \\frac{x^2}{p^2} - \\frac{y^2}{q^2} = 1$<br>p.e = ae_1<br>$p. 5 = 2\\sqrt{5}$<br>$p = \\frac{2}{\\sqrt{5}} \\Rightarrow e^2 = 1+\\frac{q^2}{p^2} \\Rightarrow 25 = 1 + \\frac{5q^2}{4} \\Rightarrow q^2 = \\frac{96}{5}$<br>So length of LR $\\frac{2q^2}{p} = \\frac{96}{\\sqrt{5}}$",
+    "solution": "Ans. (3)\nSol. Let $e_1$ be eccentricity of ellipse\n$\\Rightarrow e_1 = \\sqrt{1-\\frac{16}{36}} = \\sqrt{1-\\frac{4}{9}} = \\frac{\\sqrt{5}}{3}$\nSo $ae_1 = 6. \\frac{\\sqrt{5}}{3} = 2\\sqrt{5}$\nNow $H: \\frac{x^2}{p^2} - \\frac{y^2}{q^2} = 1$\np.e = ae_1\n$p. 5 = 2\\sqrt{5}$\n$p = \\frac{2}{\\sqrt{5}} \\Rightarrow e^2 = 1+\\frac{q^2}{p^2} \\Rightarrow 25 = 1 + \\frac{5q^2}{4} \\Rightarrow q^2 = \\frac{96}{5}$\nSo length of LR $\\frac{2q^2}{p} = \\frac{96}{\\sqrt{5}}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1442,7 +1442,7 @@
      "$6\\pi$"
     ],
     "answer": "2",
-    "solution": "Ans. (2)<br>Sol. $= 2\\pi \\int\\limits_{0}^{\\pi/6} \\frac{1}{1 - \\sin\\left(x + \\frac{\\pi}{6}\\right)} dx\\text{ let } x + \\frac{x}{6} = t\\text{ }dx = dt$<br>$= 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{dt}{1 - \\sin t} = 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{1 + \\sin t}{\\cos^2 t} dt$<br>$= 2\\pi \\left[\\int\\limits_{\\pi/6}^{\\pi/3} \\sec^2 t dt + \\int\\limits_{\\pi/6}^{\\pi/3} \\sec t \\tan t dt\\right]$<br>$= 2\\pi \\left[(\\tan t)_{\\pi/6}^{\\pi/3} + (\\sec t)_{\\pi/6}^{\\pi/3}\\right]$<br>$= 2\\pi \\left[\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) + \\left(2 - \\frac{2}{\\sqrt{3}}\\right)\\right]$<br>$= = 2\\pi \\left[\\sqrt{3} + 2 - \\sqrt{3}\\right] = 4\\pi$",
+    "solution": "Ans. (2)\nSol. $= 2\\pi \\int\\limits_{0}^{\\pi/6} \\frac{1}{1 - \\sin\\left(x + \\frac{\\pi}{6}\\right)} dx\\text{ let } x + \\frac{x}{6} = t\\text{ }dx = dt$\n$= 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{dt}{1 - \\sin t} = 2\\pi \\int\\limits_{\\pi/6}^{\\pi/3} \\frac{1 + \\sin t}{\\cos^2 t} dt$\n$= 2\\pi \\left[\\int\\limits_{\\pi/6}^{\\pi/3} \\sec^2 t dt + \\int\\limits_{\\pi/6}^{\\pi/3} \\sec t \\tan t dt\\right]$\n$= 2\\pi \\left[(\\tan t)_{\\pi/6}^{\\pi/3} + (\\sec t)_{\\pi/6}^{\\pi/3}\\right]$\n$= 2\\pi \\left[\\left(\\sqrt{3} - \\frac{1}{\\sqrt{3}}\\right) + \\left(2 - \\frac{2}{\\sqrt{3}}\\right)\\right]$\n$= = 2\\pi \\left[\\sqrt{3} + 2 - \\sqrt{3}\\right] = 4\\pi$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1466,7 +1466,7 @@
      "$\\frac{1}{3}$"
     ],
     "answer": "2",
-    "solution": "Ans. (2)<br>Sol. $\\text{Mean } (\\overline{x}) = 8 \\text{ (Given)}$<br>$$\\Rightarrow \\frac{2 + 4 + 10 + x + 12 + 14 + y}{7} = 8$$<br>$$\\Rightarrow x + y = 14 \\text{ }....(1)....$$<br>$\\text{Variance } (\\sigma^2) = 16 \\text{ (Given)}$<br>$$ \\Rightarrow 16 = \\frac{2^2 + 4^2 + 10^2 + x^2 + 12^2 + 14^2 + y^2}{7} - 8^2 $$<br>$$\\Rightarrow x^2 + y^2 = 100 \\text{ }.....(2).....$$<br>$$\\because (x + y)^2 = x^2 + y^2 + 2xy$$<br>$\\Rightarrow xy = 48 \\text{ (sum is } 14 \\text{ product is } 48)$<br>$\\text{Since problem states } x > y$<br>$$\\therefore x = 8 \\text{ and } y = 6$$<br>$\\text{Now set } X = \\{1, 2, 3, 4, 6, 5\\}$<br>$\\text{Now we choose two numbers one after author}$<br>$\\text{without replacement total outcomes } = 6 \\times 5 = 30$<br>$\\text{We want the prob. That the smaller number among}$<br>$\\text{the two is less than } 4$<br>$\\text{P}(\\text{smaller} < 4) = 1 - \\text{P}(\\text{smaller} \\ge 4)$<br>$$= 1 - \\frac{6}{30} = \\frac{4}{5}$$",
+    "solution": "Ans. (2)\nSol. $\\text{Mean } (\\overline{x}) = 8 \\text{ (Given)}$\n$$\\Rightarrow \\frac{2 + 4 + 10 + x + 12 + 14 + y}{7} = 8$$\n$$\\Rightarrow x + y = 14 \\text{ }....(1)....$$\n$\\text{Variance } (\\sigma^2) = 16 \\text{ (Given)}$\n$$ \\Rightarrow 16 = \\frac{2^2 + 4^2 + 10^2 + x^2 + 12^2 + 14^2 + y^2}{7} - 8^2 $$\n$$\\Rightarrow x^2 + y^2 = 100 \\text{ }.....(2).....$$\n$$\\because (x + y)^2 = x^2 + y^2 + 2xy$$\n$\\Rightarrow xy = 48 \\text{ (sum is } 14 \\text{ product is } 48)$\n$\\text{Since problem states } x > y$\n$$\\therefore x = 8 \\text{ and } y = 6$$\n$\\text{Now set } X = \\{1, 2, 3, 4, 6, 5\\}$\n$\\text{Now we choose two numbers one after author}$\n$\\text{without replacement total outcomes } = 6 \\times 5 = 30$\n$\\text{We want the prob. That the smaller number among}$\n$\\text{the two is less than } 4$\n$\\text{P}(\\text{smaller} < 4) = 1 - \\text{P}(\\text{smaller} \\ge 4)$\n$$= 1 - \\frac{6}{30} = \\frac{4}{5}$$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1490,7 +1490,7 @@
      "$3$"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br>Sol.<br>Figure shows a point A $(5,4,2)$ with a perpendicular dropped to a line at point $(\\alpha, \\beta, \\gamma)$<br>$\\vec{r} = (-\\hat{i} + 3\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} - \\hat{k}) $<br>$\\frac{x+1}{2} = \\frac{y-3}{3} = \\frac{z-1}{-1} = \\lambda$<br>Any general point P on the line is<br>$(2\\lambda - 1, 3\\lambda + 3, -\\lambda + 1)$<br>Let the given point is A $(5, 4, 2)$<br>$\\vec{\\text{AP}} (2\\lambda - 6)\\hat{i} + (3\\lambda - 1)\\hat{j} + (-\\lambda - 1)\\hat{k}$<br>$\\because \\vec{\\text{AP}} \\perp \\text{ Line (L)}$<br>$\\therefore \\vec{\\text{AP}} \\cdot (2\\hat{i} + 3\\hat{j} - \\hat{k}) = 0$<br>$2(2\\lambda - 6) + 3(3\\lambda - 1) - 1(-\\lambda - 1) = 0$<br>$\\Rightarrow \\lambda = 1$<br>$\\therefore \\alpha = 1$<br>$\\beta = 6$<br>$\\gamma = 0$<br>Let the vector $\\vec{\\text{u}} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$<br>$\\vec{\\text{u}} = \\hat{i} + 6\\hat{j} + 0\\hat{k}$<br>& $\\vec{\\text{w}} = 6\\hat{i} + 2\\hat{j} + 3\\hat{k}$<br>So projection $= \\frac{|\\vec{\\text{u}} \\cdot \\vec{\\text{w}}|}{|\\vec{\\text{w}}|} = \\frac{18}{7}$",
+    "solution": "Ans. (3)\nSol.\nFigure shows a point A $(5,4,2)$ with a perpendicular dropped to a line at point $(\\alpha, \\beta, \\gamma)$\n$\\vec{r} = (-\\hat{i} + 3\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} - \\hat{k}) $\n$\\frac{x+1}{2} = \\frac{y-3}{3} = \\frac{z-1}{-1} = \\lambda$\nAny general point P on the line is\n$(2\\lambda - 1, 3\\lambda + 3, -\\lambda + 1)$\nLet the given point is A $(5, 4, 2)$\n$\\vec{\\text{AP}} (2\\lambda - 6)\\hat{i} + (3\\lambda - 1)\\hat{j} + (-\\lambda - 1)\\hat{k}$\n$\\because \\vec{\\text{AP}} \\perp \\text{ Line (L)}$\n$\\therefore \\vec{\\text{AP}} \\cdot (2\\hat{i} + 3\\hat{j} - \\hat{k}) = 0$\n$2(2\\lambda - 6) + 3(3\\lambda - 1) - 1(-\\lambda - 1) = 0$\n$\\Rightarrow \\lambda = 1$\n$\\therefore \\alpha = 1$\n$\\beta = 6$\n$\\gamma = 0$\nLet the vector $\\vec{\\text{u}} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$\n$\\vec{\\text{u}} = \\hat{i} + 6\\hat{j} + 0\\hat{k}$\n& $\\vec{\\text{w}} = 6\\hat{i} + 2\\hat{j} + 3\\hat{k}$\nSo projection $= \\frac{|\\vec{\\text{u}} \\cdot \\vec{\\text{w}}|}{|\\vec{\\text{w}}|} = \\frac{18}{7}$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1514,7 +1514,7 @@
      "$3(x^2 + y^2) - 12x - 18y - 25 = 0$"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br>Sol. Given circle<br>A circle with center $O(2,3)$ and radius $r$ is shown with tangents $MQ$ and $PN$ intersecting at point $R(h,k)$. The angle $\\angle MOR$ is $60^\\circ$. Radii $OA$ and $OB$ are perpendicular to the tangents at points $A$ and $B$ respectively, and the angle $\\angle AOR$ is $30^\\circ$, and $\\angle BOR$ is $30^\\circ$.<br><br>$x^2 + y^2 - 4x - 6y - 3 = 0$<br>C(2,3) & r = 4<br><br>$\\cos 30^\\circ = \\frac{r}{\\text{OR}} = \\frac{4}{\\text{OR}}$<br><br>$\\Rightarrow \\text{OR} = \\frac{8}{\\sqrt{3}}$<br><br>Now<br>$\\text{OR}^2 = (h-2)^2 + (k-3)^2$<br><br>$\\Rightarrow 3(x^2 + y^2) - 12x - 18y - 25 = 0$",
+    "solution": "Ans. (4)\nSol. Given circle\nA circle with center $O(2,3)$ and radius $r$ is shown with tangents $MQ$ and $PN$ intersecting at point $R(h,k)$. The angle $\\angle MOR$ is $60^\\circ$. Radii $OA$ and $OB$ are perpendicular to the tangents at points $A$ and $B$ respectively, and the angle $\\angle AOR$ is $30^\\circ$, and $\\angle BOR$ is $30^\\circ$.\n\n$x^2 + y^2 - 4x - 6y - 3 = 0$\nC(2,3) & r = 4\n\n$\\cos 30^\\circ = \\frac{r}{\\text{OR}} = \\frac{4}{\\text{OR}}$\n\n$\\Rightarrow \\text{OR} = \\frac{8}{\\sqrt{3}}$\n\nNow\n$\\text{OR}^2 = (h-2)^2 + (k-3)^2$\n\n$\\Rightarrow 3(x^2 + y^2) - 12x - 18y - 25 = 0$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1538,7 +1538,7 @@
      "1483"
     ],
     "answer": "3",
-    "solution": "Ans. (3)<br><br>Sol. $(ax^2 + bx + c) \\sum_{r=0}^{26} {^{26}C_r}(-2x)^r$<br>Coeff. of $x^2$ : $a.{^{26}C_0}(-2)^0 + b.{^{26}C_1}(-2)^1 + c.{^{26}C_2}(-2)^2 = 0$<br>$\\Rightarrow a - 52b + 1300c = 0 \\dots (1)$<br>Coeff. of $x^3$ : $a.{^{26}C_1}(-2)^1 + b.{^{26}C_2}(-2)^2 + c.{^{26}C_3}(-2)^3 = 0$<br>$\\Rightarrow -52 a + 1300 b - 20800 c = 0 \\dots (2)$<br>Coeff. of $x = -56$<br>$\\Rightarrow b.{^{26}C_0}(-2)^0 + c.{^{26}C_1}(-2)^1 = -56$<br>$b - 52c = -56 \\dots (3)$<br>After solving (1), (2) & (3)<br>$a = 1300, b = 100, c = 3$<br>$\\Rightarrow a + b + c = 1403$",
+    "solution": "Ans. (3)\n\nSol. $(ax^2 + bx + c) \\sum_{r=0}^{26} {^{26}C_r}(-2x)^r$\nCoeff. of $x^2$ : $a.{^{26}C_0}(-2)^0 + b.{^{26}C_1}(-2)^1 + c.{^{26}C_2}(-2)^2 = 0$\n$\\Rightarrow a - 52b + 1300c = 0 \\dots (1)$\nCoeff. of $x^3$ : $a.{^{26}C_1}(-2)^1 + b.{^{26}C_2}(-2)^2 + c.{^{26}C_3}(-2)^3 = 0$\n$\\Rightarrow -52 a + 1300 b - 20800 c = 0 \\dots (2)$\nCoeff. of $x = -56$\n$\\Rightarrow b.{^{26}C_0}(-2)^0 + c.{^{26}C_1}(-2)^1 = -56$\n$b - 52c = -56 \\dots (3)$\nAfter solving (1), (2) & (3)\n$a = 1300, b = 100, c = 3$\n$\\Rightarrow a + b + c = 1403$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1562,7 +1562,7 @@
      "145"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br>Sol. $x^2 + x + 1 = 0$<br>$\\Rightarrow x = \\omega \\text{ or } \\omega^2$<br>$\\therefore \\alpha = \\omega \\text{ \\& } \\beta = \\omega^2$<br>$= (\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^3 + \\omega^6)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4$<br>$= [(\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^4 + \\omega^8)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4] + [(\\omega^3 + \\omega^6)^4 + (\\omega^6 + \\omega^{12})^4 + (\\omega^9 + \\omega^{18})^4 + \\ldots + (\\omega^{24} + \\omega^{48})^4]$<br>$= \\underbrace{[1 + 1 + 1 \\ldots + 1]}_{17 \\text{ times}} + \\underbrace{[(1 + 1)^4 + (1 + 1)^4 + \\ldots (1 + 1)^4]}_{8 \\text{ times}}$<br>$= 17 + 128$<br>$= 145$",
+    "solution": "Ans. (4)\nSol. $x^2 + x + 1 = 0$\n$\\Rightarrow x = \\omega \\text{ or } \\omega^2$\n$\\therefore \\alpha = \\omega \\text{ \\& } \\beta = \\omega^2$\n$= (\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^3 + \\omega^6)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4$\n$= [(\\omega + \\omega^2)^4 + (\\omega^2 + \\omega^4)^4 + (\\omega^4 + \\omega^8)^4 + \\ldots + (\\omega^{25} + \\omega^{50})^4] + [(\\omega^3 + \\omega^6)^4 + (\\omega^6 + \\omega^{12})^4 + (\\omega^9 + \\omega^{18})^4 + \\ldots + (\\omega^{24} + \\omega^{48})^4]$\n$= \\underbrace{[1 + 1 + 1 \\ldots + 1]}_{17 \\text{ times}} + \\underbrace{[(1 + 1)^4 + (1 + 1)^4 + \\ldots (1 + 1)^4]}_{8 \\text{ times}}$\n$= 17 + 128$\n$= 145$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1586,7 +1586,7 @@
      "6"
     ],
     "answer": "1",
-    "solution": "Ans. (1)<br><br>Sol. $= \\frac{1}{\\sin 10^{\\circ}} - \\frac{\\sqrt{3}}{\\cos 10^{\\circ}}$<br><br>$= \\frac{\\cos 10^{\\circ} - \\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}}$<br><br>$= 4 \\left[ \\frac{\\frac{1}{2} \\cos 10^{\\circ} - \\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{2 \\sin 10^{\\circ} \\cos 10^{\\circ}} \\right]$<br><br>$= 4 \\left[ \\frac{\\sin(30^{\\circ} - 10^{\\circ})}{\\sin 20^{\\circ}} \\right]$<br><br>$= 4$",
+    "solution": "Ans. (1)\n\nSol. $= \\frac{1}{\\sin 10^{\\circ}} - \\frac{\\sqrt{3}}{\\cos 10^{\\circ}}$\n\n$= \\frac{\\cos 10^{\\circ} - \\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}}$\n\n$= 4 \\left[ \\frac{\\frac{1}{2} \\cos 10^{\\circ} - \\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{2 \\sin 10^{\\circ} \\cos 10^{\\circ}} \\right]$\n\n$= 4 \\left[ \\frac{\\sin(30^{\\circ} - 10^{\\circ})}{\\sin 20^{\\circ}} \\right]$\n\n$= 4$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1610,7 +1610,7 @@
      "5"
     ],
     "answer": "1",
-    "solution": "Ans. (1)<br>Sol. Let $|x - 1| = t$<br>$t^2 - 5t + 6 = 0$<br>$t = 2 \\text{ & } t = 3$<br>$|x - 1| = 2 \\text{ & } |x - 1| = 3$<br>$x - 1 \\pm 2 \\text{ & } x - 1 = \\pm 3$<br>$x = 1 \\pm 2 \\text{ & } x = 1 \\pm 3$<br>$\\therefore \\text{ root} = 3, -1, 4, -2$<br>$\\therefore \\text{ Sum of root} = 3 + (-1) + 4 + (-2) = 4.$",
+    "solution": "Ans. (1)\nSol. Let $|x - 1| = t$\n$t^2 - 5t + 6 = 0$\n$t = 2 \\text{ & } t = 3$\n$|x - 1| = 2 \\text{ & } |x - 1| = 3$\n$x - 1 \\pm 2 \\text{ & } x - 1 = \\pm 3$\n$x = 1 \\pm 2 \\text{ & } x = 1 \\pm 3$\n$\\therefore \\text{ root} = 3, -1, 4, -2$\n$\\therefore \\text{ Sum of root} = 3 + (-1) + 4 + (-2) = 4.$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1634,7 +1634,7 @@
      "$5x - 4y + 3 = 0$"
     ],
     "answer": "4",
-    "solution": "Ans. (4)<br><br>Sol. $h = \\frac{4t}{5}$<br><br>A figure showing a parabola opening upwards with vertex at the origin $O(0,0)$. A point $Q(2t, t^2)$ is on the parabola, and a point $P(h,k)$ lies on the chord $OQ$, dividing it in the ratio $2:3$ from $O$ to $Q$.<br><br>$k = \\frac{2t^2}{5} = \\frac{2}{5} \\left(\\frac{5h}{4}\\right)^2$<br><br>$8k = 5h^2$<br><br>$\\Rightarrow 5x^2 = 8y$<br><br>$T = S_1$<br><br>$5(xx_1) - 4(y + y_1) = 5{x_1}^2 - 8y_1$<br><br>$5(x) - 4(y + 2) = 5 - 8.2$<br><br>$5x - 4y + 3 = 0$",
+    "solution": "Ans. (4)\n\nSol. $h = \\frac{4t}{5}$\n\nA figure showing a parabola opening upwards with vertex at the origin $O(0,0)$. A point $Q(2t, t^2)$ is on the parabola, and a point $P(h,k)$ lies on the chord $OQ$, dividing it in the ratio $2:3$ from $O$ to $Q$.\n\n$k = \\frac{2t^2}{5} = \\frac{2}{5} \\left(\\frac{5h}{4}\\right)^2$\n\n$8k = 5h^2$\n\n$\\Rightarrow 5x^2 = 8y$\n\n$T = S_1$\n\n$5(xx_1) - 4(y + y_1) = 5{x_1}^2 - 8y_1$\n\n$5(x) - 4(y + 2) = 5 - 8.2$\n\n$5x - 4y + 3 = 0$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1652,7 +1652,7 @@
     "section": "Numerical",
     "text": "Let $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ be a twice differentiable function such that the quadratic equation $f(x)m^2 - 2f'(x)m + f''(x) = 0$ in $m$, has two equal roots for every $x \\in \\mathbb{R}$. If $f(0) = 1$, $f'(0) = 2$ and $(\\alpha, \\beta)$ is the largest interval in which the function $f(\\log_e x - x)$ is increasing, then $\\alpha + \\beta$ is equal to",
     "answer": "1",
-    "solution": "Ans. (1)<br>Sol. Given quadratic equation has equal roots, thus<br>$D = 0 \\Rightarrow (f'(x))^2 = f''(x) \\cdot f(x)$<br>$\\frac{f'(x)}{f(x)} = \\frac{f''(x)}{f'(x)}$<br>Integrate<br>$\\ln (f(x)) = \\ln (f'(x)) + \\ln C \\Rightarrow f(x) = c \\cdot f'(x)$<br>Put $= x = 0$<br>$1 = c \\cdot 2 \\Rightarrow c = \\frac{1}{2}$<br>Now $2f(x) = f'(x)$<br>$\\Rightarrow \\frac{f'(x)}{f(x)} = 2$<br>Integrate<br>$\\ln (f(x)) = 2x + d$<br><br>$\\Rightarrow d = 0$<br>$\\Rightarrow (\\ln (f(x)) = 2x \\Rightarrow f(x) = e^{2x}$<br>Now let $g(x) = f(\\ln x - x) = e^{2(\\ln x - x)}$<br>$\\therefore g'(x) = 2 \\, e^{2(\\ln x - x)} \\left(\\frac{1}{x} - 1\\right) \\ge 3$<br>$\\Rightarrow \\frac{1 - x}{x} \\ge 0$<br>$\\Rightarrow x \\in (0, 1]$<br>$\\Rightarrow \\alpha = 0, \\beta = 1$<br>$\\alpha + \\beta = 1$.",
+    "solution": "Ans. (1)\nSol. Given quadratic equation has equal roots, thus\n$D = 0 \\Rightarrow (f'(x))^2 = f''(x) \\cdot f(x)$\n$\\frac{f'(x)}{f(x)} = \\frac{f''(x)}{f'(x)}$\nIntegrate\n$\\ln (f(x)) = \\ln (f'(x)) + \\ln C \\Rightarrow f(x) = c \\cdot f'(x)$\nPut $= x = 0$\n$1 = c \\cdot 2 \\Rightarrow c = \\frac{1}{2}$\nNow $2f(x) = f'(x)$\n$\\Rightarrow \\frac{f'(x)}{f(x)} = 2$\nIntegrate\n$\\ln (f(x)) = 2x + d$\n\n$\\Rightarrow d = 0$\n$\\Rightarrow (\\ln (f(x)) = 2x \\Rightarrow f(x) = e^{2x}$\nNow let $g(x) = f(\\ln x - x) = e^{2(\\ln x - x)}$\n$\\therefore g'(x) = 2 \\, e^{2(\\ln x - x)} \\left(\\frac{1}{x} - 1\\right) \\ge 3$\n$\\Rightarrow \\frac{1 - x}{x} \\ge 0$\n$\\Rightarrow x \\in (0, 1]$\n$\\Rightarrow \\alpha = 0, \\beta = 1$\n$\\alpha + \\beta = 1$.",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1670,7 +1670,7 @@
     "section": "Numerical",
     "text": "Let $a_1 = 1$ and for $n \\geq 1$, $a_{n+1} = \\frac{1}{2}a_n + \\frac{n^2 - 2n - 1}{n^2(n+1)^2}$. Then $\\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right|$ is equal to \\_\\_\\_\\_\\_\\_.",
     "answer": "2",
-    "solution": "Ans. (2)<br>Sol. $a_{n+1} - \\frac{1}{2}a_n = \\frac{n^2-2n-1}{n^2(n+1)^2} = \\frac{2n^2-(n+1)^2}{n^2(n+1)^2}$<br><br>$\\Rightarrow a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}$<br><br>$n = 1 \\; a_2 - \\frac{1}{2}a_1 = \\frac{2}{2^2} - \\frac{1}{1^2}$<br><br>$2\\left[a_3 - \\frac{1}{2}a_2 = \\frac{2}{3^2} - \\frac{1}{2^2}\\right]$<br><br>$2^2\\left[a_4 - \\frac{1}{2}a_3 = \\frac{2}{4^2} - \\frac{1}{3^2}\\right]$<br><br>$\\vdots$<br><br>$2^{n-2}\\left[a_n - \\frac{1}{2}a_{n-1} = \\frac{2}{n^2} - \\frac{1}{(n-1)^2}\\right]$<br><br>$2^{n-1}\\left[a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}\\right]$<br><br>Adding<br><br>$a_{n+1} = \\frac{2}{(n+1)^2} - \\frac{1}{2^n} \\Rightarrow a_n = \\frac{2}{n^2} - \\frac{1}{2^{n-1}}$<br><br>$\\Rightarrow \\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right| \\Rightarrow \\left|\\sum_{n=1}^{\\infty}-\\frac{1}{2^{n-1}}\\right| = 2$",
+    "solution": "Ans. (2)\nSol. $a_{n+1} - \\frac{1}{2}a_n = \\frac{n^2-2n-1}{n^2(n+1)^2} = \\frac{2n^2-(n+1)^2}{n^2(n+1)^2}$\n\n$\\Rightarrow a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}$\n\n$n = 1 \\; a_2 - \\frac{1}{2}a_1 = \\frac{2}{2^2} - \\frac{1}{1^2}$\n\n$2\\left[a_3 - \\frac{1}{2}a_2 = \\frac{2}{3^2} - \\frac{1}{2^2}\\right]$\n\n$2^2\\left[a_4 - \\frac{1}{2}a_3 = \\frac{2}{4^2} - \\frac{1}{3^2}\\right]$\n\n$\\vdots$\n\n$2^{n-2}\\left[a_n - \\frac{1}{2}a_{n-1} = \\frac{2}{n^2} - \\frac{1}{(n-1)^2}\\right]$\n\n$2^{n-1}\\left[a_{n+1} - \\frac{1}{2}a_n = \\frac{2}{(n+1)^2} - \\frac{1}{n^2}\\right]$\n\nAdding\n\n$a_{n+1} = \\frac{2}{(n+1)^2} - \\frac{1}{2^n} \\Rightarrow a_n = \\frac{2}{n^2} - \\frac{1}{2^{n-1}}$\n\n$\\Rightarrow \\left|\\sum_{n=1}^{\\infty}\\left(a_n - \\frac{2}{n^2}\\right)\\right| \\Rightarrow \\left|\\sum_{n=1}^{\\infty}-\\frac{1}{2^{n-1}}\\right| = 2$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1688,7 +1688,7 @@
     "section": "Numerical",
     "text": "Let $S=\\{(m, n): m, n \\in \\{1, 2, 3, ....., 50\\}\\}$. If the number of elements $(m, n)$ in S such that $6^m + 9^n$ is a multiple of $5$ is p and the number of elements $(m, n)$ in S such that $m + n$ is a square of a prime number is q, then $p + q$ is equal to........",
     "answer": "1333",
-    "solution": "Ans. (1333)<br>Sol. $S = \\{1, 2, 3, .... 50\\}$<br>$p = (6^m + 9^n)$ is divisible by $5$<br>No. of ways<br>$6^m = (5\\lambda + 1)^m = 5k + 1$<br>$9^n = (10 - 1)^n = 10\\mu - 1$ if $n$ is odd<br>$\\Rightarrow n$ must be odd<br>$10\\mu + 1$ if $n$ is even<br>$\\Rightarrow \\text{No. of ways} = 50 \\times 25 = 1250$<br>$q \\Rightarrow (m + n)$ is square of a prime<br>A table with columns for $m+n=4$, $m+n=9$, $m+n=25$, and $m+n=49$, where the corresponding number of ways are given downwards as 3, 8, 24, and 48 respectively.<br>$q = 3 + 8 + 24 + 48 = 83$<br>$= p + q = 1250 + 83 = 1333$",
+    "solution": "Ans. (1333)\nSol. $S = \\{1, 2, 3, .... 50\\}$\n$p = (6^m + 9^n)$ is divisible by $5$\nNo. of ways\n$6^m = (5\\lambda + 1)^m = 5k + 1$\n$9^n = (10 - 1)^n = 10\\mu - 1$ if $n$ is odd\n$\\Rightarrow n$ must be odd\n$10\\mu + 1$ if $n$ is even\n$\\Rightarrow \\text{No. of ways} = 50 \\times 25 = 1250$\n$q \\Rightarrow (m + n)$ is square of a prime\nA table with columns for $m+n=4$, $m+n=9$, $m+n=25$, and $m+n=49$, where the corresponding number of ways are given downwards as 3, 8, 24, and 48 respectively.\n$q = 3 + 8 + 24 + 48 = 83$\n$= p + q = 1250 + 83 = 1333$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1706,7 +1706,7 @@
     "section": "Numerical",
     "text": "For some $\\alpha, \\beta \\in \\mathbb{R}$, let $\\text{A} = \\begin{bmatrix} \\alpha & 2 \\\\ 1 & 2 \\end{bmatrix}$ and $\\text{B} = \\begin{bmatrix} 1 & 1 \\\\ 1 & \\beta \\end{bmatrix}$\n\nbe such that $\\text{A}^2 - 4\\text{A} + 2\\text{I} = \\text{B}^2 - 3\\text{B} + \\text{I} = \\text{O}$.\nThen $(\\det(\\text{adj}(\\text{A}^3 - \\text{B}^3)))^2$ is equal to .........",
     "answer": "225",
-    "solution": "Ans. (225)<br>Sol. $\\operatorname{Tr}(A) = 4 \\Rightarrow \\alpha + 2 = 4 \\Rightarrow \\alpha = 2$<br>$\\operatorname{Tr}(B) = 3 \\Rightarrow \\beta + 1 = 3 \\Rightarrow \\beta = 2$<br>$A^2 - 4A + 2I = O$<br>$A^3 = 4A^2 - 2A = 16A - 8I - 2A$<br>$14A - 8I$<br>$= \\begin{bmatrix} 28 & 28 \\ 14 & 28 \\end{bmatrix} + \\begin{bmatrix} -8 & 0 \\ 0 & -8 \\end{bmatrix}$<br>$= A^3 = \\begin{bmatrix} 20 & 28 \\ 14 & 20 \\end{bmatrix}$<br>$B^2 - 3B + I = O$<br>$B^3 = 3B - I$<br>$\\Rightarrow B^3 = 3B^2 - B = 3(3B - I) - B = 8B - 3I$<br>$B^3 = \\begin{pmatrix} 8 & 8 \\ 8 & 16 \\end{pmatrix} + \\begin{pmatrix} -3 & 0 \\ 0 & -3 \\end{pmatrix} = \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix}$<br>$A^3 - B^3 = \\begin{pmatrix} 20 & 28 \\ 14 & 20 \\end{pmatrix} - \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix} = \\begin{pmatrix} 15 & 20 \\ 6 & 7 \\end{pmatrix}$<br>$\\Rightarrow |A^3 - B^3| = 105 - 120 = -15$<br>$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)| = |A^3 - B^3| = -15$<br>$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)|^2 = 225$",
+    "solution": "Ans. (225)\nSol. $\\operatorname{Tr}(A) = 4 \\Rightarrow \\alpha + 2 = 4 \\Rightarrow \\alpha = 2$\n$\\operatorname{Tr}(B) = 3 \\Rightarrow \\beta + 1 = 3 \\Rightarrow \\beta = 2$\n$A^2 - 4A + 2I = O$\n$A^3 = 4A^2 - 2A = 16A - 8I - 2A$\n$14A - 8I$\n$= \\begin{bmatrix} 28 & 28 \\ 14 & 28 \\end{bmatrix} + \\begin{bmatrix} -8 & 0 \\ 0 & -8 \\end{bmatrix}$\n$= A^3 = \\begin{bmatrix} 20 & 28 \\ 14 & 20 \\end{bmatrix}$\n$B^2 - 3B + I = O$\n$B^3 = 3B - I$\n$\\Rightarrow B^3 = 3B^2 - B = 3(3B - I) - B = 8B - 3I$\n$B^3 = \\begin{pmatrix} 8 & 8 \\ 8 & 16 \\end{pmatrix} + \\begin{pmatrix} -3 & 0 \\ 0 & -3 \\end{pmatrix} = \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix}$\n$A^3 - B^3 = \\begin{pmatrix} 20 & 28 \\ 14 & 20 \\end{pmatrix} - \\begin{pmatrix} 5 & 8 \\ 8 & 13 \\end{pmatrix} = \\begin{pmatrix} 15 & 20 \\ 6 & 7 \\end{pmatrix}$\n$\\Rightarrow |A^3 - B^3| = 105 - 120 = -15$\n$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)| = |A^3 - B^3| = -15$\n$\\Rightarrow |\\operatorname{adj}(A^3 - B^3)|^2 = 225$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
@@ -1724,7 +1724,7 @@
     "section": "Numerical",
     "text": "$$6 \\int_{0}^{\\pi} |(\\sin 3x + \\sin 2x + \\sin x)| \\, dx \\text{ is equal to} \\dots\\dots\\dots$$",
     "answer": "17",
-    "solution": "Ans. (17)<br><br>Sol. $6\\int_{0}^{\\pi}|2\\sin 2x \\cos x + \\sin 2x|\\,dx$<br><br>$6\\int_{0}^{\\pi}|4\\sin x \\cos^{2}x + 2\\sin x \\cos x|\\,dx$<br><br>$I = 12\\int_{0}^{\\pi}\\sin x|2\\cos^{2}x + \\cos x|$<br><br>Put $\\cos x = t, -\\sin x\\,dx = dt$<br><br>$I = -12\\int_{1}^{-1}|2t^{2} + t|\\,dt$<br><br>$I = $<br><br>$12\\left(\\int_{-1}^{-1/2}(2t^{2} + t)dt + \\int_{-1/2}^{0}-(2t^{2} + t)dt + \\int_{0}^{1}(2t^{2} + t)dt\\right)$<br><br>$I = 17$",
+    "solution": "Ans. (17)\n\nSol. $6\\int_{0}^{\\pi}|2\\sin 2x \\cos x + \\sin 2x|\\,dx$\n\n$6\\int_{0}^{\\pi}|4\\sin x \\cos^{2}x + 2\\sin x \\cos x|\\,dx$\n\n$I = 12\\int_{0}^{\\pi}\\sin x|2\\cos^{2}x + \\cos x|$\n\nPut $\\cos x = t, -\\sin x\\,dx = dt$\n\n$I = -12\\int_{1}^{-1}|2t^{2} + t|\\,dt$\n\n$I = $\n\n$12\\left(\\int_{-1}^{-1/2}(2t^{2} + t)dt + \\int_{-1/2}^{0}-(2t^{2} + t)dt + \\int_{0}^{1}(2t^{2} + t)dt\\right)$\n\n$I = 17$",
     "image": "",
     "maxMarks": 4,
     "negativeMarks": 1,
