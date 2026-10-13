@@ -58,6 +58,27 @@
   margin: 12px auto;
 }
 
+/* A choice whose wording *is* a picture -- "which of the following graphs is
+   correct", where each option is a plotted curve -- carries its `<svg>` in the
+   option text, not the stem.  The addon appends the rich block as the last
+   child of the button so React never reconciles it, which would leave the
+   diagram sitting after the radio dot; `order` puts it back under the wording.
+   The button wraps so the diagram gets the full width of the choice rather
+   than being squeezed into what is left of the row. */
+.option:has(> .question-rich) {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.option:has(> .question-rich) > .question-rich {
+  flex: 1 1 100%;
+  order: 3;
+}
+
+.option:has(> .question-rich) > .radio-indicator {
+  order: 2;
+}
+
 /* A redrawn diagram carries the same look as the hand-authored RTS-1 Q1
    figure, which gets its font and ink colour from the `.diagram svg` rule in
    the app stylesheet.  The rich-text path is a sibling of that component, so

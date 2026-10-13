@@ -1,10 +1,16 @@
 /* Render question text that carries markup (SVG diagrams, HTML tables, LaTeX).
  *
- * The question bundle renders a question's `text` as a plain string, so any
- * `<svg>` or `<table>` it contains would show up as literal markup.  This
- * addon upgrades such a paragraph in place: the original text node is kept
- * (hidden) so React still owns it and can update it on the next question, and
- * a sibling element holds the parsed markup.  MathJax then typesets both.
+ * The question bundle renders a question's `text`, and each of its choices, as
+ * a plain string, so any `<svg>` or `<table>` they contain would show up as
+ * literal markup.  This addon upgrades such a node in place: the original text
+ * node is kept (hidden) so React still owns it and can update it on the next
+ * question, and a sibling element holds the parsed markup.  MathJax then
+ * typesets both.
+ *
+ * Both the stem (`.inline-question-text .question-text`) and the choices
+ * (`.option-text`) are covered -- they are separate render paths, and the
+ * choices are the ones a "which of the following graphs is correct" question
+ * puts its four figures in.  See the note on TEXT_SELECTOR below.
  *
  * Content comes from the site's own published test files, so it is trusted;
  * scripts and event-handler attributes are stripped regardless, so a stray
@@ -12,7 +18,14 @@
  */
 (() => {
   const MARKUP = /<\s*(svg|table|br|b|i|u|strong|em|sub|sup|span|div|p|ul|ol|li|img)\b/i;
-  const TEXT_SELECTOR = ".inline-question-text .question-text";
+  // The stem *and* the choices.  A choice whose wording is a picture -- "which
+  // of the following graphs is correct", where all four options are plotted
+  // curves -- keeps its `<svg>` in the option text, and the options render as
+  // a bare React text child with no wrapper this addon used to match.  So the
+  // markup went to the student verbatim: eight options across the published
+  // tests already carry an `<svg>`, and nineteen carry `<b>`.  The MathJax
+  // renderer has always targeted `.options`, so only the markup was left out.
+  const TEXT_SELECTOR = ".inline-question-text .question-text, .option-text";
   const RICH_CLASS = "question-rich";
   const DONE = new WeakMap();
   const inFlight = new WeakSet();
