@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import math
 import os
 import re
 import shutil
@@ -34,72 +35,101 @@ SCAN_SOURCE_DIR = "/data/data/com.termux/files/home"
 # worker thread and is polled; the job record is durable because the cache it
 # resumes from is (`~/.paper_to_test/<content-hash>/`).
 CONVERT_DIR = Path(SCAN_SOURCE_DIR) / ".paper_to_test" / "jobs"
+# A draft sent for review is written here, never into `published-tests/`: the
+# whole point of the handoff is that a flagged draft can leave the editor
+# without reaching the site.
+REVIEW_DIR = Path(SCAN_SOURCE_DIR) / ".paper_to_test" / "review"
 CONVERT_JOBS: dict[str, dict] = {}
 CONVERT_LOCK = threading.Lock()
 CONVERT_ACTIVE: dict[str, str | None] = {"job": None}
+
+
+def test_problems(test) -> list[str]:
+    """Every reason this test cannot be published, in the order they are checked.
+
+    `publish_test_payload` wants only the first -- it reports one problem at a
+    time, which is right for a person fixing their own draft.  The review
+    handoff wants all of them: a draft is sent over precisely to learn
+    everything standing between it and the site, and learning the second
+    problem only after fixing the first is what makes that loop slow.
+
+    The messages and their order are the ones `publish_test_payload` has always
+    sent, so `problems[0]` is exactly what it used to return.
+    """
+    if not isinstance(test, dict):
+        return ["Missing test object."]
+    problems: list[str] = []
+    test_id = str(test.get("id", ""))
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}", test_id):
+        problems.append("Test ID must contain 2–64 letters, numbers, hyphens or underscores.")
+    questions = test.get("questions")
+    if not isinstance(questions, list) or not questions:
+        return problems + ["The test must contain questions."]
+    if test.get("category") not in {"rts", "alline", "mathongo", "pw", "practice", "custom"}:
+        problems.append("Choose a supported test category.")
+    source_numbers = [str(q.get("sourceQuestionNo")) for q in questions
+                      if isinstance(q, dict) and q.get("sourceQuestionNo") is not None]
+    if len(source_numbers) != len(set(source_numbers)):
+        problems.append("Duplicate source question numbers require review.")
+    try:
+        expected_count = int(test.get("expectedQuestionCount") or 0)
+    except (TypeError, ValueError):
+        problems.append("Expected question count must be a whole number.")
+        expected_count = 0
+    # A count that is simply wrong is the more useful thing to say, and saying
+    # both at once reads as two faults where there is one.
+    if expected_count and len(questions) != expected_count:
+        problems.append(f"Expected {expected_count} questions but found {len(questions)}.")
+    elif expected_count and sorted(int(n) for n in source_numbers if n.isdigit()) != list(range(1, expected_count + 1)):
+        problems.append(f"Source numbering must run from 1 to {expected_count}.")
+    for index, question in enumerate(questions, 1):
+        if not isinstance(question, dict):
+            problems.append(f"Question {index} is malformed.")
+            continue
+        if question.get("id") != index:
+            problems.append(f"Question {index} has invalid numbering.")
+        if question.get("subject") not in {"Physics", "Chemistry", "Mathematics"}:
+            problems.append(f"Question {index} needs a supported subject.")
+        if not str(question.get("text", "")).strip() or not str(question.get("solution", "")).strip():
+            problems.append(f"Question {index} needs question text and its own explanation.")
+        if question.get("reviewReasons"):
+            problems.append(f"Question {index} is marked REVIEW REQUIRED.")
+        if not (question.get("answerVerified") or question.get("answerSourceVerified")):
+            problems.append(f"Question {index} answer has not been verified or source matched.")
+        kind, answer = question.get("type"), str(question.get("answer", ""))
+        if kind in {"mcq", "multi"}:
+            options = question.get("options")
+            answers = answer.split(",")
+            if not isinstance(options, list) or len(options) < 4 or any(not str(x).strip() for x in options[:4]):
+                problems.append(f"Question {index} needs four MCQ options.")
+            if any(not re.fullmatch(r"[1-4]", x) for x in answers) or len(set(answers)) != len(answers) or (kind == "mcq" and len(answers) != 1):
+                problems.append(f"Question {index} has an invalid correct option.")
+        elif kind in {"integer", "decimal"}:
+            if not re.fullmatch(r"-?(?:\d+(?:\.\d*)?|\.\d+)", answer):
+                problems.append(f"Question {index} needs a valid numerical answer.")
+        else:
+            problems.append(f"Question {index} has an unsupported question type.")
+        if not (question.get("solutionVerified") or question.get("solutionSourceVerified")):
+            problems.append(f"Question {index} explanation has not been reviewed or source matched.")
+        for field in ("maxMarks", "negativeMarks", "unansweredMarks"):
+            try:
+                value = float(question.get(field, 0))
+                if not math.isfinite(value) or value < 0:
+                    raise ValueError
+            except (TypeError, ValueError):
+                problems.append(f"Question {index} has invalid {field}.")
+    return problems
 
 
 def publish_test_payload(payload: dict) -> tuple[int, dict]:
     """Persist a validated published-test JSON package and update its catalog."""
     test = payload.get("test")
     replace = payload.get("replace") is True
-    if not isinstance(test, dict):
-        return 400, {"error": "Missing test object."}
+    problems = test_problems(test)
+    if problems:
+        return 400, {"error": problems[0]}
     test_id = str(test.get("id", ""))
-    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}", test_id):
-        return 400, {"error": "Test ID must contain 2–64 letters, numbers, hyphens or underscores."}
     questions = test.get("questions")
-    if not isinstance(questions, list) or not questions:
-        return 400, {"error": "The test must contain questions."}
-    if test.get("category") not in {"rts", "alline", "mathongo", "pw", "practice", "custom"}:
-        return 400, {"error": "Choose a supported test category."}
-    source_numbers = [str(q.get("sourceQuestionNo")) for q in questions
-                      if isinstance(q, dict) and q.get("sourceQuestionNo") is not None]
-    if len(source_numbers) != len(set(source_numbers)):
-        return 400, {"error": "Duplicate source question numbers require review."}
-    try:
-        expected_count = int(test.get("expectedQuestionCount") or 0)
-    except (TypeError, ValueError):
-        return 400, {"error": "Expected question count must be a whole number."}
-    if expected_count and len(questions) != expected_count:
-        return 400, {"error": f"Expected {expected_count} questions but found {len(questions)}."}
-    if expected_count and sorted(int(n) for n in source_numbers if n.isdigit()) != list(range(1, expected_count + 1)):
-        return 400, {"error": f"Source numbering must run from 1 to {expected_count}."}
-    for index, question in enumerate(questions, 1):
-        if not isinstance(question, dict):
-            return 400, {"error": f"Question {index} is malformed."}
-        if question.get("id") != index:
-            return 400, {"error": f"Question {index} has invalid numbering."}
-        if question.get("subject") not in {"Physics", "Chemistry", "Mathematics"}:
-            return 400, {"error": f"Question {index} needs a supported subject."}
-        if not str(question.get("text", "")).strip() or not str(question.get("solution", "")).strip():
-            return 400, {"error": f"Question {index} needs question text and its own explanation."}
-        if question.get("reviewReasons"):
-            return 400, {"error": f"Question {index} is marked REVIEW REQUIRED."}
-        if not (question.get("answerVerified") or question.get("answerSourceVerified")):
-            return 400, {"error": f"Question {index} answer has not been verified or source matched."}
-        kind, answer = question.get("type"), str(question.get("answer", ""))
-        if kind in {"mcq", "multi"}:
-            options = question.get("options")
-            answers = answer.split(",")
-            if not isinstance(options, list) or len(options) < 4 or any(not str(x).strip() for x in options[:4]):
-                return 400, {"error": f"Question {index} needs four MCQ options."}
-            if any(not re.fullmatch(r"[1-4]", x) for x in answers) or len(set(answers)) != len(answers) or (kind == "mcq" and len(answers) != 1):
-                return 400, {"error": f"Question {index} has an invalid correct option."}
-        elif kind in {"integer", "decimal"}:
-            if not re.fullmatch(r"-?(?:\d+(?:\.\d*)?|\.\d+)", answer):
-                return 400, {"error": f"Question {index} needs a valid numerical answer."}
-        else:
-            return 400, {"error": f"Question {index} has an unsupported question type."}
-        if not (question.get("solutionVerified") or question.get("solutionSourceVerified")):
-            return 400, {"error": f"Question {index} explanation has not been reviewed or source matched."}
-        for field in ("maxMarks", "negativeMarks", "unansweredMarks"):
-            try:
-                value = float(question.get(field, 0))
-                if not __import__("math").isfinite(value) or value < 0:
-                    raise ValueError
-            except (TypeError, ValueError):
-                return 400, {"error": f"Question {index} has invalid {field}."}
     try:
         published = dict(test)
         published["draft"] = False
@@ -148,6 +178,118 @@ def publish_test_payload(payload: dict) -> tuple[int, dict]:
             temp_path.unlink(missing_ok=True)
         return 500, {"error": f"Could not write the local test package: {error}"}
     return 200, {"ok": True, "id": test_id, "questions": len(questions), "path": entry["path"]}
+
+
+def _excerpt(value, limit: int = 240) -> str:
+    """One line of a field, short enough to read in a list."""
+    text = " ".join(str(value or "").split())
+    return text if len(text) <= limit else text[:limit - 1] + "…"
+
+
+def review_markdown(test: dict, problems: list[str]) -> str:
+    """The reviewer's reading of a draft: what blocks it, then what to check.
+
+    It leads with the blockers, because they are the reason the draft is here
+    and they are what the editor's own publish button would refuse.  Then every
+    flagged question in turn, carrying enough of each to recognise it without
+    opening the JSON, and finally the questions that are only waiting on a tick
+    -- those block publication too, but nothing about them needs changing.
+    """
+    questions = [q for q in test.get("questions") or [] if isinstance(q, dict)]
+    flagged = [q for q in questions if q.get("reviewReasons")]
+
+    def all_verified(q):
+        return ((q.get("answerVerified") or q.get("answerSourceVerified"))
+                and (q.get("solutionVerified") or q.get("solutionSourceVerified")))
+
+    # Flagged questions are listed above; what is left here blocks publication
+    # on a tick alone, so the reviewer only needs their numbers.
+    awaiting = [q for q in questions if not q.get("reviewReasons") and not all_verified(q)]
+    out = ["# Review packet: %s" % (test.get("name") or test.get("id") or "untitled"),
+           "",
+           "- id: `%s`" % test.get("id"),
+           "- category: %s   exam: %s   questions: %d"
+           % (test.get("category"), test.get("exam") or "—", len(questions)),
+           "- received: %s" % datetime.now(timezone.utc).isoformat(timespec="seconds"),
+           "",
+           "## Blocking publication (%d)" % len(problems),
+           ""]
+    if problems:
+        out += ["%d. %s" % (i, p) for i, p in enumerate(problems, 1)]
+    else:
+        out.append("Nothing — this draft passes every check publishing makes.")
+    out += ["", "## Flagged for review (%d)" % len(flagged), ""]
+    if not flagged:
+        out.append("None.")
+    for q in flagged:
+        out += ["### Q%s (source %s) — %s, %s" % (
+                    q.get("id"), q.get("sourceQuestionNo") or "—",
+                    q.get("subject") or "—", q.get("type") or "—"),
+                "",
+                "- answer: `%s`   answer verified: %s   solution verified: %s"
+                % (q.get("answer"), bool(q.get("answerVerified") or q.get("answerSourceVerified")),
+                   bool(q.get("solutionVerified") or q.get("solutionSourceVerified"))),
+                "- flags:"]
+        out += ["  - %s" % r for r in q.get("reviewReasons") or []]
+        out += ["- text: %s" % _excerpt(q.get("text")),
+                "- solution (%d chars): %s" % (len(str(q.get("solution") or "")),
+                                               _excerpt(q.get("solution"))),
+                ""]
+    out += ["## Awaiting verification only (%d)" % len(awaiting), ""]
+    if awaiting:
+        out += ["No content change needed; these block publication until ticked.",
+                "",
+                "`%s`" % "`, `".join(str(q.get("id")) for q in awaiting)]
+    else:
+        out.append("None.")
+    out += ["", "## Finishing", "",
+            "    python3 ~/cf/review_packet.py --check %s" % test.get("id"),
+            "    python3 ~/cf/review_packet.py --publish %s" % test.get("id"),
+            ""]
+    return "\n".join(out)
+
+
+def review_request_payload(payload: dict) -> tuple[int, dict]:
+    """Record a draft for review, without publishing it.
+
+    The owner's workflow is to send a draft over and have it come back fixed,
+    so this writes what a reviewer needs -- the draft itself, and a reading of
+    it that says what stands in the way -- and touches nothing under
+    `published-tests/`.  Publishing stays a separate, deliberate call.
+
+    A draft is allowed to be one that cannot be published.  That is the point:
+    the flags that would stop `publish_test_payload` are exactly what is being
+    asked about, so this endpoint validates only enough to write a file.
+    """
+    test = payload.get("test")
+    if not isinstance(test, dict):
+        return 400, {"error": "Missing test object."}
+    test_id = str(test.get("id", ""))
+    # The id becomes a directory name, so it is held to the same shape the
+    # publishing path allows; a leading "." or a "/" never gets this far.
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}", test_id):
+        return 400, {"error": "Test ID must contain 2–64 letters, numbers, hyphens or underscores."}
+    questions = test.get("questions")
+    if not isinstance(questions, list) or not questions:
+        return 400, {"error": "The test must contain questions."}
+    problems = test_problems(test)
+    folder = REVIEW_DIR / test_id
+    try:
+        folder.mkdir(parents=True, exist_ok=True)
+        draft = folder / "draft.json"
+        if draft.exists():
+            # A resend must not destroy the copy the reviewer may be reading.
+            os.replace(draft, folder / "draft.previous.json")
+        draft.write_text(json.dumps({"test": test, "replace": True}, ensure_ascii=False),
+                         "utf-8")
+        (folder / "review.md").write_text(review_markdown(test, problems), "utf-8")
+    except OSError as error:
+        return 500, {"error": f"Could not write the review packet: {error}"}
+    return 200, {"ok": True, "id": test_id, "questions": len(questions),
+                 "flagged": sum(1 for q in questions
+                                if isinstance(q, dict) and q.get("reviewReasons")),
+                 "problems": problems, "path": str(folder),
+                 "receivedAt": datetime.now(timezone.utc).isoformat()}
 
 
 def _multipart_boundary(content_type: str):
@@ -475,14 +617,53 @@ class SiteHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(raw)
 
+    def _local_only(self, what: str) -> bool:
+        """Reject anything not from this device, or not from this page.
+
+        Every endpoint that can write to the repository or spend the Gemini
+        quota says the same two things in the same order; only the noun
+        changes, so only the noun is a parameter.  Returns False once the
+        refusal has been sent.
+        """
+        if self.client_address[0] not in {"127.0.0.1", "::1"}:
+            self._json(403, {"error": f"Local {what} is only available from this device."})
+            return False
+        origin = self.headers.get("Origin")
+        host = self.headers.get("Host", "")
+        if origin and origin not in {f"http://{host}", f"https://{host}"}:
+            self._json(403, {"error": f"Cross-origin {what} is not allowed."})
+            return False
+        return True
+
+    def _json_body(self, limit: int) -> dict | None:
+        """The request body as a JSON object, or None once the error is sent."""
+        if self.headers.get_content_type() != "application/json":
+            self._json(415, {"error": "Send the test package as application/json."})
+            return None
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+        except ValueError:
+            length = 0
+        if not 2 <= length <= limit:
+            self._json(413, {"error": "The test package is empty or exceeds the local limit."})
+            return None
+        try:
+            payload = json.loads(self.rfile.read(length))
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            self._json(400, {"error": "Request body is not valid JSON."})
+            return None
+        if not isinstance(payload, dict):
+            self._json(400, {"error": "Request body must be a JSON object."})
+            return None
+        return payload
+
     def do_GET(self):
         if self.path == "/api/ocr-status":
             engine = shutil.which("tesseract")
             self._json(200, {"available": bool(engine), "engine": "Tesseract OCR" if engine else None})
             return
         if self.path.startswith("/api/convert-status"):
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._json(403, {"error": "Local conversion is only available from this device."})
+            if not self._local_only("conversion"):
                 return
             query = parse_qs(urlparse(self.path).query)
             job_id = (query.get("job") or [""])[0]
@@ -496,43 +677,25 @@ class SiteHandler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         if self.path == "/api/publish-test":
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._json(403, {"error": "Local publishing is only available from this device."})
+            if not self._local_only("publishing"):
                 return
-            origin = self.headers.get("Origin")
-            host = self.headers.get("Host", "")
-            if origin and origin not in {f"http://{host}", f"https://{host}"}:
-                self._json(403, {"error": "Cross-origin publishing is not allowed."})
-                return
-            if self.headers.get_content_type() != "application/json":
-                self._json(415, {"error": "Send the test package as application/json."})
-                return
-            try:
-                length = int(self.headers.get("Content-Length", "0"))
-            except ValueError:
-                length = 0
-            if not 2 <= length <= MAX_TEST_BYTES:
-                self._json(413, {"error": "The test package is empty or exceeds the local limit."})
-                return
-            try:
-                payload = json.loads(self.rfile.read(length))
-            except (json.JSONDecodeError, UnicodeDecodeError):
-                self._json(400, {"error": "Request body is not valid JSON."})
-                return
-            if not isinstance(payload, dict):
-                self._json(400, {"error": "Request body must be a JSON object."})
+            payload = self._json_body(MAX_TEST_BYTES)
+            if payload is None:
                 return
             status, result = publish_test_payload(payload)
             self._json(status, result)
             return
-        if self.path == "/api/scan-paper":
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._json(403, {"error": "Local scanning is only available from this device."})
+        if self.path == "/api/review-request":
+            if not self._local_only("review"):
                 return
-            origin = self.headers.get("Origin")
-            host = self.headers.get("Host", "")
-            if origin and origin not in {f"http://{host}", f"https://{host}"}:
-                self._json(403, {"error": "Cross-origin scanning is not allowed."})
+            payload = self._json_body(MAX_TEST_BYTES)
+            if payload is None:
+                return
+            status, result = review_request_payload(payload)
+            self._json(status, result)
+            return
+        if self.path == "/api/scan-paper":
+            if not self._local_only("scanning"):
                 return
             boundary = _multipart_boundary(self.headers.get("Content-Type", ""))
             if not boundary:
@@ -555,13 +718,7 @@ class SiteHandler(SimpleHTTPRequestHandler):
             self._json(status, result)
             return
         if self.path == "/api/convert-paper":
-            if self.client_address[0] not in {"127.0.0.1", "::1"}:
-                self._json(403, {"error": "Local conversion is only available from this device."})
-                return
-            origin = self.headers.get("Origin")
-            host = self.headers.get("Host", "")
-            if origin and origin not in {f"http://{host}", f"https://{host}"}:
-                self._json(403, {"error": "Cross-origin conversion is not allowed."})
+            if not self._local_only("conversion"):
                 return
             boundary = _multipart_boundary(self.headers.get("Content-Type", ""))
             if not boundary:
