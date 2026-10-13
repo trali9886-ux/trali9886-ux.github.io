@@ -6,6 +6,7 @@ The server binds to loopback only and writes published tests inside this project
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -13,10 +14,13 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
+import time
 import traceback
 from datetime import datetime, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent
 MAX_IMAGE_BYTES = 24 * 1024 * 1024
@@ -26,6 +30,13 @@ MAX_SCAN_BYTES = 200 * 1024 * 1024
 # poppler/Tesseract and cannot run in the browser), so it is imported by
 # path rather than vendored into the site.
 SCAN_SOURCE_DIR = "/data/data/com.termux/files/home"
+# A whole-paper conversion is many minutes of Gemini calls, so it runs on a
+# worker thread and is polled; the job record is durable because the cache it
+# resumes from is (`~/.paper_to_test/<content-hash>/`).
+CONVERT_DIR = Path(SCAN_SOURCE_DIR) / ".paper_to_test" / "jobs"
+CONVERT_JOBS: dict[str, dict] = {}
+CONVERT_LOCK = threading.Lock()
+CONVERT_ACTIVE: dict[str, str | None] = {"job": None}
 
 
 def publish_test_payload(payload: dict) -> tuple[int, dict]:
@@ -300,6 +311,157 @@ def scan_paper_payload(fields: dict) -> tuple[int, dict]:
         shutil.rmtree(temp_dir, ignore_errors=True)
 
 
+def _field(fields: dict, name: str, default: str = "") -> str:
+    """A text form field's value, decoded."""
+    entry = fields.get(name)
+    if not entry:
+        return default
+    raw = entry[1] if isinstance(entry, tuple) else entry
+    return raw.decode("utf-8", "replace").strip()
+
+
+def _job_path(job_id: str) -> Path:
+    return CONVERT_DIR / f"{job_id}.json"
+
+
+def _job_write(record: dict) -> None:
+    """Persist a job record atomically.  Call with CONVERT_LOCK held."""
+    CONVERT_DIR.mkdir(parents=True, exist_ok=True)
+    target = _job_path(record["job"])
+    tmp = target.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(record, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, target)
+
+
+def _job_read(job_id: str) -> dict | None:
+    try:
+        return json.loads(_job_path(job_id).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def convert_status(job_id: str) -> tuple[int, dict]:
+    """The current state of a conversion job, for the editor's progress bar."""
+    with CONVERT_LOCK:
+        record = CONVERT_JOBS.get(job_id) or _job_read(job_id)
+    if not record:
+        return 404, {"error": "Unknown conversion job."}
+    out = {key: record.get(key) for key in
+           ("job", "state", "stage", "done", "total", "current", "note",
+            "testId", "warnings", "error")}
+    if record.get("state") == "done":
+        out["test"] = record.get("test")
+    return 200, out
+
+
+def _convert_worker(job_id: str, pdf_path: str, test_id: str, name: str,
+                    category: str, kind: str | None,
+                    subjects: set | None, workers: int) -> None:
+    """Run the conversion off the request thread and record its progress."""
+    record = CONVERT_JOBS[job_id]
+
+    def progress(stage, a, b, subject, note):
+        with CONVERT_LOCK:
+            record["stage"] = stage
+            record["current"] = subject
+            record["note"] = note
+            if isinstance(a, int):
+                record["done"] = a
+            if b:
+                record["total"] = b
+            _job_write(record)
+
+    try:
+        # Imported here, not at module scope: the converter pulls in Pillow and
+        # Tesseract bindings, and the server must start fast.
+        for path in (os.path.join(SCAN_SOURCE_DIR, "cf"), SCAN_SOURCE_DIR):
+            if path not in sys.path:
+                sys.path.insert(0, path)
+        import paper_to_test as converter
+        result = converter.convert(pdf_path, test_id, name, category,
+                                   kind=kind, on_progress=progress,
+                                   subjects=subjects, workers=workers)
+        with CONVERT_LOCK:
+            record["test"] = result["test"]
+            record["warnings"] = result["warnings"]
+            record["state"] = "done"
+    except Exception as error:                       # noqa: BLE001
+        with CONVERT_LOCK:
+            record["state"] = "error"
+            record["error"] = f"{type(error).__name__}: {error}"
+            record["traceback"] = traceback.format_exc()[-2000:]
+    finally:
+        with CONVERT_LOCK:
+            _job_write(record)
+            if CONVERT_ACTIVE.get("job") == job_id:
+                CONVERT_ACTIVE["job"] = None
+
+
+def convert_paper_payload(fields: dict) -> tuple[int, dict]:
+    """Start a whole-paper conversion.  Returns (status, {"job": id})."""
+    entry = fields.get("pdf")
+    if not entry or not entry[1]:
+        return 400, {"error": "Attach the paper PDF as the 'pdf' field."}
+    pdf_bytes = entry[1]
+    if not pdf_bytes.startswith(b"%PDF-"):
+        return 415, {"error": "The upload is not a PDF."}
+    test_id = _field(fields, "testId")
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{1,63}", test_id):
+        return 400, {"error": "Test ID must contain 2-64 letters, numbers, "
+                              "hyphens or underscores."}
+    name = _field(fields, "name") or test_id
+    category = _field(fields, "category") or "practice"
+    if category not in {"rts", "alline", "mathongo", "pw", "practice", "custom"}:
+        return 400, {"error": "Choose a supported test category."}
+    kind = _field(fields, "kind") or None
+    if kind not in (None, "jrts", "mpdf", "scan"):
+        return 400, {"error": "Family must be jrts, mpdf or scan."}
+    raw_subjects = _field(fields, "subjects")
+    subjects = {s.strip() for s in raw_subjects.split(",") if s.strip()} or None
+    # Pages are converted several at a time: one page is minutes of the model
+    # writing its answer, so a serial 24-page scan runs for over an hour.
+    try:
+        workers = int(_field(fields, "workers") or 4)
+    except ValueError:
+        workers = 4
+    workers = max(1, min(6, workers))
+
+    # Name the upload after its content, so re-uploading the same paper resumes
+    # the existing cache instead of re-spending the whole API budget.
+    digest = hashlib.sha256(pdf_bytes).hexdigest()[:16]
+    uploads = Path(SCAN_SOURCE_DIR) / ".paper_to_test" / "uploads"
+    uploads.mkdir(parents=True, exist_ok=True)
+    pdf_path = uploads / f"{digest}.pdf"
+    if not pdf_path.exists():
+        tmp = pdf_path.with_suffix(".pdf.tmp")
+        tmp.write_bytes(pdf_bytes)
+        os.replace(tmp, pdf_path)
+
+    with CONVERT_LOCK:
+        running = CONVERT_ACTIVE.get("job")
+        if running:
+            return 409, {"error": "A conversion is already running. Wait for it "
+                                  "to finish before starting another.",
+                         "job": running}
+        job_id = os.urandom(6).hex()
+        CONVERT_ACTIVE["job"] = job_id
+        CONVERT_JOBS[job_id] = {
+            "job": job_id, "state": "running", "stage": "starting",
+            "done": 0, "total": 0, "current": "", "note": "",
+            "testId": test_id, "name": name, "category": category,
+            "kind": kind, "started": time.time(),
+        }
+        _job_write(CONVERT_JOBS[job_id])
+
+    threading.Thread(
+        target=_convert_worker,
+        args=(job_id, str(pdf_path), test_id, name, category, kind, subjects,
+              workers),
+        daemon=True,
+    ).start()
+    return 202, {"job": job_id, "testId": test_id}
+
+
 class SiteHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -317,6 +479,18 @@ class SiteHandler(SimpleHTTPRequestHandler):
         if self.path == "/api/ocr-status":
             engine = shutil.which("tesseract")
             self._json(200, {"available": bool(engine), "engine": "Tesseract OCR" if engine else None})
+            return
+        if self.path.startswith("/api/convert-status"):
+            if self.client_address[0] not in {"127.0.0.1", "::1"}:
+                self._json(403, {"error": "Local conversion is only available from this device."})
+                return
+            query = parse_qs(urlparse(self.path).query)
+            job_id = (query.get("job") or [""])[0]
+            if not re.fullmatch(r"[0-9a-f]{12}", job_id):
+                self._json(400, {"error": "Missing or malformed job id."})
+                return
+            status, result = convert_status(job_id)
+            self._json(status, result)
             return
         super().do_GET()
 
@@ -378,6 +552,34 @@ class SiteHandler(SimpleHTTPRequestHandler):
                 self._json(400, {"error": f"Could not read the upload: {error}"})
                 return
             status, result = scan_paper_payload(fields)
+            self._json(status, result)
+            return
+        if self.path == "/api/convert-paper":
+            if self.client_address[0] not in {"127.0.0.1", "::1"}:
+                self._json(403, {"error": "Local conversion is only available from this device."})
+                return
+            origin = self.headers.get("Origin")
+            host = self.headers.get("Host", "")
+            if origin and origin not in {f"http://{host}", f"https://{host}"}:
+                self._json(403, {"error": "Cross-origin conversion is not allowed."})
+                return
+            boundary = _multipart_boundary(self.headers.get("Content-Type", ""))
+            if not boundary:
+                self._json(415, {"error": "Send the paper as multipart/form-data."})
+                return
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+            except ValueError:
+                length = 0
+            if not 2 <= length <= MAX_SCAN_BYTES:
+                self._json(413, {"error": "The uploaded paper is empty or exceeds the 200 MB local limit."})
+                return
+            try:
+                fields = parse_multipart(self.rfile.read(length), boundary)
+            except ValueError as error:
+                self._json(400, {"error": f"Could not read the upload: {error}"})
+                return
+            status, result = convert_paper_payload(fields)
             self._json(status, result)
             return
         if self.path == "/api/process-shift-pdf":
