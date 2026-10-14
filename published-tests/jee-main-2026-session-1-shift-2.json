@@ -1733,7 +1733,7 @@
         "subject": "Mathematics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "For the matrices $A = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$ and $B = \\begin{bmatrix} -29 & 49 \\\\ -13 & 18 \\end{bmatrix}$,\\\\ if $(A^{15} + B)\\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$, then among the following\\\\ which one is true?",
+        "text": "For the matrices $A = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$ and $B = \\begin{bmatrix} -29 & 49 \\\\ -13 & 18 \\end{bmatrix}$,<br> if $(A^{15} + B)\\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$, then among the following<br> which one is true?",
         "answer": "3",
         "solution": "Ans. (3)\n\nSol. Here $A^n = \\begin{bmatrix} 2n + 1 & -4n \\\\ n & -2n + 1 \\end{bmatrix}$\n\n$\\Rightarrow A^{15} = \\begin{bmatrix} 31 & -60 \\\\ 15 & -29 \\end{bmatrix}$\n\n$\\Rightarrow A^{15} + B = \\begin{bmatrix} 2 & -11 \\\\ 2 & -11 \\end{bmatrix}$\n\nNow $(A^{15} + B)\\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$\n\n$\\Rightarrow \\begin{bmatrix} 2 & -11 \\\\ 2 & -11 \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\end{bmatrix} = \\begin{bmatrix} 0 \\\\ 0 \\end{bmatrix}$\n\n$\\Rightarrow 2x - 11y = 0$",
         "image": "",

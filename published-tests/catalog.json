@@ -177,6 +177,30 @@
    "path": "published-tests/minor-test-2.json",
    "questions": 75,
    "updatedAt": "2026-10-14T17:21:34.308567+00:00"
+  },
+  {
+   "id": "mathongo-qapt3",
+   "name": "QAPT 3",
+   "category": "mathongo",
+   "path": "published-tests/mathongo-qapt3.json",
+   "questions": 51,
+   "updatedAt": "2026-10-14T22:35:39.180574+00:00"
+  },
+  {
+   "id": "mathongo-qapt4",
+   "name": "QAPT 4",
+   "category": "mathongo",
+   "path": "published-tests/mathongo-qapt4.json",
+   "questions": 51,
+   "updatedAt": "2026-10-14T22:35:39.730509+00:00"
+  },
+  {
+   "id": "mathongo-qapt5",
+   "name": "QAPT 5",
+   "category": "mathongo",
+   "path": "published-tests/mathongo-qapt5.json",
+   "questions": 51,
+   "updatedAt": "2026-10-14T22:35:40.281657+00:00"
   }
  ]
 }

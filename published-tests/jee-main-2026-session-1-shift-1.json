@@ -246,7 +246,7 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "The electric field a plane electromagnetic wave is given by :\\\\ $E_y = 69 \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t] \\text{ V/m}$.\\\\ The expression for magnetic field associated with this electromagnetic wave is $\\underline{\\hspace{1cm}} \\text{ T}$.",
+    "text": "The electric field a plane electromagnetic wave is given by :<br> $E_y = 69 \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t] \\text{ V/m}$.<br> The expression for magnetic field associated with this electromagnetic wave is $\\underline{\\hspace{1cm}} \\text{ T}$.",
     "options": [
      "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x - 1.8 \\times 10^{11}t]$",
      "$B_z = 2.3 \\times 10^{-7} \\sin[0.6 \\times 10^3x + 1.8 \\times 10^{11}t]$",
@@ -462,7 +462,7 @@
     "subject": "Physics",
     "type": "mcq",
     "section": "MCQ",
-    "text": "Initially a satellite of $100\\text{ kg}$ is in a circular orbit of radius $1.5\\text{R}_\\text{E}$. This satellite can be moved to a circular orbit of radius $3\\text{R}_\\text{E}$ by supplying $\\alpha \\times 10^6\\text{ J}$ of energy. The value of $\\alpha$ is $\\underline{\\quad\\quad\\quad\\quad\\quad}$.\\\\\\\\ (Take Radius of Earth $\\text{R}_\\text{E} = 6 \\times 10^6\\text{ m}$ and $\\text{g} = 10\\text{ m/s}^2$)",
+    "text": "Initially a satellite of $100\\text{ kg}$ is in a circular orbit of radius $1.5\\text{R}_\\text{E}$. This satellite can be moved to a circular orbit of radius $3\\text{R}_\\text{E}$ by supplying $\\alpha \\times 10^6\\text{ J}$ of energy. The value of $\\alpha$ is $\\underline{\\quad\\quad\\quad\\quad\\quad}$.<br><br> (Take Radius of Earth $\\text{R}_\\text{E} = 6 \\times 10^6\\text{ m}$ and $\\text{g} = 10\\text{ m/s}^2$)",
     "options": [
      "150",
      "500",
@@ -1098,7 +1098,7 @@
     "subject": "Chemistry",
     "type": "integer",
     "section": "Numerical",
-    "text": "The $\\text{pH}$ and conductance of a weak acid (HX) was found to be $5$ and $4 \\times 10^{-5}\\text{ S}$, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of $1\\text{ cm}^2$ were at a distance of $15\\text{ cm}$ apart. The value of the limiting molar conductivity is $\\dots\\dots\\dots\\dots\\dots\\text{ S m}^2\\text{ mol}^{-1}$. (nearest integer)\\\\ (Given: degree of dissociation of the weak acid (a) $\\ll 1$)",
+    "text": "The $\\text{pH}$ and conductance of a weak acid (HX) was found to be $5$ and $4 \\times 10^{-5}\\text{ S}$, respectively. The conductance was measured under standard condition using a cell where the electrode plates having a surface area of $1\\text{ cm}^2$ were at a distance of $15\\text{ cm}$ apart. The value of the limiting molar conductivity is $\\dots\\dots\\dots\\dots\\dots\\text{ S m}^2\\text{ mol}^{-1}$. (nearest integer)<br> (Given: degree of dissociation of the weak acid (a) $\\ll 1$)",
     "answer": "6",
     "solution": "<b>Ans. (6)</b>\n<b>Sol.</b> $pH = 5$\n$[H^+] = 10^{-5} = [HX].\\alpha$\n$= [HX].\\frac{\\Lambda_m}{\\Lambda_m^\\infty}$\n\n$$\\Lambda_m = \\frac{k \\times 1000}{[HX]}$$\n$K = G.G^* = 4 \\times 10^{-5} \\times \\frac{15}{1} = 6 \\times 10^{-4} \\text{ S.cm}^{-1}$\n\n$[H^+] = 10^{-5} = [HX] \\times \\frac{6 \\times 10^{-4} \\times 1000}{\\Lambda_m^\\infty \\times [HX]}$\n\n$\\Lambda_m^\\infty = 60000 \\text{ S.cm}^2 \\text{ mol}^{-1}$\n$\\Lambda_m^\\infty = 6 \\text{ S.m}^2 \\text{ mol}^{-1}$",
     "image": "",

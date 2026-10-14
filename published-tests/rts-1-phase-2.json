@@ -789,7 +789,7 @@
         "subject": "Chemistry",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Arrange the following in increasing order of mass. $(\\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{Ar} = 40, \\text{Fe} = 56; \\text{N}_\\text{A} = 6.022 \\times 10^{23} \\text{ mol}^{-1})$\\\\ (I) One molecule of $\\text{CO}_2$\\\\ (II) One atom of $\\text{Ar}$\\\\ (III) $10^{-22} \\text{ mol of } \\text{H}_2$\\\\ (IV) $10^{-23} \\text{ mol of } \\text{Fe}$",
+        "text": "Arrange the following in increasing order of mass. $(\\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{Ar} = 40, \\text{Fe} = 56; \\text{N}_\\text{A} = 6.022 \\times 10^{23} \\text{ mol}^{-1})$<br> (I) One molecule of $\\text{CO}_2$<br> (II) One atom of $\\text{Ar}$<br> (III) $10^{-22} \\text{ mol of } \\text{H}_2$<br> (IV) $10^{-23} \\text{ mol of } \\text{Fe}$",
         "options": [
           "$\\text{I} < \\text{II} < \\text{III} < \\text{IV}$",
           "$\\text{II} < \\text{III} < \\text{I} < \\text{IV}$",
@@ -1263,7 +1263,7 @@
         "subject": "Mathematics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Let $S = \\left\\{\\begin{matrix} m \\in \\mathbb{N} : 25 \\le m \\le 210, \\\\ 3 \\mid (2^m - 2), 7 \\mid (3^m + 1) \\end{matrix}\\right\\}$. \\\\ Find the cardinal number of $S$. ($a \\mid b$ means $a$ \\\\ divides $b$)",
+        "text": "Let $S = \\left\\{\\begin{matrix} m \\in \\mathbb{N} : 25 \\le m \\le 210, \\\\ 3 \\mid (2^m - 2), 7 \\mid (3^m + 1) \\end{matrix}\\right\\}$. <br> Find the cardinal number of $S$. ($a \\mid b$ means $a$ <br> divides $b$)",
         "options": [
           "30",
           "31",
