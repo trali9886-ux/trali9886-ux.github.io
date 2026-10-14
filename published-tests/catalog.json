@@ -168,6 +168,15 @@
    "path": "published-tests/eklavya-test-01.json",
    "questions": 75,
    "updatedAt": "2026-10-14T07:39:48.040133+00:00"
+  },
+  {
+   "id": "minor-test-2",
+   "name": "Minor Test-2",
+   "category": "alline",
+   "date": "14 October 2026",
+   "path": "published-tests/minor-test-2.json",
+   "questions": 75,
+   "updatedAt": "2026-10-14T13:23:07.503506+00:00"
   }
  ]
 }
