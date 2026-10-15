@@ -165,6 +165,32 @@
     border-color: rgba(125, 211, 252, 0.8);
     color: #fff;
   }
+  #tg-modal .tg-handle {
+    margin: 14px 0 0;
+    font-size: 12px;
+    line-height: 1.55;
+    color: #8fa39d;
+  }
+  #tg-modal .tg-handle strong {
+    color: #cfe9ff;
+    font-weight: 700;
+  }
+  #tg-modal .tg-copy {
+    margin-left: 6px;
+    padding: 3px 10px;
+    border: 1px solid rgba(125, 211, 252, 0.4);
+    border-radius: 999px;
+    background: transparent;
+    color: #7dd3fc;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #tg-modal .tg-copy:hover {
+    border-color: rgba(125, 211, 252, 0.8);
+    color: #fff;
+  }
   #tg-modal .tg-cta {
     display: flex;
     align-items: center;
@@ -242,6 +268,7 @@
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
       Join Telegram Channel
     </a>
+    <p class="tg-handle">Link not opening? Search <strong>@testseries8</strong> in the Telegram app <button class="tg-copy" type="button">Copy</button></p>
   </div>
 </div>
 
@@ -310,9 +337,69 @@
       modal.focus();
     }, 1200);
 
+    // Indian mobile networks commonly poison DNS for t.me, so a plain link to it
+    // lands on a black hole and the browser just shows a blank page. The Telegram
+    // app reaches its own servers directly and is unaffected, so open the app
+    // scheme first and fall back to the web link only if the app never takes over.
+    var WEB = "https://t.me/testseries8";
+    function openChannel(e) {
+      if (e && e.preventDefault) e.preventDefault();
+      close();
+      var timer = window.setTimeout(function () {
+        if (!document.hidden) window.location.href = WEB;
+      }, 1200);
+      function cancel() {
+        window.clearTimeout(timer);
+      }
+      window.addEventListener("pagehide", cancel, { once: true });
+      document.addEventListener(
+        "visibilitychange",
+        function () {
+          if (document.hidden) cancel();
+        },
+        { once: true }
+      );
+      window.location.href = "tg://resolve?domain=testseries8";
+    }
+
     backdrop.querySelector(".tg-close").addEventListener("click", close);
     backdrop.querySelector(".tg-later").addEventListener("click", close);
-    backdrop.querySelector(".tg-cta").addEventListener("click", close);
+    backdrop.querySelector(".tg-cta").addEventListener("click", openChannel);
+    var fab = document.getElementById("tg-fab");
+    if (fab) fab.addEventListener("click", openChannel);
+
+    // The handle is the only route that works when the app is absent and the
+    // network blocks t.me, so make it easy to carry into the app.
+    var copyBtn = backdrop.querySelector(".tg-copy");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", function () {
+        var handle = "@testseries8";
+        function done() {
+          copyBtn.textContent = "Copied";
+          window.setTimeout(function () {
+            copyBtn.textContent = "Copy";
+          }, 1600);
+        }
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(handle).then(done, function () {});
+            return;
+          }
+        } catch (_) {}
+        try {
+          var ta = document.createElement("textarea");
+          ta.value = handle;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          done();
+        } catch (_) {}
+      });
+    }
     backdrop.addEventListener("click", function (e) {
       if (e.target === backdrop) close();
     });
