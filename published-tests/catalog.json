@@ -105,14 +105,6 @@
    "updatedAt": "2026-10-07T03:56:11Z"
   },
   {
-   "id": "mathongo-qpt9",
-   "name": "QPT 9",
-   "category": "mathongo",
-   "path": "published-tests/mathongo-qpt9.json",
-   "questions": 75,
-   "updatedAt": "2026-10-15T03:46:33Z"
-  },
-  {
    "id": "mathongo-qapt1",
    "name": "QAPT 1",
    "category": "mathongo",
