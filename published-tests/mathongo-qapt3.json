@@ -600,7 +600,7 @@
     "answer": "2",
     "maxMarks": 4,
     "negativeMarks": 1,
-    "solution": "Step 1: Recoil velocity due to insect motion:\n When the insect of mass m/2 starts moving with speed u = 2 m/s relative to the plank:\n Conservation of horizontal momentum: m v_0 + (m/2)(v_0 + u) = 0 => v_0 = -u/3 = -2/3 m/s.\n Thus v_0^2 = 4/9 (m/s)^2.\n\nStep 2: Dynamics of the plank-insect system under external forces:\n Net external horizontal force: F_ext = F_1 - F_2 = (F + kx) - (F - kx) = 2kx.\n Since the insect maintains constant relative velocity u, a_insect = a_plank = a.\n Total mass accelerating is M_sys = m + m/2 = (3/2)m.\n Equation of motion: (3/2) m a = 2kx => (3/2) m v (dv/dx) = 2kx => 3m v dv = 4kx dx.\n\nStep 3: Integrate over displacement x = 0 to $x = l/2:\n (3/2) m (v^2 - v_0^2) = \\int_0^{l/2} 2$kx dx = k (l/2)^2 = k l^2 / 4.\n v^2 - v_0^2 = (k l^2) / (3m).\n\nStep 4: Substitute given values (l = 1 m, k/m = 32/3):\n (k l^2) / (3m) = (1/3) (32/3) (1)^2 = 32/9.\n v^2 = v_0^2 + 32/9 = 4/9 + 32/9 = 36/9 = 4.\n v = sqrt(4) = 2 m/s.\nFinal Answer: 2",
+    "solution": "Step 1: Recoil velocity due to insect motion:\n When the insect of mass m/2 starts moving with speed u = 2 m/s relative to the plank:\n Conservation of horizontal momentum: m v_0 + (m/2)(v_0 + u) = 0 => v_0 = -u/3 = -2/3 m/s.\n Thus v_0^2 = 4/9 (m/s)^2.\n\nStep 2: Dynamics of the plank-insect system under external forces:\n Net external horizontal force: F_ext = F_1 - F_2 = (F + kx) - (F - kx) = 2kx.\n Since the insect maintains constant relative velocity u, a_insect = a_plank = a.\n Total mass accelerating is M_sys = m + m/2 = (3/2)m.\n Equation of motion: (3/2) m a = 2kx => (3/2) m v (dv/dx) = 2kx => 3m v dv = 4kx dx.\n\nStep 3: Integrate over displacement x = 0 to $x = l/2$:\n $(3/4) m (v^2 - v_0^2) = \\int_0^{l/2} 2kx dx = k (l/2)^2 = k l^2 / 4$.\n v^2 - v_0^2 = (k l^2) / (3m).\n\nStep 4: Substitute given values (l = 1 m, k/m = 32/3):\n (k l^2) / (3m) = (1/3) (32/3) (1)^2 = 32/9.\n v^2 = v_0^2 + 32/9 = 4/9 + 32/9 = 36/9 = 4.\n v = sqrt(4) = 2 m/s.\nFinal Answer: 2",
     "answerVerified": false,
     "answerSourceVerified": false,
     "answerSource": "Transcribed from the paper (key model-checked, not owner-verified)",
@@ -1285,7 +1285,7 @@
      "None of them precipitate under the given conditions.",
      "Ag_2S precipitates at a sulphide concentration of 1 × 10^{-15} M."
     ],
-    "answer": "1",
+    "answer": "2",
     "maxMarks": 3,
     "negativeMarks": 1,
     "solution": "Step 1: Calculate free metal ion concentrations in 0.2 M CN^-:\n • For silver: [Ag^+] = K_{inst} [[Ag(CN)_2]^-] / [CN^-]^2 = (10^{-20})(0.02) / (0.2)^2 = 5 × 10^{-21} M.\n • For cadmium: [Cd^{2+}] = K_{inst} [[Cd(CN)_4]^{2-}] / [CN^-]^4 = (7.8 × 10^{-18})(0.02) / (0.2)^4 = 9.75 × 10^{-17} M.\n\nStep 2: Required [S^{2-}] for initial precipitation:\n • For Ag_2S: [S^{2-}]_{req} = K_{sp} / [Ag^+]^2 = 10^{-50} / (5 × 10^{-21})^2 = 4 × 10^{-10} M.\n • For CdS: [S^{2-}]_{req} = K_{sp} / [Cd^{2+}] = 7.1 × 10^{-28} / (9.75 × 10^{-17}) ≈ 7.3 × 10^{-12} M.\n Since [S^{2-}]_{req} for Ag_2S is easily exceeded by the bubbling of H_2S (10^{-9} M), Ag_2S precipitates.\nFinal Answer: (A)",
