@@ -1,5 +1,15 @@
 /* Case-preserving offline cache for Paperplane; localhost bypasses cache to avoid stale development files. */
+// Deliberately stable: this name is no longer bumped per release. The library
+// below is 79 MB, so renaming the cache would make every returning visitor
+// re-download all of it. Freshness comes from the install handler re-fetching
+// the shell, and from SHELL_VERSION, which is what tells browsers to install
+// this worker again in the first place.
 const CACHE_NAME = "paperplane-offline-20261015-v35";
+// Rewritten at deploy time with a hash of the app shell (see ~/cf/stage.py).
+// A browser installs a new worker only when sw.js differs byte for byte, so
+// without this a release that changed only the shell left this file identical,
+// the old worker stayed, and it kept serving the shell it had precached.
+const SHELL_VERSION = "dev";
 const PRECACHE_URLS = [
   "/",
   "/assets/editor-DDw7ArtJ.css",
@@ -593,10 +603,34 @@ self.addEventListener("install", event => {
       return;
     }
     const cache = await caches.open(CACHE_NAME);
+
+    // Drop whatever this deploy no longer ships -- a bundle from an older
+    // build, say. Local work only, nothing is downloaded.
+    const keep = new Set(PRECACHE_URLS);
+    for (const request of await cache.keys()) {
+      if (!keep.has(new URL(request.url).pathname)) await cache.delete(request);
+    }
+
+    // The shell is the one entry that must never be stale, and it is a few KB,
+    // so it is re-fetched on every install. Everything else is 79 MB of papers
+    // and figures at immutable URLs, so whatever is already cached is kept
+    // instead of being downloaded again.
+    await cache.delete("/");
+    const missed = [];
     for (const url of PRECACHE_URLS) {
+      if (await cache.match(url)) continue;
       const response = await fetch(url, { cache: "reload" });
-      if (!response.ok) throw new Error(`Failed to cache ${url}: ${response.status}`);
+      if (!response.ok) {
+        missed.push(url);
+        continue;
+      }
       await cache.put(url, response);
+    }
+    // One missing file must not abort the install. Throwing here used to leave
+    // the previous worker installed for good -- the deploy went unseen and only
+    // a private window, with no worker yet, showed the new build.
+    if (missed.length) {
+      console.warn(`Precache missed ${missed.length} of ${PRECACHE_URLS.length}`, missed);
     }
     await self.skipWaiting();
   })());
@@ -625,8 +659,13 @@ self.addEventListener("fetch", event => {
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
     const cached = await cache.match(request, { ignoreSearch: true, ignoreVary: true });
+    // A navigation must never be answered out of the HTTP cache: index.html is
+    // what points at the current bundle, so a stale copy of it is exactly what
+    // hides a deploy from someone who reloads. The Cache Storage copy above
+    // stays, but only as the offline fallback.
+    const options = request.mode === "navigate" ? { cache: "no-store" } : undefined;
     try {
-      const response = await fetch(request);
+      const response = await fetch(request, options);
       if (response.ok) await cache.put(request, response.clone());
       return response;
     } catch (error) {

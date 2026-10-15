@@ -473,5 +473,55 @@
     });
   })();
 </script>
+
+<script>
+  // Keep the installed app from pinning an old build. A worker is replaced only
+  // when sw.js itself changes; a browser checks for that on navigation but
+  // installs the replacement in the background, so the page on screen was still
+  // served by the old one and picking up a deploy took two reloads -- which is
+  // why a private window, with no worker yet, looked like the only thing that
+  // worked. Force the check on every load and reload once when a new worker
+  // takes over, but never in the middle of an attempt.
+  (function () {
+    if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
+
+    var TEST_MAX = 3 * 60 * 60 * 1000; // the app's own longest test window
+    function testInProgress() {
+      try {
+        for (var i = 0; i < localStorage.length; i++) {
+          var k = localStorage.key(i);
+          if (!/^paperplane-.+-v1$/.test(k)) continue;
+          var s = JSON.parse(localStorage.getItem(k));
+          if (!s || !(s.startedAt > 0) || s.submittedAt) continue;
+          if (Date.now() < s.startedAt + TEST_MAX) return true;
+        }
+      } catch (_) {}
+      return false;
+    }
+
+    var controlled = !!navigator.serviceWorker.controller;
+    var reloaded = false;
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      // The first worker to claim an uncontrolled page changes nothing that is
+      // already on screen, so there is nothing to reload for.
+      if (!controlled) {
+        controlled = true;
+        return;
+      }
+      if (reloaded || testInProgress()) return;
+      reloaded = true;
+      window.location.reload();
+    });
+
+    // updateViaCache "none" keeps the worker script itself out of the HTTP
+    // cache, and update() asks for the check now rather than at the next visit.
+    navigator.serviceWorker
+      .register("/sw.js", { updateViaCache: "none" })
+      .then(function (reg) {
+        return reg.update();
+      })
+      .catch(function () {});
+  })();
+</script>
 </body>
 </html>
