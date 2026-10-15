@@ -191,6 +191,14 @@
     border-color: rgba(125, 211, 252, 0.8);
     color: #fff;
   }
+  #tg-modal .tg-handle.tg-alert {
+    padding: 10px 12px;
+    border: 1px solid rgba(125, 211, 252, 0.35);
+    border-radius: 12px;
+    background: rgba(125, 211, 252, 0.08);
+    color: #dbeafe;
+    font-size: 13px;
+  }
   #tg-modal .tg-cta {
     display: flex;
     align-items: center;
@@ -337,29 +345,73 @@
       modal.focus();
     }, 1200);
 
-    // Indian mobile networks commonly poison DNS for t.me, so a plain link to it
-    // lands on a black hole and the browser just shows a blank page. The Telegram
-    // app reaches its own servers directly and is unaffected, so open the app
-    // scheme first and fall back to the web link only if the app never takes over.
-    var WEB = "https://t.me/testseries8";
+    // Indian networks poison DNS for t.me, so a browser link to it lands on a black
+    // hole and the page goes blank. Telegram's own hosts are not blocked, so hand
+    // off to the installed app instead of the browser.
+    //
+    // Three rules learned the hard way:
+    //   1. Android needs an intent:// URL -- setting location.href to "tg://" is
+    //      frequently ignored by Chrome, which is why the first attempt did nothing.
+    //   2. Never fall back to the t.me URL on a phone. It is the one address these
+    //      networks block, so falling back reproduces the exact blank page we are
+    //      fixing. If the app does not open, say so on the page instead.
+    //   3. On PC and Mac, Telegram Desktop registers tg:// too, so the same hand-off
+    //      works; there the web preview is a fine fallback, because the block is
+    //      DNS-only and desktop resolvers generally are not poisoned.
+    var USER = "testseries8";
+    var WEB = "https://t.me/" + USER;
+
     function openChannel(e) {
       if (e && e.preventDefault) e.preventDefault();
-      close();
-      var timer = window.setTimeout(function () {
-        if (!document.hidden) window.location.href = WEB;
-      }, 1200);
-      function cancel() {
-        window.clearTimeout(timer);
+      var ua = navigator.userAgent || "";
+      var mobile = /Android|iPhone|iPad|iPod/i.test(ua);
+
+      if (/Android/i.test(ua)) {
+        // Chrome launches the package itself; no browser_fallback_url, because the
+        // only URL we could offer is the blocked one.
+        window.location.href =
+          "intent://resolve?domain=" + USER +
+          "#Intent;scheme=tg;package=org.telegram.messenger;end";
+      } else {
+        // Telegram Desktop (Windows/macOS) and every iOS client handle tg://.
+        window.location.href = "tg://resolve?domain=" + USER;
       }
-      window.addEventListener("pagehide", cancel, { once: true });
+
+      var settled = false;
+      function tookOver() {
+        settled = true;
+        close();
+      }
+      window.addEventListener("pagehide", tookOver, { once: true });
       document.addEventListener(
         "visibilitychange",
         function () {
-          if (document.hidden) cancel();
+          if (document.hidden) tookOver();
         },
         { once: true }
       );
-      window.location.href = "tg://resolve?domain=testseries8";
+      // A desktop browser asks permission before opening an external app, which
+      // takes focus off the page. Treat that as the app handling it, so we do not
+      // also fire a browser navigation behind the permission prompt.
+      window.addEventListener("blur", tookOver, { once: true });
+
+      window.setTimeout(
+        function () {
+          if (settled || document.hidden) return; // the app took it
+          if (mobile) {
+            // Never send a phone to the address these networks block; explain the
+            // way in, on the page, instead.
+            var hint = backdrop.querySelector(".tg-handle");
+            if (hint) hint.classList.add("tg-alert");
+            var cb = backdrop.querySelector(".tg-copy");
+            if (cb) cb.focus();
+            return;
+          }
+          close();
+          window.location.href = WEB; // desktop: the web preview
+        },
+        mobile ? 1500 : 2500
+      );
     }
 
     backdrop.querySelector(".tg-close").addEventListener("click", close);
