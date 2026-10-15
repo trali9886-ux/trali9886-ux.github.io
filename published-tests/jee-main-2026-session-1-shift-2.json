@@ -1679,7 +1679,7 @@
         "section": "MCQ",
         "text": "Let $a_1, \\frac{a_2}{2}, \\frac{a_3}{2^2}, \\dots, \\frac{a_{10}}{2^9}$ be a G.P. of common ratio $\\frac{1}{\\sqrt{2}}$. If $a_1 + a_2 + \\dots + a_{10} = 62$, then $a_1$ is equal to :",
         "answer": "1",
-        "solution": "Ans. (1)\nSol. $\\frac{\\mathrm{a}_2}{2\\mathrm{a}_1}=\\frac{\\mathrm{a}_3}{2\\mathrm{a}_2}=\\frac{\\mathrm{a}_4}{2\\mathrm{a}_3}=\\ldots.=\\frac{\\mathrm{a}_{10}}{2\\mathrm{a}_9}=\\frac{1}{\\sqrt{2}}\n\\therefore \\mathrm{a}_1, \\mathrm{a}_2, \\mathrm{a}_3,..,\\mathrm{a}_{10}$ are in G.P. with common ratio $\\sqrt{2}$.\n$\\sum_{\\mathrm{i}=1}^{10}\\mathrm{a}_{\\mathrm{i}}=\\frac{\\mathrm{a}_1\\left((\\sqrt{2})^{10}-1\\right)}{\\sqrt{2}-1}=62\n\\Rightarrow \\mathrm{a}_1=2(\\sqrt{2}-1)$",
+        "solution": "Ans. $(1)$\nSol. $\\frac{\\mathrm{a}_2}{2\\mathrm{a}_1}=\\frac{\\mathrm{a}_3}{2\\mathrm{a}_2}=\\frac{\\mathrm{a}_4}{2\\mathrm{a}_3}=\\ldots.=\\frac{\\mathrm{a}_{10}}{2\\mathrm{a}_9}=\\frac{1}{\\sqrt{2}}$\n$\\therefore \\mathrm{a}_1, \\mathrm{a}_2, \\mathrm{a}_3,..,\\mathrm{a}_{10}$ are in $G.P$. with common ratio $\\sqrt{2}$.\n$\\sum_{\\mathrm{i}=1}^{10}\\mathrm{a}_{\\mathrm{i}}=\\frac{\\mathrm{a}_1\\left((\\sqrt{2})^{10}-1\\right)}{\\sqrt{2}-1}=62$\n$\\Rightarrow \\mathrm{a}_1=2(\\sqrt{2}-1)$",
         "image": "",
         "maxMarks": 4,
         "negativeMarks": 1,

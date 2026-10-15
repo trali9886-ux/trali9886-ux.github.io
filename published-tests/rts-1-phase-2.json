@@ -911,10 +911,10 @@
         "section": "MCQ",
         "text": "Match the average molar masses in Column I with the corresponding gas-mixture descriptions in Column II.<br><br><table><tr><th colspan=\"2\">Column I<br>(Value)</th><th colspan=\"2\">Column II<br>(Mixture specification)</th></tr><tr><td>A</td><td>32</td><td>P</td><td>$\\text{CO}_2$ and $\\text{O}_2$ mixed in a $1:1$ mass ratio</td></tr><tr><td>B</td><td>$704/19$</td><td>Q</td><td>Equimolar $\\text{NH}_3$ and $\\text{N}_2\\text{H}_4$</td></tr><tr><td>C</td><td>40</td><td>R</td><td>$\\text{CO}$ and $\\text{CO}_2$ with total $\\text{O:C}$ atom ratio $= 5:4$</td></tr><tr><td>D</td><td>$49/2$</td><td>S</td><td>$\\text{O}_2/\\text{O}_3$ mixture having vapour density $20$</td></tr></table>",
         "options": [
-          "A \nightarrow P; B \nightarrow R; C \nightarrow Q; D \nightarrow S",
-          "A \nightarrow Q; B \nightarrow P; C \nightarrow R; D \nightarrow S",
-          "A \nightarrow R; B \nightarrow P; C \nightarrow S; D \nightarrow Q",
-          "A \nightarrow S; B \nightarrow Q; C \nightarrow P; D \nightarrow R"
+          "A → P; B → R; C → Q; D → S",
+          "A → Q; B → P; C → R; D → S",
+          "A → R; B → P; C → S; D → Q",
+          "A → S; B → Q; C → P; D → R"
         ],
         "answer": "3",
         "solution": "<b>Ans. (3)</b>\n<b>Sol.</b> P: For equal masses $w$ of $\\text{CO}_2$ and $\\text{O}_2$, average molar mass $= \\frac{2w}{w/44 + w/32} = \\frac{2 \\times 44 \\times 32}{44 + 32} = \\frac{704}{19}$.\nQ: Equimolar $\\text{NH}_3$ and $\\text{N}_2\\text{H}_4$ give average molar mass $= \\frac{17 + 32}{2} = \\frac{49}{2}$.\nR: Let moles of CO and $\\text{CO}_2$ be $a$ and $b$. $\\frac{a + 2b}{a + b} = \\frac{5}{4}$ gives $a = 3b$. Hence average molar mass $= \\frac{3 \\times 28 + 44}{4} = 32$.\nS: Vapour density 20 corresponds to average molar mass $2 \\times 20 = 40$.\nThus A→R, B→P, C→S, D→Q.",
@@ -1055,10 +1055,10 @@
         "section": "MCQ",
         "text": "Match the column (I) with column (II).<br><br><table><tr><td colspan=\"2\">Column I<br>(Solution)</td><td colspan=\"2\">Column II<br>(Required<br>volume)</td></tr><tr><td>A</td><td>$100\\text{ mL of } 0.20\\text{ M } \\text{H}_2\\text{C}_2\\text{O}_4$</td><td>P</td><td>$80\\text{ mL of }<br>0.25\\text{ M NaOH}$</td></tr><tr><td>B</td><td>$100\\text{ mL of } 0.20\\text{ M } \\text{NaHC}_2\\text{O}_4$</td><td>Q</td><td>$100\\text{ mL of }<br>0.25\\text{ M NaOH}$</td></tr><tr><td>C</td><td>$100\\text{ mL of } 0.10\\text{ M }<br>\\text{KHC}_2\\text{O}_4 \\cdot \\text{H}_2\\text{C}_2\\text{O}_4$</td><td>R</td><td>$120\\text{ mL of }<br>0.25\\text{ M NaOH}$</td></tr><tr><td>D</td><td>$100\\text{ mL containing } 0.10\\text{ M }<br>\\text{H}_2\\text{C}_2\\text{O}_4 + 0.05\\text{ M } \\text{NaHC}_2\\text{O}_4$</td><td>S</td><td>$160\\text{ mL of }<br>0.25\\text{ M NaOH}$</td></tr></table>",
         "options": [
-          "A \nightarrow S;\\ B \nightarrow P;\\ C \nightarrow Q;\\ D \nightarrow R",
-          "A \nightarrow R;\\ B \nightarrow P;\\ C \nightarrow S;\\ D \nightarrow Q",
-          "A \nightarrow S;\\ B \nightarrow Q;\\ C \nightarrow R;\\ D \nightarrow P",
-          "A \nightarrow S;\\ B \nightarrow P;\\ C \nightarrow R;\\ D \nightarrow Q"
+          "A → S; B → P; C → Q; D → R",
+          "A → R; B → P; C → S; D → Q",
+          "A → S; B → Q; C → R; D → P",
+          "A → S; B → P; C → R; D → Q"
         ],
         "answer": "4",
         "solution": "<b>Ans. (4)</b>\n<b>Sol.</b> A: acid equivalents $= 0.100 \\times 0.20 \\times 2 = 0.040$ eq, requiring $0.040/0.25 = 0.160\\text{ L} = 160\\text{ mL NaOH}$ (S).\nB: acid equivalents $= 0.100 \\times 0.20 \\times 1 = 0.020$ eq $\\rightarrow 80\\text{ mL NaOH}$ (P).\nC: each formula unit $\\text{KHC}_2\\text{O}_4 \\cdot \\text{H}_2\\text{C}_2\\text{O}_4$ supplies 3 acid equivalents (R).\nD: acid eq $= 0.100[(0.10 \\times 2) + (0.05 \\times 1)] = 0.025 \\rightarrow 100\\text{ mL NaOH}$ (Q).",
@@ -1479,7 +1479,7 @@
         "subject": "Mathematics",
         "type": "mcq",
         "section": "MCQ",
-        "text": "Let $X = \\{1, 2, \\dots, 120\\}$. Define\n$A = \\{n \\in X : 4 \\text{ divides } n\\}$ and $B = \\{n \\in X: 6\n\\text{ divides } n \\text{ but } 5 \\text{ does not divide } n\\}$. The smallest\nsubset of $X$ containing both $A$ and $B$ has how\nmany elements?",
+        "text": "Let $X = \\{1, 2, \\dots, 120\\}$. Define\n$A = \\{n \\in X : 4 \\text{ divides } n\\}$ and $B = \\{n \\in X: 6$\n$\\text{ divides } n \\text{ but } 5 \\text{ does not divide } n\\}$. The smallest\nsubset of $X$ containing both $A$ and $B$ has how\nmany elements$?$",
         "options": [
           "36",
           "38",
