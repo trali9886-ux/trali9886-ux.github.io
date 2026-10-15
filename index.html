@@ -35,6 +35,174 @@
   <link rel="stylesheet" crossorigin href="/assets/main-ctlyvgvp.css">
   <link rel="stylesheet" href="/assets/math-rendering.css">
   <link rel="stylesheet" href="/assets/quizrr-results.css">
+<style>
+  #tg-notice,
+  #tg-fab {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 40;
+    box-sizing: border-box;
+    font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  }
+  #tg-notice[hidden],
+  #tg-fab[hidden] {
+    display: none;
+  }
+  #tg-notice {
+    width: min(330px, calc(100vw - 40px));
+    font-size: 14px;
+    line-height: 1.45;
+    color: #293c37;
+    background: #fff;
+    border: 1px solid #e6e9e1;
+    border-radius: 14px;
+    box-shadow: 0 12px 32px rgba(28, 88, 72, 0.16);
+    padding: 16px;
+  }
+  #tg-notice h2 {
+    margin: 0 0 4px;
+    padding-right: 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1c5848;
+  }
+  #tg-notice p {
+    margin: 0 0 12px;
+    color: #8a918b;
+  }
+  #tg-notice a.tg-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #246b58;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  #tg-notice a.tg-join:hover {
+    background: #1c5848;
+  }
+  #tg-notice .tg-x {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #8a918b;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  #tg-notice .tg-x:hover {
+    background: #f6f7f3;
+    color: #293c37;
+  }
+  #tg-notice svg {
+    width: 18px;
+    height: 18px;
+    flex: none;
+  }
+  #tg-fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #246b58;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(28, 88, 72, 0.3);
+  }
+  #tg-fab:hover {
+    background: #1c5848;
+  }
+  #tg-fab svg {
+    width: 22px;
+    height: 22px;
+  }
+  @media (max-width: 600px) {
+    /* The app pins a full-width question-palette bar to the bottom of the
+       viewport during a test (.mobile-palette-trigger, ~50px tall). Sit above
+       it rather than on top of it. */
+    #tg-notice {
+      left: 12px;
+      right: 12px;
+      bottom: calc(64px + env(safe-area-inset-bottom));
+      width: auto;
+    }
+    #tg-fab {
+      right: 12px;
+      bottom: calc(64px + env(safe-area-inset-bottom));
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    #tg-notice {
+      animation: tg-notice-in 0.3s ease-out both;
+    }
+    @keyframes tg-notice-in {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+</style>
 </head>
-<body><div id="root"></div></body>
+<body>
+<div id="root"></div>
+
+<!-- Telegram channel: the one contact that survives the domain. Kept outside
+     #root so the app's createRoot() render never wipes it. -->
+<aside id="tg-notice" aria-label="Join our Telegram channel">
+  <button class="tg-x" type="button" aria-label="Dismiss this notice">&#215;</button>
+  <h2>Join our Telegram channel</h2>
+  <p>New tests and updates are posted there first. If this site is ever down or unavailable, that is where we will tell you what is happening.</p>
+  <a class="tg-join" href="https://t.me/testseries8" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
+    Join @testseries8
+  </a>
+</aside>
+
+<a id="tg-fab" href="https://t.me/testseries8" target="_blank" rel="noopener noreferrer" aria-label="Join our Telegram channel" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
+</a>
+
+<script>
+  // Dismissing collapses the card to the small button rather than removing the
+  // channel outright: the point of the notice is that it stays reachable later.
+  (function () {
+    var KEY = "paperplane-tg-dismissed";
+    var notice = document.getElementById("tg-notice");
+    var fab = document.getElementById("tg-fab");
+    var dismissed = false;
+    try {
+      dismissed = localStorage.getItem(KEY) === "1";
+    } catch (_) {}
+    if (dismissed) {
+      notice.hidden = true;
+      fab.hidden = false;
+    }
+    notice.querySelector(".tg-x").addEventListener("click", function () {
+      notice.hidden = true;
+      fab.hidden = false;
+      try {
+        localStorage.setItem(KEY, "1");
+      } catch (_) {}
+    });
+  })();
+</script>
+</body>
 </html>
