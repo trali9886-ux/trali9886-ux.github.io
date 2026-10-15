@@ -112,15 +112,14 @@
     height: 84px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background: linear-gradient(150deg, #37bbfe, #007dbb);
+    background: linear-gradient(150deg, #25d366, #128c7e);
     box-shadow:
-      0 0 0 10px rgba(42, 171, 238, 0.12),
-      0 0 44px rgba(42, 171, 238, 0.55);
+      0 0 0 10px rgba(37, 211, 102, 0.12),
+      0 0 44px rgba(37, 211, 102, 0.5);
   }
   #tg-modal .tg-ico svg {
     width: 42px;
     height: 42px;
-    margin-left: 3px;
     color: #fff;
   }
   #tg-modal .tg-eyebrow {
@@ -199,27 +198,48 @@
     color: #dbeafe;
     font-size: 13px;
   }
-  #tg-modal .tg-cta {
+  #tg-modal .tg-cta,
+  #tg-modal .tg-wa {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 16px;
     border-radius: 14px;
-    background: linear-gradient(135deg, #37bbfe, #007dbb);
     color: #fff;
-    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    box-shadow: 0 10px 26px rgba(42, 171, 238, 0.36);
   }
-  #tg-modal .tg-cta:hover {
-    background: linear-gradient(135deg, #4cc6ff, #0089cc);
-  }
-  #tg-modal .tg-cta svg {
+  #tg-modal .tg-cta svg,
+  #tg-modal .tg-wa svg {
     width: 20px;
     height: 20px;
     flex: none;
+  }
+  /* WhatsApp takes the filled button. It is the channel that works on every
+     network here: Indian ISPs poison t.me, so the Telegram link has to hand off
+     to the app and still fails when it is not installed. */
+  #tg-modal .tg-wa {
+    padding: 16px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    box-shadow: 0 10px 26px rgba(37, 211, 102, 0.34);
+  }
+  #tg-modal .tg-wa:hover {
+    background: linear-gradient(135deg, #38e07b, #14967f);
+  }
+  /* Telegram stays, as the quieter second option. */
+  #tg-modal .tg-cta {
+    margin-top: 10px;
+    padding: 13px;
+    border: 1px solid rgba(125, 211, 252, 0.45);
+    background: transparent;
+    color: #cfe9ff;
+    font-size: 14px;
+  }
+  #tg-modal .tg-cta:hover {
+    border-color: rgba(125, 211, 252, 0.85);
+    background: rgba(125, 211, 252, 0.08);
+    color: #fff;
   }
   #tg-fab {
     position: fixed;
@@ -232,15 +252,14 @@
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: linear-gradient(150deg, #37bbfe, #007dbb);
+    background: linear-gradient(150deg, #25d366, #128c7e);
     color: #fff;
     text-decoration: none;
-    box-shadow: 0 8px 24px rgba(42, 171, 238, 0.42);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.42);
   }
   #tg-fab svg {
     width: 22px;
     height: 22px;
-    margin-left: 2px;
   }
   @media (max-width: 600px) {
     /* The app pins a full-width question-palette bar to the bottom of the
@@ -267,21 +286,25 @@
 <div id="tg-backdrop" hidden>
   <div id="tg-modal" role="dialog" aria-modal="true" aria-labelledby="tg-modal-title" tabindex="-1">
     <button class="tg-close" type="button" aria-label="Close">&#215;</button>
-    <div class="tg-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></div>
+    <div class="tg-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01c-1.52 0-3.02-.41-4.32-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.22 8.22 0 0 1-1.26-4.37c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.17-.47-.29Z"/></svg></div>
     <p class="tg-eyebrow">Join our community</p>
     <h2 id="tg-modal-title">Never miss a new test 🔥</h2>
-    <p class="tg-body">New tests and updates are posted on Telegram first. If this site is ever <strong>down or unavailable</strong>, that is where we will tell you what is happening.</p>
+    <p class="tg-body">New tests and updates are posted on our channels first. If this site is ever <strong>down or unavailable</strong>, that is where we will tell you what is happening.</p>
     <button class="tg-later" type="button">Maybe later</button>
+    <a class="tg-wa" href="https://whatsapp.com/channel/0029Vb91O0dLI8YTTtQ3gr1o" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01c-1.52 0-3.02-.41-4.32-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.22 8.22 0 0 1-1.26-4.37c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.17-.47-.29Z"/></svg>
+      Join WhatsApp Channel
+    </a>
     <a class="tg-cta" href="https://t.me/testseries8" target="_blank" rel="noopener noreferrer">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
       Join Telegram Channel
     </a>
-    <p class="tg-handle">Link not opening? Search <strong>@testseries8</strong> in the Telegram app <button class="tg-copy" type="button">Copy</button></p>
+    <p class="tg-handle">Telegram link not opening? Search <strong>@testseries8</strong> in the Telegram app <button class="tg-copy" type="button">Copy</button></p>
   </div>
 </div>
 
-<a id="tg-fab" href="https://t.me/testseries8" target="_blank" rel="noopener noreferrer" aria-label="Join our Telegram channel">
-  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+<a id="tg-fab" href="https://whatsapp.com/channel/0029Vb91O0dLI8YTTtQ3gr1o" target="_blank" rel="noopener noreferrer" aria-label="Join our WhatsApp channel">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01c-1.52 0-3.02-.41-4.32-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.22 8.22 0 0 1-1.26-4.37c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.17-.47-.29Z"/></svg>
 </a>
 
 <script>
@@ -417,8 +440,16 @@
     backdrop.querySelector(".tg-close").addEventListener("click", close);
     backdrop.querySelector(".tg-later").addEventListener("click", close);
     backdrop.querySelector(".tg-cta").addEventListener("click", openChannel);
-    var fab = document.getElementById("tg-fab");
-    if (fab) fab.addEventListener("click", openChannel);
+    // WhatsApp needs no hand-off: whatsapp.com resolves everywhere here, unlike
+    // t.me, so it opens in a new tab and all that is left to do is retire the
+    // notice. The floating button is a plain link for the same reason, which is
+    // why it gets no listener.
+    var wa = backdrop.querySelector(".tg-wa");
+    if (wa) {
+      wa.addEventListener("click", function () {
+        close();
+      });
+    }
 
     // The handle is the only route that works when the app is absent and the
     // network blocks t.me, so make it easy to carry into the app.
