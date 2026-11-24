@@ -18,7 +18,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 86px;
+  scroll-padding-top: 76px;
 }
 
 body {
@@ -28,6 +28,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   overflow-x: hidden;
+  overflow-x: clip;
   position: relative;
 }
 
@@ -1709,6 +1710,12 @@ button, a {
   transition-delay: 0.3s;
 }
 
+.feature-card.is-visible:hover,
+.series-card.is-visible:hover,
+.step.is-visible:hover {
+  transition-delay: 0s;
+}
+
 .hero-in {
   animation: hero-enter 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
@@ -1753,7 +1760,7 @@ button, a {
   }
   .hero-art {
     height: 390px;
-    transform: scale(0.93);
+    scale: 0.93;
   }
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1778,6 +1785,9 @@ button, a {
 
 /* Mobile viewports (matches user screenshot) */
 @media (max-width: 680px) {
+  html {
+    scroll-padding-top: 66px;
+  }
   .page-wrap {
     width: min(calc(100% - 36px), 520px);
   }

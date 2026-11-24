@@ -72,6 +72,7 @@
     let rafId = null;
 
     const onPointerMove = (e) => {
+      if (e.touches && !e.touches.length) return;
       const rect = hero.getBoundingClientRect();
       const clientX = e.touches ? e.touches[0].clientX : e.clientX;
       const clientY = e.touches ? e.touches[0].clientY : e.clientY;
@@ -87,6 +88,7 @@
       mouseX = 0;
       mouseY = 0;
       isInteracting = false;
+      if (!rafId) rafId = requestAnimationFrame(animateDeck);
     };
 
     const animateDeck = () => {
@@ -110,15 +112,17 @@
         spark.style.transform = `translate3d(${currentX * factor}px, ${currentY * factor}px, 0)`;
       });
 
-      if (Math.abs(mouseX - currentX) > 0.001 || Math.abs(mouseY - currentY) > 0.001 || isInteracting) {
+      if (Math.abs(mouseX - currentX) > 0.001 || Math.abs(mouseY - currentY) > 0.001) {
         rafId = requestAnimationFrame(animateDeck);
       } else {
         rafId = null;
-        if (paper) paper.style.transform = '';
-        if (score) score.style.transform = '';
-        if (timer) timer.style.transform = '';
-        if (subject) subject.style.transform = '';
-        sparks.forEach(s => s.style.transform = '');
+        if (!isInteracting) {
+          if (paper) paper.style.transform = '';
+          if (score) score.style.transform = '';
+          if (timer) timer.style.transform = '';
+          if (subject) subject.style.transform = '';
+          sparks.forEach(s => s.style.transform = '');
+        }
       }
     };
 
@@ -203,8 +207,8 @@
       const totalQuestions = tests.reduce((sum, test) => sum + (Number(test.questions) || 0), 0);
       const count = document.getElementById('live-test-count');
       const questions = document.getElementById('live-question-count');
-      if (count) count.textContent = String((Number(count.textContent) || 0) + tests.length);
-      if (questions) questions.textContent = String((Number(questions.textContent) || 0) + totalQuestions);
+      if (count) count.textContent = String(tests.length);
+      if (questions) questions.textContent = String(totalQuestions);
 
       root.innerHTML = '<h3 class="published-heading">Newly published tests</h3><div class="published-cards"></div>';
       const cards = root.querySelector('.published-cards');
